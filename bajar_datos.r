@@ -12,6 +12,11 @@ precio <- function(texto) gsub(",", ".", gsub("[^0-9,]+", "", texto)) %>% as.num
 id     <- function(texto) gsub(".*ids/([0-9]+).*", "\\1", texto)
 is.error <- function(x) inherits(x, "try-error")
 
+incluir  <- function(clasificacion) clasificacion  %in% list("Almacén", "Bebidas", "Carnes", "Congelados", "Frutas y Verduras", "Lácteos", "Limpieza", "Panadería y Repostería",  "Perfumería", "Quesos y Fiambres")  
+
+imagen.file <- function(imagen) paste0("fotos/",imagen,".jpg")
+imagen.url  <- function(imagen, tamaño=256) paste0("https://jumboargentina.vteximg.com.br/arquivos/ids/",imagen,"-", tamaño,"-",tamaño)
+
 extraer.pagina <- function(nodo) nodo %>% html_nodes('.product-item__name a') %>% html_text()
 extraer.marca  <- function(nodo) nodo %>% html_nodes('.product-item__brand') %>% html_text()
 extraer.precio <- function(nodo) nodo %>% html_nodes('.product-prices__value--best-price') %>% html_text() %>% precio()
@@ -98,14 +103,32 @@ bajar.catalogo <- function(clasificacion) {
   return(catalogo)
 }
 
+bajar.imagenes <- function(catalogo) {
+  print("BAJANDO IMAGENES")
+  # for(c in 1:nrow(catalogo)){
+  for(c in 1:5){
+    id <- catalogo[c,]$imagen
+    origen  = imagen.url(id)
+    destino = imagen.file(id)
+    if(!file.exists(destino)){
+      try(download.file(origen , destino))
+    }
+  }
+  print("IMAGENES BAJADAS")
+}
+
 #setwd("GitHub/catalogo")
 # 
 # 
-clasificacion <- bajar.clasificacion()
-write.csv2(clasificacion, "clasificacion.csv")
+# clasificacion <- bajar.clasificacion()
+# write.csv2(clasificacion, "clasificacion.csv")
+# 
+# # clasificacion = read.csv2("clasificacion.csv")
+# clasificacion <- clasificacion %>% filter(categoria != "Panaderia")
+# 
+# catalogo <- bajar.catalogo(clasificacion)
+#   # View(catalogo)
 
-# clasificacion = read.csv2("clasificacion.csv")
-clasificacion <- clasificacion %>% filter(categoria != "Panaderia")
-
-catalogo <- bajar.catalogo(clasificacion)
-  # View(catalogo)
+catalogo <- read.csv2("catalogo.csv") 
+catalogo <- catalogo %>% incluir( departamento )
+bajar.imagenes(catalogo)
