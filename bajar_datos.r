@@ -16,6 +16,7 @@ incluir  <- function(clasificacion) clasificacion  %in% list("Almacén", "Bebidas
 
 imagen.file <- function(imagen) paste0("fotos/",imagen,".jpg")
 imagen.url  <- function(imagen, tamaño=512) paste0("https://jumboargentina.vteximg.com.br/arquivos/ids/",imagen,"-", tamaño,"-",tamaño)
+imagen.existe <- function(imagen) file.exists(imagen.file(imagen))
 
 extraer.pagina <- function(nodo) nodo %>% html_nodes('.product-item__name a') %>% html_text()
 extraer.marca  <- function(nodo) nodo %>% html_nodes('.product-item__brand') %>% html_text()
@@ -23,7 +24,7 @@ extraer.precio <- function(nodo) nodo %>% html_nodes('.product-prices__value--be
 extraer.pagina <- function(nodo) nodo %>% html_nodes('.product-item__name a') %>% html_attr("href") %>% pagina()
 extraer.imagen <- function(nodo) nodo %>% html_nodes('.product-item__image-link img') %>% html_attr("src") %>% id()
 
-bajar.clasificacion <- function() {
+clasificacion.bajar <- function() {
   print("BAJANDO CLASIFICACION")
   
   departamentos <- fromJSON('https://www.jumbo.com.ar/api/catalog_system/pub/category/tree/3') %>% filter(hasChildren) %>% arrange(name)
@@ -64,7 +65,20 @@ bajar.clasificacion <- function() {
   return(clasificacion)
 }
 
-bajar.producto <- function(url, departamento = "", categoria = "", subcategoria = "") {
+clasificacion.escribir <- function(clasificacion) {
+  write.csv2(clasificacion, "clasificacion.csv")
+  clasificacion
+}
+
+clasificacion.leer <- function(con_imagen = FALSE) {
+  clasificacion <- read.csv2("clasificacion.csv") %>% as_tibble() %>% filter(incluir( departamento ) )
+  if(con_imagen){
+    clasificacion <- clasificacion %>% filter( !imagen.existe(imagen) )
+  }                                                 
+  clasificacion
+}
+
+producto.bajar <- function(url, departamento = "", categoria = "", subcategoria = "") {
   url = paste0(url,"?PS=99")
   nodos <- read_html(url) %>% html_nodes('.product-shelf li')
   
@@ -86,24 +100,33 @@ bajar.producto <- function(url, departamento = "", categoria = "", subcategoria 
   return(productos)
 }
 
-bajar.catalogo <- function(clasificacion) {
+catalogo.bajar <- function(clasificacion) {
   print("BAJANDO CATALOGO")
   
   catalogo = list()
   for (i in 1:nrow(clasificacion)) {
     tmp <- clasificacion[i,]
-    productos = try(bajar.producto(tmp$url, tmp$departamento, tmp$categoria, tmp$subcategoria))
+    productos = try(producto.bajar(tmp$url, tmp$departamento, tmp$categoria, tmp$subcategoria))
     if (is.error(productos) ) next
   
     str(productos)
     catalogo <- bind_rows(catalogo, productos)
-    write.csv2(catalogo, "catalogo.csv")
+    catalogo %>% catalogo.escribir()
   }
   print("CATALOGO BAJADO")
   return(catalogo)
 }
 
-bajar.imagenes <- function(catalogo, tamaño=256) {
+catalogo.escribir <- function(catalogo){
+  write.csv2(catalogo, "catalogo.csv") %>% as_tibble()
+  catalogo
+}
+
+catalogo.leer <- function() {
+    
+}
+
+imagenes.bajar <- function(catalogo, tamaño=256) {
   print("BAJANDO IMAGENES")
   for(c in 1:nrow(catalogo)){ 
     id <- catalogo[c,]$imagen
@@ -130,5 +153,5 @@ setwd("GitHub/catalogo")
 #   # View(catalogo)
 
 catalogo <- read.csv2("catalogo.csv") 
-catalogo <- as.tibble(catalogo) %>% filter(incluir( departamento ))
-bajar.imagenes(catalogo)
+catalogo <- as_tibble(catalogo) %>% filter(incluir( departamento ) & !imagen.existe(imagen))
+# bajar.imagenes(catalogo)
