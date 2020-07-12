@@ -8,8 +8,9 @@ library(rvest)
 library(jsonlite)
 
 pagina <- function(texto) gsub("https://www.jumbo.com.ar/", "", texto)
-precio <- function(texto) gsub(",", ".", gsub("[^0-9,.]+", "", texto)) %>% as.numeric()
+precio <- function(texto) gsub(",", ".", gsub("[^0-9,]+", "", texto)) %>% as.numeric()
 id     <- function(texto) gsub(".*ids/([0-9]+).*", "\\1", texto)
+is.error <- function(x) inherits(x, "try-error")
 
 extraer.pagina <- function(nodo) nodo %>% html_nodes('.product-item__name a') %>% html_text()
 extraer.marca  <- function(nodo) nodo %>% html_nodes('.product-item__brand') %>% html_text()
@@ -22,53 +23,40 @@ bajar.clasificacion <- function() {
   
   departamentos <- fromJSON('https://www.jumbo.com.ar/api/catalog_system/pub/category/tree/3') %>% filter(hasChildren) %>% arrange(name)
   
-  lista = list()
+  clasificacion = list()
   for (d in 1:nrow(departamentos)) {
     departamento <- departamentos[d,]
     categorias   <- departamento$children[[1]]
     
-    if(nrow(categorias) == 0) next
-    
     for (c in 1:nrow(categorias)) {
-      categoria <- categorias[c,]
-      subcategorias <- categoria$children[[1]]
-      
-      if (!is.null(nrow(subcategorias)) & (nrow(subcategorias) > 0) ) {
+      if(c > 0 ){
+        categoria <- categorias[c,]
+        subcategorias <- categoria$children[[1]]
+        
+        if (is.null(nrow(subcategorias))) next
+        
         for (s in 1:nrow(subcategorias)) {
+          if( s == 0) next
           subcategoria <- subcategorias[s,]
           
-          item <- tibble(
-            departamento = departamento$name,
-            categoria    = categoria$name, 
-            subcategoria = ifelse(is.null(subcategoria), "-" , subcategoria$name), 
-            url          = ifelse(is.null(subcategoria), categoria$url, subcategoria$url) 
-          )
+          if(is.null(subcategoria$name)){
+            nombre = "-"
+            url    = categoria$url
+          } else {
+            nombre = subcategoria$name
+            url    = subcategoria$url
+          }
+          
+          item <- tibble(departamento = departamento$name, categoria = categoria$name, subcategoria = nombre, url = url )
           str(item)
-          lista <- bind_rows(lista, item)
+          clasificacion <- bind_rows(clasificacion, item)
         }
+        
       }
     }
   }
-  lista
-}
-
-bajar.catalogo <- function(clasificacion) {
-  print("BAJANDO CATALOGO")
-
-    catalogo = list()
-  for (i in 1:nrow(clasificacion)) {
-    tmp <- clasificacion[i,]
-
-    print(c(nrow(catalogo), tmp$url))
-    
-    productos = bajar.producto(tmp$url, tmp$departamento, tmp$categoria, tmp$subcategoria)
-    if (nrow(productos) == 0) next
-    
-    str(productos)
-    catalogo <- bind_rows(catalogo, productos)
-    write.csv2(catalogo, "catalogo.csv")
-  }
-  catalogo
+  print("CLASIFICACION BAJADA")
+  return(clasificacion)
 }
 
 bajar.producto <- function(url, departamento = "", categoria = "", subcategoria = "") {
@@ -76,29 +64,48 @@ bajar.producto <- function(url, departamento = "", categoria = "", subcategoria 
   nodos <- read_html(url) %>% html_nodes('.product-shelf li')
   
   nodos <- nodos[ length(nodos %>% html_nodes('.product-item__no-stock')) == 0 ]
-  str(nrow(nodos), url)
+  str(c( url, length(nodos %>% extraer.marca()), length(nodos)))
   
-  tibble(
+  productos = tibble(
     nombre = nodos %>% extraer.pagina(),
     marca  = nodos %>% extraer.marca(),
     precio = nodos %>% extraer.precio(),
     pagina = nodos %>% extraer.pagina(),
     imagen = nodos %>% extraer.imagen()
-    # ,
-    # departamento = departamento,
-    # categoria    = categoria,
-    # subcategoria = subcategoria
   )
+  
+  productos$departamento = departamento
+  productos$categoria    = categoria
+  productos$subcategoria = subcategoria
+  
+  return(productos)
+}
+
+bajar.catalogo <- function(clasificacion) {
+  print("BAJANDO CATALOGO")
+  
+  catalogo = list()
+  for (i in 1:nrow(clasificacion)) {
+    tmp <- clasificacion[i,]
+    productos = try(bajar.producto(tmp$url, tmp$departamento, tmp$categoria, tmp$subcategoria))
+    if (is.error(productos) ) next
+  
+    str(productos)
+    catalogo <- bind_rows(catalogo, productos)
+    write.csv2(catalogo, "catalogo.csv")
+  }
+  print("CATALOGO BAJADO")
+  return(catalogo)
 }
 
 #setwd("GitHub/catalogo")
-
+# 
+# 
 clasificacion <- bajar.clasificacion()
 write.csv2(clasificacion, "clasificacion.csv")
-#clasificacion = read.csv2("clasificacion.csv")
-catalogo <- bajar.catalogo(clasificacion)
-View(catalogo)
 
-# url = "https://www.jumbo.com.ar/almacen/pastas-secas-y-salsas/salsas?PS=99"
-# nodos <- read_html(url) %>% html_nodes('.product-shelf li')
-# print(c(url,length(nodos %>% html_nodes('.product-item__no-stock'))))
+# clasificacion = read.csv2("clasificacion.csv")
+clasificacion <- clasificacion %>% filter(categoria != "Panaderia")
+
+catalogo <- bajar.catalogo(clasificacion)
+  # View(catalogo)
