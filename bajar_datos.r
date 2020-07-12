@@ -15,7 +15,7 @@ is.error <- function(x) inherits(x, "try-error")
 incluir  <- function(clasificacion) clasificacion  %in% list("Almacén", "Bebidas", "Carnes", "Congelados", "Frutas y Verduras", "Lácteos", "Limpieza", "Panadería y Repostería",  "Perfumería", "Quesos y Fiambres")  
 
 imagen.file <- function(imagen) paste0("fotos/",imagen,".jpg")
-imagen.url  <- function(imagen, tamaño=256) paste0("https://jumboargentina.vteximg.com.br/arquivos/ids/",imagen,"-", tamaño,"-",tamaño)
+imagen.url  <- function(imagen, tamaño=512) paste0("https://jumboargentina.vteximg.com.br/arquivos/ids/",imagen,"-", tamaño,"-",tamaño)
 
 extraer.pagina <- function(nodo) nodo %>% html_nodes('.product-item__name a') %>% html_text()
 extraer.marca  <- function(nodo) nodo %>% html_nodes('.product-item__brand') %>% html_text()
@@ -105,13 +105,13 @@ bajar.catalogo <- function(clasificacion) {
 
 bajar.imagenes <- function(catalogo) {
   print("BAJANDO IMAGENES")
-  # for(c in 1:nrow(catalogo)){
-  for(c in 1:5){
+  for(c in 1:nrow(catalogo)){
     id <- catalogo[c,]$imagen
     origen  = imagen.url(id)
     destino = imagen.file(id)
+    print(c(c,destino))
     if(!file.exists(destino)){
-      try(download.file(origen , destino))
+      try(download.file(origen , destino, mode = 'wb', quiet = TRUE))
     }
   }
   print("IMAGENES BAJADAS")
