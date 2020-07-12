@@ -103,11 +103,11 @@ bajar.catalogo <- function(clasificacion) {
   return(catalogo)
 }
 
-bajar.imagenes <- function(catalogo) {
+bajar.imagenes <- function(catalogo, tamaño=256) {
   print("BAJANDO IMAGENES")
-  for(c in 1:nrow(catalogo)){
+  for(c in 1:nrow(catalogo)){ 
     id <- catalogo[c,]$imagen
-    origen  = imagen.url(id)
+    origen  = imagen.url(id, tamaño)
     destino = imagen.file(id)
     print(c(c,destino))
     if(!file.exists(destino)){
@@ -117,7 +117,7 @@ bajar.imagenes <- function(catalogo) {
   print("IMAGENES BAJADAS")
 }
 
-#setwd("GitHub/catalogo")
+setwd("GitHub/catalogo")
 # 
 # 
 # clasificacion <- bajar.clasificacion()
@@ -130,5 +130,5 @@ bajar.imagenes <- function(catalogo) {
 #   # View(catalogo)
 
 catalogo <- read.csv2("catalogo.csv") 
-catalogo <- catalogo %>% incluir( departamento )
+catalogo <- as.tibble(catalogo) %>% filter(incluir( departamento ))
 bajar.imagenes(catalogo)
