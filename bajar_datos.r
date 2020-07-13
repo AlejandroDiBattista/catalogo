@@ -38,11 +38,7 @@ recorrer <- function(dato,funcion){
 clasificacion_bajar <- function() {
   print("BAJANDO CLASIFICACION")
   
-  departamentos <- fromJSON('https://www.jumbo.com.ar/api/catalog_system/pub/category/tree/3') %>% 
-    filter(hasChildren) %>% 
-    arrange(name)
-  
-  clasificacion = list()
+  departamentos clasificacion = list()
   departamentos %>% recorrer( function(departamento) {
     categorias <- departamento$children[[1]]
     
@@ -51,8 +47,7 @@ clasificacion_bajar <- function() {
       
       subcategorias %>% recorrer( function(subcategoria) {
         if(is.null(subcategoria$name)){
-          subcategoria$name = "-"
-          subcategoria$url  = categoria$url
+          subcategoria = tibble(name = "-", url  = categoria$url)
         }
         
         item <- tibble(departamento = departamento$name, categoria = categoria$name, subcategoria = subcategoria$name, url = subcategoria$url )
@@ -61,6 +56,10 @@ clasificacion_bajar <- function() {
       })
     })
   })
+  <- fromJSON('https://www.jumbo.com.ar/api/catalog_system/pub/category/tree/3') %>% 
+    filter(hasChildren) %>% 
+    arrange(name)
+  
   
   print("CLASIFICACION BAJADA")
   clasificacion
@@ -143,4 +142,8 @@ try(setwd("GitHub/catalogo"), silent = TRUE)
 catalogo_leer() %>% imagenes_bajar()
 View(catalogo)
 
-ale <- function(n=NA){  print(n) }
+
+clasificacion_bajar() %>% clasificacion_escribir() %>% 
+  catalogo_bajar() %>% catalogo_escribir() %>% 
+    imagenes_bajar()
+  
