@@ -37,45 +37,46 @@ recorrer <- function(dato, funcion) {
 }
 
 clasificacion_bajar <- function() {
-    print("BAJANDO CLASIFICACION")
+  print("BAJANDO CLASIFICACION")
+  
+  departamentos <- fromJSON('https://www.jumbo.com.ar/api/catalog_system/pub/category/tree/3') %>% filter(hasChildren) %>% arrange(name)
+  
+  clasificacion = list()
+  for (d in 1:nrow(departamentos)) {
+    departamento <- departamentos[d,]
+    categorias   <- departamento$children[[1]]
     
-    departamentos <- fromJSON('https://www.jumbo.com.ar/api/catalog_system/pub/category/tree/3') %>% filter(hasChildren) %>% arrange(name)
-    
-    clasificacion = list()
-    for (d in 1:nrow(departamentos)) {
-      departamento <- departamentos[d,]
-      categorias   <- departamento$children[[1]]
+    for (c in 1:nrow(categorias)) {
+      if(c > 0 ) next
+ 
+      categoria <- categorias[c,]
+      subcategorias <- categoria$children[[1]]
       
-      for (c in 1:nrow(categorias)) {
-        if(c > 0 ){
-          categoria <- categorias[c,]
-          subcategorias <- categoria$children[[1]]
-          
-          if (is.null(nrow(subcategorias))) next
-          
-          for (s in 1:nrow(subcategorias)) {
-            if( s == 0) next
-            subcategoria <- subcategorias[s,]
-            
-            if(is.null(subcategoria$name)){
-              nombre = "-"
-              url    = categoria$url
-            } else {
-              nombre = subcategoria$name
-              url    = subcategoria$url
-            }
-            
-            item <- tibble(departamento = departamento$name, categoria = categoria$name, subcategoria = nombre, url = url )
-            str(item)
-            clasificacion <- bind_rows(clasificacion, item)
-          }
-          
+      if (is.null(nrow(subcategorias))) next
+      
+      for (s in 1:nrow(subcategorias)) {
+        if( s == 0) next
+        subcategoria <- subcategorias[s,]
+        
+        if(is.null(subcategoria$name)){
+          nombre = "-"
+          url    = categoria$url
+        } else {
+          nombre = subcategoria$name
+          url    = subcategoria$url
         }
+        
+        item <- tibble(departamento = departamento$name, categoria = categoria$name, subcategoria = nombre, url = url )
+        str(item)
+        clasificacion <- bind_rows(clasificacion, item)
       }
+      
+      
     }
-    print("CLASIFICACION BAJADA")
-    return(clasificacion)
   }
+  print("CLASIFICACION BAJADA")
+  return(clasificacion)
+}
 
 clasificacion_escribir <- function(clasificacion) {
   write.csv2(clasificacion, "clasificacion.csv")
@@ -149,7 +150,7 @@ imagenes_bajar <- function(catalogo, tamaño = 512, optimizar = FALSE) {
 
 try(setwd("GitHub/catalogo"), silent = TRUE)
 
-c <- clasificacion_bajar() %>% clasificacion_escribir()# %>% 
-#   catalogo_bajar() %>% catalogo_escribir() %>% 
-#     imagenes_bajar()
-#   
+clasificacion_bajar() %>% clasificacion_escribir() %>% 
+   catalogo_bajar() %>% catalogo_escribir() %>% 
+     imagenes_bajar()
+   

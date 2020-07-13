@@ -42,6 +42,12 @@ def bajar_productos(clasificacion)
 	productos
 end
 
+def leer_productos
+	datos = CSV.read("productos.dsv", :col_sep => "|")
+	campos = datos.shift.map(&:to_sym)
+	datos.map{|x| Hash[campos.zip(x)]}
+end
+
 def escribir_productos(productos)
 	campos = productos.map(&:keys).uniq.flatten
 	CSV.open("productos.dsv", "wb", :col_sep => "|") do |csv|
@@ -50,4 +56,20 @@ def escribir_productos(productos)
 	end
 end
 
-escribir_productos( bajar_productos( bajar_clasificacion() ) )
+def bajar_imagenes(imagenes,tamaño=512)
+	imagenes.each do |imagen|
+		origen  = "https://jumboargentina.vteximg.com.br/arquivos/ids/#{imagen}-#{tamaño}-#{tamaño}"
+		destino = "fotos/#{imagen}.jpg"
+		unless File.exist?(destino)
+			print("*")
+			URI.open(origen){|f|  File.open(destino, "wb"){|file| file.puts f.read }} 
+		else 
+			print "."
+		end
+	end
+	puts "FIN"
+end
+
+
+imagenes = leer_productos.map{|x|x[:imagen]}.select{|x|x.size > 4}
+bajar_imagenes(imagenes)
