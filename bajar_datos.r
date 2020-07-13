@@ -7,151 +7,140 @@ library(tidyverse)
 library(rvest)
 library(jsonlite)
 
+is_error <- function(x) inherits(x, "try-error")
+
 pagina <- function(texto) gsub("https://www.jumbo.com.ar/", "", texto)
 precio <- function(texto) gsub(",", ".", gsub("[^0-9,]+", "", texto)) %>% as.numeric()
 id     <- function(texto) gsub(".*ids/([0-9]+).*", "\\1", texto)
-is.error <- function(x) inherits(x, "try-error")
 
-incluir  <- function(clasificacion) clasificacion  %in% list("Almacén", "Bebidas", "Carnes", "Congelados", "Frutas y Verduras", "Lácteos", "Limpieza", "Panadería y Repostería",  "Perfumería", "Quesos y Fiambres")  
+departamento_incluir <- function(clasificacion) clasificacion %in% list("Almacén", "Bebidas", "Carnes", "Congelados", "Frutas y Verduras", "Lácteos", "Limpieza", "Panadería y Repostería",  "Perfumería", "Quesos y Fiambres")  
 
-imagen.file <- function(imagen) paste0("fotos/",imagen,".jpg")
-imagen.url  <- function(imagen, tamaño=512) paste0("https://jumboargentina.vteximg.com.br/arquivos/ids/",imagen,"-", tamaño,"-",tamaño)
-imagen.existe <- function(imagen) file.exists(imagen.file(imagen))
+imagen_file   <- function(imagen) paste0("fotos/",imagen,".jpg")
+imagen_url    <- function(imagen, tamaño=512) paste0("https://jumboargentina.vteximg.com.br/arquivos/ids/",imagen,"-", tamaño,"-",tamaño)
+imagen_existe <- function(imagen) file.exists(imagen_file(imagen))
+imagen_bajar  <- function(imagen, tamaño=512) try( download.file(imagen_url(imagen, tamaño), imagen_file(imagen), mode = 'wb', quiet=TRUE), silent = TRUE) 
 
-extraer.pagina <- function(nodo) nodo %>% html_nodes('.product-item__name a') %>% html_text()
-extraer.marca  <- function(nodo) nodo %>% html_nodes('.product-item__brand') %>% html_text()
-extraer.precio <- function(nodo) nodo %>% html_nodes('.product-prices__value--best-price') %>% html_text() %>% precio()
-extraer.pagina <- function(nodo) nodo %>% html_nodes('.product-item__name a') %>% html_attr("href") %>% pagina()
-extraer.imagen <- function(nodo) nodo %>% html_nodes('.product-item__image-link img') %>% html_attr("src") %>% id()
+extraer_nombre <- function(nodo) nodo %>% html_nodes('.product-item__name a') %>% html_text()
+extraer_marca  <- function(nodo) nodo %>% html_nodes('.product-item__brand') %>% html_text()
+extraer_precio <- function(nodo) nodo %>% html_nodes('.product-prices__value--best-price') %>% html_text() %>% precio()
+extraer_pagina <- function(nodo) nodo %>% html_nodes('.product-item__name a') %>% html_attr("href") %>% pagina()
+extraer_imagen <- function(nodo) nodo %>% html_nodes('.product-item__image-link img') %>% html_attr("src") %>% id()
 
-clasificacion.bajar <- function() {
-  print("BAJANDO CLASIFICACION")
-  
-  departamentos <- fromJSON('https://www.jumbo.com.ar/api/catalog_system/pub/category/tree/3') %>% filter(hasChildren) %>% arrange(name)
-  
-  clasificacion = list()
-  for (d in 1:nrow(departamentos)) {
-    departamento <- departamentos[d,]
-    categorias   <- departamento$children[[1]]
-    
-    for (c in 1:nrow(categorias)) {
-      if(c > 0 ){
-        categoria <- categorias[c,]
-        subcategorias <- categoria$children[[1]]
-        
-        if (is.null(nrow(subcategorias))) next
-        
-        for (s in 1:nrow(subcategorias)) {
-          if( s == 0) next
-          subcategoria <- subcategorias[s,]
-          
-          if(is.null(subcategoria$name)){
-            nombre = "-"
-            url    = categoria$url
-          } else {
-            nombre = subcategoria$name
-            url    = subcategoria$url
-          }
-          
-          item <- tibble(departamento = departamento$name, categoria = categoria$name, subcategoria = nombre, url = url )
-          str(item)
-          clasificacion <- bind_rows(clasificacion, item)
-        }
-        
-      }
+recorrer <- function(dato,funcion){
+  if(nrow(dato) > 0) {
+    for(c in 1:nrow( dato )) {
+      funcion( dato[c,] )
     }
   }
-  print("CLASIFICACION BAJADA")
-  return(clasificacion)
+  dato
 }
 
-clasificacion.escribir <- function(clasificacion) {
+clasificacion_bajar <- function() {
+  print("BAJANDO CLASIFICACION")
+  
+  departamentos <- fromJSON('https://www.jumbo.com.ar/api/catalog_system/pub/category/tree/3') %>% 
+    filter(hasChildren) %>% 
+    arrange(name)
+  
+  clasificacion = list()
+  departamentos %>% recorrer( function(departamento) {
+    categorias <- departamento$children[[1]]
+    
+    categorias %>% recorrer( function(categoria) {  
+      subcategorias <- categoria$children[[1]]
+      
+      subcategorias %>% recorrer( function(subcategoria) {
+        if(is.null(subcategoria$name)){
+          subcategoria$name = "-"
+          subcategoria$url  = categoria$url
+        }
+        
+        item <- tibble(departamento = departamento$name, categoria = categoria$name, subcategoria = subcategoria$name, url = subcategoria$url )
+        str(item)
+        clasificacion <- bind_rows(clasificacion, item)
+      })
+    })
+  })
+  
+  print("CLASIFICACION BAJADA")
+  clasificacion
+}
+
+clasificacion_escribir <- function(clasificacion) {
   write.csv2(clasificacion, "clasificacion.csv")
   clasificacion
 }
 
-clasificacion.leer <- function(con_imagen = FALSE) {
-  clasificacion <- read.csv2("clasificacion.csv") %>% as_tibble() %>% filter(incluir( departamento ) )
-  if(con_imagen){
-    clasificacion <- clasificacion %>% filter( !imagen.existe(imagen) )
-  }                                                 
+clasificacion_leer <- function(con_imagen = FALSE) {
+  clasificacion <- read.csv2("clasificacion.csv") %>% as_tibble() %>% filter(departamento_incluir( departamento ) )
+  if(con_imagen){ clasificacion <- clasificacion %>% filter( !imagen_existe(imagen) ) }                                                 
   clasificacion
 }
 
-producto.bajar <- function(url, departamento = "", categoria = "", subcategoria = "") {
+producto_bajar <- function(url, departamento = "", categoria = "", subcategoria = "") {
   url = paste0(url,"?PS=99")
+  
   nodos <- read_html(url) %>% html_nodes('.product-shelf li')
-  
   nodos <- nodos[ length(nodos %>% html_nodes('.product-item__no-stock')) == 0 ]
-  str(c( url, length(nodos %>% extraer.marca()), length(nodos)))
-  
+
   productos = tibble(
-    nombre = nodos %>% extraer.pagina(),
-    marca  = nodos %>% extraer.marca(),
-    precio = nodos %>% extraer.precio(),
-    pagina = nodos %>% extraer.pagina(),
-    imagen = nodos %>% extraer.imagen()
+    nombre = nodos %>% extraer_nombre(),
+    marca  = nodos %>% extraer_marca(),
+    precio = nodos %>% extraer_precio(),
+    pagina = nodos %>% extraer_pagina(),
+    imagen = nodos %>% extraer_imagen()
   )
   
   productos$departamento = departamento
   productos$categoria    = categoria
   productos$subcategoria = subcategoria
   
-  return(productos)
+  productos
 }
 
-catalogo.bajar <- function(clasificacion) {
+catalogo_bajar <- function(clasificacion) {
   print("BAJANDO CATALOGO")
   
   catalogo = list()
-  for (i in 1:nrow(clasificacion)) {
-    tmp <- clasificacion[i,]
-    productos = try(producto.bajar(tmp$url, tmp$departamento, tmp$categoria, tmp$subcategoria))
-    if (is.error(productos) ) next
+  clasificacion %>% recorrer( function(producto) {
+    productos = try(producto_bajar(producto$url, producto$departamento, producto$categoria, producto$subcategoria))
+    if (!is_error(productos) ) {
+      str(productos)
+      catalogo <- bind_rows(catalogo, productos)
+      catalogo %>% catalogo_escribir()
+    }
+  })
   
-    str(productos)
-    catalogo <- bind_rows(catalogo, productos)
-    catalogo %>% catalogo.escribir()
-  }
   print("CATALOGO BAJADO")
-  return(catalogo)
-}
-
-catalogo.escribir <- function(catalogo){
-  write.csv2(catalogo, "catalogo.csv") %>% as_tibble()
   catalogo
 }
 
-catalogo.leer <- function() {
-    
+catalogo_escribir <- function(catalogo){
+  write.csv2(catalogo, "catalogo.csv")
+  catalogo
 }
 
-imagenes.bajar <- function(catalogo, tamaño=256) {
+catalogo_leer <- function(con_imagen=NA) {
+  catalogo <- read.csv2("catalogo.csv") %>% as_tibble() %>% filter(departamento_incluir( departamento ))
+  if( isTRUE(con_imagen)  ) { catalogo <- catalogo %>% filter(imagen_existe(imagen))  }
+  if( isFALSE(con_imagen) ) { catalogo <- catalogo %>% filter(!imagen_existe(imagen)) }
+  catalogo
+}
+
+imagenes_bajar <- function(catalogo,tamaño = 512, optimizar = FALSE) {
   print("BAJANDO IMAGENES")
-  for(c in 1:nrow(catalogo)){ 
-    id <- catalogo[c,]$imagen
-    origen  = imagen.url(id, tamaño)
-    destino = imagen.file(id)
-    print(c(c,destino))
-    if(!file.exists(destino)){
-      try(download.file(origen , destino, mode = 'wb', quiet = TRUE))
-    }
-  }
+  if(optimizar) { catalogo <- catalogo %>% filter(!imagen_existe(imagen)) }
+  catalogo %>% recorrer( function(item){
+    imagen_bajar(item, tamaño ) 
+    str(item)
+  })
   print("IMAGENES BAJADAS")
+  catalogo
 }
 
-setwd("GitHub/catalogo")
-# 
-# 
-# clasificacion <- bajar.clasificacion()
-# write.csv2(clasificacion, "clasificacion.csv")
-# 
-# # clasificacion = read.csv2("clasificacion.csv")
-# clasificacion <- clasificacion %>% filter(categoria != "Panaderia")
-# 
-# catalogo <- bajar.catalogo(clasificacion)
-#   # View(catalogo)
+try(setwd("GitHub/catalogo"), silent = TRUE)
 
-catalogo <- read.csv2("catalogo.csv") 
-catalogo <- as_tibble(catalogo) %>% filter(incluir( departamento ) & !imagen.existe(imagen))
-# bajar.imagenes(catalogo)
+catalogo_leer() %>% imagenes_bajar()
+View(catalogo)
+
+ale <- function(n=NA){  print(n) }
