@@ -61,15 +61,20 @@ def bajar_imagenes(imagenes,tamaño=512)
 		origen  = "https://jumboargentina.vteximg.com.br/arquivos/ids/#{imagen}-#{tamaño}-#{tamaño}"
 		destino = "fotos/#{imagen}.jpg"
 		unless File.exist?(destino)
-			print("*")
-			URI.open(origen){|f|  File.open(destino, "wb"){|file| file.puts f.read }} 
-		else 
-			print "."
+			begin
+				print(".")
+				URI.open(origen){|f|  File.open(destino, "wb"){|file| file.puts f.read }} 
+			rescue Exception => e
+				puts origen
+			end
 		end
 	end
 	puts "FIN"
 end
 
 
-imagenes = leer_productos.map{|x|x[:imagen]}.select{|x|x.size > 4}
+clasificacion =  bajar_clasificacion()
+productos = bajar_productos(clasificacion)
+escribir_productos(productos)
+imagenes = productos.map{|x|x[:imagen]}
 bajar_imagenes(imagenes)
