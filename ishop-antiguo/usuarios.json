@@ -1,0 +1,7 @@
+[
+	{"usuario": "claudio",			"clave": "123",	"nombre": "Claudio Ceballos Paz", 	"rol": "administrar"},
+	{"usuario": "alejandro",		"clave": "123",	"nombre": "Alejandro Di Battista", 	"rol": "administrar"},
+	{"usuario": "marcelo",			"clave": "123",	"nombre": "Marcelo Rojas", 					"rol": "administrar"},
+	{"usuario": "sebastian",		"clave": "123",	"nombre": "Sebastian Isa", 					"rol": "armar"},
+	{"usuario": "carlos",	 			"clave": "123",	"nombre": "Carlos Brizuela", 				"rol": "entregar"}
+]
