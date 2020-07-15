@@ -106,10 +106,10 @@ class Web
 end
 
 clasificacion =  Web.clasificacion()
-Archivo.escribir(clasificacion, :clasificacion)
+Archivo.escribir(clasificacion, :clasificacion_01)
 
 productos = Web.productos(clasificacion)
-Archivo.escribir(productos, :productos)
+Archivo.escribir(productos, :productos_01)
 
 imagenes = productos.map{|x|x[:imagen]}
 Web.imagenes(imagenes)
