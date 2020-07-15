@@ -111,10 +111,8 @@ end
 a = Archivo.fotos.map(&:to_num).sort
 productos = Archivo.leer(:productos).select{|x|incluir(x)}
 b = productos.map{|x|x.imagen}.sort
-p a.first(10)
-p b.first(10)
-p (a.first(10) - b.first(10))
-(a.first(10) - b.first(10)).each{|imagen| Archivo.borrar("fotos/#{imagen}.jpg")}
+p (a - b).count
+(a - b).each{|imagen| Archivo.borrar("fotos/#{imagen}.jpg")}
 return
 
 clasificacion =  Web.clasificacion()
