@@ -1,14 +1,4 @@
 class Hash 
-	alias :get []
-	def [](campo)
-		get(campo.to_s.to_sym)
-	end
-
-	alias :set []=
-	def []=(campo, valor)
-		set(campo.to_s.to_sym, valor)
-	end
-
 	def method_missing(meth, *args, &blk)
 		if meth["="]
 			self[meth[0..-2]] = args
@@ -18,7 +8,7 @@ class Hash
 	end
 
 	def valores(*campos)
-		campos.flatten.map{|campo| get(campo)}
+		campos.flatten.map{|campo| self[campo]}
 	end
 
 	def normalizar
@@ -52,6 +42,10 @@ class String
 	def to_money
 		gsub(",",".").gsub(/[^0-9.]/,"").to_f 
 	end
+
+	def to_num
+		gsub(/\D/,"")
+	end
 end
 
 if __FILE__ == $0 
@@ -70,5 +64,8 @@ if __FILE__ == $0
 
 	p "$12,23".to_money
 
+	p [1,2,3].include?(2)
+	p [1,2,3].include?(5)
 	# pp (({"a" => 1 , {"b" => 2, "c" => [3, {"d" => 4}]}).normalizar)
+	puts "as/12121.jpg".to_num
 end

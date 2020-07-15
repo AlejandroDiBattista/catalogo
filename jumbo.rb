@@ -4,17 +4,16 @@ require 'nokogiri'
 require 'csv'
 require_relative 'utils'
 
-
-class File
+class Archivo
 	class << self
-		def read(origen="productos.dsv")
+		def leer(origen="productos.dsv")
 			origen = "#{origen}.dsv" if Symbol === origen
-			datos  = CSV.read(origen, :col_sep => "|")
+			datos  = CSV.open(origen, :col_sep => "|")
 			campos = datos.shift
-			datos.map{|x| Hash.cargar(campos, x)}
+			datos.map{|x| Hash(campos, x)}.normalizar
 		end
 
-		def write(datos, destino="datos.dsv")
+		def escribir(datos, destino="datos.dsv")
 			destino = "#{destino}.dsv" if Symbol === destino
 			campos = datos.map(&:keys).uniq.flatten
 			CSV.open(destino, "wb", :col_sep => "|") do |csv|
@@ -23,21 +22,36 @@ class File
 			end
 		end
 
-		 def download(origen, destino)
+		 def bajar(origen, destino)
 			begin
-				URI.open(origen){|f|  File.open(destino, "wb"){|file| file.puts f.read }} 
+				URI.open(origen){|f|  Archivo.open(destino, "wb"){|file| file.puts f.read }} 
 			rescue
 				false
 			end
 		end
+
+		def borrar(destino)
+			puts destino
+			begin
+				File.delete(destino)
+			rescue
+				false				
+			end
+		end
+		
+		def fotos
+			Dir["fotos/*.jpg"]
+		end
 	end
 end
 
-Categorias = ["Almacén", "Bebidas", "Pescados y Mariscos", "Quesos y Fiambres", "Lácteos", "Congelados", "Panadería y Repostería", "Comidas Preparadas", "Perfumería", "Limpieza"]
+def incluir(item)
+	departamento = ["Almacén", "Bebidas", "Pescados y Mariscos", "Quesos y Fiambres", "Lácteos", "Congelados", "Panadería y Repostería", "Comidas Preparadas", "Perfumería", "Limpieza"]
+	departamento.include?(item.departamento)	
+end
 
 class Web
 	class << self
-
 		def clasificacion()
 			datos = JSON(URI.open('https://www.jumbo.com.ar/api/catalog_system/pub/category/tree/3').read)
 			datos.map do |d|
@@ -48,7 +62,7 @@ class Web
 						{departamento: d["name"], categoria: c["name"],  subcategoria: "-", url: c["url"]}
 					end
 				end
-			end.flatten.select
+			end.flatten.select{|x|incluir(x)}
 		end
 
 		def productos(clasificacion)
@@ -61,7 +75,7 @@ class Web
 						productos << {
 							nombre:  x.css(".product-item__name a").text,
 							marca:   x.css(".product-item__brand").text,
-							precio:  x.css(".product-prices__value--best-price").text,
+							precio:  x.css(".product-prices__value--best-price").text.to_money,
 							link:    x.css(".product-item__name a").first["href"].split("/")[3],
 							imagen:  x.css(".product-item__image-link img").first["src"][/.*\/(\d+)-.*/, 1],
 							departamento: c[:departamento],
@@ -77,12 +91,12 @@ class Web
 		end
 		
 		def imagenes(imagenes,tamaño=512)
-			imagenes.each.with_index do |imagen,i|
+			imagenes.each.with_index do |imagen, i|
 				origen  = "https://jumboargentina.vteximg.com.br/arquivos/ids/#{imagen}-#{tamaño}-#{tamaño}"
 				destino = "fotos/#{imagen}.jpg"
 				unless File.exist?(destino)
 					print(".")
-					puts if n % 100 == 0
+					puts if i % 100 == 0
 					puts origen if ! File.download(origen, destino)
 				end
 			end
@@ -91,15 +105,21 @@ class Web
 	end
 end
 
-
-p Web.clasificacion
-File.write( Web.clasificacion(), :clasificacion)
+# pp Web.clasificacion.map(&:departamento).uniq.sort
+# Archivo.escribir( Web.clasificacion(), :clasificacion)
 # pp File.read(:productos).map{|x|x[:departamento]}.uniq
+a = Archivo.fotos.map(&:to_num).sort
+productos = Archivo.leer(:productos).select{|x|incluir(x)}
+b = productos.map{|x|x.imagen}.sort
+p a.first(10)
+p b.first(10)
+p (a.first(10) - b.first(10))
+(a.first(10) - b.first(10)).each{|imagen| Archivo.borrar("fotos/#{imagen}.jpg")}
 return
 
 clasificacion =  Web.clasificacion()
-productos = Werb.productos(clasificacion)
-File.write(productos, :productos)
+productos = Web.productos(clasificacion)
+Archivo.escribir(productos, :productos)
 imagenes = productos.map{|x|x[:imagen]}
-web.imagenes(imagenes)
+p Web.imagenes(imagenes)
 
