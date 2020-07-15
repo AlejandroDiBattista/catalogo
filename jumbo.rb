@@ -105,19 +105,12 @@ class Web
 	end
 end
 
-# pp Web.clasificacion.map(&:departamento).uniq.sort
-# Archivo.escribir( Web.clasificacion(), :clasificacion)
-# pp File.read(:productos).map{|x|x[:departamento]}.uniq
-a = Archivo.fotos.map(&:to_num).sort
-productos = Archivo.leer(:productos).select{|x|incluir(x)}
-b = productos.map{|x|x.imagen}.sort
-p (a - b).count
-(a - b).each{|imagen| Archivo.borrar("fotos/#{imagen}.jpg")}
-return
-
 clasificacion =  Web.clasificacion()
+Archivo.escribir(clasificacion, :clasificacion)
+
 productos = Web.productos(clasificacion)
 Archivo.escribir(productos, :productos)
+
 imagenes = productos.map{|x|x[:imagen]}
-p Web.imagenes(imagenes)
+Web.imagenes(imagenes)
 
