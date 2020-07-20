@@ -1,3 +1,5 @@
+$stdout.sync = true
+
 require 'open-uri'
 require 'json'
 require 'nokogiri'
@@ -24,7 +26,7 @@ class Archivo
 
 		 def bajar(origen, destino)
 			begin
-				URI.open(origen){|f|  Archivo.open(destino, "wb"){|file| file.puts f.read }} 
+				URI.open(origen){|f|  File.open(destino, "wb"){|file| file.puts f.read }} 
 			rescue
 				false
 			end
@@ -50,7 +52,7 @@ def incluir(item)
 	departamento.include?(item.departamento)	
 end
 
-class Web
+class Jumbo
 	class << self
 		def clasificacion()
 			datos = JSON(URI.open('https://www.jumbo.com.ar/api/catalog_system/pub/category/tree/3').read)
@@ -90,14 +92,16 @@ class Web
 			productos
 		end
 		
-		def imagenes(imagenes,tamaño=512)
+		def imagenes(productos,tamaño=512)
+			imagenes = productos.map{|x|x[:imagen]}
+
 			imagenes.each.with_index do |imagen, i|
 				origen  = "https://jumboargentina.vteximg.com.br/arquivos/ids/#{imagen}-#{tamaño}-#{tamaño}"
 				destino = "fotos/#{imagen}.jpg"
 				unless File.exist?(destino)
 					print(".")
 					puts if i % 100 == 0
-					puts origen if ! File.download(origen, destino)
+					puts origen if ! Archivo.bajar(origen, destino)
 				end
 			end
 			puts "FIN"
@@ -105,12 +109,72 @@ class Web
 	end
 end
 
-clasificacion =  Web.clasificacion()
+class Tatito
+	class << self
+
+		def clasificacion
+			page = Nokogiri::HTML(URI.open("http://tatito.com.ar/tienda/"))
+			page.css('#checkbox_15_2 option').map do |x|
+				{rubro: x.text.gsub("\u00A0"," ").gsub("\u00E9","é"), id: x["value"]}
+			end	
+		end
+	
+		def productos(clasificacion)
+			productos = []
+			clasificacion.each do |c|
+				c[:url] = "http://tatito.com.ar/tienda/?filters=product_cat[#{c[:id]}]"
+				print c[:url]
+				page = Nokogiri::HTML(URI.open(c[:url]))
+
+				page.css('.item_tienda').each do |x|
+					img = x.css("img").first
+					productos << {
+						nombre:  x.css(".titulo_producto a").text,
+						#marca:   x.css(".product-item__brand").text,
+						precio:  x.css(".amount").text.to_money,
+						#link:    x.css(".product-item__name a").first["href"].split("/")[3],
+						imagen: img.nil? ? "" : img["src"].gsub(/-\d+x\d+\./,"."),
+						rubro: c[:rubro],
+						id: "%04i" % (productos.size + 1)
+						#categoria:    c[:categoria],
+						#subcategoria: c[:subcategoria],
+					}
+					print "."
+				end
+				puts
+			end
+			productos.compact
+		end
+
+		def imagenes(imagenes)
+			imagenes.each.with_index do |imagen, i|
+				origen  = imagen[:imagen]
+				destino = "fotos-tatito/#{imagen[:id]}.jpg"
+				unless origen.size == 0 || File.exist?(destino) 
+					print(".")
+					puts if i % 100 == 0
+					puts origen if ! Archivo.bajar(origen, destino)
+				end
+			end
+			puts "FIN"
+		end
+	end
+end
+
+puts "INICIO"
+clasificacion = Tatito.clasificacion()
+Archivo.escribir(clasificacion, :clasificacion_tatito)
+productos = Tatito.productos(clasificacion)
+Archivo.escribir(productos, :tatito_productos)
+Tatito.imagenes(productos)
+
+puts "FIN"
+return 
+clasificacion =  Jumbo.clasificacion()
 Archivo.escribir(clasificacion, :clasificacion_01)
 
-productos = Web.productos(clasificacion)
+productos = Jumbo.productos(clasificacion)
 Archivo.escribir(productos, :productos_01)
 
-imagenes = productos.map{|x|x[:imagen]}
-Web.imagenes(imagenes)
+Jumbo.imagenes(productos)
 
