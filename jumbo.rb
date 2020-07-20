@@ -106,6 +106,18 @@ class Jumbo
 			end
 			puts "FIN"
 		end
+
+		def bajar_todo
+			puts "BAJANDO todos los datos de JUMBO"
+			clasificacion =  Jumbo.clasificacion()
+			Archivo.escribir(clasificacion, :clasificacion_01)
+
+			productos = Jumbo.productos(clasificacion)
+			Archivo.escribir(productos, :productos_01)
+
+			Jumbo.imagenes(productos)
+			puts "FIN."
+		end
 	end
 end
 
@@ -130,12 +142,12 @@ class Tatito
 					img = x.css("img").first
 					productos << {
 						nombre:  x.css(".titulo_producto a").text,
-						#marca:   x.css(".product-item__brand").text,
 						precio:  x.css(".amount").text.to_money,
-						#link:    x.css(".product-item__name a").first["href"].split("/")[3],
 						imagen: img.nil? ? "" : img["src"].gsub(/-\d+x\d+\./,"."),
 						rubro: c[:rubro],
 						id: "%04i" % (productos.size + 1)
+						#marca:   x.css(".product-item__brand").text,
+						#link:    x.css(".product-item__name a").first["href"].split("/")[3],
 						#categoria:    c[:categoria],
 						#subcategoria: c[:subcategoria],
 					}
@@ -146,10 +158,10 @@ class Tatito
 			productos.compact
 		end
 
-		def imagenes(imagenes)
+		def imagenes(imagenes, destino)
 			imagenes.each.with_index do |imagen, i|
 				origen  = imagen[:imagen]
-				destino = "fotos-tatito/#{imagen[:id]}.jpg"
+				destino = "#{destino}/#{imagen[:id]}.jpg"
 				unless origen.size == 0 || File.exist?(destino) 
 					print(".")
 					puts if i % 100 == 0
@@ -158,23 +170,19 @@ class Tatito
 			end
 			puts "FIN"
 		end
+
+		def bajar_todo
+			puts "BAJANDO todos los datos de TATITO"
+			clasificacion = clasificacion()
+			Archivo.escribir(clasificacion, :clasificacion_tatito)
+			productos = Tatito.productos(clasificacion)
+			Archivo.escribir(productos, :tatito_productos)
+			Tatito.imagenes(productos, "fotos-tatito")
+			puts "FIN."
+		end
 	end
 end
 
-puts "INICIO"
-clasificacion = Tatito.clasificacion()
-Archivo.escribir(clasificacion, :clasificacion_tatito)
-productos = Tatito.productos(clasificacion)
-Archivo.escribir(productos, :tatito_productos)
-Tatito.imagenes(productos)
 
-puts "FIN"
-return 
-clasificacion =  Jumbo.clasificacion()
-Archivo.escribir(clasificacion, :clasificacion_01)
-
-productos = Jumbo.productos(clasificacion)
-Archivo.escribir(productos, :productos_01)
-
-Jumbo.imagenes(productos)
-
+Tatito.bajar_todo
+# Jumbo.bajar_todo
