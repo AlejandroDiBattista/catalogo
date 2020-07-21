@@ -214,7 +214,7 @@ class Maxiconsumo
 				page = Nokogiri::HTML(URI.open(url))
 
 				page.css('.products-grid li').each do |x|
-					img = x.css("img").first["src"].gsub(URL_Imagenes,"")
+					img = x.css("img").first["src"].gsub(URL_Imagenes,"").gsub("small_image/115x115", "image/300x")
 					productos << {
 						nombre:  x.css("h2 a").first["title"],
 						precio:  x.css(".price").last.text.to_money,
@@ -237,7 +237,7 @@ class Maxiconsumo
 				unless origen.size == 0 || File.exist?(destino) 
 					print(".")
 					puts if i % 100 == 0
-					puts "#{origen} => #{destino}" if ! Archivo.bajar(origen, destino)
+					puts "#{origen} => #{destino}" if ! Archivo.bajar(origen, destino, true)
 				end
 			end
 		end
@@ -265,3 +265,7 @@ end
 # Tatito.imagenes(b, "fotos-tatito")
 # Tatito.bajar_todo
 Maxiconsumo.bajar_todo
+
+
+# http://www.maxiconsumo.com/media/catalog/product/cache/29/small_image/115x115/9df78eab33525d08d6e5fb8d27136e95/1/7/17285_19.jpg
+# http://www.maxiconsumo.com/media/catalog/product/cache/29/         image/300x/9df78eab33525d08d6e5fb8d27136e95/1/7/17285_19.jpg
