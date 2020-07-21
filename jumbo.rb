@@ -199,6 +199,7 @@ class Maxiconsumo
 	class << self
 		URL = "http://www.maxiconsumo.com/sucursal_capital/"
 		URL_Imagenes = "http://www.maxiconsumo.com/media/catalog/product/cache/29/small_image/115x115/9df78eab33525d08d6e5fb8d27136e95"
+
 		def clasificacion
 			page = Nokogiri::HTML(URI.open(URL))
 			page.css('#root li a').map do |x|
@@ -257,15 +258,6 @@ class Maxiconsumo
 end
 
 
-# Tatito.bajar_todo
 # Jumbo.bajar_todo
-# pp Maxiconsumo.clasificacion()
-# pp a=Tatito.clasificacion[3..5]
-# pp b=Tatito.productos(a)
-# Tatito.imagenes(b, "fotos-tatito")
 # Tatito.bajar_todo
-Maxiconsumo.bajar_todo
-
-
-# http://www.maxiconsumo.com/media/catalog/product/cache/29/small_image/115x115/9df78eab33525d08d6e5fb8d27136e95/1/7/17285_19.jpg
-# http://www.maxiconsumo.com/media/catalog/product/cache/29/         image/300x/9df78eab33525d08d6e5fb8d27136e95/1/7/17285_19.jpg
+# Maxiconsumo.bajar_todo
