@@ -24,9 +24,12 @@ class Archivo
 			end
 		end
 
-		 def bajar(origen, destino)
+		 def bajar(origen, destino, forzar=false)
 			begin
-				URI.open(origen){|f|  File.open(destino, "wb"){|file| file.puts f.read }} 
+				if forzar || !File.exist?(destino)
+					URI.open(origen){|f|  File.open(destino, "wb"){|file| file.puts f.read }} 
+				end
+				true
 			rescue
 				false
 			end
@@ -73,8 +76,9 @@ class Jumbo
 		def productos(clasificacion)
 			productos = []
 			clasificacion.each do |c|
-				print c[:url]
-				page = Nokogiri::HTML(URI.open("#{URL}/#{c[:url]}?PS=99"))
+				url = "#{URL}/#{c[:url]}?PS=99"
+				print url
+				page = Nokogiri::HTML(URI.open(url))
 				page.css('.product-shelf li').each do |x|
 					if x.css(".product-item__name a").text.strip.size > 0 
 						imagen = x.css(".product-item__image-link img").first["src"][/.*\/(\d+)-.*/, 1]
@@ -97,31 +101,31 @@ class Jumbo
 			productos
 		end
 		
-		def imagenes(productos, destino='fotos', tamaño=512)
-			productos.each{|x| x[:imagen] = "#{x[:imagen]}-#{tamaño}-#{tamaño}"}
+		def imagenes(productos, carpeta=:fotos, tamaño=512)
+			productos.each{|x| x[:imagen] = "#{x[:imagen]}-#{tamaño}-#{tamaño}"} if tamaño
 			
-
 			productos.each.with_index do |producto, i|
 				origen  = "#{URL_Imagenes}/#{producto[:imagen]}"
-				destino = "#{destino}/#{producto[:id]}.jpg"
+				destino = "#{carpeta}/#{producto[:id]}.jpg"
 				unless File.exist?(destino)
 					print "."
 					puts if i % 100 == 0
-					puts origen if ! Archivo.bajar(origen, destino)
+					puts "#{origen} => #{destino}" if ! Archivo.bajar(origen, destino)
 				end
 			end
-			puts "FIN"
 		end
 
 		def bajar_todo
 			puts "BAJANDO todos los datos de JUMBO"
-			clasificacion =  Jumbo.clasificacion()
-			Archivo.escribir(clasificacion, :clasificacion_01)
+			Dir.chdir "jumbo" do 
+				clasificacion =  Jumbo.clasificacion()
+				Archivo.escribir(clasificacion, :clasificacion)
 
-			productos = Jumbo.productos(clasificacion)
-			Archivo.escribir(productos, :productos_01)
+				productos = Jumbo.productos(clasificacion)
+				Archivo.escribir(productos, :productos)
 
-			Jumbo.imagenes(productos)
+				Jumbo.imagenes(productos)
+			end
 			puts "FIN."
 		end
 	end
@@ -138,7 +142,7 @@ class Tatito
 				rubro = x.text.gsub("\u00A0"," ").gsub("\u00E9","é").strip 
 				nivel = rubro[0..0] == "-" ? 1 : 0
 				url   = "?filters=product_cat[#{x["value"]}]"
-				{rubro: rubro.gsub(/^-\s*/,""), nivel: nivel, url: url }
+				{ rubro: rubro.gsub(/^-\s*/,""), nivel: nivel, url: url }
 			end	
 		end
 	
@@ -147,7 +151,7 @@ class Tatito
 			clasificacion.each do |c|
 				url = "#{URL}/#{c[:url]}"
 				page = Nokogiri::HTML(URI.open(url))
-
+				print url
 				page.css('.item_tienda').each do |x|
 					img = x.css("img").first
 					productos << {
@@ -155,6 +159,7 @@ class Tatito
 						precio:  x.css(".amount").text.to_money,
 						imagen: img.nil? ? "" : img["src"].gsub(URL_Imagenes,""),
 						rubro: c[:rubro],
+						nivel: c[:nivel],
 						id: "%04i" % (productos.size + 1)
 					}
 					print "."
@@ -164,26 +169,27 @@ class Tatito
 			productos.compact
 		end
 
-		def imagenes(productos, destino)
+		def imagenes(productos, carpeta=:fotos)
 			productos.each.with_index do |producto, i|
 				origen  = "#{URL_Imagenes}#{producto[:imagen]}"
-				destino = "#{destino}/#{producto[:id]}.jpg"
+				destino = "#{carpeta}/#{producto[:id]}.jpg"
 				unless origen.size == 0 || File.exist?(destino) 
 					print(".")
 					puts if i % 100 == 0
-					puts origen if ! Archivo.bajar(origen, destino)
+					puts "#{origen} => #{destino}" if ! Archivo.bajar(origen, destino)
 				end
 			end
-			puts "FIN"
 		end
 
 		def bajar_todo
 			puts "BAJANDO todos los datos de TATITO"
-			clasificacion = clasificacion()
-			Archivo.escribir(clasificacion, :clasificacion_tatito)
-			productos = Tatito.productos(clasificacion)
-			Archivo.escribir(productos, :tatito_productos)
-			Tatito.imagenes(productos, "fotos-tatito")
+			Dir.chdir "tatito" do 
+				clasificacion = clasificacion().first(3)
+				Archivo.escribir(clasificacion, :clasificacion)
+				productos = Tatito.productos(clasificacion)
+				Archivo.escribir(productos, :productos)
+				Tatito.imagenes(productos, :fotos)
+			end
 			puts "FIN."
 		end
 	end
@@ -192,7 +198,7 @@ end
 class Maxiconsumo
 	class << self
 		URL = "http://www.maxiconsumo.com/sucursal_capital/"
-
+		URL_Imagenes = "http://www.maxiconsumo.com/media/catalog/product/cache/29/small_image/115x115/9df78eab33525d08d6e5fb8d27136e95"
 		def clasificacion
 			page = Nokogiri::HTML(URI.open(URL))
 			page.css('#root li a').map do |x|
@@ -203,22 +209,19 @@ class Maxiconsumo
 		def productos(clasificacion)
 			productos = []
 			clasificacion.each do |c|
-				c[:url] = "http://tatito.com.ar/tienda/?filters=product_cat[#{c[:id]}]"
-				print c[:url]
-				page = Nokogiri::HTML(URI.open(c[:url]))
+				url = "#{URL}#{c[:url]}"
+				print url
+				page = Nokogiri::HTML(URI.open(url))
 
-				page.css('.item_tienda').each do |x|
-					img = x.css("img").first
+				page.css('.products-grid li').each do |x|
+					img = x.css("img").first["src"].gsub(URL_Imagenes,"")
 					productos << {
-						nombre:  x.css(".titulo_producto a").text,
-						precio:  x.css(".amount").text.to_money,
-						imagen: img.nil? ? "" : img["src"].gsub(/-\d+x\d+\./,"."),
+						nombre:  x.css("h2 a").first["title"],
+						precio:  x.css(".price").last.text.to_money,
+						imagen: img,
 						rubro: c[:rubro],
-						id: "%04i" % (productos.size + 1)
-						#marca:   x.css(".product-item__brand").text,
-						#link:    x.css(".product-item__name a").first["href"].split("/")[3],
-						#categoria:    c[:categoria],
-						#subcategoria: c[:subcategoria],
+						nivel: c[:nivel],
+						id: x.css(".sku").text.gsub(/\D/,""),
 					}
 					print "."
 				end
@@ -227,26 +230,27 @@ class Maxiconsumo
 			productos.compact
 		end
 
-		def imagenes(imagenes, destino)
-			imagenes.each.with_index do |imagen, i|
-				origen  = imagen[:imagen]
-				destino = "#{destino}/#{imagen[:id]}.jpg"
+		def imagenes(productos, carpeta=:fotos)
+			productos.each.with_index do |producto, i|
+				origen  = "#{URL_Imagenes}#{producto[:imagen]}"
+				destino = "#{carpeta}/#{producto[:id]}.jpg"
 				unless origen.size == 0 || File.exist?(destino) 
 					print(".")
 					puts if i % 100 == 0
-					puts origen if ! Archivo.bajar(origen, destino)
+					puts "#{origen} => #{destino}" if ! Archivo.bajar(origen, destino)
 				end
 			end
-			puts "FIN"
 		end
 
 		def bajar_todo
-			puts "BAJANDO todos los datos de TATITO"
-			clasificacion = clasificacion()
-			Archivo.escribir(clasificacion, :clasificacion_tatito)
-			productos = Tatito.productos(clasificacion)
-			Archivo.escribir(productos, :tatito_productos)
-			Tatito.imagenes(productos, "fotos-tatito")
+			puts "BAJANDO todos los datos de MAXICONSUMO"
+			Dir.chdir "maxiconsumo" do 
+				clasificacion = Maxiconsumo.clasificacion()
+				Archivo.escribir(clasificacion, :clasificacion)
+				productos = Maxiconsumo.productos(clasificacion.select{|x|x[:nivel]==2})
+				Archivo.escribir(productos, :productos)
+				Maxiconsumo.imagenes(productos)
+			end
 			puts "FIN."
 		end
 	end
@@ -256,6 +260,8 @@ end
 # Tatito.bajar_todo
 # Jumbo.bajar_todo
 # pp Maxiconsumo.clasificacion()
-pp a=Tatito.clasificacion[3..5]
-pp b=Tatito.productos(a)
-Tatito.imagenes(b, "fotos-tatito")
+# pp a=Tatito.clasificacion[3..5]
+# pp b=Tatito.productos(a)
+# Tatito.imagenes(b, "fotos-tatito")
+# Tatito.bajar_todo
+Maxiconsumo.bajar_todo
