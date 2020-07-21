@@ -62,27 +62,29 @@ class Jumbo
 			datos.map do |d|
 				d["children"].map do |c|
 					if c["children"].size > 0
-						c["children"].map{|s|  {departamento: d["name"], categoria: c["name"], subcategoria: s["name"], url: s["url"]} }
+						c["children"].map{|s|  {departamento: d["name"], categoria: c["name"], subcategoria: s["name"], url: s["url"].gsub(URL,"") } }
 					else
-						{departamento: d["name"], categoria: c["name"],  subcategoria: "-", url: c["url"]}
+						{departamento: d["name"], categoria: c["name"],  subcategoria: "-", url: c["url"].gsub(URL,"")}
 					end
 				end
-			end.flatten.select{|x|incluir(x)}
+			end.flatten.select{|x| incluir(x) }
 		end
 
 		def productos(clasificacion)
 			productos = []
 			clasificacion.each do |c|
 				print c[:url]
-				page = Nokogiri::HTML(URI.open(c[:url]+"?PS=99"))
+				page = Nokogiri::HTML(URI.open("#{URL}/#{c[:url]}?PS=99"))
 				page.css('.product-shelf li').each do |x|
 					if x.css(".product-item__name a").text.strip.size > 0 
+						imagen = x.css(".product-item__image-link img").first["src"][/.*\/(\d+)-.*/, 1]
 						productos << {
 							nombre:  x.css(".product-item__name a").text,
 							marca:   x.css(".product-item__brand").text,
 							precio:  x.css(".product-prices__value--best-price").text.to_money,
 							link:    x.css(".product-item__name a").first["href"].split("/")[3],
-							imagen:  x.css(".product-item__image-link img").first["src"][/.*\/(\d+)-.*/, 1],
+							imagen:  imagen,
+							id: imagen, 
 							departamento: c[:departamento],
 							categoria:    c[:categoria],
 							subcategoria: c[:subcategoria],
@@ -96,13 +98,14 @@ class Jumbo
 		end
 		
 		def imagenes(productos, destino='fotos', tamaño=512)
-			imagenes = productos.map{|x|x[:imagen]}
+			productos.each{|x| x[:imagen] = "#{x[:imagen]}-#{tamaño}-#{tamaño}"}
+			
 
-			imagenes.each.with_index do |imagen, i|
-				origen  = "#{URL_Imagenes}/#{imagen}-#{tamaño}-#{tamaño}"
-				destino = "#{destino}/#{imagen}.jpg"
+			productos.each.with_index do |producto, i|
+				origen  = "#{URL_Imagenes}/#{producto[:imagen]}"
+				destino = "#{destino}/#{producto[:id]}.jpg"
 				unless File.exist?(destino)
-					print(".")
+					print "."
 					puts if i % 100 == 0
 					puts origen if ! Archivo.bajar(origen, destino)
 				end
@@ -126,7 +129,8 @@ end
 
 class Tatito
 	class << self
-		URL = "http://tatito.com.ar/tienda/"
+		URL = "http://tatito.com.ar/tienda"
+		URL_Imagenes = "http://tatito.com.ar/wp-content/uploads"
 
 		def clasificacion
 			page = Nokogiri::HTML(URI.open(URL))
@@ -141,21 +145,17 @@ class Tatito
 		def productos(clasificacion)
 			productos = []
 			clasificacion.each do |c|
-				url = "#{URL}/#{c[:url]}]"
-				page = Nokogiri::HTML(URI.open(:url))
+				url = "#{URL}/#{c[:url]}"
+				page = Nokogiri::HTML(URI.open(url))
 
 				page.css('.item_tienda').each do |x|
 					img = x.css("img").first
 					productos << {
 						nombre:  x.css(".titulo_producto a").text,
 						precio:  x.css(".amount").text.to_money,
-						imagen: img.nil? ? "" : img["src"].gsub(/-\d+x\d+\./,"."),
+						imagen: img.nil? ? "" : img["src"].gsub(URL_Imagenes,""),
 						rubro: c[:rubro],
 						id: "%04i" % (productos.size + 1)
-						#marca:   x.css(".product-item__brand").text,
-						#link:    x.css(".product-item__name a").first["href"].split("/")[3],
-						#categoria:    c[:categoria],
-						#subcategoria: c[:subcategoria],
 					}
 					print "."
 				end
@@ -164,10 +164,10 @@ class Tatito
 			productos.compact
 		end
 
-		def imagenes(imagenes, destino)
-			imagenes.each.with_index do |imagen, i|
-				origen  = imagen[:imagen]
-				destino = "#{destino}/#{imagen[:id]}.jpg"
+		def imagenes(productos, destino)
+			productos.each.with_index do |producto, i|
+				origen  = "#{URL_Imagenes}#{producto[:imagen]}"
+				destino = "#{destino}/#{producto[:id]}.jpg"
 				unless origen.size == 0 || File.exist?(destino) 
 					print(".")
 					puts if i % 100 == 0
@@ -256,4 +256,6 @@ end
 # Tatito.bajar_todo
 # Jumbo.bajar_todo
 # pp Maxiconsumo.clasificacion()
-pp Tatito.clasificacion
+pp a=Tatito.clasificacion[3..5]
+pp b=Tatito.productos(a)
+Tatito.imagenes(b, "fotos-tatito")
