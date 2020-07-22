@@ -1,6 +1,7 @@
 $stdout.sync = true
 
 require 'nokogiri'
+require 'JSON'
 require_relative 'utils'
 require_relative 'archivo'
 
@@ -11,12 +12,19 @@ end
 
 class Web
 	def bajar_todo
-		puts "BAJANDO todos los datos de #{self.class.to_s.upcase}"
-		Dir.chdir "maxiconsumo" do 
+		puts "BAJANDO todos los datos de #{carpeta.upcase}"
+		Dir.chdir carpeta do 
+			puts "- Bajando clasificacion..."
 			clasificacion = bajar_clasificacion()
-			Archivo.escribir(clasificacion, :clasificacion)
-			productos = bajar_productos(clasificacion.select{|x|x[:nivel] == 2})
-			Archivo.escribir(productos, :productos)
+			Archivo.escribir(clasificacion, "clasificacion+")
+			Archivo.escribir(clasificacion, "clasificacion")
+			
+			puts "- Bajando productos..."
+			productos = bajar_productos(clasificacion.select{|x|x[:nivel] == 1})
+			Archivo.escribir(productos, "productos+")
+			Archivo.escribir(productos, "productos")
+			
+			puts "- Bajando imagenes.."
 			bajar_imagenes(productos)
 		end
 		puts "FIN."
@@ -89,8 +97,9 @@ end
 
 class Tatito < Web
 	URL = "http://tatito.com.ar/tienda"
+	URL_Productos = "http://tatito.com.ar/producto"
 	URL_Imagenes = "http://tatito.com.ar/wp-content/uploads"
-
+					
 	def bajar_clasificacion
 		page = Nokogiri::HTML(URI.open(URL))
 		page.css('#checkbox_15_2 option').map do |x|
@@ -109,13 +118,15 @@ class Tatito < Web
 			print url
 			page.css('.item_tienda').each do |x|
 				img = x.css("img").first
+				aux = x.css(".pad15 a").first["href"]
 				productos << {
 					nombre:  x.css(".titulo_producto a").text,
 					precio:  x.css(".amount").text.to_money,
-					imagen: img.nil? ? "" : img["src"].gsub(URL_Imagenes,""),
+					url: aux.gsub(URL_Productos,""),
+					imagen: img(aux).gsub(URL_Imagenes,""),
+					id: sku(aux),
 					rubro: c[:rubro],
 					nivel: c[:nivel],
-					id: "%04i" % (productos.size + 1)
 				}
 				print "."
 			end
@@ -124,10 +135,19 @@ class Tatito < Web
 		productos.compact.uniq
 	end
 
+	def img(url)
+		aux = Nokogiri::HTML(URI.open(url)).css(".woocommerce-product-gallery__image a")
+		!aux.nil? && !aux.first.nil? ? aux.first["href"] : ""
+	end
+
+	def sku(url)
+		Nokogiri::HTML(URI.open(url)).css(".sku_wrapper span").text
+	end
+
 	def bajar_imagenes(productos)
 		productos.each.with_index do |producto, i|
 			origen  = "#{URL_Imagenes}#{producto[:imagen]}"
-			destino = "#{carpeta}/#{producto[:id]}.jpg"
+			destino = "fotos/#{producto[:id]}.jpg"
 			unless origen.size == 0 || File.exist?(destino) 
 				print(".")
 				puts if i % 100 == 0
@@ -161,6 +181,7 @@ class Maxiconsumo < Web
 				productos << {
 					nombre: x.css("h2 a").first["title"],
 					precio: x.css(".price").last.text.to_money,
+					url: "",
 					imagen: img,
 					rubro: c[:rubro],
 					nivel: c[:nivel],
@@ -188,5 +209,6 @@ class Maxiconsumo < Web
 end
 
 # Jumbo.new.bajar_todo
-# Tatito.new.bajar_todo
+Tatito.new.bajar_todo
 # Maxiconsumo.new.bajar_todo
+# pp Jumbo.new.bajar_clasificacion

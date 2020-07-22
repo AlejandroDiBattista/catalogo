@@ -1,6 +1,7 @@
 require 'open-uri'
 require 'csv'
 require_relative 'utils'
+require 'fileutils'
 
 module Archivo
 	def leer(origen = :datos)
@@ -11,12 +12,15 @@ module Archivo
 	end
 
 	def escribir(datos, destino = :datos)
-		destino = "#{destino}.dsv" if Symbol === destino
+		destino = destino.to_s
+		destino = destino.gsub("+", Time.now.strftime("_%F")) if destino["+"] 
+		destino = "#{destino}.dsv" unless destino["."]
 		campos = datos.map(&:keys).uniq.flatten
 		CSV.open(destino, "wb", :col_sep => "|") do |csv|
 			csv << campos
 			datos.each{|x| csv << campos.map{|c| x[c] } }
 		end
+		puts "  Escribir #{destino} (#{datos.count})"
 	end
 
 	 def bajar(origen, destino, forzar=false)
@@ -39,8 +43,13 @@ module Archivo
 		end
 	end
 	
+	def siguiente(destino)
+		Dir["*.*"].select{|x| File.base_name(x)[/$#{destino}/]}
+	end
+
 	def fotos
 		Dir["fotos/*.jpg"]
 	end
 end
 include Archivo
+
