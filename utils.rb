@@ -40,7 +40,11 @@ end
 
 class String
 	def to_money
-		gsub(",",".").gsub(/[^0-9.]/,"").to_f 
+		begin
+			gsub(",",".").gsub(/[^0-9.]/,"").to_f 
+		rescue 
+			0		
+		end
 	end
 
 	def to_num
@@ -68,4 +72,8 @@ if __FILE__ == $0
 	p [1,2,3].include?(5)
 	# pp (({"a" => 1 , {"b" => 2, "c" => [3, {"d" => 4}]}).normalizar)
 	puts "as/12121.jpg".to_num
+	
+	a = "$ 62,80"
+	p a.to_money
 end
+

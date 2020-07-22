@@ -11,7 +11,7 @@ def incluir(item)
 end
 
 class Web
-	def bajar_todo
+	def bajar_todo(nivel=0)
 		puts "BAJANDO todos los datos de #{carpeta.upcase}"
 		Dir.chdir carpeta do 
 			puts "- Bajando clasificacion..."
@@ -20,7 +20,8 @@ class Web
 			Archivo.escribir(clasificacion, "clasificacion")
 			
 			puts "- Bajando productos..."
-			productos = bajar_productos(clasificacion.select{|x|x[:nivel] == 1})
+			clasificacion = clasificacion.select{|x|x[:nivel] == nivel} if nivel > 0 
+			productos = bajar_productos(clasificacion)
 			Archivo.escribir(productos, "productos+")
 			Archivo.escribir(productos, "productos")
 			
@@ -155,7 +156,6 @@ class Tatito < Web
 			end
 		end
 	end
-
 end
 
 class Maxiconsumo < Web
@@ -173,15 +173,15 @@ class Maxiconsumo < Web
 		productos = []
 		clasificacion.each do |c|
 			url = "#{URL}#{c[:url]}"
-			print url
+			print " - #{url}"
 			page = Nokogiri::HTML(URI.open(url))
 
 			page.css('.products-grid li').each do |x|
-				img = x.css("img").first["src"].gsub(URL_Imagenes,"").gsub("small_image/115x115", "image/300x")
+				img = x.css("img").first["src"].gsub(URL_Imagenes,"")
 				productos << {
 					nombre: x.css("h2 a").first["title"],
 					precio: x.css(".price").last.text.to_money,
-					url: "",
+					url: "", 
 					imagen: img,
 					rubro: c[:rubro],
 					nivel: c[:nivel],
@@ -196,8 +196,8 @@ class Maxiconsumo < Web
 
 	def bajar_imagenes(productos)
 		productos.each.with_index do |producto, i|
-			origen  = "#{URL_Imagenes}#{producto[:imagen]}"
-			destino = "#{carpeta}/#{producto[:id]}.jpg"
+			origen  = "#{URL_Imagenes}#{producto[:imagen]}".gsub("small_image/115x115", "image/300x")
+			destino = "fotos/#{producto[:id]}.jpg"
 			unless origen.size == 0 || File.exist?(destino) 
 				print(".")
 				puts if i % 100 == 0
@@ -205,10 +205,9 @@ class Maxiconsumo < Web
 			end
 		end
 	end
-
 end
 
 # Jumbo.new.bajar_todo
-Tatito.new.bajar_todo
-# Maxiconsumo.new.bajar_todo
+# Tatito.new.bajar_todo(1)
+Maxiconsumo.new.bajar_todo(2)
 # pp Jumbo.new.bajar_clasificacion
