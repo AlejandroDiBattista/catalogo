@@ -211,6 +211,5 @@ class Maxiconsumo < Web
 end
 
 Jumbo.new.bajar_todo
-# Tatito.new.bajar_todo(1)
-# Maxiconsumo.new.bajar_todo(2)
-# pp Jumbo.new.bajar_clasificacion
+Tatito.new.bajar_todo(1)
+Maxiconsumo.new.bajar_todo(2)
