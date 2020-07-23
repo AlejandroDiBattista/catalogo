@@ -2,6 +2,7 @@ $stdout.sync = true
 
 require 'nokogiri'
 require 'JSON'
+require 'open-uri'
 require_relative 'utils'
 require_relative 'archivo'
 
@@ -56,7 +57,9 @@ class Jumbo < Web
 	def bajar_productos(clasificacion)
 		productos = []
 		clasificacion.each do |c|
-			url = "#{URL}/#{c[:url]}?PS=99"
+			# url = "#{URL}/#{c[:url]}?PS=99"
+			url = "#{c[:url]}?PS=99"
+
 			print url
 			page = Nokogiri::HTML(URI.open(url))
 			page.css('.product-shelf li').each do |x|
@@ -86,7 +89,7 @@ class Jumbo < Web
 		
 		productos.each.with_index do |producto, i|
 			origen  = "#{URL_Imagenes}/#{producto[:imagen]}"
-			destino = "#{carpeta}/#{producto[:id]}.jpg"
+			destino = "fotos/#{producto[:id]}.jpg"
 			unless File.exist?(destino)
 				print "."
 				puts if i % 100 == 0
@@ -207,7 +210,7 @@ class Maxiconsumo < Web
 	end
 end
 
-# Jumbo.new.bajar_todo
+Jumbo.new.bajar_todo
 # Tatito.new.bajar_todo(1)
-Maxiconsumo.new.bajar_todo(2)
+# Maxiconsumo.new.bajar_todo(2)
 # pp Jumbo.new.bajar_clasificacion
