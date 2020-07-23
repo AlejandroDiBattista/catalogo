@@ -1,299 +1,191 @@
-rubro|nivel|url
-Comestibles|0|comestibles.html
-Aceites|1|comestibles/aceites.html
-Aceite Girasol|2|comestibles/aceites/aceite-girasol.html
-Aceite Oliva|2|comestibles/aceites/aceite-oliva.html
-Aceite Aerosol|2|comestibles/aceites/aceite-aerosol.html
-Aceite Mezcla|2|comestibles/aceites/aceite-mezcla.html
-Aceite Maiz|2|comestibles/aceites/aceite-maiz.html
-Aderezos y Condimentos|1|comestibles/aderezos-y-condimentos.html
-Condimentos / Especies|2|comestibles/aderezos-y-condimentos/condimentos-especies.html
-Mayonesas|2|comestibles/aderezos-y-condimentos/mayonesas.html
-Aderezos|2|comestibles/aderezos-y-condimentos/aderezos.html
-Jugos De Limon|2|comestibles/aderezos-y-condimentos/jugos-de-limon.html
-Cafe y Maltas|1|comestibles/cafe-y-maltas.html
-Cafe Molidos|2|comestibles/cafe-y-maltas/cafe-molidos.html
-Cafe Soluble|2|comestibles/cafe-y-maltas/cafe-soluble.html
-Maltas|2|comestibles/cafe-y-maltas/maltas.html
-Dulces y Mermeladas|1|comestibles/dulces-y-mermeladas.html
-Dulces De Leche|2|comestibles/dulces-y-mermeladas/dulces-de-leche.html
-Dulces En Cajon|2|comestibles/dulces-y-mermeladas/dulces-en-cajon.html
-Dulces En Lata|2|comestibles/dulces-y-mermeladas/dulces-en-lata.html
-Dulces Porcion|2|comestibles/dulces-y-mermeladas/dulces-porcion.html
-Mermeladas Pote|2|comestibles/dulces-y-mermeladas/mermeladas-pote.html
-Mermeladas-Jalea Frasco|2|comestibles/dulces-y-mermeladas/mermeladas-jalea-frasco.html
-Miel|2|comestibles/dulces-y-mermeladas/miel.html
-Endulzantes|1|comestibles/endulzantes.html
-Azucar|2|comestibles/endulzantes/azucar.html
-Azucar Impalpable|2|comestibles/endulzantes/azucar-impalpable.html
-Edulcorantes|2|comestibles/endulzantes/edulcorantes.html
-Conservas y Legumbres|1|comestibles/conservas-y-legumbres.html
-Frutas Envasadas|2|comestibles/conservas-y-legumbres/frutas-envasadas.html
-Legumbres secas|2|comestibles/conservas-y-legumbres/legumbres-secas.html
-Legumbres En Lata|2|comestibles/conservas-y-legumbres/legumbres-en-lata.html
-Morrones Varios|2|comestibles/conservas-y-legumbres/morrones-varios.html
-Pescaderia|2|comestibles/conservas-y-legumbres/pescaderia.html
-Pate/Picadillos|2|comestibles/conservas-y-legumbres/pate-picadillos.html
-Galletitas|1|comestibles/galletitas.html
-Galletitas Crackers|2|comestibles/galletitas/galletitas-crackers.html
-Galletitas Dulces|2|comestibles/galletitas/galletitas-dulces.html
-Galletitas Saladas|2|comestibles/galletitas/galletitas-saladas.html
-Tostadas|2|comestibles/galletitas/tostadas.html
-Harinas y Premezclas|1|comestibles/harinas-y-premezclas.html
-Harinas De Maiz / Polenta|2|comestibles/harinas-y-premezclas/harinas-de-maiz-polenta.html
-Harinas De Trigo|2|comestibles/harinas-y-premezclas/harinas-de-trigo.html
-Maizenas|2|comestibles/harinas-y-premezclas/maizenas.html
-Harinas De Trigo Bolsas|2|comestibles/harinas-y-premezclas/harinas-de-trigo-bolsas.html
-Semolas|2|comestibles/harinas-y-premezclas/semolas.html
-Premezclas|2|comestibles/harinas-y-premezclas/premezclas.html
-Infusiones|1|comestibles/infusiones.html
-Te En Sobres/Hebras|2|comestibles/infusiones/te-en-sobres-hebras.html
-Te Saborizado|2|comestibles/infusiones/te-saborizado.html
-Yerbas|2|comestibles/infusiones/yerbas.html
-Yerbas En Saquitos|2|comestibles/infusiones/yerbas-en-saquitos.html
-Linea Roja|1|comestibles/linea-roja.html
-Extracto De Tomate|2|comestibles/linea-roja/extracto-de-tomate.html
-Pure De Tomates|2|comestibles/linea-roja/pure-de-tomates.html
-Salsas|2|comestibles/linea-roja/salsas.html
-Tomates|2|comestibles/linea-roja/tomates.html
-Tomates Triturados|2|comestibles/linea-roja/tomates-triturados.html
-Reposteria|1|comestibles/reposteria.html
-Bizcochuelos|2|comestibles/reposteria/bizcochuelos.html
-Flanes|2|comestibles/reposteria/flanes.html
-Helados En Polvo|2|comestibles/reposteria/helados-en-polvo.html
-Postres|2|comestibles/reposteria/postres.html
-Salsas Para Postres|2|comestibles/reposteria/salsas-para-postres.html
-Productos de Reposteria|2|comestibles/reposteria/productos-de-reposteria.html
-Chocolates Para Taza|2|comestibles/reposteria/chocolates-para-taza.html
-Gelatinas|2|comestibles/reposteria/gelatinas.html
-Fiestas|1|comestibles/fiestas.html
-Pan Dulces - Budines|2|comestibles/fiestas/pan-dulces-budines.html
-Turrones y Confitura|2|comestibles/fiestas/turrones-confitura.html
-Cajas Navideñas|2|comestibles/fiestas/cajas-navidenas.html
-Arroz|1|comestibles/arroz.html
-Cereales|1|comestibles/cereales.html
-Cacao|1|comestibles/cacao.html
-Caldos Y Sopas|1|comestibles/caldos-y-sopas.html
-Snack|1|comestibles/snack.html
-Fideos|1|comestibles/fideos.html
-Frutas Secas En Paquete|1|comestibles/frutas-secas-en-paquete.html
-Grasas|1|comestibles/grasas.html
-Leche En Polvo|1|comestibles/leche-en-polvo.html
-Leche Larga Vida|1|comestibles/leche-larga-vida.html
-Pan Rallado - Rebozador|1|comestibles/pan-rallado-rebozador.html
-Pure De Papas|1|comestibles/pure-de-papas.html
-Sal|1|comestibles/sal.html
-Vinagres|1|comestibles/vinagres.html
-Encurtidos|1|comestibles/encurtidos.html
-Avenas|1|comestibles/avenas-1835.html
-Fiambreria|0|fiambreria.html
-Congelados|1|fiambreria/congelados.html
-Hamburguesas De Carne|2|fiambreria/congelados/hamburguesas-de-carne.html
-Rebozado de pollo|2|fiambreria/congelados/rebozado-de-pollo.html
-Pescaderia Congelada|2|fiambreria/congelados/pescaderia-congelada.html
-Papa y Verduras Congeladas|2|fiambreria/congelados/papa-y-verduras-congeladas.html
-Fiambres|1|fiambreria/fiambres.html
-Bondiolas|2|fiambreria/fiambres/bondiolas.html
-Bondiolas al vacio|2|fiambreria/fiambres/bondiolas-al-vacio.html
-Fiambre De Cerdo|2|fiambreria/fiambres/fiambre-de-cerdo.html
-Fiambres P/Emparedados|2|fiambreria/fiambres/fiambres-p-emparedados.html
-Jamones Cocidos|2|fiambreria/fiambres/jamones-cocidos.html
-Jamones Crudos|2|fiambreria/fiambres/jamones-crudos.html
-Lomos|2|fiambreria/fiambres/lomos.html
-Matambres-Arrollados|2|fiambreria/fiambres/matambres-arrollados.html
-Mortadelas|2|fiambreria/fiambres/mortadelas.html
-Mortadelas Al Vacio|2|fiambreria/fiambres/mortadelas-al-vacio.html
-Paletas cocidas|2|fiambreria/fiambres/paletas-cocidas.html
-Pancetas/Pastron|2|fiambreria/fiambres/pancetas-pastron.html
-Pernil De Cerdo|2|fiambreria/fiambres/pernil-de-cerdo.html
-Quesos Cerdo / Morcilla / Chorizo|2|fiambreria/fiambres/quesos-cerdo-morcilla-chorizo.html
-Salames|2|fiambreria/fiambres/salames.html
-Salamines / Longanizas|2|fiambreria/fiambres/salamines-longanizas.html
-Salchichones|2|fiambreria/fiambres/salchichones.html
-Sopresatas-Cantimpalos|2|fiambreria/fiambres/sopresatas-cantimpalos.html
-Fiambre Feteado|2|fiambreria/fiambres/fiambre-feteado.html
-Lacteos|1|fiambreria/lacteos.html
-Flanes / Postres / Yoghurt|2|fiambreria/lacteos/flanes-postres-yoghurt.html
-Leche sachet|2|fiambreria/lacteos/leche-sachet.html
-Manteca|2|fiambreria/lacteos/manteca.html
-Margarina|2|fiambreria/lacteos/margarina.html
-Crema de leche.Ricota|2|fiambreria/lacteos/crema-de-leche-ricota.html
-Quesos|1|fiambreria/quesos.html
-Queso Azul|2|fiambreria/quesos/queso-azul.html
-Quesos Barra|2|fiambreria/quesos/quesos-barra.html
-Quesos Blandos|2|fiambreria/quesos/quesos-blandos.html
-Quesos Duros|2|fiambreria/quesos/quesos-duros.html
-Quesos untables|2|fiambreria/quesos/quesos-untables.html
-Quesos Rallados|2|fiambreria/quesos/quesos-rallados.html
-Quesos Semi-Blandos|2|fiambreria/quesos/quesos-semi-blandos.html
-Muzzarella|2|fiambreria/quesos/muzzarella.html
-Queso Feteado|2|fiambreria/quesos/queso-feteado.html
-Carne De Cerdo|1|fiambreria/carne-de-cerdo.html
-Carniceria|1|fiambreria/carniceria.html
-Levadura|1|fiambreria/levadura.html
-Panificados|1|fiambreria/panificados.html
-Pastas|1|fiambreria/pastas.html
-Salchichas|1|fiambreria/salchichas.html
-Tapas/Pascualinas|1|fiambreria/tapas-pascualinas.html
-Gastronómico|0|gastronomico.html
-Gastronómico|1|gastronomico/gastronomico.html
-Kiosco|0|kiosco.html
-Golosinas|1|kiosco/golosinas.html
-Chocolates|2|kiosco/golosinas/chocolates.html
-Bombones|2|kiosco/golosinas/bombones.html
-Postre de Mani|2|kiosco/golosinas/postre-de-mani.html
-Pastillas|2|kiosco/golosinas/pastillas.html
-Alfajores-Conitos|2|kiosco/golosinas/alfajores-conitos.html
-Barras De Cereal|2|kiosco/golosinas/barras-de-cereal.html
-Caramelos Duros|2|kiosco/golosinas/caramelos-duros.html
-Caramelos Masticables|2|kiosco/golosinas/caramelos-masticables.html
-Chicles|2|kiosco/golosinas/chicles.html
-Chupetines|2|kiosco/golosinas/chupetines.html
-Productos Pascuas|2|kiosco/golosinas/productos-pascuas.html
-Articulos De Librería|1|kiosco/articulos-de-libreria.html
-Articulos Cotillon|1|kiosco/articulos-cotillon.html
-Fosforos / Encendedores|1|kiosco/fosforos-encendedores.html
-Pilas Y Linternas|1|kiosco/pilas-y-linternas.html
-Indumentaria|0|indumentaria.html
-Calzado|1|indumentaria/calzado.html
-Limpieza|0|limpieza.html
-Baño|1|limpieza/bano.html
-Desodorante Inodoros|2|limpieza/bano/desodorante-inodoros.html
-Papel Higienico|2|limpieza/bano/papel-higienico.html
-Cocina|1|limpieza/cocina.html
-Bolsas|2|limpieza/cocina/bolsas.html
-Deterg / Lavavaj. Concentrados|2|limpieza/cocina/deterg-lavavaj-concentrados.html
-Detergentes / Lavavajillas|2|limpieza/cocina/detergentes-lavavajillas.html
-Esponjas-Fibra Esponjas|2|limpieza/cocina/esponjas-fibra-esponjas.html
-Guantes|2|limpieza/cocina/guantes.html
-Palilleros|2|limpieza/cocina/palilleros.html
-Papel Envoltura E Hilos|2|limpieza/cocina/papel-envoltura-e-hilos.html
-Rollos De Cocina|2|limpieza/cocina/rollos-de-cocina.html
-Servilletas|2|limpieza/cocina/servilletas.html
-Velas|2|limpieza/cocina/velas.html
-Desodorantes y Desinfectantes|1|limpieza/desodorantes-y-desinfectantes.html
-Des.Cont-Automaticos|2|limpieza/desodorantes-y-desinfectantes/des-cont-automaticos.html
-Desinf.Ambiente Liquido|2|limpieza/desodorantes-y-desinfectantes/desinf-ambiente-liquido.html
-Desinf.Ambientes|2|limpieza/desodorantes-y-desinfectantes/desinf-ambientes.html
-Desod. Ambientes|2|limpieza/desodorantes-y-desinfectantes/desod-ambientes.html
-Pisos y Superficies|1|limpieza/pisos-y-superficies.html
-Cepillos-Escobas|2|limpieza/pisos-y-superficies/cepillos-escobas.html
-Ceras P/Pisos|2|limpieza/pisos-y-superficies/ceras-p-pisos.html
-Lavandinas|2|limpieza/pisos-y-superficies/lavandinas.html
-Limpiadores|2|limpieza/pisos-y-superficies/limpiadores.html
-Limpiadores P/Pisos|2|limpieza/pisos-y-superficies/limpiadores-p-pisos.html
-Lustramuebles|2|limpieza/pisos-y-superficies/lustramuebles.html
-Secadores Y Sopapas|2|limpieza/pisos-y-superficies/secadores-y-sopapas.html
-Trapos D/Piso - Rejillas|2|limpieza/pisos-y-superficies/trapos-d-piso-rejillas.html
-Repelentes / Insecticidas|1|limpieza/repelentes-insecticidas.html
-Espirales|2|limpieza/repelentes-insecticidas/espirales.html
-Raticidas|2|limpieza/repelentes-insecticidas/raticidas.html
-Insecticidas|2|limpieza/repelentes-insecticidas/insecticidas.html
-Aparatos-Tabletas P/Mosq.|2|limpieza/repelentes-insecticidas/aparatos-tabletas-p-mosq.html
-Ropa|1|limpieza/ropa.html
-Aditivos P/Lavado|2|limpieza/ropa/aditivos-p-lavado.html
-Aprestos|2|limpieza/ropa/aprestos.html
-Broches|2|limpieza/ropa/broches.html
-Detergentes P/Ropa|2|limpieza/ropa/detergentes-p-ropa.html
-Enjuagues P/Ropa|2|limpieza/ropa/enjuagues-p-ropa.html
-Jab.Liquidos P/Lavar|2|limpieza/ropa/jab-liquidos-p-lavar.html
-Jabon En Pan|2|limpieza/ropa/jabon-en-pan.html
-Jabones En Polvo|2|limpieza/ropa/jabones-en-polvo.html
-Productos P/Calzado|2|limpieza/ropa/productos-p-calzado.html
-Lamparas|1|limpieza/lamparas.html
-Perfumeria|0|perfumeria.html
-Bebes|1|perfumeria/bebes.html
-Oleo y Aceites|2|perfumeria/bebes/oleo-y-aceites.html
-Pañales P/Bebe|2|perfumeria/bebes/panales-p-bebe.html
-Cabello|1|perfumeria/cabello.html
-Fijadores P/Cabello|2|perfumeria/cabello/fijadores-p-cabello.html
-Shamp-Cr-Acond.Fliar|2|perfumeria/cabello/shamp-cr-acond-fliar.html
-Shamp-Cr-Acond.Pers|2|perfumeria/cabello/shamp-cr-acond-pers.html
-Tinturas P/Cabello|2|perfumeria/cabello/tinturas-p-cabello.html
-Tratamiento Capilar|2|perfumeria/cabello/tratamiento-capilar.html
-Cuidado Bucal|1|perfumeria/cuidado-bucal.html
-Cepillos Dentales|2|perfumeria/cuidado-bucal/cepillos-dentales.html
-Cremas Dentales|2|perfumeria/cuidado-bucal/cremas-dentales.html
-Desodorantes Personales|1|perfumeria/desodorantes-personales.html
-Colonias - Locion|2|perfumeria/desodorantes-personales/colonias-locion.html
-Des-Antitr. Barra-Crema|2|perfumeria/desodorantes-personales/des-antitr-barra-crema.html
-Des-Antitr.Aerosol|2|perfumeria/desodorantes-personales/des-antitr-aerosol.html
-Des-Antitr.Roll.On|2|perfumeria/desodorantes-personales/des-antitr-roll-on.html
-Talcos Y Feculas|2|perfumeria/desodorantes-personales/talcos-y-feculas.html
-Jabones|1|perfumeria/jabones.html
-Jab.Liquido P/Manos|2|perfumeria/jabones/jab-liquido-p-manos.html
-Jabon De Tocador|2|perfumeria/jabones/jabon-de-tocador.html
-Productos para Afeitarse|1|perfumeria/productos-para-afeitarse.html
-Cremas-espumas p/afeitar|2|perfumeria/productos-para-afeitarse/cremas-espuma-afeitar.html
-Hojas Y Maquinas|2|perfumeria/productos-para-afeitarse/hojas-y-maquinas.html
-Lociones Aft|2|perfumeria/productos-para-afeitarse/lociones-aft.html
-Higiene Personal|1|perfumeria/higiene-personal.html
-Alcohol|2|perfumeria/higiene-personal/alcohol.html
-Algodones|2|perfumeria/higiene-personal/algodones.html
-Apositos|2|perfumeria/higiene-personal/apositos.html
-Hisopos|2|perfumeria/higiene-personal/hisopos.html
-T.Femeninas / Protectores|2|perfumeria/higiene-personal/t-femeninas-protectores.html
-Toallitas Humedas|2|perfumeria/higiene-personal/toallitas-humedas.html
-Preservativos|2|perfumeria/higiene-personal/preservativos.html
-Pañuelos|2|perfumeria/higiene-personal/panuelos.html
-Pañales Adultos|2|perfumeria/higiene-personal/panales-adultos.html
-Repelentes|2|perfumeria/higiene-personal/repelentes.html
-Azufre|1|perfumeria/azufre.html
-Bronceadores|1|perfumeria/bronceadores.html
-Cremas Para Rostro-Cuerpo|1|perfumeria/cremas-para-rostro-cuerpo.html
-Esmaltes|1|perfumeria/esmaltes.html
-Productos P/Mascotas|0|productos-p-mascotas.html
-Alimentos P/Mascotas|1|productos-p-mascotas/alimentos-p-mascotas.html
-Accesorios P/Mascotas|1|productos-p-mascotas/accesorios-p-mascotas.html
-Bebidas Con Alcohol|0|bebidas-con-alcohol.html
-Bebidas Espirituosas|1|bebidas-con-alcohol/bebidas-espirituosas.html
-Licores|2|bebidas-con-alcohol/bebidas-espirituosas/licores.html
-Licores Secos|2|bebidas-con-alcohol/bebidas-espirituosas/licores-secos.html
-Petacas|2|bebidas-con-alcohol/bebidas-espirituosas/petacas.html
-Piña Colada|2|bebidas-con-alcohol/bebidas-espirituosas/pina-colada.html
-Ron/Tequila|2|bebidas-con-alcohol/bebidas-espirituosas/ron-tequila.html
-Gin Y Vodka|2|bebidas-con-alcohol/bebidas-espirituosas/gin-y-vodka.html
-Ginebra|2|bebidas-con-alcohol/bebidas-espirituosas/ginebra.html
-Cognac Y Brandy|2|bebidas-con-alcohol/bebidas-espirituosas/cognac-y-brandy.html
-Anis|2|bebidas-con-alcohol/bebidas-espirituosas/anis.html
-Canas Y Grapas|2|bebidas-con-alcohol/bebidas-espirituosas/canas-y-grapas.html
-Whisky|2|bebidas-con-alcohol/bebidas-espirituosas/whisky.html
-Vinos|1|bebidas-con-alcohol/vinos.html
-Vino Seleccion|2|bebidas-con-alcohol/vinos/vino-finitos-y-seleccion.html
-Vinos En Tetra Brick|2|bebidas-con-alcohol/vinos/vinos-en-tetra-brick.html
-Vinos Frizantes|2|bebidas-con-alcohol/vinos/vinos-frizantes.html
-Vinos Generosos|2|bebidas-con-alcohol/vinos/vinos-generosos.html
-Vinos Tradicional|2|bebidas-con-alcohol/vinos/vinos-tradicional-y-genericos.html
-Vinos Varietales|2|bebidas-con-alcohol/vinos/vinos-varietales.html
-Vinos Alta Gama|2|bebidas-con-alcohol/vinos/vinos-alta-gama.html
-Aperitivos|1|bebidas-con-alcohol/aperitivos.html
-Cervezas|1|bebidas-con-alcohol/cervezas.html
-Champagne|1|bebidas-con-alcohol/champagne.html
-Fernet|1|bebidas-con-alcohol/fernet.html
-Sidras Y Sabores|1|bebidas-con-alcohol/sidras-y-sabores.html
-Bebidas Sin Alcohol|0|bebidas-sin-alcohol.html
-Aguas Minerales|1|bebidas-sin-alcohol/aguas-minerales.html
-Amargos|1|bebidas-sin-alcohol/amargos.html
-Energizantes|1|bebidas-sin-alcohol/energizantes.html
-Gaseosas|1|bebidas-sin-alcohol/gaseosas.html
-Jugos En Polvo|1|bebidas-sin-alcohol/jugos-en-polvo.html
-Jugos P/Beber|1|bebidas-sin-alcohol/jugos-p-beber.html
-Sidras|1|bebidas-sin-alcohol/sidras.html
-Aguas Saborizadas|1|bebidas-sin-alcohol/aguas-saborizadas-1832.html
-Jugos Concentrados|1|bebidas-sin-alcohol/jugos-concentrados.html
-Bebidas Isotonicas|1|bebidas-sin-alcohol/bebidas-isotonicas.html
-Bazar|0|bazar.html
-Acc.P/Limpieza|1|bazar/acc-p-limpieza.html
-Acc.P/Mate|1|bazar/acc-p-mate.html
-Acc.P/Cocina|1|bazar/acc-p-cocina.html
-Prod.Descartables|1|bazar/prod-descartables.html
-Electrodomesticos|0|electrodomesticos.html
-Audio|1|electrodomesticos/audio.html
-Cuid.Pers.|1|electrodomesticos/cuid-pers.html
-Cocina|1|electrodomesticos/cocina.html
-Peq.Elect.|1|electrodomesticos/peq-elect.html
-TV|1|electrodomesticos/tv.html
-Aire y Vent.|1|electrodomesticos/aire-vent.html
-Herramientas|1|electrodomesticos/herramientas.html
-Calefaccion|1|electrodomesticos/calefaccion.html
-Rodados|1|electrodomesticos/rodados.html
+rubro|url
+Comestibles > Aceites > Aceite Girasol|comestibles/aceites/aceite-girasol.html
+Comestibles > Aceites > Aceite Oliva|comestibles/aceites/aceite-oliva.html
+Comestibles > Aceites > Aceite Aerosol|comestibles/aceites/aceite-aerosol.html
+Comestibles > Aceites > Aceite Mezcla|comestibles/aceites/aceite-mezcla.html
+Comestibles > Aceites > Aceite Maiz|comestibles/aceites/aceite-maiz.html
+Comestibles > Aderezos y Condimentos > Condimentos / Especies|comestibles/aderezos-y-condimentos/condimentos-especies.html
+Comestibles > Aderezos y Condimentos > Mayonesas|comestibles/aderezos-y-condimentos/mayonesas.html
+Comestibles > Aderezos y Condimentos > Aderezos|comestibles/aderezos-y-condimentos/aderezos.html
+Comestibles > Aderezos y Condimentos > Jugos De Limon|comestibles/aderezos-y-condimentos/jugos-de-limon.html
+Comestibles > Cafe y Maltas > Cafe Molidos|comestibles/cafe-y-maltas/cafe-molidos.html
+Comestibles > Cafe y Maltas > Cafe Soluble|comestibles/cafe-y-maltas/cafe-soluble.html
+Comestibles > Cafe y Maltas > Maltas|comestibles/cafe-y-maltas/maltas.html
+Comestibles > Dulces y Mermeladas > Dulces De Leche|comestibles/dulces-y-mermeladas/dulces-de-leche.html
+Comestibles > Dulces y Mermeladas > Dulces En Cajon|comestibles/dulces-y-mermeladas/dulces-en-cajon.html
+Comestibles > Dulces y Mermeladas > Dulces En Lata|comestibles/dulces-y-mermeladas/dulces-en-lata.html
+Comestibles > Dulces y Mermeladas > Dulces Porcion|comestibles/dulces-y-mermeladas/dulces-porcion.html
+Comestibles > Dulces y Mermeladas > Mermeladas Pote|comestibles/dulces-y-mermeladas/mermeladas-pote.html
+Comestibles > Dulces y Mermeladas > Mermeladas-Jalea Frasco|comestibles/dulces-y-mermeladas/mermeladas-jalea-frasco.html
+Comestibles > Dulces y Mermeladas > Miel|comestibles/dulces-y-mermeladas/miel.html
+Comestibles > Endulzantes > Azucar|comestibles/endulzantes/azucar.html
+Comestibles > Endulzantes > Azucar Impalpable|comestibles/endulzantes/azucar-impalpable.html
+Comestibles > Endulzantes > Edulcorantes|comestibles/endulzantes/edulcorantes.html
+Comestibles > Conservas y Legumbres > Frutas Envasadas|comestibles/conservas-y-legumbres/frutas-envasadas.html
+Comestibles > Conservas y Legumbres > Legumbres secas|comestibles/conservas-y-legumbres/legumbres-secas.html
+Comestibles > Conservas y Legumbres > Legumbres En Lata|comestibles/conservas-y-legumbres/legumbres-en-lata.html
+Comestibles > Conservas y Legumbres > Morrones Varios|comestibles/conservas-y-legumbres/morrones-varios.html
+Comestibles > Conservas y Legumbres > Pescaderia|comestibles/conservas-y-legumbres/pescaderia.html
+Comestibles > Conservas y Legumbres > Pate/Picadillos|comestibles/conservas-y-legumbres/pate-picadillos.html
+Comestibles > Galletitas > Galletitas Crackers|comestibles/galletitas/galletitas-crackers.html
+Comestibles > Galletitas > Galletitas Dulces|comestibles/galletitas/galletitas-dulces.html
+Comestibles > Galletitas > Galletitas Saladas|comestibles/galletitas/galletitas-saladas.html
+Comestibles > Galletitas > Tostadas|comestibles/galletitas/tostadas.html
+Comestibles > Harinas y Premezclas > Harinas De Maiz / Polenta|comestibles/harinas-y-premezclas/harinas-de-maiz-polenta.html
+Comestibles > Harinas y Premezclas > Harinas De Trigo|comestibles/harinas-y-premezclas/harinas-de-trigo.html
+Comestibles > Harinas y Premezclas > Maizenas|comestibles/harinas-y-premezclas/maizenas.html
+Comestibles > Harinas y Premezclas > Harinas De Trigo Bolsas|comestibles/harinas-y-premezclas/harinas-de-trigo-bolsas.html
+Comestibles > Harinas y Premezclas > Semolas|comestibles/harinas-y-premezclas/semolas.html
+Comestibles > Harinas y Premezclas > Premezclas|comestibles/harinas-y-premezclas/premezclas.html
+Comestibles > Infusiones > Te En Sobres/Hebras|comestibles/infusiones/te-en-sobres-hebras.html
+Comestibles > Infusiones > Te Saborizado|comestibles/infusiones/te-saborizado.html
+Comestibles > Infusiones > Yerbas|comestibles/infusiones/yerbas.html
+Comestibles > Infusiones > Yerbas En Saquitos|comestibles/infusiones/yerbas-en-saquitos.html
+Comestibles > Linea Roja > Extracto De Tomate|comestibles/linea-roja/extracto-de-tomate.html
+Comestibles > Linea Roja > Pure De Tomates|comestibles/linea-roja/pure-de-tomates.html
+Comestibles > Linea Roja > Salsas|comestibles/linea-roja/salsas.html
+Comestibles > Linea Roja > Tomates|comestibles/linea-roja/tomates.html
+Comestibles > Linea Roja > Tomates Triturados|comestibles/linea-roja/tomates-triturados.html
+Comestibles > Reposteria > Bizcochuelos|comestibles/reposteria/bizcochuelos.html
+Comestibles > Reposteria > Flanes|comestibles/reposteria/flanes.html
+Comestibles > Reposteria > Helados En Polvo|comestibles/reposteria/helados-en-polvo.html
+Comestibles > Reposteria > Postres|comestibles/reposteria/postres.html
+Comestibles > Reposteria > Salsas Para Postres|comestibles/reposteria/salsas-para-postres.html
+Comestibles > Reposteria > Productos de Reposteria|comestibles/reposteria/productos-de-reposteria.html
+Comestibles > Reposteria > Chocolates Para Taza|comestibles/reposteria/chocolates-para-taza.html
+Comestibles > Reposteria > Gelatinas|comestibles/reposteria/gelatinas.html
+Comestibles > Fiestas > Pan Dulces - Budines|comestibles/fiestas/pan-dulces-budines.html
+Comestibles > Fiestas > Turrones y Confitura|comestibles/fiestas/turrones-confitura.html
+Comestibles > Fiestas > Cajas Navideñas|comestibles/fiestas/cajas-navidenas.html
+Fiambreria > Congelados > Hamburguesas De Carne|fiambreria/congelados/hamburguesas-de-carne.html
+Fiambreria > Congelados > Rebozado de pollo|fiambreria/congelados/rebozado-de-pollo.html
+Fiambreria > Congelados > Pescaderia Congelada|fiambreria/congelados/pescaderia-congelada.html
+Fiambreria > Congelados > Papa y Verduras Congeladas|fiambreria/congelados/papa-y-verduras-congeladas.html
+Fiambreria > Fiambres > Bondiolas|fiambreria/fiambres/bondiolas.html
+Fiambreria > Fiambres > Bondiolas al vacio|fiambreria/fiambres/bondiolas-al-vacio.html
+Fiambreria > Fiambres > Fiambre De Cerdo|fiambreria/fiambres/fiambre-de-cerdo.html
+Fiambreria > Fiambres > Fiambres P/Emparedados|fiambreria/fiambres/fiambres-p-emparedados.html
+Fiambreria > Fiambres > Jamones Cocidos|fiambreria/fiambres/jamones-cocidos.html
+Fiambreria > Fiambres > Jamones Crudos|fiambreria/fiambres/jamones-crudos.html
+Fiambreria > Fiambres > Lomos|fiambreria/fiambres/lomos.html
+Fiambreria > Fiambres > Matambres-Arrollados|fiambreria/fiambres/matambres-arrollados.html
+Fiambreria > Fiambres > Mortadelas|fiambreria/fiambres/mortadelas.html
+Fiambreria > Fiambres > Mortadelas Al Vacio|fiambreria/fiambres/mortadelas-al-vacio.html
+Fiambreria > Fiambres > Paletas cocidas|fiambreria/fiambres/paletas-cocidas.html
+Fiambreria > Fiambres > Pancetas/Pastron|fiambreria/fiambres/pancetas-pastron.html
+Fiambreria > Fiambres > Pernil De Cerdo|fiambreria/fiambres/pernil-de-cerdo.html
+Fiambreria > Fiambres > Quesos Cerdo / Morcilla / Chorizo|fiambreria/fiambres/quesos-cerdo-morcilla-chorizo.html
+Fiambreria > Fiambres > Salames|fiambreria/fiambres/salames.html
+Fiambreria > Fiambres > Salamines / Longanizas|fiambreria/fiambres/salamines-longanizas.html
+Fiambreria > Fiambres > Salchichones|fiambreria/fiambres/salchichones.html
+Fiambreria > Fiambres > Sopresatas-Cantimpalos|fiambreria/fiambres/sopresatas-cantimpalos.html
+Fiambreria > Fiambres > Fiambre Feteado|fiambreria/fiambres/fiambre-feteado.html
+Fiambreria > Lacteos > Flanes / Postres / Yoghurt|fiambreria/lacteos/flanes-postres-yoghurt.html
+Fiambreria > Lacteos > Leche sachet|fiambreria/lacteos/leche-sachet.html
+Fiambreria > Lacteos > Manteca|fiambreria/lacteos/manteca.html
+Fiambreria > Lacteos > Margarina|fiambreria/lacteos/margarina.html
+Fiambreria > Lacteos > Crema de leche.Ricota|fiambreria/lacteos/crema-de-leche-ricota.html
+Fiambreria > Quesos > Queso Azul|fiambreria/quesos/queso-azul.html
+Fiambreria > Quesos > Quesos Barra|fiambreria/quesos/quesos-barra.html
+Fiambreria > Quesos > Quesos Blandos|fiambreria/quesos/quesos-blandos.html
+Fiambreria > Quesos > Quesos Duros|fiambreria/quesos/quesos-duros.html
+Fiambreria > Quesos > Quesos untables|fiambreria/quesos/quesos-untables.html
+Fiambreria > Quesos > Quesos Rallados|fiambreria/quesos/quesos-rallados.html
+Fiambreria > Quesos > Quesos Semi-Blandos|fiambreria/quesos/quesos-semi-blandos.html
+Fiambreria > Quesos > Muzzarella|fiambreria/quesos/muzzarella.html
+Fiambreria > Quesos > Queso Feteado|fiambreria/quesos/queso-feteado.html
+Kiosco > Golosinas > Chocolates|kiosco/golosinas/chocolates.html
+Kiosco > Golosinas > Bombones|kiosco/golosinas/bombones.html
+Kiosco > Golosinas > Postre de Mani|kiosco/golosinas/postre-de-mani.html
+Kiosco > Golosinas > Pastillas|kiosco/golosinas/pastillas.html
+Kiosco > Golosinas > Alfajores-Conitos|kiosco/golosinas/alfajores-conitos.html
+Kiosco > Golosinas > Barras De Cereal|kiosco/golosinas/barras-de-cereal.html
+Kiosco > Golosinas > Caramelos Duros|kiosco/golosinas/caramelos-duros.html
+Kiosco > Golosinas > Caramelos Masticables|kiosco/golosinas/caramelos-masticables.html
+Kiosco > Golosinas > Chicles|kiosco/golosinas/chicles.html
+Kiosco > Golosinas > Chupetines|kiosco/golosinas/chupetines.html
+Kiosco > Golosinas > Productos Pascuas|kiosco/golosinas/productos-pascuas.html
+Limpieza > Baño > Desodorante Inodoros|limpieza/bano/desodorante-inodoros.html
+Limpieza > Baño > Papel Higienico|limpieza/bano/papel-higienico.html
+Limpieza > Cocina > Bolsas|limpieza/cocina/bolsas.html
+Limpieza > Cocina > Deterg / Lavavaj. Concentrados|limpieza/cocina/deterg-lavavaj-concentrados.html
+Limpieza > Cocina > Detergentes / Lavavajillas|limpieza/cocina/detergentes-lavavajillas.html
+Limpieza > Cocina > Esponjas-Fibra Esponjas|limpieza/cocina/esponjas-fibra-esponjas.html
+Limpieza > Cocina > Guantes|limpieza/cocina/guantes.html
+Limpieza > Cocina > Palilleros|limpieza/cocina/palilleros.html
+Limpieza > Cocina > Papel Envoltura E Hilos|limpieza/cocina/papel-envoltura-e-hilos.html
+Limpieza > Cocina > Rollos De Cocina|limpieza/cocina/rollos-de-cocina.html
+Limpieza > Cocina > Servilletas|limpieza/cocina/servilletas.html
+Limpieza > Cocina > Velas|limpieza/cocina/velas.html
+Limpieza > Desodorantes y Desinfectantes > Des.Cont-Automaticos|limpieza/desodorantes-y-desinfectantes/des-cont-automaticos.html
+Limpieza > Desodorantes y Desinfectantes > Desinf.Ambiente Liquido|limpieza/desodorantes-y-desinfectantes/desinf-ambiente-liquido.html
+Limpieza > Desodorantes y Desinfectantes > Desinf.Ambientes|limpieza/desodorantes-y-desinfectantes/desinf-ambientes.html
+Limpieza > Desodorantes y Desinfectantes > Desod. Ambientes|limpieza/desodorantes-y-desinfectantes/desod-ambientes.html
+Limpieza > Pisos y Superficies > Cepillos-Escobas|limpieza/pisos-y-superficies/cepillos-escobas.html
+Limpieza > Pisos y Superficies > Ceras P/Pisos|limpieza/pisos-y-superficies/ceras-p-pisos.html
+Limpieza > Pisos y Superficies > Lavandinas|limpieza/pisos-y-superficies/lavandinas.html
+Limpieza > Pisos y Superficies > Limpiadores|limpieza/pisos-y-superficies/limpiadores.html
+Limpieza > Pisos y Superficies > Limpiadores P/Pisos|limpieza/pisos-y-superficies/limpiadores-p-pisos.html
+Limpieza > Pisos y Superficies > Lustramuebles|limpieza/pisos-y-superficies/lustramuebles.html
+Limpieza > Pisos y Superficies > Secadores Y Sopapas|limpieza/pisos-y-superficies/secadores-y-sopapas.html
+Limpieza > Pisos y Superficies > Trapos D/Piso - Rejillas|limpieza/pisos-y-superficies/trapos-d-piso-rejillas.html
+Limpieza > Repelentes / Insecticidas > Espirales|limpieza/repelentes-insecticidas/espirales.html
+Limpieza > Repelentes / Insecticidas > Raticidas|limpieza/repelentes-insecticidas/raticidas.html
+Limpieza > Repelentes / Insecticidas > Insecticidas|limpieza/repelentes-insecticidas/insecticidas.html
+Limpieza > Repelentes / Insecticidas > Aparatos-Tabletas P/Mosq.|limpieza/repelentes-insecticidas/aparatos-tabletas-p-mosq.html
+Limpieza > Ropa > Aditivos P/Lavado|limpieza/ropa/aditivos-p-lavado.html
+Limpieza > Ropa > Aprestos|limpieza/ropa/aprestos.html
+Limpieza > Ropa > Broches|limpieza/ropa/broches.html
+Limpieza > Ropa > Detergentes P/Ropa|limpieza/ropa/detergentes-p-ropa.html
+Limpieza > Ropa > Enjuagues P/Ropa|limpieza/ropa/enjuagues-p-ropa.html
+Limpieza > Ropa > Jab.Liquidos P/Lavar|limpieza/ropa/jab-liquidos-p-lavar.html
+Limpieza > Ropa > Jabon En Pan|limpieza/ropa/jabon-en-pan.html
+Limpieza > Ropa > Jabones En Polvo|limpieza/ropa/jabones-en-polvo.html
+Limpieza > Ropa > Productos P/Calzado|limpieza/ropa/productos-p-calzado.html
+Perfumeria > Bebes > Oleo y Aceites|perfumeria/bebes/oleo-y-aceites.html
+Perfumeria > Bebes > Pañales P/Bebe|perfumeria/bebes/panales-p-bebe.html
+Perfumeria > Cabello > Fijadores P/Cabello|perfumeria/cabello/fijadores-p-cabello.html
+Perfumeria > Cabello > Shamp-Cr-Acond.Fliar|perfumeria/cabello/shamp-cr-acond-fliar.html
+Perfumeria > Cabello > Shamp-Cr-Acond.Pers|perfumeria/cabello/shamp-cr-acond-pers.html
+Perfumeria > Cabello > Tinturas P/Cabello|perfumeria/cabello/tinturas-p-cabello.html
+Perfumeria > Cabello > Tratamiento Capilar|perfumeria/cabello/tratamiento-capilar.html
+Perfumeria > Cuidado Bucal > Cepillos Dentales|perfumeria/cuidado-bucal/cepillos-dentales.html
+Perfumeria > Cuidado Bucal > Cremas Dentales|perfumeria/cuidado-bucal/cremas-dentales.html
+Perfumeria > Desodorantes Personales > Colonias - Locion|perfumeria/desodorantes-personales/colonias-locion.html
+Perfumeria > Desodorantes Personales > Des-Antitr. Barra-Crema|perfumeria/desodorantes-personales/des-antitr-barra-crema.html
+Perfumeria > Desodorantes Personales > Des-Antitr.Aerosol|perfumeria/desodorantes-personales/des-antitr-aerosol.html
+Perfumeria > Desodorantes Personales > Des-Antitr.Roll.On|perfumeria/desodorantes-personales/des-antitr-roll-on.html
+Perfumeria > Desodorantes Personales > Talcos Y Feculas|perfumeria/desodorantes-personales/talcos-y-feculas.html
+Perfumeria > Jabones > Jab.Liquido P/Manos|perfumeria/jabones/jab-liquido-p-manos.html
+Perfumeria > Jabones > Jabon De Tocador|perfumeria/jabones/jabon-de-tocador.html
+Perfumeria > Productos para Afeitarse > Cremas-espumas p/afeitar|perfumeria/productos-para-afeitarse/cremas-espuma-afeitar.html
+Perfumeria > Productos para Afeitarse > Hojas Y Maquinas|perfumeria/productos-para-afeitarse/hojas-y-maquinas.html
+Perfumeria > Productos para Afeitarse > Lociones Aft|perfumeria/productos-para-afeitarse/lociones-aft.html
+Perfumeria > Higiene Personal > Alcohol|perfumeria/higiene-personal/alcohol.html
+Perfumeria > Higiene Personal > Algodones|perfumeria/higiene-personal/algodones.html
+Perfumeria > Higiene Personal > Apositos|perfumeria/higiene-personal/apositos.html
+Perfumeria > Higiene Personal > Hisopos|perfumeria/higiene-personal/hisopos.html
+Perfumeria > Higiene Personal > T.Femeninas / Protectores|perfumeria/higiene-personal/t-femeninas-protectores.html
+Perfumeria > Higiene Personal > Toallitas Humedas|perfumeria/higiene-personal/toallitas-humedas.html
+Perfumeria > Higiene Personal > Preservativos|perfumeria/higiene-personal/preservativos.html
+Perfumeria > Higiene Personal > Pañuelos|perfumeria/higiene-personal/panuelos.html
+Perfumeria > Higiene Personal > Pañales Adultos|perfumeria/higiene-personal/panales-adultos.html
+Perfumeria > Higiene Personal > Repelentes|perfumeria/higiene-personal/repelentes.html
+Bebidas Con Alcohol > Bebidas Espirituosas > Licores|bebidas-con-alcohol/bebidas-espirituosas/licores.html
+Bebidas Con Alcohol > Bebidas Espirituosas > Licores Secos|bebidas-con-alcohol/bebidas-espirituosas/licores-secos.html
+Bebidas Con Alcohol > Bebidas Espirituosas > Petacas|bebidas-con-alcohol/bebidas-espirituosas/petacas.html
+Bebidas Con Alcohol > Bebidas Espirituosas > Piña Colada|bebidas-con-alcohol/bebidas-espirituosas/pina-colada.html
+Bebidas Con Alcohol > Bebidas Espirituosas > Ron/Tequila|bebidas-con-alcohol/bebidas-espirituosas/ron-tequila.html
+Bebidas Con Alcohol > Bebidas Espirituosas > Gin Y Vodka|bebidas-con-alcohol/bebidas-espirituosas/gin-y-vodka.html
+Bebidas Con Alcohol > Bebidas Espirituosas > Ginebra|bebidas-con-alcohol/bebidas-espirituosas/ginebra.html
+Bebidas Con Alcohol > Bebidas Espirituosas > Cognac Y Brandy|bebidas-con-alcohol/bebidas-espirituosas/cognac-y-brandy.html
+Bebidas Con Alcohol > Bebidas Espirituosas > Anis|bebidas-con-alcohol/bebidas-espirituosas/anis.html
+Bebidas Con Alcohol > Bebidas Espirituosas > Canas Y Grapas|bebidas-con-alcohol/bebidas-espirituosas/canas-y-grapas.html
+Bebidas Con Alcohol > Bebidas Espirituosas > Whisky|bebidas-con-alcohol/bebidas-espirituosas/whisky.html
+Bebidas Con Alcohol > Vinos > Vino Seleccion|bebidas-con-alcohol/vinos/vino-finitos-y-seleccion.html
+Bebidas Con Alcohol > Vinos > Vinos En Tetra Brick|bebidas-con-alcohol/vinos/vinos-en-tetra-brick.html
+Bebidas Con Alcohol > Vinos > Vinos Frizantes|bebidas-con-alcohol/vinos/vinos-frizantes.html
+Bebidas Con Alcohol > Vinos > Vinos Generosos|bebidas-con-alcohol/vinos/vinos-generosos.html
+Bebidas Con Alcohol > Vinos > Vinos Tradicional|bebidas-con-alcohol/vinos/vinos-tradicional-y-genericos.html
+Bebidas Con Alcohol > Vinos > Vinos Varietales|bebidas-con-alcohol/vinos/vinos-varietales.html
+Bebidas Con Alcohol > Vinos > Vinos Alta Gama|bebidas-con-alcohol/vinos/vinos-alta-gama.html

@@ -12,12 +12,32 @@ class Hash
 	end
 
 	def normalizar
-		Hash(keys, values)
+		Hash(keys.map(&:to_key), values.normalizar)
 	end
 
 	def normalizar!
-		keys.select{|key| !(Symbol === key)}.each{|key| self[key.to_sym] = self.delete(key) }
+		keys.select{|key| !(Symbol === key)}.each{|key| self[key.to_key] = self.delete(key).normalizar }
 		self 
+	end
+end
+
+class Array
+	def normalizar
+		map(&:normalizar)
+	end
+
+	def tabular
+		campos = first.keys
+		anchos = campos.map{|campo| map{|x| x[campo].to_s.size }.max}
+		puts "►  "+campos.zip(anchos).map{|campo, ancho| (campo.to_s.upcase + " " * ancho)[0...ancho]}.join("  ")
+		each do |x|
+			puts " - "+x.values.zip(anchos).map{|valor, ancho| (valor.to_s + " " * ancho)[0...ancho]}.join("  ")
+		end
+		puts ""
+	end
+
+	def to_rubro
+		map(&:strip).select{|x|x.size > 1}.join(" > ")
 	end
 end
 
@@ -25,11 +45,22 @@ class Object
 	def normalizar
 		self
 	end
+	def to_key
+		to_s.strip.gsub(" ","_").downcase.to_sym
+	end
 end
 
 module Enumerable
 	def normalizar
 		map(&:normalizar)
+	end
+
+	def repetidos
+		contar = Hash.new
+		contar.default = 0
+		each{ |valor| contar[yield(valor)] += 1  }
+
+		select{|valor| contar[yield(valor)] > 2}
 	end
 end
 
@@ -75,5 +106,11 @@ if __FILE__ == $0
 	
 	a = "$ 62,80"
 	p a.to_money
+	p [1,2].class
+	p [{x:10, y:"0000"},{x:"100000", y: 2}].tabular
+	a = [1, 1, 2, 2, 5, 6, 7, 8].sort
+	p a
+	# p a.select{|x| a.count(x) > 1}
+	p a.repetidos{|x|x}
 end
 
