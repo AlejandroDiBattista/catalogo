@@ -299,20 +299,20 @@ end
 # end
 # return 
 
-Archivo.buscar("jumbo/producto", :todo).each do |origen|
-	puts origen
-	productos = Archivo.leer(origen)
-	productos.each do |x|
-		x[:id] = ""
-	end
-	Archivo.escribir(productos, origen)
-end
+# Archivo.buscar("jumbo/producto", :todo).each do |origen|
+# 	puts origen
+# 	productos = Archivo.leer(origen)
+# 	productos.each do |x|
+# 		x[:id] = ""
+# 	end
+# 	Archivo.escribir(productos, origen)
+# end
 
 j = Jumbo.new
 
 Archivo.buscar("jumbo/producto", :todo).each do |origen|
 	puts origen
-	productos = Archivo.leer(origen).first(10)
+	productos = Archivo.leer(origen).first(20)
 	j.completar(productos)
 	productos.tabular
 	Archivo.escribir(productos, origen)
