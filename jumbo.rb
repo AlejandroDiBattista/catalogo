@@ -6,6 +6,19 @@ require 'open-uri'
 require_relative 'utils'
 require_relative 'archivo'
 
+Campos = :id, :nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen
+class Producto < Struct.new(*Campos)
+	def self.cargar(datos)
+		new.tap{|tmp| Campos.each{|campo| tmp[campo] = datos[campo]}}
+	end
+	def to_hash
+		Hash[Campos.map{|campo|[campo, self[campo]]}]
+	end
+end
+
+class Catalogo
+end
+
 class Web
 	def bajar_todo
 		puts "BAJANDO todos los datos de #{carpeta.upcase}"
@@ -110,9 +123,9 @@ class Jumbo < Web
 		datos.map do |d|
 			d[:children].map do |c|
 				if c[:children].size > 0
-					c[:children].map{|s|  {rubro: [ d[:name], c[:name], s[:name]].to_rubro, url: acortar(s[:url]) } }
+					c[:children].map{|s|  {rubro: [ d[:name], c[:name], s[:name]].to_rubro, url_producto: acortar(s[:url]) } }
 				else
-					{rubro: [d[:name], c[:name]].to_rubro, url: acortar(c[:url]) }
+					{rubro: [d[:name], c[:name]].to_rubro, url_producto: acortar(c[:url]) }
 				end
 			end
 		end.flatten.select{|x| incluir(x) }
@@ -120,8 +133,7 @@ class Jumbo < Web
 
 	def sku(url)
 		print "."
-		url = ubicar(url, :producto)
-		abrir(url) do |page|
+		abrir(ubicar(url, :producto)) do |page|
 			return page.css(".skuReference").text
 		end
 	end
@@ -143,10 +155,10 @@ class Jumbo < Web
 					productos << {
 						nombre:  x.css(".product-item__name a").text,
 						precio:  x.css(".product-prices__value--best-price").text.to_money,
-						rubro: 	 c[:rubro],
+						rubro: 	c[:rubro],
 						marca:   x.css(".product-item__brand").text,
-						url:     acortar(url),
-						url_imagen:  acortar_imagen(imagen),
+						url_producto: acortar(url),
+						url_imagen:   acortar_imagen(imagen),
 						id: "", 
 					}
 					print "."
@@ -206,8 +218,8 @@ class Tatito < Web
 					nombre:  x.css(".titulo_producto a").text,
 					precio:  x.css(".amount").text.to_money,
 					rubro: c[:rubro],
-					url: url.gsub(URL_Productos,""),
-					url_imagen: img(detalle).gsub(URL_Imagenes,""),
+					url_producto: acortar(url),
+					url_imagen:   acortar(img(detalle)),
 					id: sku(detalle),
 				}
 				print "."
@@ -228,7 +240,7 @@ class Tatito < Web
 
 	def bajar_imagenes(productos)
 		productos.each.with_index do |producto, i|
-			origen  = "#{URL_Imagenes}#{producto[:imagen]}"
+			origen  = ubicar(producto[:url_imagen], :imagen)
 			destino = "fotos/#{producto[:id]}.jpg"
 			unless origen.size == 0 || File.exist?(destino) 
 				print(".")
