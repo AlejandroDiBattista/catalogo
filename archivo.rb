@@ -7,7 +7,7 @@ module Archivo
 	def ubicar(camino, diario = false)
 		camino = [camino].flatten.map(&:to_s).join("/")
 		camino = "#{camino}.dsv" unless camino["."]
-		camino = camino.sub(".", Time.now.strftime("_%F")) if diario
+		camino = camino.sub(".", Time.now.strftime("_%F.")) if diario
 		camino
 	end
 
@@ -84,7 +84,7 @@ module Archivo
 		rescue 
 		end
 	end
-	
+
 end
 include Archivo
 

@@ -10,20 +10,21 @@ class Web
 	def bajar_todo
 		puts "BAJANDO todos los datos de #{carpeta.upcase}"
 		Dir.chdir carpeta do 
-			puts "- Bajando clasificacion..."
+			puts "► Bajando clasificacion..."
 			clasificacion = bajar_clasificacion()
-			Archivo.escribir(clasificacion, "clasificacion+")
-			Archivo.escribir(clasificacion, "clasificacion")
+			Archivo.escribir(clasificacion, :clasificacion, true)
+			Archivo.escribir(clasificacion, :clasificacion)
 			
-			puts "- Bajando productos..."
-			productos = bajar_productos(clasificacion)
+			puts "► Bajando productos..."
+			productos = bajar_productos(clasificacion.first(3))
 			Archivo.escribir(productos, :productos, true)
 			Archivo.escribir(productos, :productos)
 			
-			puts "- Bajando imagenes.."
+			puts "► Bajando imagenes..."
 			bajar_imagenes(productos)
 		end
 		puts "FIN."
+		self
 	end
 
 	def carpeta
@@ -82,16 +83,16 @@ class Jumbo < Web
 		when :clasificacion
 			"#{URL}/api/catalog_system/pub/category/tree/3"
 		when :productos 
-			"#{URL}/#{url}?PS=99"
+			"#{URL}#{url}?PS=99"
 		when :producto
-			"#{URL}/#{url}/p"
+			"#{URL}#{url}/p"
 		when :imagen 
 			"#{URL_Imagenes}/#{url}"
 		end
 	end
 	
 	def acortar(url)
-		url.gsub(URL,"").gsub(URL_Imagenes,"")
+		url.gsub(URL,"").gsub(URL_Imagenes,"").gsub(/\/p$/,"")
 	end
 
 	def bajar_clasificacion()
@@ -115,6 +116,10 @@ class Jumbo < Web
 		end
 	end
 
+	def acortar_imagen(url)
+		acortar(url).split("/")[1].split("-").first
+	end
+
 	def bajar_productos(clasificacion)
 		productos = []
 		clasificacion.each do |c|
@@ -131,8 +136,8 @@ class Jumbo < Web
 						rubro: 	 c[:rubro],
 						marca:   x.css(".product-item__brand").text,
 						url:     acortar(url),
-						url_imagen:  acortar(imagen),
-						# id: sku(url), 
+						url_imagen:  acortar_imagen(imagen),
+						id: "", 
 					}
 					print "."
 				end
@@ -143,11 +148,12 @@ class Jumbo < Web
 	end
 
 	def bajar_imagenes(productos, tamaño=512)
-		productos.each{|x| x[:imagen] = "#{x[:imagen]}-#{tamaño}-#{tamaño}"} if tamaño
+		productos.each{|x| x[:imagen] = "#{x[:url_imagen]}-#{tamaño}-#{tamaño}"} if tamaño
 		
 		productos.each.with_index do |producto, i|
-			origen  = ubicar(producto[:url_imagen], :imagen)
-			destino = "fotos/#{producto[:id]}.jpg"
+			url = "#{producto[:url_imagen]}-#{tamaño}-#{tamaño}"
+			origen  = ubicar(url, :imagen)
+			destino = "fotos/#{producto[:url_imagen]}.jpg"
 			unless File.exist?(destino)
 				print "."
 				puts if i % 100 == 0
@@ -305,9 +311,14 @@ end
 # 	Archivo.escribir(productos, origen)
 # end
 
+
 Jumbo.new.bajar_todo
+Tatito.new.bajar_todo
+Maxiconsumo.new.bajar_todo
+return 
 
 j = Jumbo.new
+
 Archivo.buscar("jumbo/producto", :todo).each do |origen|
 	puts origen
 	productos = Archivo.leer(origen)
