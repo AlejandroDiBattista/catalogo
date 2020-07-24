@@ -6,17 +6,27 @@ require 'open-uri'
 require_relative 'utils'
 require_relative 'archivo'
 
-Campos = :id, :nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen
+Campos = [:nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen, :id]
+
 class Producto < Struct.new(*Campos)
 	def self.cargar(datos)
-		new.tap{|tmp| Campos.each{|campo| tmp[campo] = datos[campo]}}
+		new.tap{|tmp| Campos.each{|campo| tmp[campo] = datos[campo]}}.normalizar
 	end
+
 	def to_hash
 		Hash[Campos.map{|campo|[campo, self[campo]]}]
+	end
+
+	def normalizar
+		self.precio = self.precio.to_f
+		self
 	end
 end
 
 class Catalogo
+	def self.leer(base)
+		Archivo.leer(ubicar("#{base}/productos", false)).map{|producto| pp producto;Producto.cargar(producto)}
+	end
 end
 
 class Web
@@ -24,17 +34,15 @@ class Web
 		puts "BAJANDO todos los datos de #{carpeta.upcase}"
 		Dir.chdir carpeta do 
 			puts "► Bajando clasificacion..."
-			clasificacion = bajar_clasificacion()
-			Archivo.escribir(clasificacion, :clasificacion, true)
-			Archivo.escribir(clasificacion, :clasificacion)
+			clasificacion = bajar_clasificacion().first(3)
 			
 			puts "► Bajando productos..."
-			productos = bajar_productos(clasificacion)
-			Archivo.escribir(productos, :productos, true)
-			Archivo.escribir(productos, :productos)
+			productos = bajar_productos(clasificacion).map{|x|Producto.cargar(x)}
+			Archivo.escribir(productos.map(&:to_hash), :productos, true)
+			Archivo.escribir(productos.map(&:to_hash), :productos)
 			
 			puts "► Bajando imagenes..."
-			bajar_imagenes(productos)
+			# bajar_imagenes(productos)
 		end
 		puts "FIN."
 		self
@@ -123,9 +131,9 @@ class Jumbo < Web
 		datos.map do |d|
 			d[:children].map do |c|
 				if c[:children].size > 0
-					c[:children].map{|s|  {rubro: [ d[:name], c[:name], s[:name]].to_rubro, url_producto: acortar(s[:url]) } }
+					c[:children].map{|s|  {rubro: [ d[:name], c[:name], s[:name]].to_rubro, url: acortar(s[:url]) } }
 				else
-					{rubro: [d[:name], c[:name]].to_rubro, url_producto: acortar(c[:url]) }
+					{rubro: [d[:name], c[:name]].to_rubro, url: acortar(c[:url]) }
 				end
 			end
 		end.flatten.select{|x| incluir(x) }
@@ -187,11 +195,33 @@ end
 
 class Tatito < Web
 	URL = "http://tatito.com.ar/tienda"
-	URL_Productos = "http://tatito.com.ar/producto"
-	URL_Imagenes = "http://tatito.com.ar/wp-content/uploads"
+	URL_Productos = "http://tatito.com.ar/tienda"
+	URL_Producto  = "http://tatito.com.ar/producto"
+	URL_Imagenes  = "http://tatito.com.ar/wp-content/uploads"
+
+	def ubicar(url = nil, modo = :clasificacion)
+		return url if url && url[":"]
+		modo = url if Symbol === url 
+		case modo
+		when :clasificacion
+			"#{URL}"
+		when :productos 
+			"#{URL_Productos}#{url}"
+		when :producto
+			"#{URL_Producto}#{url}"
+		when :imagen 
+			"#{URL_Imagenes}/#{url}"
+		end
+	end
+
+	def acortar(url)
+		url.gsub(URL,"").gsub(URL_Producto,"").gsub(URL_Productos,"").gsub(URL_Imagenes,"").gsub(/\/p$/,"")
+	end
 					
 	def bajar_clasificacion
-		page = Nokogiri::HTML(URI.open(URL))
+		url = ubicar(:clasificacion)
+		p url
+		page = Nokogiri::HTML(URI.open(url))
 		rubros = [nil,nil]
 		page.css('#checkbox_15_2 option').map do |x|
 			rubro = x.text.gsub("\u00A0"," ").gsub("\u00E9","é").strip 
@@ -206,7 +236,7 @@ class Tatito < Web
 	def bajar_productos(clasificacion)
 		productos = []
 		clasificacion.each do |c|
-			url = "#{URL}/#{c[:url]}"
+			url = ubicar(c[:url], :productos)
 			print " - #{url} > "
 
 			page = Nokogiri::HTML(URI.open(url))
@@ -215,9 +245,9 @@ class Tatito < Web
 				url = x.css(".pad15 a").first["href"]
 				detalle = Nokogiri::HTML(URI.open(url))
 				productos << {
-					nombre:  x.css(".titulo_producto a").text,
-					precio:  x.css(".amount").text.to_money,
-					rubro: c[:rubro],
+					nombre: x.css(".titulo_producto a").text,
+					precio: x.css(".amount").text.to_money,
+					rubro: 	c[:rubro],
 					url_producto: acortar(url),
 					url_imagen:   acortar(img(detalle)),
 					id: sku(detalle),
@@ -242,7 +272,7 @@ class Tatito < Web
 		productos.each.with_index do |producto, i|
 			origen  = ubicar(producto[:url_imagen], :imagen)
 			destino = "fotos/#{producto[:id]}.jpg"
-			unless origen.size == 0 || File.exist?(destino) 
+			unless origen.viacia? || File.exist?(destino) 
 				print(".")
 				puts if i % 100 == 0
 				puts "#{origen} => #{destino}" if ! Archivo.bajar(origen, destino)
@@ -307,53 +337,12 @@ class Maxiconsumo < Web
 	end
 end
 
+
+Maxiconsumo.muestra
+return 
 # Jumbo.muestra
 # Tatito.muestra
 # Maxiconsumo.muestra
-
-# Archivo.buscar("jumbo/producto", :historia).each do |origen|
-# 	puts origen
-# 	productos = Archivo.leer(origen)
-# 	productos.each do |x|
-# 		x[:rubro] = [x[:departamento], x[:categoria], x[:subcategoria]].to_rubro
-# 		x.delete(:departamento)
-# 		x.delete(:categoria)
-# 		x.delete(:subcategoria)
-# 	end
-# 	Archivo.escribir(productos, origen)
-# end
-# return 
-
-# Archivo.buscar("jumbo/producto", :todo).each do |origen|
-# 	puts origen
-# 	productos = Archivo.leer(origen)
-# 	productos.each do |x|
-# 		x[:id] = ""
-# 	end
-# 	Archivo.escribir(productos, origen)
-# end
-
-
-# Jumbo.new.bajar_todo
-# Tatito.new.bajar_todo
-# Maxiconsumo.new.bajar_todo
-
-# (Archivo.buscar("jumbo/producto", :historia) - [Archivo.buscar("jumbo/producto", :ultimo)]).each do |origen|
-# 	puts origen
-# 	productos = Archivo.leer(origen)
-# 	productos.each{|x|x[:id]=""}
-# 	# j.completar(productos)
-# 	Archivo.escribir(productos, origen)
-# end
-
-# return
-# j = Jumbo.new
-# Archivo.buscar("jumbo/producto", :todo).each do |origen|
-# 	puts origen
-# 	productos = Archivo.leer(origen)
-# 	j.completar(productos)
-# 	Archivo.escribir(productos, origen)
-# end
 
 def listar(base, filtro=nil, &condicion)
 	aux = filtro ? lambda{|x| x.values.any?{|y| filtro === y} } : nil 

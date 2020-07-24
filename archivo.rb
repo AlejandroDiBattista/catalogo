@@ -34,16 +34,17 @@ module Archivo
 	def leer(camino = :datos)
 		datos  = CSV.open(ubicar(camino), :col_sep => "|")
 		campos = datos.shift.map(&:to_key)
-		datos.map{|x| Hash(campos, x)}.normalizar
+		datos.map{|valores| Hash(campos, valores)}.normalizar
 	end
 
 	def escribir(datos, camino = :datos, diario = false)
 		campos = datos.map(&:keys).uniq.flatten
 		CSV.open(ubicar(camino, diario), "wb", :col_sep => "|") do |csv|
-			csv << campos.map(&:to_key).map(&:upcase)
-			datos.each{|x| csv << campos.map{|c| x[c] } }
+			csv << campos.map(&:to_key)
+			datos.each{|valores| csv << campos.map{|campo| valores[campo] } }
 		end
 		puts "  Escribir #{camino} (#{datos.count})"
+		datos
 	end
 
 	 def bajar(origen, destino, forzar=false)
