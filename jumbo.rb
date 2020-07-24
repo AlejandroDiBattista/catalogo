@@ -16,7 +16,7 @@ class Web
 			Archivo.escribir(clasificacion, :clasificacion)
 			
 			puts "► Bajando productos..."
-			productos = bajar_productos(clasificacion.first(3))
+			productos = bajar_productos(clasificacion)
 			Archivo.escribir(productos, :productos, true)
 			Archivo.escribir(productos, :productos)
 			
@@ -315,10 +315,8 @@ end
 Jumbo.new.bajar_todo
 Tatito.new.bajar_todo
 Maxiconsumo.new.bajar_todo
-return 
 
 j = Jumbo.new
-
 Archivo.buscar("jumbo/producto", :todo).each do |origen|
 	puts origen
 	productos = Archivo.leer(origen)
