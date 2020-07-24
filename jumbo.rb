@@ -286,11 +286,34 @@ end
 # Tatito.muestra
 # Maxiconsumo.muestra
 
+# Archivo.buscar("jumbo/producto", :historia).each do |origen|
+# 	puts origen
+# 	productos = Archivo.leer(origen)
+# 	productos.each do |x|
+# 		x[:rubro] = [x[:departamento], x[:categoria], x[:subcategoria]].to_rubro
+# 		x.delete(:departamento)
+# 		x.delete(:categoria)
+# 		x.delete(:subcategoria)
+# 	end
+# 	Archivo.escribir(productos, origen)
+# end
+# return 
+
+Archivo.buscar("jumbo/producto", :todo).each do |origen|
+	puts origen
+	productos = Archivo.leer(origen)
+	productos.each do |x|
+		x[:id] = ""
+	end
+	Archivo.escribir(productos, origen)
+end
+
 j = Jumbo.new
 
 Archivo.buscar("jumbo/producto", :todo).each do |origen|
 	puts origen
-	a = Archivo.leer(origen)
-	j.completar(a)
-	a.tabular
+	productos = Archivo.leer(origen).first(10)
+	j.completar(productos)
+	productos.tabular
+	Archivo.escribir(productos, origen)
 end
