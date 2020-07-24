@@ -73,6 +73,18 @@ module Archivo
 	def fotos
 		Dir["fotos/*.jpg"]
 	end
+
+	def abrir(url)
+		begin
+			if block_given?
+				URI.open(url){|f| yield(Nokogiri::HTML(f)) }
+			else
+				Nokogiri::HTML(URI.open(url))
+			end
+		rescue 
+		end
+	end
+	
 end
 include Archivo
 
@@ -82,4 +94,5 @@ if __FILE__ == $0
 	pp buscar("jumbo/clasificacion", :ultimo)
 	pp buscar("jumbo/clasificacion", :historia)
 	pp buscar("jumbo/clasificacion", :todo)
+	pp buscar("jumbo/producto", :todo)
 end

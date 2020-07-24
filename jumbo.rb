@@ -36,13 +36,39 @@ class Web
 		tmp = new 
 
 		puts "► Muestra productos de #{tmp.carpeta.upcase}"
-		tmp.bajar_productos(tmp.bajar_clasificacion.first(3)).first(10).tabular
+		productos = tmp.bajar_productos(tmp.bajar_clasificacion.first(3)).first(10)
+		productos.tabular
 		puts "■ %0.1fs \n" % (Time.new - inicio)
+		productos
+	end
+
+	def registrar(productos)
+		@datos ||= {}
+		productos.each do |x|
+			if x[:id].to_s.strip.size > 0
+				@datos[x[:url]] ||= x[:id]
+			end
+		end
+	end
+
+	def completar(productos)
+		@datos ||= {}
+		productos.each do |x|
+			url = ubicar(x[:url], :producto)
+			@datos[url] ||= sku(url)
+			x[:id] = @datos[url]
+			print x[:id]
+		end
+		puts
+	end
+
+	def sku(url)
+		url.to_key
 	end
 end
 
 class Jumbo < Web
-	URL = 'https://www.jumbo.com.ar/'
+	URL = 'https://www.jumbo.com.ar'
 	URL_Imagenes = "https://jumboargentina.vteximg.com.br/arquivos/ids"
 
 	def incluir(item)
@@ -51,37 +77,64 @@ class Jumbo < Web
 		validos.include?(departamento)	
 	end
 
+	def ubicar(url = nil, modo = :clasificacion)
+		return url if url && url[":"]
+		modo = url if Symbol === url 
+		case modo
+		when :clasificacion
+			"#{URL}/api/catalog_system/pub/category/tree/3"
+		when :productos 
+			"#{URL}/#{url}?PS=99"
+		when :producto
+			"#{URL}/#{url}/p"
+		when :imagen 
+			"#{URL_Imagenes}/#{url}"
+		end
+	end
+	
+	def acortar(url)
+		url.gsub(URL,"").gsub(URL_Imagenes,"")
+	end
+
 	def bajar_clasificacion()
-		datos = JSON(URI.open("#{URL}api/catalog_system/pub/category/tree/3").read).normalizar
+		datos = JSON(URI.open(ubicar(:clasificacion)).read).normalizar
 		datos.map do |d|
 			d[:children].map do |c|
 				if c[:children].size > 0
-					c[:children].map{|s|  {rubro: [ d[:name], c[:name], s[:name]].join(" > "), url: s[:url].gsub(URL,"") } }
+					c[:children].map{|s|  {rubro: [ d[:name], c[:name], s[:name]].to_rubro, url: acortar(s[:url]) } }
 				else
-					{rubro: [d[:name], c[:name]].join(" > "), url: c[:url].gsub(URL,"")}
+					{rubro: [d[:name], c[:name]].to_rubro, url: acortar(c[:url]) }
 				end
 			end
 		end.flatten.select{|x| incluir(x) }
 	end
 
+	def sku(url)
+		print "."
+		url = ubicar(url, :producto)
+		puts url
+		abrir(url) do |page|
+			return page.css(".skuReference").text
+		end
+	end
+
 	def bajar_productos(clasificacion)
 		productos = []
 		clasificacion.each do |c|
-			url = "#{URL}#{c[:url]}?PS=99"
-
+			url = ubicar(c[:url], :productos)
 			print " - #{url} > "
 			page = Nokogiri::HTML(URI.open(url))
 			page.css('.product-shelf li').each do |x|
 				if x.css(".product-item__name a").text.strip.size > 0 
-					url = x.css(".product-item__name a").first["href"]
-					imagen = x.css(".product-item__image-link img").first["src"][/.*\/(\d+)-.*/, 1]
+					url    = x.css(".product-item__name a").first["href"]
+					imagen = x.css(".product-item__image-link img").first["src"]
 					productos << {
 						nombre:  x.css(".product-item__name a").text,
 						precio:  x.css(".product-prices__value--best-price").text.to_money,
-						rubro: c[:rubro],
+						rubro: 	 c[:rubro],
 						marca:   x.css(".product-item__brand").text,
-						url:    url.split("/")[3],
-						url_imagen:  imagen,
+						url:     acortar(url),
+						url_imagen:  acortar(imagen),
 						# id: sku(url), 
 					}
 					print "."
@@ -92,15 +145,11 @@ class Jumbo < Web
 		productos.compact.uniq
 	end
 
-	def sku(url)	
-		Nokogiri::HTML(URI.open(url)).css(".skuReference").text
-	end
-
 	def bajar_imagenes(productos, tamaño=512)
 		productos.each{|x| x[:imagen] = "#{x[:imagen]}-#{tamaño}-#{tamaño}"} if tamaño
 		
 		productos.each.with_index do |producto, i|
-			origen  = "#{URL_Imagenes}/#{producto[:imagen]}"
+			origen  = ubicar(producto[:url_imagen], :imagen)
 			destino = "fotos/#{producto[:id]}.jpg"
 			unless File.exist?(destino)
 				print "."
@@ -125,7 +174,7 @@ class Tatito < Web
 			nivel = rubro[0..0] == "-" ? 1 : 0
 			rubros[nivel] = rubro.gsub(/^-\s*/,"")
 			id = x["value"]
-			nivel == 1 ?  { rubro: rubros.join(" > "), url: "?filters=product_cat[#{id}]" } : nil 
+			nivel == 1 ?  { rubro: rubros.to_rubro, url: "?filters=product_cat[#{id}]" } : nil 
 		end.compact
 	end
 
@@ -191,7 +240,7 @@ class Maxiconsumo < Web
 			rubro[nivel] = x.text
 			url = x["href"].gsub(URL,"")
 
-			nivel == 2 ? {rubro: rubro.join(" > "), url: url } : nil 
+			nivel == 2 ? { rubro: rubro.to_rubro, url: url } : nil 
 		end	.compact
 	end
 
@@ -233,62 +282,15 @@ class Maxiconsumo < Web
 	end
 end
 
-
-# Jumbo.new.bajar_clasificacion.tabular
-# Tatito.new.bajar_clasificacion.tabular
-
-# Maxiconsumo.new.bajar_clasificacion.tabular
-# Jumbo.new.bajar_todo
-# Tatito.new.bajar_todo(1)
-# Maxiconsumo.new.bajar_todo(2)
-# departamento|categoria|subcategoria
-
-# buscar("jumbo/clasificacion*.*", :todo).first(100).each do |origen|
-# 	salida = []
-# 	Archivo.leer(origen).each do |x|
-# 		rubro = [x[:departamento], x[:categoria],x[:subcategoria]].select{|x|x.size > 1 }
-# 		salida << {rubro: rubro.join(" > "), url: x[:url].gsub("https://www.jumbo.com.ar/","")}
-# 	end
-
-# 	salida.each{|x|puts "%-80s -> %s" % [x[:rubro], x[:url]]}
-
-# 	aux = salida.map{|x|x[:url]}
-# 	Archivo.escribir(salida, origen)
-# end
-# buscar("jumbo/clasificacion*.*", :todo).first(1).each do |origen|
-# 	salida = []
-# 	rubro  = [nil,nil,nil]
-# 	Archivo.leer(origen).each do |x|
-# 		nivel =  x[:nivel].to_i
-# 		rubro[nivel] = x[:rubro]
-# 		rubro[1] = nil if nivel < 1
-# 		rubro[2] = nil if nivel < 2
-# 		p rubro.compact.join(" > ") if nivel >= 0
-# 		salida << {rubro: rubro.compact.join(" > "), url: x[:url]} if nivel == 1
-# 	end
-
-# 	salida.each{|x|puts "%-80s -> %s" % [x[:rubro], x[:url]]}
-
-# 	aux = salida.map{|x|x[:url]}
-# 	# Archivo.escribir(salida, origen)
-# end
-
-# nombre|precio|url|imagen|rubro|nivel|id
-
 # Jumbo.muestra
 # Tatito.muestra
 # Maxiconsumo.muestra
-buscar("jumbo/productos*.*", :todo).first(1).each do |o|
-	a = Archivo.leer(o).map do |x|
-		x[:rubro] = [x[:departamento], x[:categoria], x[:subcategoria]].to_rubro
-		x.delete(:departamento)
-		x.delete(:categoria)
-		x.delete(:subcategoria)
-		x
-	end
 
-	Archivo.escribir(a, o)
-	puts o 
-	a.repetidos{|x|{nombre: x.nombre, marca: x.marca}}.tabular
-	p( [o, a.size,	a.map{|x|[x.nombre, x.marca, x.rubro, x.precio]}.uniq.size])
+j = Jumbo.new
+
+Archivo.buscar("jumbo/producto", :todo).each do |origen|
+	puts origen
+	a = Archivo.leer(origen)
+	j.completar(a)
+	a.tabular
 end
