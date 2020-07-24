@@ -7,7 +7,7 @@ require_relative 'utils'
 require_relative 'archivo'
 
 class Web
-	def bajar_todo(nivel=0)
+	def bajar_todo
 		puts "BAJANDO todos los datos de #{carpeta.upcase}"
 		Dir.chdir carpeta do 
 			puts "- Bajando clasificacion..."
@@ -16,10 +16,9 @@ class Web
 			Archivo.escribir(clasificacion, "clasificacion")
 			
 			puts "- Bajando productos..."
-			clasificacion = clasificacion.select{|x|x[:nivel] == nivel} if nivel > 0 
 			productos = bajar_productos(clasificacion)
-			Archivo.escribir(productos, "productos+")
-			Archivo.escribir(productos, "productos")
+			Archivo.escribir(productos, :productos, true)
+			Archivo.escribir(productos, :productos)
 			
 			puts "- Bajando imagenes.."
 			bajar_imagenes(productos)
@@ -57,7 +56,6 @@ class Web
 			url = ubicar(x[:url], :producto)
 			@datos[url] ||= sku(url)
 			x[:id] = @datos[url]
-			print x[:id]
 		end
 		puts
 	end
@@ -112,7 +110,6 @@ class Jumbo < Web
 	def sku(url)
 		print "."
 		url = ubicar(url, :producto)
-		puts url
 		abrir(url) do |page|
 			return page.css(".skuReference").text
 		end
@@ -308,12 +305,12 @@ end
 # 	Archivo.escribir(productos, origen)
 # end
 
-j = Jumbo.new
+Jumbo.new.bajar_todo
 
+j = Jumbo.new
 Archivo.buscar("jumbo/producto", :todo).each do |origen|
 	puts origen
-	productos = Archivo.leer(origen).first(20)
+	productos = Archivo.leer(origen)
 	j.completar(productos)
-	productos.tabular
 	Archivo.escribir(productos, origen)
 end
