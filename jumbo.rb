@@ -59,11 +59,16 @@ class Web
 	def completar(productos)
 		@datos ||= {}
 		productos.each do |x|
-			url = ubicar(x[:url], :producto)
+			url = x[:url]
 			@datos[url] ||= sku(url)
 			x[:id] = @datos[url]
 		end
 		puts
+	end
+
+	def registrados
+		@datos ||=0
+		@datos.count
 	end
 
 	def sku(url)
@@ -325,7 +330,6 @@ end
 # 	puts origen
 # 	productos = Archivo.leer(origen)
 # 	productos.each{|x|x[:id]=""}
-
 # 	# j.completar(productos)
 # 	Archivo.escribir(productos, origen)
 # end
@@ -364,6 +368,34 @@ def separar(descripcion)
 		return [descripcion.gsub(/\s\d.*$/,"").strip, "1 Kg"]
 	end
 	[descripcion, nil]
+end
+
+# 	# j.completar(productos)
+# 	Archivo.escribir(productos, origen)
+# end
+
+# return
+j = Jumbo.new
+
+puts "REGISTRANDO"
+Archivo.buscar("jumbo/producto", :todo).each do |origen|
+	productos = Archivo.leer(origen)
+	j.registrar(productos)
+	puts " > #{origen} #{productos.count{|x|x[:id].vacio?}}"
+end
+puts "Hay #{j.registrados}"
+puts "COMPLETANDO"
+
+
+Archivo.buscar("jumbo/producto", :todo).reverse.each do |origen|
+	puts origen
+	productos = Archivo.leer(origen)
+	vacios = productos.select{|x|x[:id].vacio?}
+	puts vacios.size
+	vacios.each_slice(20) do |lista|
+		j.completar(lista)
+		Archivo.escribir(productos, origen)
+	end
 end
 n = Jumbo.leer.map(&:nombre).uniq
 n = n.select{|x| !separar(x).last }
