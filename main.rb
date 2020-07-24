@@ -34,11 +34,11 @@ class Web
 		puts "BAJANDO todos los datos de #{carpeta.upcase}"
 		Dir.chdir carpeta do 
 			puts "► Bajando clasificacion..."
-			clasificacion = bajar_clasificacion().first(3)
+			clasificacion = bajar_clasificacion()
+			# clasificacion = clasificacion.first(3)
 			
 			puts "► Bajando productos..."
 			productos = bajar_productos(clasificacion).map{|x|Producto.cargar(x)}
-			Archivo.escribir(productos.map(&:to_hash), :productos, true)
 			Archivo.escribir(productos.map(&:to_hash), :productos)
 			
 			puts "► Bajando imagenes..."
@@ -52,12 +52,16 @@ class Web
 		self.class.to_s.downcase
 	end
 
-	def self.muestra
+	def self.muestra(breve=false)
 		inicio = Time.new
 		tmp = new 
 
 		puts "► Muestra productos de #{tmp.carpeta.upcase}"
-		productos = tmp.bajar_productos(tmp.bajar_clasificacion.first(3)).first(10)
+		clasificacion = tmp.bajar_clasificacion
+		clasificacion = clasificacion.first(3) if breve
+		productos = tmp.bajar_productos(clasificacion)
+		productos = productos.first(10) if breve
+		Archivo.escribir(productos, "#{tmp.carpeta}/productos.dsv")
 		productos.tabular
 		puts "■ %0.1fs \n" % (Time.new - inicio)
 		productos
@@ -140,7 +144,7 @@ class Jumbo < Web
 	end
 
 	def sku(url)
-		print "."
+		print "•"
 		abrir(ubicar(url, :producto)) do |page|
 			return page.css(".skuReference").text
 		end
@@ -164,12 +168,12 @@ class Jumbo < Web
 						nombre:  x.css(".product-item__name a").text,
 						precio:  x.css(".product-prices__value--best-price").text.to_money,
 						rubro: 	c[:rubro],
-						marca:   x.css(".product-item__brand").text,
+						# marca:   x.css(".product-item__brand").text,
 						url_producto: acortar(url),
 						url_imagen:   acortar_imagen(imagen),
 						id: "", 
 					}
-					print "."
+					print "•"
 				end
 			end
 			puts
@@ -185,7 +189,7 @@ class Jumbo < Web
 			origen  = ubicar(url, :imagen)
 			destino = "fotos/#{producto[:url_imagen]}.jpg"
 			unless File.exist?(destino)
-				print "."
+				print "•"
 				puts if i % 100 == 0
 				puts "#{origen} => #{destino}" if ! Archivo.bajar(origen, destino)
 			end
@@ -252,7 +256,7 @@ class Tatito < Web
 					url_imagen:   acortar(img(detalle)),
 					id: sku(detalle),
 				}
-				print "."
+				print "•"
 			end
 			puts
 		end
@@ -312,12 +316,11 @@ class Maxiconsumo < Web
 					nombre: x.css("h2 a").first["title"],
 					precio: x.css(".price").last.text.to_money,
 					rubro: c[:rubro],
-					url: "", 
+					url_producto: "", 
 					url_imagen: img,
-					nivel: c[:nivel],
 					id: x.css(".sku").text.gsub(/\D/,""),
 				}
-				print "."
+				print "•"
 			end
 			puts
 		end
@@ -338,6 +341,8 @@ class Maxiconsumo < Web
 end
 
 
+# Jumbo.muestra
+# Tatito.muestra
 Maxiconsumo.muestra
 return 
 # Jumbo.muestra
