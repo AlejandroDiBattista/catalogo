@@ -383,10 +383,8 @@ puts "Hay #{j.registrados}"
 puts "COMPLETANDO"
 
 Archivo.buscar("jumbo/producto", :todo).reverse.each do |origen|
-	puts origen
 	productos = Archivo.leer(origen)
 	vacios = productos.select{|x|x[:id].vacio?}
-	puts vacios.size
 	vacios.each_slice(10) do |lista|
 		j.completar(lista)
 		Archivo.escribir(productos, origen)

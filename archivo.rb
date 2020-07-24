@@ -43,7 +43,7 @@ module Archivo
 			csv << campos.map(&:to_key)
 			datos.each{|valores| csv << campos.map{|campo| valores[campo] } }
 		end
-		puts "  Escribir #{camino} (#{datos.count})"
+		puts "  Escribir #{camino} (#{datos.count} > #{datos.count{|x|x.id.vacio?}})"
 		datos
 	end
 
