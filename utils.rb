@@ -32,18 +32,18 @@ class Array
 		anchos = campos.map{|campo| map{|x| x[campo].to_s.size }.max}
 		puts "►  "+campos.zip(anchos).map{|campo, ancho| (campo.to_s.upcase + " " * ancho)[0...ancho]}.join("  ")
 		each do |x|
-			puts " - "+x.values.zip(anchos).map{|valor, ancho| (valor.to_s + " " * ancho)[0...ancho]}.join("  ")
+			puts " • "+x.values.zip(anchos).map{|valor, ancho| (valor.to_s + " " * ancho)[0...ancho]}.join("  ")
 		end
 		puts ""
 	end
 
-def listar(titulo="Listado")
-	return if count == 0
-	puts titulo if titulo
-	puts " > %-60s %6s  %s" % ["Nombre", "Precio", "Rubro"]
-	each{|x| puts " - %-60s %6.2f  %s" % [x.nombre[0...60], x.precio.to_f, x.rubro]}
-	puts 
-end
+	def listar(titulo="Listado")
+		return if count == 0
+		puts titulo if titulo
+		puts " > %-60s %6s | %s" % ["Nombre", "Precio", "Rubro"]
+		each{|x| puts " • %-60s %6.2f | %s" % [x.nombre[0...60], x.precio.to_f, x.rubro]}
+		puts 
+	end
 
 	def to_rubro
 		map(&:strip).select{|x|x.size > 1}.join(" > ")
@@ -54,9 +54,11 @@ class Object
 	def normalizar
 		self
 	end
+
 	def to_key
 		to_s.strip.gsub(" ","_").downcase.to_sym
 	end
+
 	def vacio?
 		to_s.strip.size < 3
 	end
@@ -129,6 +131,15 @@ if __FILE__ == $0
 end
 
 puts "---"
-a = "ahola  x1kg".match(/(.*)\s+x?(.*$)/)
+class String
+	def separar_unidad
+		if a = match(/\s*(\w.*)\s+x?([0-9.,]+.*)\s*$/i)
+			return [a[1], a[2]]
+		end
+		[self, nil]
 
-pp [a[1], a[2]] if a 
+	end
+end
+a = "VINO FCA.NATAL ROB.CAB.SAU 750 cc".separar_unidad
+
+pp a

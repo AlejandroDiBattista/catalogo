@@ -25,7 +25,7 @@ end
 
 class Catalogo
 	def self.leer(base)
-		Archivo.leer(ubicar("#{base}/productos", false)).map{|producto| pp producto;Producto.cargar(producto)}
+		Archivo.leer(ubicar("#{base}/productos", false)).map{|producto| Producto.cargar(producto)}
 	end
 end
 
@@ -76,7 +76,7 @@ class Web
 		@datos ||= {}
 		productos.each do |x|
 			if x[:id].to_s.strip.size > 0
-				@datos[x[:url]] ||= x[:id]
+				@datos[x[:url_producto]] ||= x[:id]
 			end
 		end
 	end
@@ -84,7 +84,7 @@ class Web
 	def completar(productos)
 		@datos ||= {}
 		productos.each do |x|
-			url = x[:url]
+			url = x[:url_producto]
 			@datos[url] ||= sku(url)
 			x[:id] = @datos[url]
 		end
@@ -340,15 +340,6 @@ class Maxiconsumo < Web
 	end
 end
 
-
-# Jumbo.muestra
-# Tatito.muestra
-Maxiconsumo.muestra
-return 
-# Jumbo.muestra
-# Tatito.muestra
-# Maxiconsumo.muestra
-
 def listar(base, filtro=nil, &condicion)
 	aux = filtro ? lambda{|x| x.values.any?{|y| filtro === y} } : nil 
 
@@ -360,27 +351,26 @@ def listar(base, filtro=nil, &condicion)
 	lista.listar("Listado #{base}")
 end
 
-condicion = /arroz.*gallo/i
-listar :jumbo, condicion
-listar :maxiconsumo,condicion
-listar :tatito, condicion
-
-return
-def separar(descripcion)
-	if /x kg/i === descripcion
-		return [descripcion.gsub(/x kg.*$/i,"").strip, "1 Kg"]
-	end
-	if /\s\d.*$/ === descripcion
-		return [descripcion.gsub(/\s\d.*$/,"").strip, "1 Kg"]
-	end
-	[descripcion, nil]
+if false
+	a = Catalogo.leer(:maxiconsumo).map(&:nombre)
+	b = a.map(&:separar_unidad).sort_by(&:first)
+	b.select{|x|x.last}.map(&:last).uniq.sort.each{|x|pp x}
+end
+if false
+	Jumbo.muestra
+	Tatito.muestra
+	Maxiconsumo.muestra
+	return 
 end
 
-# 	# j.completar(productos)
-# 	Archivo.escribir(productos, origen)
-# end
+if false
+	condicion = /arroz.*gallo/i
+	listar :jumbo, condicion
+	listar :maxiconsumo,condicion
+	listar :tatito, condicion
+	return
+end
 
-# return
 j = Jumbo.new
 
 puts "REGISTRANDO"
@@ -392,17 +382,18 @@ end
 puts "Hay #{j.registrados}"
 puts "COMPLETANDO"
 
-
 Archivo.buscar("jumbo/producto", :todo).reverse.each do |origen|
 	puts origen
 	productos = Archivo.leer(origen)
 	vacios = productos.select{|x|x[:id].vacio?}
 	puts vacios.size
-	vacios.each_slice(20) do |lista|
+	vacios.each_slice(10) do |lista|
 		j.completar(lista)
 		Archivo.escribir(productos, origen)
 	end
 end
+return 
+
 n = Jumbo.leer.map(&:nombre).uniq
 n = n.select{|x| !separar(x).last }
 n = n.select{|x| /d/ === x }
