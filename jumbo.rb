@@ -312,8 +312,8 @@ end
 # end
 
 
-Jumbo.new.bajar_todo
-Tatito.new.bajar_todo
+# Jumbo.new.bajar_todo
+# Tatito.new.bajar_todo
 Maxiconsumo.new.bajar_todo
 
 j = Jumbo.new
