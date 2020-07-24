@@ -42,6 +42,11 @@ class Web
 		productos
 	end
 
+	def self.leer
+		base = new.carpeta 
+		Archivo.leer("#{base}/productos.dsv")
+	end
+
 	def registrar(productos)
 		@datos ||= {}
 		productos.each do |x|
@@ -316,20 +321,53 @@ end
 # Tatito.new.bajar_todo
 # Maxiconsumo.new.bajar_todo
 
-(Archivo.buscar("jumbo/producto", :historia) - [Archivo.buscar("jumbo/producto", :ultimo)]).each do |origen|
-	puts origen
-	productos = Archivo.leer(origen)
-	productos.each{|x|x[:id]=""}
+# (Archivo.buscar("jumbo/producto", :historia) - [Archivo.buscar("jumbo/producto", :ultimo)]).each do |origen|
+# 	puts origen
+# 	productos = Archivo.leer(origen)
+# 	productos.each{|x|x[:id]=""}
 
-	# j.completar(productos)
-	Archivo.escribir(productos, origen)
+# 	# j.completar(productos)
+# 	Archivo.escribir(productos, origen)
+# end
+
+# return
+# j = Jumbo.new
+# Archivo.buscar("jumbo/producto", :todo).each do |origen|
+# 	puts origen
+# 	productos = Archivo.leer(origen)
+# 	j.completar(productos)
+# 	Archivo.escribir(productos, origen)
+# end
+
+def listar(base, filtro=nil, &condicion)
+	aux = filtro ? lambda{|x| x.values.any?{|y| filtro === y} } : nil 
+
+	# puts ">>#{base.to_s.capitalize}"
+	lista = Archivo.leer("#{base}/productos.dsv")
+	lista = lista.map{|x|{nombre: x.nombre, precio: x.precio, rubro: x.rubro}}
+	lista = lista.select{|x| block_given? && condicion[x] || !aux.nil? && aux[x]}
+	lista = lista.sort_by(&:nombre)#{|x|x.nombre}
+	lista.listar("Listado #{base}")
 end
+
+condicion = /arroz.*gallo/i
+listar :jumbo, condicion
+listar :maxiconsumo,condicion
+listar :tatito, condicion
 
 return
-j = Jumbo.new
-Archivo.buscar("jumbo/producto", :todo).each do |origen|
-	puts origen
-	productos = Archivo.leer(origen)
-	j.completar(productos)
-	Archivo.escribir(productos, origen)
+def separar(descripcion)
+	if /x kg/i === descripcion
+		return [descripcion.gsub(/x kg.*$/i,"").strip, "1 Kg"]
+	end
+	if /\s\d.*$/ === descripcion
+		return [descripcion.gsub(/\s\d.*$/,"").strip, "1 Kg"]
+	end
+	[descripcion, nil]
 end
+n = Jumbo.leer.map(&:nombre).uniq
+n = n.select{|x| !separar(x).last }
+n = n.select{|x| /d/ === x }
+
+# pp n.map{|x|separar(x).first}.first(20)
+puts n.first(20)

@@ -27,6 +27,7 @@ class Array
 	end
 
 	def tabular
+		return if count == 0
 		campos = first.keys
 		anchos = campos.map{|campo| map{|x| x[campo].to_s.size }.max}
 		puts "►  "+campos.zip(anchos).map{|campo, ancho| (campo.to_s.upcase + " " * ancho)[0...ancho]}.join("  ")
@@ -35,6 +36,14 @@ class Array
 		end
 		puts ""
 	end
+
+def listar(titulo="Listado")
+	return if count == 0
+	puts titulo if titulo
+	puts " > %-60s %6s  %s" % ["Nombre", "Precio", "Rubro"]
+	each{|x| puts " - %-60s %6.2f  %s" % [x.nombre[0...60], x.precio.to_f, x.rubro]}
+	puts 
+end
 
 	def to_rubro
 		map(&:strip).select{|x|x.size > 1}.join(" > ")
@@ -83,6 +92,8 @@ class String
 	end
 end
 
+
+
 if __FILE__ == $0 
 	a = Hash([:x, "y", "z"], [10, 20, 40])
 	b = Hash([[:a, 100], [:b, 200]])
@@ -114,3 +125,7 @@ if __FILE__ == $0
 	p a.repetidos{|x|x}
 end
 
+puts "---"
+a = "ahola  x1kg".match(/(.*)\s+x?(.*$)/)
+
+pp [a[1], a[2]] if a 
