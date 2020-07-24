@@ -48,6 +48,9 @@ class Object
 	def to_key
 		to_s.strip.gsub(" ","_").downcase.to_sym
 	end
+	def vacio?
+		to_s.strip.size < 3
+	end
 end
 
 module Enumerable
