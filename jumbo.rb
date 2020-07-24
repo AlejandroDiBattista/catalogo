@@ -314,8 +314,18 @@ end
 
 # Jumbo.new.bajar_todo
 # Tatito.new.bajar_todo
-Maxiconsumo.new.bajar_todo
+# Maxiconsumo.new.bajar_todo
 
+(Archivo.buscar("jumbo/producto", :historia) - [Archivo.buscar("jumbo/producto", :ultimo)]).each do |origen|
+	puts origen
+	productos = Archivo.leer(origen)
+	productos.each{|x|x[:id]=""}
+
+	# j.completar(productos)
+	Archivo.escribir(productos, origen)
+end
+
+return
 j = Jumbo.new
 Archivo.buscar("jumbo/producto", :todo).each do |origen|
 	puts origen
