@@ -1,4 +1,5 @@
 $stdout.sync = true
+require 'parallel'
 
 class Hash 
 	def method_missing(meth, *args, &blk)
@@ -78,6 +79,15 @@ module Enumerable
 
 		select{|valor| contar[yield(valor)] > 2}
 	end
+
+	def procesar(hilos=50)
+		progreso = Progreso.new 
+		Parallel.each(to_a, in_threads: hilos) do |item|
+			yeild(item)
+			progreso.avanzar
+		end
+		progreso.finalizar
+	end
 end
 
 def Hash(campos, valores=nil)
@@ -99,6 +109,26 @@ class String
 	end
 end
 
+
+class Progreso
+	attr_accessor :cuenta 
+
+	def initialize
+		self.cuenta = 0 
+	end
+	def avanzar
+		print "●" 
+		self.cuenta += 1 
+		print " " if self.cuenta % 10 == 0 
+		print " " if self.cuenta % 50 == 0
+		puts if self.cuenta % 100 == 0
+		puts if self.cuenta % 500 == 0
+	end
+
+	def finalizar
+		print " " unless self.cuenta % 100 == 0 
+	end
+end
 
 
 if __FILE__ == $0 
