@@ -3,28 +3,54 @@ require 'JSON'
 require 'open-uri'
 require_relative 'utils'
 require_relative 'archivo'
+require "parallel"
 
 class Web
-	def bajar_todo
+	def bajar_todo(datos=false)
 		destino = [carpeta, :productos]
 		puts "BAJANDO todos los datos de #{carpeta.upcase}"
 		
-		puts "► Bajando clasificacion..."
-		clasificacion = bajar_clasificacion()#.first(3)
-		
-		puts "► Bajando productos..."
-		productos = bajar_productos(clasificacion)
-		Archivo.escribir(productos, destino)
-		Archivo.preservar(destino)
+		if datos
+			puts "► Bajando clasificacion..."
+			clasificacion = bajar_clasificacion()#.first(3)
+			
+			puts "► Bajando productos..."
+			productos = bajar_productos(clasificacion)
+			Archivo.escribir(productos, destino)
+			Archivo.preservar(destino)
+			completar_id()
+		end
 
 		puts "► Bajando imagenes..."
-		completar_id()
-
-		productos = Archivo.leer(destino)
-		bajar_imagenes(productos)
+		bajar_imagenes
 		puts "FIN."
 		puts
 		self
+	end
+
+	def foto(id)
+		"#{carpeta}/fotos/#{id}.jpg"
+	end
+
+	def bajar_imagenes(forzar=false)
+		productos = []
+		Archivo.listar(carpeta, :productos) do |origen|
+			Archivo.leer(origen).each  do |producto|
+				productos << { url_imagen: producto.url_imagen, id: producto.id } 
+			end
+		end
+		productos = productos.uniq.select{|producto| (forzar || ! File.exist?( foto(producto.id ))) && ! producto.url_imagen.vacio? }
+
+		i = 0
+		Parallel.each(productos, in_threads: 50) do |producto|
+			origen  = ubicar(producto.url_imagen, :imagen)
+			destino = foto(producto.id)
+			print "•"
+			print " #{producto.id} " unless Archivo.bajar(origen, destino, forzar)
+			puts if i % 100 == 99
+			i += 1
+		end
+		puts 
 	end
 
 	def datos
@@ -84,20 +110,7 @@ class Web
 	def carpeta
 		self.class.to_s.downcase
 	end
-
-	def bajar_imagenes(productos, forzar=false)
-		productos.each.with_index do |producto, i|
-			destino = "#{carpeta}/fotos/#{producto[:id]}.jpg"
-			unless producto.url_imagen.vacio? || File.exist?(destino) 
-				origen = ubicar(producto.url_imagen, :imagen)
-				print "•"
-				puts if i % 100 == 99
-				puts "#{origen} => #{destino}" unless Archivo.bajar(origen, destino, forzar)
-			end
-		end
-		puts 
-	end
-
+	
 end
 
 class Jumbo < Web
@@ -145,9 +158,10 @@ class Jumbo < Web
 
 	def bajar_productos(clasificacion)
 		productos = []
-		clasificacion.each do |c|
+		i = 0 
+		Parallel.each(clasificacion, in_threads: 1) do |c|
 			url = ubicar(c[:url], :productos)
-			print " - #{url} > "
+			# print " - %-60s | " % c[:rubro]
 			Archivo.abrir(url) do |page|
 				page.css('.product-shelf li').each do |x|
 					if x.css(".product-item__name a").text.strip.size > 0 
@@ -160,10 +174,12 @@ class Jumbo < Web
 							id: "", 
 						}
 						print "•"
+						i += 1 
+						puts if i % 100 == 99
 					end
 				end
 			end
-			puts
+			# puts
 		end
 		productos.compact.uniq
 	end
@@ -238,7 +254,7 @@ class Tatito < Web
 		productos = []
 		clasificacion.each do |c|
 			url = ubicar(c[:url], :productos)
-			print " - #{url} > "
+			print " - %-60s | " % c[:rubro]
 
 			Archivo.abrir(url) do |page|
 				page.css('.item_tienda').each do |x|
@@ -284,7 +300,7 @@ end
 
 class Maxiconsumo < Web
 	URL = "http://www.maxiconsumo.com/sucursal_capital"
-	URL_Imagenes = "http://www.maxiconsumo.com/media/catalog/product/cache/1/image/300x"
+	URL_Imagenes = "http://www.maxiconsumo.com/media/catalog/product/cache/28/image/300x"
 
 	def ubicar(url = nil, modo = :clasificacion)
 		return url if url && url[":"]
@@ -320,7 +336,7 @@ class Maxiconsumo < Web
 		productos = []
 		clasificacion.each do |c|
 			url = ubicar(c[:url], :productos)
-			print " - #{url} > "
+			print " - %-60s | " % c[:rubro]
 			Archivo.abrir(url) do |page|
 				page.css('.products-grid li').each do |x|
 					productos << {
@@ -368,8 +384,10 @@ if !true
 	Maxiconsumo.new.completar_id
 end
 
-if true
+if !true
 	Jumbo.new.bajar_todo
 	Tatito.new.bajar_todo
 	Maxiconsumo.new.bajar_todo
 end
+
+Maxiconsumo.new.bajar_imagenes
