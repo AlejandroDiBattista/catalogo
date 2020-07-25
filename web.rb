@@ -8,14 +8,17 @@ class Web
 	def bajar_todo
 		destino = [carpeta, :productos]
 		puts "BAJANDO todos los datos de #{carpeta.upcase}"
+		
 		puts "► Bajando clasificacion..."
 		clasificacion = bajar_clasificacion().first(3)
+		
 		puts "► Bajando productos..."
 		productos = bajar_productos(clasificacion)
 		Archivo.escribir(productos, destino)
-		
-		completar_id()
+		Archivo.preservar(destino)
+
 		puts "► Bajando imagenes..."
+		completar_id()
 		# bajar_imagenes(productos)
 		puts "FIN."
 		self
@@ -38,17 +41,21 @@ class Web
 	end
 
 	def registrar_id(*productos)
-		productos = [productos].flatten
-		productos.each{|x| datos[key(producto)] ||= x[:id] }
-	end
-
-	def proximo_id
-		print "."
-		datos.count == 0 ? "00000" : datos.values.max.succ
+		productos = [productos].flatten.select{|producto| ! producto.id.vacio? }
+		productos.each{|producto| datos[key(producto)] ||= producto.id }
 	end
 
 	def buscar_id(producto)
 		datos[key(producto)] ||= proximo_id 
+	end
+
+	def key(producto)
+		"#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}"
+	end
+
+	def proximo_id
+		print "."
+		datos.count == 0 ? "00001" : datos.values.max.succ
 	end
 
 	def self.muestra(breve=true)
@@ -73,10 +80,6 @@ class Web
 
 	def carpeta
 		self.class.to_s.downcase
-	end
-
-	def key(producto)
-		"#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}"
 	end
 
 	def bajar_imagenes(productos, forzar=false)
@@ -354,6 +357,6 @@ class Maxiconsumo < Web
 end
 
 
-Jumbo.new.completar_id
-Tatito.new.completar_id
-Maxiconsumo.new.completar_id
+Jumbo.new.bajar_todo
+Tatito.new.bajar_todo
+Maxiconsumo.new.bajar_todo
