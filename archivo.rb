@@ -48,6 +48,12 @@ module Archivo
 		Archivo.escribir(lista, [camino, true])
 	end
 
+	def limpiar(*camino)
+		lista = Archivo.leer(*camino)
+		lista.each{|x| x[:id] = 0}
+		Archivo.escribir(lista, *camino)
+	end
+
 	def bajar(origen, destino, forzar=false)
 		begin
 			if forzar || !File.exist?(destino)
@@ -86,9 +92,20 @@ if __FILE__ == $0
 
 	p origen  = ubicar(:jumbo, :productos)
 	p destino = ubicar(:jumbo, :productos, true)
-	Archivo.preservar(:jumbo, :productos)
-	Archivo.preservar(:tatito, :productos)
-	Archivo.preservar(:maxiconsumo, :productos)
+
+	[:jumbo, :tatito, :maxiconsumo].each do |base| 
+		Archivo.listar(base, :productos) do |origen|
+			Archivo.limpiar(origen)
+		end
+	end
+
+	# Archivo.preservar(:jumbo, :productos)
+	# Archivo.preservar(:tatito, :productos)
+	# Archivo.preservar(:maxiconsumo, :productos)
+
+	# Archivo.limpiar(:jumbo, :productos)
+	# Archivo.limpiar(:tatito, :productos)
+	# Archivo.limpiar(:maxiconsumo, :productos)
 
 	pp listar("jumbo/productos")
 	pp listar("tatito/productos")

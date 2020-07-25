@@ -6,31 +6,49 @@ require_relative 'archivo'
 
 class Web
 	def bajar_todo
+		destino = [carpeta, :productos]
 		puts "BAJANDO todos los datos de #{carpeta.upcase}"
 		puts "► Bajando clasificacion..."
-		clasificacion = bajar_clasificacion()
-		
+		clasificacion = bajar_clasificacion().first(3)
 		puts "► Bajando productos..."
-		productos = bajar_productos(clasificacion).map{|x|Producto.cargar(x)}
-		destino = 
-		Archivo.escribir(productos.map(&:to_hash), [carpeta, :productos])
+		productos = bajar_productos(clasificacion)
+		Archivo.escribir(productos, destino)
 		
-		completar_id
+		completar_id()
 		puts "► Bajando imagenes..."
-		bajar_imagenes(productos)
+		# bajar_imagenes(productos)
 		puts "FIN."
 		self
 	end
 
+	def datos
+		@datos ||= {}
+	end
+
 	def completar_id
-		ubicar([carpeta, :productos], :todos).each do |origen|
-			registrar_id( Archivo.leer(origen))
+		Archivo.listar(carpeta, :productos) do |origen|
+			registrar_id( Archivo.leer(origen) )
 		end
-		ubicar([carpeta, :productos], :todos).each do |origen|
+
+		Archivo.listar(carpeta, :productos) do |origen|
 			productos = Archivo.leer(origen)
-			productos.each{|producto| producto[id] = buscar_id(producto))}
+			productos.each{|producto| producto[:id] = buscar_id(producto)}
 			Archivo.escribir(productos, origen)
 		end
+	end
+
+	def registrar_id(*productos)
+		productos = [productos].flatten
+		productos.each{|x| datos[key(producto)] ||= x[:id] }
+	end
+
+	def proximo_id
+		print "."
+		datos.count == 0 ? "00000" : datos.values.max.succ
+	end
+
+	def buscar_id(producto)
+		datos[key(producto)] ||= proximo_id 
 	end
 
 	def self.muestra(breve=true)
@@ -59,23 +77,6 @@ class Web
 
 	def key(producto)
 		"#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}"
-	end
-
-	def datos
-		@datos ||= {}
-	end
-
-	def registrar_id(*productos)
-		productos = [productos].flatten.select{!x| !x.id.vacio? }
-		productos.each{|x| datos[key(producto)] ||= x.id }
-	end
-
-	def proximo_id
-		datos.count == 0 ? "00000" : datos.values.max.succ
-	end
-
-	def buscar_id(producto)
-		datos[key(producto)] ||= proximo_id 
 	end
 
 	def bajar_imagenes(productos, forzar=false)
@@ -183,7 +184,6 @@ class Jumbo < Web
 			return page.css(".skuReference").text
 		end
 	end
-
 end
 
 class Tatito < Web
@@ -271,7 +271,6 @@ class Tatito < Web
 	def sku(detalle)
 		detalle.css(".sku_wrapper span").text
 	end
-
 end
 
 class Maxiconsumo < Web
@@ -353,3 +352,8 @@ class Maxiconsumo < Web
 		end
 	end
 end
+
+
+Jumbo.new.completar_id
+Tatito.new.completar_id
+Maxiconsumo.new.completar_id

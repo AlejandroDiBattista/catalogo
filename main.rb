@@ -1,8 +1,3 @@
-$stdout.sync = true
-
-require 'nokogiri'
-require 'JSON'
-require 'open-uri'
 require_relative 'utils'
 require_relative 'archivo'
 require_relative 'web'

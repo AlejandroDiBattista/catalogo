@@ -1,3 +1,5 @@
+$stdout.sync = true
+
 class Hash 
 	def method_missing(meth, *args, &blk)
 		if meth["="]
