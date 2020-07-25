@@ -5,6 +5,7 @@ require 'JSON'
 require 'open-uri'
 require_relative 'utils'
 require_relative 'archivo'
+require_relative 'web'
 
 Campos = [:nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen, :id]
 
@@ -19,393 +20,80 @@ class Producto < Struct.new(*Campos)
 
 	def normalizar
 		self.precio = self.precio.to_f
+		self.url_producto = nil if self.url_producto.vacio?
+		self.url_imagen = nil 	if self.url_imagen.vacio?
+		self.id =  nil 			if self.id.vacio?
 		self
 	end
 end
 
 class Catalogo
-	def self.leer(base)
-		Archivo.leer(ubicar("#{base}/productos", false)).map{|producto| Producto.cargar(producto)}
-	end
-end
+	include Enumerable 
 
-class Web
-	def bajar_todo
-		puts "BAJANDO todos los datos de #{carpeta.upcase}"
-		Dir.chdir carpeta do 
-			puts "► Bajando clasificacion..."
-			clasificacion = bajar_clasificacion()
-			# clasificacion = clasificacion.first(3)
-			
-			puts "► Bajando productos..."
-			productos = bajar_productos(clasificacion).map{|x|Producto.cargar(x)}
-			Archivo.escribir(productos.map(&:to_hash), :productos)
-			
-			puts "► Bajando imagenes..."
-			# bajar_imagenes(productos)
-		end
-		puts "FIN."
+	attr_accessor :base 
+
+	def self.leer(base)
+		lista = Archivo.leer([base, :productos])
+		new(base, lista)
+	end
+
+	def escribir()
+		Archivo.escribir(self.datos.map(&:to_hash), [@base, :productos])
+	end
+	
+	def initialize(base, productos=[])
+		@base  = base
+		@datos = []
+		agregar(productos)
 		self
 	end
 
-	def self.muestra(breve=true)
-		inicio = Time.new
-		tmp = new 
-
-		puts "► Muestra productos de #{tmp.carpeta.upcase}"
-		clasificacion = tmp.bajar_clasificacion
-		clasificacion = clasificacion.first(3) if breve
-		productos = tmp.bajar_productos(clasificacion)
-		productos = productos.first(10) if breve
-		Archivo.escribir(productos, "#{tmp.carpeta}/productos_tmp.dsv")
-		productos.tabular
-		puts "■ %0.1fs \n" % (Time.new - inicio)
-		productos
-	end
-
-	def self.leer
-		base = new.carpeta 
-		Archivo.leer("#{base}/productos.dsv")
-	end
-
-	def carpeta
-		self.class.to_s.downcase
-	end
-
-	def registrar(productos)
-		@datos ||= {}
-		productos.each do |x|
-			if x[:id].to_s.strip.size > 0
-				@datos[x[:url_producto]] ||= x[:id]
-			end
+	def agregar(*productos)
+		[productos].flatten.each do |producto|
+			@datos << (Hash === producto ? Producto.cargar(producto) : producto)
 		end
 	end
 
-	def completar(productos)
-		@datos ||= {}
-		productos.each do |x|
-			url = x[:url_producto]
-			@datos[url] ||= sku(url)
-			x[:id] = @datos[url]
-		end
-		puts
+	def datos()
+		@datos ||= []
 	end
 
-	def registrados
-		@datos ||=0
-		@datos.count
+	def each()
+		datos.each{|producto| yield(producto) }
 	end
 
-	def sku(url)
-		url.to_key
+	def filtrar()
+		new(@base, select{|x|yield x})
 	end
 
-	def bajar_imagenes(productos)
-		productos.each.with_index do |producto, i|
-			origen  = ubicar(producto[:url_imagen])
-			destino = "fotos/#{producto[:id]}.jpg"
-			unless origen.size == 0 || File.exist?(destino) 
-				print(".")
-				puts if i % 100 == 0
-				puts "#{origen} => #{destino}" if ! Archivo.bajar(origen, destino, true)
-			end
-		end
+	def sumar(otro)
+		new(@base, (datos + otro.datos).uniq)
 	end
 
-end
-
-class Jumbo < Web
-	URL = 'https://www.jumbo.com.ar'
-	URL_Imagenes = "https://jumboargentina.vteximg.com.br/arquivos/ids"
-	Tamaño = 512
-
-	def incluir(item)
-		validos = ["Almacén", "Bebidas", "Pescados y Mariscos", "Quesos y Fiambres", "Lácteos", "Congelados", "Panadería y Repostería", "Comidas Preparadas", "Perfumería", "Limpieza"]
-		departamento = item.rubro.split(">").first.strip
-		validos.include?(departamento)	
+	def restar(otro)
+		new(@base, (datos - otro.datos).uniq)
 	end
 
-	def ubicar(url = nil, modo = :clasificacion)
-		return url if url && url[":"]
-		modo = url if Symbol === url 
-		case modo
-		when :clasificacion
-			"#{URL}/api/catalog_system/pub/category/tree/3"
-		when :productos 
-			"#{URL}#{url}?PS=99"
-		when :producto
-			"#{URL}#{url}/p"
-		when :imagen 
-			"#{URL_Imagenes}/#{url}"
-		end
-	end
-	
-	def acortar(url)
-		url.gsub(URL,"").gsub(URL_Imagenes,"").gsub(/\/p$/,"")
-	end
-
-	def bajar_clasificacion()
-		datos = JSON(URI.open(ubicar(:clasificacion)).read).normalizar
-		datos.map do |d|
-			d[:children].map do |c|
-				if c[:children].size > 0
-					c[:children].map{|s|  {rubro: [ d[:name], c[:name], s[:name]].to_rubro, url: acortar(s[:url]) } }
-				else
-					{rubro: [d[:name], c[:name]].to_rubro, url: acortar(c[:url]) }
-				end
-			end
-		end.flatten.select{|x| incluir(x) }
-	end
-
-	def bajar_productos(clasificacion)
-		productos = []
-		clasificacion.each do |c|
-			url = ubicar(c[:url], :productos)
-			print " - #{url} > "
-			page = Nokogiri::HTML(URI.open(url))
-			page.css('.product-shelf li').each do |x|
-				if x.css(".product-item__name a").text.strip.size > 0 
-					productos << {
-						nombre:  nombre(x),
-						precio:  precio(x),
-						rubro: 	c[:rubro],						# marca:   x.css(".product-item__brand").text,
-						url_producto: acortar(url),
-						url_imagen:  imagen(x),
-						id: "", 
-					}
-					print "•"
-				end
-			end
-			puts
-		end
-		productos.compact.uniq
-	end
-
-	def nombre(item)
-		item.css(".product-item__name a").text
-	end
-
-	def precio(item)
-		item.css(".product-prices__value--best-price").text.to_money
-	end
-
-	def producto(item)
-		acortar(item.css(".product-item__name a").first["href"])
-	end
-
-	def imagen(item)
-		url = item.css(".product-item__image-link img").first["src"]
-		acortar(url).split("/")[1].split("-").first+"-#{Tamaño}-#{Tamaño}"
-	end
-
-	def sku(url)
-		print "•"
-		abrir(ubicar(url, :producto)) do |page|
-			return page.css(".skuReference").text
-		end
-	end
-
-end
-
-class Tatito < Web
-	URL = "http://tatito.com.ar/tienda"
-	URL_Productos = "http://tatito.com.ar/tienda"
-	URL_Producto  = "http://tatito.com.ar/producto"
-	URL_Imagenes  = "http://tatito.com.ar/wp-content/uploads"
-
-	def ubicar(url = nil, modo = :clasificacion)
-		return url if url && url[":"]
-		modo = url if Symbol === url 
-		case modo
-		when :clasificacion
-			"#{URL}"
-		when :productos 
-			"#{URL_Productos}#{url}"
-		when :producto
-			"#{URL_Producto}#{url}"
-		when :imagen 
-			"#{URL_Imagenes}/#{url}"
-		end
-	end
-
-	def acortar(url)
-		url.gsub(URL,"").gsub(URL_Producto,"").gsub(URL_Productos,"").gsub(URL_Imagenes,"").gsub(/\/p$/,"")
-	end
-					
-	def bajar_clasificacion
-		url = ubicar(:clasificacion)
-		p url
-		page = Nokogiri::HTML(URI.open(url))
-		rubros = [nil,nil]
-		page.css('#checkbox_15_2 option').map do |x|
-			rubro = x.text.gsub("\u00A0"," ").gsub("\u00E9","é").strip 
-
-			nivel = rubro[0..0] == "-" ? 1 : 0
-			rubros[nivel] = rubro.gsub(/^-\s*/,"")
-			id = x["value"]
-			nivel == 1 ?  { rubro: rubros.to_rubro, url: "?filters=product_cat[#{id}]" } : nil 
-		end.compact
-	end
-
-	def bajar_productos(clasificacion)
-		productos = []
-		clasificacion.each do |c|
-			url = ubicar(c[:url], :productos)
-			print " - #{url} > "
-
-			page = Nokogiri::HTML(URI.open(url))
-			page.css('.item_tienda').each do |x|
-				url = x.css(".pad15 a").first["href"]
-				detalle = Nokogiri::HTML(URI.open(url))
-				productos << {
-					nombre: nombre(x),
-					precio: precio(x),
-					rubro: 	c[:rubro],
-					url_producto: producto(x),
-					url_imagen:   imagen(detalle),
-					id: sku(detalle),
-				}
-				print "•"
-			end
-			puts
-		end
-		productos.compact.uniq
-	end
-
-	def nombre(item)
-		item.css(".titulo_producto a").text
-	end
-
-	def precio(item)
-		item.css(".amount").text.to_money
-	end
-
-	def producto(item)
-		acortar(item.css(".pad15 a").first["href"])
-	end
-
-	def imagen(detalle)
-		aux = detalle.css(".woocommerce-product-gallery__image a")
-		aux && aux.first ? acortar(aux.first["href"]) : ""
-	end
-
-	def sku(detalle)
-		detalle.css(".sku_wrapper span").text
-	end
-
-end
-
-class Maxiconsumo < Web
-	URL = "http://www.maxiconsumo.com/sucursal_capital"
-	URL_Imagenes = "http://www.maxiconsumo.com/media/catalog/product/cache/1/image/300x"
-
-	def ubicar(url = nil, modo = :clasificacion)
-		return url if url && url[":"]
-		modo = url if Symbol === url 
-		case modo
-		when :clasificacion
-			"#{URL}"
-		when :productos 
-			"#{URL}#{url}"
-		when :imagen 
-			"#{URL_Imagenes}/#{url}"
-		end
-	end
-	
-	def acortar(url)
-		url.gsub(URL,"").gsub(URL_Imagenes,"")
-	end
-
-	def bajar_clasificacion
-		url = ubicar(:clasificacion)
-		page = Nokogiri::HTML(URI.open(URL))
-
-		rubro = [nil, nil, nil]
-		page.css('#root li a').map do |x|
-			nivel = x["data-level"].to_i
-			rubro[nivel] = x.text
-
-			nivel == 2 ? { rubro: rubro.to_rubro, url: acortar(x["href"]) } : nil 
-		end.compact
-	end
-
-	def bajar_productos(clasificacion)
-		clasificacion.tabular
-		productos = []
-		clasificacion.each do |c|
-			url = ubicar(c[:url], :productos)
-			print " - #{url} > "
-			page = Nokogiri::HTML(URI.open(url))
-
-			page.css('.products-grid li').each do |x|
-				productos << {
-					nombre: nombre(x),
-					precio: precio(x),
-					rubro: 	c[:rubro],
-					url_producto: "",
-					url_imagen: imagen(x),
-					id: sku(x),
-				}
-				print "•"
-			end
-			puts
-		end
-		productos.compact.uniq
-	end
-
-	def nombre(item)
-		item.css("h2 a").first["title"]
-	end
-	
-	def precio(item)
-		item.css(".price").last.text.to_money
-	end
-
-	def sku(item)
-		item.css(".sku").text.gsub(/\D/,"")
-	end
-
-	def imagen(item)
-		url = item.css("img").first["src"]
-		if a = url.match(/small_image\/115x115(.*)$/i)
-			a[1]
-		else
-			""
-		end
+	def listar
+		map{|x|{nombre: x.nombre, precio: x.precio, rubro: x.rubro}}.sort_by(&:nombre).listar("Listado #{@base}")
 	end
 end
 
-def listar(base, filtro=nil, &condicion)
-	aux = filtro ? lambda{|x| x.values.any?{|y| filtro === y} } : nil 
-
-	# puts ">>#{base.to_s.capitalize}"
-	lista = Archivo.leer("#{base}/productos.dsv")
-	lista = lista.map{|x|{nombre: x.nombre, precio: x.precio, rubro: x.rubro}}
-	lista = lista.select{|x| block_given? && condicion[x] || !aux.nil? && aux[x]}
-	lista = lista.sort_by(&:nombre)#{|x|x.nombre}
-	lista.listar("Listado #{base}")
-end
-
-if false
-	a = Catalogo.leer(:maxiconsumo).map(&:nombre)
-	b = a.map(&:separar_unidad).sort_by(&:first)
-	b.select{|x|x.last}.map(&:last).uniq.sort.each{|x|pp x}
-end
 
 if true
-	Jumbo.muestra
-	Tatito.muestra
-	Maxiconsumo.muestra
+	# Jumbo.muestra
+	# Tatito.muestra
+	# Maxiconsumo.muestra
 	return 
 end
 
-if false
-	condicion = /arroz.*gallo/i
-	listar :jumbo, condicion
-	listar :maxiconsumo,condicion
-	listar :tatito, condicion
+if true
+	a = Catalogo.leer(:maxiconsumo).map{|x|x.nombre}
+	b = a.map(&:separar_unidad).sort_by(&:first)
+	b.select{|x|x.last}.map(&:last).uniq.sort.each{|x|pp x}
 	return
 end
+
 
 j = Jumbo.new
 

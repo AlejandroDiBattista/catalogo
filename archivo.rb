@@ -4,50 +4,51 @@ require_relative 'utils'
 require 'fileutils'
 
 module Archivo
-	def ubicar(camino, diario = false)
-		camino = [camino].flatten.map(&:to_s).join("/")
+
+	def ubicar(*camino)
+		camino = [camino].flatten
+		if fecha = (TrueClass === camino.last)
+			camino.pop 
+		end
+		camino = camino.map(&:to_s).join("/")
 		camino = "#{camino}.dsv" unless camino["."]
-		camino = camino.sub(".", Time.now.strftime("_%F.")) if diario
+		camino = camino.sub(".", Time.now.strftime("_%F.")) if fecha
 		camino
 	end
 
-	def buscar(camino, condicion = base)
+	def listar(*camino)
 		camino = [camino].flatten.map(&:to_s).join("/")
-		camino = "#{camino}*.*" unless camino["."]
+		camino = "#{camino}*.dsv" unless camino["."]
 		lista = Dir[camino].sort
-		case condicion
-		when :base
-			lista.select{|x|!x["_"]}.first
-		when :primero
-			lista.select{|x|x["_"]}.first
-		when :ultimo
-			lista.select{|x|x["_"]}.last
-		when :historia
-			lista.select{|x|x["_"]}
-		when :todo 
-			lista
-		else 
-			lista.first 
-		end
+		
+		lista.each{|x| yield x} if block_given? 
+		lista 
 	end
 
-	def leer(camino = :datos)
-		datos  = CSV.open(ubicar(camino), :col_sep => "|")
+	def leer(*camino)
+		origen = ubicar(*camino)
+		datos  = CSV.open(origen, :col_sep => "|")
 		campos = datos.shift.map(&:to_key)
 		datos.map{|valores| Hash(campos, valores)}.normalizar
 	end
 
-	def escribir(datos, camino = :datos, diario = false)
-		campos = datos.map(&:keys).uniq.flatten
-		CSV.open(ubicar(camino, diario), "wb", :col_sep => "|") do |csv|
+	def escribir(datos, *camino)
+		destino = ubicar(*camino)
+		campos = datos.first.keys
+		CSV.open(destino, "wb", :col_sep => "|") do |csv|
 			csv << campos.map(&:to_key)
 			datos.each{|valores| csv << campos.map{|campo| valores[campo] } }
 		end
-		puts "  Escribir #{camino} (#{datos.count} > #{datos.count{|x|x.id.vacio?}})"
+		puts "  Escribir #{destino} (#{datos.count} > #{datos.count{|x|x.id.vacio?}})"
 		datos
 	end
 
-	 def bajar(origen, destino, forzar=false)
+	def preservar(*camino)
+		lista = Archivo.leer(*camino)
+		Archivo.escribir(lista, [camino, true])
+	end
+
+	def bajar(origen, destino, forzar=false)
 		begin
 			if forzar || !File.exist?(destino)
 				URI.open(origen){|f|  File.open(destino, "wb"){|file| file.puts f.read }} 
@@ -67,14 +68,6 @@ module Archivo
 		end
 	end
 	
-	def siguiente(destino)
-		Dir["*.*"].select{|x| File.base_name(x)[/$#{destino}/]}
-	end
-
-	def fotos
-		Dir["fotos/*.jpg"]
-	end
-
 	def abrir(url)
 		begin
 			if block_given?
@@ -90,10 +83,14 @@ end
 include Archivo
 
 if __FILE__ == $0 
-	pp buscar("jumbo/clasificacion", :base)
-	pp buscar("jumbo/clasificacion", :primero)
-	pp buscar("jumbo/clasificacion", :ultimo)
-	pp buscar("jumbo/clasificacion", :historia)
-	pp buscar("jumbo/clasificacion", :todo)
-	pp buscar("jumbo/producto", :todo)
+
+	p origen  = ubicar(:jumbo, :productos)
+	p destino = ubicar(:jumbo, :productos, true)
+	Archivo.preservar(:jumbo, :productos)
+	Archivo.preservar(:tatito, :productos)
+	Archivo.preservar(:maxiconsumo, :productos)
+
+	pp listar("jumbo/productos")
+	pp listar("tatito/productos")
+	pp listar("maxiconsumo/productos")
 end
