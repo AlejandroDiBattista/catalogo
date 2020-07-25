@@ -111,11 +111,14 @@ end
 
 
 class Progreso
-	attr_accessor :cuenta 
+	attr_accessor :cuenta , :inicio
 
 	def initialize
 		self.cuenta = 0 
+		self.inicio = Time.new
+		print "  ► "
 	end
+
 	def avanzar
 		print "●" 
 		self.cuenta += 1 
@@ -123,10 +126,12 @@ class Progreso
 		print " " if self.cuenta % 50 == 0
 		puts if self.cuenta % 100 == 0
 		puts if self.cuenta % 500 == 0
+		print "    " if self.cuenta % 100 == 0
 	end
 
 	def finalizar
-		print " " unless self.cuenta % 100 == 0 
+		puts unless self.cuenta % 100 == 0
+		puts "  ◄ %4.1f" % (Time.new - inicio) 
 	end
 end
 

@@ -131,7 +131,7 @@ class Web
 	end
 
 	def href(item)
-		item && item.first && item.first[:href] || ""
+		!item.nil? && !item.first.nil? && item.first[:href] || ""
 	end
 
 	def src(item)
@@ -299,10 +299,10 @@ class Maxiconsumo < Web
 		rubro = [nil, nil, nil]
 		Archivo.abrir(URL) do |pagina|
 			return pagina.css('#root li a').map do |x|
-				nivel = x["data-level"].to_i
+				nivel = x["data-level"].to_s.to_i
 				rubro[nivel] = x.text
 
-				nivel == 2 ? { rubro: rubro.to_rubro, url: acortar(href(x)) } : nil 
+				nivel == 2 ? { rubro: rubro.to_rubro, url: acortar(x["href"]) } : nil 
 			end.compact
 		end
 	end
@@ -333,18 +333,9 @@ class Maxiconsumo < Web
 	end
 end
 
-# pp Archivo.leer(:tatito, :productos).map{|x|x[:id]}
-if !true 
-	Jumbo.new.completar_id
-	Tatito.new.completar_id
-	Maxiconsumo.new.completar_id
-end
-
-Jumbo.new.bajar_todo
-if !true
+if true
 	Jumbo.new.bajar_todo
 	Tatito.new.bajar_todo
 	Maxiconsumo.new.bajar_todo
 end
 
-# Maxiconsumo.new.bajar_imagenes
