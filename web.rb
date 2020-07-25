@@ -209,7 +209,7 @@ end
 
 class Tatito < Web
 	URL = "http://tatito.com.ar/tienda"
-	URL_Productos = "http://tatito.com.ar/tienda"
+	URL_Productos = "http://tatito.com.ar/producto"
 	URL_Producto  = "http://tatito.com.ar/tienda/?filters=product_cat"
 
 	URL_Imagenes  = "http://tatito.com.ar/wp-content/uploads"
@@ -225,7 +225,7 @@ class Tatito < Web
 		when :producto
 			"#{URL_Producto}#{url}"
 		when :imagen 
-			"#{URL_Imagenes}/#{url}"
+			"#{URL_Imagenes}#{url}"
 		end
 	end
 
@@ -333,7 +333,13 @@ class Maxiconsumo < Web
 	end
 end
 
-if true
+Archivo.listar(:tatito, :productos) do |o|
+	Archivo.procesar(o) do |producto|
+		producto[:url_producto] = producto[:url_producto].gsub("http://tatito.com.ar/producto","")
+	end
+end
+
+if !true
 	Jumbo.new.bajar_todo
 	Tatito.new.bajar_todo
 	Maxiconsumo.new.bajar_todo

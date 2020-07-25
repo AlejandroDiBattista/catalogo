@@ -43,6 +43,13 @@ module Archivo
 		datos
 	end
 
+	def procesar(*camino)
+		origen = ubicar(*camino)
+		lista = leer(*camino)
+		lista.each{|item|yield item}
+		escribir(lista, origen)
+	end
+	
 	def preservar(*camino)
 		lista = Archivo.leer(*camino)
 		Archivo.escribir(lista, [camino, true])

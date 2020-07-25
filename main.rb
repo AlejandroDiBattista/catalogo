@@ -75,6 +75,10 @@ class Catalogo
 end
 
 
+t = Catalogo.leer(:Tatito)
+puts t.map(&:url_producto).first(20)
+
+return 
 if true
 	# Jumbo.muestra
 	# Tatito.muestra
