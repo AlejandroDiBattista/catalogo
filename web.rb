@@ -152,9 +152,9 @@ class Jumbo < Web
 						nombre:  nombre(x),
 						precio:  precio(x),
 						rubro: 	c[:rubro],						# marca:   x.css(".product-item__brand").text,
-						url_producto: acortar(url),
+						url_producto: producto(x),
 						url_imagen:  imagen(x),
-						id: nil, 
+						id: "", 
 					}
 					print "•"
 				end
@@ -173,7 +173,7 @@ class Jumbo < Web
 	end
 
 	def producto(item)
-		acortar(item.css(".product-item__name a").first["href"])
+		acortar(item.css(".product-item__name a").first["href"]).gsub("?PS=99","")
 	end
 
 	def imagen(item)
@@ -245,7 +245,7 @@ class Tatito < Web
 					rubro: 	c[:rubro],
 					url_producto: producto(x),
 					url_imagen:   imagen(detalle),
-					id: sku(detalle),
+					id: "",
 				}
 				print "•"
 			end
@@ -325,7 +325,7 @@ class Maxiconsumo < Web
 					rubro: 	c[:rubro],
 					url_producto: nil,
 					url_imagen: imagen(x),
-					id: sku(x),
+					id: "",
 				}
 				print "•"
 			end
@@ -356,7 +356,19 @@ class Maxiconsumo < Web
 	end
 end
 
+p origen = Archivo.listar(:jumbo, :productos)[1]
+productos = Archivo.leer(origen)
+productos.each{|producto| producto.url_imagen = "#{producto.url_imagen}-512-512"}
+Archivo.escribir(productos, origen)
 
-Jumbo.new.bajar_todo
-Tatito.new.bajar_todo
-Maxiconsumo.new.bajar_todo
+if !true 
+	Jumbo.new.completar_id
+	Tatito.new.completar_id
+	Maxiconsumo.new.completar_id
+end
+
+if !true
+	Jumbo.new.bajar_todo
+	Tatito.new.bajar_todo
+	Maxiconsumo.new.bajar_todo
+end
