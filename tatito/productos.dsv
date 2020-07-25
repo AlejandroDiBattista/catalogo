@@ -1,6 +1,6 @@
 nombre|precio|url_producto|url_imagen|rubro|id
-KETCHUP DANICA 220GR|49.9|http://tatito.com.ar/producto/ketchup-danica-220gr/|/2020/01/KETCHUP-DANICA-220GR.jpg|Aderezos > Ketchup|00388
 Azucar 1 Kg.|55.0|http://tatito.com.ar/producto/azucar-1kg-s-iva/|/2019/11/azucar-comun-1kg-fraccionada.jpg|Almacén > Azúcar|00407
+KETCHUP DANICA 220GR|49.9|http://tatito.com.ar/producto/ketchup-danica-220gr/|/2020/01/KETCHUP-DANICA-220GR.jpg|Aderezos > Ketchup|00388
 POLENTA PRESTOPRONTA ARCOR 500 GRS|70.0|http://tatito.com.ar/producto/prestopronta-arcor-500grs-iv/|/2020/01/PRESTOPRONTA-ARCOR-500GR.jpg|Almacén > Polentas|00497
 CALDO KNOOR A 12UN|75.0|http://tatito.com.ar/producto/caldo-knoor-a-12un/|/2020/01/CALDO-KNOOR-A-12UN.jpg|Almacén > Sopas y Caldos|00512
 ENERGY SPEED 250CC|47.0|http://tatito.com.ar/producto/energ-speed-250cc/|/2020/01/ENERG-SPEED-250CC.jpg|Bebidas > Isotonicos y energizantes|00530
@@ -9,9 +9,9 @@ AGUA PALAU X 6LTS|85.0|http://tatito.com.ar/producto/agua-palau-x-6lts/|/2020/01
 Queso Magro Noal x 100 grs.|39.8|http://tatito.com.ar/producto/magro-noal/|/2020/01/MAGRO-NOAL.jpg|Fiambreria > Magro|00620
 Jamon Crudo Goggi Feteado x 100 grs.|69.0|http://tatito.com.ar/producto/jamon-crudo-goggi-medio-listo/|/2019/11/jamon-crudo-goggi-D_NQ_NP_882252-MLA32138258660_092019-F.jpg|Fiambreria > Jamon Crudo|00619
 Panceta Ahumada Recreo x 100 grs.|78.0|http://tatito.com.ar/producto/panceta-salada-recreo-x-100-grs/|/2020/05/panceta-salada-recreo.jpg|Fiambreria > Panceta|00628
+Queso Azul Estancia de Oro x 100 grs.|50.0|http://tatito.com.ar/producto/jamon-coc-paladini/|/2019/11/queso-azul-estancia-de-oro.jpg|Fiambreria > Roquefort|00634
 Queso Pategras La Serenisima x 100 grs.|79.0|http://tatito.com.ar/producto/pategras-ls/|/2019/11/queso-pategras-la-serenisima.jpg|Fiambreria > Pategras|00629
 Ricota San Lucio x 100 grs.|12.0|http://tatito.com.ar/producto/ricota-san-lucio/|/2019/11/RICOTA-SAN-LUCIO.jpg|Fiambreria > Ricota|00631
-Queso Azul Estancia de Oro x 100 grs.|50.0|http://tatito.com.ar/producto/jamon-coc-paladini/|/2019/11/queso-azul-estancia-de-oro.jpg|Fiambreria > Roquefort|00634
 Sardo Santa Maria x 100 grs.|50.0|http://tatito.com.ar/producto/sardo-santa-maria/|/2020/01/SARDO-SANTA-MARIA.jpg|Fiambreria > Sardo|00632
 MOSTAZA DANICA 3KG|245.0|http://tatito.com.ar/producto/mostaza-danica-3kg/|/2020/01/MOSTAZA-DANICA-3KG.jpg|Aderezos > Mostazas|00400
 MOSTAZA DANICA 220GR|45.0|http://tatito.com.ar/producto/mostaza-danica-220gr/|/2020/01/MOSTAZA-DANICA-250GR.jpg|Aderezos > Mostazas|00401
@@ -33,13 +33,13 @@ Queso Danbo Noal (Tybo) Feteado x 100 grs.|48.0|http://tatito.com.ar/producto/da
 Dulce de Leche Clasico Manfrey x 250 grs.|66.0|http://tatito.com.ar/producto/dulce-de-leche-clasico-manfrey-x-250-grs/|/2020/05/Dulce-de-leche-manfrey-250.jpg|Desayuno > Dulce de Leche|00483
 Dulce de leche La Serenisima Colonial x 400 gr|130.0|http://tatito.com.ar/producto/dulce-de-leche-la-serenisima-colonial-x-400-gr/|/2020/05/dulce-de-leche-la-serenisima-colonial-400g.jpg|Desayuno > Dulce de Leche|00568
 DULCE DE LECHE LA PAULINA CLAS.  X400GR|121.6|http://tatito.com.ar/producto/d-de-leche-pau-x400gr/|/2019/11/dulce-de-leche-paulina-400-clasico.jpg|Desayuno > Dulce de Leche|00569
-Masa para Tacos Pandino|60.0|http://tatito.com.ar/producto/tacos-pandino/|/2020/01/TACOS-PANDINO.jpg|Frescos y Congelados > Masa para Tacos|00660
-CACAO QUICKER X 200GR|52.0|http://tatito.com.ar/producto/cacao-quicker-x-200gr/|/2020/04/CACAO-QUICKER-200.jpg|Desayuno > Cacao|00492
-CACAO CHOCOLINO PLUS FORT 180G|56.0|http://tatito.com.ar/producto/cacao-chocolino-plus-fort-180g/|/2020/04/cacao-chocolino-180gr.jpg|Desayuno > Cacao|00613
-Cacao Nesquik 150 Grs.|60.0|http://tatito.com.ar/producto/cacao-nesquik-180-grs/|/2019/11/nesquik-150g.jpg|Desayuno > Cacao|00614
 Mortadela Goggi Cañon Feteada x 100 grs.|16.0|http://tatito.com.ar/producto/mort-goggi-bocha/|/2020/01/MORT-GOGGI.jpg|Fiambreria > Mortadela|00621
 Mortadela Lario Feteada x 100 grs.|36.0|http://tatito.com.ar/producto/mort-lario/|/2020/01/MORT-LARIO.jpg|Fiambreria > Mortadela|00622
 Mortadela Paladini Feteada x 100 grs.|40.0|http://tatito.com.ar/producto/mort-paladini/|/2019/11/MORT-PALADINI.jpg|Fiambreria > Mortadela|00623
+CACAO QUICKER X 200GR|52.0|http://tatito.com.ar/producto/cacao-quicker-x-200gr/|/2020/04/CACAO-QUICKER-200.jpg|Desayuno > Cacao|00492
+CACAO CHOCOLINO PLUS FORT 180G|56.0|http://tatito.com.ar/producto/cacao-chocolino-plus-fort-180g/|/2020/04/cacao-chocolino-180gr.jpg|Desayuno > Cacao|00613
+Cacao Nesquik 150 Grs.|60.0|http://tatito.com.ar/producto/cacao-nesquik-180-grs/|/2019/11/nesquik-150g.jpg|Desayuno > Cacao|00614
+Masa para Tacos Pandino|60.0|http://tatito.com.ar/producto/tacos-pandino/|/2020/01/TACOS-PANDINO.jpg|Frescos y Congelados > Masa para Tacos|00660
 Sorrentinos Madomi X 500 Grs.|77.0|http://tatito.com.ar/producto/sorrentinos-madomi-x-500g/|/2020/01/SORRENTINOS-MADOMI-X-500G.jpg|Frescos y Congelados > Sorrentinos|00669
 Queso Tybo Debaldo Feteado x 100 grs.|40.0|http://tatito.com.ar/producto/tybo-oferta-feteado/|/2019/11/TYBO-DEBALDO.png|Fiambreria > Tybo|00640
 Queso Tybo Santa Maria Feteado x 100 grs.|40.0|http://tatito.com.ar/producto/tybo-santa-maria-1-5/|/2020/01/TYBO-SANTA-MARIA-1.5.jpg|Fiambreria > Tybo|00641
@@ -71,24 +71,24 @@ PASCUALINA MADOMI|58.0|http://tatito.com.ar/producto/pascualina-madomi/|/2020/01
 PASCUALINA LA TUCUMANITA  2UN|54.0|http://tatito.com.ar/producto/pascualina-la-tuc-2un/|/2020/01/PASCUALINA-LA-TUC.-2UN.jpg|Frescos y Congelados > Pascualinas|00662
 Ravioles Madomi X 500 Grs.|57.0|http://tatito.com.ar/producto/ravioles-madomi-x500gr/|/2020/01/RAVIOLES-MADOMI-X500GR.jpg|Frescos y Congelados > Ravioles|00663
 RAVIOLES LA TUCUMANITA 500GR|54.0|http://tatito.com.ar/producto/ravioles-la-tuc-500gr/|/2020/01/RAVIOLES-LA-TUC.500GR.jpg|Frescos y Congelados > Ravioles|00664
+POSTRE MANFREY VAINILLA|33.0|http://tatito.com.ar/producto/postre-manfrey-vainilla/|/2020/01/POSTRE-MANFREY-VAINILLA.jpg|Lacteos > Postres|00688
 TAPA PARA EMPANADAS LA TUCUMANITA X12 UN.|41.0|http://tatito.com.ar/producto/tapa-p-emp-la-tuc-12un/|/2020/01/TAPA-PARA-EMPANADA-LA-TUC.12UN.jpg|Frescos y Congelados > Tapas|00670
 TAPA PARA EMPANADAS MADOMI X12 UN.|42.0|http://tatito.com.ar/producto/tapa-madomi-p-emp/|/2020/01/TAPA-MADOMI-P-EMP.jpg|Frescos y Congelados > Tapas|00671
-POSTRE MANFREY VAINILLA|33.0|http://tatito.com.ar/producto/postre-manfrey-vainilla/|/2020/01/POSTRE-MANFREY-VAINILLA.jpg|Lacteos > Postres|00688
 Arroz Peleador Largo Fino x 500 grs.|36.0|http://tatito.com.ar/producto/arroz-peleador-largo-fino-x-500-grs/|/2020/05/arroz-peleador-500.jpg|Almacén > Arroz|00402
 Arroz Gallo Oro 1 Kg.|127.0|http://tatito.com.ar/producto/arroz-gallo-oro-b1-kg-s-iva/|/2020/01/ARROZ-GALLO-ORO-B1-KG.jpg|Almacén > Arroz|00403
 Arroz Noble Largo Fino 500 Grs.|43.5|http://tatito.com.ar/producto/arroz-noble-lf-500g-s-iva/|/2020/01/ARROZ-NOBLE-LF-500G.jpg|Almacén > Arroz|00404
 Arroz Gallo Oro Amarillo 500 Grs.|69.0|http://tatito.com.ar/producto/arroz-gallo-oro-ama-500gr/|/2020/01/ARROZ-GALLO-ORO-AMA-500GR.jpg|Almacén > Arroz|00405
 ARROZ LUCHADOR 4/0 500GR|35.0|http://tatito.com.ar/producto/arroz-luchador-4-0-500gr-s-iva/|/2019/11/arroz-luchador-500.jpg|Almacén > Arroz|00406
-Galletas de Arroz All Rice Limon x 100 grs.|58.0|http://tatito.com.ar/producto/galletas-all-rice-arroz-integral-limon-x-100-grs/|/2020/05/galletas-all-rice-limon.jpg|Almacén > Gall. Dulces y Saladas|00448
-Galletas de Arroz All Rice Sin Sal x 100 grs.|58.0|http://tatito.com.ar/producto/galletas-all-rice-sin-sal-x-100-grs/|/2020/05/galletas-all-rice-sin-sal.jpg|Almacén > Gall. Dulces y Saladas|00449
-Galletas de Arroz All Rice Naranja x 100 grs.|58.0|http://tatito.com.ar/producto/galletas-all-rice-naranja-x-100-grs/|/2020/05/galletas-all-rice-naranja.jpg|Almacén > Gall. Dulces y Saladas|00450
-Galletas de Arroz All Rice Dulces x 100 grs.|58.0|http://tatito.com.ar/producto/galletas-all-rice-dulces-x-100-grs/|/2020/05/galletas-all-rice-dulce.jpg|Almacén > Gall. Dulces y Saladas|00451
-Galletas de Arroz All Rice Con Sal x 100 grs.|58.0|http://tatito.com.ar/producto/galleta-all-rice-x-100-gr/|/2019/11/GALLETA-ALL-RICE-X-100-GR.jpg|Almacén > Gall. Dulces y Saladas|00452
 Harina Graciela  Real 0000 1 Kg.|52.0|http://tatito.com.ar/producto/harina-graciela-real-0000-1-kg/|/2020/06/harina-graciela-real-0000.jpg|Almacén > Harinas|00453
 Harina Graciela  Real 000 1 Kg.|44.0|http://tatito.com.ar/producto/har-gra-real-000-1kg/|/2020/01/HAR-GRA-REAL-000-1KG.jpg|Almacén > Harinas|00454
 HARINA REINA ANA 000 X1 KG.|39.0|http://tatito.com.ar/producto/har-reina-ana-000-x1-kg-s-iva/|/2019/11/HAR-REINA-ANA-000.jpg|Almacén > Harinas|00455
 HARINA CELESTIAL 0000 X KG|60.0|http://tatito.com.ar/producto/har-celestial-0000-x-kg-s-iva/|/2020/01/HAR-CELESTIAL-0000-X-KG.jpg|Almacén > Harinas|00456
 Harina Celestial 000 X1 Kg.|45.0|http://tatito.com.ar/producto/har-celestial-000-x1kg-s-iva/|/2020/01/HAR-CELESTIAL-000-X1KG.jpg|Almacén > Harinas|00457
+Galletas de Arroz All Rice Limon x 100 grs.|58.0|http://tatito.com.ar/producto/galletas-all-rice-arroz-integral-limon-x-100-grs/|/2020/05/galletas-all-rice-limon.jpg|Almacén > Gall. Dulces y Saladas|00448
+Galletas de Arroz All Rice Sin Sal x 100 grs.|58.0|http://tatito.com.ar/producto/galletas-all-rice-sin-sal-x-100-grs/|/2020/05/galletas-all-rice-sin-sal.jpg|Almacén > Gall. Dulces y Saladas|00449
+Galletas de Arroz All Rice Naranja x 100 grs.|58.0|http://tatito.com.ar/producto/galletas-all-rice-naranja-x-100-grs/|/2020/05/galletas-all-rice-naranja.jpg|Almacén > Gall. Dulces y Saladas|00450
+Galletas de Arroz All Rice Dulces x 100 grs.|58.0|http://tatito.com.ar/producto/galletas-all-rice-dulces-x-100-grs/|/2020/05/galletas-all-rice-dulce.jpg|Almacén > Gall. Dulces y Saladas|00451
+Galletas de Arroz All Rice Con Sal x 100 grs.|58.0|http://tatito.com.ar/producto/galleta-all-rice-x-100-gr/|/2019/11/GALLETA-ALL-RICE-X-100-GR.jpg|Almacén > Gall. Dulces y Saladas|00452
 Flan Manfrey 120Gr|33.0|http://tatito.com.ar/producto/flan-manfrey-120gr/|/2020/01/FLAN-MANFREY-120GR.jpg|Lacteos > Flan|00695
 Aceite Natura girasol x 500 ml.|68.0|http://tatito.com.ar/producto/aceite-natura-girasol-x-500-ml/|/2020/06/aceite-natura-girasol-x500.jpg|Almacén > Aceites|00521
 Aceite Vicentin Girasol 4.5 Lts.|499.2|http://tatito.com.ar/producto/aceite-vicentin-girasol-4-5lt-s-iva/|/2020/01/ACEITE-VICENTIN-GIRASOL-4500cc.jpg|Almacén > Aceites|00522
@@ -109,31 +109,31 @@ Salame Fela Feteado x 100 grs.|48.0|http://tatito.com.ar/producto/salame-fela/|/
 Salame Don Otto Feteado x 100 grs.|35.0|http://tatito.com.ar/producto/salame-don-otto/|/2020/01/SALAME-DON-OTTO.jpg|Fiambreria > Salame|00638
 Salame 66 x 100 grs.|45.0|http://tatito.com.ar/producto/salame-66/|/2020/01/SALAME-66.jpg|Fiambreria > Salame|00639
 Esponja de Fibra Flexol|18.5|http://tatito.com.ar/producto/esponja-de-fibra-flexol/|/2020/06/Esponja-Fibra-flexol.jpg|Limpieza > Virulana|00721
+Alcohol en Gel San Iginio x 250 cc|155.0|http://tatito.com.ar/producto/alcohol-en-gel-san-iginio-x-250-cc/|""|Limpieza > Alcohol|00722
 Dulce de Leche Clasico Manfrey x 250 grs.|66.0|http://tatito.com.ar/producto/dulce-de-leche-clasico-manfrey-x-250-grs/|/2020/05/Dulce-de-leche-manfrey-250.jpg|Lacteos > Dulce de Leche|00483
 Dulce de Leche Cerros Tucumanos 1 Kg.|175.0|http://tatito.com.ar/producto/dulce-leche-cerros-tuc-1-kg/|/2020/01/DULCE-LECHE-CERROS-TUC-1-KG.jpg|Lacteos > Dulce de Leche|00694
-Alcohol en Gel San Iginio x 250 cc|155.0|http://tatito.com.ar/producto/alcohol-en-gel-san-iginio-x-250-cc/|""|Limpieza > Alcohol|00722
 HAMBURGUESAS IACONO 2 X 69GR|33.5|http://tatito.com.ar/producto/hamb-iacono-2-x-69gr/|/2020/01/HAMB-IACONO-2-X-69GR.jpg|Frescos y Congelados > Hamburguesas|00654
 Hamburguesa Swift XL X 250G|144.0|http://tatito.com.ar/producto/hamb-swift-xl-x250g/|/2020/01/HAMB-SWIFT-XL-X250G.jpg|Frescos y Congelados > Hamburguesas|00655
 HAMBURGUESA PALADINI 2UN|99.0|http://tatito.com.ar/producto/hamb-paladini-2un/|/2020/01/HAMB-PALADINI-2UN.jpg|Frescos y Congelados > Hamburguesas|00656
 Hamburguesa Swift Doble (2 uds.)|55.0|http://tatito.com.ar/producto/hamb-swift-x-2un/|/2020/01/HAMB-SWIFT-X-2UN.jpg|Frescos y Congelados > Hamburguesas|00657
+Protector Calipso Normal x 20 sin desodorante|45.0|http://tatito.com.ar/producto/protec-calipso-x-20un/|/2019/11/protector-calipso-normal-x20-1.jpg|Limpieza > Protección Femenina|00699
+Toalla Calipso Normal con Gel con Alas x 8 uds.|33.0|http://tatito.com.ar/producto/toall-calipso-plus-verde-8u/|/2020/01/TOALL-CALIPSO-PLUS-VERDE.8U..jpg|Limpieza > Protección Femenina|00700
+Pebete X6 Pandino|67.0|http://tatito.com.ar/producto/pebete-x6-pandino/|/2020/01/default.jpg|Panadería > Pebete|00748
+Lavavajillas Ala  750Ml|63.5|http://tatito.com.ar/producto/lavav-ala-750ml/|/2020/01/LAVAV-ALA-750ML.jpg|Limpieza > Lavavajillas|00737
+Prepizzas Tatito x 3 (Albertus)|85.0|http://tatito.com.ar/producto/prepizas-tatito-x-3/|/2020/01/default.jpg|Panadería > Prepizzas|00749
 Mermelada de Ciruela Dulcor Light x 420 grs.|59.0|http://tatito.com.ar/producto/mermelada-de-ciruela-dulcor-light-x-420-grs/|/2020/07/mermelada-dulcor-ciruela-light-420.jpg|Desayuno > Mermeladas|00603
 Mermelada de Durazno Dulcor Light x 420 grs.|59.0|http://tatito.com.ar/producto/mermelada-de-durazno-dulcor-light-x-420-grs/|/2020/07/mermelada-dulcor-durazno-light-420.jpg|Desayuno > Mermeladas|00604
 Mermelada Mix Frutal Orieta x 500 grs.|52.5|http://tatito.com.ar/producto/mermelada-mix-frutal-orieta-x-500-grs/|/2020/07/mermelada-orieta-mixfrutal-500.jpg|Desayuno > Mermeladas|00605
 Mermelada Durazno Orieta x 500 grs.|52.5|http://tatito.com.ar/producto/mermelada-durazno-orieta-x-500-grs/|/2020/07/mermelada-orieta-durazno-500.jpg|Desayuno > Mermeladas|00606
 Mermelada Damasco Orieta x 500 grs.|52.5|http://tatito.com.ar/producto/mermelada-damasco-orieta-x-500-grs/|/2020/07/mermelada-orieta-damasco-500.jpg|Desayuno > Mermeladas|00607
 Mermelada Durazno Orieta light x 420|52.5|http://tatito.com.ar/producto/mermelada-orieta-light-x-420-durazno-ciruela/|/2020/04/mermelada-durazno-orieta-light.jpg|Desayuno > Mermeladas|00608
-Lavavajillas Ala  750Ml|63.5|http://tatito.com.ar/producto/lavav-ala-750ml/|/2020/01/LAVAV-ALA-750ML.jpg|Limpieza > Lavavajillas|00737
-Protector Calipso Normal x 20 sin desodorante|45.0|http://tatito.com.ar/producto/protec-calipso-x-20un/|/2019/11/protector-calipso-normal-x20-1.jpg|Limpieza > Protección Femenina|00699
-Toalla Calipso Normal con Gel con Alas x 8 uds.|33.0|http://tatito.com.ar/producto/toall-calipso-plus-verde-8u/|/2020/01/TOALL-CALIPSO-PLUS-VERDE.8U..jpg|Limpieza > Protección Femenina|00700
-Pebete X6 Pandino|67.0|http://tatito.com.ar/producto/pebete-x6-pandino/|/2020/01/default.jpg|Panadería > Pebete|00748
-Prepizzas Tatito x 3 (Albertus)|85.0|http://tatito.com.ar/producto/prepizas-tatito-x-3/|/2020/01/default.jpg|Panadería > Prepizzas|00749
+Chips Pandino|50.0|http://tatito.com.ar/producto/chips-pandino/|/2020/01/default.jpg|Panadería > Chips|00750
 Salchicha Don Otto 6 uds.|36.0|http://tatito.com.ar/producto/salchicha-don-otto-6-uds/|/2020/05/salchichas-don-otto.jpg|Frescos y Congelados > Salchichas|00665
 SALCHICHA SOYCHU 6 UN.|30.0|http://tatito.com.ar/producto/salchicha-soychu-6-un/|/2020/01/SALCHICHA-SOYCHU-6-UN..jpg|Frescos y Congelados > Salchichas|00666
 SALCHICHA PALADINI 6UN|87.0|http://tatito.com.ar/producto/salchicha-paladini-6un/|/2020/01/SALCHICHA-PALADINI-6UN.jpg|Frescos y Congelados > Salchichas|00667
 SALCHICHA 66 6UN|35.9|http://tatito.com.ar/producto/salchicha-66-6un/|/2020/01/SALCHICHA-66-6UN.jpg|Frescos y Congelados > Salchichas|00668
 SUAVIZANTE VIVERE PLANCHA FACIL 900M|90.95|http://tatito.com.ar/producto/suavizante-vivere-plancha-facil-900m/|/2020/04/SUAVIZANTE-VIVERE-PLANCHA-FACIL.jpg|Limpieza > Suavizante|00709
 SUAVIZANTE BORITA X 900ML TODOS|85.0|http://tatito.com.ar/producto/suav-borita-x-900ml-todos/|/2020/01/SUAV-BORITA-X-900ML-TODOS.jpg|Limpieza > Suavizante|00710
-Chips Pandino|50.0|http://tatito.com.ar/producto/chips-pandino/|/2020/01/default.jpg|Panadería > Chips|00750
 Queso Crema Light La Paulina X 290 grs.|105.1|http://tatito.com.ar/producto/queso-crema-light-la-paulina-x-290-grs/|/2020/05/queso-crema-light-la-paulina-290.jpg|Frescos y Congelados > Untables|00672
 CASANCREM ENTERO 290GR|175.0|http://tatito.com.ar/producto/casancrem-ls-300gr-ent/|/2020/01/CASANCREM-LS-300GR-ENT.jpg|Frescos y Congelados > Untables|00673
 CASANCREM DESCREMADO 290GR|175.0|http://tatito.com.ar/producto/casancrem-ls-300gr-desc/|/2020/01/CASANCREM-LS-300GR-DESC.jpg|Frescos y Congelados > Untables|00674
@@ -141,16 +141,13 @@ QUESO UNTABLE LA PAULINA X 200GR VS SABORES|94.29|http://tatito.com.ar/producto/
 YOGUR YOFREY 120GR|27.0|http://tatito.com.ar/producto/yogur-yofrey-120gr/|/2020/01/YOGUR-YOFREY-120GR.jpg|Lacteos > Yogures|00691
 YOGUR SANTA MARIA VASITO 125CC|22.0|http://tatito.com.ar/producto/yogur-santa-maria-vasito-125cc/|/2020/01/YOGUR-SANTA-MARIA-VASITO-125CC.jpg|Lacteos > Yogures|00692
 Yogur Cerros Tucumanos 1 Lts.|56.99|http://tatito.com.ar/producto/yogur-cerros-tuc-1lt/|/2020/01/YOGUR-CERROS-TUC-1LT.jpg|Lacteos > Yogures|00693
-Leche Descremada Larga Vida La Suipachense x 1 Lt.|76.5|http://tatito.com.ar/producto/leche-descremada-larga-vida-la-suipachense-x-1-lt/|/2020/05/leche-la-suipachense-lv-descremada.jpg|Lacteos > Leche|00676
-Leche Entera Larga Vida La Suipachense x 1 Lt.|76.5|http://tatito.com.ar/producto/leche-larga-vida-entera-la-suipachense-1-lt/|/2020/05/leche-la-suipachense-entera-lv.jpg|Lacteos > Leche|00677
-LECHE ILOLAY LARGA VIDA DESCREMADA X 1LT|73.9|http://tatito.com.ar/producto/leche-ilolay-lv-d-x-1ls-iva/|/2020/01/LECHE-ILOLAY-LV-DDESCREMADA-X-1LS.jpg|Lacteos > Leche|00678
-LECHE ILOLAY LARGA VIDA – ENTERA 1LT|73.9|http://tatito.com.ar/producto/leche-ilolay-lv-ent-1lt-s-iva/|/2020/01/LECHE-ILOLAY-LV-ENTERA-X-1L.jpg|Lacteos > Leche|00679
 Pan de Miga Delizioso|112.0|http://tatito.com.ar/producto/miga-delizioso-10-fet/|/2020/01/default.jpg|Panadería > Miga|00754
 Queso Cremoso Cremon La Serenísima x 100 grs.|51.0|http://tatito.com.ar/producto/cremon-ls/|/2020/01/CREMON-LS.jpg|Fiambreria > Cremosos|00646
 Queso Cremoso Noal x 100 grs.|35.0|http://tatito.com.ar/producto/cremoso-noal/|/2020/01/CREMOSO-NOAL.jpg|Fiambreria > Cremosos|00647
 Queso Cremoso Santa Maria x 100 grs.|37.0|http://tatito.com.ar/producto/cremoso-santa-maria/|/2020/01/CREMOSO-SANTA-MARIA.jpg|Fiambreria > Cremosos|00648
 Queso Cremoso Elogio x 100 grs.|35.0|http://tatito.com.ar/producto/cremoso-elogio/|/2020/01/CREMOSO-ELOGIO.jpg|Fiambreria > Cremosos|00649
 Queso Cremoso IL Queso x 100 grs.|33.0|http://tatito.com.ar/producto/cremoso-il-queso/|/2019/11/queso-cremoso-il-queso-1.jpg|Fiambreria > Cremosos|00650
+Pan de Viena Tatito 6 uds. (Albertus)|38.0|http://tatito.com.ar/producto/pan-tatito-viena-6ud/|/2020/01/default.jpg|Panadería > Pan de Viena|00757
 Tomate triturado DF x 950 Grs.|85.0|http://tatito.com.ar/producto/tomate-triturado-df-x-950-grs/|/2020/04/TOMATE-TRIT-DF-1.jpg|Almacén > Salsas|00505
 PURE DE TOMATE MORA 520GR|43.9|http://tatito.com.ar/producto/pure-tom-mora-520gr/|/2020/01/PURE-TOM-MORA-520GR.jpg|Almacén > Salsas|00506
 Extracto Tomate Otito 150 Grs.|46.0|http://tatito.com.ar/producto/extracto-tom-otito-150gr/|/2020/01/EXTRACTO-TOM-OTITO-150GR.jpg|Almacén > Salsas|00507
@@ -158,7 +155,10 @@ Salsa Vanoli Inglesa 180 Ml.|85.0|http://tatito.com.ar/producto/salsa-vanoli-ing
 Salsa Vanoli Inglesa 950 Ml.|190.0|http://tatito.com.ar/producto/salsa-vanoli-inglesa-950ml/|/2020/01/SALSA-VANOLI-INGLESA-950ML.jpg|Almacén > Salsas|00509
 SALSA ARCOR PARA PIZZA 340 grs.|52.0|http://tatito.com.ar/producto/salsa-arcor-3-350gr/|/2020/01/SALSA-ARCOR-3-350GR.jpg|Almacén > Salsas|00510
 Tomate Perita Arcor  400 Grs.|60.0|http://tatito.com.ar/producto/tom-perita-arcor-3-400gr/|/2020/01/TOM-PERITA-ARCOR-3-400GR.jpg|Almacén > Salsas|00511
-Pan de Viena Tatito 6 uds. (Albertus)|38.0|http://tatito.com.ar/producto/pan-tatito-viena-6ud/|/2020/01/default.jpg|Panadería > Pan de Viena|00757
+Leche Descremada Larga Vida La Suipachense x 1 Lt.|76.5|http://tatito.com.ar/producto/leche-descremada-larga-vida-la-suipachense-x-1-lt/|/2020/05/leche-la-suipachense-lv-descremada.jpg|Lacteos > Leche|00676
+Leche Entera Larga Vida La Suipachense x 1 Lt.|76.5|http://tatito.com.ar/producto/leche-larga-vida-entera-la-suipachense-1-lt/|/2020/05/leche-la-suipachense-entera-lv.jpg|Lacteos > Leche|00677
+LECHE ILOLAY LARGA VIDA DESCREMADA X 1LT|73.9|http://tatito.com.ar/producto/leche-ilolay-lv-d-x-1ls-iva/|/2020/01/LECHE-ILOLAY-LV-DDESCREMADA-X-1LS.jpg|Lacteos > Leche|00678
+LECHE ILOLAY LARGA VIDA – ENTERA 1LT|73.9|http://tatito.com.ar/producto/leche-ilolay-lv-ent-1lt-s-iva/|/2020/01/LECHE-ILOLAY-LV-ENTERA-X-1L.jpg|Lacteos > Leche|00679
 Limpiador Glade Liquido x 900 ml|62.0|http://tatito.com.ar/producto/limpiador-glade-liquido-x-900-ml/|/2020/06/limpiador-glade-900-ml.jpg|Limpieza > Desodorante de piso|00727
 Limpiador Sedilee 4.5 Lts.|141.86|http://tatito.com.ar/producto/limp-sedilee-4-5-lt/|/2020/01/LIMP-SEDILEE-4.5-LT.jpg|Limpieza > Desodorante de piso|00728
 Pan Negro Bollitos Pandino|60.0|http://tatito.com.ar/producto/pan-negro-bollitos-pandino/|/2020/01/default.jpg|Panadería > Pan Negro|00758
@@ -185,6 +185,9 @@ Jugo Ades Manzana 1 LT|78.0|http://tatito.com.ar/producto/jugo-ades-1lt/|/2020/0
 Jugo Baggio Durazno 200CC|18.0|http://tatito.com.ar/producto/jugo-baggio-200cc/|/2019/11/jugo-baggio-durazno-200-cc.jpg|Bebidas > Jugos|00536
 Jugo Baggio Multifruta 125 CC|13.59|http://tatito.com.ar/producto/jugo-baggio-x-125/|/2019/11/jugo-baggio-multifruta-125-cc.jpg|Bebidas > Jugos|00537
 JUGO DODI 25G RINDE 2LT|12.0|http://tatito.com.ar/producto/jugo-dodi-25g-rinde-2lt/|/2020/01/JUGO-DODI-25G-RINDE-2LT.jpg|Bebidas > Jugos|00538
+PAN LACTAL SALVADO DON FRANCISCO (ALBERTUS)|52.0|http://tatito.com.ar/producto/pan-lactal-salvado-don-francisco-albertus/|/2020/01/default.jpg|Panadería > Lactal|00751
+PAN LACTAL BLANCO DON FRANCISCO (ALBERTUS)|48.0|http://tatito.com.ar/producto/pan-don-franc-lactal-y-salv/|/2020/01/default.jpg|Panadería > Lactal|00752
+Pan Lactal de Salvado con Semillas 350 gr.|109.99|http://tatito.com.ar/producto/pan-lactal-fargo-mix-cereal530/|/2019/11/pan-lactal-salvado-semillado.jpg|Panadería > Lactal|00753
 Fideos La Providencia Nido Tagliatelle x 500 gr.|52.0|http://tatito.com.ar/producto/fideos-la-providencia-nido-tagliatelle-x-500-gr/|/2020/05/FIDEOS-LA-PROVIDENCIA-NIDO-500..jpg|Almacén > Fideos|00439
 Fideos Spaghetti Terrabusi x 500 grs|56.0|http://tatito.com.ar/producto/fideos-spaghetti-terrabusi-x-500-grs/|/2020/04/spaghetti-terrabusi-500.jpg|Almacén > Fideos|00440
 FIDEOS LA PROVIDENCIA  SPAGUETTI 500 GR|45.0|http://tatito.com.ar/producto/fideos-la-providencia-spaguetti-500-gr/|/2020/04/FIDEOS-LA-PROVIDENCIA-SPAG-500.jpg|Almacén > Fideos|00441
@@ -194,9 +197,6 @@ FIDEOS LA TUCUMANITA 500GR|58.0|http://tatito.com.ar/producto/fideos-la-tuc-500g
 FIDEOS RIVOLI GUISERO/SOPERO 500G.|55.0|http://tatito.com.ar/producto/fideos-rivoli-gui-sop-500g-s-iva/|/2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg|Almacén > Fideos|00445
 FIDEOS CHICAGO GUISEROS 500G|42.0|http://tatito.com.ar/producto/fideos-chicago-guis-500g-s-iva/|/2020/01/default.jpg|Almacén > Fideos|00446
 FIDEOS PARRADIN 500GR|39.0|http://tatito.com.ar/producto/fideos-parradin-500gr/|/2020/01/default.jpg|Almacén > Fideos|00447
-PAN LACTAL SALVADO DON FRANCISCO (ALBERTUS)|52.0|http://tatito.com.ar/producto/pan-lactal-salvado-don-francisco-albertus/|/2020/01/default.jpg|Panadería > Lactal|00751
-PAN LACTAL BLANCO DON FRANCISCO (ALBERTUS)|48.0|http://tatito.com.ar/producto/pan-don-franc-lactal-y-salv/|/2020/01/default.jpg|Panadería > Lactal|00752
-Pan Lactal de Salvado con Semillas 350 gr.|109.99|http://tatito.com.ar/producto/pan-lactal-fargo-mix-cereal530/|/2019/11/pan-lactal-salvado-semillado.jpg|Panadería > Lactal|00753
 Desodorante Dove Mujer Original 150 ml.|167.99|http://tatito.com.ar/producto/desodorante-dove-mujer-original-150-ml/|/2020/07/desodorante-dove-original-150ml.jpg|Limpieza > Desodorante Hombre/Mujer|00729
 Desodorante Rexona Clinical Men 48 grs.|289.99|http://tatito.com.ar/producto/desodorante-rexona-clinical-men-48-grs/|/2020/07/rexona-clinical-men-48g.jpg|Limpieza > Desodorante Hombre/Mujer|00730
 Desodorante Rexona Odorono 60 grs.|95.29|http://tatito.com.ar/producto/desodorante-rexona-odorono-60-grs/|/2020/07/Desodorante-rexona-odorono-60grs.jpg|Limpieza > Desodorante Hombre/Mujer|00731
@@ -221,17 +221,6 @@ Dentifrico Colgate 70 Grs.|78.0|http://tatito.com.ar/producto/dentifrico-colgate
 Dentifrico Kolynos 180 Gr|179.0|http://tatito.com.ar/producto/dentifrico-kolynos-180-gr/|/2020/05/dentifrico-kolynos-180.jpg|Limpieza > Dentifrico|00725
 Dentifrico Colgate 180 Grs.|198.0|http://tatito.com.ar/producto/dent-colgate-70gr/|/2019/11/dentifrico-colgate-180.jpg|Limpieza > Dentifrico|00719
 DENTIFRICO ODOL 70GR|75.0|http://tatito.com.ar/producto/dent-odol-70gr/|/2019/11/dentifrico-odol-70.jpg|Limpieza > Dentifrico|00726
-Mayonesa Natura 125 grs.|26.5|http://tatito.com.ar/producto/mayonesa-natura-125-grs/|/2020/06/mayonesa-natura-125.jpg|Aderezos > Mayonesas|00389
-Mayonesa Natura 250 grs.|51.99|http://tatito.com.ar/producto/mayonesa-natura-250-grs/|/2020/06/mayonesa-natura-250.jpg|Aderezos > Mayonesas|00390
-MAYONESA HELLMANNS 475GR|85.0|http://tatito.com.ar/producto/mayonesa-hellmanns-475gr/|/2019/11/MAYONESA-HELLMANNS-475GR.jpg|Aderezos > Mayonesas|00391
-MAYONESA FANACOA  2755KG|245.0|http://tatito.com.ar/producto/mayonesa-fanacoa-2755kg/|/2020/01/MAYONESA-FANACOA-2755KG.jpg|Aderezos > Mayonesas|00392
-MAYONESA DANICA FIESTA 1KG|120.0|http://tatito.com.ar/producto/mayonesa-danica-f-1kg/|/2019/11/mayonesa-danica-fiesta-1kg.jpg|Aderezos > Mayonesas|00393
-MAYONESA HELLMANNS 950KG|190.0|http://tatito.com.ar/producto/mayonesa-hellmanns-950kg/|/2020/01/MAYONESA-HELLMANNS-950KG.jpg|Aderezos > Mayonesas|00394
-MAYONESA HELLMANNS 2755GR|390.0|http://tatito.com.ar/producto/mayonesa-hellmanns-2755gr/|/2020/01/MAYONESA-HELLMANNS-2755GR.jpg|Aderezos > Mayonesas|00395
-MAYONESA DANICA F X 500GR|65.0|http://tatito.com.ar/producto/mayonesa-danica-f-x-500gr/|/2019/11/MAYONESA-DANICA-F-X-500GR.jpg|Aderezos > Mayonesas|00396
-MAYONESA DANICA F 100GR|12.5|http://tatito.com.ar/producto/mayonesa-danica-f-100gr/|/2020/01/MAYONESA-DANICA-F-100GR.jpg|Aderezos > Mayonesas|00397
-MAYONESA DANICA F 220GR|33.5|http://tatito.com.ar/producto/mayonesa-danica-f-220gr/|/2019/11/Mayonesa-Dani-Fiesta-24x250cm3-.jpg|Aderezos > Mayonesas|00398
-MAYONESA HELLMANNS 237GR|42.0|http://tatito.com.ar/producto/mayonesa-hellmanns-237gr/|/2020/01/MAYONESA-HELLMANNS-237GR.jpg|Aderezos > Mayonesas|00399
 Caballa Bahia en agua y aceite 425 gr.|174.4|http://tatito.com.ar/producto/caballa-bahia-en-agua-y-aceite-425-gr/|/2020/05/caballa-bahia-425.jpg|Almacén > Enlatados|00428
 Atun Bahia 170 GR|79.0|http://tatito.com.ar/producto/atun-bahia-170-gr/|/2020/05/atun-bahia-170g.jpg|Almacén > Enlatados|00429
 Sardinas en aceite Marbella 120 gr.|100.0|http://tatito.com.ar/producto/sardinas-en-aceite-marbella-120-gr/|/2020/05/sardina-marbella-120g.jpg|Almacén > Enlatados|00430
@@ -243,6 +232,17 @@ CHOCLO ARCOR ENTERO 310G|89.0|http://tatito.com.ar/producto/choclo-arcor-entero-
 CABALLA MARBELLA AL AC/NAT 425GR|150.0|http://tatito.com.ar/producto/caballa-marbella-al-ac-nat-425gr/|/2020/01/CABALLA-MARBELLA-AL-AC-Y-NAT-425GR.jpg|Almacén > Enlatados|00436
 ARVEJAS INALPA  350GR|30.0|http://tatito.com.ar/producto/arvejas-inalpa-350gr/|/2020/01/ARVEJAS-INALPA-350GR.jpg|Almacén > Enlatados|00437
 Picadillo La Negra Carne 90 grs.|27.8|http://tatito.com.ar/producto/picadillo-la-negra-carne-90/|/2020/01/PICADILLO-LA-NEGRA-CARNE-90.jpg|Almacén > Enlatados|00438
+Mayonesa Natura 125 grs.|26.5|http://tatito.com.ar/producto/mayonesa-natura-125-grs/|/2020/06/mayonesa-natura-125.jpg|Aderezos > Mayonesas|00389
+Mayonesa Natura 250 grs.|51.99|http://tatito.com.ar/producto/mayonesa-natura-250-grs/|/2020/06/mayonesa-natura-250.jpg|Aderezos > Mayonesas|00390
+MAYONESA HELLMANNS 475GR|85.0|http://tatito.com.ar/producto/mayonesa-hellmanns-475gr/|/2019/11/MAYONESA-HELLMANNS-475GR.jpg|Aderezos > Mayonesas|00391
+MAYONESA FANACOA  2755KG|245.0|http://tatito.com.ar/producto/mayonesa-fanacoa-2755kg/|/2020/01/MAYONESA-FANACOA-2755KG.jpg|Aderezos > Mayonesas|00392
+MAYONESA DANICA FIESTA 1KG|120.0|http://tatito.com.ar/producto/mayonesa-danica-f-1kg/|/2019/11/mayonesa-danica-fiesta-1kg.jpg|Aderezos > Mayonesas|00393
+MAYONESA HELLMANNS 950KG|190.0|http://tatito.com.ar/producto/mayonesa-hellmanns-950kg/|/2020/01/MAYONESA-HELLMANNS-950KG.jpg|Aderezos > Mayonesas|00394
+MAYONESA HELLMANNS 2755GR|390.0|http://tatito.com.ar/producto/mayonesa-hellmanns-2755gr/|/2020/01/MAYONESA-HELLMANNS-2755GR.jpg|Aderezos > Mayonesas|00395
+MAYONESA DANICA F X 500GR|65.0|http://tatito.com.ar/producto/mayonesa-danica-f-x-500gr/|/2019/11/MAYONESA-DANICA-F-X-500GR.jpg|Aderezos > Mayonesas|00396
+MAYONESA DANICA F 100GR|12.5|http://tatito.com.ar/producto/mayonesa-danica-f-100gr/|/2020/01/MAYONESA-DANICA-F-100GR.jpg|Aderezos > Mayonesas|00397
+MAYONESA DANICA F 220GR|33.5|http://tatito.com.ar/producto/mayonesa-danica-f-220gr/|/2019/11/Mayonesa-Dani-Fiesta-24x250cm3-.jpg|Aderezos > Mayonesas|00398
+MAYONESA HELLMANNS 237GR|42.0|http://tatito.com.ar/producto/mayonesa-hellmanns-237gr/|/2020/01/MAYONESA-HELLMANNS-237GR.jpg|Aderezos > Mayonesas|00399
 Shampoo Sedal Crema Balance Sachet Caja 24 x10 Grs.|179.99|http://tatito.com.ar/producto/shampoo-sedal-crema-balance-sachet-caja-24-x10-grs/|/2020/05/shampoo-sedal-crema-balance.jpg|Limpieza > Shampoo|00702
 Shampoo Sedal Restauracion Instantanea Sachet Caja 24 x10 Grs.|179.99|http://tatito.com.ar/producto/shamp-sedal-sach-24-10gr/|/2019/11/shampoo-sedal-restauracion-instantanea.jpg|Limpieza > Shampoo|00703
 Jabon Argentino Tocador 3 x 80 Grs.|56.0|http://tatito.com.ar/producto/jabon-argentino-toc-3-80gr/|/2019/11/JABON-ARGENTINO-TOC-3-80GR.jpg|Limpieza > Shampoo|00704
@@ -297,6 +297,16 @@ Cif Bano Doypack Verde 500 Cc.|60.0|http://tatito.com.ar/producto/cif-bano-dpack
 ESCOBILLON FEDE SIN CABO|128.0|http://tatito.com.ar/producto/escobillon-fede-sin-cabo/|/2020/01/ESCOBILLON-FEDE-SIN-CABO.jpg|Limpieza > Varios|00718
 Dentifrico Colgate 180 Grs.|198.0|http://tatito.com.ar/producto/dent-colgate-70gr/|/2019/11/dentifrico-colgate-180.jpg|Limpieza > Varios|00719
 PANO AMARILLO S/MEMBRETE|28.0|http://tatito.com.ar/producto/pano-amarillo-s-membrete/|/2020/01/PANO-AMARILLO-SIN-MEMBRETE.jpg|Limpieza > Varios|00720
+Jabon Ariel Liquido Doypack x 400 ml|69.9|http://tatito.com.ar/producto/jabon-ariel-liquido-doypack-x-400-ml/|/2020/05/jabon-ariel-400-ml.jpg|Limpieza > Limpiador de Ropa|00738
+Jabon Ace Liquido Doypack x 400 ml|68.0|http://tatito.com.ar/producto/jabon-ace-liquido-doypack-x-400-ml/|/2020/05/jabon-ace-doypack-400.jpg|Limpieza > Limpiador de Ropa|00739
+Jabon Ace Liquido Doypack x 800 ml|112.0|http://tatito.com.ar/producto/jabon-ace-liquido-doypack-x-800-ml/|/2020/05/jabon-ace-doypack-800.jpg|Limpieza > Limpiador de Ropa|00740
+JABON ALA LIQUIDO X 400ML|60.0|http://tatito.com.ar/producto/jabon-ala-liquido-x-400ml-copia/|/2020/05/jabon-ala-doypack-400.jpg|Limpieza > Limpiador de Ropa|00741
+Camellito Ropa Fina 450 ml Doypack|98.55|http://tatito.com.ar/producto/camellito-rop-fina-450-dpack/|/2020/01/CAMELLITO-ROP-FINA-450-DPACK.jpg|Limpieza > Limpiador de Ropa|00742
+JABON DRIVE 800GR|108.0|http://tatito.com.ar/producto/jabon-drive-800gr/|/2020/01/JABON-DRIVE-800GR.jpg|Limpieza > Limpiador de Ropa|00743
+Jabon Ala Matic 400 Grs.|70.0|http://tatito.com.ar/producto/jabon-ala-400gr/|/2020/01/JABON-ALA-400GR.jpg|Limpieza > Limpiador de Ropa|00744
+JABON ALA PAN 200GR|49.0|http://tatito.com.ar/producto/jabon-ala-pan-200gr/|/2020/01/JABON-ALA-PAN-200GR.jpg|Limpieza > Limpiador de Ropa|00745
+JABON ALA MATIC 800GR|120.0|http://tatito.com.ar/producto/jabon-ala-800gr/|/2020/01/JABON-ALA-800GR.jpg|Limpieza > Limpiador de Ropa|00746
+Jabon Zorro Plus Matic  400 Gr|53.0|http://tatito.com.ar/producto/jabon-zorro-400gr/|/2019/11/jabon-zorro-plus-matic-400-gr.jpg|Limpieza > Limpiador de Ropa|00747
 Laurel En Hojas Alicante 10 Grs.|40.0|http://tatito.com.ar/producto/laurel-en-hojas-alicante10g/|/2020/01/LAUREL-EN-HOJAS-ALICANTE10G.jpg|Condimentos > Condimentos|00553
 CONDIMENTO PARA ARROZ ALICANTE 25GR|33.5|http://tatito.com.ar/producto/cond-alicante-p-arroz-25gr/|/2020/01/COND-ALICANTE-PARA-ARROZ-25GR.jpg|Condimentos > Condimentos|00554
 OREGANO VILLA RICA 25GR|30.0|http://tatito.com.ar/producto/oregano-villa-rica-25gr/|/2020/01/default.jpg|Condimentos > Condimentos|00555
@@ -312,22 +322,12 @@ COND VILLA RICA ARROZ 25GR|19.0|http://tatito.com.ar/producto/cond-villa-rica-ar
 BICARBONATO VILLA RICA 20GR|6.0|http://tatito.com.ar/producto/bicarbonato-villa-rica-20gr/|/2020/01/default.jpg|Condimentos > Condimentos|00565
 COMINO ALICANTE 25GR|43.64|http://tatito.com.ar/producto/comino-alicante-25gr/|/2020/01/COMINO-ALICANTE-25GR.jpg|Condimentos > Condimentos|00566
 PIMENTON VILLA RICA 25GR|16.5|http://tatito.com.ar/producto/pimenton-villa-rica-25gr/|/2020/01/default.jpg|Condimentos > Condimentos|00567
-Jabon Ariel Liquido Doypack x 400 ml|69.9|http://tatito.com.ar/producto/jabon-ariel-liquido-doypack-x-400-ml/|/2020/05/jabon-ariel-400-ml.jpg|Limpieza > Limpiador de Ropa|00738
-Jabon Ace Liquido Doypack x 400 ml|68.0|http://tatito.com.ar/producto/jabon-ace-liquido-doypack-x-400-ml/|/2020/05/jabon-ace-doypack-400.jpg|Limpieza > Limpiador de Ropa|00739
-Jabon Ace Liquido Doypack x 800 ml|112.0|http://tatito.com.ar/producto/jabon-ace-liquido-doypack-x-800-ml/|/2020/05/jabon-ace-doypack-800.jpg|Limpieza > Limpiador de Ropa|00740
-JABON ALA LIQUIDO X 400ML|60.0|http://tatito.com.ar/producto/jabon-ala-liquido-x-400ml-copia/|/2020/05/jabon-ala-doypack-400.jpg|Limpieza > Limpiador de Ropa|00741
-Camellito Ropa Fina 450 ml Doypack|98.55|http://tatito.com.ar/producto/camellito-rop-fina-450-dpack/|/2020/01/CAMELLITO-ROP-FINA-450-DPACK.jpg|Limpieza > Limpiador de Ropa|00742
-JABON DRIVE 800GR|108.0|http://tatito.com.ar/producto/jabon-drive-800gr/|/2020/01/JABON-DRIVE-800GR.jpg|Limpieza > Limpiador de Ropa|00743
-Jabon Ala Matic 400 Grs.|70.0|http://tatito.com.ar/producto/jabon-ala-400gr/|/2020/01/JABON-ALA-400GR.jpg|Limpieza > Limpiador de Ropa|00744
-JABON ALA PAN 200GR|49.0|http://tatito.com.ar/producto/jabon-ala-pan-200gr/|/2020/01/JABON-ALA-PAN-200GR.jpg|Limpieza > Limpiador de Ropa|00745
-JABON ALA MATIC 800GR|120.0|http://tatito.com.ar/producto/jabon-ala-800gr/|/2020/01/JABON-ALA-800GR.jpg|Limpieza > Limpiador de Ropa|00746
-Jabon Zorro Plus Matic  400 Gr|53.0|http://tatito.com.ar/producto/jabon-zorro-400gr/|/2019/11/jabon-zorro-plus-matic-400-gr.jpg|Limpieza > Limpiador de Ropa|00747
 Pure de Papas Cica x 100 grs.|95.0|http://tatito.com.ar/producto/pure-de-papas-cica-x-100-grs/|/2020/06/pure-de-papa-cica-100.jpg|Almacén > Varios|00513
 Dulce de Leche Clasico Manfrey x 250 grs.|66.0|http://tatito.com.ar/producto/dulce-de-leche-clasico-manfrey-x-250-grs/|/2020/05/Dulce-de-leche-manfrey-250.jpg|Almacén > Varios|00483
 Galletas de Arroz All Rice Limon x 100 grs.|58.0|http://tatito.com.ar/producto/galletas-all-rice-arroz-integral-limon-x-100-grs/|/2020/05/galletas-all-rice-limon.jpg|Almacén > Varios|00448
-Galletas de Arroz All Rice Sin Sal x 100 grs.|58.0|http://tatito.com.ar/producto/galletas-all-rice-sin-sal-x-100-grs/|/2020/05/galletas-all-rice-sin-sal.jpg|Almacén > Varios|00449
 Galletas de Arroz All Rice Naranja x 100 grs.|58.0|http://tatito.com.ar/producto/galletas-all-rice-naranja-x-100-grs/|/2020/05/galletas-all-rice-naranja.jpg|Almacén > Varios|00450
 Galletas de Arroz All Rice Dulces x 100 grs.|58.0|http://tatito.com.ar/producto/galletas-all-rice-dulces-x-100-grs/|/2020/05/galletas-all-rice-dulce.jpg|Almacén > Varios|00451
+Galletas de Arroz All Rice Sin Sal x 100 grs.|58.0|http://tatito.com.ar/producto/galletas-all-rice-sin-sal-x-100-grs/|/2020/05/galletas-all-rice-sin-sal.jpg|Almacén > Varios|00449
 Leche en Polvo Descremada Lheritier 350 gr.|195.0|http://tatito.com.ar/producto/leche-en-polvo-descremada-lheritier-350-gr/|/2020/05/leche-en-polvo-lheritier-800.jpg|Almacén > Varios|00484
 Cono de Dulce de Leche Patagonia 50 grs.|55.0|http://tatito.com.ar/producto/cono-de-dulce-de-leche-patagonia-50-grs/|/2020/05/cono-dolchito-patagonia.jpg|Almacén > Varios|00485
 Alfajor Dolche Patagonia MAICENA 75 grs.|55.0|http://tatito.com.ar/producto/alfajor-dolche-patagonia-maicena-75-grs/|/2020/05/alfajor-dolche-patagonia-maicena.jpg|Almacén > Varios|00486
