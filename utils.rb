@@ -130,7 +130,6 @@ if __FILE__ == $0
 	p a.repetidos{|x|x}
 end
 
-puts "---"
 class String
 	def separar_unidad
 		if a = match(/\s*(\w.*)\s+x?([0-9.,]+.*)\s*$/i)
@@ -140,6 +139,3 @@ class String
 
 	end
 end
-a = "VINO FCA.NATAL ROB.CAB.SAU 750 cc".separar_unidad
-
-pp a
