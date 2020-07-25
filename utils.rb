@@ -83,7 +83,7 @@ module Enumerable
 	def procesar(hilos=50)
 		progreso = Progreso.new 
 		Parallel.each(to_a, in_threads: hilos) do |item|
-			yeild(item)
+			yield(item)
 			progreso.avanzar
 		end
 		progreso.finalizar

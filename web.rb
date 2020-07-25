@@ -6,23 +6,25 @@ require_relative 'archivo'
 require "parallel"
 
 class Web
-	def bajar_todo(datos=true)
+	def bajar_todo
 		destino = [carpeta, :productos]
 		puts "BAJANDO todos los datos de #{carpeta.upcase}"
 		
-		if datos
-			puts "► Bajando clasificacion..."
-			clasificacion = bajar_clasificacion()#.first(3)
-			
-			puts "► Bajando productos..."
-			Archivo.escribir(bajar_productos(clasificacion), destino)
-			puts "► completando ID..."
-			completar_id()
-		end
+		puts " ► Bajando clasificacion..."
+		clasificacion = bajar_clasificacion()#.first(3)
+		
+		puts " ► Bajando productos..."
+		productos = bajar_productos(clasificacion).compact
+		Archivo.escribir(productos, destino)
 
-		puts "► Bajando imagenes..."
-		bajar_imagenes
+		puts " ► Completando ID..."
+		completar_id()
+
+		puts " ► Bajando imagenes..."
+		bajar_imagenes()
+
 		Archivo.preservar(destino)
+
 		puts "FIN."
 		puts
 		self
@@ -38,15 +40,29 @@ class Web
 			url = ubicar(c[:url], :productos)
 			Archivo.abrir(url) do |pagina|
 				nuevos = bajar_producto(pagina).compact
-				nuevos.each{|x|x[:rubro] == c[:rubro], x[:id] = ""}
-				productos << nuevos
+				# pp [nuevos.size, nuevos.first]
+				nuevos.each do |x|
+					x[:rubro] = c[:rubro]
+					x[:id] = ""
+				end
+				productos += nuevos
 			end
 		end
 		productos.compact.uniq
 	end
 
 	def bajar_producto(pagina)
-		pagina.css(selector_producto).map{|x| { nombre: nombre(x), precio: precio(x), url_producto: producto(x), url_imagen:  imagen(x) } }
+		nuevos = [] 
+		# print pagina.css(selector_producto).count
+		# print ">"
+		begin
+			pagina.css(selector_producto).each{|x| nuevos << { nombre: nombre(x), precio: precio(x), url_producto: producto(x), url_imagen:  imagen(x) } }
+			# print nuevos.size
+			# print "|"
+		rescue Exception => e
+			puts "ERROR #{e}"			
+		end
+		nuevos
 	end
 
 	def bajar_imagenes(forzar=false)
@@ -68,12 +84,16 @@ class Web
 	def completar_id
 		datos = {}
 		Archivo.listar(carpeta, :productos) do |origen|
-			Archivo.leer(origen).each{|producto| datos[key(producto) = producto.id unless producto.id.vacio?]
+			Archivo.leer(origen).each do |producto| 
+				datos[key(producto)] = producto.id unless producto.id.vacio?
+			end
 		end
 
 		Archivo.listar(carpeta, :productos) do |origen|
 			productos = Archivo.leer(origen)
-			productos.each{|producto| producto[:id] = (datos[key(producto)] ||= proximo_id(datos))}
+			productos.each do |producto| 
+				producto[:id] = (datos[key(producto)] ||= proximo_id(datos))
+			end
 			Archivo.escribir(productos, origen)
 		end
 	end
@@ -109,6 +129,14 @@ class Web
 	def carpeta
 		self.class.to_s.downcase
 	end
+
+	def href(item)
+		item && item.first && item.first[:href] || ""
+	end
+
+	def src(item)
+		item && item.first && item.first[:src] || ""
+	end
 	
 end
 
@@ -139,7 +167,7 @@ class Jumbo < Web
 	end
 	
 	def acortar(url)
-		url.gsub(URL,"").gsub(URL_Imagenes,"").gsub(/\/p$/,"")
+		url ? url.gsub(URL,"").gsub(URL_Imagenes,"").gsub(/\/p$/,"").gsub(/\?PS=99$/,"") : ""
 	end
 
 	def bajar_clasificacion()
@@ -168,19 +196,14 @@ class Jumbo < Web
 	end
 
 	def producto(item)
-		acortar(item.css(".product-item__name a").first["href"]).gsub("?PS=99","")
+		acortar(href(item.css(".product-item__name a")))
 	end
 
 	def imagen(item)
-		url = item.css(".product-item__image-link img").first["src"]
-		acortar(url).split("/")[1].split("-").first+"-#{Tamaño}-#{Tamaño}"
-	end
-
-	def sku(url)
-		print "•"
-		abrir(ubicar(url, :producto)) do |pagina|
-			return pagina.css(".skuReference").text
-		end
+		url = src(item.css(".product-item__image-link img"))
+		aux = acortar(url)
+		aux = aux && aux.split("/")[1]
+		aux = aux && "#{aux.split("-").first}-#{Tamaño}-#{Tamaño}" 
 	end
 end
 
@@ -238,14 +261,14 @@ class Tatito < Web
 	end
 
 	def producto(item)
-		acortar(item.css(".pad15 a").first["href"])
+		acortar(href(item.css(".pad15 a")))
 	end
 
 	def imagen(item)
-		url = item.css(".pad15 a").first["href"]
+		url = href(item.css(".pad15 a"))
 		Archivo.abrir(url) do |pagina|
-			pagina.css(".woocommerce-product-gallery__image a")
-			return aux && aux.first ? acortar(aux.first["href"]) : nil
+			aux = pagina.css(".woocommerce-product-gallery__image a")
+			return acortar(href(aux)) 
 		end
 	end
 end
@@ -279,7 +302,7 @@ class Maxiconsumo < Web
 				nivel = x["data-level"].to_i
 				rubro[nivel] = x.text
 
-				nivel == 2 ? { rubro: rubro.to_rubro, url: acortar(x["href"]) } : nil 
+				nivel == 2 ? { rubro: rubro.to_rubro, url: acortar(href(x)) } : nil 
 			end.compact
 		end
 	end
@@ -300,13 +323,9 @@ class Maxiconsumo < Web
 		nil
 	end
 
-	# def sku(item)
-	# 	item.css(".sku").text.gsub(/\D/,"")
-	# end
-
 	def imagen(item)
-		url = item.css("img").first["src"]
-		if a = url.match(/small_image\/115x115(.*)$/i)
+		url = src(item.css("img"))
+		if a = url && url.match(/small_image\/115x115(.*)$/i)
 			a[1]
 		else
 			nil
