@@ -19,7 +19,6 @@ module Archivo
 	def listar(*camino)
 		camino = [camino].flatten.map(&:to_s).join("/")
 		camino = "#{camino}*.dsv" unless camino["."]
-		puts camino
 		lista = Dir[camino].sort
 		
 		lista.each{|x| yield x} if block_given? 

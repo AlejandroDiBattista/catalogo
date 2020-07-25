@@ -10,7 +10,7 @@ class Web
 		puts "BAJANDO todos los datos de #{carpeta.upcase}"
 		
 		puts "► Bajando clasificacion..."
-		clasificacion = bajar_clasificacion().first(3)
+		clasificacion = bajar_clasificacion()#.first(3)
 		
 		puts "► Bajando productos..."
 		productos = bajar_productos(clasificacion)
@@ -19,8 +19,11 @@ class Web
 
 		puts "► Bajando imagenes..."
 		completar_id()
-		# bajar_imagenes(productos)
+
+		productos = Archivo.leer(destino)
+		bajar_imagenes(productos)
 		puts "FIN."
+		puts
 		self
 	end
 
@@ -54,7 +57,7 @@ class Web
 	end
 
 	def proximo_id
-		print "."
+		# print "."
 		datos.count == 0 ? "00001" : datos.values.max.succ
 	end
 
@@ -83,16 +86,16 @@ class Web
 	end
 
 	def bajar_imagenes(productos, forzar=false)
-		productos.each{|producto| producto.id = buscar_id(producto)}
 		productos.each.with_index do |producto, i|
-			destino = "fotos/#{producto.id}.jpg"
+			destino = "#{carpeta}/fotos/#{producto[:id]}.jpg"
 			unless producto.url_imagen.vacio? || File.exist?(destino) 
-				origen  = ubicar(producto.url_imagen, :imagen)
-				print(".")
-				puts if i % 100 == 0
+				origen = ubicar(producto.url_imagen, :imagen)
+				print "•"
+				puts if i % 100 == 99
 				puts "#{origen} => #{destino}" unless Archivo.bajar(origen, destino, forzar)
 			end
 		end
+		puts 
 	end
 
 end
@@ -145,18 +148,19 @@ class Jumbo < Web
 		clasificacion.each do |c|
 			url = ubicar(c[:url], :productos)
 			print " - #{url} > "
-			page = Nokogiri::HTML(URI.open(url))
-			page.css('.product-shelf li').each do |x|
-				if x.css(".product-item__name a").text.strip.size > 0 
-					productos << {
-						nombre:  nombre(x),
-						precio:  precio(x),
-						rubro: 	c[:rubro],						# marca:   x.css(".product-item__brand").text,
-						url_producto: producto(x),
-						url_imagen:  imagen(x),
-						id: "", 
-					}
-					print "•"
+			Archivo.abrir(url) do |page|
+				page.css('.product-shelf li').each do |x|
+					if x.css(".product-item__name a").text.strip.size > 0 
+						productos << {
+							nombre:  nombre(x),
+							precio:  precio(x),
+							rubro: 	c[:rubro],						# marca:   x.css(".product-item__brand").text,
+							url_producto: producto(x),
+							url_imagen:  imagen(x),
+							id: "", 
+						}
+						print "•"
+					end
 				end
 			end
 			puts
@@ -217,16 +221,17 @@ class Tatito < Web
 					
 	def bajar_clasificacion
 		url = ubicar(:clasificacion)
-		page = Nokogiri::HTML(URI.open(url))
 		rubros = [nil, nil]
-		page.css('#checkbox_15_2 option').map do |x|
-			rubro = x.text.gsub("\u00A0"," ").gsub("\u00E9","é").strip 
+		Archivo.abrir(url) do |page|
+			return page.css('#checkbox_15_2 option').map do |x|
+				rubro = x.text.gsub("\u00A0"," ").gsub("\u00E9","é").strip 
 
-			nivel = rubro[0..0] == "-" ? 1 : 0
-			rubros[nivel] = rubro.gsub(/^-\s*/,"")
-			id = x["value"]
-			nivel == 1 ?  { rubro: rubros.to_rubro, url: "[#{id}]" } : nil 
-		end.compact
+				nivel = rubro[0..0] == "-" ? 1 : 0
+				rubros[nivel] = rubro.gsub(/^-\s*/,"")
+				id = x["value"]
+				nivel == 1 ?  { rubro: rubros.to_rubro, url: "[#{id}]" } : nil 
+			end.compact
+		end
 	end
 
 	def bajar_productos(clasificacion)
@@ -235,19 +240,20 @@ class Tatito < Web
 			url = ubicar(c[:url], :productos)
 			print " - #{url} > "
 
-			page = Nokogiri::HTML(URI.open(url))
-			page.css('.item_tienda').each do |x|
-				url = x.css(".pad15 a").first["href"]
-				detalle = Nokogiri::HTML(URI.open(url))
-				productos << {
-					nombre: nombre(x),
-					precio: precio(x),
-					rubro: 	c[:rubro],
-					url_producto: producto(x),
-					url_imagen:   imagen(detalle),
-					id: "",
-				}
-				print "•"
+			Archivo.abrir(url) do |page|
+				page.css('.item_tienda').each do |x|
+					url = x.css(".pad15 a").first["href"]
+					detalle = Nokogiri::HTML(URI.open(url))
+					productos << {
+						nombre: nombre(x),
+						precio: precio(x),
+						rubro: 	c[:rubro],
+						url_producto: producto(x),
+						url_imagen:   imagen(detalle),
+						id: "",
+					}
+					print "•"
+				end
 			end
 			puts
 		end
@@ -299,35 +305,34 @@ class Maxiconsumo < Web
 
 	def bajar_clasificacion
 		url = ubicar(:clasificacion)
-		page = Nokogiri::HTML(URI.open(URL))
-
 		rubro = [nil, nil, nil]
-		page.css('#root li a').map do |x|
-			nivel = x["data-level"].to_i
-			rubro[nivel] = x.text
+		Archivo.abrir(URL) do |page|
+			return page.css('#root li a').map do |x|
+				nivel = x["data-level"].to_i
+				rubro[nivel] = x.text
 
-			nivel == 2 ? { rubro: rubro.to_rubro, url: acortar(x["href"]) } : nil 
-		end.compact
+				nivel == 2 ? { rubro: rubro.to_rubro, url: acortar(x["href"]) } : nil 
+			end.compact
+		end
 	end
 
 	def bajar_productos(clasificacion)
-		clasificacion.tabular
 		productos = []
 		clasificacion.each do |c|
 			url = ubicar(c[:url], :productos)
 			print " - #{url} > "
-			page = Nokogiri::HTML(URI.open(url))
-
-			page.css('.products-grid li').each do |x|
-				productos << {
-					nombre: nombre(x),
-					precio: precio(x),
-					rubro: 	c[:rubro],
-					url_producto: nil,
-					url_imagen: imagen(x),
-					id: "",
-				}
-				print "•"
+			Archivo.abrir(url) do |page|
+				page.css('.products-grid li').each do |x|
+					productos << {
+						nombre: nombre(x),
+						precio: precio(x),
+						rubro: 	c[:rubro],
+						url_producto: nil,
+						url_imagen: imagen(x),
+						id: "",
+					}
+					print "•"
+				end
 			end
 			puts
 		end
@@ -356,18 +361,14 @@ class Maxiconsumo < Web
 	end
 end
 
-p origen = Archivo.listar(:jumbo, :productos)[1]
-productos = Archivo.leer(origen)
-productos.each{|producto| producto.url_imagen = "#{producto.url_imagen}-512-512"}
-Archivo.escribir(productos, origen)
-
+# pp Archivo.leer(:tatito, :productos).map{|x|x[:id]}
 if !true 
 	Jumbo.new.completar_id
 	Tatito.new.completar_id
 	Maxiconsumo.new.completar_id
 end
 
-if !true
+if true
 	Jumbo.new.bajar_todo
 	Tatito.new.bajar_todo
 	Maxiconsumo.new.bajar_todo
