@@ -108,6 +108,12 @@ end
 
 
 # Catalogo.analizar(:maxiconsumo)
-a = Catalogo.leer(:maxiconsumo).filtrar{|x|x.id == "00181"}
-a.escribir
+a = Catalogo.leer(:maxiconsumo).map(&:id).ranking
+a.each do |id,n|
+	if n > 1
+		puts "ID > #{id}"
+		Catalogo.leer(:maxiconsumo).filtrar{|x|x.id == id}.listar 
+	end
+end
+# a.escribir
 

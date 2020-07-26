@@ -5,6 +5,7 @@ require_relative 'utils'
 require_relative 'archivo'
 
 class Web
+
 	def bajar_todo
 		destino = [carpeta, :productos]
 		puts "BAJANDO todos los datos de #{carpeta.upcase}"
@@ -68,11 +69,12 @@ class Web
 			end
 		end
 		productos = productos.uniq.select{|producto| (forzar || ! File.exist?( foto(producto.id ))) && ! producto.url_imagen.vacio? }
-
+		puts "Bajando #{productos.count} imagenes"
 		productos.procesar do |producto|
 			origen  = ubicar(producto.url_imagen, :imagen)
 			destino = foto(producto.id)
-			print " #{producto.id} " unless Archivo.bajar(origen, destino, forzar)
+			# print " #{producto.id}" unless 
+			Archivo.bajar(origen, destino, forzar)
 		end
 	end
 
@@ -94,7 +96,7 @@ class Web
 	end
 
 	def key(producto)
-		"#{producto.nombre.to_key}-#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}"
+		"#{producto.nombre.to_key}-#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}-#{producto.rubro.to_key}"
 	end
 
 	def proximo_id(datos)
@@ -269,8 +271,9 @@ class Tatito < Web
 end
 
 class Maxiconsumo < Web
+	attr_accessor :cache
 	URL = "http://www.maxiconsumo.com/sucursal_capital"
-	URL_Imagenes = "http://www.maxiconsumo.com/media/catalog/product/cache/28/image/300x"
+	URL_Imagenes = "http://www.maxiconsumo.com/media/catalog/product/cache/%s/image/300x/%s"
 
 	def ubicar(url = nil, modo = :clasificacion)
 		return url if url && url[":"]
@@ -281,10 +284,13 @@ class Maxiconsumo < Web
 		when :productos 
 			"#{URL}#{url}"
 		when :imagen 
-			"#{URL_Imagenes}/#{url}"
+			aux = url.split("-")
+			aux = aux.unshift(cache.to_s) if aux.size == 1 
+			"#{URL_Imagenes}" % aux
 		end
 	end
 	
+
 	def acortar(url)
 		url.gsub(URL,"").gsub(URL_Imagenes,"")
 	end
@@ -320,18 +326,33 @@ class Maxiconsumo < Web
 
 	def imagen(item)
 		url = src(item.css("img"))
-		if a = url && url.match(/small_image\/115x115(.*)$/i)
-			a[1]
+		if a = url && url.match(/(\d+)\/small_image\/115x115(.*)$/i)
+			"#{a[1]}-#{a[2]}"
 		else
 			nil
 		end
 	end
 end
 
-if __FILE__ == $0 
-	Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
-		# Jumbo.new.bajar_todo
-		# Tatito.new.bajar_todo
-		Maxiconsumo.new.bajar_todo
+# if __FILE__ == $0 
+# 	Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
+# 		Jumbo.new.bajar_todo
+# 		Tatito.new.bajar_todo
+# 		Maxiconsumo.new.bajar_todo
+# 	end
+# end
+
+# m = Maxiconsumo.new
+# m.bajar_todo
+
+base = Archivo.leer(:maxiconsumo, :productos)
+base = base.select{|x|x.url_imagen}
+convertir = Hash[base.map{|x| [x.url_imagen.split("-").last, x.url_imagen]}]
+
+Archivo.listar(:maxiconsumo, :productos)[1..-1].each do |o|
+	Archivo.procesar(o) do |x|
+		if url = convertir[x.url_imagen]
+			x.url_imagen = url 
+		end
 	end
 end

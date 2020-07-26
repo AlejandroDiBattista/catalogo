@@ -116,9 +116,9 @@ if __FILE__ == $0
 	# Archivo.limpiar(:tatito, :productos)
 	# Archivo.limpiar(:maxiconsumo, :productos)
 
-	pp listar("jumbo/productos")
-	pp listar("tatito/productos")
-	pp listar("maxiconsumo/productos")
+	# pp listar("jumbo/productos")
+	# pp listar("tatito/productos")
+	# pp listar("maxiconsumo/productos")
 end
 
-# Archivo.listar(:maxiconsumo, :productos){|o|	Archivo.limpiar(o)}
+# Archivo.listar(:maxiconsumo, :productos){|o| Archivo.limpiar(o)}

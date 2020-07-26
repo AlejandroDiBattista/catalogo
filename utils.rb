@@ -88,12 +88,15 @@ module Enumerable
 	end
 
 	def procesar(hilos=50)
+		salida = []
 		progreso = Progreso.new 
 		Parallel.each(to_a, in_threads: hilos) do |item|
-			yield(item)
-			progreso.avanzar
+			resultado = yield(item)
+			progreso.avanzar(resultado)
+			salida << resultado
 		end
 		progreso.finalizar
+		salida
 	end
 end
 
@@ -126,13 +129,14 @@ class Progreso
 		print "  ► "
 	end
 
-	def avanzar
-		print "●" 
+	def avanzar(correcto=true)
+		print correcto ? "●" : "○"
 		self.cuenta += 1 
 		print " " if self.cuenta % 10 == 0 
 		print " " if self.cuenta % 50 == 0
-		puts if self.cuenta % 100 == 0
-		puts if self.cuenta % 500 == 0
+		puts if self.cuenta %  100 == 0
+		puts if self.cuenta %  500 == 0
+		puts if self.cuenta % 1000 == 0
 		print "    " if self.cuenta % 100 == 0
 	end
 
