@@ -137,6 +137,7 @@ class Progreso
 		puts if self.cuenta %  100 == 0
 		puts if self.cuenta %  500 == 0
 		puts if self.cuenta % 1000 == 0
+		puts if self.cuenta % 5000 == 0
 		print "    " if self.cuenta % 100 == 0
 	end
 

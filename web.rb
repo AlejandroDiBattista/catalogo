@@ -342,17 +342,5 @@ end
 # 	end
 # end
 
-# m = Maxiconsumo.new
-# m.bajar_todo
-
-base = Archivo.leer(:maxiconsumo, :productos)
-base = base.select{|x|x.url_imagen}
-convertir = Hash[base.map{|x| [x.url_imagen.split("-").last, x.url_imagen]}]
-
-Archivo.listar(:maxiconsumo, :productos)[1..-1].each do |o|
-	Archivo.procesar(o) do |x|
-		if url = convertir[x.url_imagen]
-			x.url_imagen = url 
-		end
-	end
-end
+m = Maxiconsumo.new
+m.bajar_imagenes
