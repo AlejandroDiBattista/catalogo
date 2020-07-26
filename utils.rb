@@ -40,11 +40,12 @@ class Array
 		puts ""
 	end
 
-	def listar(titulo="Listado")
+	def listar(titulo="Listado", maximo=10)
 		return if count == 0
-		puts titulo if titulo
-		puts " > %-60s %6s | %s" % ["Nombre", "Precio", "Rubro"]
-		each{|x| puts " • %-60s %6.2f | %s" % [x.nombre[0...60], x.precio.to_f, x.rubro]}
+		maximo ||= count
+		puts "#{titulo} (#{count})" if titulo
+		puts " > %-60s %7s | %-80s" % ["Nombre", "Precio", "Rubro"]
+		first(maximo).each{|x| puts " • %-60s %7.2f | %-80s | %s" % [x.nombre[0...60], x.precio.to_f, x.rubro, x.id]}
 		puts 
 	end
 
@@ -72,12 +73,18 @@ module Enumerable
 		map(&:normalizar)
 	end
 
-	def repetidos
-		contar = Hash.new
-		contar.default = 0
-		each{ |valor| contar[yield(valor)] += 1  }
+	def ranking
+		suma = Hash.new
+		suma.default = 0
+		each{ |valor| suma[valor] += 1  }
+		suma.to_a.sort_by(&:last).reverse
+	end
 
-		select{|valor| contar[yield(valor)] > 2}
+	def repetidos
+		suma = Hash.new
+		suma.default = 0
+		each{ |valor| suma[yield(valor)] += 1  }
+		suma.select{|valor| suma[yield(valor)] > 2}
 	end
 
 	def procesar(hilos=50)

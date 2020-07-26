@@ -94,7 +94,7 @@ class Web
 	end
 
 	def key(producto)
-		"#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}"
+		"#{producto.nombre.to_key}-#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}"
 	end
 
 	def proximo_id(datos)
