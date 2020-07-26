@@ -330,8 +330,8 @@ end
 
 if __FILE__ == $0 
 	Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
-		Jumbo.new.bajar_todo
-		Tatito.new.bajar_todo
+		# Jumbo.new.bajar_todo
+		# Tatito.new.bajar_todo
 		Maxiconsumo.new.bajar_todo
 	end
 end

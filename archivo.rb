@@ -121,4 +121,4 @@ if __FILE__ == $0
 	pp listar("maxiconsumo/productos")
 end
 
-Archivo.listar(:maxiconsumo, :productos){|o|	Archivo.limpiar(o)}
+# Archivo.listar(:maxiconsumo, :productos){|o|	Archivo.limpiar(o)}
