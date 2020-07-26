@@ -166,13 +166,3 @@ if __FILE__ == $0
 	# p a.select{|x| a.count(x) > 1}
 	p a.repetidos{|x|x}
 end
-
-class String
-	def separar_unidad
-		if a = match(/\s*(\w.*)\s+x?([0-9.,]+.*)\s*$/i)
-			return [a[1], a[2]]
-		end
-		[self, nil]
-
-	end
-end

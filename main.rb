@@ -72,52 +72,66 @@ class Catalogo
 	def listar
 		map{|x|{nombre: x.nombre, precio: x.precio, rubro: x.rubro}}.sort_by(&:nombre).listar("Listado #{@base}")
 	end
-end
 
-
-t = Catalogo.leer(:Tatito)
-puts t.map(&:url_producto).first(20)
-
-return 
-if true
-	# Jumbo.muestra
-	# Tatito.muestra
-	# Maxiconsumo.muestra
-	return 
-end
-
-if true
-	a = Catalogo.leer(:maxiconsumo).map{|x|x.nombre}
-	b = a.map(&:separar_unidad).sort_by(&:first)
-	b.select{|x|x.last}.map(&:last).uniq.sort.each{|x|pp x}
-	return
-end
-
-
-j = Jumbo.new
-
-puts "REGISTRANDO"
-Archivo.buscar("jumbo/producto", :todo).each do |origen|
-	productos = Archivo.leer(origen)
-	j.registrar(productos)
-	puts " > #{origen} #{productos.count{|x|x[:id].vacio?}}"
-end
-puts "Hay #{j.registrados}"
-puts "COMPLETANDO"
-
-Archivo.buscar("jumbo/producto", :todo).reverse.each do |origen|
-	productos = Archivo.leer(origen)
-	vacios = productos.select{|x|x[:id].vacio?}
-	vacios.each_slice(10) do |lista|
-		j.completar(lista)
-		Archivo.escribir(productos, origen)
+	def nombres
+		map(&:nombre).uniq.sort 
 	end
 end
-return 
 
-n = Jumbo.leer.map(&:nombre).uniq
-n = n.select{|x| !separar(x).last }
-n = n.select{|x| /d/ === x }
 
-# pp n.map{|x|separar(x).first}.first(20)
-puts n.first(20)
+class String
+	def espacios
+		strip.gsub(/\s+/," ")
+	end
+
+	def terminacion
+		%w{x pack botella bot cja paq}.each do |x| 
+			puts x
+			gsub!(/-\s*$/,"")
+			gsub!(/\b#{x}\s*$/i, " #{x} ")
+			gsub!(/-\s*$/,"")
+		end
+		espacios
+	end
+
+	def limpiar
+		gsub!("unidades", " un ")
+		gsub!(/\bu\b/i, " un ")
+		%w{ml gr cc kg un lt}.each{|x| gsub!( /\b#{x}\.?-?/i, " #{x} ")}
+		espacios
+	end
+
+	def separar_unidad
+		tmp = limpiar
+		if a = tmp.match(/^(.+?)(ml|cc|kg|gr|un|lt)\s([1-9][0-9.,]*)$/i)
+			[a[1].terminacion, "#{a[3]} #{a[2]}" ] 
+		elsif a = tmp.match(/^(.+?)([1-9][0-9.,]*.*)$/i)
+			[a[1].terminacion, a[2]]
+		# elsif a = tmp.match(/^(.+)\s(por|x)\s\b(kg|k|kilo|kilogramos)\b.*$/i)
+		# 	[a[1], "1 kg"]
+		else
+			[tmp, nil]
+		end
+
+	end
+end
+
+a = "Cera Líquida Para Madera Suiza-roble Oscuro-tradicional-bot"
+
+x = "bot"
+p a.gsub( /\b#{x}\.?-?/i, " #{x} ")
+p a.terminacion
+return
+
+n = Catalogo.leer(:jumbo).nombres
+n = n.select{|x| /-/ === x}.map{|x| [x, x.separar_unidad ].flatten}
+# n = n.select{|x| /^\d+$/ === x.last }
+n.each{|x|puts "%-80s %-80s %-40s" % x}
+puts "----"
+return
+n = n.map(&:separar_unidad)
+n = n.select{|a, b| b }
+n = n.uniq#.select {|x| x[/\d/]  }
+
+pp n 
+p n.size
