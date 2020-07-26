@@ -3,7 +3,6 @@ require 'JSON'
 require 'open-uri'
 require_relative 'utils'
 require_relative 'archivo'
-require "parallel"
 
 class Web
 	def bajar_todo
@@ -53,12 +52,8 @@ class Web
 
 	def bajar_producto(pagina)
 		nuevos = [] 
-		# print pagina.css(selector_producto).count
-		# print ">"
 		begin
 			pagina.css(selector_producto).each{|x| nuevos << { nombre: nombre(x), precio: precio(x), url_producto: producto(x), url_imagen:  imagen(x) } }
-			# print nuevos.size
-			# print "|"
 		rescue Exception => e
 			puts "ERROR #{e}"			
 		end
@@ -333,13 +328,7 @@ class Maxiconsumo < Web
 	end
 end
 
-Archivo.listar(:tatito, :productos) do |o|
-	Archivo.procesar(o) do |producto|
-		producto[:url_producto] = producto[:url_producto].gsub("http://tatito.com.ar/producto","")
-	end
-end
-
-if !true
+Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
 	Jumbo.new.bajar_todo
 	Tatito.new.bajar_todo
 	Maxiconsumo.new.bajar_todo

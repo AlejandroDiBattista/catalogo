@@ -27,9 +27,11 @@ module Archivo
 
 	def leer(*camino)
 		origen = ubicar(*camino)
-		datos  = CSV.open(origen, :col_sep => "|")
-		campos = datos.shift.map(&:to_key)
-		datos.map{|valores| Hash(campos, valores)}.normalizar
+		csv  = CSV.open(origen, :col_sep => "|")
+		campos = csv.shift.map(&:to_key)
+		datos  = csv.map{|valores| Hash(campos, valores) }.normalizar
+		datos.each{|item|yield(item)} if block_given?
+		datos 
 	end
 
 	def escribir(datos, *camino)
@@ -45,20 +47,20 @@ module Archivo
 
 	def procesar(*camino)
 		origen = ubicar(*camino)
-		lista = leer(*camino)
-		lista.each{|item|yield item}
-		escribir(lista, origen)
+		datos = leer(*camino)
+		datos.each{|item| yield(item)}
+		escribir(datos, origen)
 	end
-	
+
 	def preservar(*camino)
-		lista = Archivo.leer(*camino)
-		Archivo.escribir(lista, [camino, true])
+		datos = Archivo.leer(*camino)
+		Archivo.escribir(datos, [camino, true])
 	end
 
 	def limpiar(*camino)
-		lista = Archivo.leer(*camino)
-		lista.each{|x| x[:id] = 0}
-		Archivo.escribir(lista, *camino)
+		Archivo.procesar(*camino) do |producto|
+			producto[:id] = 0
+		end
 	end
 
 	def bajar(origen, destino, forzar=false)
