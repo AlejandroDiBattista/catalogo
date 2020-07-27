@@ -78,11 +78,17 @@ class Web
 		end
 	end
 
-	def completar_id
+	def completar_id(regenerar=false)
 		datos = {}
-		Archivo.listar(carpeta, :productos) do |origen|
-			Archivo.leer(origen).each do |producto| 
-				datos[key(producto)] = producto.id unless producto.id.vacio?
+		if regenerar then
+			Archivo.listar(carpeta, :productos) do |origen|
+				Archivo.limpiar(origen)
+			end
+		else
+			Archivo.listar(carpeta, :productos) do |origen|
+				Archivo.leer(origen).each do |producto| 
+					datos[key(producto)] = producto.id unless producto.id.vacio?
+				end
 			end
 		end
 
@@ -341,3 +347,4 @@ if __FILE__ == $0
 		Maxiconsumo.new.bajar_todo
 	end
 end
+

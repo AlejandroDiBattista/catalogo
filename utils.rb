@@ -43,9 +43,10 @@ class Array
 	def listar(titulo="Listado", maximo=10)
 		return if count == 0
 		maximo ||= count
-		puts "#{titulo} (#{count})" if titulo
+		puts "#{titulo} (#{count})"
 		puts " > %-60s %7s | %-80s" % ["Nombre", "Precio", "Rubro"]
-		first(maximo).each{|x| puts " • %-60s %7.2f | %-80s | %s" % [x.nombre[0...60], x.precio.to_f, x.rubro, x.id]}
+		a = first(1)
+		first(maximo).each{|x| puts " • %-60s %7.2f | %-80s | %s | %s" % [x.nombre[0...60], x.precio.to_f, x.rubro, x.id, (x.anterior > 0 ? ("%7.2f" % x.anterior) : "")]}
 		puts 
 	end
 
