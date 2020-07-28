@@ -12,9 +12,10 @@ class Web
 		
 		puts " ► Bajando clasificacion..."
 		clasificacion = bajar_clasificacion()#.first(3)
-		
+		puts clasificacion.count
 		puts " ► Bajando productos..."
 		productos = bajar_productos(clasificacion).compact
+		puts productos.count
 		Archivo.escribir(productos, destino)
 
 		puts " ► Completando ID..."
@@ -288,30 +289,49 @@ class Maxiconsumo < Web
 		when :clasificacion
 			"#{URL}"
 		when :productos 
-			"#{URL}#{url}"
+			"#{URL}/#{url}"
 		when :imagen 
 			aux = url.split("-")
 			aux = aux.unshift(cache.to_s) if aux.size == 1 
 			"#{URL_Imagenes}" % aux
 		end
 	end
-	
 
 	def acortar(url)
 		url.gsub(URL,"").gsub(URL_Imagenes,"")
 	end
 
+	def incluir(item)
+		validos = ["Perfumeria", "Fiambreria", "Comestibles", "Bebidas Con Alcohol", "Bebidas Sin Alcohol", "Limpieza"]
+		departamento = item.rubro.split(">").first.strip
+		validos.include?(departamento)	
+	end
+
 	def bajar_clasificacion
+		incluir = 
 		url = ubicar(:clasificacion)
 		rubro = [nil, nil, nil]
 		Archivo.abrir(URL) do |pagina|
-			return pagina.css('#root li a').map do |x|
-				nivel = x["data-level"].to_s.to_i
-				rubro[nivel] = x.text
-
-				nivel == 2 ? { rubro: rubro.to_rubro, url: acortar(x["href"]) } : nil 
+			lista = pagina.css('#maxiconsumo-megamenu  a').map do |x|
+				url = x[:href] = x[:href].split("/")[4..-1]
+				{rubro: x.text, nivel: url.count, url: url.join("/") }
 			end.compact
+			anterior, nivel = [], 0 
+			salida = []
+			ant_nivel = 0
+			ant_url   = nil 
+			lista.each do |x|
+				if x.nivel <= ant_nivel then
+					salida << { rubro: anterior[1..ant_nivel].join(" > "), url: ant_url}
+				end
+				ant_nivel = x.nivel 
+				ant_url = x.url 
+				anterior[x.nivel] = x.rubro
+			end
+			salida <<  { rubro: anterior[0..ant_nivel].join(" > "), url: ant_url}
+			return salida.select{|x| incluir(x) }
 		end
+
 	end
 
 	def selector_producto
@@ -344,7 +364,12 @@ if __FILE__ == $0
 	Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
 		Jumbo.new.bajar_todo
 		Tatito.new.bajar_todo
-		Maxiconsumo.new.bajar_todo
+		# Maxiconsumo.new.bajar_todo
 	end
 end
 
+# m = Maxiconsumo.new
+# if c = m.bajar_clasificacion
+# 	c.tabular
+# 	pp m.bajar_productos(c)
+# end
