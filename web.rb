@@ -12,8 +12,7 @@ class Web
 		
 		puts " ► Bajando clasificacion..."
 		clasificacion = bajar_clasificacion()#.first(3)
-		puts clasificacion.count
-		puts " ► Bajando productos..."
+		puts " ► Bajando productos... (#{clasificacion.count})"
 		productos = bajar_productos(clasificacion).compact
 		puts productos.count
 		Archivo.escribir(productos, destino)
@@ -37,15 +36,11 @@ class Web
 
 	def bajar_productos(clasificacion)
 		productos = []
-		clasificacion.procesar do |c|
+		clasificacion.procesar(10) do |c| # Limitador por Maxiconsumo
 			url = ubicar(c[:url], :productos)
 			Archivo.abrir(url) do |pagina|
 				nuevos = bajar_producto(pagina).compact
-				# pp [nuevos.size, nuevos.first]
-				nuevos.each do |x|
-					x[:rubro] = c[:rubro]
-					x[:id] = ""
-				end
+				nuevos.each{|x| x[:rubro], x[:id] = c[:rubro], ""}
 				productos += nuevos
 			end
 		end
@@ -74,7 +69,6 @@ class Web
 		productos.procesar do |producto|
 			origen  = ubicar(producto.url_imagen, :imagen)
 			destino = foto(producto.id)
-			# print " #{producto.id}" unless 
 			Archivo.bajar(origen, destino, forzar)
 		end
 	end
@@ -119,7 +113,6 @@ class Web
 		clasificacion = clasificacion.first(3) if breve
 		productos = tmp.bajar_productos(clasificacion)
 		productos = productos.first(10) if breve
-		# Archivo.escribir(productos, "#{tmp.carpeta}/productos.dsv")
 		productos.tabular
 		puts "■ %0.1fs \n" % (Time.new - inicio)
 		productos
@@ -280,7 +273,8 @@ end
 class Maxiconsumo < Web
 	attr_accessor :cache
 	URL = "http://www.maxiconsumo.com/sucursal_capital"
-	URL_Imagenes = "http://www.maxiconsumo.com/media/catalog/product/cache/%s/image/300x/%s"
+	URL_Producto = "http://maxiconsumo.com/sucursal_capital/catalog/product/view/id"
+	URL_Imagenes = "http://maxiconsumo.com/pub/media/catalog/product/cache"
 
 	def ubicar(url = nil, modo = :clasificacion)
 		return url if url && url[":"]
@@ -288,6 +282,8 @@ class Maxiconsumo < Web
 		case modo
 		when :clasificacion
 			"#{URL}"
+		when :producto 
+			"#{URL_Producto}/#{url}?product_list_limit=96"
 		when :productos 
 			"#{URL}/#{url}"
 		when :imagen 
@@ -298,7 +294,7 @@ class Maxiconsumo < Web
 	end
 
 	def acortar(url)
-		url.gsub(URL,"").gsub(URL_Imagenes,"")
+		url.gsub(URL,"").gsub(URL_Producto,"").gsub(URL_Imagenes,"")
 	end
 
 	def incluir(item)
@@ -308,55 +304,49 @@ class Maxiconsumo < Web
 	end
 
 	def bajar_clasificacion
-		incluir = 
 		url = ubicar(:clasificacion)
-		rubro = [nil, nil, nil]
-		Archivo.abrir(URL) do |pagina|
+		Archivo.abrir(url) do |pagina|
 			lista = pagina.css('#maxiconsumo-megamenu  a').map do |x|
 				url = x[:href] = x[:href].split("/")[4..-1]
-				{rubro: x.text, nivel: url.count, url: url.join("/") }
-			end.compact
-			anterior, nivel = [], 0 
-			salida = []
-			ant_nivel = 0
-			ant_url   = nil 
-			lista.each do |x|
-				if x.nivel <= ant_nivel then
-					salida << { rubro: anterior[1..ant_nivel].join(" > "), url: ant_url}
+				{ rubro: x.text, nivel: url.count, url: url.join("/") }
+			end
+
+			anterior, rubro, nivel, url = [],  [], 0 , nil 
+			lista.compact.each do |x|
+				if x.nivel <= nivel
+					rubro << { rubro: anterior[1..nivel].to_rubro, url: url } 
 				end
-				ant_nivel = x.nivel 
-				ant_url = x.url 
+				nivel, url = x.nivel , x.url 
 				anterior[x.nivel] = x.rubro
 			end
-			salida <<  { rubro: anterior[0..ant_nivel].join(" > "), url: ant_url}
-			return salida.select{|x| incluir(x) }
-		end
+			rubro <<  { rubro: anterior[1..nivel].to_rubro, url: url }
 
+			return rubro.select{|x| incluir(x) }
+		end
 	end
 
 	def selector_producto
-		'.products-grid li'
+		'.product-item-info'
 	end
 
 	def nombre(item)
-		item.css("h2 a").first["title"]
+		item.css("a.product-item-link").text.espacios
 	end
 
 	def precio(item)
-		item.css(".price").last.text.to_money
+		begin
+			item.css(".price").last.text.to_money
+		rescue 
+			0			
+		end
 	end
 
 	def producto(item)	
-		nil
+		acortar(href(item.css("a.product-item-link")))
 	end
 
 	def imagen(item)
-		url = src(item.css("img"))
-		if a = url && url.match(/(\d+)\/small_image\/115x115(.*)$/i)
-			"#{a[1]}-#{a[2]}"
-		else
-			nil
-		end
+		acortar(src(item.css(".image")))
 	end
 end
 
@@ -364,12 +354,7 @@ if __FILE__ == $0
 	Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
 		Jumbo.new.bajar_todo
 		Tatito.new.bajar_todo
-		# Maxiconsumo.new.bajar_todo
+		Maxiconsumo.new.bajar_todo
 	end
 end
 
-# m = Maxiconsumo.new
-# if c = m.bajar_clasificacion
-# 	c.tabular
-# 	pp m.bajar_productos(c)
-# end

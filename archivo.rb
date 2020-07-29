@@ -41,7 +41,7 @@ module Archivo
 			csv << campos.map(&:to_key)
 			datos.each{|valores| csv << campos.map{|campo| valores[campo] } }
 		end
-		puts "  Escribir #{destino} (#{datos.count} > #{datos.count{|x|x.id.vacio?}})"
+		# puts "  Escribir #{destino} (#{datos.count} > #{datos.count{|x|x.id.vacio?}})"
 		datos
 	end
 

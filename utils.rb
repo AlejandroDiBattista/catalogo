@@ -107,6 +107,10 @@ def Hash(campos, valores=nil)
 end
 
 class String
+	def espacios
+		strip.gsub(/\s+/," ")
+	end
+
 	def to_money
 		begin
 			gsub(",",".").gsub(/[^0-9.]/,"").to_f 
@@ -179,3 +183,4 @@ if __FILE__ == $0
 	# p a.select{|x| a.count(x) > 1}
 	p a.repetidos{|x|x}
 end
+

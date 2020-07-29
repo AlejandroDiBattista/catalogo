@@ -1,8 +1,4 @@
 class String
-	def espacios
-		strip.gsub(/\s+/," ")
-	end
-
 	def terminacion
 		%w{x pack botella bot cja paq}.each do |x| 
 			puts x
