@@ -5,7 +5,6 @@ require_relative 'utils'
 require_relative 'archivo'
 
 class Web
-
 	def bajar_todo
 		destino = [carpeta, :productos]
 		puts "BAJANDO todos los datos de #{carpeta.upcase}"
@@ -349,6 +348,78 @@ class Maxiconsumo < Web
 		acortar(src(item.css(".image")))
 	end
 end
+
+
+# class Disco < Web
+# 	attr_accessor :cache
+# 	URL = "http://www.disco.com.ar/Login/PreHome.aspx"
+# 	URL_Producto = "http://maxiconsumo.com/sucursal_capital/catalog/product/view/id"
+# 	URL_Imagenes = "http://maxiconsumo.com/pub/media/catalog/product/cache"
+
+# 	def ubicar(url = nil, modo = :clasificacion)
+# 		return url if url && url[":"]
+# 		modo = url if Symbol === url 
+# 		case modo
+# 		when :clasificacion
+# 			"#{URL}"
+# 		when :producto 
+# 			"#{URL_Producto}/#{url}?product_list_limit=96"
+# 		when :productos 
+# 			"#{URL}/#{url}"
+# 		when :imagen 
+# 			aux = url.split("-")
+# 			aux = aux.unshift(cache.to_s) if aux.size == 1 
+# 			"#{URL_Imagenes}" % aux
+# 		end
+# 	end
+
+# 	def acortar(url)
+# 		url.gsub(URL,"").gsub(URL_Producto,"").gsub(URL_Imagenes,"")
+# 	end
+
+# 	def incluir(item)
+# 		validos = ["Perfumeria", "Fiambreria", "Comestibles", "Bebidas Con Alcohol", "Bebidas Sin Alcohol", "Limpieza"]
+# 		departamento = item.rubro.split(">").first.strip
+# 		validos.include?(departamento)	
+# 	end
+
+# 	def bajar_clasificacion()
+# 		datos = JSON(URI.open(ubicar(:clasificacion)).read).normalizar
+# 		datos.map do |d|
+# 			d[:children].map do |c|
+# 				if c[:children].size > 0
+# 					c[:children].map{|s|  {rubro: [ d[:name], c[:name], s[:name]].to_rubro, url: acortar(s[:url]) } }
+# 				else
+# 					{rubro: [d[:name], c[:name]].to_rubro, url: acortar(c[:url]) }
+# 				end
+# 			end
+# 		end.flatten.select{|x| incluir(x) }
+# 	end
+
+# 	def selector_producto
+# 		'.product-item-info'
+# 	end
+
+# 	def nombre(item)
+# 		item.css("a.product-item-link").text.espacios
+# 	end
+
+# 	def precio(item)
+# 		begin
+# 			item.css(".price").last.text.to_money
+# 		rescue 
+# 			0			
+# 		end
+# 	end
+
+# 	def producto(item)	
+# 		acortar(href(item.css("a.product-item-link")))
+# 	end
+
+# 	def imagen(item)
+# 		acortar(src(item.css(".image")))
+# 	end
+# end
 
 if __FILE__ == $0 
 	Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 

@@ -112,7 +112,7 @@ class Catalogo
 		v = cambios.sum(&:precio)
 		n = cambios.sum(&:anterior)
 
-		pp( {total:t, nuevo:n, viejo:v, altas:altas.count, igual: igual.count, bajas: bajas.count, cambios:cambios.count, precio_promedio: t / igual.count })
+		# pp( {total:t, nuevo:n, viejo:v, altas:altas.count, igual: igual.count, bajas: bajas.count, cambios:cambios.count, precio_promedio: t / igual.count })
 
 		puts "Variacion > N: %7.2f  (V: %7.2f + %3.1f%%) (T: %7.2f * %3.1f%%  >> %3.1f%%)" % [n, v , 100*(n/v-1), t, 100 * (n / t), 100 * ((n - v) / t)]
 		cambios.listar 
@@ -134,3 +134,5 @@ end
 p Catalogo.leer(:jumbo).precio_promedio
 p Catalogo.leer(:tatito).precio_promedio
 p Catalogo.leer(:maxiconsumo).precio_promedio
+
+p Catalogo.analizar(:tatito)
