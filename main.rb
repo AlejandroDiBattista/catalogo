@@ -95,7 +95,7 @@ class Catalogo
 		sum(&:precio) / count
 	end
 
-	def comparar(otro)
+	def comparar(otro,verboso)
 
 		altas = self - otro
 		bajas = otro - self
@@ -111,28 +111,26 @@ class Catalogo
 		v = cambios.sum(&:precio)
 		n = cambios.sum(&:anterior)
 
-		if v == 0 
-			v = 1
-			n = 1
+		inf = 100.0 * (n - v) / t 
+
+
+		puts "%-20s A: %5i  B: %5i  M: %5i  T: %5i >  Inf: %6.2f%%" % [base, altas.count, bajas.count, cambios.count, count, inf]
+		if verboso
+			puts "ALTAS"
+			altas.listar
+
+			puts "\nCAMBIOS"
+			cambios.listar
+
+			puts "\nBAJAS"
+			bajas.listar
 		end
-		# pp( {total:t, nuevo:n, viejo:v, altas:altas.count, igual: igual.count, bajas: bajas.count, cambios:cambios.count, precio_promedio: t / igual.count })
-
-		puts "Variacion > N: %7.2f  (V: %7.2f + %3.1f%%) (T: %7.2f * %3.1f%%  >> %3.1f%%)" % [n, v , 100*(n/v-1), t, 100 * (n / t), 100 * ((n - v) / t)]
-
-		puts "ALTAS"
-		altas.listar 
-
-		puts "\nCAMBIOS"
-		cambios.listar 
-
-		puts "\nBAJAS"
-		bajas.listar 
 	end
 
-	def self.analizar(base)
+	def self.analizar(base, dias=1, verboso=false)
 		nuevo = Catalogo.leer(base, -1)
-		viejo = Catalogo.leer(base, 1)
-		nuevo.comparar(viejo)
+		viejo = Catalogo.leer(base, -dias)
+		nuevo.comparar(viejo, verboso)
 	end
 end
 
@@ -140,5 +138,7 @@ end
 # p Catalogo.leer(:tatito).precio_promedio
 # p Catalogo.leer(:maxiconsumo).precio_promedio
 
-Catalogo.analizar(:tatito)
+Catalogo.analizar(:tatito, 7)
+Catalogo.analizar(:maxiconsumo, 7)
+Catalogo.analizar(:jumbo, 7)
 # puts Archivo.listar(:tatito, :productos)[1..-1]

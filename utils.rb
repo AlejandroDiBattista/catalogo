@@ -46,7 +46,7 @@ class Array
 		puts "#{titulo} (#{count})"
 		puts " > %-60s %7s | %-80s" % ["Nombre", "Precio", "Rubro"]
 		a = first(1)
-		first(maximo).each{|x| puts " • %-60s %7.2f | %-80s | %s | %s" % [x.nombre[0...60], x.precio.to_f, x.rubro, x.id, (x.anterior > 0 ? ("%7.2f" % x.anterior) : "")]}
+		first(maximo).each{|x| puts " • %-60s %7.2f | %-80s | %s | %s %s" % [x.nombre[0...60], x.precio.to_f, x.rubro, x.id, (x.anterior > 0 ? ("%7.2f" % x.anterior) : ""), (x.anterior > 0 ? ("%7.2f" % (x.precio - x.anterior)) : "")]}
 		puts 
 	end
 
