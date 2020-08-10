@@ -128,9 +128,18 @@ class Catalogo
 	end
 
 	def self.analizar(base, dias=1, verboso=false)
+		
+		for d in 2..dias
+			nuevo = Catalogo.leer(base, -d+1)
+			viejo = Catalogo.leer(base, -d)
+			print "#{d} dia  "
+			nuevo.comparar(viejo, verboso)
+		end
 		nuevo = Catalogo.leer(base, -1)
 		viejo = Catalogo.leer(base, -dias)
+		print "Semana:"
 		nuevo.comparar(viejo, verboso)
+		puts
 	end
 end
 

@@ -388,7 +388,7 @@ end
 # 		datos.map do |d|
 # 			d[:children].map do |c|
 # 				if c[:children].size > 0
-# 					c[:children].map{|s|  {rubro: [ d[:name], c[:name], s[:name]].to_rubro, url: acortar(s[:url]) } }
+# 					+c[:children].map{|s|  {rubro: [ d[:name], c[:name], s[:name]].to_rubro, url: acortar(s[:url]) } }
 # 				else
 # 					{rubro: [d[:name], c[:name]].to_rubro, url: acortar(c[:url]) }
 # 				end
@@ -429,3 +429,4 @@ if __FILE__ == $0
 	end
 end
 
+ 
