@@ -147,7 +147,9 @@ end
 # p Catalogo.leer(:tatito).precio_promedio
 # p Catalogo.leer(:maxiconsumo).precio_promedio
 
-Catalogo.analizar(:tatito, 7)
-Catalogo.analizar(:maxiconsumo, 7)
-Catalogo.analizar(:jumbo, 7)
+# Catalogo.analizar(:tatito, 7)
+# Catalogo.analizar(:maxiconsumo, 7)
+# Catalogo.analizar(:jumbo, 7)
 # puts Archivo.listar(:tatito, :productos)[1..-1]
+
+Web.new.cuando 
