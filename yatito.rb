@@ -36,34 +36,39 @@ class Yatito
 		end
 	end
 
-	def bajar_rubro(rubro)
-		productos, paginas = *extraer_productos(rubro, 1)
-		productos << extraer_productos(rubro, 2).first if paginas 
-		productos.flatten
+	def bajar_rubro(rubro, pagina = 1)
+		productos = []
+		Archivo.abrir( ubicar(:rubro, rubro, pagina) ) do |page|
+			if  hay_productos(page)
+				productos = page.css(".item_tienda .titulo_producto a").map{|x| x[:href] } 
+				productos += bajar_rubro(rubro, pagina + 1) if page.css(".pagination").count > 0  
+			end
+		end
+		productos
 	end
 
 	def bajar_producto(item)
 		Archivo.abrir(item[:producto]) do |page|
-
 			item[:titulo]   = page.css(".product_title").text
 			item[:detalle]  = page.css(".woocommerce-product-details__short-description p").map(&:text).join("/")
 			item[:sku] 	    = page.css(".sku").text
-			item[:imagen]  = page.css(".woocommerce-product-gallery__image img").first["src"]
+			item[:imagen]   = page.css(".woocommerce-product-gallery__image img").first["src"]
 
 			precios = extraer_precios(page)
 
 			item[:regla_1]  = precios[0][0]   
-			item[:precio_1] = precios[0][1] 
+			item[:precio_1] = precios[0][1].to_money
 			
 			if precios.size > 1
 				item[:regla_2]  = precios[1][0] 
-				item[:precio_2] = precios[1][1] 
+				item[:precio_2] = precios[1][1].to_money 
 			end
 			if precios.size > 2
 				item[:regla_3]  = precios[2][0]
-				item[:precio_3] = precios[2][1] 
+				item[:precio_3] = precios[2][1].to_money 
 			end
 		end
+		item 
 	end
 
 	def bajar_imagenes(productos, forzar=false)
@@ -84,37 +89,11 @@ class Yatito
 		end
 	end
 
-	def key(producto)
-		"#{producto.nombre.to_key}-#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}-#{producto.rubro.to_key}"
-	end
-
-	def self.muestra(breve=true)
-		inicio = Time.new
-		tmp = new 
-
-		puts "► Muestra productos de #{tmp.carpeta.upcase}"
-		clasificacion = tmp.bajar_clasificacion
-		clasificacion = clasificacion.first(3) if breve
-		productos = tmp.bajar_productos(clasificacion)
-		productos = productos.first(10) if breve
-		productos.tabular
-		puts "■ %0.1fs \n" % (Time.new - inicio)
-		productos
-	end
-
 	def self.leer
-		base = new.carpeta 
-		Archivo.leer("#{base}/productos.dsv")
+		Archivo.leer([:yatito, :productos])
 	end
 
-
-	def href(item)
-		!item.nil? && !item.first.nil? && item.first[:href] || ""
-	end
-
-	def src(item)
-		item && item.first && item.first[:src] || ""
-	end
+	
 	
 	URL = "http://tatito.com.ar/tienda"
 	URL_Rubro  = "http://tatito.com.ar/tienda/page/%i/?filters=product_cat[%i]"
@@ -135,29 +114,17 @@ class Yatito
 		end
 	end
 		
-	def varias_paginas(pagina)
-		pagina.css(".pagination").count > 0 
-	end
-
+	
 	def hay_productos(pagina)
 		!pagina.css(".column_attr").last.text["No se encontraron productos"]
 	end
 
-	def extraer_productos(rubro, pagina)
-		Archivo.abrir( ubicar(:rubro, rubro, pagina) ) do |page|
-			return [ [], false ] unless hay_productos(page)
-			begin
-				[ page.css(".item_tienda .titulo_producto a").map{|x| x[:href] }, varias_paginas(page) ]
-			rescue Exception => e
-				puts "ERROR #{e}"			
-				[ [], false ]
-			end
-		end
-	end
-
+	
 	
 end
 
-puts "COMENZANDO"
 y = Yatito.new
 a = y.bajar_todo
+# pp y.bajar_producto({producto: "http://tatito.com.ar/producto/alfajor-dolche-patagonia-negro-60-grs/"})
+# a = Yatito.leer 
+# p a.map(&:sku).repetidos

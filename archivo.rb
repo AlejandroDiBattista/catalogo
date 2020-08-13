@@ -36,7 +36,7 @@ module Archivo
 
 	def escribir(datos, *camino)
 		destino = ubicar(*camino)
-		campos = datos.first.keys
+		campos = datos.map(&:keys).flatten.uniq
 		CSV.open(destino, "wb", :col_sep => "|") do |csv|
 			csv << campos.map(&:to_key)
 			datos.each{|valores| csv << campos.map{|campo| valores[campo] } }
