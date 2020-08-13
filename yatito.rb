@@ -18,27 +18,28 @@ class Yatito
 			end
 		end.flatten
 		productos.procesar(50){|producto| bajar_producto(producto) }
+
 		Archivo.escribir(productos, [:yatito, :productos])
 		bajar_imagenes(productos)
 	end
 
 	def bajar_clasificacion
-		url = ubicar(:clasificacion)
 		rubros = [nil, nil]
-		Archivo.abrir(url) do |pagina|
+		Archivo.abrir("http://tatito.com.ar/tienda") do |pagina|
 			return pagina.css('#checkbox_15_2 option').map do |x|
 				rubro = x.text.strip
 				nivel = rubro[0..0] == "-" ? 1 : 0
 				rubros[nivel] = rubro.gsub(/^-\s*/,"").strip
 				id = x["value"].to_i
-				nivel == 1 ? { categoria: rubros[0], rubro: rubros[1], id: id } : nil 
+				nivel == 1 ? { categoria: rubros[0].espacios, rubro: rubros[1].espacios, id: id } : nil 
 			end.compact
 		end
 	end
 
 	def bajar_rubro(rubro, pagina = 1)
+		url = "http://tatito.com.ar/tienda/page/%i/?filters=product_cat[%i]" % [pagina, rubro]
 		productos = []
-		Archivo.abrir( ubicar(:rubro, rubro, pagina) ) do |page|
+		Archivo.abrir(url) do |page|
 			if  hay_productos(page)
 				productos = page.css(".item_tienda .titulo_producto a").map{|x| x[:href] } 
 				productos += bajar_rubro(rubro, pagina + 1) if page.css(".pagination").count > 0  
@@ -51,20 +52,20 @@ class Yatito
 		Archivo.abrir(item[:producto]) do |page|
 			item[:titulo]   = page.css(".product_title").text
 			item[:detalle]  = page.css(".woocommerce-product-details__short-description p").map(&:text).join("/")
-			item[:sku] 	    = page.css(".sku").text
+			item[:sku] 	    = page.css(".sku").text.to_sku
 			item[:imagen]   = page.css(".woocommerce-product-gallery__image img").first["src"]
 
 			precios = extraer_precios(page)
 
-			item[:regla_1]  = precios[0][0]   
+			item[:regla_1 ] = precios[0][0]   
 			item[:precio_1] = precios[0][1].to_money
 			
 			if precios.size > 1
-				item[:regla_2]  = precios[1][0] 
+				item[:regla_2 ] = precios[1][0] 
 				item[:precio_2] = precios[1][1].to_money 
 			end
 			if precios.size > 2
-				item[:regla_3]  = precios[2][0]
+				item[:regla_3 ] = precios[2][0]
 				item[:precio_3] = precios[2][1].to_money 
 			end
 		end
@@ -78,6 +79,10 @@ class Yatito
 			destino = "#{carpeta}/fotos/#{producto[:sku]}.jpg"
 			Archivo.bajar(origen, destino, forzar)
 		end
+	end
+
+	def hay_productos(pagina)
+		!pagina.css(".column_attr").last.text["No se encontraron productos"]
 	end
 
 	def extraer_precios(page)
@@ -94,33 +99,7 @@ class Yatito
 	end
 
 	
-	
-	URL = "http://tatito.com.ar/tienda"
-	URL_Rubro  = "http://tatito.com.ar/tienda/page/%i/?filters=product_cat[%i]"
-	URL_Productos = "http://tatito.com.ar/producto"
 
-	URL_Imagenes  = "http://tatito.com.ar/wp-content/uploads"
-
-	def ubicar(modo = :clasificacion, valor = nil, pagina=1)
-		case modo
-		when :clasificacion
-			URL
-		when :rubro
-			URL_Rubro % [pagina, valor]
-		when :producto
-			"#{URL_Producto}#{valor}"
-		when :imagen 
-			"#{URL_Imagenes}#{valor}"
-		end
-	end
-		
-	
-	def hay_productos(pagina)
-		!pagina.css(".column_attr").last.text["No se encontraron productos"]
-	end
-
-	
-	
 end
 
 y = Yatito.new

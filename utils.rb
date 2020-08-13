@@ -67,6 +67,10 @@ class Object
 	def vacio?
 		to_s.strip.size < 3
 	end
+
+	def to_sku
+		to_s.gsub(/\W/,"")
+	end
 end
 
 module Enumerable
@@ -108,7 +112,7 @@ end
 
 class String
 	def espacios
-		strip.gsub(/\s+/," ")
+		strip.gsub(/\s+/, " ").strip
 	end
 
 	def to_money
@@ -182,5 +186,6 @@ if __FILE__ == $0
 	p a
 	# p a.select{|x| a.count(x) > 1}
 	p a.repetidos{|x|x}
+	p "c0.-1212a  ".to_sku
 end
 
