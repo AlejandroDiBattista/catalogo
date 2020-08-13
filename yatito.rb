@@ -98,8 +98,6 @@ class Yatito
 		Archivo.leer([:yatito, :productos])
 	end
 
-	
-
 end
 
 y = Yatito.new
