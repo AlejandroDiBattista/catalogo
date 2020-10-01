@@ -1,44 +1,82 @@
 
 require 'erb'
 
-primary  = { h: 198, s: 0.0, l: 0.50 }
-neutral  = { h: 198, s: 0.0, l: 0.90 }
-accents1 = { h: 145, s: 0.0, l: 0.60 }
-accents2 = { h:  45, s: 0.0, l: 0.60 }
-accents3 = { h:   5, s: 0.0, l: 0.60 }
+    # @include my-palette(primary, var(--primary-color-l), 5%, 98%);
+    # @include my-palette(neutral, var(--neutral-color-l), 30%, 99%);
 
-primary_tone = { "100": 0.05, "200": 0.16, "300": 0.28, "400": 0.40, "500": 0.50, "600": 0.63, "700": 0.74, "800": 0.86, "850": 0.92, "900": 0.98 }
-# primary_tone.each_with_index{|(k,v), i| primary_tone[k] = i / 100.0 * 10}
-neutral_tone = { "100": 0.30, "200": 0.38, "300": 0.47, "400": 0.56, "500": 0.65, "600": 0.73, "700": 0.82, "800": 0.91, "900": 0.99 }
-# accents_tone = { "100": 0.10, "200": 0.20, "300": 0.30, "400": 0.40, "500": 0.50, "600": 0.60, "700": 0.70, "800": 0.80, "900": 0.90 }
-accents_tone = {  "500": 0.50 }
 
-class Color < Struct.new(:nombre, :variable, :color, :tonos)
+    # #{$name}: hsl(var(#{$base}-h), var(#{$base}-s), var(#{$name}-l));
+
+
+primary  = { h: 198, s: 1.0, l: 0.53, min: 0.05, max: 0.98, tonos: (100..900).step(100).to_a + [850] }
+neutral  = { h: 198, s: 0.8, l: 0.35, min: 0.30, max: 0.99, tonos: (100..900).step(100).to_a + [850] }
+accents1 = { h: 122, s: 0.6, l: 0.53, min: 0.10, max: 0.90, tonos: [500] }
+accents2 = { h:  24, s: 1.0, l: 0.50, min: 0.10, max: 0.90, tonos: [500] }
+accents3 = { h:   1, s: 1.0, l: 0.56, min: 0.10, max: 0.90, tonos: [500] }
+
+def calcular_luminancia(luminancia, tono, min, max)
+    t = (tono - 100.0) / 800;
+
+    initial = 2 * (max + min) * t * t - (max + 3 * min) * t + min
+    return 4 * luminancia * t * (1 - t) + initial
+
+    # $base: "--#{$pallete}-color";
+    # $name: "--#{$pallete}-#{$tone}";
+
+    #{$name}-h: var(#{$base}-h);
+    #{$name}-s: var(#{$base}-s);
+    #{$name}-l: #{$lum};
+end
+
+def listar_paleta(paleta)
+    paleta[:tonos].sort.each do |tono|
+        l = calcular_luminancia(paleta[:l], tono, paleta[:min], paleta[:max])
+        puts "  %3i > %3i, %3i%%, %3i%% " % [tono, paleta[:h], 100*paleta[:s], 100*l]
+    end
+end
+
+puts "Primary"
+listar_paleta primary
+puts "Neutral"
+listar_paleta neutral
+return 
+class Color < Struct.new(:nombre, :variable, :paleta)
+
 	def variables
-		self.tonos.map{|a, b| ["--#{self.variable}-#{a}", a, hsl_3(b)]}
+		# self.tonos.map{|a, b| ["--#{self.variable}-#{a}", a, hsl_3(b)]}
+        tonos = self.paleta[:tonos]
+        min = self.paleta[:min]
+        max = self.paleta[:max]
+
+        self.tonos.map{|a, b| ["--#{self.variable}-#{a}", a, hsl_3(b)]}
 	end
+
+    def color
+        self.paleta
+    end
 
 	def trio(s)
 		h = color[:h]
 		s ||= color[:s]
 		l = color[:l]
-		["%i" % h, "%0.0f%%" % (s*100), "%0.0f%%" % (l*100)]
+		["%i" % h, "%0.0f%%" % (s * 100), "%0.0f%%" % (l * 100)]
 	end
 
 	def hsl(s=nil)
 		"hsl(#{trio(s).join(", ")})".gsub(", 0%", ", Saturation")
 	end
+
 	def hsl_3(s)
 		trio(s)[1]
 	end
 end
 
 Paleta = [
-	Color.new("Primary", :primary, primary, primary_tone),
-	Color.new("Neutral", :neutral, neutral, neutral_tone),
-	Color.new("Accents 1", :accents1, accents1, accents_tone),
-	Color.new("Accents 2", :accents2, accents2, accents_tone),
-	Color.new("Accents 3", :accents3, accents3, accents_tone),
+	Color.new("Primary", :primary, primary),
+	Color.new("Neutral", :neutral, neutral),
+	Color.new("Accents 1", :accents1, accents1),
+	Color.new("Accents 2", :accents2, accents2),
+	Color.new("Accents 3", :accents3, accents3),
 ]
 
 
