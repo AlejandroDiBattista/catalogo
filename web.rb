@@ -349,77 +349,88 @@ class Maxiconsumo < Web
 	end
 end
 
+class TuChanguito < Web
+	attr_accessor :cache
+	URL = "https://www.tuchanguito.com.ar"
+	URL_Producto = "https://www.tuchanguito.com.ar"
+	URL_Imagenes = "https://www.tuchanguito.com.ar"
 
-# class Disco < Web
-# 	attr_accessor :cache
-# 	URL = "http://www.disco.com.ar/Login/PreHome.aspx"
-# 	URL_Producto = "http://maxiconsumo.com/sucursal_capital/catalog/product/view/id"
-# 	URL_Imagenes = "http://maxiconsumo.com/pub/media/catalog/product/cache"
+	def ubicar(url = nil, modo = :clasificacion)
+		return url if url && url[":"]
+		modo = url if Symbol === url
+		case modo
+		when :clasificacion
+			"#{URL}"
+		when :producto 
+			"#{URL_Producto}/#{url}?product_list_limit=96"
+		when :productos 
+			"#{URL}/#{url}"
+		when :imagen 
+			aux = url.split("-")
+			aux = aux.unshift(cache.to_s) if aux.size == 1 
+			"#{URL_Imagenes}" % aux
+		end
+	end
 
-# 	def ubicar(url = nil, modo = :clasificacion)
-# 		return url if url && url[":"]
-# 		modo = url if Symbol === url 
-# 		case modo
-# 		when :clasificacion
-# 			"#{URL}"
-# 		when :producto 
-# 			"#{URL_Producto}/#{url}?product_list_limit=96"
-# 		when :productos 
-# 			"#{URL}/#{url}"
-# 		when :imagen 
-# 			aux = url.split("-")
-# 			aux = aux.unshift(cache.to_s) if aux.size == 1 
-# 			"#{URL_Imagenes}" % aux
-# 		end
-# 	end
+	def acortar(url)
+		url.gsub(URL,"").gsub(URL_Producto,"").gsub(URL_Imagenes,"")
+	end
 
-# 	def acortar(url)
-# 		url.gsub(URL,"").gsub(URL_Producto,"").gsub(URL_Imagenes,"")
-# 	end
+	def incluir(item)
+		validos = ["Perfumeria", "Fiambreria", "Comestibles", "Bebidas Con Alcohol", "Bebidas Sin Alcohol", "Limpieza"]
+		departamento = item.rubro.split(">").first.strip
+		validos.include?(departamento)	
+	end
 
-# 	def incluir(item)
-# 		validos = ["Perfumeria", "Fiambreria", "Comestibles", "Bebidas Con Alcohol", "Bebidas Sin Alcohol", "Limpieza"]
-# 		departamento = item.rubro.split(">").first.strip
-# 		validos.include?(departamento)	
-# 	end
+	def bajar_clasificacion
+		url = ubicar(:clasificacion)
+		Archivo.abrir(url) do |pagina|
+			lista = pagina.css('#maxiconsumo-megamenu  a').map do |x|
+				url = x[:href] = x[:href].split("/")[4..-1]
+				{ rubro: x.text, nivel: url.count, url: url.join("/") }
+			end
 
-# 	def bajar_clasificacion()
-# 		datos = JSON(URI.open(ubicar(:clasificacion)).read).normalizar
-# 		datos.map do |d|
-# 			d[:children].map do |c|
-# 				if c[:children].size > 0
-# 					+c[:children].map{|s|  {rubro: [ d[:name], c[:name], s[:name]].to_rubro, url: acortar(s[:url]) } }
-# 				else
-# 					{rubro: [d[:name], c[:name]].to_rubro, url: acortar(c[:url]) }
-# 				end
-# 			end
-# 		end.flatten.select{|x| incluir(x) }
-# 	end
+			anterior, rubro, nivel, url = [],  [], 0 , nil 
+			lista.compact.each do |x|
+				if x.nivel <= nivel
+					rubro << { rubro: anterior[1..nivel].to_rubro, url: url } 
+				end
+				nivel, url = x.nivel , x.url 
+				anterior[x.nivel] = x.rubro
+			end
+			rubro <<  { rubro: anterior[1..nivel].to_rubro, url: url }
 
-# 	def selector_producto
-# 		'.product-item-info'
-# 	end
+			return rubro.select{|x| incluir(x) }
+		end
+	end
 
-# 	def nombre(item)
-# 		item.css("a.product-item-link").text.espacios
-# 	end
+	def selector_producto
+		'.product-item-info'
+	end
 
-# 	def precio(item)
-# 		begin
-# 			item.css(".price").last.text.to_money
-# 		rescue 
-# 			0			
-# 		end
-# 	end
+	def nombre(item)
+		item.css("a.product-item-link").text.espacios
+	end
 
-# 	def producto(item)	
-# 		acortar(href(item.css("a.product-item-link")))
-# 	end
+	def precio(item)
+		begin
+			item.css(".price").last.text.to_money
+		rescue 
+			0			
+		end
+	end
 
-# 	def imagen(item)
-# 		acortar(src(item.css(".image")))
-# 	end
-# end
+	def producto(item)	
+		acortar(href(item.css("a.product-item-link")))
+	end
+
+	def imagen(item)
+		acortar(src(item.css(".image")))
+	end
+end
+
+
+
 
 if __FILE__ == $0 
 	Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
