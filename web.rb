@@ -63,7 +63,7 @@ class Web
 		nuevos
 	end
 
-	def bajar_imagenes(forzar=false)
+	def bajar_imagenes(forzar=true)
 		productos = []
 		Archivo.listar(carpeta, :productos) do |origen|
 			Archivo.leer(origen).each  do |producto|
@@ -75,6 +75,7 @@ class Web
 		productos.procesar do |producto|
 			origen  = ubicar(producto.url_imagen, :imagen)
 			destino = foto(producto.id)
+			puts " #{origen} > #{destino}"
 			Archivo.bajar(origen, destino, forzar)
 		end
 	end
@@ -373,7 +374,6 @@ class TuChanguito < Web
 		when :productos 
 			"#{URL}/#{url}"
 		when :imagen 
-			puts "img > #{url}"
 			url
 		end
 	end
