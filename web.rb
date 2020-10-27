@@ -359,7 +359,7 @@ end
 class TuChanguito < Web
 	attr_accessor :cache
 	URL = "https://www.tuchanguito.com.ar/"
-	URL_Producto = "https://www.tuchanguito.com.ar/"
+	URL_Producto = "https://www.tuchanguito.com.ar/productos/"
 	URL_Imagenes = "https://www.tuchanguito.com.ar/"
 
 	def ubicar(url = nil, modo = :clasificacion)
@@ -369,22 +369,24 @@ class TuChanguito < Web
 		when :clasificacion
 			"#{URL}"
 		when :producto 
-			"#{URL_Producto}/#{url}?product_list_limit=96"
+			"#{URL_Producto}/#{url}"
 		when :productos 
 			"#{URL}/#{url}"
 		when :imagen 
-			aux = url.split("-")
-			aux = aux.unshift(cache.to_s) if aux.size == 1 
-			"#{URL_Imagenes}" % aux
+			puts "img > #{url}"
+			url
 		end
 	end
 
 	def acortar(url)
-		url.gsub(URL,"").gsub(URL_Producto,"").gsub(URL_Imagenes,"")
+		url
+			.gsub(URL_Producto,"")
+			.gsub(URL_Imagenes,"")
+			.gsub(URL,"")
 	end
 
 	def incluir(item)
-		!item[:rubro][/ver todo/i]
+		!item[:rubro][/ver todo/i] && !item[:rubro][/ofertas/i]
 	end
 
 	def bajar_clasificacion
@@ -423,7 +425,8 @@ class TuChanguito < Web
 	end
 
 	def producto(item)	
-		JSON.parse(item.css("div.js-quickshop-container")[0]["data-variants"])
+		# JSON.parse(item.css("div.js-quickshop-container")[0]["data-variants"])
+		acortar(item.css(".item-image a")[0]["href"])
 	end
 
 	def imagen(item)
@@ -433,14 +436,16 @@ end
 
 if __FILE__ == $0
 	puts "Bajando productos de [TuChanguito]"
-	tc = TuChanguito.new
-	clasificacion = tc.bajar_clasificacion()
-	pp tc.bajar_productos(clasificacion.first(2))
-	return
-	Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
-		Jumbo.new.bajar_todo
-		Tatito.new.bajar_todo
-		Maxiconsumo.new.bajar_todo
+	# tc = TuChanguito.new
+	# clasificacion = tc.bajar_clasificacion()
+	# pp tc.bajar_productos(clasificacion.first(2))
+	# return
+
+	Dir.chdir "C:/Users/gogo/Documents/GitHub/catalogo" do 
+	# Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
+		# Jumbo.new.bajar_todo
+		# Tatito.new.bajar_todo
+		# Maxiconsumo.new.bajar_todo
 		TuChanguito.new.bajar_todo
 	end
 end
