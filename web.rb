@@ -49,7 +49,14 @@ class Web
 	def bajar_producto(pagina)
 		nuevos = [] 
 		begin
-			pagina.css(selector_producto).each{|x| nuevos << { nombre: nombre(x), precio: precio(x), url_producto: producto(x), url_imagen:  imagen(x) } }
+			pagina.css(selector_producto).each do |x| 
+				nuevos << { 
+					nombre: nombre(x), 
+					precio: precio(x), 
+					url_producto: producto(x), 
+					url_imagen:  imagen(x) 
+				} 
+			end
 		rescue Exception => e
 			puts "ERROR #{e}"			
 		end
@@ -351,9 +358,9 @@ end
 
 class TuChanguito < Web
 	attr_accessor :cache
-	URL = "https://www.tuchanguito.com.ar"
-	URL_Producto = "https://www.tuchanguito.com.ar"
-	URL_Imagenes = "https://www.tuchanguito.com.ar"
+	URL = "https://www.tuchanguito.com.ar/"
+	URL_Producto = "https://www.tuchanguito.com.ar/"
+	URL_Imagenes = "https://www.tuchanguito.com.ar/"
 
 	def ubicar(url = nil, modo = :clasificacion)
 		return url if url && url[":"]
@@ -377,64 +384,58 @@ class TuChanguito < Web
 	end
 
 	def incluir(item)
-		validos = ["Perfumeria", "Fiambreria", "Comestibles", "Bebidas Con Alcohol", "Bebidas Sin Alcohol", "Limpieza"]
-		departamento = item.rubro.split(">").first.strip
-		validos.include?(departamento)	
+		!item[:rubro][/ver todo/i]
 	end
 
 	def bajar_clasificacion
 		url = ubicar(:clasificacion)
 		Archivo.abrir(url) do |pagina|
-			lista = pagina.css('#maxiconsumo-megamenu  a').map do |x|
-				url = x[:href] = x[:href].split("/")[4..-1]
-				{ rubro: x.text, nivel: url.count, url: url.join("/") }
+			rubros = {}
+			pagina.css('.nav-desktop-list li.nav-item-desktop').each do |x|
+				if y = x.at('.nav-item-container')
+					rubro = y.text.espacios
+					x.css('.desktop-dropdown a').each{|y| rubros[y.text.espacios] = rubro }
+				end 
 			end
-
-			anterior, rubro, nivel, url = [],  [], 0 , nil 
-			lista.compact.each do |x|
-				if x.nivel <= nivel
-					rubro << { rubro: anterior[1..nivel].to_rubro, url: url } 
-				end
-				nivel, url = x.nivel , x.url 
-				anterior[x.nivel] = x.rubro
+			salida = pagina.css('.nav-item-desktop a').map do |y|
+				subrubro = y.text.espacios
+				{ rubro: [rubros[subrubro], subrubro].to_rubro, url: acortar(y[:href]) }
 			end
-			rubro <<  { rubro: anterior[1..nivel].to_rubro, url: url }
-
-			return rubro.select{|x| incluir(x) }
+			rubros = rubros.values.uniq 
+			return salida.select{|x| incluir(x) && !rubros.include?(x.rubro) }
 		end
 	end
 
 	def selector_producto
-		'.product-item-info'
+		'.js-item-product'
 	end
 
 	def nombre(item)
-		item.css("a.product-item-link").text.espacios
+		item.css("div.item-name").text.espacios
 	end
 
 	def precio(item)
 		begin
-			item.css(".price").last.text.to_money
+			item.css(".item-price").last.text.to_money
 		rescue 
 			0			
 		end
 	end
 
 	def producto(item)	
-		acortar(href(item.css("a.product-item-link")))
+		JSON.parse(item.css("div.js-quickshop-container")[0]["data-variants"])
 	end
 
 	def imagen(item)
-		acortar(src(item.css(".image")))
+		item.css(".item-image img")[0]["data-srcset"].split(" ")[-2]
 	end
 end
 
-
-
-
-if __FILE__ == $0 
-
-	p TuChanguito.new.bajar_clasificacion
+if __FILE__ == $0
+	puts "Bajando productos de [TuChanguito]"
+	tc = TuChanguito.new
+	clasificacion = tc.bajar_clasificacion()
+	pp tc.bajar_productos(clasificacion.first(2))
 	return
 	Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
 		Jumbo.new.bajar_todo
@@ -444,4 +445,3 @@ if __FILE__ == $0
 	end
 end
 
-#  

@@ -13,9 +13,12 @@ class String
 			.strip
 	end
 end
-lista = Archivo.leer("productos_01.dsv")
-pp lista.first(3)
-nombres = lista.map(&:nombre).uniq.map(&:upcase).sort.map(&:separar).map(&:last).compact.map(&:last).uniq.sort.map(&:unidad).uniq.sort
-pp nombres
 
-cantidad = ""
+if __FILE__ == $0 
+	lista = Archivo.leer("productos_01.dsv")
+	pp lista.first(3)
+	nombres = lista.map(&:nombre).uniq.map(&:upcase).sort.map(&:separar).map(&:last).compact.map(&:last).uniq.sort.map(&:unidad).uniq.sort
+	pp nombres
+
+	cantidad = ""
+end

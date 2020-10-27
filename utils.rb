@@ -51,7 +51,7 @@ class Array
 	end
 
 	def to_rubro
-		map(&:strip).select{|x|x.size > 1}.join(" > ")
+		compact.map(&:strip).select{|x| x.size > 1 }.join(" > ")
 	end
 end
 
