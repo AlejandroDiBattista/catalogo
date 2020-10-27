@@ -435,18 +435,20 @@ class TuChanguito < Web
 end
 
 if __FILE__ == $0
-	puts "Bajando productos de [TuChanguito]"
-	# tc = TuChanguito.new
-	# clasificacion = tc.bajar_clasificacion()
-	# pp tc.bajar_productos(clasificacion.first(2))
-	# return
 
+
+			  'C:/Users/gogo/Documents/GitHub/catalogo/tuchanguito'
 	Dir.chdir "C:/Users/gogo/Documents/GitHub/catalogo" do 
+		origen = '//d26lpennugtm8s.cloudfront.net/stores/001/219/229/products/134091-e88b3763692fc3fd0415989073970501-480-0.jpg'
+		destino = %q{C:\Users\gogo\Documents\GitHub\catalogo\tuchanguito\00527.jpg}
+		puts origen
+		puts destino
+		Archivo.bajar(origen, destino, true)
 	# Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
 		# Jumbo.new.bajar_todo
-		# Tatito.new.bajar_todo
+		Tatito.new.bajar_todo
 		# Maxiconsumo.new.bajar_todo
-		TuChanguito.new.bajar_todo
+		# TuChanguito.new.bajar_todo
 	end
 end
 
