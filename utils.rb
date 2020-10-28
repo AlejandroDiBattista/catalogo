@@ -139,7 +139,7 @@ class Progreso
 	end
 
 	def avanzar(correcto=true)
-		print correcto ? "●" : "○"
+		print correcto ? "●".green : "○".red
 		self.cuenta += 1 
 		print " " if self.cuenta % 10 == 0 
 		print " " if self.cuenta % 50 == 0

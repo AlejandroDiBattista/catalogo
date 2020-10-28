@@ -71,7 +71,6 @@ class Web
 		productos.procesar do |producto|
 			origen  = ubicar(producto.url_imagen, :imagen)
 			destino = foto(producto.id)
-			puts " #{origen} > #{destino}"
 			Archivo.bajar(origen, destino, forzar)
 		end
 	end
@@ -382,8 +381,8 @@ class TuChanguito < Web
 
 	def acortar(url)
 		url
-			.gsub(URL_Producto,'')
 			.gsub(URL_Imagenes,'')
+			.gsub(URL_Producto,'')
 			.gsub(URL,'')
 			.gsub(/^\//,'')
 	end
@@ -429,10 +428,12 @@ class TuChanguito < Web
 	end
 
 	def imagen(item)
-		url = acortar(item.css(".item-image img")[0]["data-srcset"].split(" ")[-2])
+		url = acortar('http:' + item.css('.item-image img')[0]['data-srcset'].split(' ')[-2])
 		url[/no-foto/i] ? nil : url 
 	end
 end
+
+
 
 if __FILE__ == $0
 
@@ -441,10 +442,9 @@ if __FILE__ == $0
 	# puts tc.map(&:url_imagen).uniq.sort 
 
 	# Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
-		TuChanguito.new.bajar_todo
-		# Jumbo.new.bajar_todo
-		# Tatito.new.bajar_todo
-		# Maxiconsumo.new.bajar_todo
-		T
+		# TuChanguito.new.bajar_todo
+		Jumbo.new.bajar_todo
+		Tatito.new.bajar_todo
+		Maxiconsumo.new.bajar_todo
 end
 

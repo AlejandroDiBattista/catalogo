@@ -72,7 +72,7 @@ module Archivo
 			end
 			true
 		rescue => e 
-			puts "** Bajar: [#{e}] **".red
+			# puts "** Bajar: [#{e}] **".red
 			false
 		end
 	end
