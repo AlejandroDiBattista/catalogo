@@ -212,7 +212,7 @@ class Jumbo < Web
 
 	def imagen(item)
 		url = extraer_img(item.css('.product-item__image-link img'))
-		url = url && aux.split("/")[1]
+		url = url && url.split("/")[1]
 		url = url && "#{url.split("-").first}-#{Tamaño}-#{Tamaño}" 
 	end
 end
@@ -444,7 +444,7 @@ if __FILE__ == $0
 	# Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
 		# TuChanguito.new.bajar_todo
 		Jumbo.new.bajar_todo
-		Tatito.new.bajar_todo
-		Maxiconsumo.new.bajar_todo
+		# Tatito.new.bajar_todo
+		# Maxiconsumo.new.bajar_todo
 end
 
