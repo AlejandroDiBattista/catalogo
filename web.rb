@@ -7,30 +7,26 @@ require_relative 'archivo'
 class Web
 	def bajar_todo
 		destino = [carpeta, :productos]
-		puts "BAJANDO todos los datos de #{carpeta.upcase}"
+		puts "BAJANDO todos los datos de #{carpeta.upcase}".green
 		
-		puts " ► Bajando clasificacion..."
+		puts " ► Bajando clasificacion...".blue
 		clasificacion = bajar_clasificacion()#.first(3)
 		puts " ► Bajando productos... (#{clasificacion.count})"
 		productos = bajar_productos(clasificacion).compact
 		puts productos.count
 		Archivo.escribir(productos, destino)
 
-		puts " ► Completando ID..."
+		puts " ► Completando ID...".blue
 		completar_id()
 
-		puts " ► Bajando imagenes..."
+		puts " ► Bajando imagenes...".blue
 		bajar_imagenes()
 
 		Archivo.preservar(destino)
 
-		puts "FIN."
+		puts "FIN.".green
 		puts
 		self
-	end
-
-	def foto(id)
-		"#{carpeta}/fotos/#{id}.jpg"
 	end
 
 	def bajar_productos(clasificacion)
@@ -39,7 +35,7 @@ class Web
 			url = ubicar(c[:url], :productos)
 			Archivo.abrir(url) do |pagina|
 				nuevos = bajar_producto(pagina).compact
-				nuevos.each{|x| x[:rubro], x[:id] = c[:rubro], ""}
+				nuevos.each{|x| x[:rubro], x[:id] = c[:rubro], ''}
 				productos += nuevos
 			end
 		end
@@ -103,45 +99,57 @@ class Web
 		end
 	end
 
-	def key(producto)
-		"#{producto.nombre.to_key}-#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}-#{producto.rubro.to_key}"
-	end
 
 	def proximo_id(datos)
 		datos.count == 0 ? "00001" : datos.values.max.succ
 	end
-
-	def self.muestra(breve=true)
-		inicio = Time.new
-		tmp = new 
-
-		puts "► Muestra productos de #{tmp.carpeta.upcase}"
-		clasificacion = tmp.bajar_clasificacion
-		clasificacion = clasificacion.first(3) if breve
-		productos = tmp.bajar_productos(clasificacion)
-		productos = productos.first(10) if breve
-		productos.tabular
-		puts "■ %0.1fs \n" % (Time.new - inicio)
-		productos
+	
+	def foto(id)
+		"#{carpeta}/fotos/#{id}.jpg"
 	end
 
-	def self.leer
-		base = new.carpeta 
-		Archivo.leer("#{base}/productos.dsv")
+	def key(producto)
+		"#{producto.nombre.to_key}-#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}-#{producto.rubro.to_key}"
 	end
 
 	def carpeta
 		self.class.to_s.downcase
 	end
 
-	def href(item)
-		!item.nil? && !item.first.nil? && item.first[:href] || ""
+	def extraer_precio(item)
+		item && item.last ? item.last.text.to_money : 0
 	end
 
-	def src(item)
-		item && item.first && item.first[:src] || ""
+	def extraer_url(item, compacto=true)
+		url = item && item.first && item.first[:href] || ''
+		compacto ? acortar(url) : url 
 	end
-	
+
+	def extraer_img(item, compacto=true)
+		url = item && item.first && item.first[:src] || ''
+		compacto ? acortar(url) : url 
+	end
+
+	class << self 
+		def muestra(breve=true)
+			inicio = Time.new
+			tmp = new 
+
+			puts "► Muestra productos de #{tmp.carpeta.upcase}"
+			clasificacion = tmp.bajar_clasificacion
+			clasificacion = clasificacion.first(3) if breve
+			productos = tmp.bajar_productos(clasificacion)
+			productos = productos.first(10) if breve
+			productos.tabular
+			puts "■ %0.1fs \n" % (Time.new - inicio)
+			productos
+		end
+
+		def leer
+			base = new.carpeta 
+			Archivo.leer("#{base}/productos.dsv")
+		end
+	end
 end
 
 class Jumbo < Web
@@ -150,7 +158,7 @@ class Jumbo < Web
 	Tamaño = 512
 
 	def incluir(item)
-		validos = ["Almacén", "Bebidas", "Pescados y Mariscos", "Quesos y Fiambres", "Lácteos", "Congelados", "Panadería y Repostería", "Comidas Preparadas", "Perfumería", "Limpieza"]
+		validos = ['Almacén', 'Bebidas', 'Pescados y Mariscos', 'Quesos y Fiambres', 'Lácteos', 'Congelados', 'Panadería y Repostería', 'Comidas Preparadas', 'Perfumería', 'Limpieza']
 		departamento = item.rubro.split(">").first.strip
 		validos.include?(departamento)	
 	end
@@ -171,7 +179,7 @@ class Jumbo < Web
 	end
 	
 	def acortar(url)
-		url ? url.gsub(URL,"").gsub(URL_Imagenes,"").gsub(/\/p$/,"").gsub(/\?PS=99$/,"") : ""
+		url ? url.gsub(URL,'').gsub(URL_Imagenes,'').gsub(/\/p$/,'').gsub(/\?PS=99$/,'') : ''
 	end
 
 	def bajar_clasificacion()
@@ -196,27 +204,25 @@ class Jumbo < Web
 	end
 
 	def precio(item)
-		item.css(".product-prices__value--best-price").text.to_money
+		extraer_precio(item.css('.product-prices__value--best-price'))
 	end
 
 	def producto(item)
-		acortar(href(item.css(".product-item__name a")))
+		extraer_url(item.css('.product-item__name a'))
 	end
 
 	def imagen(item)
-		url = src(item.css(".product-item__image-link img"))
-		aux = acortar(url)
-		aux = aux && aux.split("/")[1]
-		aux = aux && "#{aux.split("-").first}-#{Tamaño}-#{Tamaño}" 
+		url = extraer_img(item.css('.product-item__image-link img'))
+		url = url && aux.split("/")[1]
+		url = url && "#{url.split("-").first}-#{Tamaño}-#{Tamaño}" 
 	end
 end
 
 class Tatito < Web
-	URL = "http://tatito.com.ar/tienda"
-	URL_Productos = "http://tatito.com.ar/producto"
-	URL_Producto  = "http://tatito.com.ar/tienda/?filters=product_cat"
-
-	URL_Imagenes  = "http://tatito.com.ar/wp-content/uploads"
+	URL = 'http://tatito.com.ar/tienda'
+	URL_Productos = 'http://tatito.com.ar/producto'
+	URL_Producto  = 'http://tatito.com.ar/tienda/?filters=product_cat'
+	URL_Imagenes  = 'http://tatito.com.ar/wp-content/uploads'
 
 	def ubicar(url = nil, modo = :clasificacion)
 		return url if url && url[":"]
@@ -234,7 +240,7 @@ class Tatito < Web
 	end
 
 	def acortar(url)
-		url.gsub(URL,"").gsub(URL_Producto,"").gsub(URL_Productos,"").gsub(URL_Imagenes,"")
+		url.gsub(URL,'').gsub(URL_Producto,'').gsub(URL_Productos,'').gsub(URL_Imagenes,'')
 	end
 					
 	def bajar_clasificacion
@@ -245,7 +251,7 @@ class Tatito < Web
 				rubro = x.text.gsub("\u00A0"," ").gsub("\u00E9","é").strip 
 
 				nivel = rubro[0..0] == "-" ? 1 : 0
-				rubros[nivel] = rubro.gsub(/^-\s*/,"")
+				rubros[nivel] = rubro.gsub(/^-\s*/,'')
 				id = x["value"]
 				nivel == 1 ?  { rubro: rubros.to_rubro, url: "[#{id}]" } : nil 
 			end.compact
@@ -261,27 +267,27 @@ class Tatito < Web
 	end
 
 	def precio(item)
-		item.css(".amount").text.to_money
+		extraer_precio(item.css('.amount'))
 	end
 
 	def producto(item)
-		acortar(href(item.css(".pad15 a")))
+		extraer_url(item.css('.pad15 a'))
 	end
 
 	def imagen(item)
-		url = href(item.css(".pad15 a"))
+		url = extraer_url(item.css('.pad15 a'), false)
 		Archivo.abrir(url) do |pagina|
-			aux = pagina.css(".woocommerce-product-gallery__image a")
-			return acortar(href(aux)) 
+			aux = pagina.css('.woocommerce-product-gallery__image a')
+			return extraer_url(aux)
 		end
 	end
 end
 
 class Maxiconsumo < Web
 	attr_accessor :cache
-	URL = "http://www.maxiconsumo.com/sucursal_capital"
-	URL_Producto = "http://maxiconsumo.com/sucursal_capital/catalog/product/view/id"
-	URL_Imagenes = "http://maxiconsumo.com/pub/media/catalog/product/cache"
+	URL = 'http://www.maxiconsumo.com/sucursal_capital'
+	URL_Producto = 'http://maxiconsumo.com/sucursal_capital/catalog/product/view/id'
+	URL_Imagenes = 'http://maxiconsumo.com/pub/media/catalog/product/cache'
 
 	def ubicar(url = nil, modo = :clasificacion)
 		return url if url && url[":"]
@@ -301,7 +307,7 @@ class Maxiconsumo < Web
 	end
 
 	def acortar(url)
-		url.gsub(URL,"").gsub(URL_Producto,"").gsub(URL_Imagenes,"")
+		url.gsub(URL,'').gsub(URL_Producto,'').gsub(URL_Imagenes,'').gsub(/^\//,'')
 	end
 
 	def incluir(item)
@@ -337,31 +343,27 @@ class Maxiconsumo < Web
 	end
 
 	def nombre(item)
-		item.css("a.product-item-link").text.espacios
+		item.css('a.product-item-link').text.espacios
 	end
 
 	def precio(item)
-		begin
-			item.css(".price").last.text.to_money
-		rescue 
-			0			
-		end
+		extraer_precio(item.css('.price'))
 	end
 
-	def producto(item)	
-		acortar(href(item.css("a.product-item-link")))
+	def producto(item)
+		extraer_url(item.css('a.product-item-link'))
 	end
 
 	def imagen(item)
-		acortar(src(item.css(".image")))
+		extraer_img(item.css('.image'))
 	end
 end
 
 class TuChanguito < Web
 	attr_accessor :cache
-	URL = "https://www.tuchanguito.com.ar/"
-	URL_Producto = "https://www.tuchanguito.com.ar/productos/"
-	URL_Imagenes = "https://www.tuchanguito.com.ar/"
+	URL = 'https://www.tuchanguito.com.ar'
+	URL_Producto = 'https://www.tuchanguito.com.ar/productos'
+	URL_Imagenes = 'http://d26lpennugtm8s.cloudfront.net/stores/001/219/229/products'
 
 	def ubicar(url = nil, modo = :clasificacion)
 		return url if url && url[":"]
@@ -374,15 +376,16 @@ class TuChanguito < Web
 		when :productos 
 			"#{URL}/#{url}"
 		when :imagen 
-			url
+			"#{URL_Imagenes}/#{url}"
 		end
 	end
 
 	def acortar(url)
 		url
-			.gsub(URL_Producto,"")
-			.gsub(URL_Imagenes,"")
-			.gsub(URL,"")
+			.gsub(URL_Producto,'')
+			.gsub(URL_Imagenes,'')
+			.gsub(URL,'')
+			.gsub(/^\//,'')
 	end
 
 	def incluir(item)
@@ -417,37 +420,31 @@ class TuChanguito < Web
 	end
 
 	def precio(item)
-		begin
-			item.css(".item-price").last.text.to_money
-		rescue 
-			0			
-		end
+		extraer_precio(item.css('.item-price'))
 	end
 
+	# JSON.parse(item.css("div.js-quickshop-container")[0]["data-variants"])
 	def producto(item)	
-		# JSON.parse(item.css("div.js-quickshop-container")[0]["data-variants"])
-		acortar(item.css(".item-image a")[0]["href"])
+		extraer_url(item.css('.item-image a'))
 	end
 
 	def imagen(item)
-		item.css(".item-image img")[0]["data-srcset"].split(" ")[-2]
+		url = acortar(item.css(".item-image img")[0]["data-srcset"].split(" ")[-2])
+		url[/no-foto/i] ? nil : url 
 	end
 end
 
 if __FILE__ == $0
 
-	puts Dir.pwd
-			#   'C:/Users/gogo/Documents/GitHub/catalogo/tuchanguito'
+	# tc = TuChanguito.leer
+	# puts tc.count
+	# puts tc.map(&:url_imagen).uniq.sort 
 
-		# origen = '//d26lpennugtm8s.cloudfront.net/stores/001/219/229/products/134091-e88b3763692fc3fd0415989073970501-480-0.jpg'
-		# destino = %q{C:\Users\gogo\Documents\GitHub\catalogo\tuchanguito\00527.jpg}
-		# puts origen
-		# puts destino
-		# Archivo.bajar(origen, destino, true)
 	# Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
 		TuChanguito.new.bajar_todo
-		Jumbo.new.bajar_todo
-		Tatito.new.bajar_todo
-		Maxiconsumo.new.bajar_todo
+		# Jumbo.new.bajar_todo
+		# Tatito.new.bajar_todo
+		# Maxiconsumo.new.bajar_todo
+		T
 end
 

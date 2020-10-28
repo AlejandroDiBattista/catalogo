@@ -2,7 +2,7 @@ require 'open-uri'
 require 'csv'
 require_relative 'utils'
 require 'fileutils'
-
+require 'colorize'
 module Archivo
 
 	def ubicar(*camino)
@@ -64,12 +64,15 @@ module Archivo
 	end
 
 	def bajar(origen, destino, forzar=false)
+		destino = destino.to_s 
+		destino += File.extname(origen) unless destino[/\.\w+$/]
 		begin
 			if forzar || !File.exist?(destino)
 				URI.open(origen){|f|  File.open(destino, "wb"){|file| file.puts f.read }} 
 			end
 			true
-		rescue
+		rescue => e 
+			puts "** Bajar: [#{e}] **".red
 			false
 		end
 	end
