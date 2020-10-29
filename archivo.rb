@@ -69,10 +69,11 @@ module Archivo
 		begin
 			if forzar || !File.exist?(destino)
 				URI.open(origen){|f|  File.open(destino, "wb"){|file| file.puts f.read }} 
+				nil
+			else
+				true 
 			end
-			true
 		rescue => e 
-			# puts "** Bajar: [#{e}] **".red
 			false
 		end
 	end
