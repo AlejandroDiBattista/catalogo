@@ -9,17 +9,17 @@ class Web
 		destino = [carpeta, :productos]
 		puts "BAJANDO todos los datos de #{carpeta.upcase}".green
 		
-		puts " ► Bajando clasificacion...".blue
+		puts " ► Bajando clasificacion...".cyan
 		clasificacion = bajar_clasificacion()#.first(3)
-		puts " ► Bajando productos... (#{clasificacion.count})"
+
+		puts " ► Bajando productos... (#{clasificacion.count})".cyan
 		productos = bajar_productos(clasificacion).compact
-		puts productos.count
 		Archivo.escribir(productos, destino)
 
-		puts " ► Completando ID...".blue
+		puts " ► Completando ID...".cyan
 		completar_id()
 
-		puts " ► Bajando imagenes...".blue
+		puts " ► Bajando imagenes...".cyan
 		bajar_imagenes()
 
 		Archivo.preservar(destino)
@@ -54,7 +54,7 @@ class Web
 				} 
 			end
 		rescue Exception => e
-			puts "ERROR #{e}"			
+			puts "ERROR #{e}".red
 		end
 		nuevos
 	end
@@ -66,7 +66,7 @@ class Web
 				productos << { url_imagen: producto.url_imagen, id: producto.id } 
 			end
 		end
-		productos = productos.uniq.select{|producto| (forzar || ! File.exist?( foto(producto.id ))) && ! producto.url_imagen.vacio? }
+		productos = productos.uniq.select{|producto| (forzar || !File.exist?( foto(producto.id ))) && !producto.url_imagen.vacio? }
 		puts "Bajando #{productos.count} imagenes"
 		productos.procesar do |producto|
 			origen  = ubicar(producto.url_imagen, :imagen)
