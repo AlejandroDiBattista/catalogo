@@ -1,5 +1,6 @@
 $stdout.sync = true
 require 'parallel'
+require 'colorize'
 
 class Hash 
 	def method_missing(meth, *args, &blk)
@@ -33,21 +34,21 @@ class Array
 		return if count == 0
 		campos = first.keys
 		anchos = campos.map{|campo| map{|x| x[campo].to_s.size }.max}
-		puts "►  "+campos.zip(anchos).map{|campo, ancho| (campo.to_s.upcase + " " * ancho)[0...ancho]}.join("  ")
+		puts ("▶  "+campos.zip(anchos).map{|campo, ancho| (campo.to_s.upcase + " " * ancho)[0...ancho]}.join("  ")).yellow
 		each do |x|
-			puts " • "+x.values.zip(anchos).map{|valor, ancho| (valor.to_s + " " * ancho)[0...ancho]}.join("  ")
+			puts " • ".green + x.values.zip(anchos).map{|valor, ancho| (valor.to_s + " " * ancho)[0...ancho]}.join("  ")
 		end
-		puts ""
+		puts "■"
 	end
 
 	def listar(titulo="Listado", maximo=10)
 		return if count == 0
 		maximo ||= count
 		puts "#{titulo} (#{count})"
-		puts " > %-60s %7s | %-80s" % ["Nombre", "Precio", "Rubro"]
+		puts "▶ %-60s %7s | %-80s" % ["Nombre", "Precio", "Rubro"]
 		a = first(1)
 		first(maximo).each{|x| puts " • %-60s %7.2f | %-80s | %s | %s %s" % [x.nombre[0...60], x.precio.to_f, x.rubro, x.id, (x.anterior > 0 ? ("%7.2f" % x.anterior) : ""), (x.anterior > 0 ? ("%7.2f" % (x.precio - x.anterior)) : "")]}
-		puts 
+		puts "■"
 	end
 
 	def to_rubro
@@ -112,19 +113,23 @@ end
 
 class String
 	def espacios
-		strip.gsub(/\s+/, " ").strip
+		strip.gsub(/\s+/, ' ').strip
 	end
 
 	def to_money
 		begin
-			gsub(",",".").gsub(/[^0-9.]/,"").to_f 
+			gsub(',', '.').gsub(/[^0-9.]/,'').to_f 
 		rescue 
 			0		
 		end
 	end
 
 	def to_num
-		gsub(/\D/,"")
+		gsub(/\D/,'')
+	end
+
+	def from_rubro(separador='>')
+		split(separador).map(&:espacios)
 	end
 end
 
@@ -139,7 +144,7 @@ class Progreso
 	end
 
 	def avanzar(correcto=true)
-		print correcto ? "●".green : "○".red
+		print correcto ? "●".green : "●".red #○
 		self.cuenta += 1 
 		print " " if self.cuenta % 10 == 0 
 		print " " if self.cuenta % 50 == 0
@@ -181,11 +186,18 @@ if __FILE__ == $0
 	a = "$ 62,80"
 	p a.to_money
 	p [1,2].class
-	p [{x:10, y:"0000"},{x:"100000", y: 2}].tabular
+	# p [{x:10, y:"0000"},{x:"100000", y: 2}].tabular
 	a = [1, 1, 2, 2, 5, 6, 7, 8].sort
 	p a
 	# p a.select{|x| a.count(x) > 1}
 	p a.repetidos{|x|x}
 	p "c0.-1212a  ".to_sku
+	
+	p '-'*100
+	pp
+	( a="Almacén > Aceites y Vinagres")
+	pp( b = a.from_rubro )
+	pp( b.to_rubro)
+	
 end
 

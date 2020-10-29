@@ -436,15 +436,9 @@ end
 
 
 if __FILE__ == $0
-
-	# tc = TuChanguito.leer
-	# puts tc.count
-	# puts tc.map(&:url_imagen).uniq.sort 
-
-	# Dir.chdir "C:/Users/Algacom/Documents/GitHub/catalogo/" do 
-		# TuChanguito.new.bajar_todo
-		Jumbo.new.bajar_todo
-		# Tatito.new.bajar_todo
-		# Maxiconsumo.new.bajar_todo
+	TuChanguito.new.bajar_todo
+	Jumbo.new.bajar_todo
+	Tatito.new.bajar_todo
+	Maxiconsumo.new.bajar_todo
 end
 
