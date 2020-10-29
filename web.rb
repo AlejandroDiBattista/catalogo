@@ -59,7 +59,7 @@ class Web
 		nuevos
 	end
 
-	def bajar_imagenes(forzar=true)
+	def bajar_imagenes(forzar=false)
 		productos = []
 		Archivo.listar(carpeta, :productos) do |origen|
 			Archivo.leer(origen).each  do |producto|
@@ -436,9 +436,9 @@ end
 
 
 if __FILE__ == $0
-	# TuChanguito.new.bajar_todo
-	# Jumbo.new.bajar_todo
+	TuChanguito.new.bajar_todo
+	Jumbo.new.bajar_todo
 	Tatito.new.bajar_todo
-	# Maxiconsumo.new.bajar_todo
+	Maxiconsumo.new.bajar_todo
 end
 
