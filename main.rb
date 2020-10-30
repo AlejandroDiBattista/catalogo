@@ -94,7 +94,7 @@ class Catalogo
 	end
 
 	def escribir(tipo = :dsv)
-		datos = filtrar{|x|!x.error}.datos.values.sort_by(&:rubro)
+		datos = filtrar{|x|!x.error?}.datos.values.sort_by(&:rubro)
 		Archivo.escribir(datos, [@base, "productos.#{tipo}"])
 	end
 	
@@ -220,7 +220,7 @@ class Catalogo
 end
 
 # [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre|	Catalogo.analizar(nombre, 7) }
-[:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre| Catalogo.leer(nombre).filtrar{|x|!x.error?}.escribir}
+[:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre| Catalogo.leer(nombre).filtrar{|x| !x.error? }.escribir}
 
 t = Catalogo.leer(:jumbo)
 t -= t.filtrar{|x|x.error?}
