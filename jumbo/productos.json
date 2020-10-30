@@ -1892,6 +1892,17 @@
     "texto": "Arroz Oro Estuche Gallo 1 Kg Almacén > Arroz y Legumbres > Arroz 103.83  con_nombre con_rubro con_precio con_foto sin_error 08436"
   },
   {
+    "nombre": "Arroz Box Primavera 85 Gr",
+    "precio": 106.0,
+    "rubro": "Almacén > Arroz y Legumbres > Arroz Listos",
+    "unidad": null,
+    "url_producto": "/arroz-box-primavera-85-gr",
+    "url_imagen": "535748-512-512",
+    "id": "00243",
+    "anterior": 0,
+    "texto": "Arroz Box Primavera 85 Gr Almacén > Arroz y Legumbres > Arroz Listos 106.0  con_nombre con_rubro con_precio con_foto sin_error 00243"
+  },
+  {
     "nombre": "Risotto Champiñones Gallo 240 Gr",
     "precio": 140.61,
     "rubro": "Almacén > Arroz y Legumbres > Arroz Listos",
@@ -1934,17 +1945,6 @@
     "id": "00242",
     "anterior": 0,
     "texto": "Arroz Box Queso 85 Gr Almacén > Arroz y Legumbres > Arroz Listos 106.0  con_nombre con_rubro con_precio con_foto sin_error 00242"
-  },
-  {
-    "nombre": "Arroz Box Primavera 85 Gr",
-    "precio": 106.0,
-    "rubro": "Almacén > Arroz y Legumbres > Arroz Listos",
-    "unidad": null,
-    "url_producto": "/arroz-box-primavera-85-gr",
-    "url_imagen": "535748-512-512",
-    "id": "00243",
-    "anterior": 0,
-    "texto": "Arroz Box Primavera 85 Gr Almacén > Arroz y Legumbres > Arroz Listos 106.0  con_nombre con_rubro con_precio con_foto sin_error 00243"
   },
   {
     "nombre": "Porotos Mister Food Alubia 500 Gr",
@@ -2079,17 +2079,6 @@
     "texto": "Lentejas La Española Gourmet 400 Gr Almacén > Arroz y Legumbres > Legumbres 96.26  con_nombre con_rubro con_precio con_foto sin_error 08771"
   },
   {
-    "nombre": "Caja Navideña Verde 1 U.",
-    "precio": 699.0,
-    "rubro": "Almacén > Cajas Navideñas",
-    "unidad": null,
-    "url_producto": "/caja-navidena-verde-1-u",
-    "url_imagen": "609632-512-512",
-    "id": "08918",
-    "anterior": 0,
-    "texto": "Caja Navideña Verde 1 U. Almacén > Cajas Navideñas 699.0  con_nombre con_rubro con_precio con_foto sin_error 08918"
-  },
-  {
     "nombre": "Caja Navideña Negra 1 U",
     "precio": 1.499,
     "rubro": "Almacén > Cajas Navideñas",
@@ -2110,6 +2099,17 @@
     "id": "08919",
     "anterior": 0,
     "texto": "Caja Navideña Roja 1 U. Almacén > Cajas Navideñas 399.0  con_nombre con_rubro con_precio con_foto sin_error 08919"
+  },
+  {
+    "nombre": "Caja Navideña Verde 1 U.",
+    "precio": 699.0,
+    "rubro": "Almacén > Cajas Navideñas",
+    "unidad": null,
+    "url_producto": "/caja-navidena-verde-1-u",
+    "url_imagen": "609632-512-512",
+    "id": "08918",
+    "anterior": 0,
+    "texto": "Caja Navideña Verde 1 U. Almacén > Cajas Navideñas 699.0  con_nombre con_rubro con_precio con_foto sin_error 08918"
   },
   {
     "nombre": "Caldo Verduras Maggi 12 U",
@@ -8756,6 +8756,28 @@
     "texto": "Premezcla Para Chipa Lucchetti 250 Gr Almacén > Para Preparar > Comidas 146.02  con_nombre con_rubro con_precio con_foto sin_error 01266"
   },
   {
+    "nombre": "Flan Godet De Dulce De Leche 30 Gr",
+    "precio": 31.06,
+    "rubro": "Almacén > Para Preparar > Flanes",
+    "unidad": null,
+    "url_producto": "/flan-dd-lech-godet-30-gr",
+    "url_imagen": "505835-512-512",
+    "id": "06203",
+    "anterior": 0,
+    "texto": "Flan Godet De Dulce De Leche 30 Gr Almacén > Para Preparar > Flanes 31.06  con_nombre con_rubro con_precio con_foto sin_error 06203"
+  },
+  {
+    "nombre": "Exquisita Flan De Vainilla 60 Gr",
+    "precio": 40.71,
+    "rubro": "Almacén > Para Preparar > Flanes",
+    "unidad": null,
+    "url_producto": "/exquisita-flan-de-vainilla-60-gr",
+    "url_imagen": "601829-512-512",
+    "id": "08450",
+    "anterior": 0,
+    "texto": "Exquisita Flan De Vainilla 60 Gr Almacén > Para Preparar > Flanes 40.71  con_nombre con_rubro con_precio con_foto sin_error 08450"
+  },
+  {
     "nombre": "Exquisita Flan De Dulce De Leche 60 Gr",
     "precio": 40.71,
     "rubro": "Almacén > Para Preparar > Flanes",
@@ -8798,28 +8820,6 @@
     "id": "01290",
     "anterior": 0,
     "texto": "Flan Godet De Vainilla 30 Gr Almacén > Para Preparar > Flanes 31.06  con_nombre con_rubro con_precio con_foto sin_error 01290"
-  },
-  {
-    "nombre": "Flan Godet De Dulce De Leche 30 Gr",
-    "precio": 31.06,
-    "rubro": "Almacén > Para Preparar > Flanes",
-    "unidad": null,
-    "url_producto": "/flan-dd-lech-godet-30-gr",
-    "url_imagen": "505835-512-512",
-    "id": "06203",
-    "anterior": 0,
-    "texto": "Flan Godet De Dulce De Leche 30 Gr Almacén > Para Preparar > Flanes 31.06  con_nombre con_rubro con_precio con_foto sin_error 06203"
-  },
-  {
-    "nombre": "Exquisita Flan De Vainilla 60 Gr",
-    "precio": 40.71,
-    "rubro": "Almacén > Para Preparar > Flanes",
-    "unidad": null,
-    "url_producto": "/exquisita-flan-de-vainilla-60-gr",
-    "url_imagen": "601829-512-512",
-    "id": "08450",
-    "anterior": 0,
-    "texto": "Exquisita Flan De Vainilla 60 Gr Almacén > Para Preparar > Flanes 40.71  con_nombre con_rubro con_precio con_foto sin_error 08450"
   },
   {
     "nombre": "Exquisita Grelatina Ligrht Frutilla 25 Gr",
@@ -9262,50 +9262,6 @@
     "texto": "Polvo Para Hornear Royal 100 Gr Almacén > Para Preparar > Pastelería 76.86  con_nombre con_rubro con_precio con_foto sin_error 06208"
   },
   {
-    "nombre": "Postre Godet De Vainilla 70 Gr",
-    "precio": 32.14,
-    "rubro": "Almacén > Para Preparar > Postres",
-    "unidad": null,
-    "url_producto": "/postr-vainill-godet-70-gr",
-    "url_imagen": "422644-512-512",
-    "id": "01320",
-    "anterior": 0,
-    "texto": "Postre Godet De Vainilla 70 Gr Almacén > Para Preparar > Postres 32.14  con_nombre con_rubro con_precio con_foto sin_error 01320"
-  },
-  {
-    "nombre": "Postre Godet De Chocolate 70 Gr",
-    "precio": 38.56,
-    "rubro": "Almacén > Para Preparar > Postres",
-    "unidad": null,
-    "url_producto": "/postr-dd-lech-godet-70-gr",
-    "url_imagen": "329940-512-512",
-    "id": "06215",
-    "anterior": 0,
-    "texto": "Postre Godet De Chocolate 70 Gr Almacén > Para Preparar > Postres 38.56  con_nombre con_rubro con_precio con_foto sin_error 06215"
-  },
-  {
-    "nombre": "Postre Ravanna Vainilla 120 Gr",
-    "precio": 24.4,
-    "rubro": "Almacén > Para Preparar > Postres",
-    "unidad": null,
-    "url_producto": "/postre-ravanna-vainilla-120-gr",
-    "url_imagen": "606986-512-512",
-    "id": "08868",
-    "anterior": 0,
-    "texto": "Postre Ravanna Vainilla 120 Gr Almacén > Para Preparar > Postres 24.4  con_nombre con_rubro con_precio con_foto sin_error 08868"
-  },
-  {
-    "nombre": "Postre Royal Vainilla 75 Gr",
-    "precio": 35.38,
-    "rubro": "Almacén > Para Preparar > Postres",
-    "unidad": null,
-    "url_producto": "/postre-royal-3",
-    "url_imagen": "569142-512-512",
-    "id": "07465",
-    "anterior": 0,
-    "texto": "Postre Royal Vainilla 75 Gr Almacén > Para Preparar > Postres 35.38  con_nombre con_rubro con_precio con_foto sin_error 07465"
-  },
-  {
     "nombre": "Crema Chantilly Dos Anclas 50 Gr",
     "precio": 50.35,
     "rubro": "Almacén > Para Preparar > Postres",
@@ -9348,6 +9304,50 @@
     "id": "08098",
     "anterior": 0,
     "texto": "Postre Godet De Dulce De Leche 70 Gr Almacén > Para Preparar > Postres 32.14  con_nombre con_rubro con_precio con_foto sin_error 08098"
+  },
+  {
+    "nombre": "Postre Godet De Vainilla 70 Gr",
+    "precio": 32.14,
+    "rubro": "Almacén > Para Preparar > Postres",
+    "unidad": null,
+    "url_producto": "/postr-vainill-godet-70-gr",
+    "url_imagen": "422644-512-512",
+    "id": "01320",
+    "anterior": 0,
+    "texto": "Postre Godet De Vainilla 70 Gr Almacén > Para Preparar > Postres 32.14  con_nombre con_rubro con_precio con_foto sin_error 01320"
+  },
+  {
+    "nombre": "Postre Godet De Chocolate 70 Gr",
+    "precio": 38.56,
+    "rubro": "Almacén > Para Preparar > Postres",
+    "unidad": null,
+    "url_producto": "/postr-dd-lech-godet-70-gr",
+    "url_imagen": "329940-512-512",
+    "id": "06215",
+    "anterior": 0,
+    "texto": "Postre Godet De Chocolate 70 Gr Almacén > Para Preparar > Postres 38.56  con_nombre con_rubro con_precio con_foto sin_error 06215"
+  },
+  {
+    "nombre": "Postre Ravanna Vainilla 120 Gr",
+    "precio": 24.4,
+    "rubro": "Almacén > Para Preparar > Postres",
+    "unidad": null,
+    "url_producto": "/postre-ravanna-vainilla-120-gr",
+    "url_imagen": "606986-512-512",
+    "id": "08868",
+    "anterior": 0,
+    "texto": "Postre Ravanna Vainilla 120 Gr Almacén > Para Preparar > Postres 24.4  con_nombre con_rubro con_precio con_foto sin_error 08868"
+  },
+  {
+    "nombre": "Postre Royal Vainilla 75 Gr",
+    "precio": 35.38,
+    "rubro": "Almacén > Para Preparar > Postres",
+    "unidad": null,
+    "url_producto": "/postre-royal-3",
+    "url_imagen": "569142-512-512",
+    "id": "07465",
+    "anterior": 0,
+    "texto": "Postre Royal Vainilla 75 Gr Almacén > Para Preparar > Postres 35.38  con_nombre con_rubro con_precio con_foto sin_error 07465"
   },
   {
     "nombre": "Pasta Box Fileto 64 Gr",
@@ -10461,6 +10461,39 @@
     "texto": "Sal Fina Celusal 500 Gr Almacén > Sal, Pimienta y Especias > Sal 41.62  con_nombre con_rubro con_precio con_foto sin_error 01556"
   },
   {
+    "nombre": "Mix Tropical Cuisine & Co 40 Gr",
+    "precio": 80.63,
+    "rubro": "Almacén > Snacks > Frutas Secas y Disecadas",
+    "unidad": null,
+    "url_producto": "/mix-tropical-cuisine-co-40-gr",
+    "url_imagen": "601193-512-512",
+    "id": "08876",
+    "anterior": 0,
+    "texto": "Mix Tropical Cuisine & Co 40 Gr Almacén > Snacks > Frutas Secas y Disecadas 80.63  con_nombre con_rubro con_precio con_foto sin_error 08876"
+  },
+  {
+    "nombre": "Almendras Naturales Blue Diamond 150 Gr",
+    "precio": 633.6,
+    "rubro": "Almacén > Snacks > Frutas Secas y Disecadas",
+    "unidad": null,
+    "url_producto": "/almendras-naturales-blue-diamond-150-gr",
+    "url_imagen": "584210-512-512",
+    "id": "01508",
+    "anterior": 0,
+    "texto": "Almendras Naturales Blue Diamond 150 Gr Almacén > Snacks > Frutas Secas y Disecadas 633.6  con_nombre con_rubro con_precio con_foto sin_error 01508"
+  },
+  {
+    "nombre": "Mix Energy Cuisine & Co 40 Gr",
+    "precio": 80.63,
+    "rubro": "Almacén > Snacks > Frutas Secas y Disecadas",
+    "unidad": null,
+    "url_producto": "/mix-energy-cuisine-co-40-gr",
+    "url_imagen": "601195-512-512",
+    "id": "08877",
+    "anterior": 0,
+    "texto": "Mix Energy Cuisine & Co 40 Gr Almacén > Snacks > Frutas Secas y Disecadas 80.63  con_nombre con_rubro con_precio con_foto sin_error 08877"
+  },
+  {
     "nombre": "Mix Frutos Secos Natural Break Liviano X24gr",
     "precio": 74.91,
     "rubro": "Almacén > Snacks > Frutas Secas y Disecadas",
@@ -10503,39 +10536,6 @@
     "id": "01501",
     "anterior": 0,
     "texto": "Croppers Mix Maní Almendras Y Castañas 100 Gr Almacén > Snacks > Frutas Secas y Disecadas 184.15  con_nombre con_rubro con_precio con_foto sin_error 01501"
-  },
-  {
-    "nombre": "Mix Tropical Cuisine & Co 40 Gr",
-    "precio": 80.63,
-    "rubro": "Almacén > Snacks > Frutas Secas y Disecadas",
-    "unidad": null,
-    "url_producto": "/mix-tropical-cuisine-co-40-gr",
-    "url_imagen": "601193-512-512",
-    "id": "08876",
-    "anterior": 0,
-    "texto": "Mix Tropical Cuisine & Co 40 Gr Almacén > Snacks > Frutas Secas y Disecadas 80.63  con_nombre con_rubro con_precio con_foto sin_error 08876"
-  },
-  {
-    "nombre": "Almendras Naturales Blue Diamond 150 Gr",
-    "precio": 633.6,
-    "rubro": "Almacén > Snacks > Frutas Secas y Disecadas",
-    "unidad": null,
-    "url_producto": "/almendras-naturales-blue-diamond-150-gr",
-    "url_imagen": "584210-512-512",
-    "id": "01508",
-    "anterior": 0,
-    "texto": "Almendras Naturales Blue Diamond 150 Gr Almacén > Snacks > Frutas Secas y Disecadas 633.6  con_nombre con_rubro con_precio con_foto sin_error 01508"
-  },
-  {
-    "nombre": "Mix Energy Cuisine & Co 40 Gr",
-    "precio": 80.63,
-    "rubro": "Almacén > Snacks > Frutas Secas y Disecadas",
-    "unidad": null,
-    "url_producto": "/mix-energy-cuisine-co-40-gr",
-    "url_imagen": "601195-512-512",
-    "id": "08877",
-    "anterior": 0,
-    "texto": "Mix Energy Cuisine & Co 40 Gr Almacén > Snacks > Frutas Secas y Disecadas 80.63  con_nombre con_rubro con_precio con_foto sin_error 08877"
   },
   {
     "nombre": "Maní Frito Y Salado Sin Piel Croppers 120 Gr",
@@ -10703,17 +10703,6 @@
     "texto": "Maní Pelado Pehuamar 90 Gr Almacén > Snacks > Maní 71.48  con_nombre con_rubro con_precio con_foto sin_error 01526"
   },
   {
-    "nombre": "Nachos Macritas Original 250 Gr",
-    "precio": 192.47,
-    "rubro": "Almacén > Snacks > Nachos",
-    "unidad": null,
-    "url_producto": "/nachos-macritas-x250-gr",
-    "url_imagen": "538463-512-512",
-    "id": "01514",
-    "anterior": 0,
-    "texto": "Nachos Macritas Original 250 Gr Almacén > Snacks > Nachos 192.47  con_nombre con_rubro con_precio con_foto sin_error 01514"
-  },
-  {
     "nombre": "Doritos Queso 95 Gr",
     "precio": 109.97,
     "rubro": "Almacén > Snacks > Nachos",
@@ -10734,6 +10723,17 @@
     "id": "01511",
     "anterior": 0,
     "texto": "Doritos Queso 150 Gr Almacén > Snacks > Nachos 145.66  con_nombre con_rubro con_precio con_foto sin_error 01511"
+  },
+  {
+    "nombre": "Nachos Macritas Original 250 Gr",
+    "precio": 192.47,
+    "rubro": "Almacén > Snacks > Nachos",
+    "unidad": null,
+    "url_producto": "/nachos-macritas-x250-gr",
+    "url_imagen": "538463-512-512",
+    "id": "01514",
+    "anterior": 0,
+    "texto": "Nachos Macritas Original 250 Gr Almacén > Snacks > Nachos 192.47  con_nombre con_rubro con_precio con_foto sin_error 01514"
   },
   {
     "nombre": "Palitos Salados Krachitos 120 Gr",
@@ -15136,17 +15136,6 @@
     "texto": "Vino Crespi Blanco 1000 Ml Bebidas > Vinos > Vinos Blancos 61.22  con_nombre con_rubro con_precio con_foto sin_error 08990"
   },
   {
-    "nombre": "Frizze Evolution Blue 1 L",
-    "precio": 145.52,
-    "rubro": "Bebidas > Vinos > Vinos Frizantes",
-    "unidad": null,
-    "url_producto": "/frizze-evolution-blue-1-l",
-    "url_imagen": "581233-512-512",
-    "id": "02569",
-    "anterior": 0,
-    "texto": "Frizze Evolution Blue 1 L Bebidas > Vinos > Vinos Frizantes 145.52  con_nombre con_rubro con_precio con_foto sin_error 02569"
-  },
-  {
     "nombre": "Vino Blanco New Age 750 Cc",
     "precio": 175.28,
     "rubro": "Bebidas > Vinos > Vinos Frizantes",
@@ -15167,6 +15156,17 @@
     "id": "02570",
     "anterior": 0,
     "texto": "Vino Blanco Frizze Classic 750 Cc Bebidas > Vinos > Vinos Frizantes 157.64  con_nombre con_rubro con_precio con_foto sin_error 02570"
+  },
+  {
+    "nombre": "Frizze Evolution Blue 1 L",
+    "precio": 145.52,
+    "rubro": "Bebidas > Vinos > Vinos Frizantes",
+    "unidad": null,
+    "url_producto": "/frizze-evolution-blue-1-l",
+    "url_imagen": "581233-512-512",
+    "id": "02569",
+    "anterior": 0,
+    "texto": "Frizze Evolution Blue 1 L Bebidas > Vinos > Vinos Frizantes 145.52  con_nombre con_rubro con_precio con_foto sin_error 02569"
   },
   {
     "nombre": "Vino Rosado Santa Ana Selección Especial 750 Cc",
@@ -18304,50 +18304,6 @@
     "texto": "Escobillon Novica Varry 1000 Limpieza > Accesorios de Limpieza > Escobas y Escobillones 705.0  con_nombre con_rubro con_precio con_foto sin_error 05099"
   },
   {
-    "nombre": "Cepillo Novica Sanitario",
-    "precio": 399.0,
-    "rubro": "Limpieza > Accesorios de Limpieza > Escobillas",
-    "unidad": null,
-    "url_producto": "/cepillo-novica-sanitario",
-    "url_imagen": "584193-512-512",
-    "id": "05149",
-    "anterior": 0,
-    "texto": "Cepillo Novica Sanitario Limpieza > Accesorios de Limpieza > Escobillas 399.0  con_nombre con_rubro con_precio con_foto sin_error 05149"
-  },
-  {
-    "nombre": "Escobilla Santiaria La Gauchita",
-    "precio": 178.0,
-    "rubro": "Limpieza > Accesorios de Limpieza > Escobillas",
-    "unidad": null,
-    "url_producto": "/escobilla-sanitaria-la-gauchita",
-    "url_imagen": "592499-512-512",
-    "id": "05152",
-    "anterior": 0,
-    "texto": "Escobilla Santiaria La Gauchita Limpieza > Accesorios de Limpieza > Escobillas 178.0  con_nombre con_rubro con_precio con_foto sin_error 05152"
-  },
-  {
-    "nombre": "Cepillo Novica Largo Alcance",
-    "precio": 355.0,
-    "rubro": "Limpieza > Accesorios de Limpieza > Escobillas",
-    "unidad": null,
-    "url_producto": "/cepillo-novica-largo-alcance",
-    "url_imagen": "584203-512-512",
-    "id": "05147",
-    "anterior": 0,
-    "texto": "Cepillo Novica Largo Alcance Limpieza > Accesorios de Limpieza > Escobillas 355.0  con_nombre con_rubro con_precio con_foto sin_error 05147"
-  },
-  {
-    "nombre": "Sopapa Novica Turbo",
-    "precio": 595.0,
-    "rubro": "Limpieza > Accesorios de Limpieza > Escobillas",
-    "unidad": null,
-    "url_producto": "/sopapa-novica-turbo",
-    "url_imagen": "584195-512-512",
-    "id": "06991",
-    "anterior": 0,
-    "texto": "Sopapa Novica Turbo Limpieza > Accesorios de Limpieza > Escobillas 595.0  con_nombre con_rubro con_precio con_foto sin_error 06991"
-  },
-  {
     "nombre": "Cepillo Novica Bettajeans",
     "precio": 309.0,
     "rubro": "Limpieza > Accesorios de Limpieza > Escobillas",
@@ -18390,6 +18346,50 @@
     "id": "06990",
     "anterior": 0,
     "texto": "Cepillo Novica Sanitario Con Pote Limpieza > Accesorios de Limpieza > Escobillas 555.0  con_nombre con_rubro con_precio con_foto sin_error 06990"
+  },
+  {
+    "nombre": "Cepillo Novica Sanitario",
+    "precio": 399.0,
+    "rubro": "Limpieza > Accesorios de Limpieza > Escobillas",
+    "unidad": null,
+    "url_producto": "/cepillo-novica-sanitario",
+    "url_imagen": "584193-512-512",
+    "id": "05149",
+    "anterior": 0,
+    "texto": "Cepillo Novica Sanitario Limpieza > Accesorios de Limpieza > Escobillas 399.0  con_nombre con_rubro con_precio con_foto sin_error 05149"
+  },
+  {
+    "nombre": "Escobilla Santiaria La Gauchita",
+    "precio": 178.0,
+    "rubro": "Limpieza > Accesorios de Limpieza > Escobillas",
+    "unidad": null,
+    "url_producto": "/escobilla-sanitaria-la-gauchita",
+    "url_imagen": "592499-512-512",
+    "id": "05152",
+    "anterior": 0,
+    "texto": "Escobilla Santiaria La Gauchita Limpieza > Accesorios de Limpieza > Escobillas 178.0  con_nombre con_rubro con_precio con_foto sin_error 05152"
+  },
+  {
+    "nombre": "Cepillo Novica Largo Alcance",
+    "precio": 355.0,
+    "rubro": "Limpieza > Accesorios de Limpieza > Escobillas",
+    "unidad": null,
+    "url_producto": "/cepillo-novica-largo-alcance",
+    "url_imagen": "584203-512-512",
+    "id": "05147",
+    "anterior": 0,
+    "texto": "Cepillo Novica Largo Alcance Limpieza > Accesorios de Limpieza > Escobillas 355.0  con_nombre con_rubro con_precio con_foto sin_error 05147"
+  },
+  {
+    "nombre": "Sopapa Novica Turbo",
+    "precio": 595.0,
+    "rubro": "Limpieza > Accesorios de Limpieza > Escobillas",
+    "unidad": null,
+    "url_producto": "/sopapa-novica-turbo",
+    "url_imagen": "584195-512-512",
+    "id": "06991",
+    "anterior": 0,
+    "texto": "Sopapa Novica Turbo Limpieza > Accesorios de Limpieza > Escobillas 595.0  con_nombre con_rubro con_precio con_foto sin_error 06991"
   },
   {
     "nombre": "Guantes Plumitas Mediano",
@@ -19107,6 +19107,39 @@
     "texto": "Rejilla Ranchera 30 X 33 Cm Limpieza > Accesorios de Limpieza > Trapos de Piso 102.0  con_nombre con_rubro con_precio con_foto sin_error 05183"
   },
   {
+    "nombre": "Autobrillo Para Cuero Cobra Negro 60 Cc",
+    "precio": 248.11,
+    "rubro": "Limpieza > Calzado > Brillos y Revividores",
+    "unidad": null,
+    "url_producto": "/autobrillo-para-cuero-cobra-2",
+    "url_imagen": "516224-512-512",
+    "id": "05216",
+    "anterior": 0,
+    "texto": "Autobrillo Para Cuero Cobra Negro 60 Cc Limpieza > Calzado > Brillos y Revividores 248.11  con_nombre con_rubro con_precio con_foto sin_error 05216"
+  },
+  {
+    "nombre": "Renovador Wassington S.o.s.-marron-180 Cc-aer-cc.-180",
+    "precio": 374.79,
+    "rubro": "Limpieza > Calzado > Brillos y Revividores",
+    "unidad": null,
+    "url_producto": "/renovador-wassington-s-o-s-3",
+    "url_imagen": "180623-512-512",
+    "id": "09214",
+    "anterior": 0,
+    "texto": "Renovador Wassington S.o.s.-marron-180 Cc-aer-cc.-180 Limpieza > Calzado > Brillos y Revividores 374.79  con_nombre con_rubro con_precio con_foto sin_error 09214"
+  },
+  {
+    "nombre": "Cepillo Para Calzado Wassington Natural",
+    "precio": 543.71,
+    "rubro": "Limpieza > Calzado > Brillos y Revividores",
+    "unidad": null,
+    "url_producto": "/cepillo-para-calzado-wassington-1-un-2",
+    "url_imagen": "183429-512-512",
+    "id": "09213",
+    "anterior": 0,
+    "texto": "Cepillo Para Calzado Wassington Natural Limpieza > Calzado > Brillos y Revividores 543.71  con_nombre con_rubro con_precio con_foto sin_error 09213"
+  },
+  {
     "nombre": "Restaurador De Cuero Wassington Marron Crema 54 Gr",
     "precio": 252.33,
     "rubro": "Limpieza > Calzado > Brillos y Revividores",
@@ -19149,39 +19182,6 @@
     "id": "05215",
     "anterior": 0,
     "texto": "Brillo Esponja Para Cuero Wassington 41 Gr Limpieza > Calzado > Brillos y Revividores 269.22  con_nombre con_rubro con_precio con_foto sin_error 05215"
-  },
-  {
-    "nombre": "Autobrillo Para Cuero Cobra Negro 60 Cc",
-    "precio": 248.11,
-    "rubro": "Limpieza > Calzado > Brillos y Revividores",
-    "unidad": null,
-    "url_producto": "/autobrillo-para-cuero-cobra-2",
-    "url_imagen": "516224-512-512",
-    "id": "05216",
-    "anterior": 0,
-    "texto": "Autobrillo Para Cuero Cobra Negro 60 Cc Limpieza > Calzado > Brillos y Revividores 248.11  con_nombre con_rubro con_precio con_foto sin_error 05216"
-  },
-  {
-    "nombre": "Renovador Wassington S.o.s.-marron-180 Cc-aer-cc.-180",
-    "precio": 374.79,
-    "rubro": "Limpieza > Calzado > Brillos y Revividores",
-    "unidad": null,
-    "url_producto": "/renovador-wassington-s-o-s-3",
-    "url_imagen": "180623-512-512",
-    "id": "09214",
-    "anterior": 0,
-    "texto": "Renovador Wassington S.o.s.-marron-180 Cc-aer-cc.-180 Limpieza > Calzado > Brillos y Revividores 374.79  con_nombre con_rubro con_precio con_foto sin_error 09214"
-  },
-  {
-    "nombre": "Cepillo Para Calzado Wassington Natural",
-    "precio": 543.71,
-    "rubro": "Limpieza > Calzado > Brillos y Revividores",
-    "unidad": null,
-    "url_producto": "/cepillo-para-calzado-wassington-1-un-2",
-    "url_imagen": "183429-512-512",
-    "id": "09213",
-    "anterior": 0,
-    "texto": "Cepillo Para Calzado Wassington Natural Limpieza > Calzado > Brillos y Revividores 543.71  con_nombre con_rubro con_precio con_foto sin_error 09213"
   },
   {
     "nombre": "Limpiador Para Calzado Cobra Blanco 60 Cc",
@@ -19492,6 +19492,39 @@
     "texto": "Jabón Liquido Para Ropa Skip Doypack 3 L Limpieza > Cuidado Para La Ropa > Detergente Para Ropa 484.59  con_nombre con_rubro con_precio con_foto sin_error 09218"
   },
   {
+    "nombre": "Jabón De Lavar Jumbo 200 Gr",
+    "precio": 54.37,
+    "rubro": "Limpieza > Cuidado Para La Ropa > Jabón en Pan",
+    "unidad": null,
+    "url_producto": "/jabon-de-lavar-jumbo-hc-200g",
+    "url_imagen": "181189-512-512",
+    "id": "05281",
+    "anterior": 0,
+    "texto": "Jabón De Lavar Jumbo 200 Gr Limpieza > Cuidado Para La Ropa > Jabón en Pan 54.37  con_nombre con_rubro con_precio con_foto sin_error 05281"
+  },
+  {
+    "nombre": "Jabón Para La Ropa Zorro Esferas Activas 150 Gr",
+    "precio": 40.12,
+    "rubro": "Limpieza > Cuidado Para La Ropa > Jabón en Pan",
+    "unidad": null,
+    "url_producto": "/jabon-para-la-ropa-zorro-esferas-activas-1x150g",
+    "url_imagen": "586834-512-512",
+    "id": "05277",
+    "anterior": 0,
+    "texto": "Jabón Para La Ropa Zorro Esferas Activas 150 Gr Limpieza > Cuidado Para La Ropa > Jabón en Pan 40.12  con_nombre con_rubro con_precio con_foto sin_error 05277"
+  },
+  {
+    "nombre": "Jabón En Pan Ala Multipack Multiacción 2x200 Gr",
+    "precio": 121.42,
+    "rubro": "Limpieza > Cuidado Para La Ropa > Jabón en Pan",
+    "unidad": null,
+    "url_producto": "/ala-jabon-para-ropa-en-pan-multipack-multiaccion-2x200-gr",
+    "url_imagen": "210518-512-512",
+    "id": "05276",
+    "anterior": 0,
+    "texto": "Jabón En Pan Ala Multipack Multiacción 2x200 Gr Limpieza > Cuidado Para La Ropa > Jabón en Pan 121.42  con_nombre con_rubro con_precio con_foto sin_error 05276"
+  },
+  {
     "nombre": "Jabón De Lavar Gran Federal Máxima Blancura 2 X 150 Gr",
     "precio": 92.91,
     "rubro": "Limpieza > Cuidado Para La Ropa > Jabón en Pan",
@@ -19534,39 +19567,6 @@
     "id": "05279",
     "anterior": 0,
     "texto": "Jabón En Barra Vanish Super Barra Blanca 75g Limpieza > Cuidado Para La Ropa > Jabón en Pan 121.42  con_nombre con_rubro con_precio con_foto sin_error 05279"
-  },
-  {
-    "nombre": "Jabón De Lavar Jumbo 200 Gr",
-    "precio": 54.37,
-    "rubro": "Limpieza > Cuidado Para La Ropa > Jabón en Pan",
-    "unidad": null,
-    "url_producto": "/jabon-de-lavar-jumbo-hc-200g",
-    "url_imagen": "181189-512-512",
-    "id": "05281",
-    "anterior": 0,
-    "texto": "Jabón De Lavar Jumbo 200 Gr Limpieza > Cuidado Para La Ropa > Jabón en Pan 54.37  con_nombre con_rubro con_precio con_foto sin_error 05281"
-  },
-  {
-    "nombre": "Jabón Para La Ropa Zorro Esferas Activas 150 Gr",
-    "precio": 40.12,
-    "rubro": "Limpieza > Cuidado Para La Ropa > Jabón en Pan",
-    "unidad": null,
-    "url_producto": "/jabon-para-la-ropa-zorro-esferas-activas-1x150g",
-    "url_imagen": "586834-512-512",
-    "id": "05277",
-    "anterior": 0,
-    "texto": "Jabón Para La Ropa Zorro Esferas Activas 150 Gr Limpieza > Cuidado Para La Ropa > Jabón en Pan 40.12  con_nombre con_rubro con_precio con_foto sin_error 05277"
-  },
-  {
-    "nombre": "Jabón En Pan Ala Multipack Multiacción 2x200 Gr",
-    "precio": 121.42,
-    "rubro": "Limpieza > Cuidado Para La Ropa > Jabón en Pan",
-    "unidad": null,
-    "url_producto": "/ala-jabon-para-ropa-en-pan-multipack-multiaccion-2x200-gr",
-    "url_imagen": "210518-512-512",
-    "id": "05276",
-    "anterior": 0,
-    "texto": "Jabón En Pan Ala Multipack Multiacción 2x200 Gr Limpieza > Cuidado Para La Ropa > Jabón en Pan 121.42  con_nombre con_rubro con_precio con_foto sin_error 05276"
   },
   {
     "nombre": "Perfumante Para Ropa Poett Sedosa Primavera 450 Ml",
@@ -20064,6 +20064,28 @@
     "texto": "Suavizante Vivere 900ml Limpieza > Cuidado Para La Ropa > Suavizantes 118.24  con_nombre con_rubro con_precio con_foto sin_error 09234"
   },
   {
+    "nombre": "Antihumedad Novica Soft 80 Gr",
+    "precio": 273.44,
+    "rubro": "Limpieza > Desodorantes de Ambiente > Absorbe Humedad",
+    "unidad": null,
+    "url_producto": "/antihumedad-novica-soft-80-gr",
+    "url_imagen": "584178-512-512",
+    "id": "05294",
+    "anterior": 0,
+    "texto": "Antihumedad Novica Soft 80 Gr Limpieza > Desodorantes de Ambiente > Absorbe Humedad 273.44  con_nombre con_rubro con_precio con_foto sin_error 05294"
+  },
+  {
+    "nombre": "Antihumedad Novica Soft 130 Gr",
+    "precio": 347.35,
+    "rubro": "Limpieza > Desodorantes de Ambiente > Absorbe Humedad",
+    "unidad": null,
+    "url_producto": "/antihumedad-novica-soft-130-gr",
+    "url_imagen": "584180-512-512",
+    "id": "05297",
+    "anterior": 0,
+    "texto": "Antihumedad Novica Soft 130 Gr Limpieza > Desodorantes de Ambiente > Absorbe Humedad 347.35  con_nombre con_rubro con_precio con_foto sin_error 05297"
+  },
+  {
     "nombre": "Absorbe Humedad Crieva Maxi 350 Gr",
     "precio": 207.99,
     "rubro": "Limpieza > Desodorantes de Ambiente > Absorbe Humedad",
@@ -20106,28 +20128,6 @@
     "id": "05292",
     "anterior": 0,
     "texto": "Antihumedad Novica Lavanda 80 Gr Limpieza > Desodorantes de Ambiente > Absorbe Humedad 290.34  con_nombre con_rubro con_precio con_foto sin_error 05292"
-  },
-  {
-    "nombre": "Antihumedad Novica Soft 80 Gr",
-    "precio": 273.44,
-    "rubro": "Limpieza > Desodorantes de Ambiente > Absorbe Humedad",
-    "unidad": null,
-    "url_producto": "/antihumedad-novica-soft-80-gr",
-    "url_imagen": "584178-512-512",
-    "id": "05294",
-    "anterior": 0,
-    "texto": "Antihumedad Novica Soft 80 Gr Limpieza > Desodorantes de Ambiente > Absorbe Humedad 273.44  con_nombre con_rubro con_precio con_foto sin_error 05294"
-  },
-  {
-    "nombre": "Antihumedad Novica Soft 130 Gr",
-    "precio": 347.35,
-    "rubro": "Limpieza > Desodorantes de Ambiente > Absorbe Humedad",
-    "unidad": null,
-    "url_producto": "/antihumedad-novica-soft-130-gr",
-    "url_imagen": "584180-512-512",
-    "id": "05297",
-    "anterior": 0,
-    "texto": "Antihumedad Novica Soft 130 Gr Limpieza > Desodorantes de Ambiente > Absorbe Humedad 347.35  con_nombre con_rubro con_precio con_foto sin_error 05297"
   },
   {
     "nombre": "Aromatizante En Gel Glade Sensations Repuesto Vainilla",
@@ -20724,17 +20724,6 @@
     "texto": "Insecticida Selton Mata Cucarachas Acción Prolongada Aerosol 360 Cm3 Limpieza > Insecticidas > Aerosoles 159.83  con_nombre con_rubro con_precio con_foto sin_error 05510"
   },
   {
-    "nombre": "Aparato Con Cable Para Mosquitos + Tabletas Fuyí 4u",
-    "precio": 537.38,
-    "rubro": "Limpieza > Insecticidas > Aparatos",
-    "unidad": null,
-    "url_producto": "/aparato-con-cable-para-mosquitos-tabletas-fuyi-4u",
-    "url_imagen": "431290-512-512",
-    "id": "05397",
-    "anterior": 0,
-    "texto": "Aparato Con Cable Para Mosquitos + Tabletas Fuyí 4u Limpieza > Insecticidas > Aparatos 537.38  con_nombre con_rubro con_precio con_foto sin_error 05397"
-  },
-  {
     "nombre": "Líquido Eléctrico Fuyí Repuesto 45 Noches",
     "precio": 279.78,
     "rubro": "Limpieza > Insecticidas > Aparatos",
@@ -20755,6 +20744,17 @@
     "id": "05396",
     "anterior": 0,
     "texto": "Fuyí Aparato + 4 Tabletas Sin Cable Limpieza > Insecticidas > Aparatos 252.33  con_nombre con_rubro con_precio con_foto sin_error 05396"
+  },
+  {
+    "nombre": "Aparato Con Cable Para Mosquitos + Tabletas Fuyí 4u",
+    "precio": 537.38,
+    "rubro": "Limpieza > Insecticidas > Aparatos",
+    "unidad": null,
+    "url_producto": "/aparato-con-cable-para-mosquitos-tabletas-fuyi-4u",
+    "url_imagen": "431290-512-512",
+    "id": "05397",
+    "anterior": 0,
+    "texto": "Aparato Con Cable Para Mosquitos + Tabletas Fuyí 4u Limpieza > Insecticidas > Aparatos 537.38  con_nombre con_rubro con_precio con_foto sin_error 05397"
   },
   {
     "nombre": "Raid Cebos Mata Cucarachas 6u",
@@ -21813,17 +21813,6 @@
     "texto": "Detergente Concentrado Cif Active Gel Limón 500 Ml Limpieza > Limpieza de Cocina > Detergentes 96.08  con_nombre con_rubro con_precio con_foto sin_error 09250"
   },
   {
-    "nombre": "Escarbadientes Ideal 50 U",
-    "precio": 29.56,
-    "rubro": "Limpieza > Limpieza de Cocina > Escarbadientes",
-    "unidad": null,
-    "url_producto": "/escarbadientes-ideal-50un",
-    "url_imagen": "191901-512-512",
-    "id": "05589",
-    "anterior": 0,
-    "texto": "Escarbadientes Ideal 50 U Limpieza > Limpieza de Cocina > Escarbadientes 29.56  con_nombre con_rubro con_precio con_foto sin_error 05589"
-  },
-  {
     "nombre": "Escarbadientes Ideal - 100 Palitos",
     "precio": 76.01,
     "rubro": "Limpieza > Limpieza de Cocina > Escarbadientes",
@@ -21844,6 +21833,17 @@
     "id": "05591",
     "anterior": 0,
     "texto": "Escarbadientes Ideal 50 U - Pack 2 U Limpieza > Limpieza de Cocina > Escarbadientes 108.75  con_nombre con_rubro con_precio con_foto sin_error 05591"
+  },
+  {
+    "nombre": "Escarbadientes Ideal 50 U",
+    "precio": 29.56,
+    "rubro": "Limpieza > Limpieza de Cocina > Escarbadientes",
+    "unidad": null,
+    "url_producto": "/escarbadientes-ideal-50un",
+    "url_imagen": "191901-512-512",
+    "id": "05589",
+    "anterior": 0,
+    "texto": "Escarbadientes Ideal 50 U Limpieza > Limpieza de Cocina > Escarbadientes 29.56  con_nombre con_rubro con_precio con_foto sin_error 05589"
   },
   {
     "nombre": "Fósforos Tres Patitos 400 U",
@@ -22154,6 +22154,28 @@
     "texto": "Repuesto Económico Limpiador Cif Vidrios Y Superficies Delicadas Multiuso 900 Ml Limpieza > Limpieza de Cocina > Limpiavidrios 111.91  con_nombre con_rubro con_precio con_foto sin_error 09260"
   },
   {
+    "nombre": "Finish Detergente En Polvo",
+    "precio": 538.28,
+    "rubro": "Limpieza > Limpieza de Cocina > Productos Para Lavavajillas",
+    "unidad": null,
+    "url_producto": "/finish-detergente-en-polvo",
+    "url_imagen": "610987-512-512",
+    "id": "09397",
+    "anterior": 0,
+    "texto": "Finish Detergente En Polvo Limpieza > Limpieza de Cocina > Productos Para Lavavajillas 538.28  con_nombre con_rubro con_precio con_foto sin_error 09397"
+  },
+  {
+    "nombre": "Detergente Para Lavavajillas Finish",
+    "precio": 585.95,
+    "rubro": "Limpieza > Limpieza de Cocina > Productos Para Lavavajillas",
+    "unidad": null,
+    "url_producto": "/detergente-para-lavavajillas-finish-3",
+    "url_imagen": "516373-512-512",
+    "id": "05730",
+    "anterior": 0,
+    "texto": "Detergente Para Lavavajillas Finish Limpieza > Limpieza de Cocina > Productos Para Lavavajillas 585.95  con_nombre con_rubro con_precio con_foto sin_error 05730"
+  },
+  {
     "nombre": "Detergente Para Lavavajillas Finish 1 Kg",
     "precio": 554.27,
     "rubro": "Limpieza > Limpieza de Cocina > Productos Para Lavavajillas",
@@ -22196,28 +22218,6 @@
     "id": "07095",
     "anterior": 0,
     "texto": "Sal Para Lavavajillas Finish 1 Kg Limpieza > Limpieza de Cocina > Productos Para Lavavajillas 480.37  con_nombre con_rubro con_precio con_foto sin_error 07095"
-  },
-  {
-    "nombre": "Finish Detergente En Polvo",
-    "precio": 538.28,
-    "rubro": "Limpieza > Limpieza de Cocina > Productos Para Lavavajillas",
-    "unidad": null,
-    "url_producto": "/finish-detergente-en-polvo",
-    "url_imagen": "610987-512-512",
-    "id": "09397",
-    "anterior": 0,
-    "texto": "Finish Detergente En Polvo Limpieza > Limpieza de Cocina > Productos Para Lavavajillas 538.28  con_nombre con_rubro con_precio con_foto sin_error 09397"
-  },
-  {
-    "nombre": "Detergente Para Lavavajillas Finish",
-    "precio": 585.95,
-    "rubro": "Limpieza > Limpieza de Cocina > Productos Para Lavavajillas",
-    "unidad": null,
-    "url_producto": "/detergente-para-lavavajillas-finish-3",
-    "url_imagen": "516373-512-512",
-    "id": "05730",
-    "anterior": 0,
-    "texto": "Detergente Para Lavavajillas Finish Limpieza > Limpieza de Cocina > Productos Para Lavavajillas 585.95  con_nombre con_rubro con_precio con_foto sin_error 05730"
   },
   {
     "nombre": "Limpiador Líquido Para Lampazos Ceramicol 1000 Ml",
@@ -27951,6 +27951,39 @@
     "texto": "Crema Dental Colgate Max White Crystal Mint 75 Ml Perfumería > Cuidado Oral > Pastas Dentales 193.75  con_nombre con_rubro con_precio con_foto sin_error 05001"
   },
   {
+    "nombre": "Esponja Calypso Exfoliante-relax-paq-un.-1",
+    "precio": 138.86,
+    "rubro": "Perfumería > Cuidado Personal > Cepillos y Esponjas",
+    "unidad": null,
+    "url_producto": "/esponja-calypso-exfoliante-relax-paq-un-1",
+    "url_imagen": "494613-512-512",
+    "id": "07853",
+    "anterior": 0,
+    "texto": "Esponja Calypso Exfoliante-relax-paq-un.-1 Perfumería > Cuidado Personal > Cepillos y Esponjas 138.86  con_nombre con_rubro con_precio con_foto sin_error 07853"
+  },
+  {
+    "nombre": "Esponja Estilo Soft Massage",
+    "precio": 75.72,
+    "rubro": "Perfumería > Cuidado Personal > Cepillos y Esponjas",
+    "unidad": null,
+    "url_producto": "/esponja-estilox-1un",
+    "url_imagen": "177503-512-512",
+    "id": "07549",
+    "anterior": 0,
+    "texto": "Esponja Estilo Soft Massage Perfumería > Cuidado Personal > Cepillos y Esponjas 75.72  con_nombre con_rubro con_precio con_foto sin_error 07549"
+  },
+  {
+    "nombre": "Esponja De Baño Esilo Spa Redonda",
+    "precio": 63.72,
+    "rubro": "Perfumería > Cuidado Personal > Cepillos y Esponjas",
+    "unidad": null,
+    "url_producto": "/esponja-de-bano-estilo-spa-fibra-x-1-un",
+    "url_imagen": "188061-512-512",
+    "id": "06791",
+    "anterior": 0,
+    "texto": "Esponja De Baño Esilo Spa Redonda Perfumería > Cuidado Personal > Cepillos y Esponjas 63.72  con_nombre con_rubro con_precio con_foto sin_error 06791"
+  },
+  {
     "nombre": "Esponja De Baño Estilo Spa Fibra Exfoliante",
     "precio": 145.83,
     "rubro": "Perfumería > Cuidado Personal > Cepillos y Esponjas",
@@ -27993,39 +28026,6 @@
     "id": "07547",
     "anterior": 0,
     "texto": "Esponja De Baño Estilo Spa Hueso Bicolor Perfumería > Cuidado Personal > Cepillos y Esponjas 74.54  con_nombre con_rubro con_precio con_foto sin_error 07547"
-  },
-  {
-    "nombre": "Esponja Calypso Exfoliante-relax-paq-un.-1",
-    "precio": 138.86,
-    "rubro": "Perfumería > Cuidado Personal > Cepillos y Esponjas",
-    "unidad": null,
-    "url_producto": "/esponja-calypso-exfoliante-relax-paq-un-1",
-    "url_imagen": "494613-512-512",
-    "id": "07853",
-    "anterior": 0,
-    "texto": "Esponja Calypso Exfoliante-relax-paq-un.-1 Perfumería > Cuidado Personal > Cepillos y Esponjas 138.86  con_nombre con_rubro con_precio con_foto sin_error 07853"
-  },
-  {
-    "nombre": "Esponja Estilo Soft Massage",
-    "precio": 75.72,
-    "rubro": "Perfumería > Cuidado Personal > Cepillos y Esponjas",
-    "unidad": null,
-    "url_producto": "/esponja-estilox-1un",
-    "url_imagen": "177503-512-512",
-    "id": "07549",
-    "anterior": 0,
-    "texto": "Esponja Estilo Soft Massage Perfumería > Cuidado Personal > Cepillos y Esponjas 75.72  con_nombre con_rubro con_precio con_foto sin_error 07549"
-  },
-  {
-    "nombre": "Esponja De Baño Esilo Spa Redonda",
-    "precio": 63.72,
-    "rubro": "Perfumería > Cuidado Personal > Cepillos y Esponjas",
-    "unidad": null,
-    "url_producto": "/esponja-de-bano-estilo-spa-fibra-x-1-un",
-    "url_imagen": "188061-512-512",
-    "id": "06791",
-    "anterior": 0,
-    "texto": "Esponja De Baño Esilo Spa Redonda Perfumería > Cuidado Personal > Cepillos y Esponjas 63.72  con_nombre con_rubro con_precio con_foto sin_error 06791"
   },
   {
     "nombre": "Cartuchos Para Afeitar Gillette Venus Sensitive 2 Unidades",
@@ -31163,6 +31163,17 @@
     "texto": "Plantillas Active Gel Tacos Altos Amopé X2u (un Par) Perfumería > Farmacia > Otros 805.15  con_nombre con_rubro con_precio con_foto sin_error 04978"
   },
   {
+    "nombre": "Caja Preservativos Prime Ultra Fino",
+    "precio": 501.5,
+    "rubro": "Perfumería > Farmacia > Preservativos",
+    "unidad": null,
+    "url_producto": "/caja-preservativos-prime-ultra-fino",
+    "url_imagen": "538665-512-512",
+    "id": "04964",
+    "anterior": 0,
+    "texto": "Caja Preservativos Prime Ultra Fino Perfumería > Farmacia > Preservativos 501.5  con_nombre con_rubro con_precio con_foto sin_error 04964"
+  },
+  {
     "nombre": "Preservativos Prime Skin 6 U",
     "precio": 463.39,
     "rubro": "Perfumería > Farmacia > Preservativos",
@@ -31205,17 +31216,6 @@
     "id": "04963",
     "anterior": 0,
     "texto": "Preservativos Tulipan Ultrafino Perfumería > Farmacia > Preservativos 181.45  con_nombre con_rubro con_precio con_foto sin_error 04963"
-  },
-  {
-    "nombre": "Caja Preservativos Prime Ultra Fino",
-    "precio": 501.5,
-    "rubro": "Perfumería > Farmacia > Preservativos",
-    "unidad": null,
-    "url_producto": "/caja-preservativos-prime-ultra-fino",
-    "url_imagen": "538665-512-512",
-    "id": "04964",
-    "anterior": 0,
-    "texto": "Caja Preservativos Prime Ultra Fino Perfumería > Farmacia > Preservativos 501.5  con_nombre con_rubro con_precio con_foto sin_error 04964"
   },
   {
     "nombre": "Basicare Accesorios Esponja De Maquillaje De S",
