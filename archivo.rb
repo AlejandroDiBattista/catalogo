@@ -13,7 +13,7 @@ module Archivo
 			camino.pop 
 		end
 		camino = camino.map(&:to_s).join("/")
-		camino = "#{camino}.dsv" unless camino["."]
+		camino = "#{camino}.dsv" unless camino[/\.\w+/]
 		camino = camino.sub(".", Time.now.strftime("_%F.")) if fecha
 		camino
 	end
@@ -37,19 +37,20 @@ module Archivo
 	end
 
 	def escribir(datos, *camino)
-		destino = ubicar(camino)
-		puts destino
 		datos = datos.map(&:to_hash)
-		case File.extname(destino)
-			when 'dsv'  then escribir_dsv(datos, destino)
-			when 'json' then escribir_json(datos, destino)
+		destino = ubicar(camino)
+		if File.extname(destino) == '.json'
+			escribir_json(datos, destino)
+		else
+			escribir_dsv(datos, destino)
 		end
 	end
 
 	def escribir_dsv(datos, *camino)
 		destino = ubicar(camino)
 		campos = datos.map(&:keys).flatten.uniq
-		CSV.open(destino, 'wb', :col_sep => '|') do |csv|
+		separador = destino['.dsv'] ? '|' : ';'
+		CSV.open(destino, 'wb', :col_sep => separador) do |csv|
 			csv << campos.map(&:to_key)
 			datos.each{|valores| csv << campos.map{|campo| valores[campo] } }
 		end
@@ -58,7 +59,6 @@ module Archivo
 
 	def escribir_json(datos, *camino)
 		destino = ubicar(*camino)
-		puts "Escribir JSON #{destino}"
 		open(destino, 'wb') do |f|
 			f.write JSON.pretty_generate(datos)
 		end
@@ -88,7 +88,7 @@ module Archivo
 		destino += File.extname(origen) unless destino[/\.\w+$/]
 		begin
 			if forzar || !File.exist?(destino)
-				URI.open(origen){|f|  File.open(destino, "wb"){|file| file.puts f.read }} 
+				URI.open(origen){|f|  File.open(destino, 'wb'){|file| file.puts f.read }} 
 				nil
 			else
 				true 

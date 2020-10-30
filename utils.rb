@@ -172,6 +172,7 @@ class String
 	end
 end
 
+$semaphore = Mutex.new
 class Progreso
 	attr_accessor :cuenta , :inicio
 
@@ -182,15 +183,17 @@ class Progreso
 	end
 
 	def avanzar(correcto=true)
-		print correcto.nil? ? "●".yellow : (correcto ? "●".green : "●".red) #○
-		self.cuenta += 1 
-		print " " if self.cuenta % 10 == 0 
-		print " " if self.cuenta % 50 == 0
-		puts if self.cuenta %  100 == 0
-		puts if self.cuenta %  500 == 0
-		puts if self.cuenta % 1000 == 0
-		puts if self.cuenta % 5000 == 0
-		print "    " if self.cuenta % 100 == 0
+		$semaphore.synchronize  do 
+			print correcto.nil? ? "●".yellow : (correcto ? "●".green : "●".red) #○
+			self.cuenta += 1 
+			print " " if self.cuenta % 10 == 0 
+			print "  " if self.cuenta % 50 == 0
+			puts if self.cuenta %  100 == 0
+			puts if self.cuenta %  500 == 0
+			puts if self.cuenta % 1000 == 0
+			puts if self.cuenta % 5000 == 0
+			print "    " if self.cuenta % 100 == 0
+		end
 	end
 
 	def finalizar

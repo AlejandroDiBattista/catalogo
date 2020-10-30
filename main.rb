@@ -25,7 +25,7 @@ class Producto < Struct.new(*Campos)
 		self.id =  nil 			if self.id.vacio?
 		self.anterior = 0
 
-		self.texto =  [
+		self.texto ||=  [
 			self.nombre, self.rubro, self.precio, self.unidad, 
 			self.nombre.tag(:nombre), self.rubro.tag(:rubro), self.precio.tag(:precio), self.url_imagen.tag(:foto), 
 			self.error?.tag(:error),
@@ -54,6 +54,7 @@ class Producto < Struct.new(*Campos)
 	def contiene(condicion)
 		alternativas = condicion.espacios.split(' o ')
 		alternativas.any? do |palabras|
+			palabras = palabras.gsub(' y ', '')
 			palabras.split(' ').all? do |palabra|
 				operador, valor = palabra.scan(/([-+:<>\/])?(.*)/).first
 				case operador 
@@ -221,9 +222,7 @@ end
 
 t = Catalogo.leer(:jumbo)
 t -= t.filtrar{|x|x.error?}
-# t.escribir('ale.json')
 t.escribir(:json)
+t.escribir(:dsv)
 # t.resumir 
 # t.listar_productos 'ñoquis o papa'
-
-# pp t.map(&:niveles).ranking
