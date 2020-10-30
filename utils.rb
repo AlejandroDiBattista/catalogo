@@ -1,4 +1,5 @@
 $stdout.sync = true
+
 require 'parallel'
 require 'colorize'
 
@@ -72,6 +73,40 @@ class Object
 	def to_sku
 		to_s.gsub(/\W/,"")
 	end
+
+	def tag(nombre)
+		"#{self.vacio? ? 'sin' : 'con'}_#{nombre}".to_sym
+	end
+end
+
+class NilClass 
+	def vacio?
+		true
+	end
+end
+
+class TrueClass
+	def vacio?
+		false 
+	end
+end 
+
+class FalseClass
+	def vacio?
+		true 
+	end
+end 
+
+class Integer
+	def vacio?
+		self == 0
+	end
+end 
+
+class Float 
+	def vacio?
+		abs < 0.1 
+	end
 end
 
 module Enumerable
@@ -104,6 +139,10 @@ module Enumerable
 		progreso.finalizar
 		salida
 	end
+
+	def vacio?
+		count == 0 
+	end
 end
 
 def Hash(campos, valores=nil)
@@ -133,7 +172,6 @@ class String
 	end
 end
 
-
 class Progreso
 	attr_accessor :cuenta , :inicio
 
@@ -161,8 +199,15 @@ class Progreso
 	end
 end
 
-
 if __FILE__ == $0 
+	puts nil
+	puts nil.class 
+	puts nil.vacio?
+    return 
+	a,b ="algo".scan(/([-+:<>|])?(.*)/).first
+	p a
+	p b 
+	return 
 	a = Hash([:x, "y", "z"], [10, 20, 40])
 	b = Hash([[:a, 100], [:b, 200]])
 

@@ -2,9 +2,10 @@ require_relative 'utils'
 require_relative 'archivo'
 require_relative 'web'
 
-Campos = [:nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen, :id, :anterior]
+Campos = [:nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen, :id, :anterior, :texto]
 
 class Producto < Struct.new(*Campos)
+	
 	def self.cargar(datos)
 		new.tap{|tmp| Campos.each{|campo| tmp[campo] = datos[campo]}}.normalizar
 	end
@@ -14,16 +15,28 @@ class Producto < Struct.new(*Campos)
 	end
 
 	def normalizar
+		self.nombre = (self.nombre||"").espacios
+		self.rubro  = (self.rubro||"").espacios
 		self.precio = self.precio.to_f
-		self.anterior = 0
+
 		self.url_producto = nil if self.url_producto.vacio?
 		self.url_imagen = nil 	if self.url_imagen.vacio?
+
 		self.id =  nil 			if self.id.vacio?
+		self.anterior = 0
+
+		self.texto =  [
+			self.nombre, self.rubro, self.precio, self.unidad, 
+			self.nombre.tag(:nombre), self.rubro.tag(:rubro), self.precio.tag(:precio), self.url_imagen.tag(:foto), 
+			self.error?.tag(:error),
+			self.id,
+		].map{|x|x.to_s.espacios}.join(' ')
+
 		self
 	end
 
 	def categoria
-		rubro.split(">").first
+		rubro.from_rubro.first
 	end
 
 	def niveles
@@ -31,14 +44,43 @@ class Producto < Struct.new(*Campos)
 	end
 
 	def nivel(n)
-		rubro.from_rubro[0...n]
+		n <= niveles ? rubro.from_rubro[0...n] : nil
+	end
+
+	def error?
+		self.nombre.vacio? || self.rubro.vacio? || self.precio.vacio? || self.url_imagen.vacio? 
+	end
+
+	def contiene(condicion)
+		alternativas = condicion.espacios.split(' o ')
+		alternativas.any? do |palabras|
+			palabras.split(' ').all? do |palabra|
+				operador, valor = palabra.scan(/([-+:<>\/])?(.*)/).first
+				case operador 
+					when '-' then !contiene(valor)
+					when '<' then self.precio <= valor.to_f
+					when '>' then self.precio >= valor.to_f
+					when '/' then /\b#{valor}/i === self.rubro
+					when ':' then /\b#{valor}\b/i === self.texto
+					else  /\b#{palabra}/i === self.texto 
+				end
+			end
+		end
 	end
 end
 
 class Catalogo
-	include Enumerable 
-
 	attr_accessor :base 
+	include Enumerable 
+	
+	def initialize(base, productos=[])
+		@base, @datos = base, {}
+		agregar(productos)
+	end
+
+	def datos()
+		@datos ||= {}
+	end
 
 	def self.leer(base, posicion=nil)
 		if posicion 
@@ -46,18 +88,14 @@ class Catalogo
 		else
 			origen = [base, :productos]
 		end
-		lista = Archivo.leer(origen)
+		lista = Archivo.leer(origen).sort_by(&:rubro)
 		new(base, lista)
 	end
 
-	def escribir()
-		Archivo.escribir(self.datos.map(&:to_hash), [@base, :productos])
+	def escribir(tipo = :dsv)
+		Archivo.escribir(self.datos.values, [@base, "productos.#{tipo}"])
 	end
 	
-	def initialize(base, productos=[])
-		@base, @datos = base, {}
-		agregar(productos)
-	end
 
 	def agregar(*productos)
 		[productos].flatten.each do |producto|
@@ -65,10 +103,6 @@ class Catalogo
 			@datos[producto.id] = producto
 		end
 		self 
-	end
-
-	def datos()
-		@datos ||= {}
 	end
 
 	def each()
@@ -110,48 +144,11 @@ class Catalogo
 	def categorias
 		map(&:categoria).uniq.sort 
 	end
-
+	
 	def rubros
 		map(&:rubro).uniq.sort 
 	end
-
-	# def agrupar(lista)
-	# 	valores = lista.map{|r, i| r.first }.compact.uniq 
-	# 	return lista.map{|r,i| i } if valores.count == 0
-	# 	valores.map do |valor|
-	# 		items = lista.select{|r,_| r.first == valor }
-	# 		items = items.map{|r,i| [ r[1..-1], i ] }
-	# 		[valor, agrupar( items )].compact
-	# 	end
-	# end
-
-	# i = 0
-	# lista = map{|x| [x.nivel(10), i+=1] }
-	# lista = agrupar(lista)
-	# mostrar_grupo(lista)
-
-	def resumir
-		puts (" %-60s   %4i   $ %6.2f" % ["Resumen [#{@base.capitalize}]", count, precio_promedio]).green
-		map{|x|x.nivel(1)}.uniq.each do |n1|
-			d2 = filtrar{|x| x.nivel(1) == n1 }
-			if d2.any?
-				puts ("   %-60s   %4i   $ %6.2f" % [n1.last, d2.count, d2.precio_promedio]).yellow
-				d2.map{|x|x.nivel(2)}.uniq.each do |n2|1
-					d3 = filtrar{|x| x.nivel(2) == n2  && x.niveles >= 2}
-					if d3.any?
-						puts ("     %-60s   %4i   $ %6.2f" % [n2.last, d3.count, d3.precio_promedio]).cyan
-						d3.map{|x|x.nivel(3)}.uniq.each do |n3|
-							d4 = filtrar{|x| x.nivel(3) == n3 && x.niveles >= 3}
-							if d4.count > 0 
-								puts ("       %-60s   %4i   $ %6.2f" % [n3.last, d4.count, d4.precio_promedio]).white 
-							end
-						end
-					end
-				end
-			end
-		end
-	end
-
+	
 	def comparar(otro, verboso)
 		altas = self - otro
 		bajas = otro - self
@@ -178,6 +175,32 @@ class Catalogo
 			bajas.listar
 		end
 	end
+	
+	def listar_productos(*busqueda)
+		busqueda = [busqueda].flatten.map(&:to_s).join(' ').espacios
+		datos = filtrar{|x| x.contiene(busqueda) }
+		puts 
+		puts (" %-87s %4i " % ["Productos para '#{busqueda}'", datos.count]).on_green.black
+		anterior = nil
+		datos.each do |x|
+			puts " " + x.rubro.yellow if x.rubro != anterior 
+			puts "   %-80s    %6.2f %s" % [x.nombre, x.precio, (x.error? ? '*' : ' ').red]
+			anterior = x.rubro
+		end
+	end
+	
+	def resumir(nivel=nil, n=1)
+		if !nivel 
+			puts "  RESUMEN [#{@base.capitalize}]                                                                          ".yellow.on_red
+			nivel, n = "Productos", 1
+		end
+		puts ("%s%-88s   %4i   $ %6.2f" % ["  " * n, nivel, count, precio_promedio]).colorize([:green, :yellow, :cyan, :white][n-1])
+
+		map{|x| x.nivel(n) }.compact.uniq.each do |nivel|
+			filtrar{|x| x.nivel(n) == nivel}.resumir(nivel.last, n + 1)
+		end
+	end
+
 
 	def self.analizar(base, dias=1, verboso=false)
 		for d in 2..dias
@@ -194,9 +217,13 @@ class Catalogo
 	end
 end
 
+# [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre|	Catalogo.analizar(nombre, 7) }
 
-[:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre|	Catalogo.analizar(nombre, 7) }
+t = Catalogo.leer(:jumbo)
+t -= t.filtrar{|x|x.error?}
+# t.escribir('ale.json')
+t.escribir(:json)
+# t.resumir 
+# t.listar_productos 'ñoquis o papa'
 
-t = Catalogo.leer(:tuchanguito)
-t.resumir 
-pp t.map(&:niveles).ranking
+# pp t.map(&:niveles).ranking

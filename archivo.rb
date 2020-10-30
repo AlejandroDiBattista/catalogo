@@ -1,8 +1,10 @@
 require 'open-uri'
 require 'csv'
-require_relative 'utils'
 require 'fileutils'
 require 'colorize'
+require_relative 'utils'
+require 'json'
+
 module Archivo
 
 	def ubicar(*camino)
@@ -35,13 +37,31 @@ module Archivo
 	end
 
 	def escribir(datos, *camino)
-		destino = ubicar(*camino)
+		destino = ubicar(camino)
+		puts destino
+		datos = datos.map(&:to_hash)
+		case File.extname(destino)
+			when 'dsv'  then escribir_dsv(datos, destino)
+			when 'json' then escribir_json(datos, destino)
+		end
+	end
+
+	def escribir_dsv(datos, *camino)
+		destino = ubicar(camino)
 		campos = datos.map(&:keys).flatten.uniq
-		CSV.open(destino, "wb", :col_sep => "|") do |csv|
+		CSV.open(destino, 'wb', :col_sep => '|') do |csv|
 			csv << campos.map(&:to_key)
 			datos.each{|valores| csv << campos.map{|campo| valores[campo] } }
 		end
-		# puts "  Escribir #{destino} (#{datos.count} > #{datos.count{|x|x.id.vacio?}})"
+		datos
+	end
+
+	def escribir_json(datos, *camino)
+		destino = ubicar(*camino)
+		puts "Escribir JSON #{destino}"
+		open(destino, 'wb') do |f|
+			f.write JSON.pretty_generate(datos)
+		end
 		datos
 	end
 
@@ -99,6 +119,12 @@ module Archivo
 	end
 
 end
+module Enumerable
+	def escribir(*camino)
+		Archivo.datos(self, camino)
+	end
+end
+
 include Archivo
 
 if __FILE__ == $0 
