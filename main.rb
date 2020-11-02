@@ -177,32 +177,6 @@ class Catalogo
 			bajas.listar
 		end
 	end
-	
-	def listar_productos(*busqueda)
-		busqueda = [busqueda].flatten.map(&:to_s).join(' ').espacios
-		datos = filtrar{|x| x.contiene(busqueda) }
-		puts 
-		puts (" %-87s %4i " % ["Productos para '#{busqueda}'", datos.count]).on_green.black
-		anterior = nil
-		datos.each do |x|
-			puts " " + x.rubro.yellow if x.rubro != anterior 
-			puts "   %-80s    %6.2f %s" % [x.nombre, x.precio, (x.error? ? '*' : ' ').red]
-			anterior = x.rubro
-		end
-	end
-	
-	def resumir(nivel=nil, n=1)
-		if !nivel 
-			puts "  RESUMEN [#{@base.capitalize}]                                                                          ".yellow.on_red
-			nivel, n = "Productos", 1
-		end
-		puts ("%s%-88s   %4i   $ %6.2f" % ["  " * n, nivel, count, precio_promedio]).colorize([:green, :yellow, :cyan, :white][n-1])
-
-		map{|x| x.nivel(n) }.compact.uniq.each do |nivel|
-			filtrar{|x| x.nivel(n) == nivel}.resumir(nivel.last, n + 1)
-		end
-	end
-
 
 	def self.analizar(base, dias=1, verboso=false)
 		for d in 2..dias
@@ -217,14 +191,53 @@ class Catalogo
 		nuevo.comparar(viejo, verboso)
 		puts
 	end
+
+	def resumir(nivel=nil, n=1)
+		if !nivel 
+			puts "  RESUMEN [#{@base.capitalize}]                                                                          ".yellow.on_red
+			nivel, n = "Productos", 1
+		end
+		puts ("%s%-88s   %4i   $ %6.2f" % ["  " * n, nivel, count, precio_promedio]).colorize([:green, :yellow, :cyan, :white][n-1])
+
+		map{|x| x.nivel(n) }.compact.uniq.each do |nivel|
+			filtrar{|x| x.nivel(n) == nivel}.resumir(nivel.last, n + 1)
+		end
+	end
+
+
+	def listar_productos(*busqueda)
+		busqueda = [busqueda].flatten.map(&:to_s).join(' ').espacios
+		datos = filtrar{|x| x.contiene(busqueda) }
+		puts 
+
+		puts (" %-85s %4i  %6.2f " % ["Productos para '#{busqueda}'", datos.count, datos.precio_promedio]).on_blue.white
+
+		anterior = []
+		datos.each do |x|
+			actual = x.rubro.from_rubro
+			if actual != anterior
+				# pp actual
+				mostrar = false 
+				actual.each_with_index do |valor, nivel|
+					mostrar ||= valor != anterior[nivel]
+					puts (" %s  %s " % ["  " * nivel, valor]).colorize([:green, :yellow, :cyan][nivel]) if mostrar 
+				end
+			end
+			puts " %s  %-80s    %6.2f %s" % ["  " * actual.count, x.nombre, x.precio, (x.error? ? '*' : ' ').red]
+			anterior = actual
+		end
+	end
+
 end
 
 # [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre|	Catalogo.analizar(nombre, 7) }
 [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre| Catalogo.leer(nombre).filtrar{|x| !x.error? }.escribir}
 
 t = Catalogo.leer(:jumbo)
-t -= t.filtrar{|x|x.error?}
-t.escribir(:json)
-t.escribir(:dsv)
+# t -= t.filtrar{|x|x.error?}
+# t.escribir(:json)
+# t.escribir(:dsv)
 # t.resumir 
-# t.listar_productos 'ñoquis o papa'
+t.listar_productos 'mermelada light cuisine'
+t.listar_productos 'mermelada -light cuisine'
+
