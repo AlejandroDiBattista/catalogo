@@ -284,7 +284,7 @@ class Tatito < Web
 		item.css('.precio_mayor_cont').each_with_index do |x, i|
 			if i + 1 == indice then
 				cantidad, precio = *x.text.split('$')
-				return "%s,%1.2f" % [cantidad, precio.to_money]
+				return "%s,%1.2f" % [cantidad.gsub(/\D/,'').to_i, precio.to_money]
 			end
 		end
 		return nil 
@@ -453,9 +453,9 @@ end
 
 
 if __FILE__ == $0
-	# TuChanguito.new.bajar_todo
-	# Jumbo.new.bajar_todo
+	TuChanguito.new.bajar_todo
+	Jumbo.new.bajar_todo
 	Tatito.new.bajar_todo
-	# Maxiconsumo.new.bajar_todo
+	Maxiconsumo.new.bajar_todo
 end
 

@@ -2,10 +2,11 @@ require_relative 'utils'
 require_relative 'archivo'
 require_relative 'web'
 
-Campos = [:nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen, :id, :anterior, :texto, :precio_1, :precio_2]
+Campos = [:nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen, :id, :anterior, :texto, :precio_1, :precio_2, :precio_3]
 
 class Producto < Struct.new(*Campos)
-	
+	attr_accessor :ofertas 
+
 	def self.cargar(datos)
 		new.tap{|tmp| Campos.each{|campo| tmp[campo] = datos[campo]}}.normalizar
 	end
@@ -15,12 +16,12 @@ class Producto < Struct.new(*Campos)
 	end
 
 	def normalizar
-		self.nombre = (self.nombre||"").espacios
-		self.rubro  = (self.rubro||"").espacios
-		self.precio = self.precio.to_f
+		self.nombre = self.nombre.limpiar_nombre
+		self.rubro  = self.rubro.espacios
+		self.precio = self.precio.to_money
 
 		self.url_producto = nil if self.url_producto.vacio?
-		self.url_imagen = nil 	if self.url_imagen.vacio?
+		self.url_imagen   = nil	if self.url_imagen.vacio?
 
 		self.id =  nil 			if self.id.vacio?
 		self.anterior = 0
@@ -32,7 +33,18 @@ class Producto < Struct.new(*Campos)
 			self.id,
 		].map{|x|x.to_s.espacios}.join(' ')
 
+		self.ofertas = [] 
+		self.ofertas << [1, self.precio]
+		self.ofertas << extraer_oferta(self.precio_1) unless self.precio_1.vacio?
+		self.ofertas << extraer_oferta(self.precio_2) unless self.precio_2.vacio?
+		self.ofertas << extraer_oferta(self.precio_3) unless self.precio_3.vacio? 
 		self
+	end
+
+	def extraer_oferta(oferta)
+		oferta = oferta.gsub(/[^\d.,]/,'')
+		a, b = oferta.split(',')
+		[a.to_num, b.to_money]
 	end
 
 	def categoria
@@ -69,8 +81,8 @@ class Producto < Struct.new(*Campos)
 		end
 	end
 
-	def precio_n(cantidad=1)
-		return self.precio if cantidad == 1 
+	def oferta(cantidad=1)
+		self.ofertas.select{|maximo, precio| cantidad >= maximo }.last.last
 	end
 end
 
@@ -102,7 +114,6 @@ class Catalogo
 		Archivo.escribir(datos, [@base, "productos.#{tipo}"])
 	end
 	
-
 	def agregar(*productos)
 		[productos].flatten.each do |producto|
 			producto = Hash === producto ? Producto.cargar(producto) : producto
@@ -144,7 +155,8 @@ class Catalogo
 	end
 
 	def precio_promedio
-		sum(&:precio) / count
+		return 0 if (n = count) == 0
+		sum(&:precio) / n
 	end
 
 	def categorias
@@ -214,7 +226,7 @@ class Catalogo
 		datos = filtrar{|x| x.contiene(busqueda) }
 		puts 
 
-		puts (" %-85s %4i  %6.2f " % ["Productos para '#{busqueda}'", datos.count, datos.precio_promedio]).on_blue.white
+		puts (" %-83s %4i  %6.2f " % ["Productos para '#{busqueda}'", datos.count, datos.precio_promedio]).on_blue.white
 
 		anterior = []
 		datos.each do |x|
@@ -234,16 +246,21 @@ class Catalogo
 
 end
 
+
+PARSE_NOMBRE = /(.{3,})\sx?\s?([0-9.,]+)\s?(\w+)\.?/i
 # [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre|	Catalogo.analizar(nombre, 7) }
-[:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre| Catalogo.leer(nombre).filtrar{|x| !x.error? }.escribir}
+# [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre| Catalogo.leer(nombre).filtrar{|x| !x.error? }.escribir}
 
 t = Catalogo.leer(:tatito)
-a = t.first 
-pp a 
-return 
-# t -= t.filtrar{|x|x.error?}
+t -= t.filtrar(&:error?)
 # t.escribir(:json)
 # t.escribir(:dsv)
 # t.resumir 
-t.listar_productos 'mermelada'
-
+# t.listar_productos 'x'
+# return
+nombres = t.map(&:nombre).uniq.sort
+pp nombres.select{|x|x['(']}
+return
+lista =  nombres.map{|x| x.scan(PARSE_NOMBRE).first}
+pp  nombres.select{|x| !x.scan(PARSE_NOMBRE).first}
+p lista.compact.map(&:last).map(&:downcase).compact.uniq.sort

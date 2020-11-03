@@ -88,6 +88,14 @@ class Object
 	def tag(nombre)
 		"#{self.vacio? ? 'sin' : 'con'}_#{nombre}".to_sym
 	end
+
+	def limpiar_nombre
+		to_s.limpiar_nombre
+	end
+
+	def espacios
+		to_s.espacios
+	end
 end
 
 class NilClass 
@@ -175,6 +183,12 @@ class String
 
 	def from_rubro(separador='>')
 		split(separador).map(&:espacios)
+	end
+
+	def limpiar_nombre
+		espacios.
+			gsub(/\(\w+\)/,'').
+			gsub(/[()]/,'')
 	end
 end
 
