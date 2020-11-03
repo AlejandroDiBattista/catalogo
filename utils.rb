@@ -3,6 +3,11 @@ $stdout.sync = true
 require 'parallel'
 require 'colorize'
 
+def Hash(campos, valores=nil)
+	campos = campos.map(&:to_sym).zip(valores) if valores
+	Hash[campos]
+end
+
 class Hash 
 	def method_missing(meth, *args, &blk)
 		if meth["="]
@@ -22,6 +27,12 @@ class Hash
 
 	def normalizar!
 		keys.select{|key| !(Symbol === key)}.each{|key| self[key.to_key] = self.delete(key).normalizar }
+		self 
+	end
+
+	def compact 
+		borrar = keys.select{|key| self[key].nil? }
+		borrar.each{|key| self.delete(key)}
 		self 
 	end
 end
@@ -143,11 +154,6 @@ module Enumerable
 	def vacio?
 		count == 0 
 	end
-end
-
-def Hash(campos, valores=nil)
-	campos = campos.map(&:to_sym).zip(valores) if valores
-	Hash[campos]
 end
 
 class String

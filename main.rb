@@ -2,7 +2,7 @@ require_relative 'utils'
 require_relative 'archivo'
 require_relative 'web'
 
-Campos = [:nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen, :id, :anterior, :texto]
+Campos = [:nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen, :id, :anterior, :texto, :precio_1, :precio_2]
 
 class Producto < Struct.new(*Campos)
 	
@@ -67,6 +67,10 @@ class Producto < Struct.new(*Campos)
 				end
 			end
 		end
+	end
+
+	def precio_n(cantidad=1)
+		return self.precio if cantidad == 1 
 	end
 end
 
@@ -233,11 +237,13 @@ end
 # [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre|	Catalogo.analizar(nombre, 7) }
 [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre| Catalogo.leer(nombre).filtrar{|x| !x.error? }.escribir}
 
-t = Catalogo.leer(:jumbo)
+t = Catalogo.leer(:tatito)
+a = t.first 
+pp a 
+return 
 # t -= t.filtrar{|x|x.error?}
 # t.escribir(:json)
 # t.escribir(:dsv)
 # t.resumir 
-t.listar_productos 'mermelada light cuisine'
-t.listar_productos 'mermelada -light cuisine'
+t.listar_productos 'mermelada'
 

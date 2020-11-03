@@ -49,9 +49,12 @@ class Web
 				nuevos << { 
 					nombre: nombre(x), 
 					precio: precio(x), 
+					precio_1: oferta(x, 1),
+					precio_2: oferta(x, 2),
+					precio_3: oferta(x, 3),
 					url_producto: producto(x), 
-					url_imagen:  imagen(x) 
-				} 
+					url_imagen:  imagen(x),
+				}.compact 
 			end
 		rescue Exception => e
 			puts "ERROR #{e}".red
@@ -124,6 +127,10 @@ class Web
 		compacto ? acortar(url) : url 
 	end
 
+	def oferta(pagina,i)
+		nil
+	end
+	
 	def extraer_img(item, compacto=true)
 		url = item && item.first && item.first[:src] || ''
 		compacto ? acortar(url) : url 
@@ -273,6 +280,16 @@ class Tatito < Web
 		extraer_url(item.css('.pad15 a'))
 	end
 
+	def oferta(item, indice)
+		item.css('.precio_mayor_cont').each_with_index do |x, i|
+			if i + 1 == indice then
+				cantidad, precio = *x.text.split('$')
+				return "%s,%1.2f" % [cantidad, precio.to_money]
+			end
+		end
+		return nil 
+	end
+	
 	def imagen(item)
 		url = extraer_url(item.css('.pad15 a'), false)
 		Archivo.abrir(url) do |pagina|
@@ -436,9 +453,9 @@ end
 
 
 if __FILE__ == $0
-	TuChanguito.new.bajar_todo
-	Jumbo.new.bajar_todo
+	# TuChanguito.new.bajar_todo
+	# Jumbo.new.bajar_todo
 	Tatito.new.bajar_todo
-	Maxiconsumo.new.bajar_todo
+	# Maxiconsumo.new.bajar_todo
 end
 

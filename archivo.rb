@@ -48,7 +48,7 @@ module Archivo
 
 	def escribir_dsv(datos, *camino)
 		destino = ubicar(camino)
-		campos = datos.map(&:keys).flatten.uniq
+		campos = datos.map(&:keys).flatten.uniq.sort
 		separador = destino['.dsv'] ? '|' : ';'
 		CSV.open(destino, 'wb', :col_sep => separador) do |csv|
 			csv << campos.map(&:to_key)
