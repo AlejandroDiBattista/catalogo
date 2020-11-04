@@ -26,9 +26,11 @@ class Producto < Struct.new(*Campos)
 		self.id =  nil 			if self.id.vacio?
 		self.anterior = 0
 
-		self.texto ||=  [
+		self.texto = [
 			self.nombre, self.rubro, self.precio, self.unidad, 
-			self.nombre.tag(:nombre), self.rubro.tag(:rubro), self.precio.tag(:precio), self.url_imagen.tag(:foto), 
+			self.nombre.tag(:nombre), 
+			# self.rubro.tag(:rubro), 
+			self.precio.tag(:precio), self.url_imagen.tag(:foto), 
 			self.error?.tag(:error),
 			self.id,
 		].map{|x|x.to_s.espacios}.join(' ')
@@ -84,19 +86,19 @@ class Producto < Struct.new(*Campos)
 	def oferta(cantidad=1)
 		self.ofertas.select{|maximo, precio| cantidad >= maximo }.last.last
 	end
+
+	def precio_oferta
+		ofertas.last.last
+	end
 end
 
 class Catalogo
-	attr_accessor :base 
+	attr_accessor :base, :datos, :productos, :ordenados 
 	include Enumerable 
 	
 	def initialize(base, productos=[])
-		@base, @datos = base, {}
+		@base, @datos, @productos, @ordenados = base, {}, [], false 
 		agregar(productos)
-	end
-
-	def datos()
-		@datos ||= {}
 	end
 
 	def self.leer(base, posicion=nil)
@@ -105,30 +107,33 @@ class Catalogo
 		else
 			origen = [base, :productos]
 		end
-		lista = Archivo.leer(origen).sort_by(&:rubro)
+		lista = Archivo.leer(origen).sort_by{|x|[x.rubro, x.nombre]}
 		new(base, lista)
 	end
 
 	def escribir(tipo = :dsv)
-		datos = filtrar{|x|!x.error?}.datos.values.sort_by(&:rubro)
-		Archivo.escribir(datos, [@base, "productos.#{tipo}"])
+		Archivo.escribir(to_a, [base, "productos.#{tipo}"])
 	end
 	
-	def agregar(*productos)
-		[productos].flatten.each do |producto|
-			producto = Hash === producto ? Producto.cargar(producto) : producto
-			@datos[producto.id] = producto
+	def agregar(*items)
+		[items].flatten.each do |item|
+			producto = item.is_a?(Hash) ? Producto.cargar(item) : item
+			if producto.is_a?(Producto) && !datos[producto.id]
+				datos[producto.id] = producto
+				productos << producto
+				ordenados = false 
+			end
 		end
-		self 
+		self
 	end
 
-	def each()
-		datos.values.each{|producto| yield(producto) }
+	def each
+		productos.each{|producto| yield(producto) }
 	end
 
 	def buscar(producto)
-		id = Producto === producto ? producto.id : producto
-		find{|x| x.id == id }
+		id = producto.is_a?(Producto) ? producto.id : producto
+		datos[id]
 	end
 
 	def filtrar()
@@ -157,6 +162,11 @@ class Catalogo
 	def precio_promedio
 		return 0 if (n = count) == 0
 		sum(&:precio) / n
+	end
+
+	def precio_promedio_oferta
+		return 0 if (n = count) == 0
+		sum(&:precio_oferta) / n
 	end
 
 	def categorias
@@ -220,32 +230,41 @@ class Catalogo
 		end
 	end
 
-
 	def listar_productos(*busqueda)
 		busqueda = [busqueda].flatten.map(&:to_s).join(' ').espacios
 		datos = filtrar{|x| x.contiene(busqueda) }
-		puts 
-
-		puts (" %-83s %4i  %6.2f " % ["Productos para '#{busqueda}'", datos.count, datos.precio_promedio]).on_blue.white
+		
+		puts (" %-12s | %-69s %4i  %6.2f " % [datos.base, "Productos para '#{busqueda}'", datos.count, datos.precio_promedio]).on_green.black
 
 		anterior = []
 		datos.each do |x|
 			actual = x.rubro.from_rubro
 			if actual != anterior
-				# pp actual
 				mostrar = false 
 				actual.each_with_index do |valor, nivel|
 					mostrar ||= valor != anterior[nivel]
-					puts (" %s  %s " % ["  " * nivel, valor]).colorize([:green, :yellow, :cyan][nivel]) if mostrar 
+					puts (" %s  %s " % ["  " * nivel, valor.upcase]).colorize([:green, :yellow, :cyan][nivel]) if mostrar 
 				end
 			end
-			puts " %s  %-80s    %6.2f %s" % ["  " * actual.count, x.nombre, x.precio, (x.error? ? '*' : ' ').red]
+			dif =  x.precio_oferta < x.precio ?  ("%6.2f" % x.precio_oferta) : ""
+			puts " %s  %-80s    %6.2f %s %s " % ["  " * actual.count, x.nombre, x.precio, (x.error? ? '*' : ' ').red, dif]
 			anterior = actual
 		end
 	end
 
 end
 
+def arroz(*supermercados)
+	supermercados.each do |supermercado|
+		t = Catalogo.leer(supermercado)
+		t -= t.filtrar(&:error?)
+		t.listar_productos "arroz /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo"
+	end
+end
+
+arroz(:jumbo, :tatito, :tuchanguito)
+# Catalogo.leer(:maxiconsumo).resumir
+return 
 
 PARSE_NOMBRE = /(.{3,})\sx?\s?([0-9.,]+)\s?(\w+)\.?/i
 # [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre|	Catalogo.analizar(nombre, 7) }
@@ -256,10 +275,10 @@ t -= t.filtrar(&:error?)
 # t.escribir(:json)
 # t.escribir(:dsv)
 # t.resumir 
-# t.listar_productos 'x'
+# t.listar_productos '/arroz'
 # return
-nombres = t.map(&:nombre).uniq.sort
-pp nombres.select{|x|x['(']}
+# nombres = t.map(&:nombre).uniq.sort
+# pp nombres.select{|x|x['(']}
 return
 lista =  nombres.map{|x| x.scan(PARSE_NOMBRE).first}
 pp  nombres.select{|x| !x.scan(PARSE_NOMBRE).first}

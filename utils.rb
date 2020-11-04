@@ -189,6 +189,7 @@ class String
 		espacios.
 			gsub(/\(\w+\)/,'').
 			gsub(/[()]/,'')
+			.split.map(&:capitalize).join(' ')
 	end
 end
 
