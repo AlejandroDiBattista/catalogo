@@ -234,7 +234,7 @@ class Catalogo
 		busqueda = [busqueda].flatten.map(&:to_s).join(' ').espacios
 		datos = filtrar{|x| x.contiene(busqueda) }
 		
-		puts (" %-12s | %-69s %4i  %6.2f " % [datos.base, "Productos para '#{busqueda}'", datos.count, datos.precio_promedio]).on_green.black
+		puts (" %-12s | %-69s %4i  %6.2f " % [datos.base.upcase, "Productos para '#{busqueda}'", datos.count, datos.precio_promedio]).on_green.black
 
 		anterior = []
 		datos.each do |x|
@@ -246,8 +246,8 @@ class Catalogo
 					puts (" %s  %s " % ["  " * nivel, valor.upcase]).colorize([:green, :yellow, :cyan][nivel]) if mostrar 
 				end
 			end
-			dif =  x.precio_oferta < x.precio ?  ("%6.2f" % x.precio_oferta) : ""
-			puts " %s  %-80s    %6.2f %s %s " % ["  " * actual.count, x.nombre, x.precio, (x.error? ? '*' : ' ').red, dif]
+			oferta =  x.precio_oferta < x.precio ?  ("%6.2f" % x.precio_oferta) : ""
+			puts " %s  %-80s    %6.2f %s %s " % ["  " * actual.count, x.nombre, x.precio, (x.error? ? '*' : ' ').red, oferta]
 			anterior = actual
 		end
 	end
@@ -262,24 +262,24 @@ def arroz(*supermercados)
 	end
 end
 
-arroz(:jumbo, :tatito, :tuchanguito)
+# arroz(:jumbo, :tatito, :tuchanguito)
 # Catalogo.leer(:maxiconsumo).resumir
-return 
+# return 
 
 PARSE_NOMBRE = /(.{3,})\sx?\s?([0-9.,]+)\s?(\w+)\.?/i
 # [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre|	Catalogo.analizar(nombre, 7) }
 # [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre| Catalogo.leer(nombre).filtrar{|x| !x.error? }.escribir}
 
-t = Catalogo.leer(:tatito)
-t -= t.filtrar(&:error?)
+t = Catalogo.leer(:jumbo)
+# t -= t.filtrar(&:error?)
 # t.escribir(:json)
 # t.escribir(:dsv)
 # t.resumir 
 # t.listar_productos '/arroz'
 # return
-# nombres = t.map(&:nombre).uniq.sort
+nombres = t.map(&:nombre).uniq.sort
 # pp nombres.select{|x|x['(']}
-return
+# return
 lista =  nombres.map{|x| x.scan(PARSE_NOMBRE).first}
 pp  nombres.select{|x| !x.scan(PARSE_NOMBRE).first}
 p lista.compact.map(&:last).map(&:downcase).compact.uniq.sort
