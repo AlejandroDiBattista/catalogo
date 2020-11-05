@@ -263,6 +263,7 @@ def arroz(*supermercados)
 end
 
 # arroz(:jumbo, :tatito, :tuchanguito)
+# return
 # Catalogo.leer(:maxiconsumo).resumir
 # return 
 
@@ -275,8 +276,9 @@ t = Catalogo.leer(:jumbo)
 # t.escribir(:json)
 # t.escribir(:dsv)
 # t.resumir 
-# t.listar_productos '/arroz'
-# return
+t.listar_productos 'jugo de limón'
+# t.resumir
+return
 nombres = t.map(&:nombre).uniq.sort
 # pp nombres.select{|x|x['(']}
 # return
