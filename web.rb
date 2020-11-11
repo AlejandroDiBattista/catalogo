@@ -300,22 +300,21 @@ class Tatito < Web
 end
 
 class Maxiconsumo < Web
-	attr_accessor :cache
 	URL = 'http://www.maxiconsumo.com/sucursal_capital'
+	URL_Productos = 'http://www.maxiconsumo.com/sucursal_capital'
 	URL_Producto = 'http://maxiconsumo.com/sucursal_capital/catalog/product/view/id'
 	URL_Imagenes = 'http://maxiconsumo.com/pub/media/catalog/product/cache'
-	#               http://maxiconsumo.com/pub/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/2/5/25099.jpg
-	#				http://maxiconsumo.com/pub/media/catalog/product/cache/8721ae71a8b276de5ff5b8923d829701/2/3/23856.jpg
+	
 	def ubicar(url = nil, modo = :clasificacion)
 		return url if url && url[":"]
 		modo = url if Symbol === url 
 		case modo
 		when :clasificacion
 			"#{URL}"
+		when :productos 
+			"#{URL_Productos}/#{url}"
 		when :producto 
 			"#{URL_Producto}/#{url}?product_list_limit=96"
-		when :productos 
-			"#{URL}/#{url}"
 		when :imagen 
 			"#{URL_Imagenes}/#{url}"
 		end
@@ -375,8 +374,8 @@ class Maxiconsumo < Web
 end
 
 class TuChanguito < Web
-	attr_accessor :cache
 	URL = 'https://www.tuchanguito.com.ar'
+	URL_Productos = 'https://www.tuchanguito.com.ar'
 	URL_Producto = 'https://www.tuchanguito.com.ar/productos'
 	URL_Imagenes = 'http://d26lpennugtm8s.cloudfront.net/stores/001/219/229/products'
 
@@ -386,10 +385,10 @@ class TuChanguito < Web
 		case modo
 		when :clasificacion
 			"#{URL}"
+		when :productos 
+			"#{URL_Productos}/#{url}"
 		when :producto 
 			"#{URL_Producto}/#{url}"
-		when :productos 
-			"#{URL}/#{url}"
 		when :imagen 
 			"#{URL_Imagenes}/#{url}"
 		end
