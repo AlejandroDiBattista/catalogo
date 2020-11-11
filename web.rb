@@ -31,8 +31,8 @@ class Web
 
 	def bajar_productos(clasificacion)
 		productos = []
-		clasificacion.procesar(10) do |c| # Limitador por Maxiconsumo
-			url = ubicar(c[:url], :productos)
+		clasificacion.procesar(10) do |clasificacion| # Limitador por Maxiconsumo
+			url = ubicar(:productos, clasificacion.url)
 			Archivo.abrir(url) do |pagina|
 				nuevos = bajar_producto(pagina).compact
 				nuevos.each{|x| x[:rubro], x[:id] = c[:rubro], ''}
@@ -72,10 +72,27 @@ class Web
 		productos = productos.uniq.select{|producto| (forzar || !File.exist?( foto(producto.id ))) && !producto.url_imagen.vacio? }
 		puts "Bajando #{productos.count} imagenes"
 		productos.procesar do |producto|
-			origen  = ubicar(producto.url_imagen, :imagen)
+			origen  = ubicar(:imagen, producto.url_imagen)
 			destino = foto(producto.id)
 			Archivo.bajar(origen, destino, forzar)
 		end
+	end
+
+	def get_url; {}; end 
+	def ubicar(modo = :clasificacion, url = nil)
+		base = get_url[modo]
+		base = "#{get_url[:base]}#{base}" if base[/^\//]
+		base = base.gsub('*', url || '|')
+		base 
+	end
+
+	def acortar(url)
+		[:imagen, :clasificacion, :productos, :producto].each do |modo|
+			ubicar(modo).split('|').each do |x| 
+				url = url.gsub(x,'')
+			end
+		end
+		url 
 	end
 
 	def completar_id(regenerar=false)
@@ -100,7 +117,6 @@ class Web
 			Archivo.escribir(productos, origen)
 		end
 	end
-
 
 	def proximo_id(datos)
 		datos.count == 0 ? "00001" : datos.values.max.succ
@@ -159,9 +175,11 @@ class Web
 end
 
 class Jumbo < Web
-	URL = 'https://www.jumbo.com.ar'
-	URL_Imagenes = "https://jumboargentina.vteximg.com.br/arquivos/ids"
 	Tamaño = 512
+
+	def get_url
+		{base: 'https://www.jumbo.com.ar', clasificacion: '/api/catalog_system/pub/category/tree/3', productos: '/*/?PS=99', producto: '/*/p', imagen: 'https://jumboargentina.vteximg.com.br/arquivos/ids/*'}
+	end
 
 	def incluir(item)
 		validos = ['Almacén', 'Bebidas', 'Pescados y Mariscos', 'Quesos y Fiambres', 'Lácteos', 'Congelados', 'Panadería y Repostería', 'Comidas Preparadas', 'Perfumería', 'Limpieza']
@@ -169,24 +187,6 @@ class Jumbo < Web
 		validos.include?(departamento)	
 	end
 
-	def ubicar(url = nil, modo = :clasificacion)
-		return url if url && url[":"]
-		modo = url if Symbol === url 
-		case modo
-		when :clasificacion
-			"#{URL}/api/catalog_system/pub/category/tree/3"
-		when :productos 
-			"#{URL}#{url}?PS=99"
-		when :producto
-			"#{URL}#{url}/p"
-		when :imagen 
-			"#{URL_Imagenes}/#{url}"
-		end
-	end
-	
-	def acortar(url)
-		url ? url.gsub(URL,'').gsub(URL_Imagenes,'').gsub(/\/p$/,'').gsub(/\?PS=99$/,'') : ''
-	end
 
 	def bajar_clasificacion()
 		datos = JSON(URI.open(ubicar(:clasificacion)).read).normalizar
@@ -225,30 +225,10 @@ class Jumbo < Web
 end
 
 class Tatito < Web
-	URL = 'http://tatito.com.ar/tienda'
-	URL_Productos = 'http://tatito.com.ar/producto'
-	URL_Producto  = 'http://tatito.com.ar/tienda/?filters=product_cat'
-	URL_Imagenes  = 'http://tatito.com.ar/wp-content/uploads'
-
-	def ubicar(url = nil, modo = :clasificacion)
-		return url if url && url[":"]
-		modo = url if Symbol === url 
-		case modo
-		when :clasificacion
-			"#{URL}"
-		when :productos 
-			"#{URL_Producto}#{url}"
-		when :producto
-			"#{URL_Producto}#{url}"
-		when :imagen 
-			"#{URL_Imagenes}#{url}"
-		end
+	def get_url
+		 {base: 'http://tatito.com.ar', clasificacion: '/tienda', productos: '/producto/*', producto: '/tienda/?filters=product_cat/*', imagen: '/wp-content/uploads/*'}
 	end
 
-	def acortar(url)
-		url.gsub(URL,'').gsub(URL_Producto,'').gsub(URL_Productos,'').gsub(URL_Imagenes,'')
-	end
-					
 	def bajar_clasificacion
 		url = ubicar(:clasificacion)
 		rubros = [nil, nil]
@@ -300,30 +280,10 @@ class Tatito < Web
 end
 
 class Maxiconsumo < Web
-	URL = 'http://www.maxiconsumo.com/sucursal_capital'
-	URL_Productos = 'http://www.maxiconsumo.com/sucursal_capital'
-	URL_Producto = 'http://maxiconsumo.com/sucursal_capital/catalog/product/view/id'
-	URL_Imagenes = 'http://maxiconsumo.com/pub/media/catalog/product/cache'
-	
-	def ubicar(url = nil, modo = :clasificacion)
-		return url if url && url[":"]
-		modo = url if Symbol === url 
-		case modo
-		when :clasificacion
-			"#{URL}"
-		when :productos 
-			"#{URL_Productos}/#{url}"
-		when :producto 
-			"#{URL_Producto}/#{url}?product_list_limit=96"
-		when :imagen 
-			"#{URL_Imagenes}/#{url}"
-		end
+	def get_url 
+		{base: 'http://www.maxiconsumo.com/sucursal_capital', clasificacion: '/', productos: '/*', producto: '/catalog/product/view/id/*?product_list_limit=96', imagen: 'http://maxiconsumo.com/pub/media/catalog/product/cache/*' }
 	end
-
-	def acortar(url)
-		url.gsub(URL_Imagenes,'').gsub(URL_Producto,'').gsub(URL,'').gsub(/^\//,'')
-	end
-
+		
 	def incluir(item)
 		validos = ["Perfumeria", "Fiambreria", "Comestibles", "Bebidas Con Alcohol", "Bebidas Sin Alcohol", "Limpieza"]
 		departamento = item.rubro.split(">").first.strip
@@ -374,32 +334,8 @@ class Maxiconsumo < Web
 end
 
 class TuChanguito < Web
-	URL = 'https://www.tuchanguito.com.ar'
-	URL_Productos = 'https://www.tuchanguito.com.ar'
-	URL_Producto = 'https://www.tuchanguito.com.ar/productos'
-	URL_Imagenes = 'http://d26lpennugtm8s.cloudfront.net/stores/001/219/229/products'
-
-	def ubicar(url = nil, modo = :clasificacion)
-		return url if url && url[":"]
-		modo = url if Symbol === url
-		case modo
-		when :clasificacion
-			"#{URL}"
-		when :productos 
-			"#{URL_Productos}/#{url}"
-		when :producto 
-			"#{URL_Producto}/#{url}"
-		when :imagen 
-			"#{URL_Imagenes}/#{url}"
-		end
-	end
-
-	def acortar(url)
-		url
-			.gsub(URL_Imagenes,'')
-			.gsub(URL_Producto,'')
-			.gsub(URL,'')
-			.gsub(/^\//,'')
+	def get_url 
+		{base: 'https://www.tuchanguito.com.ar', clasificacion: '/', productos: '/*', producto: '/productos/*', imagen: 'http://d26lpennugtm8s.cloudfront.net/stores/001/219/229/products/*'}
 	end
 
 	def incluir(item)
@@ -449,11 +385,18 @@ class TuChanguito < Web
 end
 
 
-
 if __FILE__ == $0
-	TuChanguito.new.bajar_todo
-	Jumbo.new.bajar_todo
+	# j = Tatito.new
+	# p j.get_url()
+	# p j.ubicar(:base)
+	# p j.ubicar(:clasificacion)
+	# p j.ubicar(:productos)
+	# p j.ubicar(:producto)
+	# p j.ubicar(:imagen)
+
+	# TuChanguito.new.bajar_todo
+	# Jumbo.new.bajar_todo
 	Tatito.new.bajar_todo
-	Maxiconsumo.new.bajar_todo
+	# Maxiconsumo.new.bajar_todo
 end
 
