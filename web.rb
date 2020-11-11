@@ -10,10 +10,10 @@ class Web
 		puts "BAJANDO todos los datos de #{carpeta.upcase}".green
 		
 		puts " ► Bajando clasificacion...".cyan
-		clasificacion = bajar_clasificacion()#.first(3)
+		clasificacion = bajar_clasificaciones()
 
 		puts " ► Bajando productos... (#{clasificacion.count})".cyan
-		productos = bajar_productos(clasificacion).compact
+		productos = bajar_clasificacion(clasificacion).compact
 		Archivo.escribir(productos, destino)
 
 		puts " ► Completando ID...".cyan
@@ -29,20 +29,23 @@ class Web
 		self
 	end
 
-	def bajar_productos(clasificacion)
-		productos = []
+	def bajar_clasificacion(clasificacion)
+		salida = []
 		clasificacion.procesar(10) do |clasificacion| # Limitador por Maxiconsumo
 			url = ubicar(:productos, clasificacion.url)
 			Archivo.abrir(url) do |pagina|
-				nuevos = bajar_producto(pagina).compact
-				nuevos.each{|x| x[:rubro], x[:id] = c[:rubro], ''}
-				productos += nuevos
+				productos = bajar_productos(pagina).compact
+				productos.each do |producto| 
+					producto[:id] = ''
+					producto[:rubro] = clasificacion[:rubro]
+				end
+				salida += productos
 			end
 		end
-		productos.compact.uniq
+		salida.compact.uniq
 	end
 
-	def bajar_producto(pagina)
+	def bajar_productos(pagina)
 		nuevos = [] 
 		begin
 			pagina.css(selector_producto).each do |x| 
@@ -78,7 +81,6 @@ class Web
 		end
 	end
 
-	def get_url; {}; end 
 	def ubicar(modo = :clasificacion, url = nil)
 		base = get_url[modo]
 		base = "#{get_url[:base]}#{base}" if base[/^\//]
@@ -160,7 +162,7 @@ class Web
 			puts "► Muestra productos de #{tmp.carpeta.upcase}"
 			clasificacion = tmp.bajar_clasificacion
 			clasificacion = clasificacion.first(3) if breve
-			productos = tmp.bajar_productos(clasificacion)
+			productos = tmp.bajar_clasificacion(clasificacion)
 			productos = productos.first(10) if breve
 			productos.tabular
 			puts "■ %0.1fs \n" % (Time.new - inicio)
@@ -187,8 +189,7 @@ class Jumbo < Web
 		validos.include?(departamento)	
 	end
 
-
-	def bajar_clasificacion()
+	def bajar_clasificaciones()
 		datos = JSON(URI.open(ubicar(:clasificacion)).read).normalizar
 		datos.map do |d|
 			d[:children].map do |c|
@@ -226,10 +227,10 @@ end
 
 class Tatito < Web
 	def get_url
-		 {base: 'http://tatito.com.ar', clasificacion: '/tienda', productos: '/producto/*', producto: '/tienda/?filters=product_cat/*', imagen: '/wp-content/uploads/*'}
+		 {base: 'http://tatito.com.ar', clasificacion: '/tienda', productos: '/tienda/?filters=product_cat/*', producto: '/producto/*', imagen: '/wp-content/uploads/*'}
 	end
 
-	def bajar_clasificacion
+	def bajar_clasificaciones 
 		url = ubicar(:clasificacion)
 		rubros = [nil, nil]
 		Archivo.abrir(url) do |pagina|
@@ -284,13 +285,7 @@ class Maxiconsumo < Web
 		{base: 'http://www.maxiconsumo.com/sucursal_capital', clasificacion: '/', productos: '/*', producto: '/catalog/product/view/id/*?product_list_limit=96', imagen: 'http://maxiconsumo.com/pub/media/catalog/product/cache/*' }
 	end
 		
-	def incluir(item)
-		validos = ["Perfumeria", "Fiambreria", "Comestibles", "Bebidas Con Alcohol", "Bebidas Sin Alcohol", "Limpieza"]
-		departamento = item.rubro.split(">").first.strip
-		validos.include?(departamento)	
-	end
-
-	def bajar_clasificacion
+	def bajar_clasificaciones
 		url = ubicar(:clasificacion)
 		Archivo.abrir(url) do |pagina|
 			lista = pagina.css('#maxiconsumo-megamenu  a').map do |x|
@@ -310,6 +305,12 @@ class Maxiconsumo < Web
 
 			return rubro.select{|x| incluir(x) }
 		end
+	end
+
+	def incluir(item)
+		validos = ["Perfumeria", "Fiambreria", "Comestibles", "Bebidas Con Alcohol", "Bebidas Sin Alcohol", "Limpieza"]
+		departamento = item.rubro.split(">").first.strip
+		validos.include?(departamento)	
 	end
 
 	def selector_producto
@@ -342,7 +343,7 @@ class TuChanguito < Web
 		!item[:rubro][/ver todo/i] && !item[:rubro][/ofertas/i]
 	end
 
-	def bajar_clasificacion
+	def bajar_clasificaciones
 		url = ubicar(:clasificacion)
 		Archivo.abrir(url) do |pagina|
 			rubros = {}
