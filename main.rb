@@ -66,9 +66,11 @@ class Producto < Struct.new(*Campos)
 	end
 
 	def contiene(condicion)
+		return true if condicion.espacios.vacio?
 		alternativas = condicion.espacios.split(' o ')
 		alternativas.any? do |palabras|
 			palabras = palabras.gsub(' y ', '')
+			return true if palabras.vacio?
 			palabras.split(' ').all? do |palabra|
 				operador, valor = palabra.scan(/([-+:<>\/])?(.*)/).first
 				case operador 
@@ -89,6 +91,10 @@ class Producto < Struct.new(*Campos)
 
 	def precio_oferta
 		ofertas.last.last
+	end
+
+	def variacion
+		precio / (anterior||precio).to_f - 1
 	end
 end
 
@@ -177,7 +183,7 @@ class Catalogo
 		map(&:rubro).uniq.sort 
 	end
 	
-	def comparar(otro, verboso)
+	def analizar_cambios(otro, verboso)
 		altas = self - otro
 		bajas = otro - self
 		igual = self - bajas - altas 
@@ -214,7 +220,7 @@ class Catalogo
 		nuevo = Catalogo.leer(base, -1)
 		viejo = Catalogo.leer(base, -dias)
 		print "Semana:"
-		nuevo.comparar(viejo, verboso)
+		nuevo.analizar_cambios(viejo, verboso)
 		puts
 	end
 
@@ -230,11 +236,11 @@ class Catalogo
 		end
 	end
 
-	def listar_productos(*busqueda)
-		busqueda = [busqueda].flatten.map(&:to_s).join(' ').espacios
+	def listar_productos(busqueda, verboso=false)
+		busqueda = busqueda.espacios
 		datos = filtrar{|x| x.contiene(busqueda) }
 		
-		puts (" %-12s | %-69s %4i  %6.2f " % [datos.base.upcase, "Productos para '#{busqueda}'", datos.count, datos.precio_promedio]).on_green.black
+		puts (" %-12s | %-69s %4i  %6.2f " % [datos.base.upcase, verboso ? "Productos para '#{busqueda}'" : '', datos.count, datos.precio_promedio]).on_green.black
 
 		anterior = []
 		datos.each do |x|
@@ -246,24 +252,43 @@ class Catalogo
 					puts (" %s  %s " % ["  " * nivel, valor.upcase]).colorize([:green, :yellow, :cyan][nivel]) if mostrar 
 				end
 			end
-			oferta =  x.precio_oferta < x.precio ?  ("%6.2f" % x.precio_oferta) : ""
-			puts " %s  %-80s    %6.2f %s %s " % ["  " * actual.count, x.nombre, x.precio, (x.error? ? '*' : ' ').red, oferta]
+			oferta =  x.precio_oferta < x.precio ?  x.precio_oferta.to_precio : ""
+			cambio = x.variacion.abs > 0.01 && x.variacion.abs < 0.5 ? x.variacion.to_porcentaje : ""
+			cambio = cambio.colorize(x.variacion < 0 ? :green : :red)
+			puts " %s  %-80s    %6.2f %s %s %s" % ["  " * actual.count, x.nombre, x.precio, (x.error? ? '*' : ' ').red, oferta.cyan, cambio]
 			anterior = actual
 		end
 	end
 
+	def comparar(dias=7)
+		referencia = Catalogo.leer(base, -dias)
+		each do |actual|
+			if anterior = referencia.buscar(actual)
+				actual.anterior = anterior.precio 
+			else
+				actual.anterior = nil 
+			end
+		end
+	end
+end
+
+def analizar(supermercado, filtro="", verboso=false)
+	t = Catalogo.leer(supermercado)
+	t -= t.filtrar(&:error?)
+	t.comparar(7)
+	t.listar_productos filtro, verboso
 end
 
 def arroz(*supermercados)
 	supermercados.each do |supermercado|
-		t = Catalogo.leer(supermercado)
-		t -= t.filtrar(&:error?)
-		t.listar_productos "arroz /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo"
+		analizar supermercado, "arroz /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo"
 	end
 end
 
+analizar :jumbo, "coca cola"
+analizar :tuchanguito, "coca cola"
 # arroz(:jumbo, :tatito, :tuchanguito)
-# return
+return
 # Catalogo.leer(:maxiconsumo).resumir
 # return 
 

@@ -120,11 +120,27 @@ class Integer
 	def vacio?
 		self == 0
 	end
+
+	def to_porcentaje
+		(self / 100.0).to_f.to_porcentaje
+	end
+	
+	def to_precio
+		to_f.to_precio
+	end
 end 
 
 class Float 
 	def vacio?
 		abs < 0.1 
+	end
+
+	def to_porcentaje
+		"%3.0f%%" % [100.0 * self]
+	end
+
+	def to_precio
+		"%6.2f" % self 
 	end
 end
 
