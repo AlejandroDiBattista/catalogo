@@ -43,7 +43,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00042|Atun Cumana en aceite Desmenuzado 170 gr.|78.0|3,67.04|||Almacén > Enlatados|2020/10/atun-cumana-desm-aceite-170.jpg|atun-cumana-en-aceite-desmenuzado-170-gr/
 00043|Atun Bahia en aceite y agua 170 Gr.|79.0|3,66.64|||Almacén > Enlatados|2020/10/atun-bahia-en-aceite-170g.jpg|atun-bahia-en-aceite-y-agua-170-gr/
 00044|Durazno en lata DF x 820 gr.|133.5|3,115.70|||Almacén > Enlatados|2020/09/durazno-df-820.jpg|durazno-en-lata-df-x-820-gr/
-00045|Sardinas en aceite Marbella 120 gr.|100.0|3,83.20|||Almacén > Enlatados|2020/05/sardina-marbella-120g.jpg|sardinas-en-aceite-marbella-120-gr/
 00046|Atun Cumana al natural Desmenuzado 170 gr.|78.0|3,67.04|||Almacén > Enlatados|2020/01/ATUN-CUMANA-DESMENUZ-170GR.jpg|atun-cumana-desmenuz-170gr/
 00047|Lentejas Arcor 320 Grs..|69.0|3,59.92|||Almacén > Enlatados|2020/01/LENTEJAS-ARCOR-320G.jpg|lentejas-arcor-320g/
 00048|Arvejas Arcor  Secas 300 Grs.|50.0|3,43.64|||Almacén > Enlatados|2020/01/ARVEJAS-ARCOR-SECAS-300-GR.jpg|arvejas-arcor-secas-300-gr/
@@ -355,7 +354,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00354|Actimel Multifruta 100G|72.85|3,64.45|||Frescos y Congelados > Yogures|2020/01/ACTIMEL-MULTIFRUTA-100G.jpg|actimel-multifruta-100g/
 00355|Galletas Frutigran Avena y Pasas 250 gr.|85.0|3,73.45|||Desayuno > Gall Dulces y Saladas|2020/10/frutigram-avenaypasas.jpg|galletas-frutigran-avena-y-pasas-250-gr/
 00356|Galletas Frutigran Tropical 250 gr.|85.0|3,73.45|||Desayuno > Gall Dulces y Saladas|2020/07/frutigran-tropical-250.jpg|galletas-frutigran-tropical-250-gr/
-00357|Galletas Chocolinas 100 Grs.  Bagley|45.0|3,38.74|||Desayuno > Gall Dulces y Saladas|2020/01/GALL-CHOCOLINAS-170G-BAGLEY-3.jpg|galletas-chocolinas-100-grs-bagley/
 00358|GALLETAS CHOCOCHIPS DE 135GR|40.0|3,34.58|||Desayuno > Gall Dulces y Saladas|2020/01/GALL-CHOCOCHIPS-DE-135GR.jpg|gall-chocochips-de-135gr/
 00359|GALLETAS BAGLEY SALVADO DE 214GR|58.0|3,50.23|||Desayuno > Gall Dulces y Saladas|2020/01/GALL-BAGLEY-SALVADO-DE-214GR.jpg|gall-bagley-salvado-de-214gr/
 00360|GALLETAS MERENGADA 93GR|52.0|3,44.97|||Desayuno > Gall Dulces y Saladas|2019/11/GALL-MERENGADA-93GR.jpg|gall-merengada-93gr/
@@ -365,7 +363,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00364|GALLETAS MAURI SIN SAL 400GR|94.0|3,79.30|||Desayuno > Gall Dulces y Saladas|2019/11/GALL-MAURI-SIN-SAL-400GR.jpg|gall-mauri-sin-sal-400gr/
 00365|GALLETAS FORMIS 108GR|48.0|3,41.09|||Desayuno > Gall Dulces y Saladas|2019/11/GALL-FORMIS-108GR.jpg|gall-formis-108gr/
 00366|Pepas Gaona  X 180 Gr.|35.0|3,30.29|||Desayuno > Gall Dulces y Saladas|2019/11/pepas-gaona-180.jpg|pepas-gaona-x-350g/
-00367|Galletas Chocolinas 170 Grs.  Bagley|67.5|3,58.37|||Desayuno > Gall Dulces y Saladas|2020/01/GALL-CHOCOLINAS-170G-BAGLEY-3.jpg|gall-chocolinas-170g-bagley-3/
 00368|GALLETAS TRAVIATA  3 X101 GR|84.0|3,72.58|||Desayuno > Gall Dulces y Saladas|2019/11/GALL-TRAVIATA-3-X101-GR.jpg|gall-traviata-3-x101-gr/
 00369|GALLETAS MANA RELL 165GR|57.0|3,48.96|||Desayuno > Gall Dulces y Saladas|2019/11/GALL-MANA-RELL-165GR.jpg|gall-mana-rell-165gr/
 00370|GALLETAS CRIOLLITAS DE 3 X100GR|70.0|3,60.52|||Desayuno > Gall Dulces y Saladas|2020/01/GALL-CRIOLLITAS-DE-3-X100GR.jpg|gall-criollitas-de-3-x100gr/
@@ -521,3 +518,11 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00520|Espiral Raid Sobre 4 Uds.|23.5|3,20.15|||Limpieza > Varios|2020/01/ESPIRAL-RAID-SOBRE-4UD.jpg|espiral-raid-sobre-4ud/
 00521|Cif Vidrios  Celeste  450 Ml.|64.0|3,55.77|||Limpieza > Varios|2020/01/CIF-VIDRIOS-CELESTE-DP-450ML.jpg|cif-vidrios-celeste-dp-450ml/
 00522|ESPONJA MAKE BRONCE|34.0|3,29.59|||Limpieza > Varios|2020/01/ESP-MAKE-BRONCE.jpg|esp-make-bronce/
+00817|Gaseosa Pepsi 2 Lt.|105.0|3,85.00|||Bebidas > Gaseosas|2020/11/pepsi-2l.jpg|gaseosa-pepsi-2-lt/
+00818|Salsa para Pizza Vanoli 340 grs.|65.5|3,56.64|||Almacén > Salsas|2020/11/salsa-p-pizza-vanoli-340.jpg|salsa-para-pizza-vanoli-340-grs/
+00819|Aceite de Girasol Cañuelas 900 ml.|134.0|3,122.21|||Almacén > Aceites|2020/11/aceite-girasol-canuelas-900.jpg|aceite-de-girasol-canuelas-900-ml/
+00820|GALLETAS AZUCARADAS ARCOR 80GR|23.5|3,20.07|||Desayuno > Gall Dulces y Saladas|2020/01/GALL-AZUCARADAS-ARCOR-80GR.jpg|gall-azucaradas-arcor-80gr/
+00821|GALLETAS PINDY  X3 UND|45.0|3,36.00|||Desayuno > Gall Dulces y Saladas|2019/11/GALL-PINDY-X3-UND.jpg|gall-pindy-x3-und/
+00822|Dulce de Leche Santa Maria 1 Kg.|225.0|3,188.37|||Lacteos > Dulce de Leche|2020/11/dulce-d-leche-santamaria-1kg.jpg|dulce-de-leche-santa-maria-1-kg/
+00823|Queso Rallado la Serenisima 40 gr.|63.0|3,54.48|||Lacteos > Quesos|2020/01/RALL-LS-3-40GR.jpg|rall-ls-3-40gr/
+00824|Queso Rallado La Quesera 40GR|30.0|3,24.05|||Lacteos > Quesos|2020/01/RALL-LA-QUESERA-40GR.jpg|rall-la-quesera-40gr/
