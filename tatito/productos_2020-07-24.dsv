@@ -1,5 +1,5 @@
 id|nombre|precio|rubro|url_imagen|url_producto
-00003|Azucar 1 Kg.|55.0|Almacén > Azúcar|/2019/11/azucar-comun-1kg-fraccionada.jpg|/azucar-1kg-s-iva/
+00005|Azucar 1 Kg.|55.0|Almacén > Azúcar|/2019/11/azucar-comun-1kg-fraccionada.jpg|/azucar-1kg-s-iva/
 00008|KETCHUP DANICA 220GR|49.9|Aderezos > Ketchup|/2020/01/KETCHUP-DANICA-220GR.jpg|/ketchup-danica-220gr/
 00012|MOSTAZA DANICA 220GR|45.0|Aderezos > Mostazas|/2020/01/MOSTAZA-DANICA-250GR.jpg|/mostaza-danica-220gr/
 00017|Arroz Gallo Oro 1 Kg.|127.0|Almacén > Arroz|/2020/01/ARROZ-GALLO-ORO-B1-KG.jpg|/arroz-gallo-oro-b1-kg-s-iva/
@@ -22,17 +22,17 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00054|BIZCOCHUELO GODET CHOCOLATE 480GR|109.0|Almacén > Postres|/2020/01/BIZC-GODET-CHOC-480GR.jpg|/bizc-godet-choc-480gr/
 00055|FLAN GODET DULCE DE LECHE 30 GRS.|27.0|Almacén > Postres|/2020/01/FLAN-GODET-D-DE-LECHE-30-GRS.jpg|/flan-godet-d-de-leche-30-grs/
 00056|Flan Godet  Vainilla  30 Grs.|27.0|Almacén > Postres|/2020/01/FLAN-GODET-VAINILLA-30GR.jpg|/flan-godet-vainilla-30gr/
-00059|Maiz Blanco Jose Lopez 500 Grs.|29.91|Almacén > Legumbres|/2020/01/default.jpg|/maiz-jose-lopez-bco-500gr/
-00062|BURGOL BEDOIAN 500GR|76.99|Almacén > Legumbres|/2020/01/BURGOL-BEDOIAN-500GR.jpg|/burgol-bedoian-500gr/
-00063|BURGOL JOSE LOPEZ 500GR|62.0|Almacén > Legumbres|/2019/11/burgol-jose-lopez.jpg|/burgol-jose-lopez-500gr/
-00066|LENTEJA JOSE LOPEZ 500GR|69.0|Almacén > Legumbres|/2019/11/lentejas-jose-lopez.jpg|/lenteja-jose-lopez-500gr/
-00067|MAIZ BLANCO LA ESPANOLA 500GR|37.5|Almacén > Legumbres|/2020/01/default.jpg|/maiz-la-espanola-blanco-500gr/
-00068|BURGOL LA ESPANOLA 500GR|63.7|Almacén > Legumbres|/2020/04/burgol-la-española.jpg|/burgol-la-espanola-500gr/
-00069|POLENTA JOSE LOPEZ 500GR|17.0|Almacén > Legumbres|/2020/01/default.jpg|/polenta-jose-lopez-500gr/
-00070|POLENTA LA ESPANOLA 500GR|19.5|Almacén > Legumbres|/2020/01/default.jpg|/polenta-la-espanola-500gr/
-00072|SAL MANTO BLANCO FINA 500GR|17.6|Almacén > Sal|/2019/11/sal-manto-blanco-fina-500.jpg|/sal-manto-blanco-fina-500gr/
-00073|SAL MANTO BLANCO GRUESA 500GR|17.6|Almacén > Sal|/2019/11/sal-manto-blanco-gruesa-500.jpg|/sal-manto-blanco-gruesa-500gr/
-00075|SAL CELUSAL FINA 500GR|39.99|Almacén > Sal|/2020/01/SAL-CELUSAL-FINA-500GR.jpg|/sal-celusal-fina-500gr/
+00073|Maiz Blanco Jose Lopez 500 Grs.|29.91|Almacén > Legumbres|/2020/01/default.jpg|/maiz-jose-lopez-bco-500gr/
+00076|BURGOL BEDOIAN 500GR|76.99|Almacén > Legumbres|/2020/01/BURGOL-BEDOIAN-500GR.jpg|/burgol-bedoian-500gr/
+00077|BURGOL JOSE LOPEZ 500GR|62.0|Almacén > Legumbres|/2019/11/burgol-jose-lopez.jpg|/burgol-jose-lopez-500gr/
+00080|LENTEJA JOSE LOPEZ 500GR|69.0|Almacén > Legumbres|/2019/11/lentejas-jose-lopez.jpg|/lenteja-jose-lopez-500gr/
+00081|MAIZ BLANCO LA ESPANOLA 500GR|37.5|Almacén > Legumbres|/2020/01/default.jpg|/maiz-la-espanola-blanco-500gr/
+00082|BURGOL LA ESPANOLA 500GR|63.7|Almacén > Legumbres|/2020/04/burgol-la-española.jpg|/burgol-la-espanola-500gr/
+00083|POLENTA JOSE LOPEZ 500GR|17.0|Almacén > Legumbres|/2020/01/default.jpg|/polenta-jose-lopez-500gr/
+00084|POLENTA LA ESPANOLA 500GR|19.5|Almacén > Legumbres|/2020/01/default.jpg|/polenta-la-espanola-500gr/
+00088|SAL MANTO BLANCO FINA 500GR|17.6|Almacén > Sal|/2019/11/sal-manto-blanco-fina-500.jpg|/sal-manto-blanco-fina-500gr/
+00089|SAL MANTO BLANCO GRUESA 500GR|17.6|Almacén > Sal|/2019/11/sal-manto-blanco-gruesa-500.jpg|/sal-manto-blanco-gruesa-500gr/
+00091|SAL CELUSAL FINA 500GR|39.99|Almacén > Sal|/2020/01/SAL-CELUSAL-FINA-500GR.jpg|/sal-celusal-fina-500gr/
 00096|Fideos Spaghetti Terrabusi x 500 grs|56.0|Almacén > Fideos|/2020/04/spaghetti-terrabusi-500.jpg|/fideos-spaghetti-terrabusi-x-500-grs/
 00097|FIDEOS LA PROVIDENCIA  SPAGUETTI 500 GR|45.0|Almacén > Fideos|/2020/04/FIDEOS-LA-PROVIDENCIA-SPAG-500.jpg|/fideos-la-providencia-spaguetti-500-gr/
 00098|FIDEOS VERIZZIA GUISERO|39.0|Almacén > Fideos|/2020/01/FIDEOS-VERIZZIA-GUISERO-S-IVA.jpg|/fideos-verizzia-guisero-s-iva/
@@ -41,33 +41,33 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00108|FIDEOS CHICAGO GUISEROS 500G|42.0|Almacén > Fideos|/2020/01/default.jpg|/fideos-chicago-guis-500g-s-iva/
 00109|FIDEOS PARRADIN 500GR|39.0|Almacén > Fideos|/2020/01/default.jpg|/fideos-parradin-500gr/
 00110|Vinagre El Parrillero 5 Lts.|182.0|Almacén > Vinagres|/2020/01/default.jpg|/vinagre-el-parrillero-5lt/
-00118|Leche en Polvo Descremada Lheritier 350 gr.|195.0|Almacén > Otros|/2020/05/leche-en-polvo-lheritier-800.jpg|/leche-en-polvo-descremada-lheritier-350-gr/
-00119|Grasa vacuna Kamote x 1 Kg.|112.5|Almacén > Otros|/2020/05/grasa-kamote-1kg.jpg|/grasa-vacuna-kamote-x-1-kg/
-00120|Grasa vacuna Kamote x 500 gr.|60.0|Almacén > Otros|/2020/05/grasa-kamote-500g.jpg|/grasa-vacuna-kamote-x-500-gr/
-00121|CACAO QUICKER X 200GR|52.0|Almacén > Otros|/2020/04/CACAO-QUICKER-200.jpg|/cacao-quicker-x-200gr/
-00122|Dulce de Batata Riojanita Cajon 5K Vainilla|427.0|Almacén > Otros|/2020/01/DULCE-BAT-RIOJANITA-CAJON-5K-VA.jpg|/dulce-bat-riojanita-cajon-5k-vai/
-00123|Dulce de Batata Riojanita Vainilla Lata x 5 kg|620.0|Almacén > Otros|/2020/01/DULCE-BAT-RIOJANITA-VAIN-LATA.jpg|/dulce-bat-riojanita-vain-lata/
-00124|Dulce de Batata Dulcor Cajon 5Kg.|500.0|Almacén > Otros|/2020/01/DULCE-BAT-DULCOR-CAJON-5KG.jpg|/dulce-bat-dulcor-cajon-5kg/
-00125|Dulce de Batata La Riojanita Cajon 5K Ch|400.0|Almacén > Otros|/2020/01/DULCE-BAT-RIOJANITA-CAJON-5K-CH.jpg|/dulce-bat-riojanita-cajon-5k-ch/
-00130|Cafe La Virginia Instantaneo Latte 125 gr|95.0|Almacén > Café|/2020/05/cafe-la-virginia-latte-125.jpg|/cafe-la-virginia-instantaneo-latte-125-gr/
-00131|Cafe La Virginia Instantaneo Cortado 125 gr|95.0|Almacén > Café|/2020/05/cafe-la-virginia-cortado-125.jpg|/cafe-la-virginia-instantaneo-cortado-125-gr/
-00132|Malta El Pocillo x 125 gr.|125.0|Almacén > Café|/2020/05/MALTA-ELPOCILLO-125-POCUH.jpg|/malta-el-pocillo-x-125-gr/
-00133|Cafe La Virginia Instantaneo Suave 100 Grs.|155.0|Almacén > Café|/2020/01/CAFE-LA-VIRG-INST-100GR-SUAV.jpg|/cafe-la-virg-inst-100gr-suav/
-00136|Cafe la Virginia Suave 170 Grs. Vidrio|235.0|Almacén > Café|/2020/01/CAFE-LA-VIRG-170GR-SUAV-VIDRIO.jpg|/cafe-la-virg-170gr-suav-vidrio/
-00138|Cafe Arlistan 100 Grs.|189.4|Almacén > Café|/2020/04/cafe-arlistan-100gr.jpg|/cafe-arlistan-100gr/
-00140|Cafe Dolca Instantaneo Suave 100 grs.|167.19|Almacén > Café|/2020/01/CAFE-DOLCA-SUAVE-100G.jpg|/cafe-dolca-suave-100g/
-00141|Cafe la Virginia Cl?sico 170 Grs. Vidrio|235.0|Almacén > Café|/2020/01/CAFE-LA-VIRG-170GR-CLA-VIDRIO.jpg|/cafe-la-virg-170gr-cla-vidrio/
-00142|Cafe la Virginia Clasico Instantaneo 100 Grs.|155.0|Almacén > Café|/2020/01/CAFE-LA-VIRG-INST-100GR-CLA.jpg|/cafe-la-virg-inst-100gr-cla/
-00144|Cafe Villa Rica 125 Grs.|62.0|Almacén > Café|/2020/01/default.jpg|/cafe-villa-rica-125gr/
-00145|CAFE LA VIRGINIA EQUIL X 125GR|75.0|Almacén > Café|/2020/01/CAFE-LA-VIRG-EQUIL-X-125GR.jpg|/cafe-la-virg-equil-x-125gr/
-00146|Cafe La Virginia en Sobres (5 Grs.)|135.0|Almacén > Café|/2020/01/CAFE-LA-VIRG-5GR-SOBRE.jpg|/cafe-la-virg-5gr-sobre/
+00116|Cafe La Virginia Instantaneo Latte 125 gr|95.0|Almacén > Café|/2020/05/cafe-la-virginia-latte-125.jpg|/cafe-la-virginia-instantaneo-latte-125-gr/
+00117|Cafe La Virginia Instantaneo Cortado 125 gr|95.0|Almacén > Café|/2020/05/cafe-la-virginia-cortado-125.jpg|/cafe-la-virginia-instantaneo-cortado-125-gr/
+00118|Malta El Pocillo x 125 gr.|125.0|Almacén > Café|/2020/05/MALTA-ELPOCILLO-125-POCUH.jpg|/malta-el-pocillo-x-125-gr/
+00119|Cafe La Virginia Instantaneo Suave 100 Grs.|155.0|Almacén > Café|/2020/01/CAFE-LA-VIRG-INST-100GR-SUAV.jpg|/cafe-la-virg-inst-100gr-suav/
+00122|Cafe la Virginia Suave 170 Grs. Vidrio|235.0|Almacén > Café|/2020/01/CAFE-LA-VIRG-170GR-SUAV-VIDRIO.jpg|/cafe-la-virg-170gr-suav-vidrio/
+00124|Cafe Arlistan 100 Grs.|189.4|Almacén > Café|/2020/04/cafe-arlistan-100gr.jpg|/cafe-arlistan-100gr/
+00126|Cafe Dolca Instantaneo Suave 100 grs.|167.19|Almacén > Café|/2020/01/CAFE-DOLCA-SUAVE-100G.jpg|/cafe-dolca-suave-100g/
+00127|Cafe la Virginia Cl?sico 170 Grs. Vidrio|235.0|Almacén > Café|/2020/01/CAFE-LA-VIRG-170GR-CLA-VIDRIO.jpg|/cafe-la-virg-170gr-cla-vidrio/
+00128|Cafe la Virginia Clasico Instantaneo 100 Grs.|155.0|Almacén > Café|/2020/01/CAFE-LA-VIRG-INST-100GR-CLA.jpg|/cafe-la-virg-inst-100gr-cla/
+00130|Cafe Villa Rica 125 Grs.|62.0|Almacén > Café|/2020/01/default.jpg|/cafe-villa-rica-125gr/
+00131|CAFE LA VIRGINIA EQUIL X 125GR|75.0|Almacén > Café|/2020/01/CAFE-LA-VIRG-EQUIL-X-125GR.jpg|/cafe-la-virg-equil-x-125gr/
+00132|Cafe La Virginia en Sobres (5 Grs.)|135.0|Almacén > Café|/2020/01/CAFE-LA-VIRG-5GR-SOBRE.jpg|/cafe-la-virg-5gr-sobre/
+00139|Leche en Polvo Descremada Lheritier 350 gr.|195.0|Almacén > Otros|/2020/05/leche-en-polvo-lheritier-800.jpg|/leche-en-polvo-descremada-lheritier-350-gr/
+00140|Grasa vacuna Kamote x 1 Kg.|112.5|Almacén > Otros|/2020/05/grasa-kamote-1kg.jpg|/grasa-vacuna-kamote-x-1-kg/
+00141|Grasa vacuna Kamote x 500 gr.|60.0|Almacén > Otros|/2020/05/grasa-kamote-500g.jpg|/grasa-vacuna-kamote-x-500-gr/
+00142|CACAO QUICKER X 200GR|52.0|Almacén > Otros|/2020/04/CACAO-QUICKER-200.jpg|/cacao-quicker-x-200gr/
+00143|Dulce de Batata Riojanita Cajon 5K Vainilla|427.0|Almacén > Otros|/2020/01/DULCE-BAT-RIOJANITA-CAJON-5K-VA.jpg|/dulce-bat-riojanita-cajon-5k-vai/
+00144|Dulce de Batata Riojanita Vainilla Lata x 5 kg|620.0|Almacén > Otros|/2020/01/DULCE-BAT-RIOJANITA-VAIN-LATA.jpg|/dulce-bat-riojanita-vain-lata/
+00145|Dulce de Batata Dulcor Cajon 5Kg.|500.0|Almacén > Otros|/2020/01/DULCE-BAT-DULCOR-CAJON-5KG.jpg|/dulce-bat-dulcor-cajon-5kg/
+00146|Dulce de Batata La Riojanita Cajon 5K Ch|400.0|Almacén > Otros|/2020/01/DULCE-BAT-RIOJANITA-CAJON-5K-CH.jpg|/dulce-bat-riojanita-cajon-5k-ch/
 00149|ENERGY SPEED 250CC|47.0|Bebidas > Isotonicos y energizantes|/2020/01/ENERG-SPEED-250CC.jpg|/energ-speed-250cc/
 00152|FERNET BRANCA 750CC|490.0|Bebidas > Cervezas y Fernet|/2020/01/FERNET-BRANCA-750CC.jpg|/fernet-branca-750cc/
 00157|Vodka Sky 750 Ml.|400.0|Bebidas > Vodkas|/2020/01/AGUA-PALAU-X-1.5LTS.jpg|/vodka-sky-750-ml/
 00158|Yerba Cachamate con Hierbas 500 Grs. (Amarilla)|115.0|Almacén > Mate|/2020/05/yerba-cachamate-hierbas-amarilla-500.jpg|/yerba-cachamate-con-hierbas-500-grs-amarilla/
 00161|YERBA BROCHE ORO 250GR|68.06|Almacén > Mate|/2020/01/YERBA-BROCHE-ORO-250GR.jpg|/yerba-broche-oro-250gr-s-iva/
 00162|TE LA VIRGINIA X 100 SAQ|145.0|Almacén > Mate|/2020/01/TE-LA-VIRG-X-100-SAQ.jpg|/te-la-virg-x-100-saq-s-iva/
-00167|Mate Cocido en Saquitos Cachamate x 25 Uds.|53.84|Almacén > Mate|/2020/01/YERBA-SAQ-CACHAMATE-X-25U.jpg|/yerba-saq-cachamate-x-25u-s-iva/
+00166|Mate Cocido en Saquitos Cachamate x 25 Uds.|53.84|Almacén > Mate|/2020/01/YERBA-SAQ-CACHAMATE-X-25U.jpg|/yerba-saq-cachamate-x-25u-s-iva/
 00168|YERBA TARAGUI C/P X 500GR|133.0|Almacén > Mate|/2020/04/yerba-mate-taragui-500-grs.jpg|/yerba-taragui-c-p-x-500gr-s-iva/
 00170|TE LA VIRGINIA X 50 SAQ|75.0|Almacén > Mate|/2020/01/TE-LA-VIRG-X-50-SAQ.jpg|/te-la-virg-x-50-saq-s-iva/
 00173|Mate Cocido Broche de Oro x 25 uds.|49.97|Almacén > Mate|/2020/01/YERBA-SAQ-BROCHE-O-X-25.jpg|/yerba-saq-broche-o-x-25-s-iva/
@@ -91,77 +91,77 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00210|Aceite Vicentin Girasol 4.5 Lts.|499.2|Almacén > Aceites|/2020/01/ACEITE-VICENTIN-GIRASOL-4500cc.jpg|/aceite-vicentin-girasol-4-5lt-s-iva/
 00212|Aceite Natura girasol x 1.5 Lts.|182.0|Almacén > Aceites|/2020/01/ACEITE-NATURA-GIRASOL-1500cc.jpg|/aceite-natura-girasol-1-5lt/
 00214|ACEITE VICENTIN GIRASOL 900CC|100.0|Almacén > Aceites|/2020/01/ACEITE-VICENTIN-GIRASOL-900CC.jpg|/aceite-vicentin-girasol-900cc-s-iva/
-00216|Miel Don Gustavo 500 cc|175.0|Desayuno > Miel|/2020/01/default.jpg|/miel-don-gustavo-500-cc/
-00217|Miel Don Gustavo 250 cc|100.0|Desayuno > Miel|/2020/01/default.jpg|/miel-don-gustavo-250cc/
-00218|Miel Colmenares Mata 260 Grs.|100.0|Desayuno > Miel|/2019/11/miel-colmenares-mata-260.jpg|/miel-mata-260gr/
-00221|AZUCAR HILERET LIGHT X 250G PAQ|45.0|Desayuno > Edulcorantes|/2020/01/AZUCAR-HILERET-LIGHT-X-250G-PAQ.jpg|/azucar-hileret-lig-x-250g-paq/
-00222|EDULCORANTE SI DIET 200CC|73.0|Desayuno > Edulcorantes|/2020/01/EDULC-SI-DIET-200CC.jpg|/edulc-si-diet-200cc/
-00226|Jugo Baggio Fresh Manzana Deliciosa 1.5 LT|46.0|Bebidas > Jugos|/2019/11/jugo-baggio-fresh-manzana.jpg|/jugo-baggio-fresh-manzana-deliciosa-1-5-lt/
-00229|Jugo Bc Sobres 1L|13.5|Bebidas > Jugos|/2019/11/jugos-bc-sobres.jpg|/jugo-bc-sobres-1l/
-00230|JUGO ARCOR 25GR SOBRES|12.0|Bebidas > Jugos|/2020/01/JUGO-ARCOR-14-25GR.jpg|/jugo-arcor-14-25gr/
-00231|Jugo Ades Manzana 1 LT|78.0|Bebidas > Jugos|/2020/04/ades-1lt.jpg|/jugo-ades-1lt/
-00233|Jugo Baggio Durazno 200CC|18.0|Bebidas > Jugos|/2019/11/jugo-baggio-durazno-200-cc.jpg|/jugo-baggio-200cc/
-00234|Jugo Baggio Multifruta 125 CC|13.59|Bebidas > Jugos|/2019/11/jugo-baggio-multifruta-125-cc.jpg|/jugo-baggio-x-125/
-00235|JUGO DODI 25G RINDE 2LT|12.0|Bebidas > Jugos|/2020/01/JUGO-DODI-25G-RINDE-2LT.jpg|/jugo-dodi-25g-rinde-2lt/
-00242|CACAO QUICKER X 200GR|52.0|Desayuno > Cacao|/2020/04/CACAO-QUICKER-200.jpg|/cacao-quicker-x-200gr/
-00243|CACAO CHOCOLINO PLUS FORT 180G|56.0|Desayuno > Cacao|/2020/04/cacao-chocolino-180gr.jpg|/cacao-chocolino-plus-fort-180g/
+00222|Jugo Baggio Fresh Manzana Deliciosa 1.5 LT|46.0|Bebidas > Jugos|/2019/11/jugo-baggio-fresh-manzana.jpg|/jugo-baggio-fresh-manzana-deliciosa-1-5-lt/
+00225|Jugo Bc Sobres 1L|13.5|Bebidas > Jugos|/2019/11/jugos-bc-sobres.jpg|/jugo-bc-sobres-1l/
+00226|JUGO ARCOR 25GR SOBRES|12.0|Bebidas > Jugos|/2020/01/JUGO-ARCOR-14-25GR.jpg|/jugo-arcor-14-25gr/
+00227|Jugo Ades Manzana 1 LT|78.0|Bebidas > Jugos|/2020/04/ades-1lt.jpg|/jugo-ades-1lt/
+00229|Jugo Baggio Durazno 200CC|18.0|Bebidas > Jugos|/2019/11/jugo-baggio-durazno-200-cc.jpg|/jugo-baggio-200cc/
+00230|Jugo Baggio Multifruta 125 CC|13.59|Bebidas > Jugos|/2019/11/jugo-baggio-multifruta-125-cc.jpg|/jugo-baggio-x-125/
+00231|JUGO DODI 25G RINDE 2LT|12.0|Bebidas > Jugos|/2020/01/JUGO-DODI-25G-RINDE-2LT.jpg|/jugo-dodi-25g-rinde-2lt/
+00234|AZUCAR HILERET LIGHT X 250G PAQ|45.0|Desayuno > Edulcorantes|/2020/01/AZUCAR-HILERET-LIGHT-X-250G-PAQ.jpg|/azucar-hileret-lig-x-250g-paq/
+00235|EDULCORANTE SI DIET 200CC|73.0|Desayuno > Edulcorantes|/2020/01/EDULC-SI-DIET-200CC.jpg|/edulc-si-diet-200cc/
+00239|CACAO QUICKER X 200GR|52.0|Desayuno > Cacao|/2020/04/CACAO-QUICKER-200.jpg|/cacao-quicker-x-200gr/
+00240|CACAO CHOCOLINO PLUS FORT 180G|56.0|Desayuno > Cacao|/2020/04/cacao-chocolino-180gr.jpg|/cacao-chocolino-plus-fort-180g/
+00241|Miel Don Gustavo 500 cc|175.0|Desayuno > Miel|/2020/01/default.jpg|/miel-don-gustavo-500-cc/
+00242|Miel Don Gustavo 250 cc|100.0|Desayuno > Miel|/2020/01/default.jpg|/miel-don-gustavo-250cc/
+00243|Miel Colmenares Mata 260 Grs.|100.0|Desayuno > Miel|/2019/11/miel-colmenares-mata-260.jpg|/miel-mata-260gr/
 00244|Jamon Crudo Goggi Feteado x 100 grs.|69.0|Fiambreria > Jamon Crudo|/2019/11/jamon-crudo-goggi-D_NQ_NP_882252-MLA32138258660_092019-F.jpg|/jamon-crudo-goggi-medio-listo/
-00245|Te La Virginia Tilo 25 Uds.|124.0|Desayuno > Mate|/2020/01/TE-LA-VIRG-TILO-25UN.jpg|/te-la-virg-tilo-25un/
-00246|Te La Virginia Verde 20 Uds.|70.0|Desayuno > Mate|/2020/01/TE-LA-VIRG-VERDE-20UN.jpg|/te-la-virg-verde-20un/
-00247|TE TARAGUI FIL.ESP 100S|180.0|Desayuno > Mate|/2020/01/TE-TARAGUI-FIL.ESP-100S.jpg|/te-taragui-fil-esp-100s/
-00248|Te Taragui Tilo 25 Uds.|126.0|Desayuno > Mate|/2020/01/TE-TARAGUI-TILO-25UN.jpg|/te-taragui-tilo-25un/
-00249|Te La Virginia Rojo 20 Uds.|83.5|Desayuno > Mate|/2020/01/TE-LA-VIRG-ROJO-20UN.jpg|/te-la-virg-rojo-20un/
+00245|Panceta Ahumada Recreo x 100 grs.|78.0|Fiambreria > Panceta|/2020/05/panceta-salada-recreo.jpg|/panceta-salada-recreo-x-100-grs/
+00246|Te La Virginia Tilo 25 Uds.|124.0|Desayuno > Mate|/2020/01/TE-LA-VIRG-TILO-25UN.jpg|/te-la-virg-tilo-25un/
+00247|Te La Virginia Verde 20 Uds.|70.0|Desayuno > Mate|/2020/01/TE-LA-VIRG-VERDE-20UN.jpg|/te-la-virg-verde-20un/
+00248|TE TARAGUI FIL.ESP 100S|180.0|Desayuno > Mate|/2020/01/TE-TARAGUI-FIL.ESP-100S.jpg|/te-taragui-fil-esp-100s/
+00249|Te Taragui Tilo 25 Uds.|126.0|Desayuno > Mate|/2020/01/TE-TARAGUI-TILO-25UN.jpg|/te-taragui-tilo-25un/
 00250|TE TARAGUI 50UN|95.0|Desayuno > Mate|/2020/01/TE-TARAGUI-50UN.jpg|/te-taragui-50un/
-00251|TE TARAGUI FIL.ESP. 25S|52.0|Desayuno > Mate|/2020/01/TE-TARAGUI-FIL.ESP_.-25S.jpg|/te-taragui-fil-esp-25s/
-00252|TE VILLA RICA 25UN|35.0|Desayuno > Mate|/2020/01/default.jpg|/te-villa-rica-25un/
-00253|Panceta Ahumada Recreo x 100 grs.|78.0|Fiambreria > Panceta|/2020/05/panceta-salada-recreo.jpg|/panceta-salada-recreo-x-100-grs/
-00254|Queso Pategras La Serenisima x 100 grs.|79.0|Fiambreria > Pategras|/2019/11/queso-pategras-la-serenisima.jpg|/pategras-ls/
-00255|Muzzarella Elogio x 100 grs.|40.0|Fiambreria > Muzzarella|/2019/11/mozzarella.jpg|/muzzarella-elogio-x-100-grs/
-00257|Paleta Fela Feteada x 100 grs.|28.0|Fiambreria > Paleta|/2020/01/PALETA-FELA.jpg|/paleta-fela/
-00258|Paleta Figo Feteada x 100 grs.|14.0|Fiambreria > Paleta|/2020/01/PALETA-FIGO.jpg|/paleta-figo/
+00251|Te La Virginia Rojo 20 Uds.|83.5|Desayuno > Mate|/2020/01/TE-LA-VIRG-ROJO-20UN.jpg|/te-la-virg-rojo-20un/
+00252|TE TARAGUI FIL.ESP. 25S|52.0|Desayuno > Mate|/2020/01/TE-TARAGUI-FIL.ESP_.-25S.jpg|/te-taragui-fil-esp-25s/
+00253|TE VILLA RICA 25UN|35.0|Desayuno > Mate|/2020/01/default.jpg|/te-villa-rica-25un/
+00254|Muzzarella Elogio x 100 grs.|40.0|Fiambreria > Muzzarella|/2019/11/mozzarella.jpg|/muzzarella-elogio-x-100-grs/
+00256|Paleta Fela Feteada x 100 grs.|28.0|Fiambreria > Paleta|/2020/01/PALETA-FELA.jpg|/paleta-fela/
+00257|Paleta Figo Feteada x 100 grs.|14.0|Fiambreria > Paleta|/2020/01/PALETA-FIGO.jpg|/paleta-figo/
+00258|Queso Pategras La Serenisima x 100 grs.|79.0|Fiambreria > Pategras|/2019/11/queso-pategras-la-serenisima.jpg|/pategras-ls/
 00259|Mortadela Goggi Cañon Feteada x 100 grs.|16.0|Fiambreria > Mortadela|/2020/01/MORT-GOGGI.jpg|/mort-goggi-bocha/
 00260|Mortadela Lario Feteada x 100 grs.|36.0|Fiambreria > Mortadela|/2020/01/MORT-LARIO.jpg|/mort-lario/
 00261|Mortadela Paladini Feteada x 100 grs.|40.0|Fiambreria > Mortadela|/2019/11/MORT-PALADINI.jpg|/mort-paladini/
 00263|Ricota San Lucio x 100 grs.|12.0|Fiambreria > Ricota|/2019/11/RICOTA-SAN-LUCIO.jpg|/ricota-san-lucio/
-00281|Leche en Polvo Descremada Lheritier 350 gr.|195.0|Almacén > Varios|/2020/05/leche-en-polvo-lheritier-800.jpg|/leche-en-polvo-descremada-lheritier-350-gr/
-00283|Fecula Glutal 5 kg.|255.61|Almacén > Varios|/2020/01/FECULA-GLUTAL-5KG.jpg|/fecula-glutal-5kg/
-00284|Romanito Santa Maria x 100 grs.|69.0|Fiambreria > Romanito / Sardo|/2019/11/romanito-santa-maria.jpg|/romanito-santa-maria-1-5/
+00264|Romanito Santa Maria x 100 grs.|69.0|Fiambreria > Romanito / Sardo|/2019/11/romanito-santa-maria.jpg|/romanito-santa-maria-1-5/
+00282|Leche en Polvo Descremada Lheritier 350 gr.|195.0|Almacén > Varios|/2020/05/leche-en-polvo-lheritier-800.jpg|/leche-en-polvo-descremada-lheritier-350-gr/
+00284|Fecula Glutal 5 kg.|255.61|Almacén > Varios|/2020/01/FECULA-GLUTAL-5KG.jpg|/fecula-glutal-5kg/
 00287|Jamon Cocido Goggi Feteado x 100 grs.|40.0|Fiambreria > Jamón|/2020/01/JAMON-COC-GOGGI.jpg|/jamon-coc-goggi-2/
 00288|Jamon Cocido Lario Feteado x 100 grs.|56.0|Fiambreria > Jamón|/2020/01/FIAMBRE-COC-LARIO-COD-108.jpg|/jamon-cocido-lario/
 00290|Jamon Cocido Goggi con Cuero Feteado x 100 grs.|45.0|Fiambreria > Jamón|/2020/01/JAMON-COCIDO-GOGGI-CON-CUERO.jpg|/jamon-coc-goggi-c-cuero/
 00292|Queso Danbo Noal (Tybo) Feteado x 100 grs.|48.0|Fiambreria > Dambo|/2020/01/DAMBO-NOAL.jpg|/dambo-noal/
 00293|Bondiola Goggi Feteada x 100 grs.|90.0|Fiambreria > Bondiola|/2020/01/BONDIOLA-GOGGI.jpg|/bondiola-goggi/
 00294|Bondiola Lario Feteada x 100 grs.|90.0|Fiambreria > Bondiola|/2020/01/BONDIOLA-LARIO.jpg|/bondiola-lario/
-00295|Fiambre Cocido Goggi Etiqueta Negra x 100 grs.|16.0|Fiambreria > Fiambre cocido|/2019/11/fiambre-cocido-goggi-et-negra.jpg|/fiambre-coc-goggi-et-negra/
-00296|Fiambre Cocido Goggi Etiqueta Azul x 100 grs.|16.0|Fiambreria > Fiambre cocido|/2019/11/fiambre-cocido-goggi-et-azul.jpg|/fiambre-coc-goggi-et-azul/
-00299|Laurel En Hojas Alicante 10 Grs.|40.0|Condimentos > Condimentos|/2020/01/LAUREL-EN-HOJAS-ALICANTE10G.jpg|/laurel-en-hojas-alicante10g/
-00301|CONDIMENTO PARA ARROZ ALICANTE 25GR|33.5|Condimentos > Condimentos|/2020/01/COND-ALICANTE-PARA-ARROZ-25GR.jpg|/cond-alicante-p-arroz-25gr/
-00302|OREGANO VILLA RICA 25GR|30.0|Condimentos > Condimentos|/2020/01/default.jpg|/oregano-villa-rica-25gr/
-00303|Aji Alicante Triturado 25Gr|26.5|Condimentos > Condimentos|/2020/01/AJI-ALICANTE-TRITUR-25GR.jpg|/aji-alicante-tritur-25gr/
-00304|Chimichurri Alicante x 25 Grs.|42.0|Condimentos > Condimentos|/2020/01/CHIMICHURRI-ALICANTE-25GR.jpg|/chimichurri-alicante-25gr/
-00305|Azucar Villa Rica Impalpable 250 Grs.|75.49|Condimentos > Condimentos|/2020/01/default.jpg|/azucar-villa-rica-imp-250gr/
-00306|PROVENZAL VILLA RICA 25GR|27.0|Condimentos > Condimentos|/2020/01/default.jpg|/provenzal-villa-rica-25gr/
-00307|Comino Villa Rica 25 Grs.|19.0|Condimentos > Condimentos|/2020/01/default.jpg|/comino-villa-rica-25gr/
-00308|COND VILLA RICA ARROZ 25GR|19.0|Condimentos > Condimentos|/2020/01/default.jpg|/cond-villa-rica-arroz-25gr/
-00309|BICARBONATO VILLA RICA 20GR|6.0|Condimentos > Condimentos|/2020/01/default.jpg|/bicarbonato-villa-rica-20gr/
-00311|COMINO ALICANTE 25GR|43.64|Condimentos > Condimentos|/2020/01/COMINO-ALICANTE-25GR.jpg|/comino-alicante-25gr/
-00312|PIMENTON VILLA RICA 25GR|16.5|Condimentos > Condimentos|/2020/01/default.jpg|/pimenton-villa-rica-25gr/
-00313|Salame Goggi Feteado x 100 grs.|38.0|Fiambreria > Salame|/2019/11/SALAME-GOGGI-CAL-80.jpg|/salame-goggi-cal-80/
-00315|Salame Fela Feteado x 100 grs.|48.0|Fiambreria > Salame|/2020/01/SALAME-FELA.jpg|/salame-fela/
-00316|Salame Don Otto Feteado x 100 grs.|35.0|Fiambreria > Salame|/2020/01/SALAME-DON-OTTO.jpg|/salame-don-otto/
-00317|Salame 66 x 100 grs.|45.0|Fiambreria > Salame|/2020/01/SALAME-66.jpg|/salame-66/
-00318|Masa para Tacos Pandino|60.0|Frescos y Congelados > Masa para Tacos|/2020/01/TACOS-PANDINO.jpg|/tacos-pandino/
-00319|Queso Tybo Debaldo Feteado x 100 grs.|40.0|Fiambreria > Tybo|/2019/11/TYBO-DEBALDO.png|/tybo-oferta-feteado/
-00323|Queso Tybo Nulac Feteado x 100 grs.|38.0|Fiambreria > Tybo|/2020/01/TYBO-NULAC.jpg|/tybo-nulac/
-00325|LEVADURA DUQUESA 500GR|118.0|Frescos y Congelados > Levaduras|/2019/11/levadura-duquesa.jpg|/levadura-duquesa-500gr/
-00331|Salchicha Don Otto 6 uds.|36.0|Frescos y Congelados > Salchichas|/2020/05/salchichas-don-otto.jpg|/salchicha-don-otto-6-uds/
-00332|Sorrentinos Madomi X 500 Grs.|77.0|Frescos y Congelados > Sorrentinos|/2020/01/SORRENTINOS-MADOMI-X-500G.jpg|/sorrentinos-madomi-x-500g/
-00333|Ravioles Madomi X 500 Grs.|57.0|Frescos y Congelados > Ravioles|/2020/01/RAVIOLES-MADOMI-X500GR.jpg|/ravioles-madomi-x500gr/
-00335|PASCUALINA MADOMI|58.0|Frescos y Congelados > Pascualinas|/2020/01/PASCUALINA-MADOMI-LIGHT.jpg|/pascualina-madomi/
-00337|PASCUALINA LA TUCUMANITA  2UN|54.0|Frescos y Congelados > Pascualinas|/2020/01/PASCUALINA-LA-TUC.-2UN.jpg|/pascualina-la-tuc-2un/
-00341|Queso Cremoso Santa Maria x 100 grs.|37.0|Fiambreria > Cremosos|/2020/01/CREMOSO-SANTA-MARIA.jpg|/cremoso-santa-maria/
-00342|Queso Cremoso Elogio x 100 grs.|35.0|Fiambreria > Cremosos|/2020/01/CREMOSO-ELOGIO.jpg|/cremoso-elogio/
-00343|Queso Cremoso IL Queso x 100 grs.|33.0|Fiambreria > Cremosos|/2019/11/queso-cremoso-il-queso-1.jpg|/cremoso-il-queso/
+00297|Laurel En Hojas Alicante 10 Grs.|40.0|Condimentos > Condimentos|/2020/01/LAUREL-EN-HOJAS-ALICANTE10G.jpg|/laurel-en-hojas-alicante10g/
+00299|CONDIMENTO PARA ARROZ ALICANTE 25GR|33.5|Condimentos > Condimentos|/2020/01/COND-ALICANTE-PARA-ARROZ-25GR.jpg|/cond-alicante-p-arroz-25gr/
+00300|OREGANO VILLA RICA 25GR|30.0|Condimentos > Condimentos|/2020/01/default.jpg|/oregano-villa-rica-25gr/
+00301|Aji Alicante Triturado 25Gr|26.5|Condimentos > Condimentos|/2020/01/AJI-ALICANTE-TRITUR-25GR.jpg|/aji-alicante-tritur-25gr/
+00302|Chimichurri Alicante x 25 Grs.|42.0|Condimentos > Condimentos|/2020/01/CHIMICHURRI-ALICANTE-25GR.jpg|/chimichurri-alicante-25gr/
+00303|Azucar Villa Rica Impalpable 250 Grs.|75.49|Condimentos > Condimentos|/2020/01/default.jpg|/azucar-villa-rica-imp-250gr/
+00304|PROVENZAL VILLA RICA 25GR|27.0|Condimentos > Condimentos|/2020/01/default.jpg|/provenzal-villa-rica-25gr/
+00305|Comino Villa Rica 25 Grs.|19.0|Condimentos > Condimentos|/2020/01/default.jpg|/comino-villa-rica-25gr/
+00306|COND VILLA RICA ARROZ 25GR|19.0|Condimentos > Condimentos|/2020/01/default.jpg|/cond-villa-rica-arroz-25gr/
+00307|BICARBONATO VILLA RICA 20GR|6.0|Condimentos > Condimentos|/2020/01/default.jpg|/bicarbonato-villa-rica-20gr/
+00309|COMINO ALICANTE 25GR|43.64|Condimentos > Condimentos|/2020/01/COMINO-ALICANTE-25GR.jpg|/comino-alicante-25gr/
+00310|PIMENTON VILLA RICA 25GR|16.5|Condimentos > Condimentos|/2020/01/default.jpg|/pimenton-villa-rica-25gr/
+00311|Fiambre Cocido Goggi Etiqueta Negra x 100 grs.|16.0|Fiambreria > Fiambre cocido|/2019/11/fiambre-cocido-goggi-et-negra.jpg|/fiambre-coc-goggi-et-negra/
+00312|Fiambre Cocido Goggi Etiqueta Azul x 100 grs.|16.0|Fiambreria > Fiambre cocido|/2019/11/fiambre-cocido-goggi-et-azul.jpg|/fiambre-coc-goggi-et-azul/
+00313|Masa para Tacos Pandino|60.0|Frescos y Congelados > Masa para Tacos|/2020/01/TACOS-PANDINO.jpg|/tacos-pandino/
+00315|LEVADURA DUQUESA 500GR|118.0|Frescos y Congelados > Levaduras|/2019/11/levadura-duquesa.jpg|/levadura-duquesa-500gr/
+00316|Salame Goggi Feteado x 100 grs.|38.0|Fiambreria > Salame|/2019/11/SALAME-GOGGI-CAL-80.jpg|/salame-goggi-cal-80/
+00318|Salame Fela Feteado x 100 grs.|48.0|Fiambreria > Salame|/2020/01/SALAME-FELA.jpg|/salame-fela/
+00319|Salame Don Otto Feteado x 100 grs.|35.0|Fiambreria > Salame|/2020/01/SALAME-DON-OTTO.jpg|/salame-don-otto/
+00320|Salame 66 x 100 grs.|45.0|Fiambreria > Salame|/2020/01/SALAME-66.jpg|/salame-66/
+00326|Queso Tybo Debaldo Feteado x 100 grs.|40.0|Fiambreria > Tybo|/2019/11/TYBO-DEBALDO.png|/tybo-oferta-feteado/
+00330|Queso Tybo Nulac Feteado x 100 grs.|38.0|Fiambreria > Tybo|/2020/01/TYBO-NULAC.jpg|/tybo-nulac/
+00331|Ravioles Madomi X 500 Grs.|57.0|Frescos y Congelados > Ravioles|/2020/01/RAVIOLES-MADOMI-X500GR.jpg|/ravioles-madomi-x500gr/
+00333|Salchicha Don Otto 6 uds.|36.0|Frescos y Congelados > Salchichas|/2020/05/salchichas-don-otto.jpg|/salchicha-don-otto-6-uds/
+00337|Queso Cremoso Santa Maria x 100 grs.|37.0|Fiambreria > Cremosos|/2020/01/CREMOSO-SANTA-MARIA.jpg|/cremoso-santa-maria/
+00338|Queso Cremoso Elogio x 100 grs.|35.0|Fiambreria > Cremosos|/2020/01/CREMOSO-ELOGIO.jpg|/cremoso-elogio/
+00339|Queso Cremoso IL Queso x 100 grs.|33.0|Fiambreria > Cremosos|/2019/11/queso-cremoso-il-queso-1.jpg|/cremoso-il-queso/
+00340|PASCUALINA MADOMI|58.0|Frescos y Congelados > Pascualinas|/2020/01/PASCUALINA-MADOMI-LIGHT.jpg|/pascualina-madomi/
+00342|PASCUALINA LA TUCUMANITA  2UN|54.0|Frescos y Congelados > Pascualinas|/2020/01/PASCUALINA-LA-TUC.-2UN.jpg|/pascualina-la-tuc-2un/
+00343|Sorrentinos Madomi X 500 Grs.|77.0|Frescos y Congelados > Sorrentinos|/2020/01/SORRENTINOS-MADOMI-X-500G.jpg|/sorrentinos-madomi-x-500g/
 00344|HAMBURGUESAS IACONO 2 X 69GR|33.5|Frescos y Congelados > Hamburguesas|/2020/01/HAMB-IACONO-2-X-69GR.jpg|/hamb-iacono-2-x-69gr/
 00345|Hamburguesa Swift XL X 250G|144.0|Frescos y Congelados > Hamburguesas|/2020/01/HAMB-SWIFT-XL-X250G.jpg|/hamb-swift-xl-x250g/
 00346|HAMBURGUESA PALADINI 2UN|99.0|Frescos y Congelados > Hamburguesas|/2020/01/HAMB-PALADINI-2UN.jpg|/hamb-paladini-2un/
@@ -180,44 +180,44 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00370|GALLETAS MANA RELL 165GR|48.5|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-MANA-RELL-165GR.jpg|/gall-mana-rell-165gr/
 00373|GALLETAS SURTIDO BAGLEY 400GR|89.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-BAGLEY-SURT-400GR.jpg|/gall-bagley-surt-400gr/
 00374|GALLETAS MANA 145GR|41.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-MANA-145GR.jpg|/gall-mana-145gr/
-00377|Flan Manfrey 120Gr|33.0|Lacteos > Flan|/2020/01/FLAN-MANFREY-120GR.jpg|/flan-manfrey-120gr/
-00378|Queso Crema Light La Paulina X 290 grs.|105.1|Frescos y Congelados > Untables|/2020/05/queso-crema-light-la-paulina-290.jpg|/queso-crema-light-la-paulina-x-290-grs/
-00380|CASANCREM ENTERO 290GR|175.0|Frescos y Congelados > Untables|/2020/01/CASANCREM-LS-300GR-ENT.jpg|/casancrem-ls-300gr-ent/
-00381|QUESO UNTABLE LA PAULINA X 200GR VS SABORES|94.29|Frescos y Congelados > Untables|/2019/11/QUESO-UNT-LA-PAULINA.jpg|/queso-unt-la-paulina-x-200gr/
+00377|Queso Crema Light La Paulina X 290 grs.|105.1|Frescos y Congelados > Untables|/2020/05/queso-crema-light-la-paulina-290.jpg|/queso-crema-light-la-paulina-x-290-grs/
+00379|CASANCREM ENTERO 290GR|175.0|Frescos y Congelados > Untables|/2020/01/CASANCREM-LS-300GR-ENT.jpg|/casancrem-ls-300gr-ent/
+00380|QUESO UNTABLE LA PAULINA X 200GR VS SABORES|94.29|Frescos y Congelados > Untables|/2019/11/QUESO-UNT-LA-PAULINA.jpg|/queso-unt-la-paulina-x-200gr/
+00382|Flan Manfrey 120Gr|33.0|Lacteos > Flan|/2020/01/FLAN-MANFREY-120GR.jpg|/flan-manfrey-120gr/
 00383|MANTECA S Y S 100 GR.|55.0|Lacteos > Mantecas y Margarinas|/2020/05/manteca-sys-100gr.jpg|/manteca-s-y-s/
 00384|Margarina Margadan 200GR|52.5|Lacteos > Mantecas y Margarinas|/2020/01/MARG-MARGADAN-200GR.jpg|/marg-margadan-200gr/
 00390|LECHE ILOLAY LARGA VIDA DESCREMADA X 1LT|73.9|Lacteos > Leche|/2020/01/LECHE-ILOLAY-LV-DDESCREMADA-X-1LS.jpg|/leche-ilolay-lv-d-x-1ls-iva/
 00391|LECHE ILOLAY LARGA VIDA – ENTERA 1LT|73.9|Lacteos > Leche|/2020/01/LECHE-ILOLAY-LV-ENTERA-X-1L.jpg|/leche-ilolay-lv-ent-1lt-s-iva/
 00395|Yogur Cerros Tucumanos 1 Lts.|56.99|Lacteos > Yogures|/2020/01/YOGUR-CERROS-TUC-1LT.jpg|/yogur-cerros-tuc-1lt/
-00403|Queso Crema Light La Paulina X 290 grs.|105.1|Lacteos > Quesos|/2020/05/queso-crema-light-la-paulina-290.jpg|/queso-crema-light-la-paulina-x-290-grs/
-00405|Queso Rallado Chef X 40 Grs.|20.0|Lacteos > Quesos|/2020/01/default.jpg|/rall-chef-x-40-gr/
-00406|QUESO UNTABLE LA PAULINA X 200GR VS SABORES|94.29|Lacteos > Quesos|/2019/11/QUESO-UNT-LA-PAULINA.jpg|/queso-unt-la-paulina-x-200gr/
-00408|Protector Calipso Normal x 20 sin desodorante|45.0|Limpieza > Protección Femenina|/2019/11/protector-calipso-normal-x20-1.jpg|/protec-calipso-x-20un/
-00409|Toalla Calipso Normal con Gel con Alas x 8 uds.|33.0|Limpieza > Protección Femenina|/2020/01/TOALL-CALIPSO-PLUS-VERDE.8U..jpg|/toall-calipso-plus-verde-8u/
-00415|Leche en Polvo Descremada Lheritier 350 gr.|195.0|Lacteos > Leche en Polvo|/2020/05/leche-en-polvo-lheritier-800.jpg|/leche-en-polvo-descremada-lheritier-350-gr/
-00416|Leche Nido Fort Tapa Amarilla 800Gr|399.0|Lacteos > Leche en Polvo|/2020/01/LECHE-NIDO-CON-PROT-T-AMARILLA-800GR.jpg|/leche-nido-fort-t-ama-800gr/
-00421|ROLLO DE COCINA SOL MAYOR X 3UN|65.0|Limpieza > Rollos de Cocina|/2020/01/ROLL-COC-SOL-MAYOR-X-3UN.jpg|/roll-coc-sol-mayor-x-3un/
-00423|SUAVIZANTE BORITA X 900ML TODOS|85.0|Limpieza > Suavizante|/2020/01/SUAV-BORITA-X-900ML-TODOS.jpg|/suav-borita-x-900ml-todos/
-00428|Papel Higienico Family x 4 x 30 Mts.|60.0|Limpieza > Papel Higiénico|/2020/04/HIGIENICO-ECO-FAMILY-X4-30MT.jpg|/papel-higienico-family-x-4-x-30-mts/
+00402|Protector Calipso Normal x 20 sin desodorante|45.0|Limpieza > Protección Femenina|/2019/11/protector-calipso-normal-x20-1.jpg|/protec-calipso-x-20un/
+00403|Toalla Calipso Normal con Gel con Alas x 8 uds.|33.0|Limpieza > Protección Femenina|/2020/01/TOALL-CALIPSO-PLUS-VERDE.8U..jpg|/toall-calipso-plus-verde-8u/
+00407|Queso Crema Light La Paulina X 290 grs.|105.1|Lacteos > Quesos|/2020/05/queso-crema-light-la-paulina-290.jpg|/queso-crema-light-la-paulina-x-290-grs/
+00409|Queso Rallado Chef X 40 Grs.|20.0|Lacteos > Quesos|/2020/01/default.jpg|/rall-chef-x-40-gr/
+00410|QUESO UNTABLE LA PAULINA X 200GR VS SABORES|94.29|Lacteos > Quesos|/2019/11/QUESO-UNT-LA-PAULINA.jpg|/queso-unt-la-paulina-x-200gr/
+00416|Leche en Polvo Descremada Lheritier 350 gr.|195.0|Lacteos > Leche en Polvo|/2020/05/leche-en-polvo-lheritier-800.jpg|/leche-en-polvo-descremada-lheritier-350-gr/
+00417|Leche Nido Fort Tapa Amarilla 800Gr|399.0|Lacteos > Leche en Polvo|/2020/01/LECHE-NIDO-CON-PROT-T-AMARILLA-800GR.jpg|/leche-nido-fort-t-ama-800gr/
+00420|SUAVIZANTE BORITA X 900ML TODOS|85.0|Limpieza > Suavizante|/2020/01/SUAV-BORITA-X-900ML-TODOS.jpg|/suav-borita-x-900ml-todos/
+00423|ROLLO DE COCINA SOL MAYOR X 3UN|65.0|Limpieza > Rollos de Cocina|/2020/01/ROLL-COC-SOL-MAYOR-X-3UN.jpg|/roll-coc-sol-mayor-x-3un/
+00430|Papel Higienico Family x 4 x 30 Mts.|60.0|Limpieza > Papel Higiénico|/2020/04/HIGIENICO-ECO-FAMILY-X4-30MT.jpg|/papel-higienico-family-x-4-x-30-mts/
 00434|Desodorante Rexona Clinical Men 48 grs.|289.99|Limpieza > Desodorante Hombre/Mujer|/2020/07/rexona-clinical-men-48g.jpg|/desodorante-rexona-clinical-men-48-grs/
 00435|Desodorante Rexona Odorono 60 grs.|95.29|Limpieza > Desodorante Hombre/Mujer|/2020/07/Desodorante-rexona-odorono-60grs.jpg|/desodorante-rexona-odorono-60-grs/
 00436|Desodorante Rexona Forest 150 ml.|153.99|Limpieza > Desodorante Hombre/Mujer|/2020/07/rexona-forest-men-150ml.jpg|/desodorante-rexona-forest-150-ml/
-00439|Pebete X6 Pandino|67.0|Panadería > Pebete|/2020/01/default.jpg|/pebete-x6-pandino/
-00442|LAVANDINA X5 4LT.|205.0|Limpieza > Lavandina|/2020/04/LAVANDINA-X5-4LT.jpg|/lavandina-x5-4lt/
-00443|Dentifrico Odol 180 Gr.|160.0|Limpieza > Dentifrico|/2020/05/dentifrico-odol-180.jpg|/dentifrico-odol-180-gr/
-00444|Dentifrico Kolynos 180 Gr|179.0|Limpieza > Dentifrico|/2020/05/dentifrico-kolynos-180.jpg|/dentifrico-kolynos-180-gr/
-00446|Dentifrico Colgate 180 Grs.|198.0|Limpieza > Dentifrico|/2019/11/dentifrico-colgate-180.jpg|/dent-colgate-70gr/
-00447|DENTIFRICO ODOL 70GR|75.0|Limpieza > Dentifrico|/2019/11/dentifrico-odol-70.jpg|/dent-odol-70gr/
+00439|Dentifrico Odol 180 Gr.|160.0|Limpieza > Dentifrico|/2020/05/dentifrico-odol-180.jpg|/dentifrico-odol-180-gr/
+00440|Dentifrico Kolynos 180 Gr|179.0|Limpieza > Dentifrico|/2020/05/dentifrico-kolynos-180.jpg|/dentifrico-kolynos-180-gr/
+00442|Dentifrico Colgate 180 Grs.|198.0|Limpieza > Dentifrico|/2019/11/dentifrico-colgate-180.jpg|/dent-colgate-70gr/
+00443|DENTIFRICO ODOL 70GR|75.0|Limpieza > Dentifrico|/2019/11/dentifrico-odol-70.jpg|/dent-odol-70gr/
+00446|LAVANDINA X5 4LT.|205.0|Limpieza > Lavandina|/2020/04/LAVANDINA-X5-4LT.jpg|/lavandina-x5-4lt/
+00447|Pebete X6 Pandino|67.0|Panadería > Pebete|/2020/01/default.jpg|/pebete-x6-pandino/
 00448|Prepizzas Tatito x 3 (Albertus)|85.0|Panadería > Prepizzas|/2020/01/default.jpg|/prepizas-tatito-x-3/
 00451|Limpiador Sedilee 4.5 Lts.|141.86|Limpieza > Desodorante de piso|/2020/01/LIMP-SEDILEE-4.5-LT.jpg|/limp-sedilee-4-5-lt/
-00454|Pan de Miga Delizioso|112.0|Panadería > Miga|/2020/01/default.jpg|/miga-delizioso-10-fet/
-00459|SHAMPOO SUAVE 930ML|105.0|Limpieza > Shampoo|/2019/11/SHAMP-SUAVE-930ML.jpg|/shamp-suave-930ml/
-00463|Acondicionador Suave Aloe Vera y Pepino 930 Ml.|105.0|Limpieza > Shampoo|/2019/11/acondicionador-suave-aloe-y-pepino-930.jpg|/acond-suave-jazmin-930/
-00464|PAN LACTAL SALVADO DON FRANCISCO (ALBERTUS)|52.0|Panadería > Lactal|/2020/01/default.jpg|/pan-lactal-salvado-don-francisco-albertus/
-00465|PAN LACTAL BLANCO DON FRANCISCO (ALBERTUS)|48.0|Panadería > Lactal|/2020/01/default.jpg|/pan-don-franc-lactal-y-salv/
-00470|Detergente Camellito Ropa Fina 120 Ml.|35.0|Limpieza > Detergente|/2019/11/camellito-ropa-fina-120ml.jpg|/deter-camellito-ropa-fina-120ml/
-00472|Pan Negro Bollitos Pandino|60.0|Panadería > Pan Negro|/2020/01/default.jpg|/pan-negro-bollitos-pandino/
-00473|Chisitos Facu 400 Grs.|85.0|Snacks > Chisitos|/2020/01/CHISITOS-FACU-500GR.jpg|/chizitos-facu-400gr/
+00458|Detergente Camellito Ropa Fina 120 Ml.|35.0|Limpieza > Detergente|/2019/11/camellito-ropa-fina-120ml.jpg|/deter-camellito-ropa-fina-120ml/
+00460|Pan de Miga Delizioso|112.0|Panadería > Miga|/2020/01/default.jpg|/miga-delizioso-10-fet/
+00461|PAN LACTAL SALVADO DON FRANCISCO (ALBERTUS)|52.0|Panadería > Lactal|/2020/01/default.jpg|/pan-lactal-salvado-don-francisco-albertus/
+00462|PAN LACTAL BLANCO DON FRANCISCO (ALBERTUS)|48.0|Panadería > Lactal|/2020/01/default.jpg|/pan-don-franc-lactal-y-salv/
+00467|SHAMPOO SUAVE 930ML|105.0|Limpieza > Shampoo|/2019/11/SHAMP-SUAVE-930ML.jpg|/shamp-suave-930ml/
+00471|Acondicionador Suave Aloe Vera y Pepino 930 Ml.|105.0|Limpieza > Shampoo|/2019/11/acondicionador-suave-aloe-y-pepino-930.jpg|/acond-suave-jazmin-930/
+00472|Chisitos Facu 400 Grs.|85.0|Snacks > Chisitos|/2020/01/CHISITOS-FACU-500GR.jpg|/chizitos-facu-400gr/
+00473|Pan Negro Bollitos Pandino|60.0|Panadería > Pan Negro|/2020/01/default.jpg|/pan-negro-bollitos-pandino/
 00474|Pan Hamburguesa X4 Pandino|40.0|Panadería > Pan de Hamburguesa|/2020/01/default.jpg|/pan-hamb-x4-pandino/
 00475|Pan de Hamburguesa Tatito 4 uds. (Albertus)|38.0|Panadería > Pan de Hamburguesa|/2020/01/default.jpg|/pan-tatito-hamb-4ud/
 00477|Pan de Viena Tatito 6 uds. (Albertus)|38.0|Panadería > Pan de Viena|/2020/01/default.jpg|/pan-tatito-viena-6ud/

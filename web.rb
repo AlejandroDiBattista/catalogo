@@ -5,7 +5,7 @@ require_relative 'utils'
 require_relative 'archivo'
 
 class Web
-	def bajar_todo
+	def bajar_todo(regenerar=false)
 		destino = [carpeta, :productos]
 		puts "BAJANDO todos los datos de #{carpeta.upcase}".green
 		
@@ -18,9 +18,10 @@ class Web
 		Archivo.escribir(productos, destino)
 
 		puts " ► Completando ID...".cyan
-		completar_id()
-
+		completar_id(regenerar)
+		
 		puts " ► Bajando imagenes...".cyan
+		Archivo.borrar_fotos(carpeta)if regenerar
 		bajar_imagenes()
 
 		Archivo.preservar(destino)
@@ -28,9 +29,6 @@ class Web
 		puts "FIN.".green
 		puts
 		self
-	end
-
-	def normalizar
 	end
 
 	def bajar_clasificacion(clasificaciones)
@@ -41,14 +39,12 @@ class Web
 				productos << bajar_productos(pagina, clasificacion.rubro).compact
 			end
 		end
-		
 		productos.flatten.uniq
 	end
 
 	def bajar_productos(pagina, rubro)
 		nuevos = [] 
 		begin
-			# puts "#{rubro} => #{pagina.css(selector_producto).count}"
 			pagina.css(selector_producto).each do |x| 
 				nuevos << { 
 					id: '',
@@ -390,8 +386,8 @@ class TuChanguito < Web
 end
 
 if __FILE__ == $0
-	Jumbo.new.bajar_todo
-	TuChanguito.new.bajar_todo
-	Tatito.new.bajar_todo
-	Maxiconsumo.new.bajar_todo
+	# Jumbo.new.bajar_todo
+	# TuChanguito.new.bajar_todo
+	Tatito.new.bajar_todo true 
+	# Maxiconsumo.new.bajar_todo
 end

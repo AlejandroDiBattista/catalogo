@@ -98,6 +98,11 @@ module Archivo
 		end
 	end
 
+	def borrar_fotos(*camino)
+		origen = ubicar(camino + [:fotos, '*.jpg'])
+		listar(origen){|x|borrar x}
+	end
+
 	def borrar(destino)
 		puts destino
 		begin

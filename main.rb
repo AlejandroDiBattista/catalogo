@@ -175,6 +175,11 @@ class Catalogo
 		sum(&:precio_oferta) / n
 	end
 
+	def variacion_promedio
+		return 0 if (n = count) == 0
+		sum(&:variacion) / n
+	end
+
 	def categorias
 		map(&:categoria).uniq.sort 
 	end
@@ -197,7 +202,7 @@ class Catalogo
 
 		inf = 100.0 * (n - v) / t 
 
-		puts "%-20s A: %5i  B: %5i  M: %5i  T: %5i >  Inf: %6.2f%%" % [base, altas.count, bajas.count, cambios.count, count, inf]
+		puts "%-20s A: %5i  B: %5i  M: %5i  T: %5i > Inf: %6.2f%%" % [base, altas.count, bajas.count, cambios.count, count, inf]
 		if verboso
 			puts "ALTAS"
 			altas.listar
@@ -240,7 +245,7 @@ class Catalogo
 		busqueda = busqueda.espacios
 		datos = filtrar{|x| x.contiene(busqueda) }
 		
-		puts (" %-12s | %-69s %4i  %6.2f " % [datos.base.upcase, verboso ? "Productos para '#{busqueda}'" : '', datos.count, datos.precio_promedio]).on_green.black
+		puts (" %-12s | %-68s %4i  %6.2f   %6.2f %s  " % [datos.base.upcase, verboso ? "Productos para '#{busqueda}'" : '', datos.count, datos.precio_promedio, datos.precio_promedio_oferta, datos.variacion_promedio.to_porcentaje]).on_green.black
 
 		anterior = []
 		datos.each do |x|
@@ -252,7 +257,7 @@ class Catalogo
 					puts (" %s  %s " % ["  " * nivel, valor.upcase]).colorize([:green, :yellow, :cyan][nivel]) if mostrar 
 				end
 			end
-			oferta =  x.precio_oferta < x.precio ?  x.precio_oferta.to_precio : ""
+			oferta =  x.precio_oferta < x.precio ?  x.precio_oferta.to_precio : "      "
 			cambio = x.variacion.abs > 0.01 && x.variacion.abs < 0.5 ? x.variacion.to_porcentaje : ""
 			cambio = cambio.colorize(x.variacion < 0 ? :green : :red)
 			puts " %s  %-80s    %6.2f %s %s %s" % ["  " * actual.count, x.nombre, x.precio, (x.error? ? '*' : ' ').red, oferta.cyan, cambio]
@@ -285,8 +290,8 @@ def arroz(*supermercados)
 	end
 end
 
-analizar :jumbo, "coca cola"
-analizar :tuchanguito, "coca cola"
+# Archivo.borrar_fotos(:tatito)
+analizar :tatito, '/queso'
 # arroz(:jumbo, :tatito, :tuchanguito)
 return
 # Catalogo.leer(:maxiconsumo).resumir
