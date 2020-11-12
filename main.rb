@@ -96,6 +96,18 @@ class Producto < Struct.new(*Campos)
 	def variacion
 		precio / (anterior||precio).to_f - 1
 	end
+
+	def aumento?
+		variacion > 0 
+	end
+
+	def disminuyo?
+		variacion < 0 
+	end
+
+	def vario?
+		variacion.abs > 0 
+	end
 end
 
 class Catalogo
@@ -107,20 +119,16 @@ class Catalogo
 		agregar(productos)
 	end
 
-	def self.leer(base, posicion=nil)
-		if posicion 
-			origen = listar(base, :productos)[posicion]
-		else
-			origen = [base, :productos]
-		end
-		lista = Archivo.leer(origen).sort_by{|x|[x.rubro, x.nombre]}
+	def self.leer(base, posicion=0)
+		origen = listar(base, :productos)[posicion]
+		lista = Archivo.leer(origen)
 		new(base, lista)
 	end
 
 	def escribir(tipo = :dsv)
 		Archivo.escribir(to_a, [base, "productos.#{tipo}"])
 	end
-	
+
 	def agregar(*items)
 		[items].flatten.each do |item|
 			producto = item.is_a?(Hash) ? Producto.cargar(item) : item
@@ -277,21 +285,24 @@ class Catalogo
 	end
 end
 
-def analizar(supermercado, filtro="", verboso=false)
+def analizar(supermercado, filtro='', periodo=:semana, solo_cambios=true, verboso=false )
 	t = Catalogo.leer(supermercado)
 	t -= t.filtrar(&:error?)
-	t.comparar(30)
+	periodo = 30 if Symbol === periodo && :mes === periodo 
+	periodo = 7 if Symbol === periodo && :semana === periodo  
+	t.comparar(periodo) if periodo
+	t = t.filtrar(&:vario?) if solo_cambios
 	t.listar_productos filtro, verboso
 end
 
 def arroz(*supermercados)
 	supermercados.each do |supermercado|
-		analizar supermercado, "arroz /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo"
+		analizar supermercado, 'arroz /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo'
 	end
 end
 
 # Archivo.borrar_fotos(:tatito)
-analizar :tatito, 'aceite'
+analizar :tatito 
 # arroz(:jumbo, :tatito, :tuchanguito)
 return
 # Catalogo.leer(:maxiconsumo).resumir
@@ -306,7 +317,7 @@ t = Catalogo.leer(:jumbo)
 # t.escribir(:json)
 # t.escribir(:dsv)
 # t.resumir 
-t.listar_productos 'jugo de limón'
+t.filtrar(&:vario?).listar_productos 'jugo de limón'
 # t.resumir
 return
 nombres = t.map(&:nombre).uniq.sort
