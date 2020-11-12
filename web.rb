@@ -386,8 +386,8 @@ class TuChanguito < Web
 end
 
 if __FILE__ == $0
-	Jumbo.new.bajar_todo true
-	TuChanguito.new.bajar_todo true 
-	Tatito.new.bajar_todo true 
-	Maxiconsumo.new.bajar_todo true 
+	Jumbo.new.bajar_todo
+	TuChanguito.new.bajar_todo 
+	Tatito.new.bajar_todo 
+	Maxiconsumo.new.bajar_todo 
 end
