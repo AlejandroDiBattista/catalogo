@@ -1,7 +1,7 @@
 id|nombre|precio|rubro|url_imagen|url_producto
 00001|KETCHUP DANICA 220GR|49.9|Aderezos > Ketchup|/2020/01/KETCHUP-DANICA-220GR.jpg|/ketchup-danica-220gr/
 00002|Azucar 1 Kg.|55.0|Almacén > Azúcar|/2019/11/azucar-comun-1kg-fraccionada.jpg|/azucar-1kg-s-iva/
-00015|POLENTA PRESTOPRONTA ARCOR 500 GRS|70.0|Almacén > Polentas|/2020/01/PRESTOPRONTA-ARCOR-500GR.jpg|/prestopronta-arcor-500grs-iv/
+03029|POLENTA PRESTOPRONTA ARCOR 500 GRS|70.0|Almacén > Polentas|/2020/01/PRESTOPRONTA-ARCOR-500GR.jpg|/prestopronta-arcor-500grs-iv/
 00076|ENERGY SPEED 250CC|47.0|Bebidas > Isotonicos y energizantes|/2020/01/ENERG-SPEED-250CC.jpg|/energ-speed-250cc/
 00113|AGUA PALAU X 6LTS|85.0|Bebidas > Agua|/2020/01/AGUA-PALAU-X-6LTS.jpg|/agua-palau-x-6lts/
 00098|Vodka Sky 750 Ml.|400.0|Bebidas > Vodkas|/2020/01/AGUA-PALAU-X-1.5LTS.jpg|/vodka-sky-750-ml/
@@ -22,22 +22,22 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00471|MUZZARELLA LA ROSA|30.0|Fiambreria > Muzzarella|/2019/11/mozzarella.jpg|/muzzarella-la-rosa/
 00244|Queso Magro Noal x 100 grs.|39.8|Fiambreria > Por Salut|/2020/01/MAGRO-NOAL.jpg|/magro-noal/
 00245|Queso Por Salut Noal x 100 grs.|39.0|Fiambreria > Por Salut|/2020/01/POR-SALUT-NOAL.jpg|/por-salut-noal/
-00218|Paleta Fela Feteada x 100 grs.|28.0|Fiambreria > Paleta|/2020/01/PALETA-FELA.jpg|/paleta-fela/
-00219|Paleta Figo Feteada x 100 grs.|14.0|Fiambreria > Paleta|/2020/01/PALETA-FIGO.jpg|/paleta-figo/
+03047|Paleta Fela Feteada x 100 grs.|28.0|Fiambreria > Paleta|/2020/01/PALETA-FELA.jpg|/paleta-fela/
+03048|Paleta Figo Feteada x 100 grs.|14.0|Fiambreria > Paleta|/2020/01/PALETA-FIGO.jpg|/paleta-figo/
 00243|Romanito Santa Maria x 100 grs.|69.0|Fiambreria > Romanito / Sardo|/2019/11/romanito-santa-maria.jpg|/romanito-santa-maria-1-5/
 00472|Sardo Santa Maria x 100 grs.|50.0|Fiambreria > Romanito / Sardo|/2020/01/SARDO-SANTA-MARIA.jpg|/sardo-santa-maria/
 00474|Aceitunas Riojanita x 5 Kg.  N 1|805.0|Fiambreria > Aceitunas|/2020/01/ACEITUNAS-RIOJANITA-5K-N-1.jpg|/aceitunas-riojanita-5k-n-1/
-00037|SAL MANTO BLANCO FINA 500GR|17.6|Almacén > Sal|/2019/11/sal-manto-blanco-fina-500.jpg|/sal-manto-blanco-fina-500gr/
-00038|SAL MANTO BLANCO GRUESA 500GR|17.6|Almacén > Sal|/2019/11/sal-manto-blanco-gruesa-500.jpg|/sal-manto-blanco-gruesa-500gr/
-00039|SAL CELUSAL FINA 500GR|39.99|Almacén > Sal|/2020/01/SAL-CELUSAL-FINA-500GR.jpg|/sal-celusal-fina-500gr/
+03032|SAL MANTO BLANCO FINA 500GR|17.6|Almacén > Sal|/2019/11/sal-manto-blanco-fina-500.jpg|/sal-manto-blanco-fina-500gr/
+03033|SAL MANTO BLANCO GRUESA 500GR|17.6|Almacén > Sal|/2019/11/sal-manto-blanco-gruesa-500.jpg|/sal-manto-blanco-gruesa-500gr/
+03035|SAL CELUSAL FINA 500GR|39.99|Almacén > Sal|/2020/01/SAL-CELUSAL-FINA-500GR.jpg|/sal-celusal-fina-500gr/
 00262|Queso Danbo Noal (Tybo) Feteado x 100 grs.|48.0|Fiambreria > Dambo|/2020/01/DAMBO-NOAL.jpg|/dambo-noal/
 00170|Dulce de Leche Clasico Manfrey x 250 grs.|66.0|Desayuno > Dulce de Leche|/2020/05/Dulce-de-leche-manfrey-250.jpg|/dulce-de-leche-clasico-manfrey-x-250-grs/
 00463|Dulce de leche La Serenisima Colonial x 400 gr|130.0|Desayuno > Dulce de Leche|/2020/05/dulce-de-leche-la-serenisima-colonial-400g.jpg|/dulce-de-leche-la-serenisima-colonial-x-400-gr/
 00172|DULCE DE LECHE LA PAULINA CLAS.  X400GR|121.6|Desayuno > Dulce de Leche|/2019/11/dulce-de-leche-paulina-400-clasico.jpg|/d-de-leche-pau-x400gr/
-00178|CACAO QUICKER X 200GR|52.0|Desayuno > Cacao|/2020/04/CACAO-QUICKER-200.jpg|/cacao-quicker-x-200gr/
-00179|CACAO CHOCOLINO PLUS FORT 180G|56.0|Desayuno > Cacao|/2020/04/cacao-chocolino-180gr.jpg|/cacao-chocolino-plus-fort-180g/
+02984|CACAO QUICKER X 200GR|52.0|Desayuno > Cacao|/2020/04/CACAO-QUICKER-200.jpg|/cacao-quicker-x-200gr/
+02985|CACAO CHOCOLINO PLUS FORT 180G|56.0|Desayuno > Cacao|/2020/04/cacao-chocolino-180gr.jpg|/cacao-chocolino-plus-fort-180g/
 00180|Cacao Nesquik 150 Grs.|60.0|Desayuno > Cacao|/2019/11/nesquik-150g.jpg|/cacao-nesquik-180-grs/
-00220|Mortadela Goggi Cañon Feteada x 100 grs.|16.0|Fiambreria > Mortadela|/2020/01/MORT-GOGGI.jpg|/mort-goggi-bocha/
+00491|Mortadela Goggi Cañon Feteada x 100 grs.|16.0|Fiambreria > Mortadela|/2020/01/MORT-GOGGI.jpg|/mort-goggi-bocha/
 00221|Mortadela Lario Feteada x 100 grs.|36.0|Fiambreria > Mortadela|/2020/01/MORT-LARIO.jpg|/mort-lario/
 00222|Mortadela Paladini Feteada x 100 grs.|40.0|Fiambreria > Mortadela|/2019/11/MORT-PALADINI.jpg|/mort-paladini/
 00289|Masa para Tacos Pandino|60.0|Frescos y Congelados > Masa para Tacos|/2020/01/TACOS-PANDINO.jpg|/tacos-pandino/
@@ -51,8 +51,8 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00034|Bizcochuelo Godet Vainilla 480 Grs.|89.0|Almacén > Postres|/2020/01/BIZC-GODET-VAINILLA-480GR.jpg|/bizc-godet-vainilla-480gr/
 00035|FLAN GODET DULCE DE LECHE 30 GRS.|27.0|Almacén > Postres|/2020/01/FLAN-GODET-D-DE-LECHE-30-GRS.jpg|/flan-godet-d-de-leche-30-grs/
 00036|Flan Godet  Vainilla  30 Grs.|27.0|Almacén > Postres|/2020/01/FLAN-GODET-VAINILLA-30GR.jpg|/flan-godet-vainilla-30gr/
-00265|Fiambre Cocido Goggi Etiqueta Negra x 100 grs.|16.0|Fiambreria > Fiambre cocido|/2019/11/fiambre-cocido-goggi-et-negra.jpg|/fiambre-coc-goggi-et-negra/
-00266|Fiambre Cocido Goggi Etiqueta Azul x 100 grs.|16.0|Fiambreria > Fiambre cocido|/2019/11/fiambre-cocido-goggi-et-azul.jpg|/fiambre-coc-goggi-et-azul/
+03051|Fiambre Cocido Goggi Etiqueta Negra x 100 grs.|16.0|Fiambreria > Fiambre cocido|/2019/11/fiambre-cocido-goggi-et-negra.jpg|/fiambre-coc-goggi-et-negra/
+03052|Fiambre Cocido Goggi Etiqueta Azul x 100 grs.|16.0|Fiambreria > Fiambre cocido|/2019/11/fiambre-cocido-goggi-et-azul.jpg|/fiambre-coc-goggi-et-azul/
 00296|LECHE CONDENSADA NESTLE 395G|143.32|Lacteos > Leche Condensada|/2020/01/LECHE-CONDENSADA-NESTLE-395G.jpg|/leche-condensada-nestle-395g/
 00094|Cerveza Quilmes 354 cc (Lata)|38.0|Bebidas > Cervezas y Fernet|/2020/04/cerveza-quilmes-354.jpg|/cerveza-quilmes-354-cc-lata/
 00095|Cerveza Schin Lata 473 ml.|50.0|Bebidas > Cervezas y Fernet|/2020/04/cerveza-schin-lata.jpg|/cerv-heineken-wild-lager-330-ml/
@@ -62,8 +62,8 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00175|Miel Don Gustavo 250 cc|100.0|Desayuno > Miel|/2020/01/default.jpg|/miel-don-gustavo-250cc/
 00176|Miel Colmenares Mata 260 Grs.|100.0|Desayuno > Miel|/2019/11/miel-colmenares-mata-260.jpg|/miel-mata-260gr/
 00177|Miel Colmenares Mata 500 Grs.|170.0|Desayuno > Miel|/2019/11/miel-colmenares-mata-500.jpg|/miel-mata-miel-mata-500gr-500ml/
-00280|PASCUALINA MADOMI|58.0|Frescos y Congelados > Pascualinas|/2020/01/PASCUALINA-MADOMI-LIGHT.jpg|/pascualina-madomi/
-00281|PASCUALINA LA TUCUMANITA  2UN|54.0|Frescos y Congelados > Pascualinas|/2020/01/PASCUALINA-LA-TUC.-2UN.jpg|/pascualina-la-tuc-2un/
+02993|PASCUALINA MADOMI|58.0|Frescos y Congelados > Pascualinas|/2020/01/PASCUALINA-MADOMI-LIGHT.jpg|/pascualina-madomi/
+02995|PASCUALINA LA TUCUMANITA  2UN|54.0|Frescos y Congelados > Pascualinas|/2020/01/PASCUALINA-LA-TUC.-2UN.jpg|/pascualina-la-tuc-2un/
 00209|Jamon Cocido Goggi Feteado x 100 grs.|40.0|Fiambreria > Jamón|/2020/01/JAMON-COC-GOGGI.jpg|/jamon-coc-goggi-2/
 00210|Jamon Cocido Lario Feteado x 100 grs.|56.0|Fiambreria > Jamón|/2020/01/FIAMBRE-COC-LARIO-COD-108.jpg|/jamon-cocido-lario/
 00211|Jamon Cocido Paladini Feteado x 100 grs.|58.0|Fiambreria > Jamón|/2020/01/JAMON-COC-PALADINI.jpg|/jamon-cocido-paladini/
@@ -76,10 +76,10 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00327|TAPA PARA EMPANADAS LA TUCUMANITA X12 UN.|41.0|Frescos y Congelados > Tapas|/2020/01/TAPA-PARA-EMPANADA-LA-TUC.12UN.jpg|/tapa-p-emp-la-tuc-12un/
 00328|TAPA PARA EMPANADAS MADOMI X12 UN.|42.0|Frescos y Congelados > Tapas|/2020/01/TAPA-MADOMI-P-EMP.jpg|/tapa-madomi-p-emp/
 00019|Arroz Peleador Largo Fino x 500 grs.|36.0|Almacén > Arroz|/2020/05/arroz-peleador-500.jpg|/arroz-peleador-largo-fino-x-500-grs/
-00020|Arroz Gallo Oro 1 Kg.|127.0|Almacén > Arroz|/2020/01/ARROZ-GALLO-ORO-B1-KG.jpg|/arroz-gallo-oro-b1-kg-s-iva/
+03025|Arroz Gallo Oro 1 Kg.|127.0|Almacén > Arroz|/2020/01/ARROZ-GALLO-ORO-B1-KG.jpg|/arroz-gallo-oro-b1-kg-s-iva/
 00021|Arroz Noble Largo Fino 500 Grs.|43.5|Almacén > Arroz|/2020/01/ARROZ-NOBLE-LF-500G.jpg|/arroz-noble-lf-500g-s-iva/
-00022|Arroz Gallo Oro Amarillo 500 Grs.|69.0|Almacén > Arroz|/2020/01/ARROZ-GALLO-ORO-AMA-500GR.jpg|/arroz-gallo-oro-ama-500gr/
-00023|ARROZ LUCHADOR 4/0 500GR|35.0|Almacén > Arroz|/2019/11/arroz-luchador-500.jpg|/arroz-luchador-4-0-500gr-s-iva/
+03026|Arroz Gallo Oro Amarillo 500 Grs.|69.0|Almacén > Arroz|/2020/01/ARROZ-GALLO-ORO-AMA-500GR.jpg|/arroz-gallo-oro-ama-500gr/
+03027|ARROZ LUCHADOR 4/0 500GR|35.0|Almacén > Arroz|/2019/11/arroz-luchador-500.jpg|/arroz-luchador-4-0-500gr-s-iva/
 00010|Galletas de Arroz All Rice Limon x 100 grs.|58.0|Almacén > Gall. Dulces y Saladas|/2020/05/galletas-all-rice-limon.jpg|/galletas-all-rice-arroz-integral-limon-x-100-grs/
 00011|Galletas de Arroz All Rice Sin Sal x 100 grs.|58.0|Almacén > Gall. Dulces y Saladas|/2020/05/galletas-all-rice-sin-sal.jpg|/galletas-all-rice-sin-sal-x-100-grs/
 00012|Galletas de Arroz All Rice Naranja x 100 grs.|58.0|Almacén > Gall. Dulces y Saladas|/2020/05/galletas-all-rice-naranja.jpg|/galletas-all-rice-naranja-x-100-grs/
@@ -92,18 +92,18 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00009|Harina Celestial 000 X1 Kg.|45.0|Almacén > Harinas|/2020/01/HAR-CELESTIAL-000-X1KG.jpg|/har-celestial-000-x1kg-s-iva/
 00333|Flan Manfrey 120Gr|33.0|Lacteos > Flan|/2020/01/FLAN-MANFREY-120GR.jpg|/flan-manfrey-120gr/
 00461|Aceite Natura girasol x 500 ml.|68.0|Almacén > Aceites|/2020/06/aceite-natura-girasol-x500.jpg|/aceite-natura-girasol-x-500-ml/
-00100|Aceite Vicentin Girasol 4.5 Lts.|499.2|Almacén > Aceites|/2020/01/ACEITE-VICENTIN-GIRASOL-4500cc.jpg|/aceite-vicentin-girasol-4-5lt-s-iva/
-00101|Aceite Natura girasol x 1.5 Lts.|182.0|Almacén > Aceites|/2020/01/ACEITE-NATURA-GIRASOL-1500cc.jpg|/aceite-natura-girasol-1-5lt/
+03042|Aceite Vicentin Girasol 4.5 Lts.|499.2|Almacén > Aceites|/2020/01/ACEITE-VICENTIN-GIRASOL-4500cc.jpg|/aceite-vicentin-girasol-4-5lt-s-iva/
+03044|Aceite Natura girasol x 1.5 Lts.|182.0|Almacén > Aceites|/2020/01/ACEITE-NATURA-GIRASOL-1500cc.jpg|/aceite-natura-girasol-1-5lt/
 00102|ACEITE VICENTIN GIRASOL 1.5LT|165.01|Almacén > Aceites|/2020/01/ACEITE-VICENTIN-GIRASOL-1500cc.jpg|/aceite-vicentin-girasol-1-5lt-s-iva/
-00103|ACEITE VICENTIN GIRASOL 900CC|100.0|Almacén > Aceites|/2020/01/ACEITE-VICENTIN-GIRASOL-900CC.jpg|/aceite-vicentin-girasol-900cc-s-iva/
+03046|ACEITE VICENTIN GIRASOL 900CC|100.0|Almacén > Aceites|/2020/01/ACEITE-VICENTIN-GIRASOL-900CC.jpg|/aceite-vicentin-girasol-900cc-s-iva/
 00162|STEVIA  SOBRES X 100 HILERET|142.0|Desayuno > Edulcorantes|/2020/01/STEVIA-SOB-X-100-HILERT.jpg|/stevia-sob-x-100-hilert/
 00163|AZUCAR HILERET LIGHT X 250G PAQ|45.0|Desayuno > Edulcorantes|/2020/01/AZUCAR-HILERET-LIGHT-X-250G-PAQ.jpg|/azucar-hileret-lig-x-250g-paq/
 00164|EDULCORANTE SI DIET 200CC|73.0|Desayuno > Edulcorantes|/2020/01/EDULC-SI-DIET-200CC.jpg|/edulc-si-diet-200cc/
 00165|EDULCORANTE SI DIET 500ML|132.0|Desayuno > Edulcorantes|/2019/11/EDULCORANTE-SI-DIET-500.jpg|/edulc-si-diet-500ml/
 00166|EDULCORANTE BARNY 250CC|73.0|Desayuno > Edulcorantes|/2019/11/EDULCORANTE-BARNY-250.jpg|/edulc-barny-250cc/
 00337|ROLLO DE COCINA SOL MAYOR X 3UN|65.0|Limpieza > Rollos de Cocina|/2020/01/ROLL-COC-SOL-MAYOR-X-3UN.jpg|/roll-coc-sol-mayor-x-3un/
-00322|Leche en Polvo Descremada Lheritier 350 gr.|195.0|Lacteos > Leche en Polvo|/2020/05/leche-en-polvo-lheritier-800.jpg|/leche-en-polvo-descremada-lheritier-350-gr/
-00323|Leche Nido Fort Tapa Amarilla 800Gr|399.0|Lacteos > Leche en Polvo|/2020/01/LECHE-NIDO-CON-PROT-T-AMARILLA-800GR.jpg|/leche-nido-fort-t-ama-800gr/
+03000|Leche en Polvo Descremada Lheritier 350 gr.|195.0|Lacteos > Leche en Polvo|/2020/05/leche-en-polvo-lheritier-800.jpg|/leche-en-polvo-descremada-lheritier-350-gr/
+03001|Leche Nido Fort Tapa Amarilla 800Gr|399.0|Lacteos > Leche en Polvo|/2020/01/LECHE-NIDO-CON-PROT-T-AMARILLA-800GR.jpg|/leche-nido-fort-t-ama-800gr/
 00272|Salame Goggi Feteado x 100 grs.|38.0|Fiambreria > Salame|/2019/11/SALAME-GOGGI-CAL-80.jpg|/salame-goggi-cal-80/
 00273|Salame Bierzo Feteado 100 grs.|53.0|Fiambreria > Salame|/2020/01/SALAME-BIERZO.jpg|/salame-bierzo/
 00274|Salame Fela Feteado x 100 grs.|48.0|Fiambreria > Salame|/2020/01/SALAME-FELA.jpg|/salame-fela/
@@ -288,9 +288,9 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00091|Yerba Cachamate con Hierbas 500 Grs. (Rosa)|115.0|Almacén > Mate|/2019/11/yerba-cachamate-hierbas-500.jpg|/yerba-cachamate-todas-500gr/
 00092|YERBA CBSE 250GR|80.0|Almacén > Mate|/2020/01/YERBA-CBSE-250GR.jpg|/yerba-cbse-250gr/
 00093|TE LA VIRGINIA X 25 SAQ|39.0|Almacén > Mate|/2020/01/TE-LA-VIRG-X-25-SAQ.jpg|/te-la-virg-x-25-saq-s-iva/
-00443|Cif Crema Original x 750 grs.|115.0|Limpieza > Varios|/2020/05/cif-crema-750.jpg|/cif-crema-original-x-750-grs/
-00444|Cif Crema Original x 375 grs.|80.0|Limpieza > Varios|/2020/05/cif-crema-375.jpg|/cif-crema-original-x-375-grs/
-00445|ESPONJA MAKE BRONCE|26.0|Limpieza > Varios|/2020/01/ESP-MAKE-BRONCE.jpg|/esp-make-bronce/
+03014|Cif Crema Original x 750 grs.|115.0|Limpieza > Varios|/2020/05/cif-crema-750.jpg|/cif-crema-original-x-750-grs/
+03015|Cif Crema Original x 375 grs.|80.0|Limpieza > Varios|/2020/05/cif-crema-375.jpg|/cif-crema-original-x-375-grs/
+03021|ESPONJA MAKE BRONCE|26.0|Limpieza > Varios|/2020/01/ESP-MAKE-BRONCE.jpg|/esp-make-bronce/
 00446|Cabo Escoba Madera|27.0|Limpieza > Varios|/2020/01/CABO-ESCOBA-MADERA.jpg|/cabo-escoba-madera/
 00447|VELAS RELIEVE/COLONIAL X 4U.GR|14.49|Limpieza > Varios|/2020/01/VELAS-RELIEVE-COLONIAL-X-4U.GR_.jpg|/velas-relieve-colonial-x-4u-gr/
 00448|Secador Sachi 40|220.0|Limpieza > Varios|/2020/01/SECADOR-SACHI-40.jpg|/secador-sachi-40/

@@ -14,6 +14,7 @@ class Web
 
 		puts " ► Bajando productos... (#{clasificacion.count})".cyan
 		productos = bajar_clasificacion(clasificacion).compact
+		puts "    Se bajaron #{productos.count} productos".green
 		Archivo.escribir(productos, destino)
 
 		puts " ► Completando ID...".cyan
@@ -29,40 +30,39 @@ class Web
 		self
 	end
 
-	def bajar_clasificacion(clasificacion)
-		salida = []
-		clasificacion.procesar(10) do |clasificacion| # Limitador por Maxiconsumo
+	def bajar_clasificacion(clasificaciones)
+		productos = []
+		clasificaciones.procesar(10) do |clasificacion|
 			url = ubicar(:productos, clasificacion.url)
 			Archivo.abrir(url) do |pagina|
-				productos = bajar_productos(pagina).compact
-				productos.each do |producto| 
-					producto[:id] = ''
-					producto[:rubro] = clasificacion[:rubro]
-				end
-				salida += productos
+				productos << bajar_productos(pagina, clasificacion.rubro).compact
 			end
 		end
-		salida.compact.uniq
+		
+		productos.flatten.uniq
 	end
 
-	def bajar_productos(pagina)
+	def bajar_productos(pagina, rubro)
 		nuevos = [] 
 		begin
+			puts "#{rubro} => #{pagina.css(selector_producto).count}"
 			pagina.css(selector_producto).each do |x| 
 				nuevos << { 
+					id: '',
 					nombre: nombre(x), 
+					rubro: rubro,
 					precio: precio(x), 
 					precio_1: oferta(x, 1),
 					precio_2: oferta(x, 2),
 					precio_3: oferta(x, 3),
 					url_producto: producto(x), 
 					url_imagen:  imagen(x),
-				}.compact 
+				}
 			end
 		rescue Exception => e
 			puts "ERROR #{e}".red
 		end
-		nuevos
+		nuevos.compact
 	end
 
 	def bajar_imagenes(forzar=false)
@@ -160,7 +160,7 @@ class Web
 			tmp = new 
 
 			puts "► Muestra productos de #{tmp.carpeta.upcase}"
-			clasificacion = tmp.bajar_clasificacion
+			clasificacion = tmp.bajar_clasificaciones()
 			clasificacion = clasificacion.first(3) if breve
 			productos = tmp.bajar_clasificacion(clasificacion)
 			productos = productos.first(10) if breve
@@ -227,7 +227,7 @@ end
 
 class Tatito < Web
 	def get_url
-		 {base: 'http://tatito.com.ar', clasificacion: '/tienda', productos: '/tienda/?filters=product_cat/*', producto: '/producto/*', imagen: '/wp-content/uploads/*'}
+		 {base: 'http://tatito.com.ar', clasificacion: '/tienda', productos: '/tienda/?filters=product_cat*', producto: '/producto/*', imagen: '/wp-content/uploads/*'}
 	end
 
 	def bajar_clasificaciones 
@@ -374,7 +374,6 @@ class TuChanguito < Web
 		extraer_precio(item.css('.item-price'))
 	end
 
-	# JSON.parse(item.css("div.js-quickshop-container")[0]["data-variants"])
 	def producto(item)	
 		extraer_url(item.css('.item-image a'))
 	end
@@ -396,8 +395,8 @@ if __FILE__ == $0
 	# p j.ubicar(:imagen)
 
 	# TuChanguito.new.bajar_todo
-	# Jumbo.new.bajar_todo
-	Tatito.new.bajar_todo
+	Jumbo.new.bajar_todo
+	# Tatito.new.bajar_todo
 	# Maxiconsumo.new.bajar_todo
 end
 

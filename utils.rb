@@ -74,7 +74,7 @@ class Object
 	end
 
 	def to_key
-		to_s.strip.gsub(" ","_").downcase.to_sym
+		to_s.gsub(/[^a-z0-9]/i,' ').espacios.gsub(' ','_').downcase.to_sym
 	end
 
 	def vacio?
@@ -82,7 +82,7 @@ class Object
 	end
 
 	def to_sku
-		to_s.gsub(/\W/,"")
+		to_s.gsub(/\W/,'')
 	end
 
 	def tag(nombre)
