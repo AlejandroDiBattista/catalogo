@@ -30,6 +30,9 @@ class Web
 		self
 	end
 
+	def normalizar
+	end
+
 	def bajar_clasificacion(clasificaciones)
 		productos = []
 		clasificaciones.procesar(10) do |clasificacion|
@@ -98,7 +101,7 @@ class Web
 		url 
 	end
 
-	def completar_id(regenerar=false)
+	def completar_id(regenerar=true)
 		datos = {}
 		if regenerar then
 			Archivo.listar(carpeta, :productos) do |origen|
@@ -117,6 +120,7 @@ class Web
 			productos.each do |producto| 
 				producto[:id] = (datos[key(producto)] ||= proximo_id(datos))
 			end
+			productos = productos.sort_by{|x|x.id}
 			Archivo.escribir(productos, origen)
 		end
 	end
@@ -385,20 +389,10 @@ class TuChanguito < Web
 	end
 end
 
-
 if __FILE__ == $0
-	j = Jumbo.new
-	p j.get_url()
-	p j.ubicar(:base)
-	p j.ubicar(:clasificacion)
-	p 'https://www.jumbo.com.ar/bebidas/a-base-de-hierbas?PS=20'
-	p j.ubicar(:productos, 'bebidas/a-base-de-hierbas')
-	p j.ubicar(:producto)
-	p j.ubicar(:imagen)
-
-	# Jumbo.new.bajar_todo
-	# TuChanguito.new.bajar_todo
-	# Tatito.new.bajar_todo
+	Jumbo.new.bajar_todo
+	TuChanguito.new.bajar_todo
+	Tatito.new.bajar_todo
 	Maxiconsumo.new.bajar_todo
 end
 
