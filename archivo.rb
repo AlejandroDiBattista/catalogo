@@ -104,7 +104,6 @@ module Archivo
 	end
 
 	def borrar(destino)
-		puts destino
 		begin
 			File.delete(destino)
 		rescue
@@ -124,6 +123,7 @@ module Archivo
 	end
 
 end
+
 module Enumerable
 	def escribir(*camino)
 		Archivo.datos(self, camino)

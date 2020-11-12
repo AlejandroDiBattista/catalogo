@@ -21,7 +21,7 @@ class Web
 		completar_id(regenerar)
 		
 		puts " ► Bajando imagenes...".cyan
-		Archivo.borrar_fotos(carpeta)if regenerar
+		Archivo.borrar_fotos(carpeta) if regenerar
 		bajar_imagenes()
 
 		Archivo.preservar(destino)
@@ -386,8 +386,8 @@ class TuChanguito < Web
 end
 
 if __FILE__ == $0
-	# Jumbo.new.bajar_todo
-	# TuChanguito.new.bajar_todo
+	Jumbo.new.bajar_todo true
+	TuChanguito.new.bajar_todo true 
 	Tatito.new.bajar_todo true 
-	# Maxiconsumo.new.bajar_todo
+	Maxiconsumo.new.bajar_todo true 
 end
