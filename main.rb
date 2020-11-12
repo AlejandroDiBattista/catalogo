@@ -280,7 +280,7 @@ end
 def analizar(supermercado, filtro="", verboso=false)
 	t = Catalogo.leer(supermercado)
 	t -= t.filtrar(&:error?)
-	t.comparar(7)
+	t.comparar(30)
 	t.listar_productos filtro, verboso
 end
 
@@ -291,7 +291,7 @@ def arroz(*supermercados)
 end
 
 # Archivo.borrar_fotos(:tatito)
-analizar :tatito, '/queso'
+analizar :tatito, 'aceite'
 # arroz(:jumbo, :tatito, :tuchanguito)
 return
 # Catalogo.leer(:maxiconsumo).resumir
