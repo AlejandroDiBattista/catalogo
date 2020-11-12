@@ -45,7 +45,7 @@ class Web
 	def bajar_productos(pagina, rubro)
 		nuevos = [] 
 		begin
-			puts "#{rubro} => #{pagina.css(selector_producto).count}"
+			# puts "#{rubro} => #{pagina.css(selector_producto).count}"
 			pagina.css(selector_producto).each do |x| 
 				nuevos << { 
 					id: '',
@@ -82,6 +82,7 @@ class Web
 	end
 
 	def ubicar(modo = :clasificacion, url = nil)
+		return url if url && url[/^http/i]
 		base = get_url[modo]
 		base = "#{get_url[:base]}#{base}" if base[/^\//]
 		base = base.gsub('*', url || '|')
@@ -180,7 +181,7 @@ class Jumbo < Web
 	Tamaño = 512
 
 	def get_url
-		{base: 'https://www.jumbo.com.ar', clasificacion: '/api/catalog_system/pub/category/tree/3', productos: '/*/?PS=99', producto: '/*/p', imagen: 'https://jumboargentina.vteximg.com.br/arquivos/ids/*'}
+		{base: 'https://www.jumbo.com.ar', clasificacion: '/api/catalog_system/pub/category/tree/3', productos: '/*?PS=99', producto: '/*/p', imagen: 'https://jumboargentina.vteximg.com.br/arquivos/ids/*'}
 	end
 
 	def incluir(item)
@@ -386,17 +387,18 @@ end
 
 
 if __FILE__ == $0
-	# j = Tatito.new
-	# p j.get_url()
-	# p j.ubicar(:base)
-	# p j.ubicar(:clasificacion)
-	# p j.ubicar(:productos)
-	# p j.ubicar(:producto)
-	# p j.ubicar(:imagen)
+	j = Jumbo.new
+	p j.get_url()
+	p j.ubicar(:base)
+	p j.ubicar(:clasificacion)
+	p 'https://www.jumbo.com.ar/bebidas/a-base-de-hierbas?PS=20'
+	p j.ubicar(:productos, 'bebidas/a-base-de-hierbas')
+	p j.ubicar(:producto)
+	p j.ubicar(:imagen)
 
+	# Jumbo.new.bajar_todo
 	# TuChanguito.new.bajar_todo
-	Jumbo.new.bajar_todo
 	# Tatito.new.bajar_todo
-	# Maxiconsumo.new.bajar_todo
+	Maxiconsumo.new.bajar_todo
 end
 
