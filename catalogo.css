@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+html {
+    /* display: grid; */
+    min-height: 100%;
+}
+
+body {
+    /* display: grid; */
+    background: #E0C9CB;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+.titulos {
+    margin-left: 10px;
+}
+
+.productos {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, 420px);
+    margin: 0;
+    padding: 10px;
+    /* min-height: 100vh; */
+}
+
+/* .container:first-child { grid-column: 1/ -1 } */
+
+.container {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width:  424px;
+    height: 216px;
+    background: #ffffff;
+    box-shadow: 0px 0px 8px #BA7E7E;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 0.6em;
+    color: #BA7E7E;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 1.2em;
+    color: #4E4E4E;
+    margin-top: -5px;
+}
+
+h2 {
+    color: #C3A1A0;
+    margin-top: -5px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 8px;
+    border-radius: 4px;
+}
+
+.product {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 8px;
+    right: 8px;
+}
+
+.desc {
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 17px;
+    color: #4E4E4E;
+    font-size: .7em;
+    line-height: 1.6em;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    width: 200px;
+}
+
+button {
+    background: #d0b9bB;
+    padding: 8px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #BA7E7E;
+    transition: all .4s ease-in-out;
+}
+
+.add {
+    width: calc(100% - 44px - 4px);
+}
+
+.like {
+    width: 40px;
+    height: 32px;
+    color: red;
+    margin-left: 4px;
+    background-color: #F5F5F5;
+}
+
+.pick {
+    margin-top: 11px;
+    margin-bottom:0;
+    margin-left: 20px;
+}
+
+.focus {
+    background: #BA7E7E;
+    color: #F5F5F5;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+footer p {
+      letter-spacing: 3px;
+    }
+footer a {
+      color: #ffffff;
+      text-decoration: none;
+}
+
+footer a:hover {
+      color: #7d7d7d;
+}
