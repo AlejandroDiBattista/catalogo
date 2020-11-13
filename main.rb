@@ -21,13 +21,26 @@ def arroz(*supermercados)
 	end
 end
 
-template = open('catalogo.erb').read
-productos = Catalogo.leer(:tatito).generar_datos
+def generar_pagina(supermercado)
+	productos = Catalogo.leer(supermercado).generar_datos
 
-renderer = ERB.new(template, '>')
-output = renderer.result()
-puts output
-open("catalogo.html",'w+'){|f|f.write output}
+	renderer = ERB.new(template)
+	output = renderer.result()
+	open("#{supermercado}.html",'w+'){|f|f.write output}
+end
+
+productos = []
+supermercado = ""
+template = open('catalogo.erb').read
+[:tatito, :tuchanguito, :maxiconsumo, :jumbo].each do |aux|
+	supermercado = aux 
+	puts "Generando #{supermercado}"
+	productos = Catalogo.leer(supermercado).generar_datos
+
+	renderer = ERB.new(template)
+	output = renderer.result()
+	open("#{supermercado}.html",'w+'){|f|f.write output}
+end
 
 # Archivo.borrar_fotos(:tatito)
 # analizar :tatito , cambios: true

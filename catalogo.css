@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 html {
-    /* display: grid; */
     min-height: 100%;
 }
 
 body {
-    /* display: grid; */
     background: #E0C9CB;
     font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
 }
 
 .titulos {
@@ -23,10 +20,7 @@ body {
     grid-template-columns: repeat(auto-fit, 420px);
     margin: 0;
     padding: 10px;
-    /* min-height: 100vh; */
 }
-
-/* .container:first-child { grid-column: 1/ -1 } */
 
 .container {
     position: relative;
@@ -130,6 +124,11 @@ button:hover {
     color: #F5F5F5;
 }
 
+.catalogo {
+    font-size: 50px;
+    color: #BA7E7E;
+    margin-bottom: 20px;
+}
 footer {
     position: absolute;
     bottom: 0;
