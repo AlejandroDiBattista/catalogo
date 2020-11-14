@@ -175,7 +175,7 @@ class Catalogo
 				end
 			end
 			anterior = actual
-            salida.last.productos << { nombre: x.nombre, precio: x.precio, oferta: x.precio_oferta, variacion: x.variacion , url_imagen: "#{base}/fotos/#{x.id}.jpg" }
+            salida.last.productos << { nombre: x.nombre, precio: x.precio, oferta: x.precio_oferta, variacion: x.variacion , url_imagen: "fotos/#{x.id}.jpg" }
         end
         salida
 	end

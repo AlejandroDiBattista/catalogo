@@ -48,6 +48,7 @@ module Archivo
 
 	def escribir_dsv(datos, *camino)
 		destino = ubicar(camino)
+		destino += '.dsv' unless destino[/\..sv/]
 		campos = datos.map(&:keys).flatten.uniq.sort
 		separador = destino['.dsv'] ? '|' : ';'
 		CSV.open(destino, 'wb', :col_sep => separador) do |csv|
@@ -59,6 +60,7 @@ module Archivo
 
 	def escribir_json(datos, *camino)
 		destino = ubicar(*camino)
+		destino += '.json' unless destino['.json']
 		open(destino, 'wb') do |f|
 			f.write JSON.pretty_generate(datos)
 		end

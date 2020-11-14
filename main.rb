@@ -36,10 +36,10 @@ template = open('catalogo.erb').read
 	supermercado = aux 
 	puts "Generando #{supermercado}"
 	productos = Catalogo.leer(supermercado).generar_datos
-
+	Archivo.escribir_json(productos, "#{supermercado}.json")
 	renderer = ERB.new(template)
 	output = renderer.result()
-	open("#{supermercado}.html",'w+'){|f|f.write output}
+	open("#{supermercado}/catalogo.html",'w+'){|f|f.write output}
 end
 
 # Archivo.borrar_fotos(:tatito)
