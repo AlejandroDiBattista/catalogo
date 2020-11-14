@@ -36,7 +36,7 @@ template = open('catalogo.erb').read
 	supermercado = aux 
 	puts "Generando #{supermercado}"
 	productos = Catalogo.leer(supermercado).generar_datos
-	Archivo.escribir_json(productos, "#{supermercado}.json")
+	Archivo.escribir_json(productos, "#{supermercado}/productos.json")
 	renderer = ERB.new(template)
 	output = renderer.result()
 	open("#{supermercado}/catalogo.html",'w+'){|f|f.write output}

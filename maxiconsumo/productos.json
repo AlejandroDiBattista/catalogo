@@ -1,0 +1,4879 @@
+[
+  {
+    "titulos": [
+      {
+        "nivel": 1,
+        "titulo": "Limpieza"
+      },
+      {
+        "nivel": 2,
+        "titulo": "Baño"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Desodorantes de Inodoro"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Des.ino Glade Ad.flo.per. 24,5 Gr",
+        "precio": 43.72,
+        "oferta": 43.72,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00055.jpg"
+      },
+      {
+        "nombre": "Des.ino Glade Ad.sol Tro 24,5 Gr",
+        "precio": 43.72,
+        "oferta": 43.72,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00054.jpg"
+      },
+      {
+        "nombre": "Desodorante Para Inodoros Harpic Adhesivo Power Plus 27 Gr",
+        "precio": 46.2,
+        "oferta": 46.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00048.jpg"
+      },
+      {
+        "nombre": "Desodorante Para Inodoros Harpic Lavanda 27 Gr",
+        "precio": 46.2,
+        "oferta": 46.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00047.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Papel Higiénico"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Papel Higienico Elite Simple Hoja 4x30 Mt",
+        "precio": 49.5,
+        "oferta": 49.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00012.jpg"
+      },
+      {
+        "nombre": "Papel Higienico Esencial Doble Hoja Clasica 4x20 Mt",
+        "precio": 53.64,
+        "oferta": 53.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00010.jpg"
+      },
+      {
+        "nombre": "Papel Higienico Esencial Max 6x80 Mt",
+        "precio": 131.32,
+        "oferta": 131.32,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00005.jpg"
+      },
+      {
+        "nombre": "Papel Higienico Felpita Doble Hoja Kids 4x30 Mt",
+        "precio": 106.2,
+        "oferta": 106.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00009.jpg"
+      },
+      {
+        "nombre": "Papel Higienico Higienol Doble Hoja Duo 4x50 Mt",
+        "precio": 122.23,
+        "oferta": 122.23,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00003.jpg"
+      },
+      {
+        "nombre": "Papel Higienico Higienol Max Plus 4x80 Mt",
+        "precio": 106.2,
+        "oferta": 106.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00001.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Cocina"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Bolsas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Bols. Virutex Bio 60x90 10 Un",
+        "precio": 58.6,
+        "oferta": 58.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00066.jpg"
+      },
+      {
+        "nombre": "Bols. Virutex Bio 80x110 10 Un",
+        "precio": 97.44,
+        "oferta": 97.44,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00067.jpg"
+      },
+      {
+        "nombre": "Bols. Virutex Rol.45x60 20 Un",
+        "precio": 42.89,
+        "oferta": 42.89,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00064.jpg"
+      },
+      {
+        "nombre": "Bols. Virutex Rol.50x70 20 Un",
+        "precio": 53.64,
+        "oferta": 53.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00065.jpg"
+      },
+      {
+        "nombre": "Bols. Ziploc Cons.gde. 10 Un",
+        "precio": 76.45,
+        "oferta": 76.45,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00061.jpg"
+      },
+      {
+        "nombre": "Bols. Ziploc Llevar Ch. 14 Un",
+        "precio": 76.45,
+        "oferta": 76.45,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00060.jpg"
+      },
+      {
+        "nombre": "Bols. Ziploc Multipack 9 Un",
+        "precio": 76.45,
+        "oferta": 76.45,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00062.jpg"
+      },
+      {
+        "nombre": "Bolsa Separata Freezer 25x35 20 Un",
+        "precio": 82.56,
+        "oferta": 82.56,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00057.jpg"
+      },
+      {
+        "nombre": "Separador Separata 100 Un",
+        "precio": 64.38,
+        "oferta": 64.38,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00056.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Bolsas De Feria"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Bolsa Busgran Feria Plastico",
+        "precio": 174.3,
+        "oferta": 174.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00026.jpg"
+      },
+      {
+        "nombre": "Bolsa Marolio Ecologica",
+        "precio": 18.92,
+        "oferta": 18.92,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00025.jpg"
+      },
+      {
+        "nombre": "Bolsa Molto Ecologica",
+        "precio": 18.92,
+        "oferta": 18.92,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00027.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Detergentes y Lavavajillas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Abrillantador Sun 500 Cc",
+        "precio": 609.9,
+        "oferta": 609.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00043.jpg"
+      },
+      {
+        "nombre": "Detergente Bora 15% Aloe 600 Cc",
+        "precio": 55.29,
+        "oferta": 55.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00039.jpg"
+      },
+      {
+        "nombre": "Detergente Bora 15% Colageno 350 Cc",
+        "precio": 37.11,
+        "oferta": 37.11,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00037.jpg"
+      },
+      {
+        "nombre": "Detergente Bora 15% Naranja 600 Cc",
+        "precio": 55.29,
+        "oferta": 55.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00038.jpg"
+      },
+      {
+        "nombre": "Detergente Drax Ultra 5 Lt",
+        "precio": 612.31,
+        "oferta": 612.31,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00042.jpg"
+      },
+      {
+        "nombre": "Lavavajilla Ala Cristalino Limon 1,25 Lt",
+        "precio": 78.9,
+        "oferta": 78.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00035.jpg"
+      },
+      {
+        "nombre": "Lavavajilla Bora 10% Limon 4 Lt",
+        "precio": 189.26,
+        "oferta": 189.26,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00033.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Detergentes y Lavavajillas Concentrados"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Deterg. Magistral Bris.marina 1,4 Lt",
+        "precio": 269.67,
+        "oferta": 269.67,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00015.jpg"
+      },
+      {
+        "nombre": "Deterg. Magistral Limon 215 Ml",
+        "precio": 39.59,
+        "oferta": 39.59,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00014.jpg"
+      },
+      {
+        "nombre": "Deterg. Magistral Limon Crema 215 Ml",
+        "precio": 48.68,
+        "oferta": 48.68,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00024.jpg"
+      },
+      {
+        "nombre": "Deterg. Magistral Limon Crema 300 Ml",
+        "precio": 55.29,
+        "oferta": 55.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00020.jpg"
+      },
+      {
+        "nombre": "Deterg. Magistral Limon Crema 500 Ml",
+        "precio": 95.79,
+        "oferta": 95.79,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00021.jpg"
+      },
+      {
+        "nombre": "Deterg. Magistral Pur Activa 500 Ml",
+        "precio": 95.79,
+        "oferta": 95.79,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00022.jpg"
+      },
+      {
+        "nombre": "Lavavaj Ala Ult.lim.dp 450 Ml",
+        "precio": 42.9,
+        "oferta": 42.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00018.jpg"
+      },
+      {
+        "nombre": "Lavavajilla Cif Antibacterial 500 Ml",
+        "precio": 98.9,
+        "oferta": 98.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00013.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Esponjas y Fibras Esponjas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Esponja De Fibra Ayudin Acero Bronce 2 Un",
+        "precio": 68.51,
+        "oferta": 68.51,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00076.jpg"
+      },
+      {
+        "nombre": "Esponja De Fibra Ayudin Baño Cocina 2 Un",
+        "precio": 44.55,
+        "oferta": 44.55,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00075.jpg"
+      },
+      {
+        "nombre": "Esponja De Fibra Ayudin Cuadriculada",
+        "precio": 38.76,
+        "oferta": 38.76,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00074.jpg"
+      },
+      {
+        "nombre": "Esponja De Fibra Ayudin Doble Uso",
+        "precio": 54.46,
+        "oferta": 54.46,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00079.jpg"
+      },
+      {
+        "nombre": "Esponja De Fibra Sed Metal Superficies Delicadas",
+        "precio": 40.41,
+        "oferta": 40.41,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00070.jpg"
+      },
+      {
+        "nombre": "Esponja Esencial Bronce 30 Gr",
+        "precio": 326.76,
+        "oferta": 326.76,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00073.jpg"
+      },
+      {
+        "nombre": "Esponja Task Spunita Plata",
+        "precio": 53.64,
+        "oferta": 53.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00071.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Guantes"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Guantes Mapa Afelpado Extra Grande",
+        "precio": 107.36,
+        "oferta": 107.36,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00130.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Palilleros"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Palilleros Desafio 50 Un",
+        "precio": 187.44,
+        "oferta": 187.44,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00028.jpg"
+      },
+      {
+        "nombre": "Palilleros Esencial 50 Un",
+        "precio": 148.32,
+        "oferta": 148.32,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00029.jpg"
+      },
+      {
+        "nombre": "Palilleros Marolio 50 Un",
+        "precio": 148.32,
+        "oferta": 148.32,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00030.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Papel Envoltura E Hilos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Bolsa Ban Plastico Horno 10 Un",
+        "precio": 113.97,
+        "oferta": 113.97,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00114.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Rollos De Cocina"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Rollo De Cocina Elite Diseno 3x60 Un",
+        "precio": 66.03,
+        "oferta": 66.03,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00084.jpg"
+      },
+      {
+        "nombre": "Rollo De Cocina Esencial 3x40 Un",
+        "precio": 37.11,
+        "oferta": 37.11,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00085.jpg"
+      },
+      {
+        "nombre": "Rollo De Cocina Marolio 3x40 Un",
+        "precio": 37.11,
+        "oferta": 37.11,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00081.jpg"
+      },
+      {
+        "nombre": "Rollo De Cocina Marolio Diseno 3x40 Un",
+        "precio": 49.5,
+        "oferta": 49.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00088.jpg"
+      },
+      {
+        "nombre": "Rollo De Cocina Marolio Ultra 3x50 Un",
+        "precio": 45.37,
+        "oferta": 45.37,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00090.jpg"
+      },
+      {
+        "nombre": "Rollo De Cocina Sussex Clasico 3x50 Un",
+        "precio": 50.33,
+        "oferta": 50.33,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00083.jpg"
+      },
+      {
+        "nombre": "Rollo De Cocina Sussex Premium 3x60 Un",
+        "precio": 51.98,
+        "oferta": 51.98,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00080.jpg"
+      },
+      {
+        "nombre": "Rollo De Cocina Sweety Cuisine Decorado 3x60 Mt",
+        "precio": 86.69,
+        "oferta": 86.69,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00089.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Servilletas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Servilleta Esencial Blanca 40 Un",
+        "precio": 19.75,
+        "oferta": 19.75,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00095.jpg"
+      },
+      {
+        "nombre": "Servilleta Esencial Blanca 70 Un",
+        "precio": 34.63,
+        "oferta": 34.63,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00096.jpg"
+      },
+      {
+        "nombre": "Servilleta Marolio 140 Un",
+        "precio": 60.25,
+        "oferta": 60.25,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00099.jpg"
+      },
+      {
+        "nombre": "Servilleta Marolio Extra Blanca 40 Un",
+        "precio": 19.75,
+        "oferta": 19.75,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00093.jpg"
+      },
+      {
+        "nombre": "Servilleta Marolio Extra Blanca 70 Un",
+        "precio": 34.63,
+        "oferta": 34.63,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00094.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Velas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Velas El Buda 16x105 Un",
+        "precio": 736.0,
+        "oferta": 736.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00166.jpg"
+      },
+      {
+        "nombre": "Velas Farolito 120 Gr",
+        "precio": 29.67,
+        "oferta": 29.67,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00169.jpg"
+      },
+      {
+        "nombre": "Velas Golondrina 120 Gr",
+        "precio": 41.9,
+        "oferta": 41.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00164.jpg"
+      },
+      {
+        "nombre": "Velas Golondrina 64 Gr",
+        "precio": 37.9,
+        "oferta": 37.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00163.jpg"
+      },
+      {
+        "nombre": "Velas Itati Color 16x 190 Un",
+        "precio": 23.99,
+        "oferta": 23.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00165.jpg"
+      },
+      {
+        "nombre": "Velas Ranchera 64 Gr",
+        "precio": 23.35,
+        "oferta": 23.35,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00172.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Cuidado de Calzado"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Aplicadores"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Aplicador Wassington Crema 2 Un",
+        "precio": 64.38,
+        "oferta": 64.38,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00103.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Brillo"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Brillo Wassington Incoloro Magico 41 Gr",
+        "precio": 101.24,
+        "oferta": 101.24,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00119.jpg"
+      },
+      {
+        "nombre": "Brillo Wassington Marron Magico 41 Gr",
+        "precio": 101.24,
+        "oferta": 101.24,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00121.jpg"
+      },
+      {
+        "nombre": "Brillo Wassington Negro Magico 41 Gr",
+        "precio": 101.24,
+        "oferta": 101.24,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00120.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Cepillos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Cepillo Wassington Cerdas Naturales N2",
+        "precio": 182.64,
+        "oferta": 182.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00118.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Cremas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Crema Wassington Marron 60 Cc",
+        "precio": 102.89,
+        "oferta": 102.89,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00102.jpg"
+      },
+      {
+        "nombre": "Crema Wassington Negra 60 Cc",
+        "precio": 102.89,
+        "oferta": 102.89,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00101.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Limpiadores"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Lavazapatilla Iberia 300 Ml",
+        "precio": 167.69,
+        "oferta": 167.69,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00105.jpg"
+      },
+      {
+        "nombre": "Limpiador Wassington Gamuza Y Nobuck 180 Cc",
+        "precio": 170.66,
+        "oferta": 170.66,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00104.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Pomadas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Pomada Cobra Marron 32 Gr",
+        "precio": 76.03,
+        "oferta": 76.03,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00144.jpg"
+      },
+      {
+        "nombre": "Pomada Cobra Negra 32 Gr",
+        "precio": 76.03,
+        "oferta": 76.03,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00143.jpg"
+      },
+      {
+        "nombre": "Pomada Wassington Blanca Liquido 60 Cc",
+        "precio": 123.88,
+        "oferta": 123.88,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00141.jpg"
+      },
+      {
+        "nombre": "Pomada Wassington Con Aplicador Negra 50 Gr",
+        "precio": 76.78,
+        "oferta": 76.78,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00145.jpg"
+      },
+      {
+        "nombre": "Pomada Wassington Crema Blanca 39 Gr",
+        "precio": 62.77,
+        "oferta": 62.77,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00142.jpg"
+      },
+      {
+        "nombre": "Pomada Wassington Incoloro 32 Gr",
+        "precio": 71.86,
+        "oferta": 71.86,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00136.jpg"
+      },
+      {
+        "nombre": "Pomada Wassington Liquida Incoloro 60 Cc",
+        "precio": 123.88,
+        "oferta": 123.88,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00147.jpg"
+      },
+      {
+        "nombre": "Pomada Wassington Liquida Marron 60 Cc",
+        "precio": 123.88,
+        "oferta": 123.88,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00140.jpg"
+      },
+      {
+        "nombre": "Pomada Wassington Liquida Negro 60 Cc",
+        "precio": 123.88,
+        "oferta": 123.88,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00139.jpg"
+      },
+      {
+        "nombre": "Pomada Wassington Premium Marron 65 Gr",
+        "precio": 114.79,
+        "oferta": 114.79,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00138.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Renovadores"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Renovador Wassington Marron 180 Cc",
+        "precio": 159.09,
+        "oferta": 159.09,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00135.jpg"
+      },
+      {
+        "nombre": "Renovador Wassington Negro 180 Cc",
+        "precio": 159.09,
+        "oferta": 159.09,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00134.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Tintas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Tinta Fix Para Cuero Maron 80 Gr",
+        "precio": 119.0,
+        "oferta": 119.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00160.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Desodorantes y Desinfectantes"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Desinfectante de Ambientes"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Desinf. Lysoform Original 285 Cc",
+        "precio": 78.43,
+        "oferta": 78.43,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00159.jpg"
+      },
+      {
+        "nombre": "Desinfectante Ayudin Bebe 332 Cc",
+        "precio": 80.91,
+        "oferta": 80.91,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00150.jpg"
+      },
+      {
+        "nombre": "Desinfectante Ayudin Frescura Matinal 332 Cc",
+        "precio": 80.91,
+        "oferta": 80.91,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00151.jpg"
+      },
+      {
+        "nombre": "Desinfectante Espadol Citrus Doypack 450 Ml",
+        "precio": 55.37,
+        "oferta": 55.37,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00155.jpg"
+      },
+      {
+        "nombre": "Desinfectante Espadol Lavanda Doypack 450 Ml",
+        "precio": 48.76,
+        "oferta": 48.76,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00154.jpg"
+      },
+      {
+        "nombre": "Desinfectante Lysoform Citrico 360 Cc",
+        "precio": 99.09,
+        "oferta": 99.09,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00152.jpg"
+      },
+      {
+        "nombre": "Desinfectante Lysoform Floral 360 Cc",
+        "precio": 99.09,
+        "oferta": 99.09,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00158.jpg"
+      },
+      {
+        "nombre": "Desinfectante Lysoform Lavanda 360 Cc",
+        "precio": 99.09,
+        "oferta": 99.09,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00153.jpg"
+      },
+      {
+        "nombre": "Desinfectante X-5 Bebe 360 Cc",
+        "precio": 93.39,
+        "oferta": 93.39,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00157.jpg"
+      },
+      {
+        "nombre": "Desinfectante X-5 Clasico 360 Cc",
+        "precio": 85.04,
+        "oferta": 85.04,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00156.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Desinfectantes de Ambiente Liquido"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Alcohol Softcare Gel 800 Ml",
+        "precio": 652.89,
+        "oferta": 652.89,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00271.jpg"
+      },
+      {
+        "nombre": "Dispenser Gel New Soft Care Line",
+        "precio": 1.074,
+        "oferta": 1.074,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00272.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Desodorante de Ambientes"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Desodorante Glade Harmony 360 Cc",
+        "precio": 59.42,
+        "oferta": 59.42,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00201.jpg"
+      },
+      {
+        "nombre": "Desodorante Glade Limon 360 Cc",
+        "precio": 59.42,
+        "oferta": 59.42,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00205.jpg"
+      },
+      {
+        "nombre": "Desodorante Glade Mañana De Campo 360 Cc",
+        "precio": 59.42,
+        "oferta": 59.42,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00199.jpg"
+      },
+      {
+        "nombre": "Desodorante Glade Potpourri 360 Cc",
+        "precio": 59.42,
+        "oferta": 59.42,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00200.jpg"
+      },
+      {
+        "nombre": "Desodorante Glade Vainilla 360 Cc",
+        "precio": 59.42,
+        "oferta": 59.42,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00204.jpg"
+      },
+      {
+        "nombre": "Desodorante Poett Bosque De Bambu 360 Cc",
+        "precio": 49.5,
+        "oferta": 49.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00197.jpg"
+      },
+      {
+        "nombre": "Desodorante Poett Despertar 360 Cc",
+        "precio": 49.5,
+        "oferta": 49.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00208.jpg"
+      },
+      {
+        "nombre": "Desodorante Poett Dulces Momentos 360 Cc",
+        "precio": 49.5,
+        "oferta": 49.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00198.jpg"
+      },
+      {
+        "nombre": "Desodorante Poett Solo Para Ti 360 Cc",
+        "precio": 49.5,
+        "oferta": 49.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00203.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Desodorantes Continuos y Automáticos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Aparato Glade Automatico Manzana 175 Gr",
+        "precio": 644.55,
+        "oferta": 644.55,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00173.jpg"
+      },
+      {
+        "nombre": "Aparato Glade Car Auto Nuevo 3,2 Ml",
+        "precio": 396.61,
+        "oferta": 396.61,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00178.jpg"
+      },
+      {
+        "nombre": "Aparato Glade Cono Algodon 170 Gr",
+        "precio": 125.62,
+        "oferta": 125.62,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00174.jpg"
+      },
+      {
+        "nombre": "Desodorante Ambiente Glade Mini Gel Lavanda 70 Gr",
+        "precio": 65.21,
+        "oferta": 65.21,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00180.jpg"
+      },
+      {
+        "nombre": "Desodorante Ambiente Glade Mini Gel Limon 70 Gr",
+        "precio": 65.21,
+        "oferta": 65.21,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00177.jpg"
+      },
+      {
+        "nombre": "Perf. Poett Ale.dia Gat 250 Ml",
+        "precio": 92.46,
+        "oferta": 92.46,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00184.jpg"
+      },
+      {
+        "nombre": "Perfume De Interior Silisur Freesur Air",
+        "precio": 180.91,
+        "oferta": 180.91,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00181.jpg"
+      },
+      {
+        "nombre": "Perfume De Interior Silisur Gel Rock",
+        "precio": 206.53,
+        "oferta": 206.53,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00182.jpg"
+      },
+      {
+        "nombre": "Repuesto Glade Car Auto Nuevo 3,2 Ml",
+        "precio": 142.89,
+        "oferta": 142.89,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00179.jpg"
+      },
+      {
+        "nombre": "Velas Glade Lavanda Y Vainilla 96,3 Gr",
+        "precio": 199.92,
+        "oferta": 199.92,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00175.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Pisos y Superficies"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Cepillos y Escobas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Cabos Task Madera",
+        "precio": 51.98,
+        "oferta": 51.98,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00196.jpg"
+      },
+      {
+        "nombre": "Cepillo La Gauchita Lava Autos",
+        "precio": 173.47,
+        "oferta": 173.47,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00195.jpg"
+      },
+      {
+        "nombre": "Cepillo La Gauchita Mano Ropa",
+        "precio": 74.3,
+        "oferta": 74.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00192.jpg"
+      },
+      {
+        "nombre": "Cepillo La Gauchita Multiuso",
+        "precio": 79.26,
+        "oferta": 79.26,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00194.jpg"
+      },
+      {
+        "nombre": "Cepillo La Gauchita Sanitario",
+        "precio": 86.69,
+        "oferta": 86.69,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00189.jpg"
+      },
+      {
+        "nombre": "Escoba La Gauchita Barremas",
+        "precio": 151.16,
+        "oferta": 151.16,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00193.jpg"
+      },
+      {
+        "nombre": "Escobillon Asapractic Plano",
+        "precio": 118.1,
+        "oferta": 118.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00190.jpg"
+      },
+      {
+        "nombre": "Escobillon La Gauchita Baño",
+        "precio": 54.46,
+        "oferta": 54.46,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00191.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Ceras Para Pisos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Autobrillo Blem Incoloro 5 Lt",
+        "precio": 826.36,
+        "oferta": 826.36,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00284.jpg"
+      },
+      {
+        "nombre": "Autobrillo Echo 5 Lt",
+        "precio": 548.68,
+        "oferta": 548.68,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00285.jpg"
+      },
+      {
+        "nombre": "Limpiador Blem 3 En 1 Aloe 900 Ml",
+        "precio": 161.9,
+        "oferta": 161.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00275.jpg"
+      },
+      {
+        "nombre": "Limpiador Blem 3 En 1 Floral 900 Ml",
+        "precio": 161.9,
+        "oferta": 161.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00274.jpg"
+      },
+      {
+        "nombre": "Limpiador Blem 3 En 1 Lavanda 900 Ml",
+        "precio": 162.12,
+        "oferta": 162.12,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00276.jpg"
+      },
+      {
+        "nombre": "Limpiador Blem Con Almendra 450 Ml",
+        "precio": 70.99,
+        "oferta": 70.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00279.jpg"
+      },
+      {
+        "nombre": "Limpiador Blem Con Almendra Floral 450 Ml",
+        "precio": 70.99,
+        "oferta": 70.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00280.jpg"
+      },
+      {
+        "nombre": "Limpiador Ceramicol Pisos Plastico 900 Ml",
+        "precio": 68.31,
+        "oferta": 68.31,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00277.jpg"
+      },
+      {
+        "nombre": "Limpiador Cif Pisos Plastificados 450 Ml",
+        "precio": 69.9,
+        "oferta": 69.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00281.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Destapacañerías"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Destapacañerias Ayudin 1 Lt",
+        "precio": 161.07,
+        "oferta": 161.07,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00221.jpg"
+      },
+      {
+        "nombre": "Destapacañerias Plomero Liquido 1 Lt",
+        "precio": 177.6,
+        "oferta": 177.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00222.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Lavandinas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Lavandina Ayudin En Gel Lavanda 700 Ml",
+        "precio": 61.9,
+        "oferta": 61.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00214.jpg"
+      },
+      {
+        "nombre": "Lavandina Ayudin En Gel Original 480 Ml",
+        "precio": 60.25,
+        "oferta": 60.25,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00215.jpg"
+      },
+      {
+        "nombre": "Lavandina Ayudin Gel Citrica 1,5 Lt",
+        "precio": 140.41,
+        "oferta": 140.41,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00218.jpg"
+      },
+      {
+        "nombre": "Lavandina Ayudin Gel Citrica 480 Ml",
+        "precio": 60.25,
+        "oferta": 60.25,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00216.jpg"
+      },
+      {
+        "nombre": "Lavandina Ayudin Gel Original 1,5 Lt",
+        "precio": 140.41,
+        "oferta": 140.41,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00217.jpg"
+      },
+      {
+        "nombre": "Lavandina Ayudin Lavanda 4 Lt",
+        "precio": 132.15,
+        "oferta": 132.15,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00210.jpg"
+      },
+      {
+        "nombre": "Lavandina Ayudin Maxima Limpieza 1 Lt",
+        "precio": 37.93,
+        "oferta": 37.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00211.jpg"
+      },
+      {
+        "nombre": "Lavandina Ayudin Maxima Limpieza 2 Lt",
+        "precio": 75.95,
+        "oferta": 75.95,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00212.jpg"
+      },
+      {
+        "nombre": "Lavandina Ayudin Pureza Glaciar 4 Lt",
+        "precio": 132.15,
+        "oferta": 132.15,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00209.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Limpiadores"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Limp. Cif Gel 2en1 250 Ml",
+        "precio": 56.9,
+        "oferta": 56.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00237.jpg"
+      },
+      {
+        "nombre": "Limp. Cif Multius.bot 5 Lt",
+        "precio": 449.9,
+        "oferta": 449.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00240.jpg"
+      },
+      {
+        "nombre": "Limp. Vim D.p. 450 Ml",
+        "precio": 52.7,
+        "oferta": 52.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00235.jpg"
+      },
+      {
+        "nombre": "Limp. Vim Gel Inod. 300 Ml",
+        "precio": 58.5,
+        "oferta": 58.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00236.jpg"
+      },
+      {
+        "nombre": "Limpiador Cif Baño Botella 5 Lt",
+        "precio": 339.9,
+        "oferta": 339.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00231.jpg"
+      },
+      {
+        "nombre": "Limpiador Cif Cremoso 3 Kg",
+        "precio": 259.9,
+        "oferta": 259.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00229.jpg"
+      },
+      {
+        "nombre": "Limpiador Silisur De Tapizado 320 Gr",
+        "precio": 180.91,
+        "oferta": 180.91,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00233.jpg"
+      },
+      {
+        "nombre": "Limpiador Silisur Parabrisas 600 Gr",
+        "precio": 152.81,
+        "oferta": 152.81,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00234.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Limpiadores Aparatos Electrónicos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Limpiador Blem Electronics 235 Cc",
+        "precio": 109.01,
+        "oferta": 109.01,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00296.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Limpiadores Para Pisos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Limp. Esencial Lim.tot.bco 900 Cc",
+        "precio": 32.98,
+        "oferta": 32.98,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00248.jpg"
+      },
+      {
+        "nombre": "Limp. Poett .lavanda 500 Ml",
+        "precio": 28.17,
+        "oferta": 28.17,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00250.jpg"
+      },
+      {
+        "nombre": "Limp. Poett .primavera 500 Ml",
+        "precio": 28.17,
+        "oferta": 28.17,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00249.jpg"
+      },
+      {
+        "nombre": "Limp. Poett Ale.tu Dia 1,8 Lt",
+        "precio": 77.6,
+        "oferta": 77.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00252.jpg"
+      },
+      {
+        "nombre": "Limp. Poett Ale.tu Dia 900 Ml",
+        "precio": 36.28,
+        "oferta": 36.28,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00251.jpg"
+      },
+      {
+        "nombre": "Limpiador Flash Blanco 5 Lt",
+        "precio": 404.88,
+        "oferta": 404.88,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00242.jpg"
+      },
+      {
+        "nombre": "Limpiador Glade Floral 4 Lt",
+        "precio": 138.76,
+        "oferta": 138.76,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00244.jpg"
+      },
+      {
+        "nombre": "Limpiador Poett Despertar 1,8 Lt",
+        "precio": 77.6,
+        "oferta": 77.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00246.jpg"
+      },
+      {
+        "nombre": "Limpiador Poett Despertar 900 Cc",
+        "precio": 36.28,
+        "oferta": 36.28,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00245.jpg"
+      },
+      {
+        "nombre": "Limpiador Poett Lov Evolution 900 Cc",
+        "precio": 36.28,
+        "oferta": 36.28,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00243.jpg"
+      },
+      {
+        "nombre": "Limpiador Procenex Original 5 Lt",
+        "precio": 283.47,
+        "oferta": 283.47,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00247.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Limpiadores de Vidrios"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Limpiavidrio Cif Gatillo 500 Cc",
+        "precio": 98.9,
+        "oferta": 98.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00224.jpg"
+      },
+      {
+        "nombre": "Limpiavidrio Cif Multiuso 450 Ml",
+        "precio": 42.9,
+        "oferta": 42.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00225.jpg"
+      },
+      {
+        "nombre": "Limpiavidrio Cif Multiuso 900 Ml",
+        "precio": 81.74,
+        "oferta": 81.74,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00226.jpg"
+      },
+      {
+        "nombre": "Limpiavidrio Cif Multiuso Botella 5 Lt",
+        "precio": 339.9,
+        "oferta": 339.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00228.jpg"
+      },
+      {
+        "nombre": "Limpiavidrio View Aero 360 Cc",
+        "precio": 131.82,
+        "oferta": 131.82,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00227.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Lustra muebles"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Lustramueble 8m Clasico 360 Cc",
+        "precio": 92.56,
+        "oferta": 92.56,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00261.jpg"
+      },
+      {
+        "nombre": "Lustramueble Blem 360 Cc",
+        "precio": 117.27,
+        "oferta": 117.27,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00254.jpg"
+      },
+      {
+        "nombre": "Lustramueble Blem Crema 200 Cc",
+        "precio": 80.91,
+        "oferta": 80.91,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00259.jpg"
+      },
+      {
+        "nombre": "Lustramueble Blem Lavanda 200 Cc",
+        "precio": 80.91,
+        "oferta": 80.91,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00260.jpg"
+      },
+      {
+        "nombre": "Lustramueble Blem Lavanda 360 Cc",
+        "precio": 117.27,
+        "oferta": 117.27,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00258.jpg"
+      },
+      {
+        "nombre": "Lustramueble Blem Limon 360 Cc",
+        "precio": 117.27,
+        "oferta": 117.27,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00262.jpg"
+      },
+      {
+        "nombre": "Lustramueble Blem Naranja 360 Cc",
+        "precio": 117.27,
+        "oferta": 117.27,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00253.jpg"
+      },
+      {
+        "nombre": "Lustramueble Ceramicol 360 Cc",
+        "precio": 94.95,
+        "oferta": 94.95,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00256.jpg"
+      },
+      {
+        "nombre": "Lustramueble Polycera 300 Ml",
+        "precio": 114.05,
+        "oferta": 114.05,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00255.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Quitamanchas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Quitamancha Rex 180 Gr",
+        "precio": 165.29,
+        "oferta": 165.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00265.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Quitasarro "
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Quitasarro Rex Aroma Fresco 500 Cc",
+        "precio": 105.78,
+        "oferta": 105.78,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00290.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Secadores Y Sopapas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Secador Esencial Negro N 26",
+        "precio": 53.64,
+        "oferta": 53.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00361.jpg"
+      },
+      {
+        "nombre": "Secador Esencial Negro N 40",
+        "precio": 59.42,
+        "oferta": 59.42,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00360.jpg"
+      },
+      {
+        "nombre": "Secador Esencial Negro N 50",
+        "precio": 80.08,
+        "oferta": 80.08,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00362.jpg"
+      },
+      {
+        "nombre": "Secador Gauchita De Goma 30 Cm",
+        "precio": 102.4,
+        "oferta": 102.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00359.jpg"
+      },
+      {
+        "nombre": "Secador Gauchita De Goma 40 Cm",
+        "precio": 105.7,
+        "oferta": 105.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00355.jpg"
+      },
+      {
+        "nombre": "Secador Gauchita Secamax 40 Cm",
+        "precio": 117.27,
+        "oferta": 117.27,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00364.jpg"
+      },
+      {
+        "nombre": "Secador Nazar Reforzado Negro 40 Cm",
+        "precio": 73.47,
+        "oferta": 73.47,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00356.jpg"
+      },
+      {
+        "nombre": "Sopapa Esencial Negra 4",
+        "precio": 48.68,
+        "oferta": 48.68,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00365.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Silicona"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Silicona Silisur Aerosol 260 Gr",
+        "precio": 194.13,
+        "oferta": 194.13,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00289.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Toallitas Húmedas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Toallitas Humedas Ayudin Desinfectantes Limon 35 Un",
+        "precio": 146.2,
+        "oferta": 146.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00292.jpg"
+      },
+      {
+        "nombre": "Toallitas Humedas Ayudin Fresco 35 Un",
+        "precio": 103.22,
+        "oferta": 103.22,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00293.jpg"
+      },
+      {
+        "nombre": "Toallitas Humedas Ayudin Limon 35 Un",
+        "precio": 103.22,
+        "oferta": 103.22,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00294.jpg"
+      },
+      {
+        "nombre": "Toallitas Humedas Ayudin Limpieza Desinfeccion 24 Un",
+        "precio": 80.91,
+        "oferta": 80.91,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00295.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Trapos De Piso y Rejillas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Paño Ayudin Cocina",
+        "precio": 56.12,
+        "oferta": 56.12,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00312.jpg"
+      },
+      {
+        "nombre": "Paño Ayudin Para Baño X 2",
+        "precio": 48.68,
+        "oferta": 48.68,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00319.jpg"
+      },
+      {
+        "nombre": "Paño Esencial Cocina Amarillo X 1un 38x40 Cm",
+        "precio": 26.36,
+        "oferta": 26.36,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00316.jpg"
+      },
+      {
+        "nombre": "Rejilla Esencial Algod On Para Autos 48x60 Cm",
+        "precio": 52.81,
+        "oferta": 52.81,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00315.jpg"
+      },
+      {
+        "nombre": "Rejilla Esencial Magic Soft 40x40 Cm",
+        "precio": 43.72,
+        "oferta": 43.72,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00321.jpg"
+      },
+      {
+        "nombre": "Tr.piso Esencial Multic.suav 48x58 Cm",
+        "precio": 34.63,
+        "oferta": 34.63,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00320.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Repelentes e Insecticidas"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Aparatos y Tabletas Para Mosquitos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Repuesto Fuyi 45 Noches 32,9 Ml",
+        "precio": 225.54,
+        "oferta": 225.54,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00308.jpg"
+      },
+      {
+        "nombre": "Tableta Fuyi Contra Mosquitos 120 Un",
+        "precio": 684.21,
+        "oferta": 684.21,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00297.jpg"
+      },
+      {
+        "nombre": "Tableta Fuyi Contra Mosquitos 16 Un",
+        "precio": 85.04,
+        "oferta": 85.04,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00300.jpg"
+      },
+      {
+        "nombre": "Tableta Raid Contra Mosquitos 12 Un",
+        "precio": 63.55,
+        "oferta": 63.55,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00305.jpg"
+      },
+      {
+        "nombre": "Tableta Raid Contra Mosquitos 72 Un",
+        "precio": 363.55,
+        "oferta": 363.55,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00306.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Cebos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Cebo Raid Cucaracha 6 Un",
+        "precio": 126.36,
+        "oferta": 126.36,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00309.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Espirales"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Espirales Fuyi 12 Un",
+        "precio": 49.5,
+        "oferta": 49.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00323.jpg"
+      },
+      {
+        "nombre": "Espirales Fuyi 12x4 Un",
+        "precio": 218.1,
+        "oferta": 218.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00330.jpg"
+      },
+      {
+        "nombre": "Espirales Fuyi Country Fresh 12 Un",
+        "precio": 51.16,
+        "oferta": 51.16,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00324.jpg"
+      },
+      {
+        "nombre": "Espirales Raid 12 Un",
+        "precio": 51.98,
+        "oferta": 51.98,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00325.jpg"
+      },
+      {
+        "nombre": "Espirales Raid 12x4 Un",
+        "precio": 185.04,
+        "oferta": 185.04,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00329.jpg"
+      },
+      {
+        "nombre": "Espirales Raid Country Fresh 12 Un",
+        "precio": 51.16,
+        "oferta": 51.16,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00326.jpg"
+      },
+      {
+        "nombre": "Espirales X-5 12 Un",
+        "precio": 37.11,
+        "oferta": 37.11,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00327.jpg"
+      },
+      {
+        "nombre": "Espirales X-5 36x4 Un",
+        "precio": 408.18,
+        "oferta": 408.18,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00328.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Insecticidas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Insecticida Baygon Azul Moscas Y Mosquitos 300 Cc",
+        "precio": 102.4,
+        "oferta": 102.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00344.jpg"
+      },
+      {
+        "nombre": "Insecticida Insectisol 77 Base Hidrocarburos 500 Cc",
+        "precio": 699.9,
+        "oferta": 699.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00342.jpg"
+      },
+      {
+        "nombre": "Insecticida Raid Fresh Moscas Y Mosquitos 360 Cc",
+        "precio": 153.64,
+        "oferta": 153.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00343.jpg"
+      },
+      {
+        "nombre": "Insecticida Raid Hormigas 390 Cc",
+        "precio": 161.9,
+        "oferta": 161.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00337.jpg"
+      },
+      {
+        "nombre": "Insecticida Raid Sin Olor Moscas Y Mosquitos 360 Cc",
+        "precio": 136.28,
+        "oferta": 136.28,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00336.jpg"
+      },
+      {
+        "nombre": "Insecticida Sectisol Alacranes Y Arañas 1000 Cc",
+        "precio": 974.85,
+        "oferta": 974.85,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00340.jpg"
+      },
+      {
+        "nombre": "Insecticida Sectisol Alacranes Y Arañas 5000 Cc",
+        "precio": 459.98,
+        "oferta": 459.98,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00341.jpg"
+      },
+      {
+        "nombre": "Insecticida Sectisol Base Acuosa 1000 Cc",
+        "precio": 809.85,
+        "oferta": 809.85,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00338.jpg"
+      },
+      {
+        "nombre": "Insecticida Sectisol Base Acuosa 4000 Cc",
+        "precio": 449.97,
+        "oferta": 449.97,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00339.jpg"
+      },
+      {
+        "nombre": "Insecticida Selton Moscas Y Mosquitos Azul 360 Cc",
+        "precio": 91.65,
+        "oferta": 91.65,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00335.jpg"
+      },
+      {
+        "nombre": "Insecticida X-5 Cucaracha 360 Cc",
+        "precio": 113.22,
+        "oferta": 113.22,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00334.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Naftalina "
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Naftalina Iberia Perfumada 200 Gr",
+        "precio": 206.53,
+        "oferta": 206.53,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00393.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Papeles"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Papel Raid Rapida Accion 12 Un",
+        "precio": 45.37,
+        "oferta": 45.37,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00350.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Perchas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Percha Aire Pur Antipolilla Lavanda 12 Gr",
+        "precio": 140.41,
+        "oferta": 140.41,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00352.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Pulverizadores"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Pulverizador Busgran",
+        "precio": 140.41,
+        "oferta": 140.41,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00354.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Ropa"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Aditivos Para Lavado"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Quitam. Ayudin Blanco Sup 400 Cc",
+        "precio": 56.94,
+        "oferta": 56.94,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00376.jpg"
+      },
+      {
+        "nombre": "Quitam. Ayudin Colores D/p 400 Cc",
+        "precio": 56.94,
+        "oferta": 56.94,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00375.jpg"
+      },
+      {
+        "nombre": "Quitam. Ayudin Colores D/p 650 Cc",
+        "precio": 79.26,
+        "oferta": 79.26,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00377.jpg"
+      },
+      {
+        "nombre": "Quitamancha Ayudin Blanco Supremo 1 Lt",
+        "precio": 102.4,
+        "oferta": 102.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00372.jpg"
+      },
+      {
+        "nombre": "Quitamancha Ayudin Blanco Supremo 750 Ml",
+        "precio": 79.26,
+        "oferta": 79.26,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00374.jpg"
+      },
+      {
+        "nombre": "Quitamancha Ayudin Ropa Blanca 450 Gr",
+        "precio": 134.63,
+        "oferta": 134.63,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00367.jpg"
+      },
+      {
+        "nombre": "Quitamancha Ayudin Ropa Blanca 90 Gr",
+        "precio": 48.68,
+        "oferta": 48.68,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00366.jpg"
+      },
+      {
+        "nombre": "Quitamancha Ayudin Ropa Color 450 Gr",
+        "precio": 134.63,
+        "oferta": 134.63,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00369.jpg"
+      },
+      {
+        "nombre": "Quitamancha Vanish Polvo Doypack 450 Gr",
+        "precio": 142.14,
+        "oferta": 142.14,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00370.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Aprestos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Apresto Klaro 360 Cc",
+        "precio": 111.49,
+        "oferta": 111.49,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00378.jpg"
+      },
+      {
+        "nombre": "Apresto Robin Doypack 500 Cc",
+        "precio": 53.63,
+        "oferta": 53.63,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00379.jpg"
+      },
+      {
+        "nombre": "Apresto Robin Doypack 900 Cc",
+        "precio": 82.56,
+        "oferta": 82.56,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00380.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Broches"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Broches Busgran Madera 12 Un",
+        "precio": 41.24,
+        "oferta": 41.24,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00474.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Detergentes Para Ropa"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Detergente Ala Alta Espuma 450 Ml",
+        "precio": 77.9,
+        "oferta": 77.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00386.jpg"
+      },
+      {
+        "nombre": "Detergente Ala Baja Espuma 450 Ml",
+        "precio": 77.9,
+        "oferta": 77.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00387.jpg"
+      },
+      {
+        "nombre": "Detergente Woolite Bebe Doypack 450 Cc",
+        "precio": 82.64,
+        "oferta": 82.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00383.jpg"
+      },
+      {
+        "nombre": "Detergente Woolite Bebe Lavado A Mano Botella 450 Cc",
+        "precio": 82.64,
+        "oferta": 82.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00385.jpg"
+      },
+      {
+        "nombre": "Detergente Woolite Extra Blanco Doy Pack 450 Ml",
+        "precio": 82.64,
+        "oferta": 82.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00392.jpg"
+      },
+      {
+        "nombre": "Detergente Woolite Maquina Doypack 450 Cc",
+        "precio": 82.64,
+        "oferta": 82.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00382.jpg"
+      },
+      {
+        "nombre": "Detergente Woolite Maquina Doypack 900 Ml",
+        "precio": 147.1,
+        "oferta": 147.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00390.jpg"
+      },
+      {
+        "nombre": "Detergente Woolite Ropa Oscura Doy Pack 450 Cc",
+        "precio": 82.64,
+        "oferta": 82.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00381.jpg"
+      },
+      {
+        "nombre": "Detergente Woolite Ropa Oscura Doy Pack 900 Ml",
+        "precio": 117.1,
+        "oferta": 117.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00391.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Enjuagues"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Enj. Downy Brisa Veran 500 Ml",
+        "precio": 129.67,
+        "oferta": 129.67,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00405.jpg"
+      },
+      {
+        "nombre": "Enjuague Comfort 3 Lt",
+        "precio": 349.9,
+        "oferta": 349.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00395.jpg"
+      },
+      {
+        "nombre": "Enjuague Comfort Clasico Botella 5 Lt",
+        "precio": 454.54,
+        "oferta": 454.54,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00402.jpg"
+      },
+      {
+        "nombre": "Enjuague Downy April Fresh 1,89 Lt",
+        "precio": 322.38,
+        "oferta": 322.38,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00397.jpg"
+      },
+      {
+        "nombre": "Enjuague Esencial Rocio Matinal 3 Lt",
+        "precio": 136.28,
+        "oferta": 136.28,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00403.jpg"
+      },
+      {
+        "nombre": "Enjuague Vivere Clasico 3 Lt",
+        "precio": 243.9,
+        "oferta": 243.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00396.jpg"
+      },
+      {
+        "nombre": "Enjuague Vivere Clasico 5 Lt",
+        "precio": 322.23,
+        "oferta": 322.23,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00401.jpg"
+      },
+      {
+        "nombre": "Enjuague Vivere Violeta 3 Lt",
+        "precio": 243.9,
+        "oferta": 243.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00400.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Jabones En Pan"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Jabon En Pan Ala Espuma X 200 Gr",
+        "precio": 31.9,
+        "oferta": 31.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00419.jpg"
+      },
+      {
+        "nombre": "Jabon En Pan Gran Federal Ropa Delicada 150 Gr",
+        "precio": 21.4,
+        "oferta": 21.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00420.jpg"
+      },
+      {
+        "nombre": "Jabon En Pan Gran Federal Suavizante 150 Gr",
+        "precio": 21.4,
+        "oferta": 21.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00423.jpg"
+      },
+      {
+        "nombre": "Jabon En Pan Vanish Super Barra 75 Gr",
+        "precio": 62.4,
+        "oferta": 62.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00424.jpg"
+      },
+      {
+        "nombre": "Jabon En Pan Zorro Suavizante 150 Gr",
+        "precio": 22.9,
+        "oferta": 22.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00418.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Jabones En Polvo"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Jab.pvo Zorro Evo 720 Gr",
+        "precio": 60.24,
+        "oferta": 60.24,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00417.jpg"
+      },
+      {
+        "nombre": "Jab.pvo Zorro Evo Be 2700 Gr",
+        "precio": 231.32,
+        "oferta": 231.32,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00416.jpg"
+      },
+      {
+        "nombre": "Jabon En Polvo Ala Matic Antibacterial 3 Kg",
+        "precio": 302.29,
+        "oferta": 302.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00410.jpg"
+      },
+      {
+        "nombre": "Jabon En Polvo Ala Matic Antibacterial 800 Gr",
+        "precio": 85.9,
+        "oferta": 85.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00409.jpg"
+      },
+      {
+        "nombre": "Jabon En Polvo Ala Matic Profecional 10 Kg",
+        "precio": 788.9,
+        "oferta": 788.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00406.jpg"
+      },
+      {
+        "nombre": "Jabon En Polvo Drive Matic Rosas Lilas 10 Kg",
+        "precio": 652.81,
+        "oferta": 652.81,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00407.jpg"
+      },
+      {
+        "nombre": "Jabon En Polvo Skip 10 Kg",
+        "precio": 826.36,
+        "oferta": 826.36,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00408.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Jabones Líquidos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Jab.liq Ala Baj.esp.dp 400 Ml",
+        "precio": 45.9,
+        "oferta": 45.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00432.jpg"
+      },
+      {
+        "nombre": "Jab.liq Ala Botella 5 Lt",
+        "precio": 469.9,
+        "oferta": 469.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00439.jpg"
+      },
+      {
+        "nombre": "Jab.liq Drive Ros.lil.d.p 400 Ml",
+        "precio": 39.9,
+        "oferta": 39.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00433.jpg"
+      },
+      {
+        "nombre": "Jab.liq Granby D-pack 3 Lt",
+        "precio": 233.9,
+        "oferta": 233.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00431.jpg"
+      },
+      {
+        "nombre": "Jab.liq Granby J.vio.fr.dp 3 Lt",
+        "precio": 233.9,
+        "oferta": 233.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00438.jpg"
+      },
+      {
+        "nombre": "Jab.liq Granby J.vio.fr.dp 800 Ml",
+        "precio": 57.29,
+        "oferta": 57.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00437.jpg"
+      },
+      {
+        "nombre": "Jab.liq Skip Botella 5 Lt",
+        "precio": 599.9,
+        "oferta": 599.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00440.jpg"
+      },
+      {
+        "nombre": "Jab.liq Skip Regular Dp 400 Ml",
+        "precio": 53.9,
+        "oferta": 53.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00434.jpg"
+      },
+      {
+        "nombre": "Jab.liq Zorro Evo Bot. 800 Ml",
+        "precio": 64.38,
+        "oferta": 64.38,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00436.jpg"
+      },
+      {
+        "nombre": "Jab.liq Zorro Evo Dp 2700 Ml",
+        "precio": 220.58,
+        "oferta": 220.58,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00435.jpg"
+      },
+      {
+        "nombre": "Jab.liq Zorro Evo Dp 720 Ml",
+        "precio": 62.72,
+        "oferta": 62.72,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00441.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 1,
+        "titulo": "Perfumeria"
+      },
+      {
+        "nivel": 2,
+        "titulo": "Afeitado y Depilación"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Cremas y Espuma de Afeitar"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "After Shave Nivea Hidratante 100 Ml",
+        "precio": 213.97,
+        "oferta": 213.97,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00446.jpg"
+      },
+      {
+        "nombre": "Espuma De Afeitar Gillete Foamy Reg 311 Gr",
+        "precio": 152.81,
+        "oferta": 152.81,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00450.jpg"
+      },
+      {
+        "nombre": "Espuma De Afeitar Gillete Foamy S.ski 175 Gr",
+        "precio": 120.25,
+        "oferta": 120.25,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00443.jpg"
+      },
+      {
+        "nombre": "Espuma De Afeitar Gillete Menthol 311 Gr",
+        "precio": 152.81,
+        "oferta": 152.81,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00444.jpg"
+      },
+      {
+        "nombre": "Espuma De Afeitar Gillette Foamy Sensible Ski 311 Gr",
+        "precio": 152.81,
+        "oferta": 152.81,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00442.jpg"
+      },
+      {
+        "nombre": "Espuma De Afeitar Nivea Hidratante 200 Ml",
+        "precio": 109.83,
+        "oferta": 109.83,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00451.jpg"
+      },
+      {
+        "nombre": "Espuma De Afeitar Nivea Sensitive 200 Ml",
+        "precio": 109.83,
+        "oferta": 109.83,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00445.jpg"
+      },
+      {
+        "nombre": "Espuma De Afeitar Prestobar Smooth X 150 Gr",
+        "precio": 104.21,
+        "oferta": 104.21,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00447.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Depilación"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Crema Depilatoria Veet Pieles Secas 100 Ml",
+        "precio": 266.86,
+        "oferta": 266.86,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00454.jpg"
+      },
+      {
+        "nombre": "Crema Depilatoria Veet Pieles Sensibles 100 Ml",
+        "precio": 266.86,
+        "oferta": 266.86,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00453.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Maquinas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Maquina Bic Flex 3 Hyb",
+        "precio": 231.32,
+        "oferta": 231.32,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00470.jpg"
+      },
+      {
+        "nombre": "Maquina Mach 3 Turbo",
+        "precio": 338.76,
+        "oferta": 338.76,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00461.jpg"
+      },
+      {
+        "nombre": "Maquina Prestobar 3 Filos",
+        "precio": 76.78,
+        "oferta": 76.78,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00462.jpg"
+      },
+      {
+        "nombre": "Maquina Prestobar 3 Filos Body Sense 2 Un",
+        "precio": 173.47,
+        "oferta": 173.47,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00466.jpg"
+      },
+      {
+        "nombre": "Maquina Prestobar 3 Filos Mujer 2 Un",
+        "precio": 165.21,
+        "oferta": 165.21,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00463.jpg"
+      },
+      {
+        "nombre": "Maquina Prestobar Excel Femenino",
+        "precio": 86.69,
+        "oferta": 86.69,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00460.jpg"
+      },
+      {
+        "nombre": "Maquina Prestobar Ultragrip 3",
+        "precio": 54.46,
+        "oferta": 54.46,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00469.jpg"
+      },
+      {
+        "nombre": "Maquina Prestobar Ultragrip 3 Un",
+        "precio": 158.6,
+        "oferta": 158.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00464.jpg"
+      },
+      {
+        "nombre": "Maquina Prestobar Ultragrip 5 Un",
+        "precio": 237.11,
+        "oferta": 237.11,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00465.jpg"
+      },
+      {
+        "nombre": "Maquina Venus Rosa 2 Un",
+        "precio": 174.3,
+        "oferta": 174.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00467.jpg"
+      },
+      {
+        "nombre": "Maquina Venus Simply Cart",
+        "precio": 68.51,
+        "oferta": 68.51,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00468.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Repuestos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Repuesto Mach 3 2 Un",
+        "precio": 253.64,
+        "oferta": 253.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00456.jpg"
+      },
+      {
+        "nombre": "Repuesto Mach 3 4 Un",
+        "precio": 495.79,
+        "oferta": 495.79,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00457.jpg"
+      },
+      {
+        "nombre": "Repuesto Mach 3 Bolsa",
+        "precio": 96.61,
+        "oferta": 96.61,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00459.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Bebes"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Oleo Y Aceites"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Oleo Calcareo Estrella 245 Ml",
+        "precio": 80.08,
+        "oferta": 80.08,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00581.jpg"
+      },
+      {
+        "nombre": "Oleo Calcareo Estrella 500 Ml",
+        "precio": 114.79,
+        "oferta": 114.79,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00580.jpg"
+      },
+      {
+        "nombre": "Oleo Calcareo Estrella 950 Ml",
+        "precio": 187.52,
+        "oferta": 187.52,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00582.jpg"
+      },
+      {
+        "nombre": "Oleo Limpieza Estrella 500 Ml",
+        "precio": 131.82,
+        "oferta": 131.82,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00583.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Pañales Para Bebe"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Panal Estrella Adul G 8 Un",
+        "precio": 401.57,
+        "oferta": 401.57,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00478.jpg"
+      },
+      {
+        "nombre": "Panal Estrella Adult M 8 Un",
+        "precio": 401.57,
+        "oferta": 401.57,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00479.jpg"
+      },
+      {
+        "nombre": "Panal Estrella Adult Xg 8 Un",
+        "precio": 401.57,
+        "oferta": 401.57,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00480.jpg"
+      },
+      {
+        "nombre": "Panal Estrella Hiper.junio 30 Un",
+        "precio": 520.58,
+        "oferta": 520.58,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00481.jpg"
+      },
+      {
+        "nombre": "Panal Estrella Pants G 8 Un",
+        "precio": 443.72,
+        "oferta": 443.72,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00483.jpg"
+      },
+      {
+        "nombre": "Panal Estrella Pants M 8 Un",
+        "precio": 443.72,
+        "oferta": 443.72,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00482.jpg"
+      },
+      {
+        "nombre": "Panal Estrella Pants Xg 8 Un",
+        "precio": 443.72,
+        "oferta": 443.72,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00484.jpg"
+      },
+      {
+        "nombre": "Panal Estrella Superp Xxg 56 Un",
+        "precio": 743.72,
+        "oferta": 743.72,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00487.jpg"
+      },
+      {
+        "nombre": "Panal Estrella Superpack G 68 Un",
+        "precio": 743.72,
+        "oferta": 743.72,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00485.jpg"
+      },
+      {
+        "nombre": "Panal Estrella Superpack X 58 Un",
+        "precio": 743.72,
+        "oferta": 743.72,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00486.jpg"
+      },
+      {
+        "nombre": "Panal Pampers Sup.jum.xgd 32 Un",
+        "precio": 328.02,
+        "oferta": 328.02,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00476.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Toallitas Humedas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Toallitas Humedas Dove Baby Humectacion Enriquecida 50 Un",
+        "precio": 178.9,
+        "oferta": 178.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00496.jpg"
+      },
+      {
+        "nombre": "Toallitas Humedas Q-soft Facial Acne 25 Un",
+        "precio": 137.93,
+        "oferta": 137.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00489.jpg"
+      },
+      {
+        "nombre": "Toallitas Humedas Q-soft Facial Hidratante 25 Un",
+        "precio": 137.93,
+        "oferta": 137.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00488.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Bronceadores"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Gel Cocoa Beac P.sol Aloe 250 Ml",
+        "precio": 206.61,
+        "oferta": 206.61,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00530.jpg"
+      },
+      {
+        "nombre": "Gel Dermaglos Post Solar 150 Ml",
+        "precio": 397.48,
+        "oferta": 397.48,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00524.jpg"
+      },
+      {
+        "nombre": "Pr.sol. Cocoa Beac F15 130 Gr",
+        "precio": 190.0,
+        "oferta": 190.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00525.jpg"
+      },
+      {
+        "nombre": "Pr.sol. Cocoa Beac F15 200 Ml",
+        "precio": 261.9,
+        "oferta": 261.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00527.jpg"
+      },
+      {
+        "nombre": "Pr.sol. Cocoa Beac F30 200 Ml",
+        "precio": 277.64,
+        "oferta": 277.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00528.jpg"
+      },
+      {
+        "nombre": "Protector Solar Dermaglos Niños Factor 40 180 Ml",
+        "precio": 599.13,
+        "oferta": 599.13,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00522.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Colonias y Perfumes"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Colonias"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Colonia Chester Ice 100 Cc",
+        "precio": 307.35,
+        "oferta": 307.35,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00508.jpg"
+      },
+      {
+        "nombre": "Colonia Colbert Noir 60 Ml",
+        "precio": 307.35,
+        "oferta": 307.35,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00517.jpg"
+      },
+      {
+        "nombre": "Colonia Colbert Pino 60 Cc",
+        "precio": 268.51,
+        "oferta": 268.51,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00507.jpg"
+      },
+      {
+        "nombre": "Colonia Colbert Space 60 Cc",
+        "precio": 330.58,
+        "oferta": 330.58,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00518.jpg"
+      },
+      {
+        "nombre": "Colonia Johnson's Fresca Caricia 100 Cc",
+        "precio": 120.62,
+        "oferta": 120.62,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00512.jpg"
+      },
+      {
+        "nombre": "Colonia Johnson's Fresca Caricia 200 Cc",
+        "precio": 202.4,
+        "oferta": 202.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00509.jpg"
+      },
+      {
+        "nombre": "Colonia Johnson's Natural 100 Cc",
+        "precio": 120.62,
+        "oferta": 120.62,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00514.jpg"
+      },
+      {
+        "nombre": "Colonia Johnson's Natural 200 Cc",
+        "precio": 202.4,
+        "oferta": 202.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00510.jpg"
+      },
+      {
+        "nombre": "Colonia Paco 60 Cc",
+        "precio": 182.56,
+        "oferta": 182.56,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00516.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Kit"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Kit 47 Street Body Splash + Antitraspirante Feeling",
+        "precio": 335.9,
+        "oferta": 335.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00531.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Perfumes"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Locion Mujercitas 80 Cc",
+        "precio": 202.4,
+        "oferta": 202.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00536.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Cremas Para Rostro y Cuerpo"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Crema Hinds Rosa 75 Ml",
+        "precio": 55.9,
+        "oferta": 55.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00548.jpg"
+      },
+      {
+        "nombre": "Crema Nivea Bodyessvain 400 Ml",
+        "precio": 208.18,
+        "oferta": 208.18,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00542.jpg"
+      },
+      {
+        "nombre": "Crema Pond's C 100 Gr",
+        "precio": 126.9,
+        "oferta": 126.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00551.jpg"
+      },
+      {
+        "nombre": "Crema Pond's S 100 Gr",
+        "precio": 126.9,
+        "oferta": 126.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00549.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Cuidado Bucal"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Adhesivos Dentales"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Crema Corega Ultra 40 Gr",
+        "precio": 208.18,
+        "oferta": 208.18,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00553.jpg"
+      },
+      {
+        "nombre": "Crema Corega Ultra 70 Gr",
+        "precio": 308.18,
+        "oferta": 308.18,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00554.jpg"
+      },
+      {
+        "nombre": "Crema Corega Ultra Sin Sabor 40 Gr",
+        "precio": 208.18,
+        "oferta": 208.18,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00555.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Cepillos Dentales"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Cep.den Conciencia Adul.rec.",
+        "precio": 67.68,
+        "oferta": 67.68,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00561.jpg"
+      },
+      {
+        "nombre": "Cep.den Conciencia Adulto",
+        "precio": 59.42,
+        "oferta": 59.42,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00562.jpg"
+      },
+      {
+        "nombre": "Cep.den Conciencia Infan.recl.",
+        "precio": 70.16,
+        "oferta": 70.16,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00563.jpg"
+      },
+      {
+        "nombre": "Cep.den Conciencia Infantiles",
+        "precio": 63.55,
+        "oferta": 63.55,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00564.jpg"
+      },
+      {
+        "nombre": "Cep.den Conciencia Kit Viaje",
+        "precio": 137.1,
+        "oferta": 137.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00560.jpg"
+      },
+      {
+        "nombre": "Cep.dental Colgate 360 Advanced 2x1",
+        "precio": 257.77,
+        "oferta": 257.77,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00558.jpg"
+      },
+      {
+        "nombre": "Cep.dental Oral B Indicator",
+        "precio": 160.9,
+        "oferta": 160.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00567.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Cremas Dentales"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Crema Dental Close-up Menthol Paradise 180 Gr",
+        "precio": 139.0,
+        "oferta": 139.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00568.jpg"
+      },
+      {
+        "nombre": "Crema Dental Close-up White Platinum 90 Gr",
+        "precio": 99.9,
+        "oferta": 99.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00570.jpg"
+      },
+      {
+        "nombre": "Crema Dental Colgate Herbal Blanqueadora 140 Gr",
+        "precio": 113.14,
+        "oferta": 113.14,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00574.jpg"
+      },
+      {
+        "nombre": "Crema Dental Colgate Herbal Blanqueadora 70 Gr",
+        "precio": 60.25,
+        "oferta": 60.25,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00575.jpg"
+      },
+      {
+        "nombre": "Crema Dental Colgate Total Salud Visible 90 Gr",
+        "precio": 110.66,
+        "oferta": 110.66,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00577.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Hilos Dentales "
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Hilo Dental Colgate 2x1 X50 Ml",
+        "precio": 123.88,
+        "oferta": 123.88,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00724.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Kit"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Kit Colgate Portable Total 12 30 Gr",
+        "precio": 222.23,
+        "oferta": 222.23,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00600.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Tabletas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Tableta Corega Tabs 30 Un",
+        "precio": 158.59,
+        "oferta": 158.59,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00601.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Cuidado Para El Cabello"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Fijadores Para Cabello"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Fijador Roby Flexible 180 Ml",
+        "precio": 115.62,
+        "oferta": 115.62,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00608.jpg"
+      },
+      {
+        "nombre": "Fijador Roby Negro Normal 180 Ml",
+        "precio": 115.62,
+        "oferta": 115.62,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00604.jpg"
+      },
+      {
+        "nombre": "Gel Algabo Efecto Humedo 150 Gr",
+        "precio": 55.29,
+        "oferta": 55.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00611.jpg"
+      },
+      {
+        "nombre": "Gel Algabo Fijacion Fuerte 150 Gr",
+        "precio": 55.29,
+        "oferta": 55.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00610.jpg"
+      },
+      {
+        "nombre": "Gel Vo5 Efecto Humedo 200 Gr",
+        "precio": 54.9,
+        "oferta": 54.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00603.jpg"
+      },
+      {
+        "nombre": "Gel Vo5 Flexible 200 Gr",
+        "precio": 54.9,
+        "oferta": 54.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00602.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Shampoo y Acondicionadores Familiares"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Acond. Plusbelle .esen.c.fri 1 Lt",
+        "precio": 92.48,
+        "oferta": 92.48,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00620.jpg"
+      },
+      {
+        "nombre": "Acond. Plusbelle .esen.f.rep 1 Lt",
+        "precio": 92.48,
+        "oferta": 92.48,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00624.jpg"
+      },
+      {
+        "nombre": "Acond. Plusbelle .esen.l.sal 1 Lt",
+        "precio": 92.48,
+        "oferta": 92.48,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00622.jpg"
+      },
+      {
+        "nombre": "Acond. Plusbelle .esen.resta 1 Lt",
+        "precio": 92.48,
+        "oferta": 92.48,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00621.jpg"
+      },
+      {
+        "nombre": "Shamp. Plusbelle .esen.c.fri 1 Lt",
+        "precio": 92.48,
+        "oferta": 92.48,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00617.jpg"
+      },
+      {
+        "nombre": "Shamp. Plusbelle .esen.f.rep 1 Lt",
+        "precio": 92.48,
+        "oferta": 92.48,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00623.jpg"
+      },
+      {
+        "nombre": "Shamp. Plusbelle .esen.l.sal 1 Lt",
+        "precio": 92.48,
+        "oferta": 92.48,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00619.jpg"
+      },
+      {
+        "nombre": "Shamp. Plusbelle .esen.resta 1 Lt",
+        "precio": 92.48,
+        "oferta": 92.48,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00618.jpg"
+      },
+      {
+        "nombre": "Shampoo Suave Manzanilla 930 Ml",
+        "precio": 66.03,
+        "oferta": 66.03,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00614.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Shampoo y Acondicionadores Personales"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Acondicionador Johnson's Manzanilla 200 Cc",
+        "precio": 129.67,
+        "oferta": 129.67,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00643.jpg"
+      },
+      {
+        "nombre": "Acondicionador Pantene Brillo Extremo 750 Cc",
+        "precio": 280.9,
+        "oferta": 280.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00645.jpg"
+      },
+      {
+        "nombre": "Acondicionador Pantene Hidratacion 750 Cc",
+        "precio": 295.9,
+        "oferta": 295.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00647.jpg"
+      },
+      {
+        "nombre": "Shampoo Johnson's Fragancia Prolongada 200 Cc",
+        "precio": 141.24,
+        "oferta": 141.24,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00642.jpg"
+      },
+      {
+        "nombre": "Shampoo Pantene Brillo Extremo 750 Cc",
+        "precio": 295.9,
+        "oferta": 295.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00648.jpg"
+      },
+      {
+        "nombre": "Shampoo Pantene Restauracion 750 Cc",
+        "precio": 295.9,
+        "oferta": 295.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00649.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Tratamiento Capilar"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Cr.pein H.y S Coconut 300 Ml",
+        "precio": 189.9,
+        "oferta": 189.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00829.jpg"
+      },
+      {
+        "nombre": "Crema Para Peinar Pantene 3 Minutos Hidratacion 170 Ml",
+        "precio": 186.5,
+        "oferta": 186.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00826.jpg"
+      },
+      {
+        "nombre": "Crema Para Peinar Pantene 3 Minutos Liso 170 Ml",
+        "precio": 186.5,
+        "oferta": 186.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00824.jpg"
+      },
+      {
+        "nombre": "Crema Para Peinar Pantene 3 Minutos Rizos 170 Ml",
+        "precio": 186.5,
+        "oferta": 186.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00825.jpg"
+      },
+      {
+        "nombre": "Crema Tratamiento Elvive Kera Liso 230 300 Gr",
+        "precio": 247.93,
+        "oferta": 247.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00819.jpg"
+      },
+      {
+        "nombre": "Crema Tratamiento Elvive Oleo Extraordinario 300 Gr",
+        "precio": 247.93,
+        "oferta": 247.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00821.jpg"
+      },
+      {
+        "nombre": "Crema Tratamiento Pantene Summer 300 Ml",
+        "precio": 244.5,
+        "oferta": 244.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00827.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Desodorantes Personales"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Aerosol"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Desodorante Masculino Chester Ice 250 Cc",
+        "precio": 147.02,
+        "oferta": 147.02,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00673.jpg"
+      },
+      {
+        "nombre": "Desodorante Masculino Colbert 150 Cc",
+        "precio": 137.93,
+        "oferta": 137.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00664.jpg"
+      },
+      {
+        "nombre": "Desodorante Masculino Colbert 250 Cc",
+        "precio": 155.29,
+        "oferta": 155.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00668.jpg"
+      },
+      {
+        "nombre": "Desodorante Masculino Colbert Noir 150 Cc",
+        "precio": 137.93,
+        "oferta": 137.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00663.jpg"
+      },
+      {
+        "nombre": "Desodorante Masculino Colbert Noir 250 Cc",
+        "precio": 155.29,
+        "oferta": 155.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00667.jpg"
+      },
+      {
+        "nombre": "Desodorante Masculino Colbert Pino 150 Cc",
+        "precio": 137.93,
+        "oferta": 137.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00665.jpg"
+      },
+      {
+        "nombre": "Desodorante Masculino Colbert Pino 250 Cc",
+        "precio": 155.29,
+        "oferta": 155.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00666.jpg"
+      },
+      {
+        "nombre": "Desodorante Masculino Colbert Us 150 Cc",
+        "precio": 137.93,
+        "oferta": 137.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00662.jpg"
+      },
+      {
+        "nombre": "Desodorante Masculino Colbert Us 250 Cc",
+        "precio": 155.29,
+        "oferta": 155.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00669.jpg"
+      },
+      {
+        "nombre": "Desodorante Masculino Crandall Verde 250 Cc",
+        "precio": 147.02,
+        "oferta": 147.02,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00670.jpg"
+      },
+      {
+        "nombre": "Desodorante Unisex Mujercitas 123 Cc",
+        "precio": 113.97,
+        "oferta": 113.97,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00671.jpg"
+      },
+      {
+        "nombre": "Desodorante Unisex Paco Futbol 150 Cc",
+        "precio": 113.97,
+        "oferta": 113.97,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00672.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Barras y Cremas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Antitranspirante Femenino Dove Barra Clasico X 50 Gr",
+        "precio": 152.9,
+        "oferta": 152.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00656.jpg"
+      },
+      {
+        "nombre": "Antitranspirante Femenino Rexona Barra Nutritive X 50 Gr",
+        "precio": 139.9,
+        "oferta": 139.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00654.jpg"
+      },
+      {
+        "nombre": "Antitranspirante Femenino Veritas Crema Suavidad Delicada 60 Gr",
+        "precio": 56.9,
+        "oferta": 56.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00650.jpg"
+      },
+      {
+        "nombre": "Antitranspirante Masculino Dove Barra Clean Comfort 50 Gr",
+        "precio": 152.9,
+        "oferta": 152.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00658.jpg"
+      },
+      {
+        "nombre": "Antitranspirante Masculino Rexona Barra V8 50 Gr",
+        "precio": 139.9,
+        "oferta": 139.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00655.jpg"
+      },
+      {
+        "nombre": "Antitranspirante Masculino Veritas Crema Original 60 Gr",
+        "precio": 56.9,
+        "oferta": 56.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00651.jpg"
+      },
+      {
+        "nombre": "Desodorante Unisex Rexona Crema Odorono X 60 Gr",
+        "precio": 74.9,
+        "oferta": 74.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00652.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Roll On"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Ant.fem Dove Rol.matcha 50 Ml",
+        "precio": 99.9,
+        "oferta": 99.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00801.jpg"
+      },
+      {
+        "nombre": "Antitranspirante Anspirante Adidas Roll On Intensive 50 Ml",
+        "precio": 109.83,
+        "oferta": 109.83,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00796.jpg"
+      },
+      {
+        "nombre": "Antitranspirante Femenino Adidas Roll On Control 50 Ml",
+        "precio": 109.83,
+        "oferta": 109.83,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00799.jpg"
+      },
+      {
+        "nombre": "Antitranspirante Femenino Adidas Rollfresh 50 Ml",
+        "precio": 109.83,
+        "oferta": 109.83,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00798.jpg"
+      },
+      {
+        "nombre": "Antitranspirante Femenino Etiquet Roll On Clasico 60 Ml",
+        "precio": 70.17,
+        "oferta": 70.17,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00806.jpg"
+      },
+      {
+        "nombre": "Antitranspirante Femenino Hinds Roll On Flower 60 Ml",
+        "precio": 86.69,
+        "oferta": 86.69,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00804.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Talcos Y Feculas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Fecula Johnson's Natural 200 Gr",
+        "precio": 138.76,
+        "oferta": 138.76,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00683.jpg"
+      },
+      {
+        "nombre": "Fecula Johnson's Natural 400 Gr",
+        "precio": 237.93,
+        "oferta": 237.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00684.jpg"
+      },
+      {
+        "nombre": "Talco Algabo Pedico Doypack 200 Gr",
+        "precio": 46.24,
+        "oferta": 46.24,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00675.jpg"
+      },
+      {
+        "nombre": "Talco Algabo Perfumado 200 Gr",
+        "precio": 37.11,
+        "oferta": 37.11,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00674.jpg"
+      },
+      {
+        "nombre": "Talco Efficient Antibacterial 100 Gr",
+        "precio": 56.94,
+        "oferta": 56.94,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00678.jpg"
+      },
+      {
+        "nombre": "Talco Pat.allen Clasico 180 Gr",
+        "precio": 57.77,
+        "oferta": 57.77,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00679.jpg"
+      },
+      {
+        "nombre": "Talco Patricia Allen Pedico 100 Gr",
+        "precio": 36.77,
+        "oferta": 36.77,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00676.jpg"
+      },
+      {
+        "nombre": "Talco Patricia Allen Pedico 200 Gr",
+        "precio": 55.29,
+        "oferta": 55.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00677.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Farmacia"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Alcohol"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Alcohol Dinamita 1 Lt",
+        "precio": 123.88,
+        "oferta": 123.88,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00705.jpg"
+      },
+      {
+        "nombre": "Alcohol Dinamita 600 Cc",
+        "precio": 74.3,
+        "oferta": 74.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00704.jpg"
+      },
+      {
+        "nombre": "Alcohol Estrella Gel 500 Ml",
+        "precio": 156.94,
+        "oferta": 156.94,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00703.jpg"
+      },
+      {
+        "nombre": "Alcohol Nogaly Aero 75 Cc",
+        "precio": 98.26,
+        "oferta": 98.26,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00699.jpg"
+      },
+      {
+        "nombre": "Alcohol Rexona Antib.aero 58 Gr",
+        "precio": 64.9,
+        "oferta": 64.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00701.jpg"
+      },
+      {
+        "nombre": "Alcohol Rexona Antib.gel 300 Ml",
+        "precio": 165.2,
+        "oferta": 165.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00706.jpg"
+      },
+      {
+        "nombre": "Alcohol Rexona En Gel 5 Lt",
+        "precio": 1.999,
+        "oferta": 1.999,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00707.jpg"
+      },
+      {
+        "nombre": "Alcohol Rexona Spray Antib 125 Ml",
+        "precio": 95.78,
+        "oferta": 95.78,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00702.jpg"
+      },
+      {
+        "nombre": "Sanitiz Estrella Al 70 500 Ml",
+        "precio": 132.15,
+        "oferta": 132.15,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00709.jpg"
+      },
+      {
+        "nombre": "Sanitiz Pat.allen Al 70 500 Cc",
+        "precio": 82.56,
+        "oferta": 82.56,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00708.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Algodón"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Algodon Estrella Clasico 300 Gr",
+        "precio": 131.82,
+        "oferta": 131.82,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00686.jpg"
+      },
+      {
+        "nombre": "Algodon Estrella Premium 150 Gr",
+        "precio": 94.96,
+        "oferta": 94.96,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00696.jpg"
+      },
+      {
+        "nombre": "Algodon Estrella Premium 75 Gr",
+        "precio": 47.85,
+        "oferta": 47.85,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00695.jpg"
+      },
+      {
+        "nombre": "Algodon Estrella Super 100 Gr",
+        "precio": 51.98,
+        "oferta": 51.98,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00687.jpg"
+      },
+      {
+        "nombre": "Algodon Estrella Super 200 Gr",
+        "precio": 95.79,
+        "oferta": 95.79,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00688.jpg"
+      },
+      {
+        "nombre": "Algodon Estrella Super 400 Gr",
+        "precio": 185.04,
+        "oferta": 185.04,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00694.jpg"
+      },
+      {
+        "nombre": "Disco Estrella Desmaquillante 80 Un",
+        "precio": 50.83,
+        "oferta": 50.83,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00693.jpg"
+      },
+      {
+        "nombre": "Paño Estrella Maxi Baby 50 Un",
+        "precio": 116.99,
+        "oferta": 116.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00697.jpg"
+      },
+      {
+        "nombre": "Pompones Estrella Algodon 50 Un",
+        "precio": 50.99,
+        "oferta": 50.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00689.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Apositos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Aposito Curita 20 Un",
+        "precio": 43.72,
+        "oferta": 43.72,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00713.jpg"
+      },
+      {
+        "nombre": "Aposito Curita 8 Un",
+        "precio": 23.06,
+        "oferta": 23.06,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00710.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Barbijos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Barbijo Estrella 10 Un",
+        "precio": 330.5,
+        "oferta": 330.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00718.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Esponjas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Esponja De Fibra Patricia Allen Baño Anatomica",
+        "precio": 28.02,
+        "oferta": 28.02,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00721.jpg"
+      },
+      {
+        "nombre": "Esponja De Fibra Patricia Allen Baño Infantil",
+        "precio": 32.98,
+        "oferta": 32.98,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00723.jpg"
+      },
+      {
+        "nombre": "Esponja De Fibra Patricia Allen Baño Masaje",
+        "precio": 56.12,
+        "oferta": 56.12,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00722.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Hisopos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Hisopos Estrella Bolsa 125 Un",
+        "precio": 51.98,
+        "oferta": 51.98,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00733.jpg"
+      },
+      {
+        "nombre": "Hisopos Estrella Estuche 100 Un",
+        "precio": 57.81,
+        "oferta": 57.81,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00734.jpg"
+      },
+      {
+        "nombre": "Hisopos Patricia Allen Pote 125 Un",
+        "precio": 51.65,
+        "oferta": 51.65,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00728.jpg"
+      },
+      {
+        "nombre": "Hisopos Patricia Allen Pote 175 Un",
+        "precio": 64.88,
+        "oferta": 64.88,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00732.jpg"
+      },
+      {
+        "nombre": "Hisopos Q-soft Estuche 100 Un",
+        "precio": 51.65,
+        "oferta": 51.65,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00725.jpg"
+      },
+      {
+        "nombre": "Hisopos Q-soft Pote 125 Un",
+        "precio": 66.03,
+        "oferta": 66.03,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00727.jpg"
+      },
+      {
+        "nombre": "Hisopos Q-soft Pote 175 Un",
+        "precio": 87.52,
+        "oferta": 87.52,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00729.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Pañuelos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Pañuelo Achiss Compacto 6x10 Un",
+        "precio": 27.19,
+        "oferta": 27.19,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00741.jpg"
+      },
+      {
+        "nombre": "Pañuelo Elite Box 75 Un",
+        "precio": 32.15,
+        "oferta": 32.15,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00740.jpg"
+      },
+      {
+        "nombre": "Pañuelo Elite Pocket 6x10 Un",
+        "precio": 36.77,
+        "oferta": 36.77,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00738.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Preservativos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Exhibidor Tulipan Mix Variedades 12x3 Un",
+        "precio": 729.9,
+        "oferta": 729.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00766.jpg"
+      },
+      {
+        "nombre": "Exhibidor Tulipan Surtido 24x3 Un",
+        "precio": 1.449,
+        "oferta": 1.449,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00764.jpg"
+      },
+      {
+        "nombre": "Preservativo Prime Ultra Fino",
+        "precio": 87.52,
+        "oferta": 87.52,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00763.jpg"
+      },
+      {
+        "nombre": "Preservativo Tulipan Clasic. 3 Un",
+        "precio": 59.9,
+        "oferta": 59.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00762.jpg"
+      },
+      {
+        "nombre": "Preservativo Tulipan Super Fino 3 Un",
+        "precio": 59.9,
+        "oferta": 59.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00759.jpg"
+      },
+      {
+        "nombre": "Preservativo Tulipan Tachas 3 Un",
+        "precio": 59.9,
+        "oferta": 59.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00765.jpg"
+      },
+      {
+        "nombre": "Preservativo Tulipan Texturado 3 Un",
+        "precio": 59.9,
+        "oferta": 59.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00761.jpg"
+      },
+      {
+        "nombre": "Preservativo Tulipan Ultra Resistente 3 Un",
+        "precio": 59.9,
+        "oferta": 59.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00760.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Protectores Mamarios "
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Protectores Mamarios Johnson's 12 Un",
+        "precio": 104.05,
+        "oferta": 104.05,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00862.jpg"
+      },
+      {
+        "nombre": "Protectores Mamarios Johnson's 24 Un",
+        "precio": 173.51,
+        "oferta": 173.51,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00863.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Repelentes"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Repelente Off Desodorante Seco 114 Cm",
+        "precio": 223.06,
+        "oferta": 223.06,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00753.jpg"
+      },
+      {
+        "nombre": "Repelente Off Extra Duracion 200 Ml",
+        "precio": 272.64,
+        "oferta": 272.64,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00754.jpg"
+      },
+      {
+        "nombre": "Repelente Off Family Crema 60 Gr",
+        "precio": 52.81,
+        "oferta": 52.81,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00746.jpg"
+      },
+      {
+        "nombre": "Repelente Off Family Spray 200 Gr",
+        "precio": 188.35,
+        "oferta": 188.35,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00750.jpg"
+      },
+      {
+        "nombre": "Repelente Off Kids Crema 90 Gr",
+        "precio": 146.2,
+        "oferta": 146.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00751.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Toallitas Húmedas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Toallitas Humedas Dove Baby Humectacion Enriquecida 50 Un",
+        "precio": 178.9,
+        "oferta": 178.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00780.jpg"
+      },
+      {
+        "nombre": "Toallitas Humedas Q-soft Baby Premium Aloe Vera 50 Un",
+        "precio": 100.41,
+        "oferta": 100.41,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00770.jpg"
+      },
+      {
+        "nombre": "Toallitas Humedas Q-soft Baby Premium Oleo Calcareo 50 Un",
+        "precio": 113.14,
+        "oferta": 113.14,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00771.jpg"
+      },
+      {
+        "nombre": "Toallitas Humedas Q-soft Facial Acne 25 Un",
+        "precio": 137.93,
+        "oferta": 137.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00773.jpg"
+      },
+      {
+        "nombre": "Toallitas Humedas Q-soft Facial Hidratante 25 Un",
+        "precio": 137.93,
+        "oferta": 137.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00772.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Jabones"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Jabones De Tocador"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Jab.toc Estrella Coco Alm. 100 Gr",
+        "precio": 39.59,
+        "oferta": 39.59,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00784.jpg"
+      },
+      {
+        "nombre": "Jab.toc Estrella Coco Clas 100 Gr",
+        "precio": 39.59,
+        "oferta": 39.59,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00786.jpg"
+      },
+      {
+        "nombre": "Jab.toc Estrella Coco Flor 100 Gr",
+        "precio": 39.59,
+        "oferta": 39.59,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00785.jpg"
+      },
+      {
+        "nombre": "Jab.toc Estrella Glic.fr.roj 125 Gr",
+        "precio": 40.41,
+        "oferta": 40.41,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00788.jpg"
+      },
+      {
+        "nombre": "Jab.toc Estrella Glic.jam.ma 125 Gr",
+        "precio": 40.41,
+        "oferta": 40.41,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00789.jpg"
+      },
+      {
+        "nombre": "Jab.toc Estrella Glic.marac. 125 Gr",
+        "precio": 40.41,
+        "oferta": 40.41,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00790.jpg"
+      },
+      {
+        "nombre": "Jab.toc Estrella Glic.neutro 125 Gr",
+        "precio": 40.41,
+        "oferta": 40.41,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00787.jpg"
+      },
+      {
+        "nombre": "Jabon De Tocador Lux Floral Verbena Y Te Verde 125 Gr",
+        "precio": 28.84,
+        "oferta": 28.84,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00794.jpg"
+      },
+      {
+        "nombre": "Jabon De Tocador Veritas Bebe 120 Gr",
+        "precio": 39.9,
+        "oferta": 39.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00793.jpg"
+      },
+      {
+        "nombre": "Jabon De Tocador Veritas Coco 100 Gr",
+        "precio": 45.5,
+        "oferta": 45.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00792.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Jabones Liquidos Para Manos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Jab.liq Le Sancy Miel Y Alm. 5 Lt",
+        "precio": 389.9,
+        "oferta": 389.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00817.jpg"
+      },
+      {
+        "nombre": "Jab.liq Rexona Antib.fresh 400 Ml",
+        "precio": 145.9,
+        "oferta": 145.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00818.jpg"
+      },
+      {
+        "nombre": "Jabon Liquido Dove Baby Humectacion Enriquecida Repuesto 180 Ml",
+        "precio": 109.9,
+        "oferta": 109.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00808.jpg"
+      },
+      {
+        "nombre": "Jabon Liquido Lysoform Floral 250 Cc",
+        "precio": 140.08,
+        "oferta": 140.08,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00814.jpg"
+      },
+      {
+        "nombre": "Jabon Liquido Lysoform Refresh 250 Cc",
+        "precio": 140.08,
+        "oferta": 140.08,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00813.jpg"
+      },
+      {
+        "nombre": "Jabon Liquido Patricia Allen Citrus 300 Ml",
+        "precio": 54.46,
+        "oferta": 54.46,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00810.jpg"
+      },
+      {
+        "nombre": "Jabon Liquido Patricia Allen Floral 300 Ml",
+        "precio": 54.46,
+        "oferta": 54.46,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00809.jpg"
+      },
+      {
+        "nombre": "Jabon Liquido Rexona Antibacterial Fresh Repuesto 220 Ml",
+        "precio": 73.9,
+        "oferta": 73.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00812.jpg"
+      },
+      {
+        "nombre": "Jabon Liquido Suave Karite Verbena 220 Ml",
+        "precio": 37.93,
+        "oferta": 37.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00815.jpg"
+      },
+      {
+        "nombre": "Jabon Liquido Suave Miel Y Almandras 220 Ml",
+        "precio": 37.93,
+        "oferta": 37.93,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00816.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Maquillaje"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Quita Esmalte"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Qui.esm Estrella Fortal 100 Ml",
+        "precio": 55.29,
+        "oferta": 55.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00841.jpg"
+      },
+      {
+        "nombre": "Qui.esm Estrella Fortal 50 Ml",
+        "precio": 37.11,
+        "oferta": 37.11,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00837.jpg"
+      },
+      {
+        "nombre": "Qui.esm Estrella Hipoal 100 Ml",
+        "precio": 55.29,
+        "oferta": 55.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00843.jpg"
+      },
+      {
+        "nombre": "Qui.esm Estrella Hipoal 50 Ml",
+        "precio": 37.11,
+        "oferta": 37.11,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00839.jpg"
+      },
+      {
+        "nombre": "Qui.esm Estrella Humect 100 Ml",
+        "precio": 55.29,
+        "oferta": 55.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00840.jpg"
+      },
+      {
+        "nombre": "Qui.esm Estrella Humect 50 Ml",
+        "precio": 37.11,
+        "oferta": 37.11,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00836.jpg"
+      },
+      {
+        "nombre": "Qui.esm Estrella Restaur 100 Ml",
+        "precio": 55.29,
+        "oferta": 55.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00842.jpg"
+      },
+      {
+        "nombre": "Qui.esm Estrella Restaur 50 Ml",
+        "precio": 37.11,
+        "oferta": 37.11,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00838.jpg"
+      },
+      {
+        "nombre": "Quita Esmalte Cutex Fortalecedor 100 Ml",
+        "precio": 59.09,
+        "oferta": 59.09,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00832.jpg"
+      },
+      {
+        "nombre": "Quita Esmalte Cutex Hipolergenico 100 Ml",
+        "precio": 59.09,
+        "oferta": 59.09,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00834.jpg"
+      },
+      {
+        "nombre": "Quita Esmalte Cutex Hipolergenico 50 Ml",
+        "precio": 43.39,
+        "oferta": 43.39,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00833.jpg"
+      },
+      {
+        "nombre": "Quita Esmalte Cutex Keratina 100 Ml",
+        "precio": 59.09,
+        "oferta": 59.09,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00835.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Pañales Adultos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Pañal Cotidian Clasico Grande 8 Un",
+        "precio": 247.85,
+        "oferta": 247.85,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00847.jpg"
+      },
+      {
+        "nombre": "Pañal Cotidian Clasico Mediano 8 Un",
+        "precio": 247.85,
+        "oferta": 247.85,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00846.jpg"
+      },
+      {
+        "nombre": "Pañal Cotidian Plus Grande 8 Un",
+        "precio": 371.82,
+        "oferta": 371.82,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00849.jpg"
+      },
+      {
+        "nombre": "Pañal Cotidian Plus Mediano 8 Un",
+        "precio": 371.82,
+        "oferta": 371.82,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00848.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Proteccion Femenina"
+      },
+      {
+        "nivel": 3,
+        "titulo": "Protectores Femeninos"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Protectores Femeninos Always Respirable 16 Un",
+        "precio": 63.9,
+        "oferta": 63.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00860.jpg"
+      },
+      {
+        "nombre": "Protectores Femeninos Calipso Dual 20 Un",
+        "precio": 33.8,
+        "oferta": 33.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00851.jpg"
+      },
+      {
+        "nombre": "Protectores Femeninos Doncella Anatomica Con Desodorante 20 Un",
+        "precio": 29.71,
+        "oferta": 29.71,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00857.jpg"
+      },
+      {
+        "nombre": "Protectores Femeninos Doncella Anatomica Sin Desodorante 20 Un",
+        "precio": 29.71,
+        "oferta": 29.71,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00856.jpg"
+      },
+      {
+        "nombre": "Protectores Femeninos Doncella Anatomica Sin Desodorante 40 Un",
+        "precio": 56.61,
+        "oferta": 56.61,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00858.jpg"
+      },
+      {
+        "nombre": "Protectores Femeninos Ladysoft Clasicos Diseño 56 Un",
+        "precio": 103.22,
+        "oferta": 103.22,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00852.jpg"
+      },
+      {
+        "nombre": "Protectores Femeninos Nosotras Diarios 20 Un",
+        "precio": 38.76,
+        "oferta": 38.76,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00853.jpg"
+      },
+      {
+        "nombre": "Protectores Femeninos Nosotras Largo 15 Un",
+        "precio": 41.24,
+        "oferta": 41.24,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00861.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Tampones"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "Tampon Pat.allen Medio 20 Un",
+        "precio": 102.4,
+        "oferta": 102.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00868.jpg"
+      },
+      {
+        "nombre": "Tampon Pat.allen Medio 8 Un",
+        "precio": 42.89,
+        "oferta": 42.89,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00867.jpg"
+      },
+      {
+        "nombre": "Tampon Pat.allen Super 20 Un",
+        "precio": 102.4,
+        "oferta": 102.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00870.jpg"
+      },
+      {
+        "nombre": "Tampon Pat.allen Super 8 Un",
+        "precio": 42.89,
+        "oferta": 42.89,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00869.jpg"
+      },
+      {
+        "nombre": "Tampones Nosotras Mini 8 Un",
+        "precio": 54.99,
+        "oferta": 54.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00866.jpg"
+      },
+      {
+        "nombre": "Tampones Nosotras Regular 8 Un",
+        "precio": 54.99,
+        "oferta": 54.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00864.jpg"
+      },
+      {
+        "nombre": "Tampones Nosotras Super 8 Un",
+        "precio": 54.99,
+        "oferta": 54.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00865.jpg"
+      },
+      {
+        "nombre": "Tampones O.b. Medio 10 Un",
+        "precio": 92.52,
+        "oferta": 92.52,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00872.jpg"
+      },
+      {
+        "nombre": "Tampones O.b. Mini 10 Un",
+        "precio": 92.52,
+        "oferta": 92.52,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00871.jpg"
+      },
+      {
+        "nombre": "Tampones O.b. Super 10 Un",
+        "precio": 92.52,
+        "oferta": 92.52,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00873.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 3,
+        "titulo": "Toallitas Femeninas"
+      }
+    ],
+    "productos": [
+      {
+        "nombre": "T.fem. Always Prot.plus 16 Un",
+        "precio": 115.9,
+        "oferta": 115.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00879.jpg"
+      },
+      {
+        "nombre": "T.fem. Always Prot.sua.c. 8 Un",
+        "precio": 24.71,
+        "oferta": 24.71,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00882.jpg"
+      },
+      {
+        "nombre": "T.fem. Serena Anatom 8 Un",
+        "precio": 35.45,
+        "oferta": 35.45,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00880.jpg"
+      },
+      {
+        "nombre": "Toallitas Femeninas Doncella Con Alas Tanga 8 Un",
+        "precio": 28.51,
+        "oferta": 28.51,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00876.jpg"
+      },
+      {
+        "nombre": "Toallitas Femeninas Ladysoft Slim 16 Un",
+        "precio": 94.96,
+        "oferta": 94.96,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00878.jpg"
+      },
+      {
+        "nombre": "Toallitas Femeninas Ladysoft Slim 8 Un",
+        "precio": 50.33,
+        "oferta": 50.33,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00877.jpg"
+      }
+    ]
+  }
+]
