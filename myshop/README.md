@@ -1,4 +1,4 @@
-# my-shop
+# myshop
 
 ## Project setup
 ```
