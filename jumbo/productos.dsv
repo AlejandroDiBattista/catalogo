@@ -16,6 +16,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00019|Aceite De Oliva Natura Extra Virgen Clásico 500 Ml|371.38||||Almacén > Aceites y Vinagres > Aceites Especiales|Aceite-512-512|aceite-natura-de-oliva-x-500-cc
 00020|Aceite De Oliva La Toscana Extra Virgen 500 Ml|473.12||||Almacén > Aceites y Vinagres > Aceites Especiales|Aceite-512-512|aceite-de-oliva-la-toscana-500-cc
 00021|Aceite De Oliva Yancanello Extra Virgen 500 Ml|429.62||||Almacén > Aceites y Vinagres > Aceites Especiales|Aceite-512-512|aceite-yancanello-de-oliva-2
+00022|Aceite Olivado Cocinero 900 Ml|249.29||||Almacén > Aceites y Vinagres > Aceites Especiales|Aceite-512-512|aceite-olivado-cocinero-900-ml
 00025|Mostaza Savora Original 250 Gr|61.28||||Almacén > Aderezos > Mostazas|Mostaza-512-512|mostaza-savora-9
 00026|""|0||||Almacén > Aderezos > Mostazas||""
 00027|Mostaza Savora Original 500 Gr|119.65||||Almacén > Aderezos > Mostazas|Mostaza-512-512|mostaza-savora-8
@@ -320,7 +321,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00342|Zucaritas 700 Gr|251.73||||Almacén > Desayuno y Merienda > Cereales|Copos-512-512|copos-de-maiz-zucaritas-kellogg-s
 00343|Copos De Maíz Tradicionales Granix 400 Gr|122.57||||Almacén > Desayuno y Merienda > Cereales|Copos-512-512|copos-de-maiz-granix-4
 00345|Granola Crunchy 3 Cereales Con Miel 350 Gr Cuisine & Co|202.46||||Almacén > Desayuno y Merienda > Cereales|Granola-512-512|granola-crunchy-3-cereales-con-miel-350-gr-cuisine-co
-00346|Granola Kellogg's Tradicional 350 Gr|191.74||||Almacén > Desayuno y Merienda > Cereales|Granola-512-512|granola-kellogg-s-tradicional-350-gr
 00347|Hola Granola Frutos Del Bosque Cuisine & Co 300 Gr|222.48||||Almacén > Desayuno y Merienda > Cereales|Hola-512-512|hola-granola-frutos-del-bosque-cuisine-co-300-gr
 00348|Almohaditas Snuks Rellenas Chocolate 200 Gr|146.22||||Almacén > Desayuno y Merienda > Cereales|Almohaditas-512-512|almohaditas-snuks-rellenas-chocolate-x-215gr
 00349|Almohaditas Snuks Rellenas Avellana 200 Gr|146.22||||Almacén > Desayuno y Merienda > Cereales|Almohaditas-512-512|almohaditas-snuks-rellenas-avellana-x-215gr
@@ -339,6 +339,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00364|Galletitas Maná Rellenas De Limón 165 Gr|58.92||||Almacén > Desayuno y Merienda > Galletitas Dulces|Galletitas-512-512|galletitas-aguila-mana-rellenas-2
 00365|Galletitas Frutigran Con Chips De Chocolate 255 Gr|99.29||||Almacén > Desayuno y Merienda > Galletitas Dulces|Galletitas-512-512|galletitas-granix-frutigran-5
 00366|Galletitas Terrabusi Lincoln Clasica 153 Gr|55.7||||Almacén > Desayuno y Merienda > Galletitas Dulces|Galletitas-512-512|galletitas-lincoln-angry-birds
+00367|Galletitas Integral Cachafaz Avena Con Chips De Chocolate 225 Gr|117.83||||Almacén > Desayuno y Merienda > Galletitas Dulces|Galletitas-512-512|galletitas-cachafaz
 00368|Galletitas Porteñitas 130 Gr|50.35||||Almacén > Desayuno y Merienda > Galletitas Dulces|Galletitas-512-512|galletitas-portenitas-x-130-gr
 00369|Galletitas Coquitas 170 Gr|66.41||||Almacén > Desayuno y Merienda > Galletitas Dulces|Galletitas-512-512|galletitas-coquitas-x-170-gr
 00370|Galletitas Sonrisas 354 Gr|136.04||||Almacén > Desayuno y Merienda > Galletitas Dulces|Galletitas-512-512|galletitas-sonrisas-rellenas-x-354-gr
@@ -378,6 +379,8 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00404|Dulce Patagonia Berries Frutilla Light 260 Gr|251.09||||Almacén > Desayuno y Merienda > Mermeladas y Jaleas|Dulce-512-512|dulce-patagonia-berries-x260gr-6
 00405|Mermelada Arcor Light Durazno 390 Gr|122.92||||Almacén > Desayuno y Merienda > Mermeladas y Jaleas|Mermelada-512-512|mermelada-arcor-light-x-390-gr
 00406|Mermelada La Vieja Fábrica Naranja 350 Gr|185.64||||Almacén > Desayuno y Merienda > Mermeladas y Jaleas|Mermelada-512-512|mermelada-la-vieja-fabrica-5
+00407|Mermelada La Vieja Fábrica Frambuesa 350 Gr|249.9||||Almacén > Desayuno y Merienda > Mermeladas y Jaleas|Mermelada-512-512|mermelada-la-vieja-fabrica-3
+00408|Miel Aleluya De Abejas Líquida 190 Gr|131.33||||Almacén > Desayuno y Merienda > Mermeladas y Jaleas|Miel-512-512|miel-aleluya-de-abejas-x-190-gr
 00409|Tostaditas Crackines De Arroz Libre De Gluten  120gr|69.63||||Almacén > Desayuno y Merienda > Galletitas Saladas|Tostaditas-512-512|tostaditas-crackines-de-arroz-libre-de-gluten
 00410|""|0||||Almacén > Desayuno y Merienda > Galletitas Saladas||""
 00411|Galletitas De Agua Criollitas Originales 500 Gr|124.26||||Almacén > Desayuno y Merienda > Galletitas Saladas|Galletitas-512-512|galletitas-criollitas-de-agua-x500gr
@@ -460,7 +463,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00494|Postre Mantecol 250 Gr|185.0||||Almacén > Golosinas y Chocolates > Bocaditos y Postres|Postre-512-512|postre-mantecol-x250gr
 00495|Bocadito Bonafide Dulce De Leche 16 Gr|33.73||||Almacén > Golosinas y Chocolates > Bocaditos y Postres|Bonafide-512-512|bonafide
 00496|Cubanitos Waffers Menta Y Chocolate Cuisine & Co 130 Gr|160.14||||Almacén > Golosinas y Chocolates > Bocaditos y Postres|Cubanito-512-512|cubanitos-waffers-menta-y-chocolate-cuisine-co-130-gr
-00497|Cubanitos Caprice Classic X 250g|498.78||||Almacén > Golosinas y Chocolates > Bocaditos y Postres|Cubanitos-512-512|cubanitos-caprice-classic-x-250g
 00498|Conitos Jorgito 408 Gr|501.92||||Almacén > Golosinas y Chocolates > Bocaditos y Postres|Conitos-512-512|conitos-jorgito-x408gr
 00499|Galletitas Obleas Rhodesia Agrupado 22 Gr X 4 U|135.53||||Almacén > Golosinas y Chocolates > Bocaditos y Postres|Galletitas-512-512|rhodesia-toonix-x-88-grs
 00500|Almendras Vizzio Con Chocolate 80 Gr|183.86||||Almacén > Golosinas y Chocolates > Bocaditos y Postres|Almendras-512-512|almendras-vizzio-c-chocolate
@@ -493,7 +495,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00528|Chocolate Milka Milk 20 Gr|33.62||||Almacén > Golosinas y Chocolates > Chocolates|Chocolate-512-512|chocolate-milka-milk-x20gr
 00529|Chocolate Milka Almendras 55 Gr|114.52||||Almacén > Golosinas y Chocolates > Chocolates|Chocolate-512-512|chocolate-milka-almendras-x55gr
 00530|Chocolate Con Leche Nestlé Classic 90 Gr|173.35||||Almacén > Golosinas y Chocolates > Chocolates|Chocolate-512-512|chocolate-con-leche-nestle-classic-90-gr
-00531|Chocolate Crunch 90 Gr|173.35||||Almacén > Golosinas y Chocolates > Chocolates|Chocolate-512-512|chocolate-crunch-90-gr-2
 00532|Tableta Kit Kat 4 Finger Leite 41,5 Gr|100.86||||Almacén > Golosinas y Chocolates > Chocolates|Tableta-512-512|kit-kat-4-finger-leite-x41-5g
 00533|Chocolate Amargo Kitkat 4 Fingers 41,5 Gr|100.86||||Almacén > Golosinas y Chocolates > Chocolates|Kit-512-512|chocolate-amargo-kitkat-4-fingers-41-5-gr
 00534|Chocolate Tofi Blanco Relleno 27 Gr|46.23||||Almacén > Golosinas y Chocolates > Chocolates|Chocolate-512-512|chocolate-blanco-relleno-12x25x27-gr
@@ -511,6 +512,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00548|Mogul Sandia Extreme 50 Rg|36.46||||Almacén > Golosinas y Chocolates > Caramelos y Chicles|Gomitas-512-512|mogul-sandia-extreme-50-rg
 00549|Mogul Emoji 25 Gr|24.65||||Almacén > Golosinas y Chocolates > Caramelos y Chicles|Gomitas-512-512|mogul-emoji-25-gr
 00550|Caramelos Masticables Skittles Original X 204 Grs|362.93||||Almacén > Golosinas y Chocolates > Caramelos y Chicles|Caramelos-512-512|caramelos-masticables-skittles-original-x-204-grs
+00551|Gomitas Airheads Xtreme Bites Arandano 56 Gr|110.21||||Almacén > Golosinas y Chocolates > Caramelos y Chicles|Airheads-512-512|airheads-xtreme-bites-arandano-x56-gr
 00552|Caramelos Masticables Halloween X396g Hal|153.33||||Almacén > Golosinas y Chocolates > Caramelos y Chicles|Caramelos-512-512|caramelos-masticables-halloween-x396g-hal
 00553|Chupetin Crazy Pop Frutilla X 12 Gr|38.5||||Almacén > Golosinas y Chocolates > Caramelos y Chicles|Chupetin-512-512|chupetin-crazy-pop-fun-frutilla-x-12-gr-frutilla-bsa-gr-12
 00555|Gomitas Arcor Mogul 250 Gr|119.13||||Almacén > Golosinas y Chocolates > Caramelos y Chicles|Gomitas-512-512|gomitas-arcor-mogul-3
@@ -613,7 +615,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00659|Ají Molido Alicante 50 Gr|51.5||||Almacén > Sal, Pimienta y Especias > Especias|Aji-512-512|aji-molido-alicante-x50gr
 00661|Maní Pelado Pehuamar 90 Gr|71.48||||Almacén > Snacks > Maní|Mani-512-512|mani-pelado-pehuamar-90-gr
 00662|""|0||||Almacén > Snacks > Maní||""
-00663|Maní King Tostado Sin Piel 500 Gr|230.24||||Almacén > Snacks > Maní|Mani-512-512|mani-king-tostado-sin-piel-500-gr
 00664|Maní King Salado Sin Piel 500 Gr|230.24||||Almacén > Snacks > Maní|Mani-512-512|mani-king-salado-sin-piel-500-gr
 00665|Maní Japonés Pehuamar 145 Gr|110.74||||Almacén > Snacks > Maní|Mani-512-512|mani-japones-pehuamar-145-gr
 00666|Maní Krachitos Fritos 120 Gr|75.85||||Almacén > Snacks > Maní|Mani-512-512|mani-krach-itos-x-120-gr-2
@@ -637,7 +638,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00685|Snacks Ser No Fritos Sabor Jamon Iberico|72.83||||Almacén > Snacks > Snacks|Snacks-512-512|snacks-ser-no-fritos-sabor-jamon-iberico
 00686|Nachos Antojitos Estilo Resto 200 Gr|103.94||||Almacén > Snacks > Snacks|Nachos-512-512|nachos-antojitos-estilo-resto
 00687|Chips De Batatas Rústicas Alwa 90 Gr|78.97||||Almacén > Snacks > Snacks|Chips-512-512|chips-de-batatas-rusticas-alwa
-00688|Galletitas Gallo Snacks Pizza - 50g|63.65||||Almacén > Snacks > Snacks|Galletitas-512-512|galletitas-gallo-snacks-pizza-50g
 00691|Snacks Nachos Restaurant Style Macritas Multicereal 90 Gr|109.24||||Almacén > Snacks > Snacks|Nachos-512-512|nachos-restaurant-style-macritas-multicereal
 00692|3ds Mega Queso 105 Gr|88.01||||Almacén > Snacks > Snacks|3ds-512-512|3ds-mega-queso-105-gr
 00693|Palitos Pep Rueditas 150 Gr|104.47||||Almacén > Snacks > Snacks|Palitos-512-512|palitos-pep-rueditas-150-gr
@@ -691,12 +691,12 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00745|Obleas Gullon Chocolate X 70 Grs|79.17||||Almacén > Importados|Obleas-512-512|obleas-gullon-chocolate-x-70-grs
 00746|Obleas Gullon Vainilla X 70 Grs|79.17||||Almacén > Importados|Obleas-512-512|obleas-gullon-vainilla-x-70-grs
 00747|Caramelos Masticables Skittles Original X 204 Grs|362.93||||Almacén > Importados|Caramelos-512-512|caramelos-masticables-skittles-original-x-204-grs
+00748|Gomitas Airheads Xtreme Bites Arandano 56 Gr|110.21||||Almacén > Importados|Airheads-512-512|airheads-xtreme-bites-arandano-x56-gr
 00749|Chupetin Crazy Pop Frutilla X 12 Gr|38.5||||Almacén > Importados|Chupetin-512-512|chupetin-crazy-pop-fun-frutilla-x-12-gr-frutilla-bsa-gr-12
 00750|Salsa Arabbiata Barilla 400 Gr|472.1||||Almacén > Importados|Salsa-512-512|salsa-barilla-3-2
 00751|Pimienta Drogheria Alimentari En Grano 45 Gr|572.22||||Almacén > Importados|Pimienta-512-512|pimienta-drogheria-alimentari-negra-x-45-gr
 00752|Fideos Barilla Nidos Al Huevo Tagliatelle 500 Gr|476.68||||Almacén > Importados|Fideos-512-512|fideos-barilla-nidos-al-huevo
 00753|Mermelada La Vieja Fábrica Naranja 350 Gr|185.64||||Almacén > Importados|Mermelada-512-512|mermelada-la-vieja-fabrica-5
-00754|Mermelada La Vieja Fábrica Frambuesa 350 Gr|249.9||||Almacén > Importados|Mermelada-512-512|mermelada-la-vieja-fabrica-3
 00755|Manteca La Serenisima 200 Gr|131.01||||Almacén > Libre de Gluten|Manteca-512-512|manteca-la-serenisima-200-gr
 00756|""|0||||Almacén > Libre de Gluten||""
 00757|Atún Al Natural La Campagnola 120 Gr|211.12||||Almacén > Libre de Gluten|Atun-512-512|atun-la-campagnola-x-120-gr-3
@@ -826,23 +826,16 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00888|Gaseosa Paso De Los Toros Pomelo 269ml|27.88||||Bebidas > Gaseosas > Tónica|Gaseosa-512-512|gaseosa-paso-de-los-toros-pomelo-269ml
 00889|Agua Tonica Britvic Latax150ml|133.9||||Bebidas > Gaseosas > Tónica|Agua-512-512|agua-tonica-britvic-latax150ml
 00890|Bebida Giner Ale Britvic 200ml|149.97||||Bebidas > Gaseosas > Tónica|Bebida-512-512|bebida-giner-ale-britvic-200ml
-00891|Gaseosa Coca-cola Sin Azúcar 1.5 L|117.83||||Bebidas > Gaseosas > Cola|Coca-512-512|gaseosa-coca-cola-sin-azucar-1-5-l
 00892|""|0||||Bebidas > Gaseosas > Cola||""
 00893|Gaseosa Coca-cola Sin Azúcar 2.25 L|152.88||||Bebidas > Gaseosas > Cola|Coca-512-512|gaseosa-coca-cola-sin-azucar-2-25-l
-00894|Gaseosa Coca-cola Light 1.5 L|90.64||||Bebidas > Gaseosas > Cola|Coca-512-512|gaseosa-coca-cola-light-1-5-l
 00895|Gaseosa Coca-cola Light 2.25 L|152.89||||Bebidas > Gaseosas > Cola|Coca-512-512|gaseosa-coca-cola-light-2-25-l
 00896|Gaseosa Coca-cola Sabor Original 1,25 Lt|92.75||||Bebidas > Gaseosas > Cola|Coca-512-512|gaseosa-coca-cola-sabor-original-1-25-lt
 00897|Gaseosa Coca-cola Sabor Original 2.25 L|157.47||||Bebidas > Gaseosas > Cola|Coca-512-512|gaseosa-coca-cola-sabor-original-2-25-l
-00898|Gaseosa Coca-cola Sin Azúcar 220 Ml|37.49||||Bebidas > Gaseosas > Cola|Coca-512-512|gaseosa-coca-cola-sin-azucar-220-ml
 00899|Gaseosa Coca-cola Sabor Original 220 Ml|37.49||||Bebidas > Gaseosas > Cola|Coca-512-512|gaseosa-coca-cola-sabor-original-220-ml
 00900|Gaseosa Cola Pepsi Black 2.25 L|144.61||||Bebidas > Gaseosas > Cola|Gaseosa-512-512|gaseosa-cola-pepsi-black-2-25-l
 00901|Gaseosa Cola Pepsi Black 1.5 L|107.12||||Bebidas > Gaseosas > Cola|Gaseosa-512-512|gaseosa-cola-pepsi-black-1-5-l
 00902|Gaseosa Cunnington Cola S/azucar 2250cc|65.75||||Bebidas > Gaseosas > Cola|Cunnington-512-512|gaseosa-cunnington-cola-s-azucar-2250cc
-00903|Gaseosa Coca-cola Sabor Original 354 Ml|48.2||||Bebidas > Gaseosas > Cola|Coca-512-512|gaseosa-coca-cola-sabor-original-354-ml
-00904|Gaseosa Coca-cola Sin Azúcar 500 Ml|58.92||||Bebidas > Gaseosas > Cola|Coca-512-512|gaseosa-coca-cola-sin-azucar-500-ml
 00905|Gaseosa Coca-cola Light 354 Ml|48.2||||Bebidas > Gaseosas > Cola|Coca-512-512|gaseosa-coca-cola-light-354-ml
-00906|Gaseosa Coca-cola Sabor Original 500 Ml|58.92||||Bebidas > Gaseosas > Cola|Coca-512-512|gaseosa-coca-cola-sabor-original-500-ml
-00907|Gaseosa Coca-cola Sin Azúcar 354 Ml|48.2||||Bebidas > Gaseosas > Cola|Coca-512-512|gaseosa-coca-cola-sin-azucar-354-ml
 00908|Gaseosa Cola Pepsi 2.25l|144.61||||Bebidas > Gaseosas > Cola|Gaseosa-512-512|gaseosa-cola-pepsi-2-25l
 00910|Guaraná Antarctica Sin Azucar 1.5l|61.8||||Bebidas > Gaseosas > Guaraná|Guarana-512-512|guarana-antarctica-sin-azucar-1-5l-2
 00911|""|0||||Bebidas > Gaseosas > Guaraná||""
@@ -984,7 +977,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 01055|Champaña Chandon Extra Brut 750 Cc|518.13||||Bebidas > Champagnes|Champa-512-512|champana-chandon-extra-brut-2
 01056|Espumante Latitud 33° Extra Brut 750 Ml|314.18||||Bebidas > Champagnes|Champa-512-512|espumante-latitud-33-extra-brut-750-ml
 01057|Espumante Chandon Apéritif 750 Ml|518.13||||Bebidas > Champagnes|Champa-512-512|espumante-chandon-aperitif-750-ml
-01058|Espumante Chandon Brut Rosé 375 Ml|281.11||||Bebidas > Champagnes|Champa-512-512|espumante-chandon-brut-rose-375-ml
 01059|Espumante Brut Nature Rose Salentein 750 Ml|578.76||||Bebidas > Champagnes|Vino-512-512|espumante-brut-nature-rose-salentein-750-ml
 01060|Champaña Chandon Extra Brut 187 Cc - 4 U|578.76||||Bebidas > Champagnes|Champa-512-512|champana-chandon-extra-brut-four-pack
 01061|Espumante Brut Nature Salentein 750 Ml|578.76||||Bebidas > Champagnes|Vino-512-512|espumante-brut-nature-salentein-750-ml
@@ -1260,7 +1252,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 01354|Hummus Kyros Clasico 230 Gr|160.68||||Quesos y Fiambres > Quesos > Quesos Especiales e Importados|Hummus-512-512|hummus-kyros-clasico-230-gr
 01355|Queso Brie Wapi Leche De Vaca 100 Gr|296.74||||Quesos y Fiambres > Quesos > Quesos Especiales e Importados|Queso-512-512|queso-brie-wapi
 01356|Queso Jumbo Mascarpone 200 Gr|90.13||||Quesos y Fiambres > Quesos > Quesos Especiales e Importados|Queso-512-512|queso-mascarpone-jumbo
-01357|Queso Camembert President 125 Gr|350.19||||Quesos y Fiambres > Quesos > Quesos Especiales e Importados|Queso-512-512|queso-camembert-president
 01358|Queso Wapi Brie Pieza 1 Kg|1.816||||Quesos y Fiambres > Quesos > Quesos Especiales e Importados|Queso-512-512|queso-wapi
 01359|Queso Ile De France Brie Au Bleu 125 Gr|404.85||||Quesos y Fiambres > Quesos > Quesos Especiales e Importados|Queso-512-512|queso-ile-de-france-3
 01360|Queso Ile De France Brie 125 Gr|404.85||||Quesos y Fiambres > Quesos > Quesos Especiales e Importados|Queso-512-512|queso-ile-de-france-2
@@ -1459,7 +1450,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 01563|Yog Desc Yogurisimo Firme Vain 190g|81.6||||Lácteos > Yogures > Yogures Descremados|Yog-512-512|yog-desc-yogurisimo-firme-vain-190g
 01564|Yogur Ser Batido Con Frutas Frutos Rojos 120 Gr|42.0||||Lácteos > Yogures > Yogures Descremados|Yogur-512-512|yogur-ser-batido-con-frutas-frutos-rojos-120-gr
 01566|Yogur Activia Descremado Desc Bebible Deslact Ciruela Sachet 1kg|152.34||||Lácteos > Yogures > Yogures Descremados|Yogur-512-512|yogur-activia-descremado-desc-bebible-deslact-ciruela-sachet-1kg
-01567|Yogur Activia Descremado Bebible Deslact Frut Sachet 1kg|152.34||||Lácteos > Yogures > Yogures Descremados|Yogur-512-512|yogur-activia-descremado-bebible-deslact-frut-sachet-1kg
 01570|Yogur Entero  Yogurisimo Firme Vainilla 480 Gr|136.75||||Lácteos > Yogures > Yogures Enteros|Yogur-512-512|yogur-entero-yogurisimo-firme-vainilla-480-gr
 01571|""|0||||Lácteos > Yogures > Yogures Enteros||""
 01572|Yogur Yogurisimo Batido Natural Endulzado 190 Gr|74.59||||Lácteos > Yogures > Yogures Enteros|Yogur-512-512|yogur-yogurisimo-batido-natural-endulzado-190-gr
@@ -1479,7 +1469,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 01586|Yogurt Entero Yogs Bebible Vainilla 1 Kg|108.21||||Lácteos > Yogures > Yogures Enteros|Yogurt-512-512|yogur-entero-yogs-bebible
 01587|Yogur Yogurisimo Firme Frutilla 120 Gr|42.0||||Lácteos > Yogures > Yogures Enteros|Yogur-512-512|yogur-yogurisimo-firme-frutilla-120-gr
 01588|Yogur Entero Yogurisimo Cremix - Vainilla  120gr|42.02||||Lácteos > Yogures > Yogures Enteros|Yogur-512-512|yogur-entero-yogurisimo-cremix-vainilla-x-120grs
-01589|Empanadas Congeladas Mi Gusto  X 6u   Caja X|520.91||||Congelados > Comidas Congeladas > Empanadas y Tartas|Empanadas-512-512|empanadas-congeladas-mi-gusto-x-6u-caja-x
 01590|""|0||||Congelados > Comidas Congeladas > Empanadas y Tartas||""
 01591|Tarta 'el Noble' Jamón Y Queso 240 Gr|232.68||||Congelados > Comidas Congeladas > Empanadas y Tartas|Tarta-512-512|tarta-el-noble-jamon-y-queso-240-gr
 01592|Empanadas 'el Noble' De Pollo Y Barbacoa 320 Gr|221.6||||Congelados > Comidas Congeladas > Empanadas y Tartas|Empanadas-512-512|empanadas-el-noble-de-pollo-y-barbacoa-320-gr
@@ -1496,6 +1485,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 01603|Empanada De Verdura Pietro X 4u - 340 Gr|299.2||||Congelados > Comidas Congeladas > Empanadas y Tartas|Empanada-512-512|empanada-de-verdura-pietro-x-4u-340-gr
 01604|Empanada De Pollo Pietro X 4u - 340 Gr|299.2||||Congelados > Comidas Congeladas > Empanadas y Tartas|Empanada-512-512|empanada-de-pollo-pietro-x-4u-340-gr
 01605|Empanadas De Carne Y Acelga Fu Bao  X 276grs|243.88||||Congelados > Comidas Congeladas > Empanadas y Tartas|Empanadas-512-512|empanadas-de-carne-y-acelga-fu-bao-x-276grs
+01606|Tarta De Atun Fausto Artico 280 Gr|210.62||||Congelados > Comidas Congeladas > Empanadas y Tartas|Tarta-512-512|tarta-de-atun-fausto-artico-280-gr
 01609|""|0||||Congelados > Frutas||""
 01610|Frutillas + Duraznos Congelados Karinat 300 Gr|226.88||||Congelados > Frutas|Frutillas-512-512|frutilla-durazno-congelados-karinat-x-300-gr
 01611|Arándanos Karinat 600 Gr|366.24||||Congelados > Frutas|Arandanos-512-512|arandanos-karinat
@@ -1682,11 +1672,8 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 01814|Renovador Wassington S.o.s.-marron-180 Cc-aer-cc.-180|374.79||||Limpieza > Calzado > Brillos y Revividores|Renovador-512-512|renovador-wassington-s-o-s-3
 01815|Renovador Wassington S.o.s Incoloro 180 Cc|374.79||||Limpieza > Calzado > Brillos y Revividores|Renovador-512-512|renovador-wassington-s-o-s-2
 01816|Autobrillo Para Cuero Cobra Negro 60 Cc|248.11||||Limpieza > Calzado > Brillos y Revividores|Autobrillo-512-512|autobrillo-para-cuero-cobra-2
-01817|Limpiador Para Calzado Cobra Blanco 60 Cc|248.11||||Limpieza > Calzado > Limpiadores|Limpiador-512-512|limpiador-para-calzado-cobra
-01818|""|0||||Limpieza > Calzado > Limpiadores||""
 01819|Franela Jumbo Home Care|169.0||||Limpieza > Accesorios de Limpieza > Trapos de Piso|Franela-512-512|franela-jumbo-home-care
 01820|""|0||||Limpieza > Accesorios de Limpieza > Trapos de Piso||""
-01821|Trapo De Piso Jumbo Home Care|129.0||||Limpieza > Accesorios de Limpieza > Trapos de Piso|Trapo-512-512|trapo-de-piso-jumbo-home-care-gris
 01822|Trapo De Piso Jumbo Home Care|189.0||||Limpieza > Accesorios de Limpieza > Trapos de Piso|Trapo-512-512|trapo-de-piso-jumbo-home-care-blanco
 01823|Trapo Para Piso Blanco Ref. Premium 48 X 60 Cm|205.0||||Limpieza > Accesorios de Limpieza > Trapos de Piso|Trapo-512-512|trapo-para-piso-blanco-ref-premium-48-x-60-cm
 01824|Rejilla Ranchera 30 X 33 Cm|102.0||||Limpieza > Accesorios de Limpieza > Trapos de Piso|Ranchera-512-512|rejilla-ranchera-30-x-33-cm
@@ -1701,6 +1688,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 01834|Trapo De Piso Media Naranja Reforzado Clásico|158.19||||Limpieza > Accesorios de Limpieza > Trapos de Piso|Trapo-512-512|trapo-piso-media-naranja-m-blanco
 01835|Trapo De Piso Media Naranja Reforzado Superior|139.0||||Limpieza > Accesorios de Limpieza > Trapos de Piso|Trapo-512-512|trapo-piso-media-naranja-g-blanco
 01836|Rejilla Pol-tex Nico Color|219.0||||Limpieza > Accesorios de Limpieza > Trapos de Piso|Rejilla-512-512|rejilla-pol-tex
+01837|Franela Media Naranja Clásica 50 X 50 Cm|105.0||||Limpieza > Accesorios de Limpieza > Trapos de Piso|Franela-512-512|franela-media-naranja
 01838|Jabón En Pan Ala Multiacción 200 Gr|58.07||||Limpieza > Cuidado Para La Ropa > Jabón en Pan|Ala-512-512|ala-jabon-para-ropa-en-pan-multiaccion-200-gr
 01839|""|0||||Limpieza > Cuidado Para La Ropa > Jabón en Pan||""
 01840|Jabón De Lavar Gran Federal Máxima Blancura 2 X 150 Gr|92.91||||Limpieza > Cuidado Para La Ropa > Jabón en Pan|Jabon-512-512|jabon-de-lavar-gran-federal-maxima-blancura-2x150g
@@ -1896,7 +1884,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 02042|Detergente Concentrado Cif Active Gel Limón Verde Repuesto 450 Ml|78.13||||Limpieza > Limpieza de Cocina > Detergentes|Detergente-512-512|detergente-concentrado-cif-active-gel-limon-verde-repuesto-450-ml
 02043|Detergente Concentrado Cif Active Gel Limón Repuesto 450 Ml|79.19||||Limpieza > Limpieza de Cocina > Detergentes|Detergente-512-512|detergente-concentrado-cif-active-gel-limon-repuesto-450-ml
 02044|Detergente Concentrado Cif Active Gel Limón 750 Ml|179.48||||Limpieza > Limpieza de Cocina > Detergentes|Detergente-512-512|detergente-concentrado-cif-active-gel-limon-750-ml
-02045|Detergente Lavavajillas Magistral 900 Ml|258.66||||Limpieza > Limpieza de Cocina > Detergentes|Detergente-512-512|detergente-lavavajillas-magistral-21
 02046|Detergente Lavavajilla Ala Cremoso Aloe Vera 750 Ml|76.01||||Limpieza > Limpieza de Cocina > Detergentes|Detergente-512-512|ala-lavavajillas-regular-cristalino-botella-aloe-vera-750ml
 02047|Det Lavavajilla Cif Active Gel Menta Y Limón|149.92||||Limpieza > Limpieza de Cocina > Detergentes|Det-512-512|det-lavavajilla-cif-active-gel-menta-y-limon-3
 02048|Detergente Lavavajilla Cif Citrica 500 Ml|96.08||||Limpieza > Limpieza de Cocina > Detergentes|Detergente-512-512|det-lavavajilla-cif-active-gel-citrica-500-ml
@@ -1974,7 +1961,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 02125|Limpiador De Pisos Poett Bebé 1800 Ml|120.36||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|Limpiador-512-512|limpiador-de-pisos-poett-bebe-1800-ml
 02126|Limpiador De Pisos Cif Oxygel Botella 2 Lts|311.45||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|Limpiador-512-512|cif-limpiador-de-pisos-oxygel-botella-2lt
 02127|Limpiador Líquido Lysofrm Citric - 420 Ml|91.86||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|Lysoform-512-512|limpiador-liquido-lysofrm-citric-420-ml
-02129|Lustramuebles Aerosol Ceramicol 360 Ml|129.86||||Limpieza > Limpieza de Pisos y Muebles > Lustramuebles|Lustramueble-512-512|lustramuebles-aerosol-ceramicol-360-ml
 02130|""|0||||Limpieza > Limpieza de Pisos y Muebles > Lustramuebles||""
 02131|Lustramuebles Blem Aerosol Bonus Pack-bonuspack-aer-ml.-420|180.51||||Limpieza > Limpieza de Pisos y Muebles > Lustramuebles|Lustramuebles-512-512|lustramuebles-blem-aerosol-bonus-pack
 02132|Lustramuebles Crema Blem 200 Ml|108.75||||Limpieza > Limpieza de Pisos y Muebles > Lustramuebles|Lustramueble-512-512|lustramuebles-crema-blem-200-ml
@@ -1991,7 +1977,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 11688|Salsa Tau Delta Teriyaky 320 Gr|160.22||||Almacén > Aderezos > Salsas Frías|Salsa-512-512|salsa-tau-delta-teriyaky-320-gr
 11689|Arroz Apostoles Parboil 1 Kg|73.3||||Almacén > Arroz y Legumbres > Arroz|Arroz-512-512|arroz-apostoles-parboil-1-kg
 11690|Lentejas Los Silos X 350 Gr|127.54||||Almacén > Arroz y Legumbres > Legumbres|Lentejas-512-512|lentejas-los-silos-x-350-gr
-11691|Té Saint Gottard Manzanilla Canela Y Miel-20 Saquitos|101.57||||Almacén > Desayuno y Merienda > Tés|Te-512-512|te-saint-gottard-manzanilla-canela-y-miel-20-saquitos
 11692|Vizzio Almendras Con Chocolate X140g|344.0||||Almacén > Golosinas y Chocolates > Turrones y Grageas|Vizzio-512-512|vizzio-almendras-con-chocolate-x140g
 11693|Sal Genser 300 Gr|194.55||||Almacén > Sal, Pimienta y Especias > Sal|Sal-512-512|sal-genser-modificada-x-300-gr-2
 11694|Caldo Knorr Menos Sodio Verduras 115 Gr|85.31||||Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|Caldo-512-512|caldo-knorr-menos-sodio-verduras
@@ -2026,20 +2011,18 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 11725|Lysoform Aerosol Original 285 Ml|121.42||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|Lysoform-512-512|lysoform-aerosol-original-285-ml
 11726|Desodorante De Ambientes Poett Música De Prima|107.69||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|Desodorante-512-512|desodorante-de-ambientes-poett-musica-de-prima
 11727|Repelente De Insectos Off! Crema Kids 90 Gr|182.65||||Limpieza > Insecticidas > Repelentes|Repelente-512-512|repelente-de-insectos-off-crema-kids-90gr
+11728|Detergente Lavavajilla Ala Cremoso Glicerina 4 Lt|427.58||||Limpieza > Limpieza de Cocina > Detergentes|Detergente-512-512|ala-lavavajillas-regular-cremoso-botella-glicerina-4lt
 11729|Ultra Brillo Cif Pack Gatillo  Rep|240.39||||Limpieza > Limpieza de Pisos y Muebles > Lustramuebles|Ultra-512-512|ultra-brillo-cif-pack-gatillo-rep
 11730|Limpiador De Pisos Poett Primavera 4 L|279.78||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|Limpiador-512-512|limpiador-de-pisos-poett-primavera-4-l
 11731|Aceite De Oliva Oliovita Coratina|522.39||||Almacén > Aceites y Vinagres > Aceites Especiales|Aceite-512-512|aceite-de-oliva-oliovita-coratina
-11732|Aceite De Oliva Zuelo Extra Virgen Clásico 500 Ml|562.22||||Almacén > Aceites y Vinagres > Aceites Especiales|Aceite-512-512|aceite-de-oliva-zuelo-x-500-cc
 11733|Aceite Girasol Primor 1,5 L|142.0||||Almacén > Aceites y Vinagres > Aceites Comunes|Aceite-512-512|aceite-girasol-primor-1-5-l
 11735|Vinagre De Alcohol Jumbo 1 L|91.04||||Almacén > Aceites y Vinagres > Vinagres|Vinagre-512-512|vinagre-de-alcohol-jumbo
 11736|Endulzante Hileret Sweet X 400 Ml|188.06||||Almacén > Desayuno y Merienda > Azúcar y Edulcorantes|Endulzante-512-512|endulzante-hileret-sweet-x-400-ml
 11737|Galletitas Frutigran Avena Y Pasas 250 Gr|93.89||||Almacén > Desayuno y Merienda > Galletitas Dulces|Galletitas-512-512|galletitas-granix-frutigran
-11738|Vainillas Jumbo 480 Gr|112.48||||Almacén > Desayuno y Merienda > Galletitas Dulces|Vainillas-512-512|vainillas-jumbo-x-480-gr
 11740|Cereales Trix 230 Gr|219.6||||Almacén > Desayuno y Merienda > Cereales|Cereales-512-512|cereales-trix-230-gr-2
 11741|Cereales Trix 480 Gr|370.64||||Almacén > Desayuno y Merienda > Cereales|Cereales-512-512|cereales-trix-480-gr-2
 11742|Alfajor De Arroz Dos Hermanos Negro 72 Gr|94.68||||Almacén > Golosinas y Chocolates > Alfajores|Alfajor-512-512|alfajor-de-arroz-dos-hermanos-negro
 11743|Alfajores Mini Negros Con Mousse Jorgito 128 Gr|104.96||||Almacén > Golosinas y Chocolates > Alfajores|Alfajores-512-512|alfajores-jorgito-negros-con-mousse
-11744|Alfajores Chocolate Blanco Cachafaz 6 Unidades 360 Gr|404.48||||Almacén > Golosinas y Chocolates > Alfajores|Alfajor-512-512|alfajor-cachafaz-chocolate-blanco-x360gr
 11746|Turron Bariloche Mani Crocante Tableta 100 Gr|103.0||||Almacén > Golosinas y Chocolates > Turrones y Grageas|Turron-512-512|turron-bariloche-de-mani-x-100-gr-2
 11747|Sal Celusal Gruesa X500gr|29.13||||Almacén > Sal, Pimienta y Especias > Sal|Sal-512-512|sal-celusal-gruesa-x500gr
 11748|Chips De Remolacha Y Batata Raices 180 Gr|54.1||||Almacén > Snacks > Snacks|Chips-512-512|chips-de-remolacha-y-batata-raices
@@ -2080,15 +2063,12 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 11791|Pudding 100 Ducados Chocolate C/chips X300gr|154.5||||Almacén > Desayuno y Merienda > Bizcochuelos, Budines y Magdalenas|Pudding-512-512|pudding-100-ducados-chocolate-c-chips-x300gr
 11792|Café La Morenita Molido Intenso 1 Kg|476.3||||Almacén > Desayuno y Merienda > Cafés|Cafe-512-512|cafe-la-morenita-molido-x1kg
 11793|Tostadas Finas clásicas 140 Gr Cuisine & Co|112.48||||Almacén > Desayuno y Merienda > Galletitas Saladas|Tostadas-512-512|tostadas-finas-clasicas-140-gr-cuisine-co
-11794|Dulce Masseube Orgánico Frambuesa X 350 Gr|303.62||||Almacén > Desayuno y Merienda > Mermeladas y Jaleas|Dulce-512-512|dulce-masseube-organico-frambuesa-x-350-gr
-11795|Mermelada Bc Durazno Maracuya 390 Gr|133.43||||Almacén > Desayuno y Merienda > Mermeladas y Jaleas|Mermelada-512-512|mermelada-bc-durazno-maracuya-390-gr
 11796|Yerba Mate Tradicional Cruz De Malta|128.49||||Almacén > Desayuno y Merienda > Yerbas|Yerba-512-512|yerba-mate-tradicional-cruz-de-malta
 11797|Pasas De Uva Vizzio X100gr|164.37||||Almacén > Golosinas y Chocolates > Bocaditos y Postres|Pasas-512-512|pasas-de-uva-vizzio-x100gr
 11798|Turrón De Artesano Alicante - 150 Gr|420.0||||Almacén > Golosinas y Chocolates > Turrones y Grageas|Turron-512-512|turron-de-artesano-alicante-150-gr
 11799|Tu Polenta - Tradicional Cuisine & Co 1 Kg|77.25||||Almacén > Harinas > Harinas|Tu-512-512|tu-polenta-tradicional-cuisine-co-1-kg
 11800|Caramelos Arcor Rellenos Frutales 150 Gr|104.8||||Almacén > Golosinas y Chocolates > Caramelos y Chicles|Caramelos-512-512|caramelos-arcor-duros-rellenos-x-150-gr-3
 11801|Caramelos Arcor Rellenos Miel 150 Gr|104.8||||Almacén > Golosinas y Chocolates > Caramelos y Chicles|Caramelos-512-512|caramelos-arcor-duros-rellenos-x-150-gr-2
-11802|Caramelos Arcor Rellenos Menta Chocolate 150 Gr|104.8||||Almacén > Golosinas y Chocolates > Caramelos y Chicles|Caramelos-512-512|caramelos-arcor-duros-rellenos-x-150-gr
 11803|Pimenton La Campagnola X50gr|64.5||||Almacén > Sal, Pimienta y Especias > Especias|Pimenton-512-512|pimenton-la-campagnola-x50gr
 11804|Chips De Papas Con Pimienta Negra Y Sal Marina|54.1||||Almacén > Snacks > Snacks|Chips-512-512|chips-de-papas-con-pimienta-negra-y-sal-marina
 11805|Salsa De Soja Lee Kum Kee Clasica 500cc|344.12||||Almacén > Importados|Salsa-512-512|salsa-de-soja-lee-kum-kee-clasica-500cc
@@ -2113,7 +2093,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 11826|Milanesa Carne Union Ganadera Peceto|472.77||||Congelados > Hamburguesas y Milanesas|Milanesa-512-512|milanesa-carne-union-ganadera-peceto
 11827|Empanadas De Jamón Y Queso Por U|58.0||||Comidas Preparadas > Menú Caliente|Empanadas-512-512|empanadas-r-10
 11828|Trapo De Piso Media Naranja Reforzado Profesional|115.0||||Limpieza > Accesorios de Limpieza > Trapos de Piso|Trapo-512-512|trapo-piso-media-naranja-l
-11829|Ala Camellito Jabón Para Ropa Fina Clásico 900 Ml|193.21||||Limpieza > Cuidado Para La Ropa > Detergente Para Ropa|Ala-512-512|ala-camellito-jabon-para-ropa-ropa-fina-clasico-lavado-a-mano-repuesto-900ml
 11830|Suavizante Comfort Concentrado Intense 1 L|490.93||||Limpieza > Cuidado Para La Ropa > Suavizantes|Suavizante-512-512|suavizante-comfort-concentrado-intense-1-l
 11831|Aromatizante En Gel Glade Sensations Car Repuesto Auto Nuevo|167.87||||Limpieza > Desodorantes de Ambiente > Aromatizantes|Desodorante-512-512|aromatizante-en-gel-glade-sensations-car-repuesto-auto-nuevo
 11832|Aromatizante Glade Toque Repuesto 9  Gredición Limitada|108.75||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|Desodorante-512-512|aromatizante-glade-toque-repuesto-9-gredicion-limitada-2
@@ -2141,3 +2120,20 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 11855|Milanesa De Soja Tipo Casera Granja Del Sol 4 U 330 Gr|167.29||||Congelados > Vegetales|Milanesa-512-512|milanesa-de-soja-tipo-casera-granja-del-sol-4-u-330-gr
 11856|Milanesa De Soja Con Espinaca Granja Del Sol 4 U 330 Gr|178.31||||Congelados > Vegetales|Milanesa-512-512|milanesa-de-soja-con-espinaca-granja-del-sol-4-u-330-gr
 11857|Milanesa De Soja Con Calabaza Granja Del Sol 4 U 330 Gr|178.31||||Congelados > Vegetales|Milanesa-512-512|milanesa-de-soja-con-calabaza-granja-del-sol-4-u-330-gr
+11858|Cereales Nesquik 230 Gr|214.24||||Almacén > Desayuno y Merienda > Cereales|Cereales-512-512|cereales-nesquik-230-gr-2
+11859|Té Saint Gottard Frutos Del Bosque 20 U|348.05||||Almacén > Desayuno y Merienda > Tés|Te-512-512|te-saint-gottard-frutos-del-bosque-20-u
+11860|Alfajor Suchard Mousse 50 Gr X 6 U|211.99||||Almacén > Golosinas y Chocolates > Alfajores|Alfajor-512-512|alfajos-suchard-chocolate-paq6x50gr
+11861|Galletitas Rhodesia Bañadas 729 Gr|1.255||||Almacén > Golosinas y Chocolates > Bocaditos y Postres|Galletitas-512-512|galletitas-rhodesia-banadas-x792gr
+11862|Chocolate Amargo Nestlé Classic 90 Gr|173.35||||Almacén > Golosinas y Chocolates > Chocolates|Chocolate-512-512|chocolate-amargo-nestle-classic-90-gr
+11863|Super Conos Maxi Queso|55.66||||Almacén > Snacks > Snacks|Super-512-512|super-conos-maxi-queso
+11864|Gaseosa Coca-cola Sin Azúcar 1.5 L|117.83||||Bebidas > Gaseosas > Cola|Gaseosa-512-512|gaseosa-coca-cola-sin-azucar-1-5-l
+11865|Gaseosa Coca-cola Light 1.5 L|90.64||||Bebidas > Gaseosas > Cola|Gaseosa-512-512|gaseosa-coca-cola-light-1-5-l
+11866|Gaseosa Coca-cola Sin Azúcar 220 Ml|37.49||||Bebidas > Gaseosas > Cola|Gaseosa-512-512|gaseosa-coca-cola-sin-azucar-220-ml
+11867|Gaseosa Coca-cola Sabor Original 354 Ml|48.2||||Bebidas > Gaseosas > Cola|Gaseosa-512-512|gaseosa-coca-cola-sabor-original-354-ml
+11868|Gaseosa Coca-cola Sin Azúcar 500 Ml|58.92||||Bebidas > Gaseosas > Cola|Gaseosa-512-512|gaseosa-coca-cola-sin-azucar-500-ml
+11869|Gaseosa Coca-cola Sabor Original 500 Ml|58.92||||Bebidas > Gaseosas > Cola|Gaseosa-512-512|gaseosa-coca-cola-sabor-original-500-ml
+11870|Gaseosa Coca-cola Sin Azúcar 354 Ml|48.2||||Bebidas > Gaseosas > Cola|Gaseosa-512-512|gaseosa-coca-cola-sin-azucar-354-ml
+11871|Champaña Mumm Cuvee Extra Brut 187 Cc|116.85||||Bebidas > Champagnes|Champaña-512-512|champana-cuvee-mumm-extra-brut-x-187cc
+11872|Queso Gouda Arla Feteado 150 Gr|479.0||||Quesos y Fiambres > Quesos > Quesos Especiales e Importados|Queso-512-512|queso-gouda-arla-feteado-x-150-gr
+11873|Yogurisimo Des Cremix Frutilla 120 Grs|47.0||||Lácteos > Yogures > Yogures Descremados|Yogurisimo-512-512|yogurisimo-des-cremix-frutilla-120-grs
+11874|Ariel Jabón Líquido Para Ropa Concentrado 1,2 L|522.6||||Limpieza > Cuidado Para La Ropa > Detergente Para Ropa|Ariel-512-512|ariel-concentrado-30-lavados-1200mlx6it

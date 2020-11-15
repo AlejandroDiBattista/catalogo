@@ -34,7 +34,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00033|Mayonesa Hellmann's Doypack 237 Gr|55.9||||Almacén > Aderezos|14981-4ed755d6bfbf02b8f615989735589658-480-0.jpg|productos/mayonesa-hellmanns-doypack-237-gr/
 00034|Mayonesa Hellmann's Burgerhouse 940 Gr|209.1||||Almacén > Aderezos|mayonesa-hellmann-s-burgerhouse-940g_172939921_77940000021801-74f443db6c8195d11316001851456729-480-0.png|productos/may-hellmanns-burgerhouse-940-gr/
 00035|Kétchup Hellmann's Doypack 500 Gr|187.1||||Almacén > Aderezos|209691-1f4f7c316d3599e6a916001849670525-480-0.jpg|productos/ketchup-hellmanns-d-p-500-gr/
-00036|Mayonesa Hellmann's Suave Doypack 485 Gr|91.1||||Almacén > Aderezos|5252831-7e87873b05dbcb935816010375343749-480-0.jpg|productos/may-hellmanns-ac-palta-242-gr/
 00037|Oblea Nugaton Leche 27 Gr|48.5||||Almacén > Galletas y Cereales|1221511-eeaca7ca177da77d9815989996596078-480-0.jpg|productos/oblea-nugaton-leche-27-gr/
 00038|Galletitas Terrabusi Variedad 400 Gr|92.7||||Almacén > Galletas y Cereales|209851-0f2bd8eb8fc27fb6db15988923475671-480-0.jpg|productos/gal-terrabusi-variedad-400-gr/
 00039|Galletitas Pepitos 118 Gr|62.4||||Almacén > Galletas y Cereales|75471-947736715d10244e2615988919945740-480-0.jpg|productos/gal-pepitos-118-gr/
@@ -59,7 +58,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00058|Edulcorante Sucaryl Polvo 100 Sobres|99.0||||Almacén > Azúcar y Edulcorantes|159911-2e8ab5c0c61d77dbd615990676195191-480-0.jpg|productos/edulc-sucaryl-pvo-100-so/
 00059|AZUCAR HILERET LIGHT 500 GR|123.0||||Almacén > Azúcar y Edulcorantes|430971-f19b9e89a22390eeb416037392104758-480-0.jpg|productos/azucar-hileret-light-500-gr/
 00060|Azúcar Independencia x Kg.|49.0||||Almacén > Azúcar y Edulcorantes|azucar-independecia-1kg-pagina1-771dfc725061e4bf9b15967398636528-480-01-29edfae32711a487f416031960452815-480-0.png|productos/azucar-independencia-x-kg/
-00061|Atún Gomes Da Costa Natural trozo 170 Gr|159.6||||Almacén > Conservas|140121-59ead476c816119f8515988319503556-480-0.jpg|productos/atun-g-d-costa-nat-trozo-170-gr/
+00061|Atún Gomes Da Costa Natural trozo 170 Gr|164.3||||Almacén > Conservas|140121-59ead476c816119f8515988319503556-480-0.jpg|productos/atun-g-d-costa-nat-trozo-170-gr/
 00062|Arvejas Molto Recart. 340 grs|33.7||||Almacén > Conservas|216381-5d9ae1d72c20e1d76715989652695507-480-0.jpg|productos/arvejas-molto-recart-340-gr/
 00063|Choclo Bahía Grano Amarillo 320 Gr|77.9||||Almacén > Conservas|136751-0f1df930ab8c244c3e15989666704978-480-0.jpg|productos/choclo-bahia-gra-amar-320-gr/
 00064|Atún La Campagnola Aceite 170 Gr|199.5||||Almacén > Conservas|2971-a72eaaaa94de931ff515988320272044-480-0.jpg|productos/atun-campagn-ac-170-gr/
@@ -81,7 +80,6 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00080|Garbanzo Marolio 500 grs|52.6||||Almacén > Arroz y Legumbres|190121-638eb9a3ee5bbd7c4815989076527919-480-0.jpg|productos/garbanzo-marolio-500-grs/
 00081|Maíz Marolio Pisingallo 400 grs|50.6||||Almacén > Arroz y Legumbres|190071-617507f0753053afc415989719234832-480-0.jpg|productos/maiz-marolio-pisingallo-400-grs/
 00082|Arroz Gallo Largo 500 Gr|58.4||||Almacén > Arroz y Legumbres|2361-66917ee99b3ca4659915988780877699-480-0.jpg|productos/arr-gallo-g-largo-500-gr/
-00083|ARROZ PREPARADO GALLO SABOR VERDEO X 240 GR|96.0||||Almacén > Arroz y Legumbres|arroz-preparado-gallo-sabor-verdeo-x-240-gr1-0e59360ef75b70453116037380840707-480-0.jpg|productos/arroz-preparado-gallo-sabor-verdeo-x-240-gr/
 00084|Arroz Ala Integral 500 Gr|55.0||||Almacén > Arroz y Legumbres|240961-1f7612a5de2d5c323216033929063948-480-0.jpg|productos/arroz-ala-integral-500-gr/
 00085|Aceite Cocinero Girasol 900 Cc|124.1||||Almacén > Aceites y Vinagres|3001-080de979d923e98d4615990022278095-480-0.jpg|productos/ac-cocinero-girasol-900-cc/
 00086|Aceite Natura Girasol 1,5 Lt|199.0||||Almacén > Aceites y Vinagres|1241-124ae2fb728b35be9415988859531149-480-0.jpg|productos/ac-natura-girasol-pvc-1-5-lt/
@@ -133,12 +131,12 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00132|Té Green Hills 25 Un|55.7||||Almacén > Infusiones|25071-be6ea0ce7e89f6005315990735383998-480-0.jpg|productos/te-gr-hills-25-un/
 00133|Yerba Cachamate 500 Gr|144.0||||Almacén > Infusiones|89301-8ac12534e093e93e8015988896922297-480-0.jpg|productos/yerba-cachamate-500-gr/
 00134|Mate Cocido La Tranquera 25 Un|65.3||||Almacén > Infusiones|26461-de9ae72d54f9e4dbc415988908995899-480-0.jpg|productos/yer-saq-l-tranque-25-un/
-00135|Mate Cocido Cruz Malta 25 Un|55.3||||Almacén > Infusiones|186611-ab7d23eb675125ee5415989999393489-480-0.jpg|productos/yer-saq-cruz-malta-25-un/
+00135|Mate Cocido Cruz Malta 25 Un|55.8||||Almacén > Infusiones|186611-ab7d23eb675125ee5415989999393489-480-0.jpg|productos/yer-saq-cruz-malta-25-un/
 00136|Yerba Nobleza Gaucha Azul 500 Gr|142.9||||Almacén > Infusiones|160171-81cf4465dbe37465ff15989665135259-480-0.jpg|productos/yerba-n-gaucha-azul-500-gr/
 00137|Té La Virginia Verde 20 Un|80.5||||Almacén > Infusiones|134371-c7762f00aff2ecd64615988885429321-480-0.jpg|productos/te-l-virginia-verde-20-un/
 00138|Café Dolca Suave 170 Gr|335.0||||Almacén > Infusiones|194461-981ba7994ca601098915988354727190-480-0.jpg|productos/cafe-dolca-renov-suave-170-gr/
 00139|Té Taragui Mezc. Diges 10 un|45.8||||Almacén > Infusiones|11481-028e0eac2c3620aa6815992482798635-480-0.jpg|productos/te-taragui-mezc-diges-10-un/
-00140|Yerba Verdeflor Compuesta 500 Gr|134.4||||Almacén > Infusiones|58931-03ffa042a348c13f4815988898874725-480-0.jpg|productos/yerba-verdeflor-compuesta-500-gr/
+00140|Yerba Verdeflor Compuesta 500 Gr|144.0||||Almacén > Infusiones|58931-03ffa042a348c13f4815988898874725-480-0.jpg|productos/yerba-verdeflor-compuesta-500-gr/
 00141|Yerba Taraguí 1 Kg|352.0||||Almacén > Infusiones|560111-7a7bd8e723714220a915989999921088-480-0.jpg|productos/yerba-taragui-1-kg/
 00142|Fideos Knorr Tallarín 500 Gr|67.9||||Almacén > Pastas Secas|194531-a85440a9277c2313ee15988903182101-480-0.jpg|productos/fid-knorr-tallarin-500-gr/
 00143|Fideos Lucchetti Mostachol 500 Gr|55.9||||Almacén > Pastas Secas|3001511-4834202cb3766bb78115990013339784-480-0.jpg|productos/fid-lucchetti-mostachol-500-gr/
@@ -188,7 +186,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00187|Pan Lactal Hamburguesa 210 Gr|70.3||||Almacén > Panificados y Rebozadores|203591-abb642b24d4dab9e5c15990683262037-480-0.jpg|productos/pan-lactal-hamburguesa-210-gr/
 00188|Rebozador Preferido 1 Kg|151.3||||Almacén > Panificados y Rebozadores|15811-d609f6654fdc3cce8d15990846469249-480-0.jpg|productos/rebozad-preferido-1-kg/
 00189|Rebozador Mama Cocina Plus Freir 500 Gr|64.9||||Almacén > Panificados y Rebozadores|133771-170ee58ee52d00c0fd15990903498073-480-0.jpg|productos/rebozad-mam-cocina-plus-freir-500-gr/
-00190|Agua Ser Sin Gas - Bajo Sodio 1,5 l.|49.0||||Bebidas > Aguas sin Gas|d_nq_np_713550-mla42181488264_062020-o1-bd0495325cfdb9aad016019945936227-480-0.jpg|productos/agua-min-ser-bajo-sodio-1500-cc/
+00190|Agua Ser Sin Gas - Bajo Sodio 1,5 l.|51.9||||Bebidas > Aguas sin Gas|d_nq_np_713550-mla42181488264_062020-o1-bd0495325cfdb9aad016019945936227-480-0.jpg|productos/agua-min-ser-bajo-sodio-1500-cc/
 00191|Agua Mineral sin Gas en Bidón Kin 6 Lt|133.5||||Bebidas > Aguas sin Gas|cc0211-44bc1969b9d27e606515988777293413-480-0.jpg|productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/
 00192|Agua Sin Gas Nestlé Pureza Vital 1,5 Lt|72.0||||Bebidas > Aguas sin Gas|7923531-fe494f10e084071bba16014814232373-480-0.jpg|productos/agua-sin-gas-nestle-pureza-vital-15-lt/
 00193|Agua Mineral Eco de Los Andes Sin Gas 2 L|58.99||||Bebidas > Aguas sin Gas|8630051-e61f5ba1df3130bb4116022485393434-480-0.jpg|productos/agua-mineral-eco-de-los-andes-sin-gas-2-l/
@@ -219,20 +217,18 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00218|Sal Dos Anclas Parrillera 1 Kg|66.2||||Almacén > Sal y Condimentos|16461-988f1df8a26c120cd715990734034448-480-0.jpg|productos/sal-d-anclas-parril-est-1-kg/
 00219|Ajo Alicante Nat. Int. 50 Gr|61.0||||Almacén > Sal y Condimentos|2375411-b798771cda28975f8515989992492429-480-0.jpg|productos/ajo-alicante-nat-int-50-gr/
 00220|Bicarbonato Alicante Nat. Int. 50 grs|34.5||||Almacén > Sal y Condimentos|bicarbonato-alicante-naturalidad-intacta-50-gr1-c3f7c402ae367e75c715989656073888-480-0.jpg|productos/bicarbonato-alicante-50-grs/
-00221|Sal Celusal Entrefina Estuche 1 Kg|64.9||||Almacén > Sal y Condimentos|19851-7a71f628f29079bbf515988929821701-480-0.jpg|productos/sal-celusal-entref-est-1-kg/
 00222|Pimienta Dos Anclas Negra Molid 25 Gr|56.6||||Almacén > Sal y Condimentos|2506311-24c1631cb7a668b42515990016608787-480-0.jpg|productos/pim-d-anclas-negra-molid-25-gr/
-00223|Sal Celusal Entrefina Paquete 1 Kg|50.6||||Almacén > Sal y Condimentos|16541-a9a4f427db0e467cad15990734299049-480-0.jpg|productos/sal-celusal-entref-paq-1-kg/
 00224|Soda en Sifón Aybal 2 Lts|60.0||||Bebidas > Aguas con Gas|cc0221-d297d7a5141be52d3f15988831160200-480-0.jpg|productos/soda-sifon-aybal/
 00225|Agua Levite Manzana 2,25 Lt|103.9||||Bebidas > Aguas Saborizadas|206341-b9e1fc7e4a319ce30215988158564193-480-0.jpg|productos/agua-levite-manzana2-5-2-25-lt/
 00226|Agua Levite Naranja 2,25 Lt|103.9||||Bebidas > Aguas Saborizadas|184271-5522a22584046bac9015988160205939-480-0.jpg|productos/agua-levite-naranja2-5-2-25-lt/
-00227|Agua Levite Pera 2.25 Lts|120.0||||Bebidas > Aguas Saborizadas|agua-levite-pera-2-25-lts1-e1423548c5aa6860c116046858737319-480-0.jpg|productos/agua-levite-pera-2-25-lts/
-00228|Agua Levite Manzana 1.5 Lts|96.0||||Bebidas > Aguas Saborizadas|agua-levite-manzana-1-5-lts1-3133adb0739af841aa16046857883501-480-0.jpg|productos/agua-levite-manzana-1-5-lts/
-00229|Agua Levite Pera 1.5 Lts|96.0||||Bebidas > Aguas Saborizadas|agua-levite-pera-1-5-lts1-d91f8ab7f1986a3ec516046856304478-480-0.jpg|productos/agua-levite-pera-1-5-lts/
-00230|Agua Levite Naranja 1.5 Lts|96.0||||Bebidas > Aguas Saborizadas|agua-levite-naranja-1-5-lts1-95b6f2b64f6ad67b7916046854733037-480-0.png|productos/agua-levite-naranja-1-5-lts/
+00227|Agua Levite Pera 2.25 Lts|127.19||||Bebidas > Aguas Saborizadas|agua-levite-pera-2-25-lts1-e1423548c5aa6860c116046858737319-480-0.jpg|productos/agua-levite-pera-2-25-lts/
+00228|Agua Levite Manzana 1.5 Lts|99.0||||Bebidas > Aguas Saborizadas|agua-levite-manzana-1-5-lts1-3133adb0739af841aa16046857883501-480-0.jpg|productos/agua-levite-manzana-1-5-lts/
+00229|Agua Levite Pera 1.5 Lts|99.0||||Bebidas > Aguas Saborizadas|agua-levite-pera-1-5-lts1-d91f8ab7f1986a3ec516046856304478-480-0.jpg|productos/agua-levite-pera-1-5-lts/
+00230|Agua Levite Naranja 1.5 Lts|99.0||||Bebidas > Aguas Saborizadas|agua-levite-naranja-1-5-lts1-95b6f2b64f6ad67b7916046854733037-480-0.png|productos/agua-levite-naranja-1-5-lts/
 00231|Agua Baggio Fresh Naranja 1,5 Lt|59.99||||Bebidas > Aguas Saborizadas|604611-5271f343145345b6e516028681925353-480-0.jpg|productos/agua-baggio-fresh-naranja-15-lt/
-00232|Aquarius Saborizada Manzana 2.25 L|99.0||||Bebidas > Aguas Saborizadas|7790895640483_01_nuevopack1-a04355f3c959bce67e16010476860210-480-0.jpg|productos/aquarius-saborizada-manzana-2-25-l/
-00233|Agua Saborizada Limonada Aquarius 2.25 Lt|89.0||||Bebidas > Aguas Saborizadas|7790895008498_021-78ba0a5e8a2b97bd7d16010461567712-480-0.jpg|productos/agua-saborizada-limonada-aquarius-2-25-lt/
-00234|Aquarius Saborizada Pera 2.25 L|99.0||||Bebidas > Aguas Saborizadas|8744501-b3a7dd5353a42f55c916009500623439-480-0.jpg|productos/aquarius-saborizada-pera-2-25-l/
+00232|Aquarius Saborizada Manzana 2.25 L|123.6||||Bebidas > Aguas Saborizadas|7790895640483_01_nuevopack1-a04355f3c959bce67e16010476860210-480-0.jpg|productos/aquarius-saborizada-manzana-2-25-l/
+00233|Agua Saborizada Limonada Aquarius 2.25 Lt|123.6||||Bebidas > Aguas Saborizadas|7790895008498_021-78ba0a5e8a2b97bd7d16010461567712-480-0.jpg|productos/agua-saborizada-limonada-aquarius-2-25-lt/
+00234|Aquarius Saborizada Pera 2.25 L|123.6||||Bebidas > Aguas Saborizadas|8744501-b3a7dd5353a42f55c916009500623439-480-0.jpg|productos/aquarius-saborizada-pera-2-25-l/
 00235|Agua Levite Naranja 1 Lt|47.2||||Bebidas > Aguas Saborizadas|257881-404ed243e1555c71ae15988159370652-480-0.jpg|productos/agua-levite-naranja-1-lt/
 00236|Agua Baggio Fresh Pomelo 1,5 Lt|59.99||||Bebidas > Aguas Saborizadas|215551-70616cd842619ee27515988158196946-480-0.jpg|productos/agua-baggio-fre-pome-1-5-lt/
 00237|Amargo Terma Citrus 1350 Cc|80.5||||Bebidas > A Base de Hierbas|240611-6adc6e0c9a20e44b4916001837940400-480-0.jpg|productos/amargo-terma-citrus-1350-cc/
@@ -272,13 +268,13 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00271|Cerveza Andes Origen Rubia 473 Cc|78.5||||Bebidas > Cervezas|258601-23c88ee19a970e2ab215988789087953-480-0.jpg|productos/cerv-andes-o-rubia-473-cc/
 00272|Cerveza Quilmes Lata Red Lager 473 Cc|69.99||||Bebidas > Cervezas|258591-be0a176f7c3fee012715990053910166-480-0.jpg|productos/cerv-quilmes-red-lager-473-cc/
 00273|Cerveza Schneider Lata 473 Cc|82.0||||Bebidas > Cervezas|207741-4bf058f12fd3ce620315988792135731-480-0.jpg|productos/cerv-schneider-lata-473-cc/
-00274|Cerveza Corona 330 Cc|91.0||||Bebidas > Cervezas|cerveza-corona-330-cc1-d0ddb214c6a36dcf7c16003524185419-640-01-0020e8650e2dc35bb616005434767590-480-0.png|productos/cerveza-corona-330-cc/
+00274|Cerveza Corona 330 Cc|93.0||||Bebidas > Cervezas|cerveza-corona-330-cc1-d0ddb214c6a36dcf7c16003524185419-640-01-0020e8650e2dc35bb616005434767590-480-0.png|productos/cerveza-corona-330-cc/
 00275|Cerveza Corona Lata 269 cc|76.0||||Bebidas > Cervezas|262011-092279561644b3ff6115989754167243-480-0.jpg|productos/cerv-corona-lata-269-cc/
 00276|Cerveza Patagonia Amber Leger 730 Cc|180.0||||Bebidas > Cervezas|259871-b09ef1466c974b77c215988791484645-480-0.jpg|productos/cerv-patagonia-amber-leger-730-cc/
 00277|Cerveza Andes Origen Rubia 473Cc Six Pack|459.99||||Bebidas > Cervezas|8926811-0ca45d2dcd2c49f20c16019938784829-480-0.jpg|productos/cerveza-andes-origen-rubia-473cc-six-pack/
-00278|Cerveza Imperial Ipa 473 Cc Six Pack|580.0||||Bebidas > Cervezas|8719371-6d3b1b473e89bdafb716008696632962-480-0.jpg|productos/cerveza-imperial-ipa-473-cc-six-pack/
+00278|Cerveza Imperial Ipa 473 Cc Six Pack|589.16||||Bebidas > Cervezas|8719371-6d3b1b473e89bdafb716008696632962-480-0.jpg|productos/cerveza-imperial-ipa-473-cc-six-pack/
 00279|Cerveza Imperial Rubia 473Cc Six Pack|433.5||||Bebidas > Cervezas|cerveza-en-lata-pack-6-imperial-473-cc-1-316201-926a269730fc65955916008689026346-480-0.jpg|productos/cerveza-imperial-rubia-473cc-six-pack/
-00280|Cerveza Rubia Quilmes Clásica 6-Pack 473 Ml Lata|449.0||||Bebidas > Cervezas|8937041-ba5e0c61aaec18c07016008684855017-480-0.jpg|productos/cerveza-rubia-quilmes-clasica-6-pack-473-ml-lata/
+00280|Cerveza Rubia Quilmes Clásica 6-Pack 473 Ml Lata|470.9||||Bebidas > Cervezas|8937041-ba5e0c61aaec18c07016008684855017-480-0.jpg|productos/cerveza-rubia-quilmes-clasica-6-pack-473-ml-lata/
 00281|Isotónica Gatorade Cool Blue 1250 cc|108.4||||Bebidas > Energizantes e Isotónicas|244321-9529c2fd145825a27916010471222316-480-0.jpg|productos/isotonica-gatorade-cool-blue-1250-cc/
 00282|Isotónica Gatorade Manzana 750 cc|80.3||||Bebidas > Energizantes e Isotónicas|239911-5c861484653371514a16010470905368-480-0.jpg|productos/isotonica-gatorade-manzana-750-cc/
 00283|Isotónica Gatorade Manzana 1250 cc|108.4||||Bebidas > Energizantes e Isotónicas|239241-d2553557b574b40f8416010470464509-480-0.jpg|productos/isotonica-gatorade-manzana-1250-cc/
@@ -325,7 +321,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00324|Vino Plan B Cabernet Sauvignon 750 Cc|260.0||||Bebidas > Vinos y Espumantes|diseno-sin-titulo-411-9298e22b8271757dae16050145986630-480-0.jpg|productos/vino-plan-b-cabernet-sauvignon-750-cc/
 00325|Espumante Cuvee Mumm Extra Brut 750 cc|377.9||||Bebidas > Vinos y Espumantes|155231-6596a384f6fe05bb8116032836890976-480-0.jpg|productos/espumante-cuvee-mumm-extra-brut-750-cc/
 00326|Espumante Norton Cosecha Especial Brut Nature 750 cc|503.36||||Bebidas > Vinos y Espumantes|diseno-sin-titulo-431-71b6a2f0c3b1aa3afb16050152670682-480-0.jpg|productos/espumante-norton-cosecha-especial-brut-nature-750-cc/
-00327|Vino Eugenio Bustos Malbec 750 Cc|185.2||||Bebidas > Vinos y Espumantes|diseno-sin-titulo-401-fd3db3f97b0cf45cf816050144342785-480-0.jpg|productos/vino-eugenio-bustos-malbec-750-cc/
+00327|Vino Eugenio Bustos Malbec 750 Cc|188.59||||Bebidas > Vinos y Espumantes|diseno-sin-titulo-401-fd3db3f97b0cf45cf816050144342785-480-0.jpg|productos/vino-eugenio-bustos-malbec-750-cc/
 00329|Árabes x 5 unidades|128.25||||Panadería|eu0251-64db55c42b378b4ba616022447661176-480-0.jpg|productos/arabes-x-5-unidades/
 00330|Prepizzas x unidad|37.5||||Panadería|eu0311-34f081d5aac3614da416022450351748-480-0.jpg|productos/prepizzas-x-unidad/
 00331|Spekel x unidad|247.5||||Panadería|eu0301-9ee6e32b5d41b7905116022451164050-480-0.jpg|productos/spekel-x-unidad/
@@ -428,7 +424,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00428|Tapa Empanadas Sumasa Hojaldrada Horno 300 grs|50.9||||Frescos > Pastas y Tapas|165491-47c7270ac37fdfe25c15989759485160-480-0.jpg|productos/tap-emp-sumasa-hojal-horno-300-grs/
 00429|Tapas para Empanadas La Salteña Criolla 15U 412 Gr|115.7||||Frescos > Pastas y Tapas|221451-7e19d812d13a21e7aa15990686427188-480-0.jpg|productos/tapas-para-empanadas-la-saltena-criolla-15u-412-gr/
 00430|Ñoquis La Salteña Papa 500 Gr|95.1||||Frescos > Pastas y Tapas|221411-12d176ee44f060694115988914393579-480-0.jpg|productos/noquis-la-saltena-papa-300-gr/
-00431|Pascualina La Salteña Criolla 400 Gr|82.41||||Frescos > Pastas y Tapas|pascualina-la-saltena-criolla-400-gr1-dd5ce35bd2f7de880e16046863989682-480-0.jpg|productos/pascualina-la-saltena-criolla-400-gr/
+00431|Pascualina La Salteña Criolla 400 Gr|92.19||||Frescos > Pastas y Tapas|pascualina-la-saltena-criolla-400-gr1-dd5ce35bd2f7de880e16046863989682-480-0.jpg|productos/pascualina-la-saltena-criolla-400-gr/
 00432|Tapas Para Empanadas La Salteña Para Freír 15 Uní.|123.0||||Frescos > Pastas y Tapas|tapas-para-empanadas-la-saltena-para-freir-15-uni1-29d22ff389761c1e4c16039010501039-480-0.jpg|productos/tapas-para-empanadas-la-saltena-para-freir-15-uni/
 00433|Tapa de Empanada Siciliana 300 Gr|50.0||||Frescos > Pastas y Tapas|diseno-sin-titulo-41-df98e01c5ffaa4fd1416028754444363-480-0.jpg|productos/tapa-de-empanada-siciliana-300-gr/
 00434|Pascualina La Salteña Light 400 Gr|82.41||||Frescos > Pastas y Tapas|0779023600128-11-1f7f7d753c419766b116026981134893-480-0.jpg|productos/pascualina-la-saltena-light-400-gr/
@@ -554,7 +550,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00556|Palillos Marolio 50 Un|23.6||||Limpieza > Limpieza de Cocina|195651-028417ea3a4efd007d15992495840759-480-0.jpg|productos/palillos-marolio-50-un/
 00557|Limpiador Cif Pisos Antibacterial 750 Ml|141.5||||Limpieza > Limpieza de Cocina|209611-214abbe56f232f695115988902496909-480-0.jpg|productos/limp-cif-pis-antibac-750-ml/
 00558|Bolsa Asurin Residuos 3.45X60 10 Un|74.1||||Limpieza > Limpieza de Cocina|247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg|productos/bols-asurin-res-3-45x60-10-un/
-00559|Limpiador Cif Antigrasa 450 Ml|66.0||||Limpieza > Limpieza de Cocina|145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg|productos/limp-cif-antig-d-p-450-ml/
+00559|Limpiador Cif Antigrasa 450 Ml|67.0||||Limpieza > Limpieza de Cocina|145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg|productos/limp-cif-antig-d-p-450-ml/
 00560|Limpiador Cif Crema Limón 750 Gr|136.7||||Limpieza > Limpieza de Cocina|8771-9e4d0c664c8a2eea2e15988900476119-480-0.jpg|productos/limp-cif-crem-limon-750-gr/
 00561|Detergente Magistral Limón Crema 500 Ml|144.2||||Limpieza > Limpieza de Cocina|256401-48511bb16e82530fbc15988998123152-480-0.jpg|productos/deterg-magistral-limon-crema-500-ml/
 00562|Lavandina Vim Gel Original 700 Ml|102.8||||Limpieza > Limpieza de Cocina|118991-1e941fd67887c6fcc415988896521942-480-0.jpg|productos/lavand-vim-gel-orig-700-ml/
@@ -593,7 +589,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00595|Nueces x 200 Gr|299.0||||Saludable & Fit > Frutos Secos|51-6a5ab638a3e356028a16019300960564-480-0.jpg|productos/nueces-x-200-gr/
 00596|Almendras x 200 Gr|299.0||||Saludable & Fit > Frutos Secos|11-8e6b946576eadb289a16019300143902-480-0.jpg|productos/almendras-x-200-gr/
 00597|Mermelada La Campagnola BC Frutilla 390 Gr|179.0||||Saludable & Fit > Bajas Calorías|7793360812101_011-62a8a685b99a0ebc0e16014750945921-480-0.jpg|productos/mermelada-la-campagnola-bc-frutilla-390-gr/
-00598|Agua Ser Sin Gas - Bajo Sodio 1,5 l.|49.0||||Saludable & Fit > Bajos en Sodio|d_nq_np_713550-mla42181488264_062020-o1-bd0495325cfdb9aad016019945936227-480-0.jpg|productos/agua-min-ser-bajo-sodio-1500-cc/
+00598|Agua Ser Sin Gas - Bajo Sodio 1,5 l.|51.9||||Saludable & Fit > Bajos en Sodio|d_nq_np_713550-mla42181488264_062020-o1-bd0495325cfdb9aad016019945936227-480-0.jpg|productos/agua-min-ser-bajo-sodio-1500-cc/
 00599|Galletitas Grandiet Arroz Con Sal 100 Gr|74.8||||Saludable & Fit > Bajos en Sodio|239681-ed9f76953c4b74a98815988913510019-480-0.jpg|productos/gal-grandiet-arr-sal-100-gr/
 00600|Desinfectante Lysoform Original 360 Cc|162.4||||Limpieza > Limpieza en General|252451-6606867adc5be5255615989755747391-480-0.jpg|productos/desinf-lysoform-original-285-cc/
 00601|Lavavajilla Esencial Colágeno 750 Cc|32.0||||Limpieza > Limpieza en General|39471-dd6af7f7cfca7b372e16001968486757-480-0.jpg|productos/lavavaj-esencial-colageno-750-cc/
@@ -602,7 +598,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00604|Trapo de Piso Esencial Bco.Consor. 60X70 Cm|100.0||||Limpieza > Limpieza en General|138731-e4e4fd6c3bd6c1186515988889979261-480-0.jpg|productos/tr-piso-esencial-bco-consor-60x70-cm/
 00605|Limpiador Cif Pisos Antibacterial 750 Ml|141.5||||Limpieza > Limpieza en General|209611-214abbe56f232f695115988902496909-480-0.jpg|productos/limp-cif-pis-antibac-750-ml/
 00606|Bolsa Asurin Residuos 3.45X60 10 Un|74.1||||Limpieza > Limpieza en General|247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg|productos/bols-asurin-res-3-45x60-10-un/
-00607|Limpiador Cif Antigrasa 450 Ml|66.0||||Limpieza > Limpieza en General|145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg|productos/limp-cif-antig-d-p-450-ml/
+00607|Limpiador Cif Antigrasa 450 Ml|67.0||||Limpieza > Limpieza en General|145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg|productos/limp-cif-antig-d-p-450-ml/
 00608|Limpiador Cif Crema Limón 750 Gr|136.7||||Limpieza > Limpieza en General|8771-9e4d0c664c8a2eea2e15988900476119-480-0.jpg|productos/limp-cif-crem-limon-750-gr/
 00609|Lavandina X-5 2 Lt|96.9||||Limpieza > Limpieza en General|135331-e3e9bbacbace19339d15988897149431-480-0.jpg|productos/lavand-x-5-2-lt/
 00610|Rejilla Media Naranja Doble Ref.|45.4||||Limpieza > Limpieza en General|194751-7cef2b74611b50e8ed15988936344450-480-0.jpg|productos/rejilla-media-nja-doble-ref/
@@ -626,7 +622,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00628|Alimento de Animales Dogui Cachorro 1,5 Kg|201.4||||Mascotas|3381-4b81aa09338bd5faa415988179619012-480-0.jpg|productos/al-anim-dogui-cachorro-1-5-kg/
 00629|Leche La Serenísima UAT Parc. Descremada 1% Tenor Graso Liviana PET 1 L|75.0||||Saludable & Fit > Libres de Glúten|botella-larga-vida1-be092cc5467eb617e115997437553116-480-0.jpg|productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-pet-1-l/
 00630|Jugo Minerva Limón 500 Cc|191.9||||Saludable & Fit > Libres de Glúten|113111-6f045e8b2c177790cd15990030622137-480-0.jpg|productos/jug-minerva-limon-500-cc/
-00631|Ají Triturado Alicante 25 Gr|31.9||||Saludable & Fit > Libres de Glúten|condimento-alicante-aji-triturado-25-gr-1-223431-1c75b2581879505d8116020017585992-480-0.jpg|productos/aji-triturado-alicante-25-gr/
+00631|Ají Triturado Alicante 25 Gr|33.27||||Saludable & Fit > Libres de Glúten|condimento-alicante-aji-triturado-25-gr-1-223431-1c75b2581879505d8116020017585992-480-0.jpg|productos/aji-triturado-alicante-25-gr/
 00632|Mermelada La Campagnola BC Frutilla 390 Gr|179.0||||Saludable & Fit > Libres de Glúten|7793360812101_011-62a8a685b99a0ebc0e16014750945921-480-0.jpg|productos/mermelada-la-campagnola-bc-frutilla-390-gr/
 00633|Jugo de Limón Minerva 250 Cc|75.6||||Saludable & Fit > Libres de Glúten|7479281-809ef9693a95f4f0a416014858768712-480-0.jpg|productos/jugo-de-limon-minerva-250-cc/
 00634|Café Dolce Gusto Au Lait 160 gr|542.0||||Saludable & Fit > Libres de Glúten|254781-946c38475780a1991c16001833444073-480-0.jpg|productos/cafe-dolce-gusto-au-lait-160-gr/
@@ -637,4 +633,8 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00639|Leche La Serenisima Larga Vida Clásica Botella 1 Lt|75.0||||Saludable & Fit > Libres de Glúten|botella-clasica-serenisima1-5058c0d0463a798f8015997444856491-480-0.jpg|productos/leche-entera-clasica-la-serenisima-botella-larga-vida-1l/
 01964|Pila Duracell AAA x 1 Ud|72.7||||Limpieza > Fósforos, Lamparas y Pilas|pila-duracell-aaa-x-1-ud1-068be36391931d8aaa16052235002761-480-0.jpg|productos/pila-duracell-aaa-x-1-ud/
 01965|Pilas Eveready AA x 4 un|175.0||||Limpieza > Fósforos, Lamparas y Pilas|diseno-sin-titulo-11-4e71d348cb9853ae6016052149698123-480-0.jpg|productos/pilas-eveready-aa-x-4-un/
-01966|Vino Tinto Dadá Art 391 Malbec 750 Cc|249.9||||Bebidas > Vinos y Espumantes|http://d26lpennugtm8s.cloudfront.net/assets/stores/img/no-photo-480-0.png|productos/vino-tinto-dada-art-391-malbec-750-cc/
+01967|Salsa Golf Danica 209 Gr.|48.5||||Almacén > Aderezos|diseno-sin-titulo-471-333f0c8f8c51b1132216053672381911-480-0.jpg|productos/salsa-golf-danica-209-gr/
+01968|Arroz Preparado Gallo Verdeo 240 Gr.|101.3||||Almacén > Arroz y Legumbres|arroz-preparado-gallo-sabor-verdeo-x-240-gr1-0e59360ef75b70453116037380840707-480-0.jpg|productos/arroz-preparado-gallo-verdeo-240-gr/
+01969|Sal Celusal Entrefina Parrillera Estuche 1 Kg|64.9||||Almacén > Sal y Condimentos|19851-7a71f628f29079bbf515988929821701-480-0.jpg|productos/sal-celusal-entrefina-parrillera-estuche-1-kg/
+01970|Sal Celusal Entrefina Parrillera Paquete 1 Kg|50.6||||Almacén > Sal y Condimentos|16541-a9a4f427db0e467cad15990734299049-480-0.jpg|productos/sal-celusal-entrefina-parrillera-paquete-1-kg/
+01971|Vino Tinto Dadá Art 391 Malbec 750 Cc|249.9||||Bebidas > Vinos y Espumantes|vino-tinto-dada-art-391-malbec-750-cc1-43c6da8e23a295a94a16053670052835-480-0.jpg|productos/vino-tinto-dada-art-391-malbec-750-cc/
