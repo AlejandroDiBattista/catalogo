@@ -1,26 +1,26 @@
 <template>
   <div class="root">
     <div v-if="state.vacio">
-      <button @click="incrementar" class="ui button icon basic">
+      <button @click="incrementar" class="ui button icon primary basic">
         <i class="icon cart arrow down"></i>
         Comprar
       </button>
     </div>
     <div v-else>
-      <div class="ui icon buttons">
-        <button @click="incrementar" class="ui button icon basic">
-          <i class="ui icon plus"></i>
+      <div class="ui icon buttons primary">
+        <button @click="decrementar" class="ui button icon basic primary">
+          <i class="ui icon minus"></i>
         </button>
         <button class="ui button basic" @click="vaciar">
           {{ state.unidades }}
         </button>
-        <button @click="decrementar" class="ui button basic">
-          <i class="iu icon minus"></i>
+        <button @click="incrementar" class="ui button basic primary">
+          <i class="iu icon plus"></i>
         </button>
       </div>
       <span class="ui">${{ state.importe }}</span>
     </div>
-    <span>Hay {{datos.length}} productos</span>
+    <!-- <span>Hay {{datos.length}} productos</span> -->
   </div>
 </template>
 
