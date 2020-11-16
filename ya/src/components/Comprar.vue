@@ -20,11 +20,14 @@
       </div>
       <span class="ui">${{ state.importe }}</span>
     </div>
+    <span>Hay {{datos.length}} productos</span>
   </div>
 </template>
 
 <script>
 import { reactive, computed } from "vue";
+import productos from "./productos.json";
+
 
 export default {
   name: "Comprar",
@@ -39,10 +42,11 @@ export default {
       unidades: prop.unidades,
       vacio: computed(() => state.unidades == 0),
       importe: computed(
-        () => state.unidades * (state.unidades > 3 ? 0.8 : 1) * prop.precio
+        () => (state.unidades * (state.unidades > 3 ? 0.67 : 1) * prop.precio).toFixed(2)
       ),
     });
 
+    const datos = productos;
     function incrementar() {
       state.unidades++;
     }
@@ -55,7 +59,7 @@ export default {
       state.unidades = 0;
     }
 
-    return { state, incrementar, decrementar, vaciar };
+    return { state, incrementar, decrementar, vaciar, datos };
   },
 };
 </script>

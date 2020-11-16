@@ -8,6 +8,7 @@
 <script>
 import Comprar from "./components/Comprar.vue";
 
+
 export default {
 	name: "App",
 	components: { Comprar, },
