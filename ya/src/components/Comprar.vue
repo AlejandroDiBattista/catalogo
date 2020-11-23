@@ -1,88 +1,51 @@
 <template>
   <div class="root">
-    <div v-if="state.vacio">
-      <button @click="incrementar" class="ui button icon primary basic">
+    <template v-if="compras == 0">
+      <button @click="incrementar" class="ui button icon primary basic fluid">
         <i class="icon cart arrow down"></i>
         Comprar
       </button>
-    </div>
-    <div v-else>
-      <div class="ui icon buttons primary">
+    </template>
+
+    <template v-else>
+      <div class="ui icon buttons primary fluid">
         <button @click="decrementar" class="ui button icon basic primary">
           <i class="ui icon minus"></i>
         </button>
-        <button class="ui button basic" @click="vaciar">
-          {{ state.unidades }}
+        <button @click="vaciar" class="ui button basic">
+          {{ compras }}
         </button>
         <button @click="incrementar" class="ui button basic primary">
           <i class="iu icon plus"></i>
         </button>
       </div>
-      <span class="ui">${{ state.importe }}</span>
-    </div>
-    <!-- <span>Hay {{datos.length}} productos</span> -->
+    </template>
   </div>
 </template>
 
 <script>
-import { reactive, computed } from "vue";
-import productos from "./productos.json";
-
+import { ref } from "vue";
 
 export default {
   name: "Comprar",
 
-  props: {
-    unidades: Number,
-    precio: Number,
-  },
+  props: { unidades: Number },
 
   setup(prop) {
-    const state = reactive({
-      unidades: prop.unidades,
-      vacio: computed(() => state.unidades == 0),
-      importe: computed(
-        () => (state.unidades * (state.unidades > 3 ? 0.67 : 1) * prop.precio).toFixed(2)
-      ),
-    });
+    const compras = ref(prop.unidades || 0);
 
-    const datos = productos;
-    function incrementar() {
-      state.unidades++;
-    }
+const incrementar = () => compras.value++;
+    const decrementar = () => compras.value--;
+    const vaciar = () => (compras.value = 0);
 
-    function decrementar() {
-      state.unidades--;
-    }
-
-    function vaciar() {
-      state.unidades = 0;
-    }
-
-    return { state, incrementar, decrementar, vaciar, datos };
+    return { compras, incrementar, decrementar, vaciar };
   },
 };
 </script>
 
 <style>
-.comprar {
-  width: 220px;
-}
-
-.cambiar {
-  width: 40px;
-}
-
-.unidades {
-  width: 60px;
-  text-align: center;
-  vertical-align: middle;
-  background-color: yellow;
-  padding: 0 20px;
-}
-
-button {
-  padding: 10px;
-  border: 1px solid red;
+.root {
+  width: 140px;
+  margin: 20px;
 }
 </style>

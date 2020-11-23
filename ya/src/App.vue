@@ -1,18 +1,24 @@
 <template>
 	<img alt="Vue logo" src="./assets/logo.png" />
-	<Comprar :unidades="3" :precio="10"/>
-	<Comprar :unidades="0" :precio="20"/>
-	<Comprar :unidades="10" :precio="30" />
+	<Comprar :unidades="3" />
+	<Comprar :unidades="0" />
+	<Comprar :unidades="10" />
+	Holis {{datos}}
 </template>
 
 <script>
-import Comprar from "./components/Comprar.vue";
+	import Comprar from "./components/Comprar.vue";
+	import rubros from "./components/productos.json";
 
 
-export default {
-	name: "App",
-	components: { Comprar, },
-};
+	export default {
+		name: "App",
+		components: { Comprar, },
+		setup(){
+			const datos = rubros.productos.productos
+			return {datos};
+		}
+	};
 </script>
 
 <style>

@@ -168,6 +168,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00173|Tostadas Twistos Jamón Ibérico 112 Gr|134.0||||Almacén > Snacks|tostadas-twistos-jamon-iberico-112-gr1-d92e6b63a4c4e1b07016028748506884-480-0.jpg|productos/tostadas-twistos-jamon-iberico-112-gr/
 00174|Tostadas Twistos Jamón 180 Gr|122.51||||Almacén > Snacks|207771-3d1182eeb2bbf1fb3e16026845978467-480-0.jpg|productos/tostadas-twistos-jamon-180-gr/
 00175|Tostada Twistos Queso 180 Gr|122.51||||Almacén > Snacks|207781-0dde4c765c8de95fc516026843870888-480-0.jpg|productos/tostada-twistos-queso-180-gr/
+00176|Snack de Todito 300 gr|211.24||||Almacén > Snacks|2460211-e96d878ada925d3a7c16010514992488-480-0.jpg|productos/snack-de-todito-300-gr/
 00177|Papas Fritas Pringles Original 124 - 137 Gr|259.9||||Almacén > Snacks|120461-e92363a43c536c081d16006146810636-480-0.jpg|productos/pap-fr-pringles-orig-124-137-gr/
 00178|Pan Bimbo Artesano 500 Gr|217.75||||Almacén > Panificados y Rebozadores|230131-407fb5200650265a4215992494324843-480-0.jpg|productos/pan-bimbo-artesano-500-gr/
 00179|Pan Bimbo Blanco 550 Gr|202.9||||Almacén > Panificados y Rebozadores|261901-ee771cc4ab92c8542215990701805195-480-0.jpg|productos/pan-bimbo-blanco-550-gr/
@@ -350,6 +351,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00366|Hamburguesa Paty Super 125 gr x 2 Un.|299.0||||Frescos > Hamburguesas y Milanesas|800029514_2_1400x1-982e7742abba2be32116025113141152-480-0.jpg|productos/hamburguesa-paty-super-125-gr-x-2-un/
 00367|Hamburguesa Swift Carne 20 un|1.127||||Frescos > Hamburguesas y Milanesas|236161-61c45c86ae4cfaa4ef15992499385568-480-0.jpg|productos/hamburguesa-swift-carne-20-un/
 00368|Hamburguesas Paty de Carne 12 U - 960 Gr|810.6||||Frescos > Hamburguesas y Milanesas|4473971-3517bfca2f450b285f16032826039303-480-0.jpg|productos/hamburguesas-paty-de-carne-12-u-960-gr/
+00369|Medallón Tres Cruces Flow 2 Un|45.0||||Frescos > Hamburguesas y Milanesas|257201-2e259a99097b7535da15990697308917-480-0.jpg|productos/medall-t-cruces-flow-2-un/
 00370|Papas Fritas Mc Cain Noisettes 1 Kg|375.7||||Frescos > Congelados de Vegetales|1662011-fe9f1628371a1ed53315990864198062-480-0.jpg|productos/pap-fr-mc-cain-noisettes-1-kg/
 00371|Choclo Green Life 300 Gr|86.6||||Frescos > Congelados de Vegetales|211321-20d7c12110dd8cda2415988795965817-480-0.jpg|productos/choclo-green-life-congelado-300-gr/
 00372|Milanesa Granja de Sol Arroz Veg 330 Gr|173.0||||Frescos > Congelados de Vegetales|255261-8af8e5119542912b3e15990915652275-480-0.jpg|productos/milanes-gja-sol-arroz-veg-330-gr/
@@ -533,6 +535,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00552|Lámpara Osram Led Gota Ca 3 Wt|172.8||||Limpieza > Fósforos, Lamparas y Pilas|258951-511dab6a78b789f85b15990927677047-480-0.jpg|productos/lampara-osram-led-gota-ca-3-wt/
 00553|Lámpara Osram Led Fria 14 Wt|201.4||||Limpieza > Fósforos, Lamparas y Pilas|2589221-bfaf4c9394f259deb115990926302752-480-0.jpg|productos/lampara-osram-led-fria-14-wt/
 00555|Desinfectante Lysoform Original 360 Cc|162.4||||Limpieza > Limpieza de Cocina|252451-6606867adc5be5255615989755747391-480-0.jpg|productos/desinf-lysoform-original-285-cc/
+00556|Palillos Marolio 50 Un|23.6||||Limpieza > Limpieza de Cocina|195651-028417ea3a4efd007d15992495840759-480-0.jpg|productos/palillos-marolio-50-un/
 00557|Limpiador Cif Pisos Antibacterial 750 Ml|141.5||||Limpieza > Limpieza de Cocina|209611-214abbe56f232f695115988902496909-480-0.jpg|productos/limp-cif-pis-antibac-750-ml/
 00558|Bolsa Asurin Residuos 3.45X60 10 Un|74.1||||Limpieza > Limpieza de Cocina|247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg|productos/bols-asurin-res-3-45x60-10-un/
 00559|Limpiador Cif Antigrasa 450 Ml|72.0||||Limpieza > Limpieza de Cocina|145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg|productos/limp-cif-antig-d-p-450-ml/
@@ -636,6 +639,3 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 01989|Aceitunas Nucete Verde Descarozadas Frasco 160 Gr.|98.6||||Almacén > Aceitunas, Pickles y Ajies|441341-c400b55fe794aca0af16059092180850-480-0.jpg|productos/aceitunas-nucete-verde-descarozadas-frasco-160-gr/
 01990|Gaseosa Paso de los Toros Pomelo 1.5 Lt|115.8||||Bebidas > Gaseosas|gaseosa-paso-de-los-toros-pomelo-botella-1-5-l1-61a3a2865b6afb217e16059094074063-480-0.jpg|productos/gaseosa-paso-de-los-toros-pomelo-1-5-lt/
 01991|Jugo Arcor Naranja Mango 20 Gr.|15.0||||Bebidas > Jugos|235641-e15019f173c534d5a916059092855784-480-0.jpg|productos/jugo-arcor-naranja-mango-20-gr/
-01992|Mani Pehuamar Repelado 500 Gr|235.8||||Almacén > Snacks|43541-aa6980af200452d6a415995924773229-480-0.jpg|productos/mani-pehuamar-repelado-500-gr/
-01993|Medallón Paty Exp 72 x 69 Gr|2.226||||Frescos > Hamburguesas y Milanesas|2544411-1699ca6bbed9153b5415993207830669-480-0.jpg|productos/medallon-paty-exp-72-x-69-gr/
-01994|Palillos Marolio x Un|23.6||||Limpieza > Limpieza de Cocina|195651-028417ea3a4efd007d15992495840759-480-0.jpg|productos/palillos-marolio-x-un/
