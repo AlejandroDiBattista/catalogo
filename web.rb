@@ -5,6 +5,8 @@ require_relative 'utils'
 require_relative 'archivo'
 
 class Web
+	attr_accessor :id_actual 
+
 	def bajar_todo(regenerar=false)
 		destino = [carpeta, :productos]
 		puts "BAJANDO todos los datos de #{carpeta.upcase}".green
@@ -18,7 +20,7 @@ class Web
 		Archivo.escribir(productos, destino)
 
 		puts " ► Completando ID...".cyan
-		completar_id(regenerar)
+		completar_id(destino, regenerar)
 		
 		puts " ► Bajando imagenes...".cyan
 		Archivo.borrar_fotos(carpeta) if regenerar
@@ -90,39 +92,40 @@ class Web
 
 	def acortar(url)
 		[:imagen, :clasificacion, :productos, :producto].each do |modo|
-			ubicar(modo).split('|').each do |x| 
-				url = url.gsub(x,'')
-			end
+			ubicar(modo).split('|').each{|x| url = url.gsub(x,'') }
 		end
 		url 
 	end
 
-	def completar_id(regenerar=true)
+	def completar_id(destino, regenerar=false)
 		datos = {}
-		if regenerar then
-			Archivo.listar(carpeta, :productos) do |origen|
-				Archivo.limpiar(origen)
-			end
-		else
-			Archivo.listar(carpeta, :productos) do |origen|
-				Archivo.leer(origen).each do |producto| 
-					datos[key(producto)] = producto.id unless producto.id.vacio?
-				end
+		Archivo.listar(carpeta, :productos).procesar do |origen|
+			Archivo.leer(origen) do |producto| 
+				datos[key(producto)] ||= proximo_id(producto)
 			end
 		end
 
-		Archivo.listar(carpeta, :productos) do |origen|
-			productos = Archivo.leer(origen)
-			productos.each do |producto| 
-				producto[:id] = (datos[key(producto)] ||= proximo_id(datos))
+		if regenerar then
+			Archivo.listar(carpeta, :productos) do |origen|
+				Archivo.procesar(origen) do |producto| 
+					producto[:id] = datos[key(producto)]
+				end
 			end
-			productos = productos.sort_by{|x|x.id}
-			Archivo.escribir(productos, origen)
+		else
+			Archivo.procesar(destino).each do |producto| 
+				datos[key(producto)] = datos[key(producto)]
+			end
 		end
 	end
 
-	def proximo_id(datos)
-		datos.count == 0 ? "00001" : datos.values.max.succ
+	def proximo_id(producto)
+		self.id_actual ||= "00000"
+		if producto.id.vacio? 
+			self.id_actual = self.id_actual.succ
+		else
+			self.id_actual = producto.id if producto.id > self.id_actual
+			producto.id 
+		end
 	end
 	
 	def foto(id)
@@ -387,7 +390,7 @@ end
 
 if __FILE__ == $0
 	Jumbo.new.bajar_todo
-	TuChanguito.new.bajar_todo 
-	Tatito.new.bajar_todo 
-	Maxiconsumo.new.bajar_todo 
+	# TuChanguito.new.bajar_todo 
+	# Tatito.new.bajar_todo 
+	# Maxiconsumo.new.bajar_todo 
 end

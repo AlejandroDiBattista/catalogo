@@ -69,7 +69,7 @@ module Archivo
 
 	def procesar(*camino)
 		origen = ubicar(*camino)
-		datos = leer(*camino)
+		datos = leer(origen)
 		datos.each{|item| yield(item)}
 		escribir(datos, origen)
 	end
