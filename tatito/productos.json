@@ -306,14 +306,14 @@
       {
         "nombre": "Arroz Dos Hermanos Parboil X 500 Grs.",
         "precio": 48.45,
-        "oferta": 48.0,
+        "oferta": 48.45,
         "variacion": 0.0,
         "url_imagen": "fotos/00016.jpg"
       },
       {
         "nombre": "Arroz Gallo Largo Fino 500 Grs.",
-        "precio": 59.0,
-        "oferta": 50.89,
+        "precio": 68.0,
+        "oferta": 58.98,
         "variacion": 0.0,
         "url_imagen": "fotos/00014.jpg"
       },
@@ -326,8 +326,8 @@
       },
       {
         "nombre": "Arroz Gallo Oro Amarillo 500 Grs.",
-        "precio": 88.0,
-        "oferta": 72.94,
+        "precio": 80.0,
+        "oferta": 68.9,
         "variacion": 0.0,
         "url_imagen": "fotos/00018.jpg"
       },
@@ -542,7 +542,7 @@
       {
         "nombre": "Arvejas Arcor Secas 300 Grs.",
         "precio": 55.3,
-        "oferta": 48.0,
+        "oferta": 48.27,
         "variacion": 0.0,
         "url_imagen": "fotos/00048.jpg"
       },
@@ -619,7 +619,7 @@
       {
         "nombre": "Tomate Perita Arcor 400 Grs.",
         "precio": 78.49,
-        "oferta": 67.0,
+        "oferta": 67.31,
         "variacion": 0.0,
         "url_imagen": "fotos/00049.jpg"
       }
@@ -692,14 +692,14 @@
       {
         "nombre": "Fideos La Providencia Mo?o X 500 Grs",
         "precio": 56.0,
-        "oferta": 48.0,
+        "oferta": 48.62,
         "variacion": 0.0,
         "url_imagen": "fotos/00095.jpg"
       },
       {
         "nombre": "Fideos La Providencia Spaguetti 500 Gr",
-        "precio": 48.0,
-        "oferta": 40.95,
+        "precio": 46.5,
+        "oferta": 40.35,
         "variacion": 0.0,
         "url_imagen": "fotos/00097.jpg"
       },
@@ -806,8 +806,8 @@
       },
       {
         "nombre": "Galletas Coquitas Bagley 170 Gr.",
-        "precio": 69.21,
-        "oferta": 62.0,
+        "precio": 69.5,
+        "oferta": 62.15,
         "variacion": 0.0,
         "url_imagen": "fotos/00062.jpg"
       },
@@ -834,8 +834,8 @@
       },
       {
         "nombre": "Galletas La Providencia Crackers 303 Gr",
-        "precio": 60.0,
-        "oferta": 51.19,
+        "precio": 58.0,
+        "oferta": 50.09,
         "variacion": 0.0,
         "url_imagen": "fotos/00071.jpg"
       },
@@ -908,14 +908,14 @@
       {
         "nombre": "Harina Reina Ana 000 X1 Kg.",
         "precio": 36.0,
-        "oferta": 31.0,
+        "oferta": 28.0,
         "variacion": 0.0,
         "url_imagen": "fotos/00024.jpg"
       },
       {
         "nombre": "Harina Reina Ana 0000 X1k",
-        "precio": 45.0,
-        "oferta": 35.0,
+        "precio": 38.0,
+        "oferta": 33.0,
         "variacion": 0.0,
         "url_imagen": "fotos/00022.jpg"
       }
@@ -1297,8 +1297,8 @@
       },
       {
         "nombre": "Polenta Prestopronta Arcor 500 Grs",
-        "precio": 70.0,
-        "oferta": 64.0,
+        "precio": 74.0,
+        "oferta": 64.45,
         "variacion": 0.0,
         "url_imagen": "fotos/00027.jpg"
       }
@@ -1328,22 +1328,22 @@
       },
       {
         "nombre": "Flan Godet Dulce De Leche 30 Grs.",
-        "precio": 34.7,
-        "oferta": 29.0,
+        "precio": 34.5,
+        "oferta": 29.76,
         "variacion": 0.0,
         "url_imagen": "fotos/00055.jpg"
       },
       {
         "nombre": "Flan Godet Vainilla 30 Grs.",
-        "precio": 34.34,
-        "oferta": 29.0,
+        "precio": 34.5,
+        "oferta": 29.76,
         "variacion": 0.0,
         "url_imagen": "fotos/00056.jpg"
       },
       {
         "nombre": "Gelatina Godet Todas X 100",
-        "precio": 46.29,
-        "oferta": 40.0,
+        "precio": 46.5,
+        "oferta": 40.3,
         "variacion": 0.0,
         "url_imagen": "fotos/00057.jpg"
       }
@@ -1462,13 +1462,6 @@
         "url_imagen": "fotos/00203.jpg"
       },
       {
-        "nombre": "Pure Tomate Otito 520gr",
-        "precio": 35.0,
-        "oferta": 27.9,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00194.jpg"
-      },
-      {
         "nombre": "Salsa Arcor Para Pizza 340 Grs.",
         "precio": 57.0,
         "oferta": 48.57,
@@ -1477,8 +1470,8 @@
       },
       {
         "nombre": "Salsa Para Pizza Vanoli 340 Grs.",
-        "precio": 65.5,
-        "oferta": 56.64,
+        "precio": 57.0,
+        "oferta": 48.57,
         "variacion": 0.0,
         "url_imagen": "fotos/00818.jpg"
       },
@@ -1499,7 +1492,7 @@
       {
         "nombre": "Tomate Perita Arcor 400 Grs.",
         "precio": 78.49,
-        "oferta": 67.0,
+        "oferta": 67.31,
         "variacion": 0.0,
         "url_imagen": "fotos/00202.jpg"
       },
@@ -1543,15 +1536,15 @@
     "productos": [
       {
         "nombre": "Caldo Knoor Gallina 12 Uds.",
-        "precio": 74.0,
-        "oferta": 63.7,
+        "precio": 98.16,
+        "oferta": 84.5,
         "variacion": 0.0,
         "url_imagen": "fotos/00059.jpg"
       },
       {
         "nombre": "Caldo Knoor Verduras 12 Uds.",
-        "precio": 74.0,
-        "oferta": 63.7,
+        "precio": 98.16,
+        "oferta": 84.5,
         "variacion": 0.0,
         "url_imagen": "fotos/00058.jpg"
       }
@@ -1644,8 +1637,8 @@
       },
       {
         "nombre": "Galletas Coquitas Bagley 170 Gr.",
-        "precio": 69.21,
-        "oferta": 62.0,
+        "precio": 69.5,
+        "oferta": 62.15,
         "variacion": 0.0,
         "url_imagen": "fotos/00267.jpg"
       },
@@ -1784,7 +1777,7 @@
       {
         "nombre": "Cerveza Imperial Lata 473 Ml",
         "precio": 70.0,
-        "oferta": 60.0,
+        "oferta": 58.0,
         "variacion": 0.0,
         "url_imagen": "fotos/00150.jpg"
       },
@@ -1883,8 +1876,8 @@
       },
       {
         "nombre": "Jugo Arcor 25gr Sobres",
-        "precio": 12.5,
-        "oferta": 11.0,
+        "precio": 13.5,
+        "oferta": 11.41,
         "variacion": 0.0,
         "url_imagen": "fotos/00232.jpg"
       },
@@ -1939,8 +1932,8 @@
       },
       {
         "nombre": "Jugo Bc Sobres 1l",
-        "precio": 14.0,
-        "oferta": 13.0,
+        "precio": 15.75,
+        "oferta": 13.91,
         "variacion": 0.0,
         "url_imagen": "fotos/00231.jpg"
       },
@@ -1992,7 +1985,7 @@
       {
         "nombre": "Vino Finca La Sofia Malbec X 750 Mm.",
         "precio": 115.0,
-        "oferta": 102.0,
+        "oferta": 102.33,
         "variacion": 0.0,
         "url_imagen": "fotos/00184.jpg"
       },
@@ -2307,15 +2300,15 @@
       },
       {
         "nombre": "Galletas Bagley Salvado De 214gr",
-        "precio": 58.0,
-        "oferta": 55.0,
+        "precio": 64.0,
+        "oferta": 55.43,
         "variacion": 0.0,
         "url_imagen": "fotos/00359.jpg"
       },
       {
         "nombre": "Galletas Chocochips De 135gr",
-        "precio": 46.3,
-        "oferta": 40.0,
+        "precio": 46.0,
+        "oferta": 40.03,
         "variacion": 0.0,
         "url_imagen": "fotos/00358.jpg"
       },
@@ -2327,6 +2320,13 @@
         "url_imagen": "fotos/00370.jpg"
       },
       {
+        "nombre": "Galletas Diversion Surt X400 Arcor",
+        "precio": 94.5,
+        "oferta": 82.67,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00619.jpg"
+      },
+      {
         "nombre": "Galletas Fauna Mauri 150gr",
         "precio": 31.0,
         "oferta": 26.78,
@@ -2335,8 +2335,8 @@
       },
       {
         "nombre": "Galletas Formis 108gr",
-        "precio": 54.07,
-        "oferta": 46.0,
+        "precio": 54.0,
+        "oferta": 46.23,
         "variacion": 0.0,
         "url_imagen": "fotos/00365.jpg"
       },
@@ -2363,8 +2363,8 @@
       },
       {
         "nombre": "Galletas Mana 145gr",
-        "precio": 48.0,
-        "oferta": 41.0,
+        "precio": 48.5,
+        "oferta": 41.32,
         "variacion": 0.0,
         "url_imagen": "fotos/00373.jpg"
       },
@@ -2384,24 +2384,17 @@
       },
       {
         "nombre": "Galletas Merengada 93gr",
-        "precio": 52.0,
-        "oferta": 46.0,
+        "precio": 54.0,
+        "oferta": 46.7,
         "variacion": 0.0,
         "url_imagen": "fotos/00360.jpg"
       },
       {
         "nombre": "Galletas Opera 55gr",
-        "precio": 37.0,
-        "oferta": 35.0,
+        "precio": 41.5,
+        "oferta": 35.59,
         "variacion": 0.0,
         "url_imagen": "fotos/00362.jpg"
-      },
-      {
-        "nombre": "Galletas Pindy X3 Und",
-        "precio": 45.0,
-        "oferta": 36.0,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00821.jpg"
       },
       {
         "nombre": "Galletas Porte?itas 125 Grs.",
@@ -2412,8 +2405,8 @@
       },
       {
         "nombre": "Galletas Sonrisa 3 118gr",
-        "precio": 52.0,
-        "oferta": 46.0,
+        "precio": 54.0,
+        "oferta": 46.7,
         "variacion": 0.0,
         "url_imagen": "fotos/00361.jpg"
       },
@@ -2426,8 +2419,8 @@
       },
       {
         "nombre": "Galletas Traviata 3 X101 Gr",
-        "precio": 84.0,
-        "oferta": 81.0,
+        "precio": 94.0,
+        "oferta": 81.22,
         "variacion": 0.0,
         "url_imagen": "fotos/00368.jpg"
       },
@@ -2693,8 +2686,8 @@
       },
       {
         "nombre": "Queso Cremoso Rivadavia X 100 Grs.",
-        "precio": 30.0,
-        "oferta": 21.8,
+        "precio": 28.0,
+        "oferta": 20.35,
         "variacion": 0.0,
         "url_imagen": "fotos/00340.jpg"
       },
@@ -2786,13 +2779,6 @@
         "oferta": 58.0,
         "variacion": 0.0,
         "url_imagen": "fotos/00287.jpg"
-      },
-      {
-        "nombre": "Jamon Cocido Lario Feteado X 100 Grs.",
-        "precio": 60.0,
-        "oferta": 60.0,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00288.jpg"
       },
       {
         "nombre": "Jamon Cocido Paladini Feteado X 100 Grs.",
@@ -3091,8 +3077,8 @@
       },
       {
         "nombre": "Queso Tybo Rivadavia Feteado X 100 Grs.",
-        "precio": 40.0,
-        "oferta": 40.0,
+        "precio": 37.5,
+        "oferta": 37.5,
         "variacion": 0.0,
         "url_imagen": "fotos/00321.jpg"
       }
@@ -3385,23 +3371,6 @@
       },
       {
         "nivel": 2,
-        "titulo": "Crema de Leche"
-      }
-    ],
-    "productos": [
-      {
-        "nombre": "Crema De Leche La Serenisima 200 Ml.",
-        "precio": 106.0,
-        "oferta": 93.63,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00376.jpg"
-      }
-    ]
-  },
-  {
-    "titulos": [
-      {
-        "nivel": 2,
         "titulo": "Dulce de Leche"
       }
     ],
@@ -3533,7 +3502,7 @@
       {
         "nombre": "Leche Descremada En Polvo Purisima X 800 Grs.",
         "precio": 434.24,
-        "oferta": 376.0,
+        "oferta": 376.75,
         "variacion": 0.0,
         "url_imagen": "fotos/00412.jpg"
       },
@@ -3561,7 +3530,7 @@
       {
         "nombre": "Leche Entera En Polvo Purisima X 800 Grs.",
         "precio": 434.24,
-        "oferta": 376.0,
+        "oferta": 376.75,
         "variacion": 0.0,
         "url_imagen": "fotos/00414.jpg"
       },
@@ -4432,8 +4401,8 @@
       },
       {
         "nombre": "Espiral Raid Sobre 4 Uds.",
-        "precio": 23.5,
-        "oferta": 20.15,
+        "precio": 24.5,
+        "oferta": 21.06,
         "variacion": 0.0,
         "url_imagen": "fotos/00520.jpg"
       },
@@ -4516,8 +4485,8 @@
       },
       {
         "nombre": "Raid Mata Moscas Y Mosquitos 360 Cm.",
-        "precio": 210.0,
-        "oferta": 182.01,
+        "precio": 215.0,
+        "oferta": 186.38,
         "variacion": 0.0,
         "url_imagen": "fotos/00507.jpg"
       }

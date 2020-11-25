@@ -228,13 +228,6 @@
         "url_imagen": "fotos/00030.jpg"
       },
       {
-        "nombre": "Mayonesa Hellmann's Suave Doypack 485 Gr",
-        "precio": 91.1,
-        "oferta": 91.1,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00036.jpg"
-      },
-      {
         "nombre": "Mayonesa Natura Doypack 250 Gr",
         "precio": 61.2,
         "oferta": 61.2,
@@ -261,6 +254,13 @@
         "oferta": 78.5,
         "variacion": 0.0,
         "url_imagen": "fotos/00025.jpg"
+      },
+      {
+        "nombre": "Salsa Golf Danica 209 Gr.",
+        "precio": 48.5,
+        "oferta": 48.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01967.jpg"
       }
     ]
   },
@@ -329,11 +329,11 @@
         "url_imagen": "fotos/00077.jpg"
       },
       {
-        "nombre": "Arroz Preparado Gallo Sabor Verdeo X 240 Gr",
-        "precio": 96.0,
-        "oferta": 96.0,
+        "nombre": "Arroz Preparado Gallo Verdeo 240 Gr.",
+        "precio": 101.3,
+        "oferta": 101.3,
         "variacion": 0.0,
-        "url_imagen": "fotos/00083.jpg"
+        "url_imagen": "fotos/01968.jpg"
       },
       {
         "nombre": "Garbanzo Marolio 500 Grs",
@@ -570,8 +570,8 @@
       },
       {
         "nombre": "Atún Gomes Da Costa Natural Trozo 170 Gr",
-        "precio": 159.6,
-        "oferta": 159.6,
+        "precio": 164.3,
+        "oferta": 164.3,
         "variacion": 0.0,
         "url_imagen": "fotos/00061.jpg"
       },
@@ -946,8 +946,8 @@
       },
       {
         "nombre": "Mate Cocido Cruz Malta 25 Un",
-        "precio": 55.3,
-        "oferta": 55.3,
+        "precio": 55.8,
+        "oferta": 55.8,
         "variacion": 0.0,
         "url_imagen": "fotos/00135.jpg"
       },
@@ -1009,8 +1009,8 @@
       },
       {
         "nombre": "Yerba Verdeflor Compuesta 500 Gr",
-        "precio": 134.4,
-        "oferta": 134.4,
+        "precio": 144.0,
+        "oferta": 144.0,
         "variacion": 0.0,
         "url_imagen": "fotos/00140.jpg"
       }
@@ -1457,18 +1457,18 @@
         "url_imagen": "fotos/00215.jpg"
       },
       {
-        "nombre": "Sal Celusal Entrefina Estuche 1 Kg",
+        "nombre": "Sal Celusal Entrefina Parrillera Estuche 1 Kg",
         "precio": 64.9,
         "oferta": 64.9,
         "variacion": 0.0,
-        "url_imagen": "fotos/00221.jpg"
+        "url_imagen": "fotos/01969.jpg"
       },
       {
-        "nombre": "Sal Celusal Entrefina Paquete 1 Kg",
+        "nombre": "Sal Celusal Entrefina Parrillera Paquete 1 Kg",
         "precio": 50.6,
         "oferta": 50.6,
         "variacion": 0.0,
-        "url_imagen": "fotos/00223.jpg"
+        "url_imagen": "fotos/01970.jpg"
       },
       {
         "nombre": "Sal Celusal Fina Estuche 500 Gr",
@@ -1782,8 +1782,8 @@
       },
       {
         "nombre": "Agua Levite Manzana 1.5 Lts",
-        "precio": 96.0,
-        "oferta": 96.0,
+        "precio": 99.0,
+        "oferta": 99.0,
         "variacion": 0.0,
         "url_imagen": "fotos/00228.jpg"
       },
@@ -1803,8 +1803,8 @@
       },
       {
         "nombre": "Agua Levite Naranja 1.5 Lts",
-        "precio": 96.0,
-        "oferta": 96.0,
+        "precio": 99.0,
+        "oferta": 99.0,
         "variacion": 0.0,
         "url_imagen": "fotos/00230.jpg"
       },
@@ -1817,36 +1817,36 @@
       },
       {
         "nombre": "Agua Levite Pera 1.5 Lts",
-        "precio": 96.0,
-        "oferta": 96.0,
+        "precio": 99.0,
+        "oferta": 99.0,
         "variacion": 0.0,
         "url_imagen": "fotos/00229.jpg"
       },
       {
         "nombre": "Agua Levite Pera 2.25 Lts",
-        "precio": 120.0,
-        "oferta": 120.0,
+        "precio": 127.19,
+        "oferta": 127.19,
         "variacion": 0.0,
         "url_imagen": "fotos/00227.jpg"
       },
       {
         "nombre": "Agua Saborizada Limonada Aquarius 2.25 Lt",
-        "precio": 89.0,
-        "oferta": 89.0,
+        "precio": 123.6,
+        "oferta": 123.6,
         "variacion": 0.0,
         "url_imagen": "fotos/00233.jpg"
       },
       {
         "nombre": "Aquarius Saborizada Manzana 2.25 L",
-        "precio": 99.0,
-        "oferta": 99.0,
+        "precio": 123.6,
+        "oferta": 123.6,
         "variacion": 0.0,
         "url_imagen": "fotos/00232.jpg"
       },
       {
         "nombre": "Aquarius Saborizada Pera 2.25 L",
-        "precio": 99.0,
-        "oferta": 99.0,
+        "precio": 123.6,
+        "oferta": 123.6,
         "variacion": 0.0,
         "url_imagen": "fotos/00234.jpg"
       }
@@ -1907,8 +1907,8 @@
       },
       {
         "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5 L.",
-        "precio": 49.0,
-        "oferta": 49.0,
+        "precio": 51.9,
+        "oferta": 51.9,
         "variacion": 0.0,
         "url_imagen": "fotos/00190.jpg"
       },
@@ -2147,8 +2147,8 @@
       },
       {
         "nombre": "Cerveza Corona 330 Cc",
-        "precio": 91.0,
-        "oferta": 91.0,
+        "precio": 93.0,
+        "oferta": 93.0,
         "variacion": 0.0,
         "url_imagen": "fotos/00274.jpg"
       },
@@ -2161,8 +2161,8 @@
       },
       {
         "nombre": "Cerveza Imperial Ipa 473 Cc Six Pack",
-        "precio": 580.0,
-        "oferta": 580.0,
+        "precio": 589.16,
+        "oferta": 589.16,
         "variacion": 0.0,
         "url_imagen": "fotos/00278.jpg"
       },
@@ -2203,8 +2203,8 @@
       },
       {
         "nombre": "Cerveza Rubia Quilmes Clásica 6-pack 473 Ml Lata",
-        "precio": 449.0,
-        "oferta": 449.0,
+        "precio": 470.9,
+        "oferta": 470.9,
         "variacion": 0.0,
         "url_imagen": "fotos/00280.jpg"
       },
@@ -2558,8 +2558,8 @@
       },
       {
         "nombre": "Vino Eugenio Bustos Malbec 750 Cc",
-        "precio": 185.2,
-        "oferta": 185.2,
+        "precio": 188.59,
+        "oferta": 188.59,
         "variacion": 0.0,
         "url_imagen": "fotos/00327.jpg"
       },
@@ -2589,7 +2589,7 @@
         "precio": 249.9,
         "oferta": 249.9,
         "variacion": 0.0,
-        "url_imagen": "fotos/01966.jpg"
+        "url_imagen": "fotos/01971.jpg"
       }
     ]
   },
@@ -3553,8 +3553,8 @@
     "productos": [
       {
         "nombre": "Pascualina La Salteña Criolla 400 Gr",
-        "precio": 82.41,
-        "oferta": 82.41,
+        "precio": 92.19,
+        "oferta": 92.19,
         "variacion": 0.0,
         "url_imagen": "fotos/00431.jpg"
       },
@@ -4177,8 +4177,8 @@
       },
       {
         "nombre": "Limpiador Cif Antigrasa 450 Ml",
-        "precio": 66.0,
-        "oferta": 66.0,
+        "precio": 67.0,
+        "oferta": 67.0,
         "variacion": 0.0,
         "url_imagen": "fotos/00559.jpg"
       },
@@ -4264,8 +4264,8 @@
       },
       {
         "nombre": "Limpiador Cif Antigrasa 450 Ml",
-        "precio": 66.0,
-        "oferta": 66.0,
+        "precio": 67.0,
+        "oferta": 67.0,
         "variacion": 0.0,
         "url_imagen": "fotos/00607.jpg"
       },
@@ -4849,8 +4849,8 @@
     "productos": [
       {
         "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5 L.",
-        "precio": 49.0,
-        "oferta": 49.0,
+        "precio": 51.9,
+        "oferta": 51.9,
         "variacion": 0.0,
         "url_imagen": "fotos/00598.jpg"
       },
@@ -4949,8 +4949,8 @@
     "productos": [
       {
         "nombre": "Ají Triturado Alicante 25 Gr",
-        "precio": 31.9,
-        "oferta": 31.9,
+        "precio": 33.27,
+        "oferta": 33.27,
         "variacion": 0.0,
         "url_imagen": "fotos/00631.jpg"
       },

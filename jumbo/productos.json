@@ -229,13 +229,6 @@
         "url_imagen": "fotos/11783.jpg"
       },
       {
-        "nombre": "Aceite De Oliva Nucete Extra Virgen Clásico 500 Ml",
-        "precio": 444.48,
-        "oferta": 444.48,
-        "variacion": 0.0,
-        "url_imagen": "fotos/11785.jpg"
-      },
-      {
         "nombre": "Aceite De Oliva Oliovita Coratina",
         "precio": 522.39,
         "oferta": 522.39,
@@ -250,13 +243,6 @@
         "url_imagen": "fotos/00021.jpg"
       },
       {
-        "nombre": "Aceite De Oliva Zuelo Extra Virgen Clásico 500 Ml",
-        "precio": 562.22,
-        "oferta": 562.22,
-        "variacion": 0.0,
-        "url_imagen": "fotos/11732.jpg"
-      },
-      {
         "nombre": "Aceite Mazola De Oliva 500 Cc",
         "precio": 293.84,
         "oferta": 293.84,
@@ -269,6 +255,20 @@
         "oferta": 328.85,
         "variacion": 0.0,
         "url_imagen": "fotos/00006.jpg"
+      },
+      {
+        "nombre": "Aceite Oliva Familia Zuccardi Picual 250 Ml",
+        "precio": 384.01,
+        "oferta": 384.01,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00023.jpg"
+      },
+      {
+        "nombre": "Aceite Olivado Cocinero 900 Ml",
+        "precio": 249.29,
+        "oferta": 249.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00022.jpg"
       }
     ]
   },
@@ -420,13 +420,6 @@
         "url_imagen": "fotos/00116.jpg"
       },
       {
-        "nombre": "Vinagre De Alcohol Casalta 500 Ml",
-        "precio": 50.88,
-        "oferta": 50.88,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00128.jpg"
-      },
-      {
         "nombre": "Vinagre De Alcohol Clasico Botella 1 Lt.",
         "precio": 82.19,
         "oferta": 82.19,
@@ -518,6 +511,13 @@
         "url_imagen": "fotos/00131.jpg"
       },
       {
+        "nombre": "Vinagre De Vino Jumbo 500 Ml",
+        "precio": 72.73,
+        "oferta": 72.73,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00132.jpg"
+      },
+      {
         "nombre": "Vinagre De Vino Menoyo 1 L",
         "precio": 123.81,
         "oferta": 123.81,
@@ -593,13 +593,6 @@
         "oferta": 110.16,
         "variacion": 0.0,
         "url_imagen": "fotos/00041.jpg"
-      },
-      {
-        "nombre": "Ketchup Hellmann's Doypack 500 Gr",
-        "precio": 155.02,
-        "oferta": 155.02,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00040.jpg"
       },
       {
         "nombre": "Ketchup Hellmanns Doypack 250 Gr",
@@ -1439,14 +1432,14 @@
         "precio": 83.23,
         "oferta": 83.23,
         "variacion": 0.0,
-        "url_imagen": "fotos/00713.jpg"
+        "url_imagen": "fotos/11698.jpg"
       },
       {
         "nombre": "Caldo Carne Menos Sodio Maggi 12 U",
         "precio": 83.23,
         "oferta": 83.23,
         "variacion": 0.0,
-        "url_imagen": "fotos/11698.jpg"
+        "url_imagen": "fotos/00713.jpg"
       },
       {
         "nombre": "Caldo De Carne Knorr 4 U",
@@ -1585,18 +1578,18 @@
         "url_imagen": "fotos/00730.jpg"
       },
       {
-        "nombre": "Sopa Crema Knorr Arvejas Con Jamón 64 Gr- 4 Porciones",
-        "precio": 78.11,
-        "oferta": 78.11,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00728.jpg"
-      },
-      {
         "nombre": "Sopa Crema Tomate Y Verdura - La Potagere",
         "precio": 230.27,
         "oferta": 230.27,
         "variacion": 0.0,
         "url_imagen": "fotos/00727.jpg"
+      },
+      {
+        "nombre": "Sopa Instantánea Choclo Knorr Quick 5 Sobres",
+        "precio": 124.54,
+        "oferta": 124.54,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11884.jpg"
       },
       {
         "nombre": "Sopa Instantánea Knorr Quick Vegetales Light 5 Sobres - 52.5 Gr",
@@ -2395,6 +2388,13 @@
         "url_imagen": "fotos/00285.jpg"
       },
       {
+        "nombre": "Budin Don Satur Marmolado X190gr",
+        "precio": 69.0,
+        "oferta": 69.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11877.jpg"
+      },
+      {
         "nombre": "Budin Don Satur Vainilla X190gr",
         "precio": 31.1,
         "oferta": 31.1,
@@ -2407,13 +2407,6 @@
         "oferta": 89.0,
         "variacion": 0.0,
         "url_imagen": "fotos/00289.jpg"
-      },
-      {
-        "nombre": "Madalenas Chip Chocolate Valente X 225g",
-        "precio": 105.95,
-        "oferta": 105.95,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00296.jpg"
       },
       {
         "nombre": "Madalenas Jumbo De Marmolado 250 Gr",
@@ -2625,13 +2618,6 @@
         "url_imagen": "fotos/00320.jpg"
       },
       {
-        "nombre": "Café Cápsulas La Virginia Intenso - 10 Cápsulas",
-        "precio": 352.62,
-        "oferta": 352.62,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00319.jpg"
-      },
-      {
         "nombre": "Café Instantáneo Nescafe Dolca Doypack X 170 Gr",
         "precio": 333.65,
         "oferta": 333.65,
@@ -2646,6 +2632,20 @@
         "url_imagen": "fotos/00321.jpg"
       },
       {
+        "nombre": "Café Instantáneo Nescafe Dolca Suave X 170 Gr",
+        "precio": 390.17,
+        "oferta": 390.17,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11905.jpg"
+      },
+      {
+        "nombre": "Café Instantáneo Nescafe Gold Espresso 100 Gr",
+        "precio": 744.46,
+        "oferta": 744.46,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00332.jpg"
+      },
+      {
         "nombre": "Café Instantáneo Nescafe Gold X 100 Gr",
         "precio": 744.46,
         "oferta": 744.46,
@@ -2658,13 +2658,6 @@
         "oferta": 407.56,
         "variacion": 0.0,
         "url_imagen": "fotos/00318.jpg"
-      },
-      {
-        "nombre": "Café La Morenita Molido Intenso 1 Kg",
-        "precio": 476.3,
-        "oferta": 476.3,
-        "variacion": 0.0,
-        "url_imagen": "fotos/11792.jpg"
       },
       {
         "nombre": "Café La Planta De Café Molido 500 Gr",
@@ -2747,13 +2740,6 @@
         "url_imagen": "fotos/00349.jpg"
       },
       {
-        "nombre": "Almohaditas Snuks Rellenas Chocolate 200 Gr",
-        "precio": 146.22,
-        "oferta": 146.22,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00348.jpg"
-      },
-      {
         "nombre": "Barra Cereal Mix Yoghurt Frutilla 156 Gr",
         "precio": 199.08,
         "oferta": 199.08,
@@ -2768,6 +2754,13 @@
         "url_imagen": "fotos/00336.jpg"
       },
       {
+        "nombre": "Cereal Arcor Mix Original 6 U",
+        "precio": 199.08,
+        "oferta": 199.08,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11879.jpg"
+      },
+      {
         "nombre": "Cereal Cheerios Aritos Miel X210gr",
         "precio": 178.19,
         "oferta": 178.19,
@@ -2780,6 +2773,13 @@
         "oferta": 265.66,
         "variacion": 0.0,
         "url_imagen": "fotos/00339.jpg"
+      },
+      {
+        "nombre": "Cereales Nesquik 230 Gr",
+        "precio": 214.24,
+        "oferta": 214.24,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11858.jpg"
       },
       {
         "nombre": "Cereales Nesquik 400 Gr",
@@ -2822,13 +2822,6 @@
         "oferta": 202.46,
         "variacion": 0.0,
         "url_imagen": "fotos/00345.jpg"
-      },
-      {
-        "nombre": "Granola Kellogg's Tradicional 350 Gr",
-        "precio": 191.74,
-        "oferta": 191.74,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00346.jpg"
       },
       {
         "nombre": "Hola Granola Frutos Del Bosque Cuisine & Co 300 Gr",
@@ -3033,6 +3026,13 @@
         "url_imagen": "fotos/00415.jpg"
       },
       {
+        "nombre": "Fajitas Tía Maruca Clásica 150 Gr",
+        "precio": 60.65,
+        "oferta": 60.65,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11739.jpg"
+      },
+      {
         "nombre": "Galletas De Arroz Integral Dulces Jumbo 100 Gr",
         "precio": 65.88,
         "oferta": 65.88,
@@ -3124,13 +3124,6 @@
         "url_imagen": "fotos/00414.jpg"
       },
       {
-        "nombre": "Tostadas Finas clásicas 140 Gr Cuisine & Co",
-        "precio": 112.48,
-        "oferta": 112.48,
-        "variacion": 0.0,
-        "url_imagen": "fotos/11793.jpg"
-      },
-      {
         "nombre": "Tostaditas Crackines De Arroz Libre De Gluten 120gr",
         "precio": 69.63,
         "oferta": 69.63,
@@ -3218,11 +3211,11 @@
         "url_imagen": "fotos/00389.jpg"
       },
       {
-        "nombre": "Leche En Polvo La Lechera 800 Gr",
-        "precio": 440.2,
-        "oferta": 440.2,
+        "nombre": "Leche En Polvo Nido 3 800 Gr",
+        "precio": 541.06,
+        "oferta": 541.06,
         "variacion": 0.0,
-        "url_imagen": "fotos/00381.jpg"
+        "url_imagen": "fotos/11878.jpg"
       },
       {
         "nombre": "Leche En Polvo Nido Fortigrow Deslactosada 400 Gr",
@@ -3233,17 +3226,17 @@
       },
       {
         "nombre": "Leche En Polvo Nutrilón Profutura 800 Gr",
-        "precio": 1.029,
-        "oferta": 1.029,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00388.jpg"
-      },
-      {
-        "nombre": "Leche En Polvo Nutrilón Profutura 800 Gr",
         "precio": 971.81,
         "oferta": 971.81,
         "variacion": 0.0,
         "url_imagen": "fotos/00387.jpg"
+      },
+      {
+        "nombre": "Leche En Polvo Nutrilón Profutura 800 Gr",
+        "precio": 1.029,
+        "oferta": 1.029,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00388.jpg"
       },
       {
         "nombre": "Leche En Polvo Svelty Deslactosada 400 Gr",
@@ -3291,11 +3284,11 @@
         "url_imagen": "fotos/00402.jpg"
       },
       {
-        "nombre": "Dulce Masseube Orgánico Frambuesa X 350 Gr",
-        "precio": 303.62,
-        "oferta": 303.62,
+        "nombre": "Dulce Masseube Orgánico F. Bosque X 350 Gr",
+        "precio": 293.12,
+        "oferta": 293.12,
         "variacion": 0.0,
-        "url_imagen": "fotos/11794.jpg"
+        "url_imagen": "fotos/11880.jpg"
       },
       {
         "nombre": "Dulce Patagonia Berries Frutilla Light 260 Gr",
@@ -3317,13 +3310,6 @@
         "oferta": 122.92,
         "variacion": 0.0,
         "url_imagen": "fotos/00405.jpg"
-      },
-      {
-        "nombre": "Mermelada Bc Durazno Maracuya 390 Gr",
-        "precio": 133.43,
-        "oferta": 133.43,
-        "variacion": 0.0,
-        "url_imagen": "fotos/11795.jpg"
       },
       {
         "nombre": "Mermelada Bc La Campagnola Arándano 390 Gr",
@@ -3373,6 +3359,13 @@
         "oferta": 125.02,
         "variacion": 0.0,
         "url_imagen": "fotos/00399.jpg"
+      },
+      {
+        "nombre": "Mermelada La Vieja Fábrica Frutilla 350 Gr",
+        "precio": 249.9,
+        "oferta": 249.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11875.jpg"
       },
       {
         "nombre": "Mermelada La Vieja Fábrica Naranja 350 Gr",
@@ -3462,13 +3455,6 @@
         "url_imagen": "fotos/00428.jpg"
       },
       {
-        "nombre": "Té Inti Zen Verde Chai 15 Saquitos",
-        "precio": 227.09,
-        "oferta": 227.09,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00436.jpg"
-      },
-      {
         "nombre": "Té La Virginia Cedrón 25 Saquitos",
         "precio": 74.18,
         "oferta": 74.18,
@@ -3497,11 +3483,11 @@
         "url_imagen": "fotos/00437.jpg"
       },
       {
-        "nombre": "Té Saint Gottard Manzanilla Canela Y Miel-20 Saquitos",
-        "precio": 101.57,
-        "oferta": 101.57,
+        "nombre": "Té Saint Gottard Frutos Del Bosque 20 U",
+        "precio": 348.05,
+        "oferta": 348.05,
         "variacion": 0.0,
-        "url_imagen": "fotos/11691.jpg"
+        "url_imagen": "fotos/11859.jpg"
       },
       {
         "nombre": "Té Taragui Filtro Especial En Saquitos- 100 Saquitos",
@@ -3544,6 +3530,13 @@
         "oferta": 71.73,
         "variacion": 0.0,
         "url_imagen": "fotos/00435.jpg"
+      },
+      {
+        "nombre": "Té Verde Taragui En Saquitos 20 Saquitos",
+        "precio": 75.32,
+        "oferta": 75.32,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11881.jpg"
       }
     ]
   },
@@ -3745,6 +3738,13 @@
         "url_imagen": "fotos/00479.jpg"
       },
       {
+        "nombre": "Alfajor Suchard Mousse 50 Gr X 6 U",
+        "precio": 211.99,
+        "oferta": 211.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11860.jpg"
+      },
+      {
         "nombre": "Alfajor Tofi Negro 276 Gr",
         "precio": 153.39,
         "oferta": 153.39,
@@ -3771,13 +3771,6 @@
         "oferta": 104.96,
         "variacion": 0.0,
         "url_imagen": "fotos/00468.jpg"
-      },
-      {
-        "nombre": "Alfajores Mini Negros Con Mousse Jorgito 128 Gr",
-        "precio": 104.96,
-        "oferta": 104.96,
-        "variacion": 0.0,
-        "url_imagen": "fotos/11743.jpg"
       },
       {
         "nombre": "Alfajores Mixtos Cachafaz 12 U",
@@ -3874,13 +3867,6 @@
         "url_imagen": "fotos/00498.jpg"
       },
       {
-        "nombre": "Cubanitos Caprice Classic X 250g",
-        "precio": 498.78,
-        "oferta": 498.78,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00497.jpg"
-      },
-      {
         "nombre": "Cubanitos Waffers Capuchino Cuisine & Co 130 Gr",
         "precio": 160.14,
         "oferta": 160.14,
@@ -3914,6 +3900,13 @@
         "oferta": 135.53,
         "variacion": 0.0,
         "url_imagen": "fotos/00499.jpg"
+      },
+      {
+        "nombre": "Galletitas Rhodesia Bañadas 729 Gr",
+        "precio": 1.255,
+        "oferta": 1.255,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11861.jpg"
       },
       {
         "nombre": "Nestle Bananita Dolca Doypack X 13 U",
@@ -4108,7 +4101,7 @@
         "precio": 104.8,
         "oferta": 104.8,
         "variacion": 0.0,
-        "url_imagen": "fotos/11802.jpg"
+        "url_imagen": "fotos/11882.jpg"
       },
       {
         "nombre": "Caramelos Arcor Rellenos Miel 150 Gr",
@@ -4116,13 +4109,6 @@
         "oferta": 104.8,
         "variacion": 0.0,
         "url_imagen": "fotos/11801.jpg"
-      },
-      {
-        "nombre": "Caramelos Butter Toffees Rellenos 150 Gr",
-        "precio": 112.52,
-        "oferta": 112.52,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00559.jpg"
       },
       {
         "nombre": "Caramelos Butter Toffees Rellenos Leche 150 Gr",
@@ -4172,6 +4158,13 @@
         "oferta": 38.38,
         "variacion": 0.0,
         "url_imagen": "fotos/11774.jpg"
+      },
+      {
+        "nombre": "Gomitas Arcor Mogul 250 Gr",
+        "precio": 119.13,
+        "oferta": 119.13,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00546.jpg"
       },
       {
         "nombre": "Gomitas Arcor Mogul 250 Gr",
@@ -4240,6 +4233,13 @@
         "url_imagen": "fotos/00533.jpg"
       },
       {
+        "nombre": "Chocolate Amargo Nestlé Classic 90 Gr",
+        "precio": 173.35,
+        "oferta": 173.35,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11862.jpg"
+      },
+      {
         "nombre": "Chocolate Arcor C/leche Y Maní X25gr",
         "precio": 36.77,
         "oferta": 36.77,
@@ -4266,13 +4266,6 @@
         "oferta": 173.35,
         "variacion": 0.0,
         "url_imagen": "fotos/00530.jpg"
-      },
-      {
-        "nombre": "Chocolate Crunch 90 Gr",
-        "precio": 173.35,
-        "oferta": 173.35,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00531.jpg"
       },
       {
         "nombre": "Chocolate Hersheys Con Leche 92 Gr",
@@ -4638,13 +4631,6 @@
         "url_imagen": "fotos/00577.jpg"
       },
       {
-        "nombre": "Harina Bruning Leudante 1 Kg",
-        "precio": 56.78,
-        "oferta": 56.78,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00586.jpg"
-      },
-      {
         "nombre": "Harina Caserita 0000 1 Kg",
         "precio": 61.15,
         "oferta": 61.15,
@@ -4657,6 +4643,13 @@
         "oferta": 39.63,
         "variacion": 0.0,
         "url_imagen": "fotos/00590.jpg"
+      },
+      {
+        "nombre": "Harina De Maiz Morixe Para Arepas X1kg",
+        "precio": 241.02,
+        "oferta": 241.02,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11883.jpg"
       },
       {
         "nombre": "Harina De Maíz Presto Pronta 750 Gr",
@@ -4781,13 +4774,6 @@
         "url_imagen": "fotos/00752.jpg"
       },
       {
-        "nombre": "Fideos Farfalle Barilla 500 Gr",
-        "precio": 348.14,
-        "oferta": 348.14,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00742.jpg"
-      },
-      {
         "nombre": "Fideos Fusilli Barilla 500 Gr",
         "precio": 348.14,
         "oferta": 348.14,
@@ -4835,6 +4821,13 @@
         "oferta": 249.9,
         "variacion": 0.0,
         "url_imagen": "fotos/00754.jpg"
+      },
+      {
+        "nombre": "Mermelada La Vieja Fábrica Frutilla 350 Gr",
+        "precio": 249.9,
+        "oferta": 249.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11887.jpg"
       },
       {
         "nombre": "Mermelada La Vieja Fábrica Naranja 350 Gr",
@@ -4903,11 +4896,25 @@
         "url_imagen": "fotos/11775.jpg"
       },
       {
-        "nombre": "Almidón De Maíz Maizena 520 Gr",
-        "precio": 127.47,
-        "oferta": 127.47,
+        "nombre": "Aceite De Girasol Lira 1.5 L",
+        "precio": 217.31,
+        "oferta": 217.31,
         "variacion": 0.0,
-        "url_imagen": "fotos/00771.jpg"
+        "url_imagen": "fotos/11876.jpg"
+      },
+      {
+        "nombre": "Alim Polv Nesquik Fort.inst Com Opt360g",
+        "precio": 154.33,
+        "oferta": 154.33,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11886.jpg"
+      },
+      {
+        "nombre": "Arroz Doble Carolina Gallo 1 Kg",
+        "precio": 189.28,
+        "oferta": 189.28,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11885.jpg"
       },
       {
         "nombre": "Arroz Oro Estuche Gallo 1 Kg",
@@ -4999,20 +5006,6 @@
         "oferta": 110.28,
         "variacion": 0.0,
         "url_imagen": "fotos/00761.jpg"
-      },
-      {
-        "nombre": "Mozzarella La Serenisima 220 Gr",
-        "precio": 221.36,
-        "oferta": 221.36,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00768.jpg"
-      },
-      {
-        "nombre": "Puré De Tomate Arcor 520 Gr",
-        "precio": 51.98,
-        "oferta": 51.98,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00764.jpg"
       },
       {
         "nombre": "Puré De Tomate Salsati 520 Gr",
@@ -5315,13 +5308,6 @@
         "url_imagen": "fotos/00633.jpg"
       },
       {
-        "nombre": "Sal Celusal Gruesa X500gr",
-        "precio": 29.13,
-        "oferta": 29.13,
-        "variacion": 0.0,
-        "url_imagen": "fotos/11747.jpg"
-      },
-      {
         "nombre": "Sal Entrefina Celusal 1 Kg",
         "precio": 53.06,
         "oferta": 53.06,
@@ -5350,6 +5336,13 @@
         "url_imagen": "fotos/00629.jpg"
       },
       {
+        "nombre": "Sal Entrefina Dos Anclas 500 Gr",
+        "precio": 104.04,
+        "oferta": 104.04,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00635.jpg"
+      },
+      {
         "nombre": "Sal Fina Celusal 500 Gr",
         "precio": 41.62,
         "oferta": 41.62,
@@ -5358,17 +5351,17 @@
       },
       {
         "nombre": "Sal Fina Celusal 500 Gr",
-        "precio": 46.5,
-        "oferta": 46.5,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00631.jpg"
-      },
-      {
-        "nombre": "Sal Fina Celusal 500 Gr",
         "precio": 118.61,
         "oferta": 118.61,
         "variacion": 0.0,
         "url_imagen": "fotos/00632.jpg"
+      },
+      {
+        "nombre": "Sal Fina Celusal 500 Gr",
+        "precio": 46.5,
+        "oferta": 46.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00631.jpg"
       },
       {
         "nombre": "Sal Fina Dos Anclas 500 Gr",
@@ -5556,13 +5549,6 @@
         "url_imagen": "fotos/00664.jpg"
       },
       {
-        "nombre": "Maní King Tostado Sin Piel 500 Gr",
-        "precio": 230.24,
-        "oferta": 230.24,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00663.jpg"
-      },
-      {
         "nombre": "Maní King Tostado Sin Sal 30gr",
         "precio": 32.59,
         "oferta": 32.59,
@@ -5688,13 +5674,6 @@
         "url_imagen": "fotos/11748.jpg"
       },
       {
-        "nombre": "Galletitas Gallo Snacks Pizza - 50g",
-        "precio": 63.65,
-        "oferta": 63.65,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00688.jpg"
-      },
-      {
         "nombre": "Galletitas Gallo Snacks Queso 50 Gr",
         "precio": 63.65,
         "oferta": 63.65,
@@ -5777,6 +5756,13 @@
         "oferta": 68.5,
         "variacion": 0.0,
         "url_imagen": "fotos/00697.jpg"
+      },
+      {
+        "nombre": "Super Conos Maxi Queso",
+        "precio": 55.66,
+        "oferta": 55.66,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11863.jpg"
       }
     ]
   },
@@ -6097,13 +6083,6 @@
         "url_imagen": "fotos/00847.jpg"
       },
       {
-        "nombre": "Agua Saborizada H2oh! Citrus Fruit 1.5l",
-        "precio": 103.91,
-        "oferta": 103.91,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00858.jpg"
-      },
-      {
         "nombre": "Agua Saborizada H2oh! Lima Limón 1.5l",
         "precio": 97.85,
         "oferta": 97.85,
@@ -6193,6 +6172,13 @@
         "oferta": 133.9,
         "variacion": 0.0,
         "url_imagen": "fotos/00845.jpg"
+      },
+      {
+        "nombre": "Limonadas Clásica 2.25 L",
+        "precio": 146.75,
+        "oferta": 146.75,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11888.jpg"
       }
     ]
   },
@@ -6627,6 +6613,13 @@
         "url_imagen": "fotos/01021.jpg"
       },
       {
+        "nombre": "Cerveza Corona 269 Cc - 10 U",
+        "precio": 531.32,
+        "oferta": 531.32,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11891.jpg"
+      },
+      {
         "nombre": "Cerveza Heineken Premium 473 Ml Six Pack",
         "precio": 551.67,
         "oferta": 551.67,
@@ -6646,20 +6639,6 @@
         "oferta": 589.16,
         "variacion": 0.0,
         "url_imagen": "fotos/01017.jpg"
-      },
-      {
-        "nombre": "Cerveza Imperial Rubia 473cc Six Pack",
-        "precio": 428.48,
-        "oferta": 428.48,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01025.jpg"
-      },
-      {
-        "nombre": "Cerveza Ipa Andes Origen Sixpack 473 Ml Lata",
-        "precio": 503.46,
-        "oferta": 503.46,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01018.jpg"
       },
       {
         "nombre": "Cerveza Miller Pack 6 U 473 Cc",
@@ -6725,6 +6704,13 @@
         "url_imagen": "fotos/01026.jpg"
       },
       {
+        "nombre": "Cerveza Schneider 473 Ml - Pack 6",
+        "precio": 353.5,
+        "oferta": 353.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11757.jpg"
+      },
+      {
         "nombre": "Cerveza Stella Artois 473cc Six Pack",
         "precio": 551.67,
         "oferta": 551.67,
@@ -6784,6 +6770,13 @@
         "url_imagen": "fotos/01055.jpg"
       },
       {
+        "nombre": "Champaña Mumm Cuvee Extra Brut 187 Cc",
+        "precio": 116.85,
+        "oferta": 116.85,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11871.jpg"
+      },
+      {
         "nombre": "Champaña Mumm Cuvee Extra Brut 750 Cc",
         "precio": 392.45,
         "oferta": 392.45,
@@ -6796,6 +6789,13 @@
         "oferta": 413.4,
         "variacion": 0.0,
         "url_imagen": "fotos/01053.jpg"
+      },
+      {
+        "nombre": "Champaña Nieto Senetiner Brut Nature 750 Cc",
+        "precio": 600.81,
+        "oferta": 600.81,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11892.jpg"
       },
       {
         "nombre": "Champaña Nieto Senetiner Extra Brut 750 Cc",
@@ -6840,13 +6840,6 @@
         "url_imagen": "fotos/01062.jpg"
       },
       {
-        "nombre": "Espumante Chandon Brut Rosé 375 Ml",
-        "precio": 281.11,
-        "oferta": 281.11,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01058.jpg"
-      },
-      {
         "nombre": "Espumante Chandon Délice 750 Ml",
         "precio": 518.13,
         "oferta": 518.13,
@@ -6859,13 +6852,6 @@
         "oferta": 152.13,
         "variacion": 0.0,
         "url_imagen": "fotos/01067.jpg"
-      },
-      {
-        "nombre": "Espumante Latitud 33° Extra Brut 750 Ml",
-        "precio": 314.18,
-        "oferta": 314.18,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01056.jpg"
       },
       {
         "nombre": "Espumante Salentein Blanc De Blanc 750 Ml",
@@ -6917,7 +6903,7 @@
         "precio": 90.64,
         "oferta": 90.64,
         "variacion": 0.0,
-        "url_imagen": "fotos/00894.jpg"
+        "url_imagen": "fotos/11865.jpg"
       },
       {
         "nombre": "Gaseosa Coca-cola Light 2.25 L",
@@ -6959,21 +6945,21 @@
         "precio": 48.2,
         "oferta": 48.2,
         "variacion": 0.0,
-        "url_imagen": "fotos/00903.jpg"
+        "url_imagen": "fotos/11867.jpg"
       },
       {
         "nombre": "Gaseosa Coca-cola Sabor Original 500 Ml",
         "precio": 58.92,
         "oferta": 58.92,
         "variacion": 0.0,
-        "url_imagen": "fotos/00906.jpg"
+        "url_imagen": "fotos/11869.jpg"
       },
       {
         "nombre": "Gaseosa Coca-cola Sin Azúcar 1.5 L",
         "precio": 117.83,
         "oferta": 117.83,
         "variacion": 0.0,
-        "url_imagen": "fotos/00891.jpg"
+        "url_imagen": "fotos/11864.jpg"
       },
       {
         "nombre": "Gaseosa Coca-cola Sin Azúcar 2.25 L",
@@ -6987,21 +6973,21 @@
         "precio": 37.49,
         "oferta": 37.49,
         "variacion": 0.0,
-        "url_imagen": "fotos/00898.jpg"
+        "url_imagen": "fotos/11866.jpg"
       },
       {
         "nombre": "Gaseosa Coca-cola Sin Azúcar 354 Ml",
         "precio": 48.2,
         "oferta": 48.2,
         "variacion": 0.0,
-        "url_imagen": "fotos/00907.jpg"
+        "url_imagen": "fotos/11870.jpg"
       },
       {
         "nombre": "Gaseosa Coca-cola Sin Azúcar 500 Ml",
         "precio": 58.92,
         "oferta": 58.92,
         "variacion": 0.0,
-        "url_imagen": "fotos/00904.jpg"
+        "url_imagen": "fotos/11868.jpg"
       },
       {
         "nombre": "Gaseosa Cola Pepsi 2.25l",
@@ -7533,13 +7519,6 @@
         "url_imagen": "fotos/00916.jpg"
       },
       {
-        "nombre": "Jugo En Polvo Arcor Manzana 20 Gr",
-        "precio": 13.49,
-        "oferta": 13.49,
-        "variacion": 0.0,
-        "url_imagen": "fotos/11841.jpg"
-      },
-      {
         "nombre": "Jugo En Polvo Bc Limonada 9.2 Gr",
         "precio": 15.42,
         "oferta": 15.42,
@@ -7608,6 +7587,13 @@
         "oferta": 18.21,
         "variacion": 0.0,
         "url_imagen": "fotos/00928.jpg"
+      },
+      {
+        "nombre": "Jugo En Polvo Clight Pomelo Amarillo 8 Gr",
+        "precio": 18.75,
+        "oferta": 18.75,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11889.jpg"
       },
       {
         "nombre": "Jugo En Polvo Tang Manzana 18 Gr",
@@ -7822,13 +7808,6 @@
         "url_imagen": "fotos/00950.jpg"
       },
       {
-        "nombre": "Jugo Bc Multifruta 500 Ml",
-        "precio": 67.37,
-        "oferta": 67.37,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00948.jpg"
-      },
-      {
         "nombre": "Jugo Bc Naranja 200 Ml",
         "precio": 41.87,
         "oferta": 41.87,
@@ -7848,6 +7827,13 @@
         "oferta": 70.7,
         "variacion": 0.0,
         "url_imagen": "fotos/11842.jpg"
+      },
+      {
+        "nombre": "Jugo Cepita Del Valle Manzana 200 Ml",
+        "precio": 35.35,
+        "oferta": 35.35,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11890.jpg"
       },
       {
         "nombre": "Jugo Cepita Del Valle Multifruta 200 Ml",
@@ -8192,6 +8178,13 @@
         "url_imagen": "fotos/01132.jpg"
       },
       {
+        "nombre": "Vino Blanco Dulce Tardio Callia Hoy 750 Ml",
+        "precio": 210.67,
+        "oferta": 210.67,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11893.jpg"
+      },
+      {
         "nombre": "Vino Blanco Etchart Privado Torrontés Cosecha Tardía 750 Ml",
         "precio": 153.23,
         "oferta": 153.23,
@@ -8232,13 +8225,6 @@
         "oferta": 270.09,
         "variacion": 0.0,
         "url_imagen": "fotos/01139.jpg"
-      },
-      {
-        "nombre": "Vino Blanco Sauvignon Blanc Salentein 750 Ml",
-        "precio": 655.93,
-        "oferta": 655.93,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01143.jpg"
       },
       {
         "nombre": "Vino Blanco Suter Dulce 750 Cc",
@@ -9065,18 +9051,18 @@
         "url_imagen": "fotos/01640.jpg"
       },
       {
-        "nombre": "Brocoli Crispy Cuks 300 Gr",
-        "precio": 358.85,
-        "oferta": 358.85,
+        "nombre": "Medallon De Brocoli Y Amaranto Veggieland X 360 Grs",
+        "precio": 226.6,
+        "oferta": 226.6,
         "variacion": 0.0,
-        "url_imagen": "fotos/01649.jpg"
+        "url_imagen": "fotos/11900.jpg"
       },
       {
-        "nombre": "Croissant De Manteca Fudy Para Hornear 360",
-        "precio": 295.61,
-        "oferta": 295.61,
+        "nombre": "Medallon De Soja Y Quinoa Veggieland X 340 Grs",
+        "precio": 204.97,
+        "oferta": 204.97,
         "variacion": 0.0,
-        "url_imagen": "fotos/01647.jpg"
+        "url_imagen": "fotos/11906.jpg"
       },
       {
         "nombre": "Medallon Vegetal Not Burger Premium X4uni",
@@ -9229,13 +9215,6 @@
         "url_imagen": "fotos/01601.jpg"
       },
       {
-        "nombre": "Empanadas Congeladas Mi Gusto X 6u Caja X",
-        "precio": 520.91,
-        "oferta": 520.91,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01589.jpg"
-      },
-      {
         "nombre": "Empanadas De Carne 4 Unidades Jumbo Ready",
         "precio": 187.35,
         "oferta": 187.35,
@@ -9283,6 +9262,13 @@
         "oferta": 232.68,
         "variacion": 0.0,
         "url_imagen": "fotos/01591.jpg"
+      },
+      {
+        "nombre": "Tarta De Atun Fausto Artico 280 Gr",
+        "precio": 210.62,
+        "oferta": 210.62,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01606.jpg"
       },
       {
         "nombre": "Tarta Integral 'el Noble' De Calabaza 240 Gr",
@@ -9494,13 +9480,6 @@
         "url_imagen": "fotos/01663.jpg"
       },
       {
-        "nombre": "Crema Helada Haulani Banana Split",
-        "precio": 468.65,
-        "oferta": 468.65,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01667.jpg"
-      },
-      {
         "nombre": "Crema Helada Haulani Dulce De Leche",
         "precio": 285.05,
         "oferta": 285.05,
@@ -9513,6 +9492,13 @@
         "oferta": 285.05,
         "variacion": 0.0,
         "url_imagen": "fotos/01666.jpg"
+      },
+      {
+        "nombre": "Crema Helada Oreo 95 Gr",
+        "precio": 105.47,
+        "oferta": 105.47,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11901.jpg"
       },
       {
         "nombre": "Helado Chocolate Doble Freddo Pote 375 Gr",
@@ -10160,13 +10146,6 @@
         "url_imagen": "fotos/01787.jpg"
       },
       {
-        "nombre": "Esponja Mortimer Cuadriculada 1 U",
-        "precio": 30.0,
-        "oferta": 30.0,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01791.jpg"
-      },
-      {
         "nombre": "Esponja Mortimer Cuidadosa 1 U",
         "precio": 69.0,
         "oferta": 69.0,
@@ -10249,6 +10228,13 @@
         "oferta": 215.35,
         "variacion": 0.0,
         "url_imagen": "fotos/01792.jpg"
+      },
+      {
+        "nombre": "Guantes Plumitas Mediano",
+        "precio": 166.0,
+        "oferta": 166.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11902.jpg"
       },
       {
         "nombre": "Rollito De Acero Virulana - 10 U",
@@ -10362,6 +10348,13 @@
         "url_imagen": "fotos/01819.jpg"
       },
       {
+        "nombre": "Franela Media Naranja Clásica 50 X 50 Cm",
+        "precio": 105.0,
+        "oferta": 105.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01837.jpg"
+      },
+      {
         "nombre": "Paño De Piso Costero Blanco Semi Profesional",
         "precio": 132.0,
         "oferta": 132.0,
@@ -10423,13 +10416,6 @@
         "oferta": 102.0,
         "variacion": 0.0,
         "url_imagen": "fotos/01824.jpg"
-      },
-      {
-        "nombre": "Trapo De Piso Jumbo Home Care",
-        "precio": 129.0,
-        "oferta": 129.0,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01821.jpg"
       },
       {
         "nombre": "Trapo De Piso Jumbo Home Care",
@@ -10613,18 +10599,18 @@
         "url_imagen": "fotos/01868.jpg"
       },
       {
-        "nombre": "Ala Camellito Jabón Para Ropa Fina Clásico 900 Ml",
-        "precio": 193.21,
-        "oferta": 193.21,
-        "variacion": 0.0,
-        "url_imagen": "fotos/11829.jpg"
-      },
-      {
         "nombre": "Ala Jabón Liquido Botella X 500 Ml Y X 3 L",
         "precio": 365.65,
         "oferta": 365.65,
         "variacion": 0.0,
         "url_imagen": "fotos/01858.jpg"
+      },
+      {
+        "nombre": "Ariel Jabón Líquido Para Ropa Concentrado 1,2 L",
+        "precio": 522.6,
+        "oferta": 522.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11874.jpg"
       },
       {
         "nombre": "Detergente Líq Skip Diluible - Botella X 500 Ml",
@@ -10941,14 +10927,14 @@
         "precio": 490.93,
         "oferta": 490.93,
         "variacion": 0.0,
-        "url_imagen": "fotos/11830.jpg"
+        "url_imagen": "fotos/01879.jpg"
       },
       {
         "nombre": "Suavizante Comfort Concentrado Intense 1 L",
         "precio": 490.93,
         "oferta": 490.93,
         "variacion": 0.0,
-        "url_imagen": "fotos/01879.jpg"
+        "url_imagen": "fotos/11830.jpg"
       },
       {
         "nombre": "Suavizante Comfort Concentrado Intense 450 Ml",
@@ -10991,13 +10977,6 @@
         "oferta": 86.57,
         "variacion": 0.0,
         "url_imagen": "fotos/01883.jpg"
-      },
-      {
-        "nombre": "Suavizante Para La Ropa Querubín 3 L",
-        "precio": 395.91,
-        "oferta": 395.91,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01884.jpg"
       },
       {
         "nombre": "Suavizante Para La Ropa Querubín 900 Ml",
@@ -11054,6 +11033,13 @@
         "oferta": 368.46,
         "variacion": 0.0,
         "url_imagen": "fotos/01871.jpg"
+      },
+      {
+        "nombre": "Suavizante Zorro Flores Silvestres 900 Ml",
+        "precio": 100.3,
+        "oferta": 100.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01886.jpg"
       }
     ]
   },
@@ -11834,17 +11820,17 @@
       },
       {
         "nombre": "Lavandina En Gel Vim Original 700ml",
-        "precio": 92.8,
-        "oferta": 92.8,
-        "variacion": 0.0,
-        "url_imagen": "fotos/02007.jpg"
-      },
-      {
-        "nombre": "Lavandina En Gel Vim Original 700ml",
         "precio": 91.86,
         "oferta": 91.86,
         "variacion": 0.0,
         "url_imagen": "fotos/02002.jpg"
+      },
+      {
+        "nombre": "Lavandina En Gel Vim Original 700ml",
+        "precio": 92.8,
+        "oferta": 92.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/02007.jpg"
       },
       {
         "nombre": "Lavandina Original Ayudín Máxima Pureza 1 L",
@@ -12116,6 +12102,13 @@
         "url_imagen": "fotos/02051.jpg"
       },
       {
+        "nombre": "Detergente Lavavajilla Ala Cremoso Glicerina 4 Lt",
+        "precio": 427.58,
+        "oferta": 427.58,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11728.jpg"
+      },
+      {
         "nombre": "Detergente Lavavajilla Ala Cremoso Glicerina 750 Ml",
         "precio": 82.35,
         "oferta": 82.35,
@@ -12149,13 +12142,6 @@
         "oferta": 85.52,
         "variacion": 0.0,
         "url_imagen": "fotos/11834.jpg"
-      },
-      {
-        "nombre": "Detergente Lavavajillas Magistral 900 Ml",
-        "precio": 258.66,
-        "oferta": 258.66,
-        "variacion": 0.0,
-        "url_imagen": "fotos/02045.jpg"
       },
       {
         "nombre": "Detergente Lavavajillas Magistral Marina - 500 Ml",
@@ -12265,13 +12251,6 @@
         "url_imagen": "fotos/02079.jpg"
       },
       {
-        "nombre": "Limpiador Cif Crema Limón Botella 375 Gr",
-        "precio": 66.52,
-        "oferta": 66.52,
-        "variacion": 0.0,
-        "url_imagen": "fotos/02091.jpg"
-      },
-      {
         "nombre": "Limpiador Cif Crema Naranja Botella 500 Ml",
         "precio": 96.4,
         "oferta": 96.4,
@@ -12312,6 +12291,13 @@
         "oferta": 109.8,
         "variacion": 0.0,
         "url_imagen": "fotos/02090.jpg"
+      },
+      {
+        "nombre": "Limpiador Líquido Cif Antibacterial 2en1 Repuesto 450 Ml",
+        "precio": 80.24,
+        "oferta": 80.24,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11903.jpg"
       },
       {
         "nombre": "Limpiador Líquido Cif Antigrasa Repuesto 450 Ml",
@@ -12670,11 +12656,11 @@
         "url_imagen": "fotos/02117.jpg"
       },
       {
-        "nombre": "Poett Multiespacios Suavidad De Algodón 1800 Ml",
-        "precio": 137.25,
-        "oferta": 137.25,
+        "nombre": "Lysoform Limpiador Liquido Lavanda Doypack 420ml",
+        "precio": 91.86,
+        "oferta": 91.86,
         "variacion": 0.0,
-        "url_imagen": "fotos/02123.jpg"
+        "url_imagen": "fotos/11904.jpg"
       },
       {
         "nombre": "Repuesto Económico Cif Plastificados Y Flotantes 450 Ml",
@@ -12699,13 +12685,6 @@
         "oferta": 327.02,
         "variacion": 0.0,
         "url_imagen": "fotos/02133.jpg"
-      },
-      {
-        "nombre": "Lustramuebles Aerosol Ceramicol 360 Ml",
-        "precio": 129.86,
-        "oferta": 129.86,
-        "variacion": 0.0,
-        "url_imagen": "fotos/02129.jpg"
       },
       {
         "nombre": "Lustramuebles Aerosol Lavanda Blem 360 Ml",
@@ -13204,13 +13183,6 @@
         "url_imagen": "fotos/01468.jpg"
       },
       {
-        "nombre": "Leche Entera Clasica La Serenisima Sachet 1 L",
-        "precio": 55.68,
-        "oferta": 55.68,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01463.jpg"
-      },
-      {
         "nombre": "Leche Fresca 1% La Serenisima Original Botella Transparente 1l",
         "precio": 59.9,
         "oferta": 59.9,
@@ -13354,6 +13326,13 @@
         "url_imagen": "fotos/01504.jpg"
       },
       {
+        "nombre": "Leche Chocolatada Milkaut 200 Ml",
+        "precio": 44.13,
+        "oferta": 44.13,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01513.jpg"
+      },
+      {
         "nombre": "Leche Chocolatada Tregar 1 L",
         "precio": 90.4,
         "oferta": 90.4,
@@ -13387,13 +13366,6 @@
         "oferta": 104.01,
         "variacion": 0.0,
         "url_imagen": "fotos/01509.jpg"
-      },
-      {
-        "nombre": "Seremix Frutilla La Serenisima Prisma 250 Cc",
-        "precio": 52.53,
-        "oferta": 52.53,
-        "variacion": 0.0,
-        "url_imagen": "fotos/11817.jpg"
       },
       {
         "nombre": "Seremix Frutilla La Serenisima Sachet 1 L",
@@ -13602,13 +13574,6 @@
         "url_imagen": "fotos/01520.jpg"
       },
       {
-        "nombre": "Manteca Sancor Multivitaminas 200 Gr",
-        "precio": 136.58,
-        "oferta": 136.58,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01519.jpg"
-      },
-      {
         "nombre": "Manteca Santa Clara 200g",
         "precio": 129.0,
         "oferta": 129.0,
@@ -13703,13 +13668,6 @@
         "url_imagen": "fotos/01561.jpg"
       },
       {
-        "nombre": "Yogur Activia Descremado Bebible Deslact Frut Sachet 1kg",
-        "precio": 152.34,
-        "oferta": 152.34,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01567.jpg"
-      },
-      {
         "nombre": "Yogur Activia Descremado Desc Bebible Deslact Ciruela Sachet 1kg",
         "precio": 152.34,
         "oferta": 152.34,
@@ -13771,6 +13729,13 @@
         "oferta": 54.63,
         "variacion": 0.0,
         "url_imagen": "fotos/01557.jpg"
+      },
+      {
+        "nombre": "Yogurisimo Des Cremix Frutilla 120 Grs",
+        "precio": 47.0,
+        "oferta": 47.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11873.jpg"
       },
       {
         "nombre": "Yogurisimo Des Cremix Vainilla 120 Grs",
@@ -14199,6 +14164,13 @@
         "url_imagen": "fotos/11712.jpg"
       },
       {
+        "nombre": "Chuleta Kassler Jumbo Elab.propia",
+        "precio": 1.066,
+        "oferta": 1.066,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01271.jpg"
+      },
+      {
         "nombre": "Fuet Tandil Cagnoli 150 Gr",
         "precio": 293.76,
         "oferta": 293.76,
@@ -14232,13 +14204,6 @@
         "oferta": 132.27,
         "variacion": 0.0,
         "url_imagen": "fotos/01265.jpg"
-      },
-      {
-        "nombre": "Mortadela Bocatti Feteada 70 Gr",
-        "precio": 82.16,
-        "oferta": 82.16,
-        "variacion": 0.0,
-        "url_imagen": "fotos/11711.jpg"
       },
       {
         "nombre": "Mortadela Paladini Familiar 300 Gr",
@@ -14328,6 +14293,13 @@
     ],
     "productos": [
       {
+        "nombre": "Jamon Cocido 'lario' X Kg.",
+        "precio": 550.0,
+        "oferta": 550.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11894.jpg"
+      },
+      {
         "nombre": "Jamon Cocido Cagnoli Natural Feteado 1 Kg",
         "precio": 1.299,
         "oferta": 1.299,
@@ -14340,13 +14312,6 @@
         "oferta": 796.0,
         "variacion": 0.0,
         "url_imagen": "fotos/01244.jpg"
-      },
-      {
-        "nombre": "Jamon Cocido Jumbo Pza 1 Kg",
-        "precio": 779.0,
-        "oferta": 779.0,
-        "variacion": 0.0,
-        "url_imagen": "fotos/11710.jpg"
       },
       {
         "nombre": "Jamon Crudo Serrano Extrapulido 1 Kg",
@@ -14754,11 +14719,11 @@
         "url_imagen": "fotos/01364.jpg"
       },
       {
-        "nombre": "Queso Azul Bavaria Horma 1 Kg",
-        "precio": 1.039,
-        "oferta": 1.039,
+        "nombre": "Queso Azul San Ignacio Horma X Kg",
+        "precio": 969.6,
+        "oferta": 969.6,
         "variacion": 0.0,
-        "url_imagen": "fotos/01366.jpg"
+        "url_imagen": "fotos/11899.jpg"
       },
       {
         "nombre": "Queso Azul Santa Rosa 140 Gr",
@@ -14845,18 +14810,18 @@
         "url_imagen": "fotos/01356.jpg"
       },
       {
-        "nombre": "Queso Parmigiano Reggiano Zanetti X 150 Gr",
-        "precio": 623.0,
-        "oferta": 623.0,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01368.jpg"
-      },
-      {
         "nombre": "Queso Schereiber Cheddar Fundido Paquete 1 Kg",
         "precio": 865.0,
         "oferta": 865.0,
         "variacion": 0.0,
         "url_imagen": "fotos/01361.jpg"
+      },
+      {
+        "nombre": "Queso Soignon De Cabra Cuatro Pimientas Blister 110 Gr",
+        "precio": 346.0,
+        "oferta": 346.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11898.jpg"
       },
       {
         "nombre": "Queso Wapi Brie Pieza 1 Kg",
@@ -14925,6 +14890,13 @@
         "url_imagen": "fotos/01341.jpg"
       },
       {
+        "nombre": "Queso Cremoso Ls Cremon 1 Kg",
+        "precio": 492.73,
+        "oferta": 492.73,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11896.jpg"
+      },
+      {
         "nombre": "Queso Cremoso Milkaut Trozado 1 Kg",
         "precio": 608.3,
         "oferta": 608.3,
@@ -14937,13 +14909,6 @@
         "oferta": 459.0,
         "variacion": 0.0,
         "url_imagen": "fotos/01347.jpg"
-      },
-      {
-        "nombre": "Queso Cremoso Ricrem Horma 1 Kg.",
-        "precio": 365.0,
-        "oferta": 365.0,
-        "variacion": 0.0,
-        "url_imagen": "fotos/11760.jpg"
       },
       {
         "nombre": "Queso Cremón Cremoso",
@@ -15141,13 +15106,6 @@
         "url_imagen": "fotos/01311.jpg"
       },
       {
-        "nombre": "Queso Barra Danbo Tregar Feteado X 1 Kg",
-        "precio": 681.84,
-        "oferta": 681.84,
-        "variacion": 0.0,
-        "url_imagen": "fotos/01308.jpg"
-      },
-      {
         "nombre": "Queso Barra Jumbo Marca Propia Tripack Kg 1 Sob Mínimo 800 Gr Mayorista",
         "precio": 405.0,
         "oferta": 405.0,
@@ -15246,6 +15204,13 @@
         "url_imagen": "fotos/11761.jpg"
       },
       {
+        "nombre": "Queso Pategras Sancor Tradicional + Ca Pintado 1 Kg",
+        "precio": 818.42,
+        "oferta": 818.42,
+        "variacion": 0.0,
+        "url_imagen": "fotos/11897.jpg"
+      },
+      {
         "nombre": "Queso Pategrás La Paulina 1/4 Horma - Mínimo 1 Kg Mayorista",
         "precio": 690.0,
         "oferta": 690.0,
@@ -15340,11 +15305,11 @@
         "url_imagen": "fotos/11813.jpg"
       },
       {
-        "nombre": "Queso Adler Fontina 120 Gr",
-        "precio": 132.8,
-        "oferta": 132.8,
+        "nombre": "Queso Blan.ilolaycrem Lightx300g",
+        "precio": 114.52,
+        "oferta": 114.52,
         "variacion": 0.0,
-        "url_imagen": "fotos/01292.jpg"
+        "url_imagen": "fotos/11895.jpg"
       },
       {
         "nombre": "Queso Blanco Descremado Jumbo 300 Gr",
@@ -15472,11 +15437,11 @@
         "url_imagen": "fotos/01412.jpg"
       },
       {
-        "nombre": "Salchichas Hot Dog Swift 225 Gr",
-        "precio": 92.88,
-        "oferta": 92.88,
+        "nombre": "Salchichas La Blanca 190 Gr 6 U",
+        "precio": 58.56,
+        "oferta": 58.56,
         "variacion": 0.0,
-        "url_imagen": "fotos/01420.jpg"
+        "url_imagen": "fotos/01425.jpg"
       },
       {
         "nombre": "Salchichas Paladini Tipo Viena Sin Piel 225 Gr 6 U",

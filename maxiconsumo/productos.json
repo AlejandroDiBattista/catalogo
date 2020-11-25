@@ -82,13 +82,6 @@
         "url_imagen": "fotos/00009.jpg"
       },
       {
-        "nombre": "Papel Higienico Higienol Doble Hoja Duo 4x50 Mt",
-        "precio": 122.23,
-        "oferta": 122.23,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00003.jpg"
-      },
-      {
         "nombre": "Papel Higienico Higienol Max Plus 4x80 Mt",
         "precio": 106.2,
         "oferta": 106.2,
@@ -403,6 +396,41 @@
         "oferta": 107.36,
         "variacion": 0.0,
         "url_imagen": "fotos/00130.jpg"
+      },
+      {
+        "nombre": "Guantes Mapa Afelpado Grande",
+        "precio": 107.36,
+        "oferta": 107.36,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00129.jpg"
+      },
+      {
+        "nombre": "Guantes Mapa Afelpado Mediano",
+        "precio": 107.36,
+        "oferta": 107.36,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00132.jpg"
+      },
+      {
+        "nombre": "Guantes Mapa Afelpado Pequeño",
+        "precio": 107.36,
+        "oferta": 107.36,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00131.jpg"
+      },
+      {
+        "nombre": "Guantes Mapa Contacto Grande",
+        "precio": 102.4,
+        "oferta": 102.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00124.jpg"
+      },
+      {
+        "nombre": "Guantes Mapa Contacto Mediano",
+        "precio": 102.4,
+        "oferta": 102.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00123.jpg"
       }
     ]
   },
@@ -482,13 +510,6 @@
         "oferta": 37.11,
         "variacion": 0.0,
         "url_imagen": "fotos/00081.jpg"
-      },
-      {
-        "nombre": "Rollo De Cocina Marolio Diseno 3x40 Un",
-        "precio": 49.5,
-        "oferta": 49.5,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00088.jpg"
       },
       {
         "nombre": "Rollo De Cocina Marolio Ultra 3x50 Un",
@@ -579,13 +600,6 @@
         "oferta": 736.0,
         "variacion": 0.0,
         "url_imagen": "fotos/00166.jpg"
-      },
-      {
-        "nombre": "Velas Farolito 120 Gr",
-        "precio": 29.67,
-        "oferta": 29.67,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00169.jpg"
       },
       {
         "nombre": "Velas Golondrina 120 Gr",
@@ -1066,6 +1080,13 @@
         "url_imagen": "fotos/00174.jpg"
       },
       {
+        "nombre": "Des.amb Poett Ale.tu Dia 360 Cc",
+        "precio": 49.5,
+        "oferta": 49.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00183.jpg"
+      },
+      {
         "nombre": "Desodorante Ambiente Glade Mini Gel Lavanda 70 Gr",
         "precio": 65.21,
         "oferta": 65.21,
@@ -1171,6 +1192,13 @@
         "url_imagen": "fotos/00193.jpg"
       },
       {
+        "nombre": "Escoba Virulana Multiuso",
+        "precio": 168.51,
+        "oferta": 168.51,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00187.jpg"
+      },
+      {
         "nombre": "Escobillon Asapractic Plano",
         "precio": 118.1,
         "oferta": 118.1,
@@ -1183,6 +1211,27 @@
         "oferta": 54.46,
         "variacion": 0.0,
         "url_imagen": "fotos/00191.jpg"
+      },
+      {
+        "nombre": "Escobillon Task Economico Mediano",
+        "precio": 122.23,
+        "oferta": 122.23,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00188.jpg"
+      },
+      {
+        "nombre": "Escobillon Virulana Clasico",
+        "precio": 209.01,
+        "oferta": 209.01,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00185.jpg"
+      },
+      {
+        "nombre": "Escobillon Virulana Extra Suave",
+        "precio": 209.01,
+        "oferta": 209.01,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00186.jpg"
       }
     ]
   },
@@ -1372,6 +1421,13 @@
         "url_imagen": "fotos/00237.jpg"
       },
       {
+        "nombre": "Limp. Cif Gel 2en1 500 Ml",
+        "precio": 99.9,
+        "oferta": 99.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00238.jpg"
+      },
+      {
         "nombre": "Limp. Cif Multius.bot 5 Lt",
         "precio": 449.9,
         "oferta": 449.9,
@@ -1419,23 +1475,6 @@
         "oferta": 152.81,
         "variacion": 0.0,
         "url_imagen": "fotos/00234.jpg"
-      }
-    ]
-  },
-  {
-    "titulos": [
-      {
-        "nivel": 3,
-        "titulo": "Limpiadores Aparatos Electrónicos"
-      }
-    ],
-    "productos": [
-      {
-        "nombre": "Limpiador Blem Electronics 235 Cc",
-        "precio": 109.01,
-        "oferta": 109.01,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00296.jpg"
       }
     ]
   },
@@ -1694,20 +1733,6 @@
         "url_imagen": "fotos/00361.jpg"
       },
       {
-        "nombre": "Secador Esencial Negro N 40",
-        "precio": 59.42,
-        "oferta": 59.42,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00360.jpg"
-      },
-      {
-        "nombre": "Secador Esencial Negro N 50",
-        "precio": 80.08,
-        "oferta": 80.08,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00362.jpg"
-      },
-      {
         "nombre": "Secador Gauchita De Goma 30 Cm",
         "precio": 102.4,
         "oferta": 102.4,
@@ -1727,13 +1752,6 @@
         "oferta": 117.27,
         "variacion": 0.0,
         "url_imagen": "fotos/00364.jpg"
-      },
-      {
-        "nombre": "Secador Nazar Reforzado Negro 40 Cm",
-        "precio": 73.47,
-        "oferta": 73.47,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00356.jpg"
       },
       {
         "nombre": "Sopapa Esencial Negra 4",
@@ -1775,6 +1793,13 @@
         "oferta": 146.2,
         "variacion": 0.0,
         "url_imagen": "fotos/00292.jpg"
+      },
+      {
+        "nombre": "Toallitas Humedas Ayudin Fresca 35 Un",
+        "precio": 146.2,
+        "oferta": 146.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00291.jpg"
       },
       {
         "nombre": "Toallitas Humedas Ayudin Fresco 35 Un",
@@ -2060,13 +2085,6 @@
         "oferta": 91.65,
         "variacion": 0.0,
         "url_imagen": "fotos/00335.jpg"
-      },
-      {
-        "nombre": "Insecticida X-5 Cucaracha 360 Cc",
-        "precio": 113.22,
-        "oferta": 113.22,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00334.jpg"
       }
     ]
   },
@@ -4041,13 +4059,6 @@
     ],
     "productos": [
       {
-        "nombre": "Aposito Curita 20 Un",
-        "precio": 43.72,
-        "oferta": 43.72,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00713.jpg"
-      },
-      {
         "nombre": "Aposito Curita 8 Un",
         "precio": 23.06,
         "oferta": 23.06,
@@ -4800,13 +4811,6 @@
         "oferta": 54.99,
         "variacion": 0.0,
         "url_imagen": "fotos/00865.jpg"
-      },
-      {
-        "nombre": "Tampones O.b. Medio 10 Un",
-        "precio": 92.52,
-        "oferta": 92.52,
-        "variacion": 0.0,
-        "url_imagen": "fotos/00872.jpg"
       },
       {
         "nombre": "Tampones O.b. Mini 10 Un",
