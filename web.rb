@@ -68,7 +68,7 @@ class Web
 
 	def bajar_imagenes(forzar=false)
 		productos = []
-		Archivo.listar(carpeta, :productos) do |origen|
+		Archivo.listar(carpeta, :productos).procesar do |origen|
 			Archivo.leer(origen).each  do |producto|
 				productos << { url_imagen: producto.url_imagen, id: producto.id } 
 			end
@@ -224,7 +224,7 @@ class Jumbo < Web
 
 	def imagen(item)
 		url = extraer_img(item.css('.product-item__image-link img'))
-		url = url && url.split("/")[1]
+		url = url && url.split("/")[0]
 		url = url && "#{url.split("-").first}-#{Tamaño}-#{Tamaño}" 
 	end
 end
@@ -390,6 +390,7 @@ end
 
 if __FILE__ == $0
 	Jumbo.new.bajar_todo
+	# Jumbo.new.bajar_imagenes
 	# TuChanguito.new.bajar_todo 
 	# Tatito.new.bajar_todo 
 	# Maxiconsumo.new.bajar_todo 
