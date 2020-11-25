@@ -101,7 +101,7 @@ class Web
 		datos = {}
 		Archivo.listar(carpeta, :productos).procesar do |origen|
 			Archivo.leer(origen) do |producto| 
-				datos[key(producto)] ||= proximo_id(producto)
+				datos[key(producto)] ||= generar_id(producto)
 			end
 		end
 
@@ -112,13 +112,17 @@ class Web
 				end
 			end
 		else
-			Archivo.procesar(destino).each do |producto| 
-				datos[key(producto)] = datos[key(producto)]
+			Archivo.procesar(destino) do |producto| 
+				producto[:id] = datos[key(producto)]
 			end
 		end
 	end
 
-	def proximo_id(producto)
+	def key(producto)
+		"#{producto.nombre.to_key}-#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}-#{producto.rubro.to_key}"
+	end
+
+	def generar_id(producto)
 		self.id_actual ||= "00000"
 		if producto.id.vacio? 
 			self.id_actual = self.id_actual.succ
@@ -130,10 +134,6 @@ class Web
 	
 	def foto(id)
 		"#{carpeta}/fotos/#{id}.jpg"
-	end
-
-	def key(producto)
-		"#{producto.nombre.to_key}-#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}-#{producto.rubro.to_key}"
 	end
 
 	def carpeta
