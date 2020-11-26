@@ -1,19 +1,11 @@
-class Algo
-	attr_accessor :contador
-	def siguiente
-		self.contador ||= 100
-		self.contador += 1
-	end
+require_relative 'utils'
+def prueba(*lista, fecha: nil)
+	puts lista
+	puts fecha
 end
 
-a = Algo.new
-b = Algo.new
+# prueba 10, 20, 30
+# prueba 10, 20, 30, fecha: 'hoy'
 
-p a.siguiente
-p a.siguiente
-p a.siguiente
-
-p b.siguiente
-p b.siguiente
-
-p a.siguiente
+origen = "productos_2020-07-24.dsv"
+pp origen.to_fecha
