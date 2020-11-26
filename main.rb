@@ -45,10 +45,10 @@ def generar_paginas
 	end
 end
 
-generar_paginas
+# generar_paginas
 # Archivo.borrar_fotos(:tatito)
 # analizar :tatito , cambios: true
-# arroz(:jumbo, :tatito, :tuchanguito)
+arroz(:jumbo, :tatito, :tuchanguito)
 # t = Catalogo.leer(:tatito)
 # t = t.filtrar{|x| x.contiene("arroz") }
 # p t.count
