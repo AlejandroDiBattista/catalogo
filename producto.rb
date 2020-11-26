@@ -1,7 +1,7 @@
-Campos = [:nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen, :id, :anterior, :texto, :precio_1, :precio_2, :precio_3, :historia]
+Campos = [:nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen, :id, :anterior, :texto, :precio_1, :precio_2, :precio_3]
 
 class Producto < Struct.new(*Campos)
-	attr_accessor :ofertas
+	attr_accessor :ofertas, :historia
 
 	def self.cargar(datos)
 		new.tap{|tmp| Campos.each{|campo| tmp[campo] = datos[campo]}}.normalizar

@@ -1,144 +1,4 @@
 id|nombre|precio|rubro|url_imagen|url_producto
-00002|""|0|Almacén > Aceites y Vinagres > Jugos de Limón||""
-00005|""|0|Almacén > Aderezos > Salsas Golf||""
-00007|""|0|Almacén > Aceites y Vinagres > Aceites Especiales||""
-00026|""|0|Almacén > Aderezos > Mostazas||""
-00038|""|0|Almacén > Aderezos > Ketchup||""
-00046|""|0|Almacén > Aceites y Vinagres > Aceites Comunes||""
-00062|""|0|Almacén > Aderezos > Salsas Frías||""
-00081|""|0|Almacén > Aderezos > Mayonesas||""
-00100|""|0|Almacén > Aceites y Vinagres > Acetos||""
-00115|""|0|Almacén > Aceites y Vinagres > Vinagres||""
-00134|""|0|Almacén > Arroz y Legumbres > Arroz||""
-00153|""|0|Almacén > Arroz y Legumbres > Arroz Listos||""
-00160|""|0|Almacén > Aderezos > Otros Condimentos||""
-00179|""|0|Almacén > Conservas > Conservas de Carne||""
-00193|""|0|Almacén > Arroz y Legumbres > Legumbres||""
-00204|""|0|Almacén > Conservas > Conservas de Frutas||""
-00223|""|0|Almacén > Desayuno y Merienda > Azúcar y Edulcorantes||""
-00242|""|0|Almacén > Conservas > Conservas de Pescado||""
-00261|""|0|Almacén > Conservas > Conservas de Verduras y Legumbres||""
-00280|""|0|Almacén > Desayuno y Merienda > Bizcochuelos, Budines y Magdalenas||""
-00299|""|0|Almacén > Desayuno y Merienda > Cacao y Saborizantes||""
-00315|""|0|Almacén > Desayuno y Merienda > Cafés||""
-00334|""|0|Almacén > Desayuno y Merienda > Cereales||""
-00353|""|0|Almacén > Desayuno y Merienda > Galletitas Dulces||""
-00372|""|0|Almacén > Desayuno y Merienda > Leches||""
-00391|""|0|Almacén > Desayuno y Merienda > Mermeladas y Jaleas||""
-00410|""|0|Almacén > Desayuno y Merienda > Galletitas Saladas||""
-00429|""|0|Almacén > Desayuno y Merienda > Tés||""
-00448|""|0|Almacén > Desayuno y Merienda > Yerbas||""
-00467|""|0|Almacén > Golosinas y Chocolates > Alfajores||""
-00486|""|0|Almacén > Golosinas y Chocolates > Bocaditos y Postres||""
-00505|""|0|Almacén > Golosinas y Chocolates > Bombones||""
-00523|""|0|Almacén > Golosinas y Chocolates > Chocolates||""
-00542|""|0|Almacén > Golosinas y Chocolates > Caramelos y Chicles||""
-00561|""|0|Almacén > Harinas > Avenas y Sémolas||""
-00578|""|0|Almacén > Harinas > Harinas||""
-00597|""|0|Almacén > Golosinas y Chocolates > Turrones y Grageas||""
-00616|""|0|Almacén > Snacks > Frutas Secas y Disecadas||""
-00624|""|0|Almacén > Sal, Pimienta y Especias > Sal||""
-00643|""|0|Almacén > Sal, Pimienta y Especias > Especias||""
-00662|""|0|Almacén > Snacks > Maní||""
-00679|""|0|Almacén > Snacks > Nachos||""
-00682|""|0|Almacén > Snacks > Snacks||""
-00701|""|0|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos||""
-00718|""|0|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Sopas||""
-00737|""|0|Almacén > Importados||""
-00756|""|0|Almacén > Libre de Gluten||""
-00794|""|0|Almacén > Cajas Navideñas||""
-00798|""|0|Bebidas > Aguas > Aguas Con Gas||""
-00816|""|0|Bebidas > Aguas > Aguas Sin Gas||""
-00835|""|0|Bebidas > Gaseosas > Naranja||""
-00844|""|0|Bebidas > Aguas > Aguas Saborizadas||""
-00863|""|0|Bebidas > Gaseosas > Lima Limón||""
-00882|""|0|Bebidas > Gaseosas > Tónica||""
-00892|""|0|Bebidas > Gaseosas > Cola||""
-00911|""|0|Bebidas > Gaseosas > Guaraná||""
-00914|""|0|Bebidas > Jugos > En Polvo||""
-00933|""|0|Bebidas > Jugos > Granadina||""
-00935|""|0|Bebidas > Jugos > Listos||""
-00954|""|0|Bebidas > Jugos > Frescos||""
-00973|""|0|Bebidas > A Base de Hierbas||""
-00992|""|0|Bebidas > Aperitivos||""
-01011|""|0|Bebidas > Cervezas||""
-01030|""|0|Bebidas > Energizantes||""
-01032|""|0|Bebidas > Bebidas Blancas||""
-01051|""|0|Bebidas > Champagnes||""
-01070|""|0|Bebidas > Licores||""
-01084|""|0|Bebidas > Isotónicas||""
-01102|""|0|Bebidas > Sidras||""
-01121|""|0|Bebidas > Vinos > Vinos Frizantes||""
-01127|""|0|Bebidas > Vinos > Vinos Blancos||""
-01146|""|0|Bebidas > Vinos > Vinos Tintos||""
-01165|""|0|Bebidas > Vinos > Vinos Rosados||""
-01184|""|0|Bebidas > Whiskys||""
-01203|""|0|Bebidas > Hielo||""
-01205|""|0|Quesos y Fiambres > Dulces||""
-01219|""|0|Quesos y Fiambres > Encurtidos, Aceitunas y Pickles||""
-01238|""|0|Quesos y Fiambres > Fiambres > Jamón Cocido y Crudo||""
-01257|""|0|Quesos y Fiambres > Fiambres > Fiambres||""
-01276|""|0|Quesos y Fiambres > Quesos > Quesos Untables||""
-01295|""|0|Quesos y Fiambres > Quesos > Quesos Semiblandos||""
-01314|""|0|Quesos y Fiambres > Quesos > Quesos Duros||""
-01333|""|0|Quesos y Fiambres > Quesos > Quesos Port Salut y Cremosos||""
-01352|""|0|Quesos y Fiambres > Quesos > Quesos Especiales e Importados||""
-01371|""|0|Quesos y Fiambres > Quesos > Ricota||""
-01374|""|0|Quesos y Fiambres > Quesos > Queso Muzzarella||""
-01392|""|0|Quesos y Fiambres > Quesos > Quesos Rallados||""
-01409|""|0|Quesos y Fiambres > Salchichas||""
-01428|""|0|Lácteos > Cremas||""
-01443|""|0|Lácteos > Dulce de Leche||""
-01462|""|0|Lácteos > Leches > Leches Refrigeradas||""
-01477|""|0|Lácteos > Leches > Leches Larga Vida||""
-01496|""|0|Lácteos > Leches > Leches Saborizadas||""
-01515|""|0|Lácteos > Mantecas y Margarinas > Manteca||""
-01526|""|0|Lácteos > Leches > Leches Vegetales||""
-01545|""|0|Lácteos > Mantecas y Margarinas > Margarinas||""
-01552|""|0|Lácteos > Yogures > Yogures Descremados||""
-01571|""|0|Lácteos > Yogures > Yogures Enteros||""
-01590|""|0|Congelados > Comidas Congeladas > Empanadas y Tartas||""
-01609|""|0|Congelados > Frutas||""
-01615|""|0|Congelados > Hamburguesas y Milanesas||""
-01634|""|0|Congelados > Comidas Congeladas > Comidas Congeladas||""
-01653|""|0|Congelados > Helados y Postres > Helados||""
-01672|""|0|Congelados > Vegetales||""
-01691|""|0|Comidas Preparadas > Menú Caliente||""
-01710|""|0|Comidas Preparadas > Menú Frío||""
-01729|""|0|Limpieza > Accesorios de Limpieza > Baldes y Mopas||""
-01739|""|0|Limpieza > Accesorios de Limpieza > Broches y Ganchos||""
-01741|""|0|Limpieza > Accesorios de Limpieza > Bolsas||""
-01760|""|0|Limpieza > Accesorios de Limpieza > Escobas y Escobillones||""
-01772|""|0|Limpieza > Accesorios de Limpieza > Escobillas||""
-01780|""|0|Limpieza > Accesorios de Limpieza > Esponjas y Guantes||""
-01799|""|0|Limpieza > Accesorios de Limpieza > Secadores y Cepillos||""
-01811|""|0|Limpieza > Calzado > Brillos y Revividores||""
-01818|""|0|Limpieza > Calzado > Limpiadores||""
-01820|""|0|Limpieza > Accesorios de Limpieza > Trapos de Piso||""
-01839|""|0|Limpieza > Cuidado Para La Ropa > Jabón en Pan||""
-01846|""|0|Limpieza > Cuidado Para La Ropa > Aprestos y Blanqueadores||""
-01851|""|0|Limpieza > Cuidado Para La Ropa > Detergente Para Ropa||""
-01870|""|0|Limpieza > Cuidado Para La Ropa > Suavizantes||""
-01889|""|0|Limpieza > Desodorantes de Ambiente > Absorbe Humedad||""
-01895|""|0|Limpieza > Cuidado Para La Ropa > Quitamanchas||""
-01914|""|0|Limpieza > Desodorantes de Ambiente > Aromatizantes||""
-01933|""|0|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes||""
-01952|""|0|Limpieza > Insecticidas > Aparatos||""
-01957|""|0|Limpieza > Insecticidas > Cebos, Bolillas y Pastillas||""
-01962|""|0|Limpieza > Insecticidas > Aerosoles||""
-01981|""|0|Limpieza > Insecticidas > Repelentes||""
-01990|""|0|Limpieza > Insecticidas > Tabletas y Difusores||""
-01999|""|0|Limpieza > Lavandina||""
-02018|""|0|Limpieza > Limpieza de Baño > Destapa Cañerías||""
-02021|""|0|Limpieza > Limpieza de Baño > Desinfectantes||""
-02040|""|0|Limpieza > Limpieza de Cocina > Detergentes||""
-02059|""|0|Limpieza > Limpieza de Cocina > Escarbadientes||""
-02064|""|0|Limpieza > Limpieza de Cocina > Limpiavidrios||""
-02072|""|0|Limpieza > Limpieza de Cocina > Fósforos||""
-02076|""|0|Limpieza > Limpieza de Cocina > Limpiadores||""
-02095|""|0|Limpieza > Limpieza de Pisos y Muebles > Ceras y Autobrillos||""
-02111|""|0|Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos||""
-02130|""|0|Limpieza > Limpieza de Pisos y Muebles > Lustramuebles||""
 02148|Aceite Mezcla Natura Blend 900 Ml|232.32|Almacén > Aceites y Vinagres > Aceites Comunes|208072-512-512|/aceite-natura-blend-girasol-oliva
 02151|Aceite De Girasol Jumbo 900 Ml|86.27|Almacén > Aceites y Vinagres > Aceites Comunes|200732-512-512|/aceite-de-girasol-jumbo-900ml
 02158|Aceite De Girasol Cada Día 900 Ml|88.0|Almacén > Aceites y Vinagres > Aceites Comunes|189034-512-512|/aceite-de-girasol-cada-dia-900-ml
@@ -2019,142 +1879,53 @@ id|nombre|precio|rubro|url_imagen|url_producto
 07897|Rollo De Cocina Campanita Classic 3 U|100.3|Limpieza > Papeles > Rollos de Cocina|565190-512-512|/rollo-de-cocina-campanita-classic-x-3-un
 07898|Servilletas Descartables Elegante 80 U|57.01|Limpieza > Papeles > Servilletas|185143-512-512|/servilletas-descartables-elegante-color
 07899|Paté Bocatti Panceta 90 Gr|109.26|Almacén > Conservas > Conservas de Carne|183486-512-512|/pate-bocatti
-07909|""|0|Almacén > Panificados > Tostadas y Grisines||""
 07910|Tostadas Riera Equilibrio Light 200 Gr|92.02|Almacén > Panificados > Tostadas y Grisines|432712-512-512|/riera-tostadas-equilibrio-riera
 07912|Grisines Riera Equilibrio Light 160 Gr|67.38|Almacén > Panificados > Tostadas y Grisines|432592-512-512|/grisines-riera-equilibrio
 07913|Tostadas 100% Integral Riera 200 Gr|107.02|Almacén > Panificados > Tostadas y Grisines|482134-512-512|/tostadas-100-integral-riera-x-200grs
 07914|Harina 0000 Morixe 1 Kg|54.65|Almacén > Harinas > Harinas|504009-512-512|/harina-0000-morixe-1-kg
 07917|Chocolate Crunch 90 Gr|173.35|Almacén > Golosinas y Chocolates > Chocolates|583554-512-512|/chocolate-crunch-90-gr-2
-07919|""|0|Almacén > Panificados > Integral y Salvado||""
 07920|Pan La Perla Mulisemillado Balance 600 Gr|205.67|Almacén > Panificados > Integral y Salvado|529078-512-512|/pan-la-perla-mulisemillado-balance-600-gr
 07921|Pan Mulicereal Balance La Perla 600 Gr|205.67|Almacén > Panificados > Integral y Salvado|529077-512-512|/pan-mulicereal-balance-la-perla-600-gr
-07923|""|0|Almacén > Para Preparar > Gelatinas||""
 07924|Mayonesa Heinz Light Doy-pack X850gr|311.08|Almacén > Aderezos > Mayonesas|578500-512-512|/mayonesa-heinz-light-doy-pack-x850gr
 07926|Pimiento Morrón Nucete 220 Gr|130.49|Almacén > Conservas > Conservas de Verduras y Legumbres|515938-512-512|/pimiento-morron-nucete
 07938|Gomitas Dulces Mogul 200 Gr|113.46|Almacén > Golosinas y Chocolates > Caramelos y Chicles|583081-512-512|/gomitas-mogul-oso-extreme-acido-200g
-07940|""|0|Almacén > Para Preparar > Flanes||""
-07941|""|0|Almacén > Para Preparar > Pastelería||""
-07945|""|0|Almacén > Para Preparar > Helados||""
-07946|""|0|Almacén > Desayuno y Merienda > Piononos||""
-07947|""|0|Almacén > Panificados > Pan Para Hamburguesas y Panchos||""
-07950|""|0|Almacén > Para Preparar > Bizcochuelos, Brownies y Tortas||""
-07953|""|0|Almacén > Para Preparar > Comidas||""
-07954|""|0|Almacén > Panificados > Lacteados||""
 07955|Pan La Perla Lacteado 620 Gr|159.61|Almacén > Panificados > Lacteados|528964-512-512|/pan-la-perla-lacteado-620-gr
 07956|Galletitas Crackers Jumbo 303gr|71.77|Almacén > Desayuno y Merienda > Galletitas Saladas|421713-512-512|/galletitas-crackers-jumbo-3
 07959|Chocolate Aguila Para Taza 150 Gr|188.06|Almacén > Desayuno y Merienda > Cacao y Saborizantes|582946-512-512|/chocolate-aguila-para-taza
 07964|Miel Montecitos Cremosa X500 Gr|336.19|Almacén > Desayuno y Merienda > Mermeladas y Jaleas|589064-512-512|/miel-montecitos-cremosa-x500-gr
-07966|""|0|Almacén > Para Preparar > Postres||""
-07967|""|0|Almacén > Pastas Secas y Salsas > Pastas Secas Guiseras||""
-07970|""|0|Almacén > Pastas Secas y Salsas > Pastas Secas Largas||""
 07971|Bizcochos Don Satur Dulces 200 Gr|49.17|Almacén > Desayuno y Merienda > Galletitas Dulces|250105-512-512|/bizcochos-don-satur-dulces-x-200-gr-2
 07972|Salsa De Soja La Parmesana 300 Gr|113.4|Almacén > Aderezos > Salsas Frías|176516-512-512|/salsa-la-parmesana-x-300-gr
-07976|""|0|Almacén > Snacks > Pochoclos||""
-07977|""|0|Almacén > Pastas Secas y Salsas > Pastas Listas||""
 07978|Coca-cola Sin Azúcar 500 Ml|58.92|Bebidas > Gaseosas > Cola|526937-512-512|/gaseosa-coca-cola-zero-x-500-cc
 07981|Coca-cola Light Lata 354 Ml|48.2|Bebidas > Gaseosas > Cola|580559-512-512|/coca-cola-light-lata-354-ml
-07983|""|0|Almacén > Snacks > Palitos Salados||""
-07987|""|0|Almacén > Snacks > Palitos de Maíz||""
-07990|""|0|Almacén > Panificados > Pan Rallado y Rebozador||""
 07991|Rebozador Para Celíacos Aglu 450 Gr|123.95|Almacén > Panificados > Pan Rallado y Rebozador|177828-512-512|/rebozador-aglu-para-celiacos
-07997|""|0|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Puré||""
 08000|Vino Tinto Malbec Callia Esperado 750 Ml|259.06|Bebidas > Vinos > Vinos Tintos|549796-512-512|/vino-tinto-malbec-callia-esperado-750-ml
-08001|""|0|Almacén > Snacks > Papas Fritas||""
-08002|""|0|Almacén > Pastas Secas y Salsas > Salsas||""
 08003|Puré De Tomate Salsati 520 Gr|61.53|Almacén > Pastas Secas y Salsas > Salsas|178522-512-512|/pure-de-tomate-salsati-x-520-gr
 08004|Puré De Tomate La Campagnola 520 Gr|57.29|Almacén > Pastas Secas y Salsas > Salsas|584764-512-512|/pure-de-tomate-la-campagnola-2
 08007|Salsa Portuguesa Jumbo 340 Gr|83.81|Almacén > Pastas Secas y Salsas > Salsas|443857-512-512|/salsa-portuguesa-jumbo-340gr-jumbo
-08013|""|0|Pescados y Mariscos > Pescados||""
 08026|Jamón Cocido Paladini Reducido En Sodio X 150g|169.95|Quesos y Fiambres > Fiambres > Jamón Cocido y Crudo|565566-512-512|/jamon-cocido-paladini-reducido-en-sodio-x-150g
-08032|""|0|Lácteos > Pastas Frescas y Tapas > Grasas||""
 08036|Fanta Naranja Lata 354 Ml|48.2|Bebidas > Gaseosas > Naranja|580567-512-512|/fanta-naranja-lata-354-ml
-08037|""|0|Pescados y Mariscos > Mariscos||""
 08038|Puré De Tomate Salsati 520 Gr|61.53|Almacén > Libre de Gluten|178522-512-512|/pure-de-tomate-salsati-x-520-gr
-08040|""|0|Bebidas > Gaseosas > Pomelo||""
 08046|Pulpeta Wapi 250 Gr|293.12|Quesos y Fiambres > Quesos > Queso Muzzarella|451625-512-512|/pulpeta-wapi
 08047|Queso Brie Wapi Leche De Vaca 100 Gr|282.61|Quesos y Fiambres > Quesos > Quesos Especiales e Importados|176396-512-512|/queso-brie-wapi
-08051|""|0|Lácteos > Pastas Frescas y Tapas > Fideos y Ñoquis||""
-08054|""|0|Quesos y Fiambres > Picadas||""
 08059|Empanada De Atún|58.0|Comidas Preparadas > Menú Caliente|536124-512-512|/empanada-rotiseria
-08061|""|0|Congelados > Helados y Postres > Postres||""
 08064|Dulce De Batata El Guri Sob-1-kg|149.0|Quesos y Fiambres > Dulces|589070-512-512|/dulce-de-batata-el-guri-sob-1-kg
-08066|""|0|Congelados > Comidas Congeladas > Pizzas||""
-08068|""|0|Congelados > Panaderia||""
-08069|""|95.0|Congelados > Panaderia|585865-512-512|""
-08072|""|143.0|Congelados > Panaderia|585861-512-512|""
-08073|""|157.99|Congelados > Panaderia|585862-512-512|""
 08074|Aceitunas Fragata Rellenas Con Salmón 85 Gr|149.35|Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|422220-512-512|/aceitunas-fragata-rellenas-5
-08076|""|0|Congelados > Pollo y Carnes||""
 08078|Salchichas Union Ganadera 6 U- 190 Gr|66.83|Quesos y Fiambres > Salchichas|565510-512-512|/salchichas-union-ganadera-6-u-190-gr
-08081|""|0|Comidas Preparadas > Postres||""
-08087|""|0|Perfumería > Cuidado Capilar > Fijación||""
 08088|Gel Fijador Algabo Efecto Húmedo 2 Amarillo|121.64|Perfumería > Cuidado Capilar > Fijación|183440-512-512|/gel-fijador-algabo-4
 08089|Gel Fijador Algabo Fijación Fuerte 4 Azul 475 Gr|203.44|Perfumería > Cuidado Capilar > Fijación|176713-512-512|/gel-fijador-algabo-3
-08090|""|0|Perfumería > Cuidado Capilar > Pediculosis||""
-08091|""|0|Lácteos > Postres||""
-08098|""|0|Congelados > Pescados y Mariscos||""
-08100|""|0|Congelados > Papas||""
-08101|""|0|Panadería y Repostería > Panadería > Panadería||""
-08114|""|0|Perfumería > Cuidado Personal > Cepillos y Esponjas||""
-08115|""|0|Perfumería > Cuidado Capilar > Reparación y Tratamientos||""
-08117|""|0|Lácteos > Pastas Frescas y Tapas > Tapas||""
-08119|""|0|Perfumería > Cuidado Personal > Desodorantes y Polvos Pédicos||""
 08120|Desodorante Pédico Algabo 200 Gr|122.71|Perfumería > Cuidado Personal > Desodorantes y Polvos Pédicos|201760-512-512|/desodorante-pedico-algabo-3
-08121|""|0|Lácteos > Pastas Frescas y Tapas > Masas y Lavaduras||""
-08122|""|0|Panadería y Repostería > Panadería > Pizzas y Prepizzas||""
-08123|""|0|Perfumería > Cuidado Capilar > Shampoo||""
-08126|""|0|Perfumería > Cuidado Personal > Desodorantes de Hombres||""
-08127|""|0|Perfumería > Cuidado Personal > Depilación||""
-08128|""|0|Perfumería > Cuidado Personal > Protección Adultos||""
-08129|""|0|Perfumería > Cuidado Personal > Desodorantes de Mujer||""
-08131|""|0|Perfumería > Cuidado de la Piel > Solares y Post-Solares||""
-08132|""|0|Perfumería > Cuidado Oral > Enjuagues Bucales||""
 08133|Enjuague Bucal Listerine® Protección Dientes Y Encías X 500 Ml|425.18|Perfumería > Cuidado Oral > Enjuagues Bucales|595954-512-512|/enjuague-bucal-listerine-proteccion-dientes-y-encias-x-500-ml
 08138|Enjuague Bucal Listerine® Cool Mint X 500 Ml|341.22|Perfumería > Cuidado Oral > Enjuagues Bucales|595894-512-512|/enjuague-bucal-listerine-cool-mint-x-500-ml
 08139|Enjuague Bucal Listerine Freshburst 250 Ml|248.65|Perfumería > Cuidado Oral > Enjuagues Bucales|595880-512-512|/enjuague-bucal-listerine-freshburst-250-ml
 08145|Enjuague Bucal Listerine® Zero Alcohol Menta Suave X 250 Ml|248.65|Perfumería > Cuidado Oral > Enjuagues Bucales|595900-512-512|/enjuague-bucal-listerine-zero-alcohol-menta-suave-x-250-ml
-08148|""|0|Perfumería > Cuidado Personal > Geles de Ducha||""
-08149|""|0|Lácteos > Pastas Frescas y Tapas > Pastas Rellenas||""
-08154|""|0|Perfumería > Cuidado Personal > Protección Femenina||""
-08158|""|0|Perfumería > Farmacia > Preservativos||""
-08159|""|0|Perfumería > Cuidado Capilar > Coloración||""
-08161|""|0|Perfumería > Cuidado de la Piel > Cremas Desmaquillantes||""
-08165|""|0|Perfumería > Maquillaje > Ojos||""
-08166|""|0|Perfumería > Cuidado Capilar > Acondicionador||""
-08171|""|0|Perfumería > Cuidado Oral > Pastas Dentales||""
-08178|""|0|Perfumería > Maquillaje > Labios||""
-08179|""|0|Perfumería > Cuidado de la Piel > Cremas Faciales||""
-08181|""|0|Limpieza > Calzado > Pomadas Para Calzado||""
-08182|""|0|Perfumería > Cuidado Oral > Cepillos Dentales||""
 08185|Mini Churros Rellenos Para Horno   Maheso X  1|263.83|Congelados > Comidas Congeladas > Comidas Congeladas|562304-512-512|/mini-churros-rellenos-para-horno-maheso-x-1
-08187|""|0|Perfumería > Cuidado Personal > Higiene Preventiva||""
-08189|""|0|Panadería y Repostería > Repostería||""
-08191|""|0|Perfumería > Cuidado Oral > Accesorios Dentales||""
 08192|Palillo Interdental Soft Picks Advanced Gum|375.67|Perfumería > Cuidado Oral > Accesorios Dentales|574237-512-512|/palillo-interdental-soft-picks-advanced-gum-2
-08193|""|0|Perfumería > Cuidado Personal > Productos Para Afeitarse||""
 08196|Máquina De Afeitar Bic 2 U|169.0|Perfumería > Cuidado Personal > Productos Para Afeitarse|595951-512-512|/maquina-de-afeitar-bic-18
-08201|""|0|Perfumería > Farmacia > Algodón||""
-08202|""|0|Perfumería > Farmacia > Otros||""
-08203|""|0|Limpieza > Accesorios de Limpieza > Palas y Cabos||""
-08204|""|0|Limpieza > Accesorios de Limpieza > Paños Multiusos||""
-08206|""|0|Perfumería > Maquillaje > Accesorios||""
 08207|Trapo Para Piso Blanco Ref. Premium 48 X 60 Cm|205.0|Limpieza > Accesorios de Limpieza > Trapos de Piso|531363-512-512|/trapo-para-piso-blanco-ref-premium-48-x-60-cm
 08208|Rejilla Especial Liviana Ranchera 49 X 49 Cm|114.0|Limpieza > Accesorios de Limpieza > Trapos de Piso|529268-512-512|/rejilla-liviana-ranchera
-08209|""|0|Perfumería > Farmacia > Alcohol||""
-08211|""|0|Perfumería > Cuidado Personal > Jabones||""
-08219|""|0|Perfumería > Cuidado de la Piel > Cremas Corporales||""
 08221|Hidratante Facial Neutrogena® Hydro Boost® Water Gel Fps 25 X 55 Gr|758.87|Perfumería > Cuidado de la Piel > Cremas Corporales|595987-512-512|/hidratante-facial-neutrogena-hydro-boost-water-gel-fps-25-x-55-gr
-08225|""|0|Perfumería > Farmacia > Apósitos||""
-08226|""|0|Perfumería > Maquillaje > Cuidado de Uñas||""
-08228|""|0|Limpieza > Cuidado Para La Ropa > Perfumantes||""
-08229|""|0|Limpieza > Limpieza de Cocina > Productos Para Lavavajillas||""
-08231|""|0|Limpieza > Papeles > Pañuelos||""
 08233|Vanish Polvo Pink Dp 850gr|460.19|Limpieza > Cuidado Para La Ropa > Quitamanchas|596058-512-512|/vanish-polvo-pink-dp-850gr
-08235|""|0|Limpieza > Papeles > Servilletas||""
-08236|""|0|Limpieza > Papeles > Rollos de Cocina||""
-08239|""|0|Limpieza > Papeles > Papel Higiénico||""
 08241|Guantes Clásicos Virulana Mediano - 2 U|197.0|Limpieza > Accesorios de Limpieza > Esponjas y Guantes|527915-512-512|/guantes-clasicos-virulana-mediano-2-u
-08245|""|0|Limpieza > Limpieza de Baño > Pastillas y Bloques||""
 08251|Té La Virginia Aromático - 25 Saquitos|80.42|Almacén > Desayuno y Merienda > Tés|579903-512-512|/te-la-virginia-aromatico-25-saquitos
 08260|Raviolones Caseritos Calabaza Y Muzzarella  1u|236.0|Lácteos > Pastas Frescas y Tapas > Pastas Rellenas|176418-512-512|/raviolones-4
 08333|Lavandina En Gel Ayudín Original 700 Ml|96.08|Perfumería > Cuidado Personal > Higiene Preventiva|565777-512-512|/lavandina-en-gel-ayudin-original-700-ml
@@ -3213,7 +2984,6 @@ id|nombre|precio|rubro|url_imagen|url_producto
 11372|Repelente Para Mosquitos Off! Extra Duración Aerosol 165 Ml|231.21|Perfumería > Cuidado Personal > Higiene Preventiva|431019-512-512|/repelente-para-mosquitos-off-extra-duracion-aerosol-165-ml
 11373|Esmalte Top Coat Efecto Gel|153.0|Perfumería > Maquillaje > Cuidado de Uñas|451019-512-512|/esmalte-top-coat
 11376|Polvo Mata Hormigas Raid 250 Gr|258.66|Limpieza > Insecticidas > Polvos y Líquidos|431108-512-512|/polvo-mata-hormigas-raid-250-gr
-11377|""|0|Limpieza > Insecticidas > Polvos y Líquidos||""
 11381|Finish Detergente En Polvo|538.28|Limpieza > Limpieza de Cocina > Productos Para Lavavajillas|610987-512-512|/finish-detergente-en-polvo
 11382|Leche En Polvo Nutrilón Profutura 800 Gr|971.81|Almacén > Desayuno y Merienda > Leches|606974-512-512|/leche-en-polvo-nutrilon-profutura-800-gr
 11384|Vino Frida Sauvignon Blanc Botella 750 Ml|291.5|Bebidas > Vinos > Vinos Blancos|553584-512-512|/vino-frida-sauvignon-blanc-botella-750-ml

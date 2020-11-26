@@ -195,17 +195,15 @@ class Catalogo
 	class << self 
 		def eliminar_errores(base)
 			listar(base, :productos)[1..-1].procesar do |origen|
-				lista = Archivo.leer(origen)
-				tmp = new(base, lista)
-				tmp -= tmp.filtrar(&:error?)
-				tmp.escribir
+    	    	Archivo.procesar(origen) do |producto|
+    	    		!producto.nombre.vacio? 
+    	    	end
 			end
 		end
 
 		def leer(base, posicion=0)
 			origen = listar(base, :productos)[posicion]
-			lista = Archivo.leer(origen)
-        	tmp = new(base, lista)
+        	tmp = new(base, Archivo.leer(origen))
         	tmp -= tmp.filtrar(&:error?)
 		end
 
@@ -236,7 +234,9 @@ class Catalogo
 end
 
 if __FILE__ == $0
-
+	# p Catalogo.leer(:jumbo,5).count{|x|x.nombre.vacio?}
+	Catalogo.eliminar_errores(:jumbo)
+	exit
 	c = Catalogo.cargar_todo(:jumbo)
 	c.guardar
 	puts "Total #{c.count}, Activos: #{c.activos.count}, Con error: #{c.filtrar(&:error?).count} > Actualizado al: #{c.ultima_actualizacion}"
