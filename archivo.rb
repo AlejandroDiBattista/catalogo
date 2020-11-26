@@ -67,6 +67,13 @@ module Archivo
 		datos
 	end
 
+	def escribir_txt(datos, *camino)
+		destino = ubicar(*camino)
+		open(destino, 'w+') do |f|
+			f.write datos
+		end
+	end
+
 	def procesar(*camino)
 		origen = ubicar(*camino)
 		datos = leer(origen)
@@ -103,6 +110,15 @@ module Archivo
 	def borrar_fotos(*camino)
 		origen = ubicar(camino + [:fotos, '*.jpg'])
 		listar(origen){|x|borrar x}
+	end
+
+	def copiar(origen, destino)
+		puts "O> #{origen} => D>#{destino}"
+		begin
+			FileUtils.cp origen, destino
+		rescue
+			false
+		end
 	end
 
 	def borrar(destino)

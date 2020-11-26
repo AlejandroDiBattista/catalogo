@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+* { box-sizing: border-box; }
+/*V1*/
 
 html {
     min-height: 100%;
@@ -39,15 +41,30 @@ p {
     letter-spacing: 1px;
 }
 
-h1 {
+.product > h1 {
     font-size: 1.2em;
     color: #4E4E4E;
     margin-top: -5px;
 }
 
-h2 {
+.product > h2 {
     color: #C3A1A0;
     margin-top: -5px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #4E4E4E;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #C3A1A0;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #C3A1A0;
 }
 
 img {
@@ -139,13 +156,14 @@ footer {
 }
 
 footer p {
-      letter-spacing: 3px;
-    }
+    letter-spacing: 3px;
+}
+
 footer a {
-      color: #ffffff;
-      text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 footer a:hover {
-      color: #7d7d7d;
+    color: #7d7d7d;
 }

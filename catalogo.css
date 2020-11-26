@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+* { box-sizing: border-box; }
+/*V1*/
 
 html {
     min-height: 100%;
