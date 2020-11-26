@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" media="all" href="catalogo.css">
+        <link rel="stylesheet" media="all" href="../catalogo.css">
     </head>
 
     <body>
@@ -21,7 +21,7 @@
                                 <img src="<%=producto.url_imagen%>" />
                             </div>
                             <div class="product">
-                                <p>Women's Running Shoe</p>
+                                <p><%= producto.id %></p>
                                 <h1><%= producto.nombre %></h1>
                                 <h2>$<%= "%0.2f" % producto.precio %></h2>
                             </div>

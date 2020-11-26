@@ -1,3 +1,9 @@
+require_relative 'utils'
+require_relative 'archivo'
+require_relative 'web'
+require_relative 'producto'
+# require_relative 'catalogo'
+
 class Catalogo
 	attr_accessor :base, :datos, :productos, :ordenados 
 	include Enumerable 
@@ -7,24 +13,24 @@ class Catalogo
 		agregar(productos)
 	end
 
-	def self.leer(base, posicion=0)
-		origen = listar(base, :productos)[posicion]
-		lista = Archivo.leer(origen)
-        tmp = new(base, lista)
-        tmp -= tmp.filtrar(&:error?)
-	end
-
 	def escribir(tipo = :dsv)
 		Archivo.escribir(to_a, [base, "productos.#{tipo}"])
 	end
 
-	def agregar(*items)
-		[items].flatten.each do |item|
-			producto = item.is_a?(Hash) ? Producto.cargar(item) : item
-			if producto.is_a?(Producto) && !datos[producto.id]
-				datos[producto.id] = producto
-				productos << producto
-				ordenados = false 
+	def guardar()
+		Archivo.escribir_json(map(&:to_h), "#{base}/catalogo.json")
+	end
+	
+	def agregar(*items, fecha: nil)
+		[items].flatten.each do |producto|
+			producto = Producto.cargar(producto) if Hash === producto
+			if Producto === producto
+				if !datos[producto.id]
+					datos[producto.id] = producto
+					productos << producto
+					ordenados = false 
+				end
+				datos[producto.id].actualizar(fecha, producto.precio) if fecha 
 			end
 		end
 		self
@@ -112,20 +118,6 @@ class Catalogo
 		end
 	end
 
-	def self.analizar(base, dias=1, verboso=false)
-		for d in 2..dias
-			nuevo = Catalogo.leer(base, -d+1)
-			viejo = Catalogo.leer(base, -d)
-			print "#{d} dia  "
-			nuevo.comparar(viejo, verboso)
-		end
-		nuevo = Catalogo.leer(base, -1)
-		viejo = Catalogo.leer(base, -dias)
-		print "Semana:"
-		nuevo.analizar_cambios(viejo, verboso)
-		puts
-	end
-
 	def resumir(nivel=nil, n=1)
 		if !nivel 
 			puts "  RESUMEN [#{@base.capitalize}]                                                                          ".yellow.on_red
@@ -153,7 +145,7 @@ class Catalogo
 					puts (" %s  %s " % ["  " * nivel, valor.upcase]).colorize([:green, :yellow, :cyan][nivel]) if mostrar 
 				end
 			end
-			oferta =  x.precio_oferta < x.precio ?  x.precio_oferta.to_precio : "      "
+			oferta = x.precio_oferta < x.precio ?  x.precio_oferta.to_precio : "      "
 			cambio = x.variacion.abs > 0.01 && x.variacion.abs < 0.5 ? x.variacion.to_porcentaje : ""
 			cambio = cambio.colorize(x.variacion < 0 ? :green : :red)
 			puts " %s  %-80s    %6.2f %s %s %s" % ["  " * actual.count, x.nombre, x.precio, (x.error? ? '*' : ' ').red, oferta.cyan, cambio]
@@ -175,7 +167,7 @@ class Catalogo
 				end
 			end
 			anterior = actual
-            salida.last.productos << { nombre: x.nombre, precio: x.precio, oferta: x.precio_oferta, variacion: x.variacion , url_imagen: "fotos/#{x.id}.jpg" }
+            salida.last.productos << { id: x.id, nombre: x.nombre, precio: x.precio, oferta: x.precio_oferta, variacion: x.variacion , url_imagen: "fotos/#{x.id}.jpg" }
         end
         salida
 	end
@@ -190,4 +182,52 @@ class Catalogo
 			end
 		end
 	end
+
+	def ultima_actualizacion
+		map{|x|x.historia.last}.map(&:hasta).max 
+	end
+
+	def activos
+		fecha = ultima_actualizacion
+		filtrar{|x|x.historia.last[:hasta] == fecha}
+	end
+
+	class << self 
+		def leer(base, posicion=0)
+			origen = listar(base, :productos)[posicion]
+        	tmp = new(base, Archivo.leer(origen))
+        	tmp -= tmp.filtrar(&:error?)
+		end
+
+		def analizar(base, dias=1, verboso=false)
+			for d in 2..dias
+				nuevo = Catalogo.leer(base, -d+1)
+				viejo = Catalogo.leer(base, -d)
+				print "#{d} dia  "
+				nuevo.comparar(viejo, verboso)
+			end
+			nuevo = Catalogo.leer(base, -1)
+			viejo = Catalogo.leer(base, -dias)
+			print "Semana:"
+			nuevo.analizar_cambios(viejo, verboso)
+			puts
+		end
+
+		def cargar_todo(base)
+			productos = new(base)
+			Archivo.listar(base, :productos)[1..-1].each do |origen|
+				fecha = origen.to_fecha
+				productos.agregar(Archivo.leer(origen), fecha: fecha)
+				productos.each{|producto|producto.actualizar(fecha)}
+			end
+			productos
+    	end
+	end
+end
+
+if __FILE__ == $0
+	Catalogo.eliminar_errores(:jumbo)
+	Catalogo.eliminar_errores(:tatito)
+	Catalogo.eliminar_errores(:maxiconsumo)
+	Catalogo.eliminar_errores(:micarrito)
 end

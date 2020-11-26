@@ -5,6 +5,8 @@ require_relative 'utils'
 require_relative 'archivo'
 
 class Web
+	attr_accessor :id_actual 
+
 	def bajar_todo(regenerar=false)
 		destino = [carpeta, :productos]
 		puts "BAJANDO todos los datos de #{carpeta.upcase}".green
@@ -18,7 +20,7 @@ class Web
 		Archivo.escribir(productos, destino)
 
 		puts " ► Completando ID...".cyan
-		completar_id(regenerar)
+		completar_id(destino, regenerar)
 		
 		puts " ► Bajando imagenes...".cyan
 		Archivo.borrar_fotos(carpeta) if regenerar
@@ -40,6 +42,12 @@ class Web
 			end
 		end
 		productos.flatten.uniq
+	end
+
+	def limpiar_errores
+		listar(carpeta, :productos).procesar do |origen|
+        	Archivo.procesar(origen){|producto| !producto.nombre.vacio? }
+		end
 	end
 
 	def bajar_productos(pagina, rubro)
@@ -66,7 +74,7 @@ class Web
 
 	def bajar_imagenes(forzar=false)
 		productos = []
-		Archivo.listar(carpeta, :productos) do |origen|
+		Archivo.listar(carpeta, :productos).procesar do |origen|
 			Archivo.leer(origen).each  do |producto|
 				productos << { url_imagen: producto.url_imagen, id: producto.id } 
 			end
@@ -90,47 +98,48 @@ class Web
 
 	def acortar(url)
 		[:imagen, :clasificacion, :productos, :producto].each do |modo|
-			ubicar(modo).split('|').each do |x| 
-				url = url.gsub(x,'')
-			end
+			ubicar(modo).split('|').each{|x| url = url.gsub(x,'') }
 		end
 		url 
 	end
 
-	def completar_id(regenerar=true)
+	def completar_id(destino, regenerar=false)
 		datos = {}
+		Archivo.listar(carpeta, :productos).procesar do |origen|
+			Archivo.leer(origen) do |producto| 
+				datos[key(producto)] ||= generar_id(producto)
+			end
+		end
+
 		if regenerar then
 			Archivo.listar(carpeta, :productos) do |origen|
-				Archivo.limpiar(origen)
-			end
-		else
-			Archivo.listar(carpeta, :productos) do |origen|
-				Archivo.leer(origen).each do |producto| 
-					datos[key(producto)] = producto.id unless producto.id.vacio?
+				Archivo.procesar(origen) do |producto| 
+					producto[:id] = datos[key(producto)]
 				end
 			end
-		end
-
-		Archivo.listar(carpeta, :productos) do |origen|
-			productos = Archivo.leer(origen)
-			productos.each do |producto| 
-				producto[:id] = (datos[key(producto)] ||= proximo_id(datos))
+		else
+			Archivo.procesar(destino) do |producto| 
+				producto[:id] = datos[key(producto)]
 			end
-			productos = productos.sort_by{|x|x.id}
-			Archivo.escribir(productos, origen)
 		end
-	end
-
-	def proximo_id(datos)
-		datos.count == 0 ? "00001" : datos.values.max.succ
-	end
-	
-	def foto(id)
-		"#{carpeta}/fotos/#{id}.jpg"
 	end
 
 	def key(producto)
 		"#{producto.nombre.to_key}-#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}-#{producto.rubro.to_key}"
+	end
+
+	def generar_id(producto)
+		self.id_actual ||= "00000"
+		if producto.id.vacio? 
+			self.id_actual = self.id_actual.succ
+		else
+			self.id_actual = producto.id if producto.id > self.id_actual
+			producto.id 
+		end
+	end
+	
+	def foto(id)
+		"#{carpeta}/fotos/#{id}.jpg"
 	end
 
 	def carpeta
@@ -221,7 +230,7 @@ class Jumbo < Web
 
 	def imagen(item)
 		url = extraer_img(item.css('.product-item__image-link img'))
-		url = url && url.split("/")[1]
+		url = url && url.split("/")[0]
 		url = url && "#{url.split("-").first}-#{Tamaño}-#{Tamaño}" 
 	end
 end
@@ -235,7 +244,7 @@ class Tatito < Web
 		url = ubicar(:clasificacion)
 		rubros = [nil, nil]
 		Archivo.abrir(url) do |pagina|
-			return pagina.css('#checkbox_15_2 option').map do |x|
+			return pagina.css('select option').map do |x|
 				rubro = x.text.gsub("\u00A0"," ").gsub("\u00E9","é").strip 
 
 				nivel = rubro[0..0] == "-" ? 1 : 0
@@ -385,9 +394,24 @@ class TuChanguito < Web
 	end
 end
 
-if __FILE__ == $0
+def limpiar_errores
+	puts "Limpiando errores".on_green.yellow
+	Jumbo.new.limpiar_errores
+	TuChanguito.new.limpiar_errores
+	Tatito.new.limpiar_errores
+	Maxiconsumo.new.limpiar_errores
+end
+
+def bajar_todo
+	puts "Bajando datos".on_green.yellow
 	Jumbo.new.bajar_todo
 	TuChanguito.new.bajar_todo 
 	Tatito.new.bajar_todo 
 	Maxiconsumo.new.bajar_todo 
+end	
+
+if __FILE__ == $0
+	# limpiar_errores
+	# bajar_todo 
+	Tatito.new.bajar_todo 
 end

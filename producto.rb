@@ -1,7 +1,7 @@
 Campos = [:nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen, :id, :anterior, :texto, :precio_1, :precio_2, :precio_3]
 
 class Producto < Struct.new(*Campos)
-	attr_accessor :ofertas 
+	attr_accessor :ofertas, :historia
 
 	def self.cargar(datos)
 		new.tap{|tmp| Campos.each{|campo| tmp[campo] = datos[campo]}}.normalizar
@@ -36,6 +36,8 @@ class Producto < Struct.new(*Campos)
 		self.ofertas << extraer_oferta(self.precio_1) unless self.precio_1.vacio?
 		self.ofertas << extraer_oferta(self.precio_2) unless self.precio_2.vacio?
 		self.ofertas << extraer_oferta(self.precio_3) unless self.precio_3.vacio? 
+
+		self.historia ||= []
 		self
 	end
 
@@ -58,7 +60,7 @@ class Producto < Struct.new(*Campos)
 	end
 
 	def error?
-		self.nombre.vacio? || self.rubro.vacio? || self.precio.vacio? || self.url_imagen.vacio? 
+		self.nombre.vacio? || self.precio.vacio? || self.rubro.vacio? || self.url_imagen.vacio? 
 	end
 
     def contiene(condicion)
@@ -106,4 +108,26 @@ class Producto < Struct.new(*Campos)
 	def vario?
 		variacion.abs > 0 
 	end
+
+	def actualizar(fecha, precio = nil)
+		if ultimo = self.historia.last 
+			if precio 
+				if ultimo.precio == precio 
+					ultimo[:hasta] = fecha
+					precio = nil 
+				else
+					ultimo[:hasta] = fecha - 1
+					ultimo = nil 
+				end
+			elsif ultimo[:hasta] != fecha
+				ultimo[:hasta] = fecha - 1
+			end
+		end 
+		
+		self.historia << { desde: fecha, hasta: fecha, precio: precio } if !ultimo && precio 
+	end
+end
+
+if __FILE__ == $0
+
 end

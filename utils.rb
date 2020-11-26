@@ -2,6 +2,7 @@ $stdout.sync = true
 
 require 'parallel'
 require 'colorize'
+require 'date'
 
 def Hash(campos, valores=nil)
 	campos = campos.map(&:to_sym).zip(valores) if valores
@@ -197,6 +198,10 @@ class String
 		gsub(/\D/,'')
 	end
 
+	def to_fecha
+		Date.parse(self.scan(/(\d{2,4}-\d{1,2}-\d{1,2})/).flatten.first)
+	end
+
 	def from_rubro(separador='>')
 		split(separador).map(&:espacios)
 	end
@@ -206,6 +211,10 @@ class String
 			gsub(/\(\w+\)/,'').
 			gsub(/[()]/,'')
 			.split.map(&:capitalize).join(' ')
+	end
+
+	def pad(ancho)
+		"#{self[0...ancho]}#{" " * (ancho - self.size)}" 
 	end
 end
 
@@ -223,7 +232,7 @@ class Progreso
 		$semaphore.synchronize  do 
 			print correcto.nil? ? "●".yellow : (correcto ? "●".green : "●".red) #○
 			self.cuenta += 1 
-			print " " if self.cuenta % 10 == 0 
+			print " "  if self.cuenta % 10 == 0 
 			print "  " if self.cuenta % 50 == 0
 			puts if self.cuenta %  100 == 0
 			puts if self.cuenta %  500 == 0
