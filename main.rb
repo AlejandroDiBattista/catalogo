@@ -17,7 +17,7 @@ end
 
 def arroz(*supermercados)
 	supermercados.each do |supermercado|
-		analizar supermercado, 'arroz /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo'
+		analizar supermercado, filtro: 'arroz /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo'
 	end
 end
 
@@ -29,19 +29,23 @@ def generar_pagina(supermercado)
 	open("#{supermercado}.html",'w+'){|f|f.write output}
 end
 
-productos = []
-supermercado = ""
-template = open('catalogo.erb').read
-[:tatito, :tuchanguito, :maxiconsumo, :jumbo].each do |aux|
-	supermercado = aux 
-	puts "Generando #{supermercado}"
-	productos = Catalogo.leer(supermercado).generar_datos
-	Archivo.escribir_json(productos, "#{supermercado}/productos.json")
-	renderer = ERB.new(template)
-	output = renderer.result()
-	open("#{supermercado}/catalogo.html",'w+'){|f|f.write output}
+def generar_paginas
+	productos, supermercado = [], "" 
+	[:tatito, :tuchanguito, :maxiconsumo, :jumbo].each do |aux|
+		supermercado = aux 
+		puts " > Generando [#{supermercado}]  ".pad(50).on_yellow.blue
+		productos = Catalogo.leer(supermercado).generar_datos
+		Archivo.escribir_json(productos, "#{supermercado}/productos.json")
+	
+		template = open('catalogo.erb').read
+		renderer = ERB.new(template)
+		output = renderer.result(binding)
+
+		open("#{supermercado}/catalogo.html",'w+'){|f|f.write output}
+	end
 end
 
+generar_paginas
 # Archivo.borrar_fotos(:tatito)
 # analizar :tatito , cambios: true
 # arroz(:jumbo, :tatito, :tuchanguito)

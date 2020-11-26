@@ -212,6 +212,10 @@ class String
 			gsub(/[()]/,'')
 			.split.map(&:capitalize).join(' ')
 	end
+
+	def pad(ancho)
+		"#{self[0...ancho]}#{" " * (ancho - self.size)}" 
+	end
 end
 
 $semaphore = Mutex.new

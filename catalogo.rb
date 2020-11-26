@@ -167,7 +167,7 @@ class Catalogo
 				end
 			end
 			anterior = actual
-            salida.last.productos << { nombre: x.nombre, precio: x.precio, oferta: x.precio_oferta, variacion: x.variacion , url_imagen: "fotos/#{x.id}.jpg" }
+            salida.last.productos << { id: x.id, nombre: x.nombre, precio: x.precio, oferta: x.precio_oferta, variacion: x.variacion , url_imagen: "fotos/#{x.id}.jpg" }
         end
         salida
 	end
@@ -193,14 +193,6 @@ class Catalogo
 	end
 
 	class << self 
-		def eliminar_errores(base)
-			listar(base, :productos)[1..-1].procesar do |origen|
-    	    	Archivo.procesar(origen) do |producto|
-    	    		!producto.nombre.vacio? 
-    	    	end
-			end
-		end
-
 		def leer(base, posicion=0)
 			origen = listar(base, :productos)[posicion]
         	tmp = new(base, Archivo.leer(origen))
@@ -234,11 +226,8 @@ class Catalogo
 end
 
 if __FILE__ == $0
-	# p Catalogo.leer(:jumbo,5).count{|x|x.nombre.vacio?}
 	Catalogo.eliminar_errores(:jumbo)
-	exit
-	c = Catalogo.cargar_todo(:jumbo)
-	c.guardar
-	puts "Total #{c.count}, Activos: #{c.activos.count}, Con error: #{c.filtrar(&:error?).count} > Actualizado al: #{c.ultima_actualizacion}"
-	# pp c.first.to_h 
+	Catalogo.eliminar_errores(:tatito)
+	Catalogo.eliminar_errores(:maxiconsumo)
+	Catalogo.eliminar_errores(:micarrito)
 end

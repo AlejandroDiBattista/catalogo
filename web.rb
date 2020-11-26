@@ -44,6 +44,12 @@ class Web
 		productos.flatten.uniq
 	end
 
+	def limpiar_errores
+		listar(carpeta, :productos).procesar do |origen|
+        	Archivo.procesar(origen){|producto| !producto.nombre.vacio? }
+		end
+	end
+
 	def bajar_productos(pagina, rubro)
 		nuevos = [] 
 		begin
@@ -238,7 +244,7 @@ class Tatito < Web
 		url = ubicar(:clasificacion)
 		rubros = [nil, nil]
 		Archivo.abrir(url) do |pagina|
-			return pagina.css('#checkbox_15_2 option').map do |x|
+			return pagina.css('select option').map do |x|
 				rubro = x.text.gsub("\u00A0"," ").gsub("\u00E9","é").strip 
 
 				nivel = rubro[0..0] == "-" ? 1 : 0
@@ -388,10 +394,24 @@ class TuChanguito < Web
 	end
 end
 
+def limpiar_errores
+	puts "Limpiando errores".on_green.yellow
+	Jumbo.new.limpiar_errores
+	TuChanguito.new.limpiar_errores
+	Tatito.new.limpiar_errores
+	Maxiconsumo.new.limpiar_errores
+end
+
+def bajar_todo
+	puts "Bajando datos".on_green.yellow
+	Jumbo.new.bajar_todo
+	TuChanguito.new.bajar_todo 
+	Tatito.new.bajar_todo 
+	Maxiconsumo.new.bajar_todo 
+end	
+
 if __FILE__ == $0
-	# Jumbo.new.bajar_todo
-	Jumbo.new.bajar_imagenes
-	# TuChanguito.new.bajar_todo 
-	# Tatito.new.bajar_todo 
-	# Maxiconsumo.new.bajar_todo 
+	# limpiar_errores
+	# bajar_todo 
+	Tatito.new.bajar_todo 
 end
