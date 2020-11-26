@@ -15,9 +15,10 @@ def analizar(supermercado, filtro: '', periodo: :semana, cambios: true, verboso:
 	t.listar_productos filtro, verboso
 end
 
-def arroz(*supermercados)
+def arroz(*supermercados, periodo: :semana)
+	puts "Analisis de variacion de precio del Arroz al #{Date.today} (perido: #{periodo})".on_red.white
 	supermercados.each do |supermercado|
-		analizar supermercado, filtro: 'arroz /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo'
+		analizar supermercado, filtro: 'arroz /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo', periodo: periodo
 	end
 end
 

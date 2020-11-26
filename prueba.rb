@@ -9,3 +9,4 @@ end
 
 origen = "productos_2020-07-24.dsv"
 pp origen.to_fecha
+p Date.today
