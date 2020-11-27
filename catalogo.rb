@@ -184,7 +184,7 @@ class Catalogo
 	end
 
 	def ultima_actualizacion
-		map{|x|x.historia.last}.map(&:hasta).max 
+		map{|x|x.historia.last}.compact.map(&:hasta).max 
 	end
 
 	def activos
