@@ -412,6 +412,6 @@ end
 
 if __FILE__ == $0
 	# limpiar_errores
-	# bajar_todo 
-	Tatito.new.bajar_todo 
+	bajar_todo 
+	# Tatito.new.bajar_todo 
 end

@@ -22,13 +22,13 @@ def arroz(*supermercados, periodo: :semana)
 	end
 end
 
-def generar_pagina(supermercado)
-	productos = Catalogo.leer(supermercado).generar_datos
+# def generar_pagina(supermercado)
+# 	productos = Catalogo.leer(supermercado).generar_datos
 
-	renderer = ERB.new(template)
-	output = renderer.result()
-	open("#{supermercado}.html",'w+'){|f|f.write output}
-end
+# 	renderer = ERB.new(template)
+# 	output = renderer.result()
+# 	open("#{supermercado}.html",'w+'){|f|f.write output}
+# end
 
 def generar_paginas
 	productos, supermercado = [], "" 
@@ -52,7 +52,7 @@ end
 generar_paginas
 # Archivo.borrar_fotos(:tatito)
 # analizar :tatito , cambios: true
-# arroz(:jumbo, :tatito, :tuchanguito)
+# arroz(:jumbo, :tatito, :tuchanguito, periodo: :semana)
 return
 # Catalogo.leer(:maxiconsumo).resumir
 # return 
