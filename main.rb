@@ -36,8 +36,9 @@ def generar_paginas
 	[:tatito, :tuchanguito, :maxiconsumo, :jumbo].each do |aux|
 		supermercado = aux 
 		puts " > Generando [#{supermercado}]  ".pad(50).on_yellow.blue
-		# productos = Catalogo.leer(supermercado).generar_datos
-		productos = Catalogo.cargar_todo(supermercado).activos.generar_datos
+
+		productos = Catalogo.leer(supermercado).generar_datos
+		# productos = Catalogo.cargar_todo(supermercado).activos.generar_datos
 		Archivo.escribir_json(productos, "#{supermercado}/productos.json")
 	
 		template = open('catalogo.erb').read

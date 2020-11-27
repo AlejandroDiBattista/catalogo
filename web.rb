@@ -7,7 +7,7 @@ require_relative 'archivo'
 class Web
 	attr_accessor :id_actual 
 
-	def bajar_todo(regenerar=false)
+	def bajar_todo(regenerar=true)
 		destino = [carpeta, :productos]
 		puts "BAJANDO todos los datos de #{carpeta.upcase}".green
 		
@@ -74,7 +74,7 @@ class Web
 
 	def bajar_imagenes(forzar=false)
 		productos = []
-		Archivo.listar(carpeta, :productos).procesar do |origen|
+		Archivo.listar(carpeta, :productos).last(1).procesar do |origen|
 			Archivo.leer(origen).each  do |producto|
 				productos << { url_imagen: producto.url_imagen, id: producto.id } 
 			end
