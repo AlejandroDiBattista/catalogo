@@ -411,7 +411,6 @@ def bajar_todo
 end	
 
 if __FILE__ == $0
-	# limpiar_errores
-	bajar_todo 
-	# Tatito.new.bajar_todo 
+	limpiar_errores
+	# bajar_todo 
 end
