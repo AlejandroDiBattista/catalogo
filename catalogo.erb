@@ -12,7 +12,9 @@
             <div class="rubro">
                 <div class="titulos">
                     <% item.titulos.each do |titulo| %>
-                        <h<%= titulo.nivel %>><%= titulo.titulo %> </h<%= item.nivel %>>    
+                        <h<%= titulo.nivel %>>
+                            <%= titulo.titulo %> 
+                        </h<%= item.nivel %>>    
                     <% end %>
                 </div>
                 <div class="productos">

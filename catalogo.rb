@@ -154,7 +154,7 @@ class Catalogo
 	end
 
     def generar_datos
-        salida = []
+       salida  = []
 		anterior = []
         sort_by{|x|[x.rubro, x.nombre]}.each do |x|
 			actual = x.rubro.from_rubro
