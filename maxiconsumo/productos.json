@@ -11,7 +11,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Desodorantes de Inodoro"
+        "titulo": "Desodorantes de Inodoro",
+        "titulo": [
+          "Desodorantes de Inodoro (4 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -53,7 +56,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Papel Higiénico"
+        "titulo": "Papel Higiénico",
+        "titulo": [
+          "Papel Higiénico (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -107,7 +113,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Bolsas"
+        "titulo": "Bolsas",
+        "titulo": [
+          "Bolsas (8 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -181,7 +190,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Bolsas De Feria"
+        "titulo": "Bolsas De Feria",
+        "titulo": [
+          "Bolsas De Feria (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -215,7 +227,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Detergentes y Lavavajillas"
+        "titulo": "Detergentes y Lavavajillas",
+        "titulo": [
+          "Detergentes y Lavavajillas (8 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -289,7 +304,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Detergentes y Lavavajillas Concentrados"
+        "titulo": "Detergentes y Lavavajillas Concentrados",
+        "titulo": [
+          "Detergentes y Lavavajillas Concentrados (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -371,7 +389,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Esponjas y Fibras Esponjas"
+        "titulo": "Esponjas y Fibras Esponjas",
+        "titulo": [
+          "Esponjas y Fibras Esponjas (8 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -445,7 +466,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Guantes"
+        "titulo": "Guantes",
+        "titulo": [
+          "Guantes (4 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -487,7 +511,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Palilleros"
+        "titulo": "Palilleros",
+        "titulo": [
+          "Palilleros (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -513,7 +540,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Papel Envoltura E Hilos"
+        "titulo": "Papel Envoltura E Hilos",
+        "titulo": [
+          "Papel Envoltura E Hilos (4 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -555,7 +585,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Rollos De Cocina"
+        "titulo": "Rollos De Cocina",
+        "titulo": [
+          "Rollos De Cocina (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -613,7 +646,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Servilletas"
+        "titulo": "Servilletas",
+        "titulo": [
+          "Servilletas (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -671,7 +707,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Velas"
+        "titulo": "Velas",
+        "titulo": [
+          "Velas (4 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -717,7 +756,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Aplicadores"
+        "titulo": "Aplicadores",
+        "titulo": [
+          "Aplicadores (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -735,7 +777,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Brillo"
+        "titulo": "Brillo",
+        "titulo": [
+          "Brillo (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -769,7 +814,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Cepillos"
+        "titulo": "Cepillos",
+        "titulo": [
+          "Cepillos (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -787,7 +835,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Cremas"
+        "titulo": "Cremas",
+        "titulo": [
+          "Cremas (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -805,7 +856,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Limpiadores"
+        "titulo": "Limpiadores",
+        "titulo": [
+          "Limpiadores (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -831,7 +885,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Pomadas"
+        "titulo": "Pomadas",
+        "titulo": [
+          "Pomadas (10 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -921,7 +978,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Renovadores"
+        "titulo": "Renovadores",
+        "titulo": [
+          "Renovadores (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -947,7 +1007,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Tintas"
+        "titulo": "Tintas",
+        "titulo": [
+          "Tintas (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -969,7 +1032,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Desinfectante de Ambientes"
+        "titulo": "Desinfectante de Ambientes",
+        "titulo": [
+          "Desinfectante de Ambientes (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1051,7 +1117,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Desinfectantes de Ambiente Liquido"
+        "titulo": "Desinfectantes de Ambiente Liquido",
+        "titulo": [
+          "Desinfectantes de Ambiente Liquido (4 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1093,7 +1162,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Desodorante de Ambientes"
+        "titulo": "Desodorante de Ambientes",
+        "titulo": [
+          "Desodorante de Ambientes (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1175,7 +1247,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Desodorantes Continuos y Automáticos"
+        "titulo": "Desodorantes Continuos y Automáticos",
+        "titulo": [
+          "Desodorantes Continuos y Automáticos (10 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1269,7 +1344,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Cepillos y Escobas"
+        "titulo": "Cepillos y Escobas",
+        "titulo": [
+          "Cepillos y Escobas (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1375,7 +1453,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Ceras Para Pisos"
+        "titulo": "Ceras Para Pisos",
+        "titulo": [
+          "Ceras Para Pisos (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1457,7 +1538,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Destapacañerías"
+        "titulo": "Destapacañerías",
+        "titulo": [
+          "Destapacañerías (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1483,7 +1567,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Lavandinas"
+        "titulo": "Lavandinas",
+        "titulo": [
+          "Lavandinas (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1565,7 +1652,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Limpiadores"
+        "titulo": "Limpiadores",
+        "titulo": [
+          "Limpiadores (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1647,7 +1737,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Limpiadores Para Pisos"
+        "titulo": "Limpiadores Para Pisos",
+        "titulo": [
+          "Limpiadores Para Pisos (10 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1737,7 +1830,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Limpiadores de Vidrios"
+        "titulo": "Limpiadores de Vidrios",
+        "titulo": [
+          "Limpiadores de Vidrios (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1787,7 +1883,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Lustra muebles"
+        "titulo": "Lustra muebles",
+        "titulo": [
+          "Lustra muebles (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1869,7 +1968,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Quitamanchas"
+        "titulo": "Quitamanchas",
+        "titulo": [
+          "Quitamanchas (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1887,7 +1989,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Quitasarro "
+        "titulo": "Quitasarro ",
+        "titulo": [
+          "Quitasarro  (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1905,7 +2010,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Secadores Y Sopapas"
+        "titulo": "Secadores Y Sopapas",
+        "titulo": [
+          "Secadores Y Sopapas (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1971,7 +2079,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Silicona"
+        "titulo": "Silicona",
+        "titulo": [
+          "Silicona (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1989,7 +2100,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Toallitas Húmedas"
+        "titulo": "Toallitas Húmedas",
+        "titulo": [
+          "Toallitas Húmedas (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2039,7 +2153,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Trapos De Piso y Rejillas"
+        "titulo": "Trapos De Piso y Rejillas",
+        "titulo": [
+          "Trapos De Piso y Rejillas (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2101,7 +2218,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Aparatos y Tabletas Para Mosquitos"
+        "titulo": "Aparatos y Tabletas Para Mosquitos",
+        "titulo": [
+          "Aparatos y Tabletas Para Mosquitos (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2151,7 +2271,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Espirales"
+        "titulo": "Espirales",
+        "titulo": [
+          "Espirales (8 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2225,7 +2348,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Hormiguicidas"
+        "titulo": "Hormiguicidas",
+        "titulo": [
+          "Hormiguicidas (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2243,7 +2369,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Insecticidas"
+        "titulo": "Insecticidas",
+        "titulo": [
+          "Insecticidas (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2293,7 +2422,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Naftalina "
+        "titulo": "Naftalina ",
+        "titulo": [
+          "Naftalina  (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2311,7 +2443,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Papeles"
+        "titulo": "Papeles",
+        "titulo": [
+          "Papeles (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2329,7 +2464,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Perchas"
+        "titulo": "Perchas",
+        "titulo": [
+          "Perchas (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2347,7 +2485,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Pulverizadores"
+        "titulo": "Pulverizadores",
+        "titulo": [
+          "Pulverizadores (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2369,7 +2510,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Aditivos Para Lavado"
+        "titulo": "Aditivos Para Lavado",
+        "titulo": [
+          "Aditivos Para Lavado (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2451,7 +2595,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Aprestos"
+        "titulo": "Aprestos",
+        "titulo": [
+          "Aprestos (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2485,7 +2632,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Broches"
+        "titulo": "Broches",
+        "titulo": [
+          "Broches (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2511,7 +2661,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Detergentes Para Ropa"
+        "titulo": "Detergentes Para Ropa",
+        "titulo": [
+          "Detergentes Para Ropa (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2593,7 +2746,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Enjuagues"
+        "titulo": "Enjuagues",
+        "titulo": [
+          "Enjuagues (10 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2683,7 +2839,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Jabones En Pan"
+        "titulo": "Jabones En Pan",
+        "titulo": [
+          "Jabones En Pan (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2733,7 +2892,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Jabones En Polvo"
+        "titulo": "Jabones En Polvo",
+        "titulo": [
+          "Jabones En Polvo (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2799,7 +2961,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Jabones Líquidos"
+        "titulo": "Jabones Líquidos",
+        "titulo": [
+          "Jabones Líquidos (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2913,7 +3078,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Cremas y Espuma de Afeitar"
+        "titulo": "Cremas y Espuma de Afeitar",
+        "titulo": [
+          "Cremas y Espuma de Afeitar (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2971,7 +3139,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Depilación"
+        "titulo": "Depilación",
+        "titulo": [
+          "Depilación (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3005,7 +3176,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Maquinas"
+        "titulo": "Maquinas",
+        "titulo": [
+          "Maquinas (11 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3103,7 +3277,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Repuestos"
+        "titulo": "Repuestos",
+        "titulo": [
+          "Repuestos (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3141,7 +3318,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Oleo Y Aceites"
+        "titulo": "Oleo Y Aceites",
+        "titulo": [
+          "Oleo Y Aceites (8 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3215,7 +3395,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Pañales Para Bebe"
+        "titulo": "Pañales Para Bebe",
+        "titulo": [
+          "Pañales Para Bebe (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3321,7 +3504,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Toallitas Humedas"
+        "titulo": "Toallitas Humedas",
+        "titulo": [
+          "Toallitas Humedas (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3371,7 +3557,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Bronceadores"
+        "titulo": "Bronceadores",
+        "titulo": [
+          "Bronceadores (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3433,7 +3622,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Colonias"
+        "titulo": "Colonias",
+        "titulo": [
+          "Colonias (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3515,7 +3707,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Kit"
+        "titulo": "Kit",
+        "titulo": [
+          "Kit (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3533,7 +3728,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Perfumes"
+        "titulo": "Perfumes",
+        "titulo": [
+          "Perfumes (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3551,7 +3749,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Cremas Para Rostro y Cuerpo"
+        "titulo": "Cremas Para Rostro y Cuerpo",
+        "titulo": [
+          "Cremas Para Rostro y Cuerpo (4 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3597,7 +3798,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Adhesivos Dentales"
+        "titulo": "Adhesivos Dentales",
+        "titulo": [
+          "Adhesivos Dentales (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3631,7 +3835,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Cepillos Dentales"
+        "titulo": "Cepillos Dentales",
+        "titulo": [
+          "Cepillos Dentales (8 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3705,7 +3912,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Cremas Dentales"
+        "titulo": "Cremas Dentales",
+        "titulo": [
+          "Cremas Dentales (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3763,7 +3973,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Enjuagues Bucales"
+        "titulo": "Enjuagues Bucales",
+        "titulo": [
+          "Enjuagues Bucales (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3845,7 +4058,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Geles"
+        "titulo": "Geles",
+        "titulo": [
+          "Geles (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3863,7 +4079,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Hilos Dentales "
+        "titulo": "Hilos Dentales ",
+        "titulo": [
+          "Hilos Dentales  (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3881,7 +4100,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Kit"
+        "titulo": "Kit",
+        "titulo": [
+          "Kit (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3899,7 +4121,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Tabletas"
+        "titulo": "Tabletas",
+        "titulo": [
+          "Tabletas (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3921,7 +4146,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Fijadores Para Cabello"
+        "titulo": "Fijadores Para Cabello",
+        "titulo": [
+          "Fijadores Para Cabello (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4003,7 +4231,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Shampoo y Acondicionadores Familiares"
+        "titulo": "Shampoo y Acondicionadores Familiares",
+        "titulo": [
+          "Shampoo y Acondicionadores Familiares (10 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4093,7 +4324,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Shampoo y Acondicionadores Personales"
+        "titulo": "Shampoo y Acondicionadores Personales",
+        "titulo": [
+          "Shampoo y Acondicionadores Personales (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4175,7 +4409,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Tratamiento Capilar"
+        "titulo": "Tratamiento Capilar",
+        "titulo": [
+          "Tratamiento Capilar (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4245,7 +4482,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Aerosol"
+        "titulo": "Aerosol",
+        "titulo": [
+          "Aerosol (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4351,7 +4591,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Barras y Cremas"
+        "titulo": "Barras y Cremas",
+        "titulo": [
+          "Barras y Cremas (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4409,7 +4652,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Roll On"
+        "titulo": "Roll On",
+        "titulo": [
+          "Roll On (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4475,7 +4721,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Talcos Y Feculas"
+        "titulo": "Talcos Y Feculas",
+        "titulo": [
+          "Talcos Y Feculas (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4545,7 +4794,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Alcohol"
+        "titulo": "Alcohol",
+        "titulo": [
+          "Alcohol (10 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4635,7 +4887,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Algodón"
+        "titulo": "Algodón",
+        "titulo": [
+          "Algodón (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4741,7 +4996,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Apositos"
+        "titulo": "Apositos",
+        "titulo": [
+          "Apositos (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4759,7 +5017,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Barbijos"
+        "titulo": "Barbijos",
+        "titulo": [
+          "Barbijos (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4777,7 +5038,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Esponjas"
+        "titulo": "Esponjas",
+        "titulo": [
+          "Esponjas (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4811,7 +5075,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Hisopos"
+        "titulo": "Hisopos",
+        "titulo": [
+          "Hisopos (10 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4901,7 +5168,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Pañuelos"
+        "titulo": "Pañuelos",
+        "titulo": [
+          "Pañuelos (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4935,7 +5205,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Preservativos"
+        "titulo": "Preservativos",
+        "titulo": [
+          "Preservativos (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5001,7 +5274,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Protectores Mamarios "
+        "titulo": "Protectores Mamarios ",
+        "titulo": [
+          "Protectores Mamarios  (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5027,7 +5303,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Repelentes"
+        "titulo": "Repelentes",
+        "titulo": [
+          "Repelentes (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5085,7 +5364,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Toallitas Húmedas"
+        "titulo": "Toallitas Húmedas",
+        "titulo": [
+          "Toallitas Húmedas (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5139,7 +5421,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Jabones De Tocador"
+        "titulo": "Jabones De Tocador",
+        "titulo": [
+          "Jabones De Tocador (11 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5237,7 +5522,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Jabones Liquidos Para Manos"
+        "titulo": "Jabones Liquidos Para Manos",
+        "titulo": [
+          "Jabones Liquidos Para Manos (8 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5315,7 +5603,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Quita Esmalte"
+        "titulo": "Quita Esmalte",
+        "titulo": [
+          "Quita Esmalte (11 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5413,7 +5704,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Pañales Adultos"
+        "titulo": "Pañales Adultos",
+        "titulo": [
+          "Pañales Adultos (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5475,7 +5769,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Protectores Femeninos"
+        "titulo": "Protectores Femeninos",
+        "titulo": [
+          "Protectores Femeninos (8 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5549,7 +5846,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Tampones"
+        "titulo": "Tampones",
+        "titulo": [
+          "Tampones (12 unidades)"
+        ]
       }
     ],
     "productos": [

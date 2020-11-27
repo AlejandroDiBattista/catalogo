@@ -154,11 +154,14 @@ class Catalogo
 	end
 
     def generar_datos
-       salida  = []
+      salida   = []
 		anterior = []
         sort_by{|x|[x.rubro, x.nombre]}.each do |x|
 			actual = x.rubro.from_rubro
 			if actual != anterior
+				if salida.last
+					salida.last.titulos.last.titulo += " (#{salida.last.productos.count} unidades)" 
+				end
 				salida << { titulos: [], productos: [] }
 				mostrar = false
 				actual.each_with_index do |valor, nivel|

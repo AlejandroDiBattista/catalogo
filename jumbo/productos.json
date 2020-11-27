@@ -11,7 +11,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Aceites Comunes"
+        "titulo": "Aceites Comunes",
+        "titulo": [
+          "Aceites Comunes (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -165,7 +168,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Aceites Especiales"
+        "titulo": "Aceites Especiales",
+        "titulo": [
+          "Aceites Especiales (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -319,7 +325,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Acetos"
+        "titulo": "Acetos",
+        "titulo": [
+          "Acetos (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -425,7 +434,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Jugos de Limón"
+        "titulo": "Jugos de Limón",
+        "titulo": [
+          "Jugos de Limón (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -451,7 +463,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Vinagres"
+        "titulo": "Vinagres",
+        "titulo": [
+          "Vinagres (13 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -569,7 +584,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Ketchup"
+        "titulo": "Ketchup",
+        "titulo": [
+          "Ketchup (8 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -643,7 +661,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Mayonesas"
+        "titulo": "Mayonesas",
+        "titulo": [
+          "Mayonesas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -797,7 +818,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Mostazas"
+        "titulo": "Mostazas",
+        "titulo": [
+          "Mostazas (11 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -895,7 +919,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Otros Condimentos"
+        "titulo": "Otros Condimentos",
+        "titulo": [
+          "Otros Condimentos (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1049,7 +1076,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Salsas Frías"
+        "titulo": "Salsas Frías",
+        "titulo": [
+          "Salsas Frías (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1159,7 +1189,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Arroz"
+        "titulo": "Arroz",
+        "titulo": [
+          "Arroz (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1313,7 +1346,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Arroz Listos"
+        "titulo": "Arroz Listos",
+        "titulo": [
+          "Arroz Listos (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1395,7 +1431,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Legumbres"
+        "titulo": "Legumbres",
+        "titulo": [
+          "Legumbres (10 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1485,7 +1524,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Cajas Navideñas"
+        "titulo": "Cajas Navideñas",
+        "titulo": [
+          "Cajas Navideñas (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1523,7 +1565,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Caldos"
+        "titulo": "Caldos",
+        "titulo": [
+          "Caldos (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1677,7 +1722,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Sopas"
+        "titulo": "Sopas",
+        "titulo": [
+          "Sopas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1835,7 +1883,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Conservas de Carne"
+        "titulo": "Conservas de Carne",
+        "titulo": [
+          "Conservas de Carne (10 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1925,7 +1976,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Conservas de Frutas"
+        "titulo": "Conservas de Frutas",
+        "titulo": [
+          "Conservas de Frutas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2079,7 +2133,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Conservas de Pescado"
+        "titulo": "Conservas de Pescado",
+        "titulo": [
+          "Conservas de Pescado (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2233,7 +2290,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Conservas de Verduras y Legumbres"
+        "titulo": "Conservas de Verduras y Legumbres",
+        "titulo": [
+          "Conservas de Verduras y Legumbres (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2391,7 +2451,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Azúcar y Edulcorantes"
+        "titulo": "Azúcar y Edulcorantes",
+        "titulo": [
+          "Azúcar y Edulcorantes (17 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2537,7 +2600,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Bizcochuelos, Budines y Magdalenas"
+        "titulo": "Bizcochuelos, Budines y Magdalenas",
+        "titulo": [
+          "Bizcochuelos, Budines y Magdalenas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2691,7 +2757,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Cacao y Saborizantes"
+        "titulo": "Cacao y Saborizantes",
+        "titulo": [
+          "Cacao y Saborizantes (15 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2821,7 +2890,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Cafés"
+        "titulo": "Cafés",
+        "titulo": [
+          "Cafés (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2975,7 +3047,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Cereales"
+        "titulo": "Cereales",
+        "titulo": [
+          "Cereales (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3129,7 +3204,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Galletitas Dulces"
+        "titulo": "Galletitas Dulces",
+        "titulo": [
+          "Galletitas Dulces (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3283,7 +3361,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Galletitas Saladas"
+        "titulo": "Galletitas Saladas",
+        "titulo": [
+          "Galletitas Saladas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3437,7 +3518,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Leches"
+        "titulo": "Leches",
+        "titulo": [
+          "Leches (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3591,7 +3675,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Mermeladas y Jaleas"
+        "titulo": "Mermeladas y Jaleas",
+        "titulo": [
+          "Mermeladas y Jaleas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3745,7 +3832,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Tés"
+        "titulo": "Tés",
+        "titulo": [
+          "Tés (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3899,7 +3989,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Yerbas"
+        "titulo": "Yerbas",
+        "titulo": [
+          "Yerbas (17 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4049,7 +4142,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Alfajores"
+        "titulo": "Alfajores",
+        "titulo": [
+          "Alfajores (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4203,7 +4299,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Bocaditos y Postres"
+        "titulo": "Bocaditos y Postres",
+        "titulo": [
+          "Bocaditos y Postres (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4357,7 +4456,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Bombones"
+        "titulo": "Bombones",
+        "titulo": [
+          "Bombones (16 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4495,7 +4597,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Caramelos y Chicles"
+        "titulo": "Caramelos y Chicles",
+        "titulo": [
+          "Caramelos y Chicles (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4649,7 +4754,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Chocolates"
+        "titulo": "Chocolates",
+        "titulo": [
+          "Chocolates (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4803,7 +4911,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Turrones y Grageas"
+        "titulo": "Turrones y Grageas",
+        "titulo": [
+          "Turrones y Grageas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4961,7 +5072,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Avenas y Sémolas"
+        "titulo": "Avenas y Sémolas",
+        "titulo": [
+          "Avenas y Sémolas (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5067,7 +5181,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Harinas"
+        "titulo": "Harinas",
+        "titulo": [
+          "Harinas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5221,7 +5338,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Importados"
+        "titulo": "Importados",
+        "titulo": [
+          "Importados (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5375,7 +5495,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Libre de Gluten"
+        "titulo": "Libre de Gluten",
+        "titulo": [
+          "Libre de Gluten (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5529,7 +5652,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Mesa Dulce Navideña"
+        "titulo": "Mesa Dulce Navideña",
+        "titulo": [
+          "Mesa Dulce Navideña (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5687,7 +5813,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Especias"
+        "titulo": "Especias",
+        "titulo": [
+          "Especias (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5841,7 +5970,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Sal"
+        "titulo": "Sal",
+        "titulo": [
+          "Sal (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5999,7 +6131,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Frutas Secas y Disecadas"
+        "titulo": "Frutas Secas y Disecadas",
+        "titulo": [
+          "Frutas Secas y Disecadas (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -6065,7 +6200,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Maní"
+        "titulo": "Maní",
+        "titulo": [
+          "Maní (14 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -6187,7 +6325,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Snacks"
+        "titulo": "Snacks",
+        "titulo": [
+          "Snacks (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -6345,7 +6486,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "A Base de Hierbas"
+        "titulo": "A Base de Hierbas",
+        "titulo": [
+          "A Base de Hierbas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -6503,7 +6647,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Aguas Con Gas"
+        "titulo": "Aguas Con Gas",
+        "titulo": [
+          "Aguas Con Gas (14 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -6625,7 +6772,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Aguas Saborizadas"
+        "titulo": "Aguas Saborizadas",
+        "titulo": [
+          "Aguas Saborizadas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -6779,7 +6929,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Aguas Sin Gas"
+        "titulo": "Aguas Sin Gas",
+        "titulo": [
+          "Aguas Sin Gas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -6933,7 +7086,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Aperitivos"
+        "titulo": "Aperitivos",
+        "titulo": [
+          "Aperitivos (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -7087,7 +7243,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Bebidas Blancas"
+        "titulo": "Bebidas Blancas",
+        "titulo": [
+          "Bebidas Blancas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -7241,7 +7400,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Cervezas"
+        "titulo": "Cervezas",
+        "titulo": [
+          "Cervezas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -7395,7 +7557,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Champagnes"
+        "titulo": "Champagnes",
+        "titulo": [
+          "Champagnes (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -7549,7 +7714,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Energizantes"
+        "titulo": "Energizantes",
+        "titulo": [
+          "Energizantes (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -7571,7 +7739,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Cola"
+        "titulo": "Cola",
+        "titulo": [
+          "Cola (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -7725,7 +7896,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Guaraná"
+        "titulo": "Guaraná",
+        "titulo": [
+          "Guaraná (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -7759,7 +7933,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Lima Limón"
+        "titulo": "Lima Limón",
+        "titulo": [
+          "Lima Limón (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -7865,7 +8042,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Naranja"
+        "titulo": "Naranja",
+        "titulo": [
+          "Naranja (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -7931,7 +8111,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Tónica"
+        "titulo": "Tónica",
+        "titulo": [
+          "Tónica (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -7981,7 +8164,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Hielo"
+        "titulo": "Hielo",
+        "titulo": [
+          "Hielo (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -7999,7 +8185,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Isotónicas"
+        "titulo": "Isotónicas",
+        "titulo": [
+          "Isotónicas (16 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -8141,7 +8330,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "En Polvo"
+        "titulo": "En Polvo",
+        "titulo": [
+          "En Polvo (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -8295,7 +8487,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Frescos"
+        "titulo": "Frescos",
+        "titulo": [
+          "Frescos (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -8449,7 +8644,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Granadina"
+        "titulo": "Granadina",
+        "titulo": [
+          "Granadina (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -8467,7 +8665,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Listos"
+        "titulo": "Listos",
+        "titulo": [
+          "Listos (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -8621,7 +8822,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Licores"
+        "titulo": "Licores",
+        "titulo": [
+          "Licores (8 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -8695,7 +8899,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Sidras"
+        "titulo": "Sidras",
+        "titulo": [
+          "Sidras (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -8853,7 +9060,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Vinos Blancos"
+        "titulo": "Vinos Blancos",
+        "titulo": [
+          "Vinos Blancos (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -9007,7 +9217,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Vinos Frizantes"
+        "titulo": "Vinos Frizantes",
+        "titulo": [
+          "Vinos Frizantes (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -9033,7 +9246,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Vinos Rosados"
+        "titulo": "Vinos Rosados",
+        "titulo": [
+          "Vinos Rosados (16 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -9171,7 +9387,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Vinos Tintos"
+        "titulo": "Vinos Tintos",
+        "titulo": [
+          "Vinos Tintos (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -9325,7 +9544,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Whiskys"
+        "titulo": "Whiskys",
+        "titulo": [
+          "Whiskys (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -9483,7 +9705,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Menú Caliente"
+        "titulo": "Menú Caliente",
+        "titulo": [
+          "Menú Caliente (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -9637,7 +9862,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Menú Frío"
+        "titulo": "Menú Frío",
+        "titulo": [
+          "Menú Frío (16 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -9783,7 +10011,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Comidas Congeladas"
+        "titulo": "Comidas Congeladas",
+        "titulo": [
+          "Comidas Congeladas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -9937,7 +10168,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Empanadas y Tartas"
+        "titulo": "Empanadas y Tartas",
+        "titulo": [
+          "Empanadas y Tartas (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -10043,7 +10277,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Frutas"
+        "titulo": "Frutas",
+        "titulo": [
+          "Frutas (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -10077,7 +10314,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Hamburguesas y Milanesas"
+        "titulo": "Hamburguesas y Milanesas",
+        "titulo": [
+          "Hamburguesas y Milanesas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -10235,7 +10475,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Helados"
+        "titulo": "Helados",
+        "titulo": [
+          "Helados (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -10389,7 +10632,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Vegetales"
+        "titulo": "Vegetales",
+        "titulo": [
+          "Vegetales (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -10551,7 +10797,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Baldes y Mopas"
+        "titulo": "Baldes y Mopas",
+        "titulo": [
+          "Baldes y Mopas (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -10617,7 +10866,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Bolsas"
+        "titulo": "Bolsas",
+        "titulo": [
+          "Bolsas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -10771,7 +11023,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Broches y Ganchos"
+        "titulo": "Broches y Ganchos",
+        "titulo": [
+          "Broches y Ganchos (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -10789,7 +11044,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Escobas y Escobillones"
+        "titulo": "Escobas y Escobillones",
+        "titulo": [
+          "Escobas y Escobillones (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -10895,7 +11153,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Escobillas"
+        "titulo": "Escobillas",
+        "titulo": [
+          "Escobillas (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -10961,7 +11222,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Esponjas y Guantes"
+        "titulo": "Esponjas y Guantes",
+        "titulo": [
+          "Esponjas y Guantes (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -11115,7 +11379,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Secadores y Cepillos"
+        "titulo": "Secadores y Cepillos",
+        "titulo": [
+          "Secadores y Cepillos (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -11197,7 +11464,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Trapos de Piso"
+        "titulo": "Trapos de Piso",
+        "titulo": [
+          "Trapos de Piso (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -11355,7 +11625,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Brillos y Revividores"
+        "titulo": "Brillos y Revividores",
+        "titulo": [
+          "Brillos y Revividores (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -11413,7 +11686,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Limpiadores"
+        "titulo": "Limpiadores",
+        "titulo": [
+          "Limpiadores (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -11435,7 +11711,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Aprestos y Blanqueadores"
+        "titulo": "Aprestos y Blanqueadores",
+        "titulo": [
+          "Aprestos y Blanqueadores (4 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -11477,7 +11756,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Detergente Para Ropa"
+        "titulo": "Detergente Para Ropa",
+        "titulo": [
+          "Detergente Para Ropa (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -11631,7 +11913,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Jabón en Pan"
+        "titulo": "Jabón en Pan",
+        "titulo": [
+          "Jabón en Pan (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -11689,7 +11974,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Quitamanchas"
+        "titulo": "Quitamanchas",
+        "titulo": [
+          "Quitamanchas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -11843,7 +12131,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Suavizantes"
+        "titulo": "Suavizantes",
+        "titulo": [
+          "Suavizantes (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -12001,7 +12292,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Absorbe Humedad"
+        "titulo": "Absorbe Humedad",
+        "titulo": [
+          "Absorbe Humedad (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -12027,7 +12321,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Aromatizantes"
+        "titulo": "Aromatizantes",
+        "titulo": [
+          "Aromatizantes (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -12181,7 +12478,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Desodorantes y Desinfectantes"
+        "titulo": "Desodorantes y Desinfectantes",
+        "titulo": [
+          "Desodorantes y Desinfectantes (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -12339,7 +12639,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Aerosoles"
+        "titulo": "Aerosoles",
+        "titulo": [
+          "Aerosoles (17 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -12485,7 +12788,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Aparatos"
+        "titulo": "Aparatos",
+        "titulo": [
+          "Aparatos (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -12511,7 +12817,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Cebos, Bolillas y Pastillas"
+        "titulo": "Cebos, Bolillas y Pastillas",
+        "titulo": [
+          "Cebos, Bolillas y Pastillas (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -12537,7 +12846,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Repelentes"
+        "titulo": "Repelentes",
+        "titulo": [
+          "Repelentes (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -12595,7 +12907,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Tabletas y Difusores"
+        "titulo": "Tabletas y Difusores",
+        "titulo": [
+          "Tabletas y Difusores (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -12629,7 +12944,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Lavandina"
+        "titulo": "Lavandina",
+        "titulo": [
+          "Lavandina (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -12787,7 +13105,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Desinfectantes"
+        "titulo": "Desinfectantes",
+        "titulo": [
+          "Desinfectantes (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -12941,7 +13262,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Destapa Cañerías"
+        "titulo": "Destapa Cañerías",
+        "titulo": [
+          "Destapa Cañerías (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -12971,7 +13295,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Detergentes"
+        "titulo": "Detergentes",
+        "titulo": [
+          "Detergentes (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -13125,7 +13452,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Escarbadientes"
+        "titulo": "Escarbadientes",
+        "titulo": [
+          "Escarbadientes (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -13159,7 +13489,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Fósforos"
+        "titulo": "Fósforos",
+        "titulo": [
+          "Fósforos (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -13193,7 +13526,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Limpiadores"
+        "titulo": "Limpiadores",
+        "titulo": [
+          "Limpiadores (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -13347,7 +13683,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Limpiavidrios"
+        "titulo": "Limpiavidrios",
+        "titulo": [
+          "Limpiavidrios (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -13417,7 +13756,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Ceras y Autobrillos"
+        "titulo": "Ceras y Autobrillos",
+        "titulo": [
+          "Ceras y Autobrillos (15 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -13547,7 +13889,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Limpiadores de Pisos"
+        "titulo": "Limpiadores de Pisos",
+        "titulo": [
+          "Limpiadores de Pisos (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -13701,7 +14046,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Lustramuebles"
+        "titulo": "Lustramuebles",
+        "titulo": [
+          "Lustramuebles (10 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -13795,7 +14143,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Cremas"
+        "titulo": "Cremas",
+        "titulo": [
+          "Cremas (15 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -13925,7 +14276,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Dulce de Leche"
+        "titulo": "Dulce de Leche",
+        "titulo": [
+          "Dulce de Leche (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -14083,7 +14437,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Leches Larga Vida"
+        "titulo": "Leches Larga Vida",
+        "titulo": [
+          "Leches Larga Vida (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -14237,7 +14594,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Leches Refrigeradas"
+        "titulo": "Leches Refrigeradas",
+        "titulo": [
+          "Leches Refrigeradas (13 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -14351,7 +14711,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Leches Saborizadas"
+        "titulo": "Leches Saborizadas",
+        "titulo": [
+          "Leches Saborizadas (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -14505,7 +14868,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Leches Vegetales"
+        "titulo": "Leches Vegetales",
+        "titulo": [
+          "Leches Vegetales (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -14663,7 +15029,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Manteca"
+        "titulo": "Manteca",
+        "titulo": [
+          "Manteca (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -14769,7 +15138,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Margarinas"
+        "titulo": "Margarinas",
+        "titulo": [
+          "Margarinas (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -14831,7 +15203,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Yogures Descremados"
+        "titulo": "Yogures Descremados",
+        "titulo": [
+          "Yogures Descremados (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -14985,7 +15360,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Yogures Enteros"
+        "titulo": "Yogures Enteros",
+        "titulo": [
+          "Yogures Enteros (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -15143,7 +15521,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Dulces"
+        "titulo": "Dulces",
+        "titulo": [
+          "Dulces (9 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -15225,7 +15606,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Encurtidos, Aceitunas y Pickles"
+        "titulo": "Encurtidos, Aceitunas y Pickles",
+        "titulo": [
+          "Encurtidos, Aceitunas y Pickles (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -15383,7 +15767,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Fiambres"
+        "titulo": "Fiambres",
+        "titulo": [
+          "Fiambres (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -15537,7 +15924,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Jamón Cocido y Crudo"
+        "titulo": "Jamón Cocido y Crudo",
+        "titulo": [
+          "Jamón Cocido y Crudo (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -15695,7 +16085,10 @@
       },
       {
         "nivel": 3,
-        "titulo": "Queso Muzzarella"
+        "titulo": "Queso Muzzarella",
+        "titulo": [
+          "Queso Muzzarella (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -15849,7 +16242,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Quesos Duros"
+        "titulo": "Quesos Duros",
+        "titulo": [
+          "Quesos Duros (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -16003,7 +16399,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Quesos Especiales e Importados"
+        "titulo": "Quesos Especiales e Importados",
+        "titulo": [
+          "Quesos Especiales e Importados (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -16157,7 +16556,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Quesos Port Salut y Cremosos"
+        "titulo": "Quesos Port Salut y Cremosos",
+        "titulo": [
+          "Quesos Port Salut y Cremosos (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -16311,7 +16713,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Quesos Rallados"
+        "titulo": "Quesos Rallados",
+        "titulo": [
+          "Quesos Rallados (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -16465,7 +16870,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Quesos Semiblandos"
+        "titulo": "Quesos Semiblandos",
+        "titulo": [
+          "Quesos Semiblandos (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -16619,7 +17027,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Quesos Untables"
+        "titulo": "Quesos Untables",
+        "titulo": [
+          "Quesos Untables (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -16773,7 +17184,10 @@
     "titulos": [
       {
         "nivel": 3,
-        "titulo": "Ricota"
+        "titulo": "Ricota",
+        "titulo": [
+          "Ricota (4 unidades)"
+        ]
       }
     ],
     "productos": [

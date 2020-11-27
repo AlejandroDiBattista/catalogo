@@ -402,15 +402,15 @@ def limpiar_errores
 	Maxiconsumo.new.limpiar_errores
 end
 
-def bajar_todo
+def bajar_todo(regenerar=false)
 	puts "Bajando datos".on_green.yellow
-	Jumbo.new.bajar_todo
-	TuChanguito.new.bajar_todo 
-	Tatito.new.bajar_todo 
-	Maxiconsumo.new.bajar_todo 
+	Jumbo.new.bajar_todo regenerar
+	TuChanguito.new.bajar_todo regenerar
+	Tatito.new.bajar_todo regenerar
+	Maxiconsumo.new.bajar_todo regenerar
 end	
 
 if __FILE__ == $0
+	bajar_todo 
 	limpiar_errores
-	# bajar_todo 
 end

@@ -7,7 +7,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Ketchup"
+        "titulo": "Ketchup",
+        "titulo": [
+          "Ketchup (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -41,7 +44,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Mayonesas"
+        "titulo": "Mayonesas",
+        "titulo": [
+          "Mayonesas (14 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -163,7 +169,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Mostazas"
+        "titulo": "Mostazas",
+        "titulo": [
+          "Mostazas (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -213,7 +222,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Salsa Golf"
+        "titulo": "Salsa Golf",
+        "titulo": [
+          "Salsa Golf (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -243,7 +255,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Aceites"
+        "titulo": "Aceites",
+        "titulo": [
+          "Aceites (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -349,7 +364,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Arroz"
+        "titulo": "Arroz",
+        "titulo": [
+          "Arroz (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -407,7 +425,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Azúcar"
+        "titulo": "Azúcar",
+        "titulo": [
+          "Azúcar (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -433,7 +454,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Café"
+        "titulo": "Café",
+        "titulo": [
+          "Café (20 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -603,7 +627,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Edulcorantes"
+        "titulo": "Edulcorantes",
+        "titulo": [
+          "Edulcorantes (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -621,7 +648,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Enlatados"
+        "titulo": "Enlatados",
+        "titulo": [
+          "Enlatados (17 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -767,7 +797,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Fideos"
+        "titulo": "Fideos",
+        "titulo": [
+          "Fideos (18 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -921,7 +954,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Gall. Dulces y Saladas"
+        "titulo": "Gall. Dulces y Saladas",
+        "titulo": [
+          "Gall. Dulces y Saladas (15 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1051,7 +1087,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Harinas"
+        "titulo": "Harinas",
+        "titulo": [
+          "Harinas (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1109,7 +1148,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Legumbres"
+        "titulo": "Legumbres",
+        "titulo": [
+          "Legumbres (14 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1231,7 +1273,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Mate"
+        "titulo": "Mate",
+        "titulo": [
+          "Mate (20 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1401,7 +1446,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Otros"
+        "titulo": "Otros",
+        "titulo": [
+          "Otros (16 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1539,7 +1587,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Polentas"
+        "titulo": "Polentas",
+        "titulo": [
+          "Polentas (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1565,7 +1616,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Postres"
+        "titulo": "Postres",
+        "titulo": [
+          "Postres (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1615,7 +1669,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Rebozadores"
+        "titulo": "Rebozadores",
+        "titulo": [
+          "Rebozadores (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1649,7 +1706,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Sal"
+        "titulo": "Sal",
+        "titulo": [
+          "Sal (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1699,7 +1759,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Salsas"
+        "titulo": "Salsas",
+        "titulo": [
+          "Salsas (15 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1829,7 +1892,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Sopas y Caldos"
+        "titulo": "Sopas y Caldos",
+        "titulo": [
+          "Sopas y Caldos (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -1863,7 +1929,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Varios"
+        "titulo": "Varios",
+        "titulo": [
+          "Varios (20 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2033,7 +2102,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Vinagres"
+        "titulo": "Vinagres",
+        "titulo": [
+          "Vinagres (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2063,7 +2135,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Aperitivos"
+        "titulo": "Aperitivos",
+        "titulo": [
+          "Aperitivos (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2097,7 +2172,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Cervezas y Fernet"
+        "titulo": "Cervezas y Fernet",
+        "titulo": [
+          "Cervezas y Fernet (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2147,7 +2225,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Isotonicos y energizantes"
+        "titulo": "Isotonicos y energizantes",
+        "titulo": [
+          "Isotonicos y energizantes (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2181,7 +2262,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Jugos"
+        "titulo": "Jugos",
+        "titulo": [
+          "Jugos (12 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2287,7 +2371,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Vinos"
+        "titulo": "Vinos",
+        "titulo": [
+          "Vinos (8 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2361,7 +2448,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Vodkas"
+        "titulo": "Vodkas",
+        "titulo": [
+          "Vodkas (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2399,7 +2489,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Condimentos"
+        "titulo": "Condimentos",
+        "titulo": [
+          "Condimentos (16 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2541,7 +2634,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Cacao"
+        "titulo": "Cacao",
+        "titulo": [
+          "Cacao (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2575,7 +2671,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Dulce de Leche"
+        "titulo": "Dulce de Leche",
+        "titulo": [
+          "Dulce de Leche (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2593,7 +2692,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Edulcorantes"
+        "titulo": "Edulcorantes",
+        "titulo": [
+          "Edulcorantes (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2659,7 +2761,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Gall Dulces y Saladas"
+        "titulo": "Gall Dulces y Saladas",
+        "titulo": [
+          "Gall Dulces y Saladas (20 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2829,7 +2934,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Mate"
+        "titulo": "Mate",
+        "titulo": [
+          "Mate (8 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2903,7 +3011,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Mermeladas"
+        "titulo": "Mermeladas",
+        "titulo": [
+          "Mermeladas (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2937,7 +3048,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Miel"
+        "titulo": "Miel",
+        "titulo": [
+          "Miel (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -2975,7 +3089,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Aceitunas"
+        "titulo": "Aceitunas",
+        "titulo": [
+          "Aceitunas (4 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3017,7 +3134,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Bondiola"
+        "titulo": "Bondiola",
+        "titulo": [
+          "Bondiola (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3043,7 +3163,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Cremosos"
+        "titulo": "Cremosos",
+        "titulo": [
+          "Cremosos (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3093,7 +3216,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Dambo"
+        "titulo": "Dambo",
+        "titulo": [
+          "Dambo (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3111,7 +3237,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Fiambre cocido"
+        "titulo": "Fiambre cocido",
+        "titulo": [
+          "Fiambre cocido (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3137,7 +3266,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Jamon Crudo"
+        "titulo": "Jamon Crudo",
+        "titulo": [
+          "Jamon Crudo (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3155,7 +3287,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Jamón"
+        "titulo": "Jamón",
+        "titulo": [
+          "Jamón (4 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3197,7 +3332,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Mortadela"
+        "titulo": "Mortadela",
+        "titulo": [
+          "Mortadela (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3231,7 +3369,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Muzzarella"
+        "titulo": "Muzzarella",
+        "titulo": [
+          "Muzzarella (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3257,7 +3398,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Paleta"
+        "titulo": "Paleta",
+        "titulo": [
+          "Paleta (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3283,7 +3427,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Panceta"
+        "titulo": "Panceta",
+        "titulo": [
+          "Panceta (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3301,7 +3448,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Por Salut"
+        "titulo": "Por Salut",
+        "titulo": [
+          "Por Salut (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3319,7 +3469,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Ricota"
+        "titulo": "Ricota",
+        "titulo": [
+          "Ricota (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3337,7 +3490,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Romanito / Sardo"
+        "titulo": "Romanito / Sardo",
+        "titulo": [
+          "Romanito / Sardo (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3355,7 +3511,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Roquefort"
+        "titulo": "Roquefort",
+        "titulo": [
+          "Roquefort (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3373,7 +3532,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Salame"
+        "titulo": "Salame",
+        "titulo": [
+          "Salame (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3423,7 +3585,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Sardo"
+        "titulo": "Sardo",
+        "titulo": [
+          "Sardo (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3441,7 +3606,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Tybo"
+        "titulo": "Tybo",
+        "titulo": [
+          "Tybo (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3495,7 +3663,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Hamburguesas"
+        "titulo": "Hamburguesas",
+        "titulo": [
+          "Hamburguesas (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3561,7 +3732,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Levaduras"
+        "titulo": "Levaduras",
+        "titulo": [
+          "Levaduras (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3595,7 +3769,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Masa para Tacos"
+        "titulo": "Masa para Tacos",
+        "titulo": [
+          "Masa para Tacos (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3613,7 +3790,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Pascualinas"
+        "titulo": "Pascualinas",
+        "titulo": [
+          "Pascualinas (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3647,7 +3827,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Ravioles"
+        "titulo": "Ravioles",
+        "titulo": [
+          "Ravioles (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3665,7 +3848,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Salchichas"
+        "titulo": "Salchichas",
+        "titulo": [
+          "Salchichas (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3699,7 +3885,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Sorrentinos"
+        "titulo": "Sorrentinos",
+        "titulo": [
+          "Sorrentinos (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3717,7 +3906,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Tapas"
+        "titulo": "Tapas",
+        "titulo": [
+          "Tapas (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3743,7 +3935,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Untables"
+        "titulo": "Untables",
+        "titulo": [
+          "Untables (4 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3785,7 +3980,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Yogures"
+        "titulo": "Yogures",
+        "titulo": [
+          "Yogures (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3815,7 +4013,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Crema de Leche"
+        "titulo": "Crema de Leche",
+        "titulo": [
+          "Crema de Leche (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3841,7 +4042,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Dulce de Leche"
+        "titulo": "Dulce de Leche",
+        "titulo": [
+          "Dulce de Leche (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3891,7 +4095,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Flan"
+        "titulo": "Flan",
+        "titulo": [
+          "Flan (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3909,7 +4116,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Leche"
+        "titulo": "Leche",
+        "titulo": [
+          "Leche (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3959,7 +4169,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Leche Condensada"
+        "titulo": "Leche Condensada",
+        "titulo": [
+          "Leche Condensada (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -3977,7 +4190,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Leche en Polvo"
+        "titulo": "Leche en Polvo",
+        "titulo": [
+          "Leche en Polvo (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4043,7 +4259,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Mantecas y Margarinas"
+        "titulo": "Mantecas y Margarinas",
+        "titulo": [
+          "Mantecas y Margarinas (4 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4085,7 +4304,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Postres"
+        "titulo": "Postres",
+        "titulo": [
+          "Postres (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4103,7 +4325,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Quesos"
+        "titulo": "Quesos",
+        "titulo": [
+          "Quesos (8 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4177,7 +4402,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Yogures"
+        "titulo": "Yogures",
+        "titulo": [
+          "Yogures (4 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4223,7 +4451,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Alcohol"
+        "titulo": "Alcohol",
+        "titulo": [
+          "Alcohol (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4257,7 +4488,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Dentifrico"
+        "titulo": "Dentifrico",
+        "titulo": [
+          "Dentifrico (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4323,7 +4557,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Desodorante Hombre/Mujer"
+        "titulo": "Desodorante Hombre/Mujer",
+        "titulo": [
+          "Desodorante Hombre/Mujer (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4349,7 +4586,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Desodorante de piso"
+        "titulo": "Desodorante de piso",
+        "titulo": [
+          "Desodorante de piso (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4399,7 +4639,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Detergente"
+        "titulo": "Detergente",
+        "titulo": [
+          "Detergente (5 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4449,7 +4692,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Espiral"
+        "titulo": "Espiral",
+        "titulo": [
+          "Espiral (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4475,7 +4721,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Lavandina"
+        "titulo": "Lavandina",
+        "titulo": [
+          "Lavandina (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4501,7 +4750,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Lavavajillas"
+        "titulo": "Lavavajillas",
+        "titulo": [
+          "Lavavajillas (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4527,7 +4779,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Limpiador de Ropa"
+        "titulo": "Limpiador de Ropa",
+        "titulo": [
+          "Limpiador de Ropa (15 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4657,7 +4912,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Papel Higiénico"
+        "titulo": "Papel Higiénico",
+        "titulo": [
+          "Papel Higiénico (6 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4715,7 +4973,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Protección Femenina"
+        "titulo": "Protección Femenina",
+        "titulo": [
+          "Protección Femenina (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4749,7 +5010,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Rejilla"
+        "titulo": "Rejilla",
+        "titulo": [
+          "Rejilla (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4775,7 +5039,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Rollos de Cocina"
+        "titulo": "Rollos de Cocina",
+        "titulo": [
+          "Rollos de Cocina (3 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4809,7 +5076,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Shampoo"
+        "titulo": "Shampoo",
+        "titulo": [
+          "Shampoo (7 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4875,7 +5145,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Suavizante"
+        "titulo": "Suavizante",
+        "titulo": [
+          "Suavizante (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4901,7 +5174,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Trapo de piso"
+        "titulo": "Trapo de piso",
+        "titulo": [
+          "Trapo de piso (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -4919,7 +5195,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Varios"
+        "titulo": "Varios",
+        "titulo": [
+          "Varios (20 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5089,7 +5368,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Velas"
+        "titulo": "Velas",
+        "titulo": [
+          "Velas (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5111,7 +5393,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Lactal"
+        "titulo": "Lactal",
+        "titulo": [
+          "Lactal (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5137,7 +5422,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Miga"
+        "titulo": "Miga",
+        "titulo": [
+          "Miga (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5155,7 +5443,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Pan Negro"
+        "titulo": "Pan Negro",
+        "titulo": [
+          "Pan Negro (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5173,7 +5464,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Pan de Hamburguesa"
+        "titulo": "Pan de Hamburguesa",
+        "titulo": [
+          "Pan de Hamburguesa (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5199,7 +5493,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Pan de Viena"
+        "titulo": "Pan de Viena",
+        "titulo": [
+          "Pan de Viena (2 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5225,7 +5522,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Pebete"
+        "titulo": "Pebete",
+        "titulo": [
+          "Pebete (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5243,7 +5543,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Prepizzas"
+        "titulo": "Prepizzas",
+        "titulo": [
+          "Prepizzas (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5265,7 +5568,10 @@
       },
       {
         "nivel": 2,
-        "titulo": "Chisitos"
+        "titulo": "Chisitos",
+        "titulo": [
+          "Chisitos (1 unidades)"
+        ]
       }
     ],
     "productos": [
@@ -5283,7 +5589,10 @@
     "titulos": [
       {
         "nivel": 2,
-        "titulo": "Otros"
+        "titulo": "Otros",
+        "titulo": [
+          "Otros (7 unidades)"
+        ]
       }
     ],
     "productos": [
