@@ -46,15 +46,15 @@ def generar_paginas
 		output = renderer.result(binding)
 
 		Archivo.copiar('catalogo.css', Archivo.ubicar(supermercado, "catalogo.css"))
-		Archivo.copiar('catalogo.css', "C:\Users\administrator\Documents\GitHub\vecinosyb\docs\#{supermercado}\catalogo.css")
-		Archivo.copiar("#{supermercado}\catalogo.html", "C:\Users\administrator\Documents\GitHub\vecinosyb\docs\#{supermercado}\catalogo.html")
+		Archivo.copiar('catalogo.css', "C:/Users/administrator/Documents/GitHub/vecinosyb/docs/#{supermercado}/catalogo.css")
+		Archivo.copiar("#{supermercado}/catalogo.html", "C:/Users/administrator/Documents/GitHub/vecinosyb/docs/#{supermercado}/catalogo.html")
 		
 		Archivo.escribir_txt(output, [supermercado, "catalogo.html"])
 		# open("#{supermercado}/catalogo.html",'w+'){|f|f.write output}
 	end
 end
 
-# generar_paginas
+generar_paginas
 # Archivo.borrar_fotos(:tatito)
 # analizar :tatito , cambios: true
 arroz(:jumbo, :tatito, :tuchanguito, periodo: :semana)
