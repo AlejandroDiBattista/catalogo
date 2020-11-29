@@ -18,7 +18,7 @@ end
 def arroz(*supermercados, periodo: :semana)
 	puts "Analisis de variacion de precio del Arroz al #{Date.today} (perido: #{periodo})".on_red.white
 	supermercados.each do |supermercado|
-		analizar supermercado, filtro: 'arroz /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo', periodo: periodo
+		analizar supermercado, filtro: 'arroz gallo /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo', periodo: periodo
 	end
 end
 
