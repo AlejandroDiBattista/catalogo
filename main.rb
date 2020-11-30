@@ -54,7 +54,11 @@ def generar_paginas
 	end
 end
 
-generar_paginas
+Catalogo.leer(:jumbo).resumir
+Catalogo.leer(:tatito).resumir
+Catalogo.leer(:tuchanguito).resumir
+
+# generar_paginas
 # Archivo.borrar_fotos(:tatito)
 # analizar :tatito , cambios: true
 arroz(:jumbo, :tatito, :tuchanguito, periodo: :semana)
