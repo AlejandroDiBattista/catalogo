@@ -8,7 +8,7 @@ class Web
 	attr_accessor :id_actual 
 
 	def bajar_todo(regenerar=true)
-		destino = [carpeta, 'productos.dsv']
+		destino = [carpeta, :productos]
 		puts "BAJANDO todos los datos de #{carpeta.upcase}".pad(50).yellow.on_green
 		
 		puts " ► Bajando clasificacion...".cyan
@@ -17,16 +17,16 @@ class Web
 		puts " ► Bajando productos... (#{clasificacion.count})".cyan
 		productos = bajar_clasificacion(clasificacion).compact
 		puts "    Se bajaron #{productos.count} productos".green
-		Archivo.escribir(productos, destino)
+		# Archivo.escribir(productos, destino)
 
 		puts " ► Completando ID...".cyan
 		completar_id(destino, regenerar)
 		
 		puts " ► Bajando imagenes...".cyan
 		Archivo.borrar_fotos(carpeta) if regenerar
-		bajar_fotos()
+		bajar_imagenes()
 
-		Archivo.preservar(destino)
+		# Archivo.preservar(destino)
 
 		puts "FIN.".green
 		puts
@@ -51,7 +51,7 @@ class Web
 	end
 
 	def limpiar_fotos
-		ids   = Archivo.leer(carpeta, 'productos.dsv').map(&:id)
+		ids   = Archivo.leer(carpeta, :productos).map(&:id)
 		fotos = Archivo.listar_fotos(carpeta){|id| !ids.include?(id) }
 		fotos.procesar{|origen| Archivo.borrar(origen) }
 	end
@@ -78,19 +78,19 @@ class Web
 		nuevos.compact
 	end
 
-	def bajar_fotos(forzar=false)
+	def bajar_imagenes(forzar=false)
 		productos = []
-		Archivo.listar(carpeta, 'productos.dsv').procesar do |origen|
+		Archivo.listar(carpeta, :productos).last(1).procesar do |origen|
 			Archivo.leer(origen).each  do |producto|
 				productos << { url_imagen: producto.url_imagen, id: producto.id } 
 			end
 		end
 
-		ids = productos.map(&:id)
+		# ids = productos.map(&:id)
 		# fotos = Archivo.listar_fotos(carpeta)
 		# borrar = fotos.select{|n| ! ids.find{|x|x == Archivo.nombre(n)}}
-		puts "IDs"
-		pp ids.first(10)
+		# puts "IDs"
+		# pp ids.first(10)
 		# puts "Fotos"
 		# pp fotos.first(10)
 		# puts "Borrar"
@@ -125,14 +125,14 @@ class Web
 
 	def completar_id(destino, regenerar=false)
 		datos = {}
-		Archivo.listar(carpeta, 'productos.dsv').procesar do |origen|
+		Archivo.listar(carpeta, :productos).procesar do |origen|
 			Archivo.leer(origen) do |producto| 
 				datos[key(producto)] ||= generar_id(producto)
 			end
 		end
 
 		if regenerar then
-			Archivo.listar(carpeta, 'productos*.dsv') do |origen|
+			Archivo.listar(carpeta, :productos) do |origen|
 				Archivo.procesar(origen) do |producto| 
 					producto[:id] = datos[key(producto)]
 				end
@@ -442,5 +442,5 @@ end
 if __FILE__ == $0
 	bajar_todo true
 	limpiar_errores
-	# limpiar_fotos
+	limpiar_fotos
 end

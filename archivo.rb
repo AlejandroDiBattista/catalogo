@@ -49,7 +49,6 @@ module Archivo
 
 	def leer(*camino)
 		origen = ubicar(*camino)
-		# puts "Leer > #{origen}"
 		csv    = CSV.open(origen, :col_sep => "|")
 		campos = csv.shift.map(&:to_key)
 		datos  = csv.map{|valores| Hash(campos, valores) }.normalizar
