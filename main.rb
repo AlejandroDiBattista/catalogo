@@ -64,7 +64,7 @@ end
 # Catalogo.leer(:tuchanguito).resumir
 
 # Archivo.copiar [:tatito, :fotos, '*.jpg'], [:publicar, :tatito, :fotos]
-generar_paginas publicar: false 
+generar_paginas publicar: true 
 # Archivo.borrar_fotos(:tatito)
 # analizar :tatito , cambios: true
 # arroz(:jumbo, :tatito, :tuchanguito, periodo: :semana)
