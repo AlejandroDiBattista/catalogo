@@ -38,6 +38,7 @@ def generar_paginas(publicar: false)
 		puts " > Generando [#{supermercado}]  ".pad(50).on_yellow.blue
 
 		productos = Catalogo.leer(supermercado).generar_datos
+		# pp productos.first
 		# productos = Catalogo.cargar_todo(supermercado).activos.generar_datos
 		Archivo.escribir_json(productos, "#{supermercado}/productos.json")
 	

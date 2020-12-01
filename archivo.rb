@@ -148,16 +148,16 @@ module Archivo
 	def copiar(origenes, destino)
 		origenes = ubicar(origenes)
 		origen   = "#{origen}/*.*" unless origenes["*"]
-		# pp origenes
+		pp "- Origen > #{origenes}"
 		
 		# pp destino
 		destino  = ubicar(destino)
-		# pp destino
+		pp "- Destino > #{destino}"
 
 		listar(origenes) do |origen|
 			begin
-				# puts origen
-				FileUtils.cp origen, destino
+				puts "copiar #{origen} -> #{ubicar(destino, File.basename(origen))}"
+				FileUtils.cp origen, ubicar(destino, File.basename(origen))
 			rescue
 				false
 			end
