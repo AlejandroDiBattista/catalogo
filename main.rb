@@ -30,7 +30,7 @@ end
 # 	open("#{supermercado}.html",'w+'){|f|f.write output}
 # end
 
-def generar_paginas
+def generar_paginas(publicar: false)
 	productos, supermercado = [], "" 
 
 	[:tatito, :tuchanguito, :maxiconsumo, :jumbo].each do |aux|
@@ -48,12 +48,14 @@ def generar_paginas
 		Archivo.copiar('catalogo.css', [supermercado, 'catalogo.css'])
 		Archivo.escribir_txt(output, [supermercado, 'catalogo.html'])
 
-		#Copiar Paginas
-		Archivo.copiar([supermercado, 'catalogo.*'], [:publicar, supermercado])
-		
-		# Copiar Fotos 
-		Archivo.borrar_fotos :publicar, supermercado
-		Archivo.copiar [supermercado, :fotos, '*.jpg'], [:publicar, supermercado, :fotos] 
+		if publicar 
+			#Copiar Pagina
+			Archivo.copiar([supermercado, 'catalogo.*'], [:publicar, supermercado])
+			
+			# Sincronizar Fotos 
+			Archivo.borrar_fotos :publicar, supermercado
+			Archivo.copiar [supermercado, :fotos, '*.jpg'], [:publicar, supermercado, :fotos] 
+		end
 	end
 end
 
@@ -62,7 +64,7 @@ end
 # Catalogo.leer(:tuchanguito).resumir
 
 # Archivo.copiar [:tatito, :fotos, '*.jpg'], [:publicar, :tatito, :fotos]
-generar_paginas
+generar_paginas publicar: false 
 # Archivo.borrar_fotos(:tatito)
 # analizar :tatito , cambios: true
 # arroz(:jumbo, :tatito, :tuchanguito, periodo: :semana)
