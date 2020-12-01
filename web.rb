@@ -8,7 +8,7 @@ class Web
 	attr_accessor :id_actual 
 
 	def bajar_todo(regenerar=true)
-		destino = [carpeta, :productos]
+		destino = [carpeta, 'productos.dsv']
 		puts "BAJANDO todos los datos de #{carpeta.upcase}".pad(50).yellow.on_green
 		
 		puts " ► Bajando clasificacion...".cyan
@@ -125,6 +125,7 @@ class Web
 
 	def completar_id(destino, regenerar=false)
 		datos = {}
+
 		Archivo.listar(carpeta, :productos).procesar do |origen|
 			Archivo.leer(origen) do |producto| 
 				datos[key(producto)] ||= generar_id(producto)
@@ -138,6 +139,7 @@ class Web
 				end
 			end
 		else
+			puts "Completar_id: #{destino}"
 			Archivo.procesar(destino) do |producto| 
 				producto[:id] = datos[key(producto)]
 			end
@@ -440,7 +442,7 @@ end
 
 
 if __FILE__ == $0
-	bajar_todo true
+	bajar_todo false
 	limpiar_errores
-	limpiar_fotos
+	# limpiar_fotos
 end

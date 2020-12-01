@@ -1,3 +1,5181 @@
 [
-
+  {
+    "titulos": [
+      {
+        "nivel": 1,
+        "titulo": "Almacén"
+      },
+      {
+        "nivel": 2,
+        "titulo": "Aceites y Vinagres",
+        "titulo": [
+          "Aceites y Vinagres (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00835",
+        "nombre": "Aceite Cañuelas Girasol 1,5 Lt",
+        "precio": 201.0,
+        "oferta": 201.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00835.jpg"
+      },
+      {
+        "id": "00834",
+        "nombre": "Aceite Cañuelas Oliva Intenso 500 Cc",
+        "precio": 335.0,
+        "oferta": 335.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00834.jpg"
+      },
+      {
+        "id": "00840",
+        "nombre": "Aceite Cocinero Girasol 1,5 Lt",
+        "precio": 199.0,
+        "oferta": 199.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00840.jpg"
+      },
+      {
+        "id": "00831",
+        "nombre": "Aceite Cocinero Girasol 900 Cc",
+        "precio": 124.1,
+        "oferta": 124.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00831.jpg"
+      },
+      {
+        "id": "00837",
+        "nombre": "Aceite Natura Aerosol 120 Cc",
+        "precio": 146.2,
+        "oferta": 146.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00837.jpg"
+      },
+      {
+        "id": "00832",
+        "nombre": "Aceite Natura Girasol 1,5 Lt",
+        "precio": 229.19,
+        "oferta": 229.19,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00832.jpg"
+      },
+      {
+        "id": "00839",
+        "nombre": "Aceite Natura Girasol 900 Cc",
+        "precio": 135.0,
+        "oferta": 135.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00839.jpg"
+      },
+      {
+        "id": "00836",
+        "nombre": "Aceto Marolio Balsámico 250 Ml",
+        "precio": 72.0,
+        "oferta": 72.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00836.jpg"
+      },
+      {
+        "id": "00841",
+        "nombre": "Aceto Molto Balsámico 250 Ml",
+        "precio": 90.87,
+        "oferta": 90.87,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00841.jpg"
+      },
+      {
+        "id": "00838",
+        "nombre": "Aceto Molto Balsámico 500 Ml",
+        "precio": 129.0,
+        "oferta": 129.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00838.jpg"
+      },
+      {
+        "id": "00833",
+        "nombre": "Vinagre Marolio Blanco Pvc 1 Lt",
+        "precio": 69.9,
+        "oferta": 69.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00833.jpg"
+      },
+      {
+        "id": "00842",
+        "nombre": "Vinagre Marolio Vino 500 Cc",
+        "precio": 51.9,
+        "oferta": 51.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00842.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Aceitunas, Pickles y Ajies",
+        "titulo": [
+          "Aceitunas, Pickles y Ajies (3 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00830",
+        "nombre": "Aceituna Nucete Negra N4 Sac 100 Gr",
+        "precio": 48.28,
+        "oferta": 48.28,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00830.jpg"
+      },
+      {
+        "id": "00829",
+        "nombre": "Aceitunas Nucete Negras N°5 180 Gr",
+        "precio": 80.0,
+        "oferta": 80.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00829.jpg"
+      },
+      {
+        "id": "00828",
+        "nombre": "Aceitunas Nucete Verde Descarozadas Frasco 160 Gr.",
+        "precio": 98.6,
+        "oferta": 98.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00828.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Aderezos",
+        "titulo": [
+          "Aderezos (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00808",
+        "nombre": "Kétchup Fanacoa Doypack 250 Gr",
+        "precio": 59.7,
+        "oferta": 59.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00808.jpg"
+      },
+      {
+        "id": "00814",
+        "nombre": "Mayonesa Hellmann's Burgerhouse 940 Gr",
+        "precio": 209.1,
+        "oferta": 209.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00814.jpg"
+      },
+      {
+        "id": "00812",
+        "nombre": "Mayonesa Hellmann's Doypack 237 Gr",
+        "precio": 55.9,
+        "oferta": 55.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00812.jpg"
+      },
+      {
+        "id": "00807",
+        "nombre": "Mayonesa Hellmann's Doypack 950 Gr",
+        "precio": 225.8,
+        "oferta": 225.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00807.jpg"
+      },
+      {
+        "id": "00805",
+        "nombre": "Mayonesa Hellmann's Light Doypack 950 Gr",
+        "precio": 281.5,
+        "oferta": 281.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00805.jpg"
+      },
+      {
+        "id": "00809",
+        "nombre": "Mayonesa Hellmann's Oliva 238 Gr",
+        "precio": 89.6,
+        "oferta": 89.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00809.jpg"
+      },
+      {
+        "id": "00843",
+        "nombre": "Mayonesa Mayoliva 250 Cm3",
+        "precio": 60.19,
+        "oferta": 60.19,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00843.jpg"
+      },
+      {
+        "id": "00811",
+        "nombre": "Mayonesa Natura Doypack 250 Gr",
+        "precio": 61.2,
+        "oferta": 61.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00811.jpg"
+      },
+      {
+        "id": "00806",
+        "nombre": "Mayonesa Natura Doypack 500 Gr",
+        "precio": 125.8,
+        "oferta": 125.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00806.jpg"
+      },
+      {
+        "id": "00810",
+        "nombre": "Mostaza Dos Anclas Con Miel 400 Gr",
+        "precio": 196.2,
+        "oferta": 196.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00810.jpg"
+      },
+      {
+        "id": "00804",
+        "nombre": "Mostaza Savora 250 Grs",
+        "precio": 81.29,
+        "oferta": 81.29,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00804.jpg"
+      },
+      {
+        "id": "00844",
+        "nombre": "Salsa Golf Danica 220 Gr.",
+        "precio": 48.5,
+        "oferta": 48.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00844.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Arroz y Legumbres",
+        "titulo": [
+          "Arroz y Legumbres (11 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00003",
+        "nombre": "Arroz Ala Dorado 500 Gr",
+        "precio": 51.9,
+        "oferta": 51.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00003.jpg"
+      },
+      {
+        "id": "00012",
+        "nombre": "Arroz Ala Integral 500 Gr",
+        "precio": 55.0,
+        "oferta": 55.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00012.jpg"
+      },
+      {
+        "id": "00002",
+        "nombre": "Arroz Ala Largo 500 Gr",
+        "precio": 39.0,
+        "oferta": 39.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00002.jpg"
+      },
+      {
+        "id": "00007",
+        "nombre": "Arroz Gallo Doble 1 Kg",
+        "precio": 259.9,
+        "oferta": 259.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00007.jpg"
+      },
+      {
+        "id": "00006",
+        "nombre": "Arroz Gallo Oro 1 Kg",
+        "precio": 145.5,
+        "oferta": 145.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00006.jpg"
+      },
+      {
+        "id": "00001",
+        "nombre": "Arroz Gallo Oro 500 Gr",
+        "precio": 66.2,
+        "oferta": 66.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00001.jpg"
+      },
+      {
+        "id": "00005",
+        "nombre": "Arroz Lucchetti Largo Fino 500 Gr",
+        "precio": 57.19,
+        "oferta": 57.19,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00005.jpg"
+      },
+      {
+        "id": "00011",
+        "nombre": "Arroz Preparado Gallo Verdeo 240 Gr.",
+        "precio": 101.3,
+        "oferta": 101.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00011.jpg"
+      },
+      {
+        "id": "00008",
+        "nombre": "Garbanzo Marolio 500 Grs",
+        "precio": 52.6,
+        "oferta": 52.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00008.jpg"
+      },
+      {
+        "id": "00004",
+        "nombre": "Lenteja Marolio 400 Grs",
+        "precio": 94.8,
+        "oferta": 94.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00004.jpg"
+      },
+      {
+        "id": "00009",
+        "nombre": "Maíz Marolio Pisingallo 400 Grs",
+        "precio": 50.6,
+        "oferta": 50.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00009.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Azúcar y Edulcorantes",
+        "titulo": [
+          "Azúcar y Edulcorantes (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00023",
+        "nombre": "Azucar Hileret Light 500 Gr",
+        "precio": 123.0,
+        "oferta": 123.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00023.jpg"
+      },
+      {
+        "id": "00013",
+        "nombre": "Azúcar Chango 1 Kg",
+        "precio": 61.1,
+        "oferta": 61.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00013.jpg"
+      },
+      {
+        "id": "00021",
+        "nombre": "Azúcar Chango Organica 1 Kg",
+        "precio": 157.2,
+        "oferta": 157.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00021.jpg"
+      },
+      {
+        "id": "00024",
+        "nombre": "Azúcar Independencia X Kg.",
+        "precio": 49.0,
+        "oferta": 49.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00024.jpg"
+      },
+      {
+        "id": "00017",
+        "nombre": "Azúcar Ledesma 1 Kg",
+        "precio": 62.6,
+        "oferta": 62.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00017.jpg"
+      },
+      {
+        "id": "00015",
+        "nombre": "Azúcar Rio Grande 1 Kg",
+        "precio": 66.18,
+        "oferta": 66.18,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00015.jpg"
+      },
+      {
+        "id": "00020",
+        "nombre": "Edulcorante Hileret 1 A 10 50 Sobres",
+        "precio": 72.3,
+        "oferta": 72.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00020.jpg"
+      },
+      {
+        "id": "00019",
+        "nombre": "Edulcorante Hileret 1a10 Liq. 500 Cc",
+        "precio": 147.8,
+        "oferta": 147.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00019.jpg"
+      },
+      {
+        "id": "00014",
+        "nombre": "Edulcorante Hileret Stevia 100 Sobres",
+        "precio": 226.4,
+        "oferta": 226.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00014.jpg"
+      },
+      {
+        "id": "00018",
+        "nombre": "Edulcorante Hileret Stevia 200 Cc",
+        "precio": 193.5,
+        "oferta": 193.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00018.jpg"
+      },
+      {
+        "id": "00016",
+        "nombre": "Edulcorante Si Diet 500 Ml",
+        "precio": 132.1,
+        "oferta": 132.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00016.jpg"
+      },
+      {
+        "id": "00022",
+        "nombre": "Edulcorante Sucaryl Polvo 100 Sobres",
+        "precio": 99.0,
+        "oferta": 99.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00022.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Caldos, Sopas, Pures y Saborizantes",
+        "titulo": [
+          "Caldos, Sopas, Pures y Saborizantes (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00029",
+        "nombre": "Caldo Knorr Verdura 12 Un",
+        "precio": 90.7,
+        "oferta": 90.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00029.jpg"
+      },
+      {
+        "id": "00025",
+        "nombre": "Caldo Maggi Verdura 12 Un",
+        "precio": 64.9,
+        "oferta": 64.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00025.jpg"
+      },
+      {
+        "id": "00028",
+        "nombre": "Caldo Wilde Verdura 12 Un",
+        "precio": 54.9,
+        "oferta": 54.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00028.jpg"
+      },
+      {
+        "id": "00026",
+        "nombre": "Pure Molto Tetrapack Recart. 340 Gr",
+        "precio": 46.2,
+        "oferta": 46.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00026.jpg"
+      },
+      {
+        "id": "00031",
+        "nombre": "Saborizador Alicante Albahaca Y Ajo 12 Unidades X 7,5 Gr",
+        "precio": 168.9,
+        "oferta": 168.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00031.jpg"
+      },
+      {
+        "id": "00034",
+        "nombre": "Saborizador Alicante Carne Sobres 4 Un",
+        "precio": 57.2,
+        "oferta": 57.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00034.jpg"
+      },
+      {
+        "id": "00033",
+        "nombre": "Saborizador Alicante Gallina Sobres 4 Un",
+        "precio": 46.5,
+        "oferta": 46.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00033.jpg"
+      },
+      {
+        "id": "00027",
+        "nombre": "Saborizador Alicante Verdura Sobres 4 Un",
+        "precio": 57.2,
+        "oferta": 57.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00027.jpg"
+      },
+      {
+        "id": "00032",
+        "nombre": "Saborizador Knorr Finas Hierbas 7,5 Gr",
+        "precio": 12.9,
+        "oferta": 12.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00032.jpg"
+      },
+      {
+        "id": "00035",
+        "nombre": "Sopa Knorr Crema Queso 76 Gr",
+        "precio": 67.5,
+        "oferta": 67.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00035.jpg"
+      },
+      {
+        "id": "00030",
+        "nombre": "Sopa Knorr Quick Arvejas 75 Gr",
+        "precio": 117.9,
+        "oferta": 117.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00030.jpg"
+      },
+      {
+        "id": "00036",
+        "nombre": "Sopa Knorr Quick Light Zapallo 55 Gr",
+        "precio": 125.68,
+        "oferta": 125.68,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00036.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Conservas",
+        "titulo": [
+          "Conservas (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00062",
+        "nombre": "Arvejas Molto Recart. 340 Grs",
+        "precio": 33.7,
+        "oferta": 33.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00062.jpg"
+      },
+      {
+        "id": "00789",
+        "nombre": "Atún Gomes Da Costa Aceite Desmenuzado 170 Gr",
+        "precio": 119.44,
+        "oferta": 119.44,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00789.jpg"
+      },
+      {
+        "id": "00061",
+        "nombre": "Atún Gomes Da Costa Natural Trozo 170 Gr",
+        "precio": 164.3,
+        "oferta": 164.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00061.jpg"
+      },
+      {
+        "id": "00064",
+        "nombre": "Atún La Campagnola Aceite 170 Gr",
+        "precio": 199.5,
+        "oferta": 199.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00064.jpg"
+      },
+      {
+        "id": "00066",
+        "nombre": "Atún La Campagnola Natural 170 Gr",
+        "precio": 209.0,
+        "oferta": 209.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00066.jpg"
+      },
+      {
+        "id": "00068",
+        "nombre": "Atún La Campagnola Natural 300 Gr",
+        "precio": 361.7,
+        "oferta": 361.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00068.jpg"
+      },
+      {
+        "id": "00063",
+        "nombre": "Choclo Bahía Grano Amarillo 320 Gr",
+        "precio": 77.9,
+        "oferta": 77.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00063.jpg"
+      },
+      {
+        "id": "00067",
+        "nombre": "Choclo La Campagnola Grano Amarillo 300- 240 Gr",
+        "precio": 104.3,
+        "oferta": 104.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00067.jpg"
+      },
+      {
+        "id": "00065",
+        "nombre": "Granos De Choclo Marolio Amarillos Enteros 300 Gr",
+        "precio": 54.5,
+        "oferta": 54.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00065.jpg"
+      },
+      {
+        "id": "00790",
+        "nombre": "Lomito De Atún Gomes Da Costa Aceite 170 Gr",
+        "precio": 177.8,
+        "oferta": 177.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00790.jpg"
+      },
+      {
+        "id": "00791",
+        "nombre": "Palmito Frutas De Oro Enteros 400 Gr",
+        "precio": 179.2,
+        "oferta": 179.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00791.jpg"
+      },
+      {
+        "id": "00788",
+        "nombre": "Palmito Marolio Entero 400 Gr",
+        "precio": 149.37,
+        "oferta": 149.37,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00788.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Dulces y Mermeladas",
+        "titulo": [
+          "Dulces y Mermeladas (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00797",
+        "nombre": "Dulce De Leche Ilolay Familiar 400 Gr",
+        "precio": 99.0,
+        "oferta": 99.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00797.jpg"
+      },
+      {
+        "id": "00803",
+        "nombre": "Dulce De Leche Ilolay Repostero 400 Gr",
+        "precio": 128.8,
+        "oferta": 128.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00803.jpg"
+      },
+      {
+        "id": "00796",
+        "nombre": "Dulce De Leche La Serenísima Estilo Colonial 400 Gr",
+        "precio": 119.0,
+        "oferta": 119.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00796.jpg"
+      },
+      {
+        "id": "00800",
+        "nombre": "Dulce De Leche Milkaut Clásico 250 Gr",
+        "precio": 89.0,
+        "oferta": 89.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00800.jpg"
+      },
+      {
+        "id": "00792",
+        "nombre": "Dulce De Leche Milkaut Clásico 400 Gr",
+        "precio": 106.0,
+        "oferta": 106.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00792.jpg"
+      },
+      {
+        "id": "00795",
+        "nombre": "Mermelada Arcor Frutilla 454 Gr",
+        "precio": 152.3,
+        "oferta": 152.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00795.jpg"
+      },
+      {
+        "id": "00802",
+        "nombre": "Mermelada Cormillot Frutilla Light 390 Gr",
+        "precio": 126.8,
+        "oferta": 126.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00802.jpg"
+      },
+      {
+        "id": "00794",
+        "nombre": "Mermelada La Campagnola Bc Durazno 390 Gr",
+        "precio": 138.27,
+        "oferta": 138.27,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00794.jpg"
+      },
+      {
+        "id": "00799",
+        "nombre": "Mermelada Noel Durazno 454 Gr",
+        "precio": 80.5,
+        "oferta": 80.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00799.jpg"
+      },
+      {
+        "id": "00793",
+        "nombre": "Mermelada Noel Durazno Light 390 Gr",
+        "precio": 123.9,
+        "oferta": 123.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00793.jpg"
+      },
+      {
+        "id": "00798",
+        "nombre": "Mermelada Noel Frutilla Light 390 Gr",
+        "precio": 123.9,
+        "oferta": 123.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00798.jpg"
+      },
+      {
+        "id": "00801",
+        "nombre": "Miel Aleluya Untable 300 Gr",
+        "precio": 169.8,
+        "oferta": 169.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00801.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Galletas y Cereales",
+        "titulo": [
+          "Galletas y Cereales (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00826",
+        "nombre": "Bizcochos 9 De Oro Agridulces 200 Gr",
+        "precio": 46.3,
+        "oferta": 46.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00826.jpg"
+      },
+      {
+        "id": "00822",
+        "nombre": "Galletitas Chocolinas 170 Gr",
+        "precio": 69.5,
+        "oferta": 69.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00822.jpg"
+      },
+      {
+        "id": "00825",
+        "nombre": "Galletitas Chocolinas 250 Gr",
+        "precio": 94.3,
+        "oferta": 94.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00825.jpg"
+      },
+      {
+        "id": "00824",
+        "nombre": "Galletitas Criollitas 3x100 Gr",
+        "precio": 78.4,
+        "oferta": 78.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00824.jpg"
+      },
+      {
+        "id": "00818",
+        "nombre": "Galletitas Pepitos 118 Gr",
+        "precio": 62.4,
+        "oferta": 62.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00818.jpg"
+      },
+      {
+        "id": "00823",
+        "nombre": "Galletitas Polvorita Chispas 80 Gr",
+        "precio": 22.46,
+        "oferta": 22.46,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00823.jpg"
+      },
+      {
+        "id": "00821",
+        "nombre": "Galletitas Rumba 112 Gr",
+        "precio": 51.4,
+        "oferta": 51.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00821.jpg"
+      },
+      {
+        "id": "00827",
+        "nombre": "Galletitas Terrabusi Anill.clas 160 Gr",
+        "precio": 40.39,
+        "oferta": 40.39,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00827.jpg"
+      },
+      {
+        "id": "00817",
+        "nombre": "Galletitas Terrabusi Variedad 400 Gr",
+        "precio": 92.7,
+        "oferta": 92.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00817.jpg"
+      },
+      {
+        "id": "00819",
+        "nombre": "Galletitas Traviata 5x100 Gr",
+        "precio": 148.2,
+        "oferta": 148.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00819.jpg"
+      },
+      {
+        "id": "00816",
+        "nombre": "Oblea Nugaton Leche 27 Gr",
+        "precio": 48.5,
+        "oferta": 48.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00816.jpg"
+      },
+      {
+        "id": "00820",
+        "nombre": "Tostada Riera Arroz Sin T 150 Gr",
+        "precio": 87.6,
+        "oferta": 87.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00820.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Harinas, Grasas y Premezclas",
+        "titulo": [
+          "Harinas, Grasas y Premezclas (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00044",
+        "nombre": "Almidón Maizena 215 Gr",
+        "precio": 66.0,
+        "oferta": 66.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00044.jpg"
+      },
+      {
+        "id": "00010",
+        "nombre": "Grasa Vacuna Recreo 500 Gr",
+        "precio": 103.19,
+        "oferta": 103.19,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00010.jpg"
+      },
+      {
+        "id": "00038",
+        "nombre": "Harina Blancaflor Leudante 1 Kg",
+        "precio": 74.5,
+        "oferta": 74.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00038.jpg"
+      },
+      {
+        "id": "00043",
+        "nombre": "Harina Cañuelas 000 1 Kg",
+        "precio": 49.3,
+        "oferta": 49.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00043.jpg"
+      },
+      {
+        "id": "00037",
+        "nombre": "Harina Favorita 000 1 Kg",
+        "precio": 57.31,
+        "oferta": 57.31,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00037.jpg"
+      },
+      {
+        "id": "00040",
+        "nombre": "Harina Morixe Leudante 1 Kg",
+        "precio": 59.7,
+        "oferta": 59.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00040.jpg"
+      },
+      {
+        "id": "00041",
+        "nombre": "Harina Pureza 0000 1 Kg",
+        "precio": 69.0,
+        "oferta": 69.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00041.jpg"
+      },
+      {
+        "id": "00047",
+        "nombre": "Harina Pureza Premezcla Para Pizza Casera 1 Kg",
+        "precio": 86.65,
+        "oferta": 86.65,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00047.jpg"
+      },
+      {
+        "id": "00039",
+        "nombre": "Levadura Calsa 50 Gr",
+        "precio": 22.3,
+        "oferta": 22.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00039.jpg"
+      },
+      {
+        "id": "00045",
+        "nombre": "Polenta Prestopronta 500 Gr",
+        "precio": 78.5,
+        "oferta": 78.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00045.jpg"
+      },
+      {
+        "id": "00042",
+        "nombre": "Polenta Prestopronta 750 Gr",
+        "precio": 97.4,
+        "oferta": 97.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00042.jpg"
+      },
+      {
+        "id": "00048",
+        "nombre": "Polvo Royal Para Hornear 50 Gr",
+        "precio": 51.79,
+        "oferta": 51.79,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00048.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Infusiones",
+        "titulo": [
+          "Infusiones (7 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00848",
+        "nombre": "Café Dolca Suave 170 Gr",
+        "precio": 335.0,
+        "oferta": 335.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00848.jpg"
+      },
+      {
+        "id": "00845",
+        "nombre": "Mate Cocido Cruz Malta 25 Un",
+        "precio": 55.8,
+        "oferta": 55.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00845.jpg"
+      },
+      {
+        "id": "00847",
+        "nombre": "Té La Virginia Verde 20 Un",
+        "precio": 80.5,
+        "oferta": 80.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00847.jpg"
+      },
+      {
+        "id": "00849",
+        "nombre": "Té Taragui Mezc. Diges 10 Un",
+        "precio": 45.8,
+        "oferta": 45.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00849.jpg"
+      },
+      {
+        "id": "00846",
+        "nombre": "Yerba Nobleza Gaucha Azul 500 Gr",
+        "precio": 142.9,
+        "oferta": 142.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00846.jpg"
+      },
+      {
+        "id": "00851",
+        "nombre": "Yerba Taraguí 1 Kg",
+        "precio": 352.0,
+        "oferta": 352.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00851.jpg"
+      },
+      {
+        "id": "00891",
+        "nombre": "Yerba Verdeflor Compuesta 500 Gr",
+        "precio": 144.0,
+        "oferta": 144.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00891.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Leches en Polvo y Larga Vida",
+        "titulo": [
+          "Leches en Polvo y Larga Vida (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00860",
+        "nombre": "Leche En Polvo L.serenis. Crecer.fort 800 Gr",
+        "precio": 656.6,
+        "oferta": 656.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00860.jpg"
+      },
+      {
+        "id": "00856",
+        "nombre": "Leche En Polvo Nido F.glow Liv. 800 Gr",
+        "precio": 490.7,
+        "oferta": 490.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00856.jpg"
+      },
+      {
+        "id": "00859",
+        "nombre": "Leche La Serenisima Larga Vida Clásica Botella 1 Lt",
+        "precio": 75.0,
+        "oferta": 75.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00859.jpg"
+      },
+      {
+        "id": "00852",
+        "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana Pet 1 L",
+        "precio": 69.9,
+        "oferta": 69.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00852.jpg"
+      },
+      {
+        "id": "00857",
+        "nombre": "Leche La Serenísima Uat Parc. Descremada Zero Lactosa Pet 1 L",
+        "precio": 79.9,
+        "oferta": 79.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00857.jpg"
+      },
+      {
+        "id": "00853",
+        "nombre": "Leche Milkaut Larga Vida Descremada X Litro",
+        "precio": 76.59,
+        "oferta": 76.59,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00853.jpg"
+      },
+      {
+        "id": "00854",
+        "nombre": "Leche Milkaut Larga Vida Entera X Litro",
+        "precio": 75.0,
+        "oferta": 75.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00854.jpg"
+      },
+      {
+        "id": "00861",
+        "nombre": "Leche Nesquik Liviana. 200 Ml",
+        "precio": 48.7,
+        "oferta": 48.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00861.jpg"
+      },
+      {
+        "id": "00855",
+        "nombre": "Leche Nestlé Condensada 395 Gr",
+        "precio": 146.8,
+        "oferta": 146.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00855.jpg"
+      },
+      {
+        "id": "00858",
+        "nombre": "Leche Nestlé Condensada Descremada 395 Gr",
+        "precio": 146.8,
+        "oferta": 146.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00858.jpg"
+      },
+      {
+        "id": "00862",
+        "nombre": "Leche Nido 3 200 Ml",
+        "precio": 37.6,
+        "oferta": 37.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00862.jpg"
+      },
+      {
+        "id": "00863",
+        "nombre": "Leche Nido Deslactosada 800 Gr",
+        "precio": 663.0,
+        "oferta": 663.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00863.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Panificados y Rebozadores",
+        "titulo": [
+          "Panificados y Rebozadores (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00876",
+        "nombre": "Pan Bimbo Artesano 500 Gr",
+        "precio": 217.75,
+        "oferta": 217.75,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00876.jpg"
+      },
+      {
+        "id": "00877",
+        "nombre": "Pan Bimbo Blanco 550 Gr",
+        "precio": 202.9,
+        "oferta": 202.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00877.jpg"
+      },
+      {
+        "id": "00880",
+        "nombre": "Pan Bimbo Hamburgesa Artesano 240 Gr",
+        "precio": 115.7,
+        "oferta": 115.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00880.jpg"
+      },
+      {
+        "id": "00884",
+        "nombre": "Pan Fargo Hamburguesa 210 Gr",
+        "precio": 93.6,
+        "oferta": 93.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00884.jpg"
+      },
+      {
+        "id": "00879",
+        "nombre": "Pan Fargo Pancho 210 Gr",
+        "precio": 93.6,
+        "oferta": 93.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00879.jpg"
+      },
+      {
+        "id": "00885",
+        "nombre": "Pan Lactal Hamburguesa 210 Gr",
+        "precio": 72.4,
+        "oferta": 72.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00885.jpg"
+      },
+      {
+        "id": "00878",
+        "nombre": "Pan Lactal Mesa 335 Gr",
+        "precio": 87.1,
+        "oferta": 87.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00878.jpg"
+      },
+      {
+        "id": "00883",
+        "nombre": "Pan Lactal Mesa 560 Gr",
+        "precio": 164.0,
+        "oferta": 164.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00883.jpg"
+      },
+      {
+        "id": "00881",
+        "nombre": "Pan Lactal Salvado 350 Gr",
+        "precio": 98.7,
+        "oferta": 98.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00881.jpg"
+      },
+      {
+        "id": "00882",
+        "nombre": "Rebozador Mama Cocina Horno 500 Gr",
+        "precio": 64.9,
+        "oferta": 64.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00882.jpg"
+      },
+      {
+        "id": "00887",
+        "nombre": "Rebozador Mama Cocina Plus Freir 500 Gr",
+        "precio": 64.9,
+        "oferta": 64.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00887.jpg"
+      },
+      {
+        "id": "00886",
+        "nombre": "Rebozador Preferido 1 Kg",
+        "precio": 151.3,
+        "oferta": 151.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00886.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Pastas Secas",
+        "titulo": [
+          "Pastas Secas (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00873",
+        "nombre": "Capelletis Giacomo Carne 500 Gr",
+        "precio": 185.9,
+        "oferta": 185.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00873.jpg"
+      },
+      {
+        "id": "00866",
+        "nombre": "Capelletis Giacomo Jamón Queso 500 Gr",
+        "precio": 201.38,
+        "oferta": 201.38,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00866.jpg"
+      },
+      {
+        "id": "00871",
+        "nombre": "Capelletis Giacomo Verdura 500 Gr",
+        "precio": 185.9,
+        "oferta": 185.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00871.jpg"
+      },
+      {
+        "id": "00864",
+        "nombre": "Fideos Knorr Tallarín 500 Gr",
+        "precio": 67.9,
+        "oferta": 67.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00864.jpg"
+      },
+      {
+        "id": "00872",
+        "nombre": "Fideos Lucchetti Fetuccini 500 Gr",
+        "precio": 92.2,
+        "oferta": 92.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00872.jpg"
+      },
+      {
+        "id": "00865",
+        "nombre": "Fideos Lucchetti Mostachol 500 Gr",
+        "precio": 55.9,
+        "oferta": 55.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00865.jpg"
+      },
+      {
+        "id": "00875",
+        "nombre": "Fideos Lucchetti Moños 500 Gr",
+        "precio": 81.6,
+        "oferta": 81.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00875.jpg"
+      },
+      {
+        "id": "00869",
+        "nombre": "Fideos Lucchetti Spaghetti 500 Gr",
+        "precio": 55.9,
+        "oferta": 55.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00869.jpg"
+      },
+      {
+        "id": "00874",
+        "nombre": "Fideos Lucchetti Tallarines 500 Gr",
+        "precio": 55.9,
+        "oferta": 55.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00874.jpg"
+      },
+      {
+        "id": "00867",
+        "nombre": "Fideos Lucchetti Tirabuzón 500 Gr",
+        "precio": 55.9,
+        "oferta": 55.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00867.jpg"
+      },
+      {
+        "id": "00870",
+        "nombre": "Fideos Matarazzo Spaghetti 500 Gr",
+        "precio": 75.4,
+        "oferta": 75.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00870.jpg"
+      },
+      {
+        "id": "00868",
+        "nombre": "Fideos Matarazzo Tirabuzón 500 Gr",
+        "precio": 75.4,
+        "oferta": 75.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00868.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Postres y Repostería",
+        "titulo": [
+          "Postres y Repostería (11 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00890",
+        "nombre": "Bizcochuelo Exquisita Vainilla 540 Grs",
+        "precio": 130.1,
+        "oferta": 130.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00890.jpg"
+      },
+      {
+        "id": "00895",
+        "nombre": "Dulce De Leche Milkaut Repostero 400 Gr",
+        "precio": 128.8,
+        "oferta": 128.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00895.jpg"
+      },
+      {
+        "id": "00896",
+        "nombre": "Extracto De Vainilla Tahití 250 Cc",
+        "precio": 84.9,
+        "oferta": 84.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00896.jpg"
+      },
+      {
+        "id": "00894",
+        "nombre": "Flan Exquisita Dulce De Leche 60 Gr",
+        "precio": 45.6,
+        "oferta": 45.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00894.jpg"
+      },
+      {
+        "id": "00899",
+        "nombre": "Flan Exquisita Vainilla 60 Gr",
+        "precio": 45.6,
+        "oferta": 45.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00899.jpg"
+      },
+      {
+        "id": "00892",
+        "nombre": "Flan Royal Vainilla 60 Gr",
+        "precio": 36.1,
+        "oferta": 36.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00892.jpg"
+      },
+      {
+        "id": "00893",
+        "nombre": "Gelatina Exquisita Durazno 40 Gr",
+        "precio": 55.0,
+        "oferta": 55.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00893.jpg"
+      },
+      {
+        "id": "00897",
+        "nombre": "Gelatina Exquisita Frutilla 40 Gr",
+        "precio": 55.0,
+        "oferta": 55.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00897.jpg"
+      },
+      {
+        "id": "00888",
+        "nombre": "Gelatina Exquisita Frutilla Light 25 Gr",
+        "precio": 58.1,
+        "oferta": 58.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00888.jpg"
+      },
+      {
+        "id": "00898",
+        "nombre": "Gelatina Exquisita Naranja 40 Gr",
+        "precio": 55.0,
+        "oferta": 55.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00898.jpg"
+      },
+      {
+        "id": "00889",
+        "nombre": "Leche Nestlé Condensada 395 Gr",
+        "precio": 146.8,
+        "oferta": 146.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00889.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Sal y Condimentos",
+        "titulo": [
+          "Sal y Condimentos (10 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00930",
+        "nombre": "Ajo Alicante Nat. Int. 50 Gr",
+        "precio": 61.0,
+        "oferta": 61.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00930.jpg"
+      },
+      {
+        "id": "00931",
+        "nombre": "Bicarbonato Alicante Nat. Int. 50 Grs",
+        "precio": 34.5,
+        "oferta": 34.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00931.jpg"
+      },
+      {
+        "id": "00923",
+        "nombre": "Bicarbonato Marolio 50 Gr",
+        "precio": 29.9,
+        "oferta": 29.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00923.jpg"
+      },
+      {
+        "id": "00924",
+        "nombre": "Condimento Alicante Tuco-guiso 25 Gr",
+        "precio": 48.0,
+        "oferta": 48.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00924.jpg"
+      },
+      {
+        "id": "00933",
+        "nombre": "Pimienta Dos Anclas Negra Molid 25 Gr",
+        "precio": 56.6,
+        "oferta": 56.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00933.jpg"
+      },
+      {
+        "id": "00925",
+        "nombre": "Provenzal Alicante 25 Gr",
+        "precio": 51.9,
+        "oferta": 51.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00925.jpg"
+      },
+      {
+        "id": "00926",
+        "nombre": "Provenzal Alicante 50 Gr",
+        "precio": 96.1,
+        "oferta": 96.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00926.jpg"
+      },
+      {
+        "id": "00932",
+        "nombre": "Sal Celusal Entrefina Parrillera Estuche 1 Kg",
+        "precio": 64.9,
+        "oferta": 64.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00932.jpg"
+      },
+      {
+        "id": "00934",
+        "nombre": "Sal Celusal Entrefina Parrillera Paquete 1 Kg",
+        "precio": 50.6,
+        "oferta": 50.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00934.jpg"
+      },
+      {
+        "id": "00929",
+        "nombre": "Sal Dos Anclas Parrillera 1 Kg",
+        "precio": 66.2,
+        "oferta": 66.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00929.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Salsas y Puré de Tomates",
+        "titulo": [
+          "Salsas y Puré de Tomates (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00946",
+        "nombre": "Puré Conciencia 520 Gr",
+        "precio": 48.5,
+        "oferta": 48.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00946.jpg"
+      },
+      {
+        "id": "00943",
+        "nombre": "Puré De La Huerta 210 Gr",
+        "precio": 31.5,
+        "oferta": 31.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00943.jpg"
+      },
+      {
+        "id": "00936",
+        "nombre": "Puré De La Huerta 530 Gr",
+        "precio": 51.2,
+        "oferta": 51.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00936.jpg"
+      },
+      {
+        "id": "00935",
+        "nombre": "Puré De Tomate Noel 520 Gr",
+        "precio": 39.0,
+        "oferta": 39.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00935.jpg"
+      },
+      {
+        "id": "00939",
+        "nombre": "Puré Salsati 520 Gr",
+        "precio": 55.0,
+        "oferta": 55.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00939.jpg"
+      },
+      {
+        "id": "00940",
+        "nombre": "Salsa Knorr Pomarola Q.p 340 Gr",
+        "precio": 66.0,
+        "oferta": 66.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00940.jpg"
+      },
+      {
+        "id": "00937",
+        "nombre": "Salsa Molto Filet.t.rec 340 Gr",
+        "precio": 51.9,
+        "oferta": 51.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00937.jpg"
+      },
+      {
+        "id": "00942",
+        "nombre": "Salsa Molto Pizza.t.rec 340 Gr",
+        "precio": 51.9,
+        "oferta": 51.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00942.jpg"
+      },
+      {
+        "id": "00945",
+        "nombre": "Salsa Molto Port.t.rec 340 Gr",
+        "precio": 51.9,
+        "oferta": 51.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00945.jpg"
+      },
+      {
+        "id": "00941",
+        "nombre": "Salsa Noel Pizza 340 Gr",
+        "precio": 48.42,
+        "oferta": 48.42,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00941.jpg"
+      },
+      {
+        "id": "00944",
+        "nombre": "Salsa Tahiti Soja S.sal 265 Cc",
+        "precio": 94.3,
+        "oferta": 94.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00944.jpg"
+      },
+      {
+        "id": "00938",
+        "nombre": "Tomate Noel 400 Gr",
+        "precio": 63.36,
+        "oferta": 63.36,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00938.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Snacks",
+        "titulo": [
+          "Snacks (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00912",
+        "nombre": "Cheetos Pepsico Queso 150 Gr",
+        "precio": 199.0,
+        "oferta": 199.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00912.jpg"
+      },
+      {
+        "id": "00927",
+        "nombre": "Mani Pehuamar Repelado 500 Gr",
+        "precio": 235.8,
+        "oferta": 235.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00927.jpg"
+      },
+      {
+        "id": "00916",
+        "nombre": "Maní Croppers Crema Y Cebolla 100 Gr",
+        "precio": 92.7,
+        "oferta": 92.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00916.jpg"
+      },
+      {
+        "id": "00914",
+        "nombre": "Papas Fritas Lays 400 Gr",
+        "precio": 230.74,
+        "oferta": 230.74,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00914.jpg"
+      },
+      {
+        "id": "00917",
+        "nombre": "Papas Fritas Lays 46 Gr",
+        "precio": 56.3,
+        "oferta": 56.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00917.jpg"
+      },
+      {
+        "id": "00913",
+        "nombre": "Papas Fritas Lays Clásicas 150 Gr",
+        "precio": 141.5,
+        "oferta": 141.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00913.jpg"
+      },
+      {
+        "id": "00911",
+        "nombre": "Papas Fritas Lays Clásicas 95 Gr",
+        "precio": 99.0,
+        "oferta": 99.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00911.jpg"
+      },
+      {
+        "id": "00921",
+        "nombre": "Papas Fritas Pringles Original 124 - 137 Gr",
+        "precio": 259.9,
+        "oferta": 259.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00921.jpg"
+      },
+      {
+        "id": "00915",
+        "nombre": "Papas Fritas Pringles Queso 40 Gr",
+        "precio": 96.9,
+        "oferta": 96.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00915.jpg"
+      },
+      {
+        "id": "00928",
+        "nombre": "Snack Doritos Queso 250 Gr",
+        "precio": 204.4,
+        "oferta": 204.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00928.jpg"
+      },
+      {
+        "id": "00920",
+        "nombre": "Tostada Twistos Queso 180 Gr",
+        "precio": 137.0,
+        "oferta": 137.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00920.jpg"
+      },
+      {
+        "id": "00918",
+        "nombre": "Tostadas Twistos Jamón Ibérico 112 Gr",
+        "precio": 134.0,
+        "oferta": 134.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00918.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 1,
+        "titulo": "Bebidas"
+      },
+      {
+        "nivel": 2,
+        "titulo": "A Base de Hierbas",
+        "titulo": [
+          "A Base de Hierbas (10 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00959",
+        "nombre": "Amargo Terma Citrus 1350 Cc",
+        "precio": 80.5,
+        "oferta": 80.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00959.jpg"
+      },
+      {
+        "id": "00967",
+        "nombre": "Amargo Terma Cuyano 1,35 Cc",
+        "precio": 80.5,
+        "oferta": 80.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00967.jpg"
+      },
+      {
+        "id": "00964",
+        "nombre": "Amargo Terma Cuyano Cero 1350 Cc",
+        "precio": 80.5,
+        "oferta": 80.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00964.jpg"
+      },
+      {
+        "id": "00966",
+        "nombre": "Amargo Terma Limón 1350 Cc",
+        "precio": 77.9,
+        "oferta": 77.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00966.jpg"
+      },
+      {
+        "id": "00963",
+        "nombre": "Amargo Terma Limón Cero 1350 Cc",
+        "precio": 80.46,
+        "oferta": 80.46,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00963.jpg"
+      },
+      {
+        "id": "00962",
+        "nombre": "Amargo Terma Patagónico 1350 Cc",
+        "precio": 80.5,
+        "oferta": 80.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00962.jpg"
+      },
+      {
+        "id": "00965",
+        "nombre": "Amargo Terma Pomelo 1350 Cc",
+        "precio": 80.5,
+        "oferta": 80.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00965.jpg"
+      },
+      {
+        "id": "00960",
+        "nombre": "Amargo Terma Pomelo Rosado 1350 Cc",
+        "precio": 80.5,
+        "oferta": 80.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00960.jpg"
+      },
+      {
+        "id": "00968",
+        "nombre": "Amargo Terma Serrano 1,35 Cc",
+        "precio": 80.5,
+        "oferta": 80.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00968.jpg"
+      },
+      {
+        "id": "00961",
+        "nombre": "Amargo Terma Serrano Cero 1350 Cc",
+        "precio": 80.5,
+        "oferta": 80.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00961.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Aguas Saborizadas",
+        "titulo": [
+          "Aguas Saborizadas (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00953",
+        "nombre": "Agua Baggio Fresh Naranja 1,5 Lt",
+        "precio": 59.99,
+        "oferta": 59.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00953.jpg"
+      },
+      {
+        "id": "00958",
+        "nombre": "Agua Baggio Fresh Pomelo 1,5 Lt",
+        "precio": 59.99,
+        "oferta": 59.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00958.jpg"
+      },
+      {
+        "id": "00950",
+        "nombre": "Agua Levite Manzana 1.5 Lts",
+        "precio": 99.0,
+        "oferta": 99.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00950.jpg"
+      },
+      {
+        "id": "00947",
+        "nombre": "Agua Levite Manzana 2,25 Lt",
+        "precio": 103.9,
+        "oferta": 103.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00947.jpg"
+      },
+      {
+        "id": "00957",
+        "nombre": "Agua Levite Naranja 1 Lt",
+        "precio": 47.2,
+        "oferta": 47.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00957.jpg"
+      },
+      {
+        "id": "00952",
+        "nombre": "Agua Levite Naranja 1.5 Lts",
+        "precio": 99.0,
+        "oferta": 99.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00952.jpg"
+      },
+      {
+        "id": "00948",
+        "nombre": "Agua Levite Naranja 2,25 Lt",
+        "precio": 103.9,
+        "oferta": 103.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00948.jpg"
+      },
+      {
+        "id": "00951",
+        "nombre": "Agua Levite Pera 1.5 Lts",
+        "precio": 99.0,
+        "oferta": 99.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00951.jpg"
+      },
+      {
+        "id": "00949",
+        "nombre": "Agua Levite Pera 2.25 Lts",
+        "precio": 127.19,
+        "oferta": 127.19,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00949.jpg"
+      },
+      {
+        "id": "00955",
+        "nombre": "Agua Saborizada Limonada Aquarius 2.25 Lt",
+        "precio": 123.6,
+        "oferta": 123.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00955.jpg"
+      },
+      {
+        "id": "00954",
+        "nombre": "Aquarius Saborizada Manzana 2.25 L",
+        "precio": 123.6,
+        "oferta": 123.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00954.jpg"
+      },
+      {
+        "id": "00956",
+        "nombre": "Aquarius Saborizada Pera 2.25 L",
+        "precio": 123.6,
+        "oferta": 123.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00956.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Aguas con Gas",
+        "titulo": [
+          "Aguas con Gas (1 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00900",
+        "nombre": "Soda En Sifón Aybal 2 Lts",
+        "precio": 60.0,
+        "oferta": 60.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00900.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Aguas sin Gas",
+        "titulo": [
+          "Aguas sin Gas (10 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "00907",
+        "nombre": "Agua Glaciar Sin Gas 2 Lt",
+        "precio": 68.0,
+        "oferta": 68.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00907.jpg"
+      },
+      {
+        "id": "00905",
+        "nombre": "Agua Mineral Eco De Los Andes Sin Gas 2 L",
+        "precio": 58.99,
+        "oferta": 58.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00905.jpg"
+      },
+      {
+        "id": "00908",
+        "nombre": "Agua Mineral Sierra De Los Padres 2 Lt",
+        "precio": 66.6,
+        "oferta": 66.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00908.jpg"
+      },
+      {
+        "id": "00903",
+        "nombre": "Agua Mineral Sin Gas En Bidón Kin 6 Lt",
+        "precio": 133.5,
+        "oferta": 133.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00903.jpg"
+      },
+      {
+        "id": "00901",
+        "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5 L.",
+        "precio": 51.9,
+        "oferta": 51.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00901.jpg"
+      },
+      {
+        "id": "00902",
+        "nombre": "Agua Sin Gas Kin 2 Lt",
+        "precio": 45.0,
+        "oferta": 45.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00902.jpg"
+      },
+      {
+        "id": "00904",
+        "nombre": "Agua Sin Gas Nestlé Pureza Vital 1,5 Lt",
+        "precio": 72.0,
+        "oferta": 72.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00904.jpg"
+      },
+      {
+        "id": "00906",
+        "nombre": "Agua Sin Gas Nestlé Pureza Vital 2,25 Lts",
+        "precio": 76.0,
+        "oferta": 76.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00906.jpg"
+      },
+      {
+        "id": "00909",
+        "nombre": "Agua Sin Gas Nestlé Pureza Vital Bidón 6,3 Lt",
+        "precio": 165.1,
+        "oferta": 165.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00909.jpg"
+      },
+      {
+        "id": "00910",
+        "nombre": "Agua Villa Del Sur Bidón 6.25 Lt",
+        "precio": 142.9,
+        "oferta": 142.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00910.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Bebidas Blancas y Licores",
+        "titulo": [
+          "Bebidas Blancas y Licores (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01052",
+        "nombre": "Licor Cusenier Menta 700 Cc",
+        "precio": 233.9,
+        "oferta": 233.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01052.jpg"
+      },
+      {
+        "id": "01045",
+        "nombre": "Licor Tía María 690 Ml",
+        "precio": 435.6,
+        "oferta": 435.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01045.jpg"
+      },
+      {
+        "id": "01054",
+        "nombre": "Vodka Absolut Ruby Red 750 Cc",
+        "precio": 1.43,
+        "oferta": 1.43,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01054.jpg"
+      },
+      {
+        "id": "01044",
+        "nombre": "Vodka Sky 750 Ml",
+        "precio": 335.0,
+        "oferta": 335.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01044.jpg"
+      },
+      {
+        "id": "00978",
+        "nombre": "Vodka Smirnoff Bitter Citric 700 Cc",
+        "precio": 468.2,
+        "oferta": 468.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00978.jpg"
+      },
+      {
+        "id": "01053",
+        "nombre": "Vodka Smirnoff Green Apple 700 Cc",
+        "precio": 468.2,
+        "oferta": 468.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01053.jpg"
+      },
+      {
+        "id": "00257",
+        "nombre": "Vodka Walkers 1 Lt",
+        "precio": 281.5,
+        "oferta": 281.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00257.jpg"
+      },
+      {
+        "id": "01050",
+        "nombre": "Whisky Criadores 1 Lt",
+        "precio": 408.9,
+        "oferta": 408.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01050.jpg"
+      },
+      {
+        "id": "01048",
+        "nombre": "Whisky Old Smuggler 1 Lt",
+        "precio": 408.9,
+        "oferta": 408.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01048.jpg"
+      },
+      {
+        "id": "01051",
+        "nombre": "Whisky Old Smuggler 750 Cc",
+        "precio": 361.7,
+        "oferta": 361.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01051.jpg"
+      },
+      {
+        "id": "00979",
+        "nombre": "Whisky Old Smunggler 1 Lt.",
+        "precio": 396.9,
+        "oferta": 396.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00979.jpg"
+      },
+      {
+        "id": "01049",
+        "nombre": "Whisky Premiun 1 Lt",
+        "precio": 363.9,
+        "oferta": 363.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01049.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Cervezas",
+        "titulo": [
+          "Cervezas (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01079",
+        "nombre": "Cerveza Andes Origen Rubia 473 Cc",
+        "precio": 89.6,
+        "oferta": 89.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01079.jpg"
+      },
+      {
+        "id": "01086",
+        "nombre": "Cerveza Andes Origen Rubia 473cc Six Pack",
+        "precio": 459.99,
+        "oferta": 459.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01086.jpg"
+      },
+      {
+        "id": "01082",
+        "nombre": "Cerveza Corona 330 Cc",
+        "precio": 105.3,
+        "oferta": 105.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01082.jpg"
+      },
+      {
+        "id": "01083",
+        "nombre": "Cerveza Corona Lata 269 Cc",
+        "precio": 79.89,
+        "oferta": 79.89,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01083.jpg"
+      },
+      {
+        "id": "01087",
+        "nombre": "Cerveza Imperial Ipa 473 Cc Six Pack",
+        "precio": 589.16,
+        "oferta": 589.16,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01087.jpg"
+      },
+      {
+        "id": "01078",
+        "nombre": "Cerveza Imperial Lata 473 Cc",
+        "precio": 91.99,
+        "oferta": 91.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01078.jpg"
+      },
+      {
+        "id": "01088",
+        "nombre": "Cerveza Imperial Rubia 473cc Six Pack",
+        "precio": 433.5,
+        "oferta": 433.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01088.jpg"
+      },
+      {
+        "id": "01084",
+        "nombre": "Cerveza Patagonia Amber Leger 730 Cc",
+        "precio": 180.0,
+        "oferta": 180.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01084.jpg"
+      },
+      {
+        "id": "01077",
+        "nombre": "Cerveza Quilmes Lata 473 Cc",
+        "precio": 79.89,
+        "oferta": 79.89,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01077.jpg"
+      },
+      {
+        "id": "01080",
+        "nombre": "Cerveza Quilmes Lata Red Lager 473 Cc",
+        "precio": 69.99,
+        "oferta": 69.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01080.jpg"
+      },
+      {
+        "id": "01081",
+        "nombre": "Cerveza Schneider Lata 473 Cc",
+        "precio": 85.0,
+        "oferta": 85.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01081.jpg"
+      },
+      {
+        "id": "00972",
+        "nombre": "Cerveza Stella Artois Noire X 473 Cm3",
+        "precio": 127.51,
+        "oferta": 127.51,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00972.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Energizantes e Isotónicas",
+        "titulo": [
+          "Energizantes e Isotónicas (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01074",
+        "nombre": "Energizante Gatorade Cool Blue 500 Cc",
+        "precio": 62.8,
+        "oferta": 62.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01074.jpg"
+      },
+      {
+        "id": "01076",
+        "nombre": "Energizante Gatorade Lima Limón 500 Cc",
+        "precio": 64.0,
+        "oferta": 64.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01076.jpg"
+      },
+      {
+        "id": "01075",
+        "nombre": "Energizante Gatorade Manzana 500 Cc",
+        "precio": 62.8,
+        "oferta": 62.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01075.jpg"
+      },
+      {
+        "id": "01073",
+        "nombre": "Energizante Speed Lata 250 Cc",
+        "precio": 63.0,
+        "oferta": 63.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01073.jpg"
+      },
+      {
+        "id": "01065",
+        "nombre": "Isotónica Gatorade Cool Blue 1250 Cc",
+        "precio": 165.3,
+        "oferta": 165.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01065.jpg"
+      },
+      {
+        "id": "01069",
+        "nombre": "Isotónica Gatorade Cool Blue 750 Cc",
+        "precio": 80.3,
+        "oferta": 80.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01069.jpg"
+      },
+      {
+        "id": "01068",
+        "nombre": "Isotónica Gatorade Frutas Tropicales 1250 Cc",
+        "precio": 165.3,
+        "oferta": 165.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01068.jpg"
+      },
+      {
+        "id": "01070",
+        "nombre": "Isotónica Gatorade Frutas Tropicales 500 Cc",
+        "precio": 62.8,
+        "oferta": 62.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01070.jpg"
+      },
+      {
+        "id": "01067",
+        "nombre": "Isotónica Gatorade Manzana 1250 Cc",
+        "precio": 165.3,
+        "oferta": 165.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01067.jpg"
+      },
+      {
+        "id": "01066",
+        "nombre": "Isotónica Gatorade Manzana 750 Cc",
+        "precio": 80.3,
+        "oferta": 80.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01066.jpg"
+      },
+      {
+        "id": "01072",
+        "nombre": "Isotónica Gatorade Naranja 500 Cc",
+        "precio": 62.8,
+        "oferta": 62.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01072.jpg"
+      },
+      {
+        "id": "01071",
+        "nombre": "Isotónica Gatorade Uva 500 Cc",
+        "precio": 62.8,
+        "oferta": 62.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01071.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Gaseosas",
+        "titulo": [
+          "Gaseosas (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01034",
+        "nombre": "Coca Cola Regular 1,5 L.",
+        "precio": 113.0,
+        "oferta": 113.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01034.jpg"
+      },
+      {
+        "id": "00969",
+        "nombre": "Gaseosa Coca Cola 2,25 Lts Sin Azúcar",
+        "precio": 127.0,
+        "oferta": 127.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00969.jpg"
+      },
+      {
+        "id": "00970",
+        "nombre": "Gaseosa Coca Cola Sin Azúcar 1,5 L.",
+        "precio": 98.0,
+        "oferta": 98.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00970.jpg"
+      },
+      {
+        "id": "00998",
+        "nombre": "Gaseosa Crush Lima Limón 3l",
+        "precio": 75.0,
+        "oferta": 75.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00998.jpg"
+      },
+      {
+        "id": "00995",
+        "nombre": "Gaseosa Crush Manzana 3 Lt.",
+        "precio": 75.0,
+        "oferta": 75.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00995.jpg"
+      },
+      {
+        "id": "01039",
+        "nombre": "Gaseosa Crush Naranja 3l",
+        "precio": 75.0,
+        "oferta": 75.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01039.jpg"
+      },
+      {
+        "id": "00999",
+        "nombre": "Gaseosa Crush Pomelo 3 Lts",
+        "precio": 75.0,
+        "oferta": 75.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00999.jpg"
+      },
+      {
+        "id": "01040",
+        "nombre": "Gaseosa Mirinda Manzana 2.25 Lts",
+        "precio": 145.0,
+        "oferta": 145.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01040.jpg"
+      },
+      {
+        "id": "00994",
+        "nombre": "Gaseosa Paso De Los Toros Pomelo 1.5 Lt",
+        "precio": 115.8,
+        "oferta": 115.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/00994.jpg"
+      },
+      {
+        "id": "01035",
+        "nombre": "Gaseosa Paso De Los Toros Tónica 1,5 Lt",
+        "precio": 99.0,
+        "oferta": 99.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01035.jpg"
+      },
+      {
+        "id": "01033",
+        "nombre": "Gaseosa Seven Up Free Sin Azúcar 2,25 Lt",
+        "precio": 131.9,
+        "oferta": 131.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01033.jpg"
+      },
+      {
+        "id": "01036",
+        "nombre": "Gaseosa Seven.up 1,5 Lt",
+        "precio": 99.0,
+        "oferta": 99.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01036.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Vinos y Espumantes",
+        "titulo": [
+          "Vinos y Espumantes (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01019",
+        "nombre": "Ananá Fizz La Farruca 720 Cc",
+        "precio": 114.26,
+        "oferta": 114.26,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01019.jpg"
+      },
+      {
+        "id": "01015",
+        "nombre": "Espumante Deseado Torrontés X 750 Ml.",
+        "precio": 399.0,
+        "oferta": 399.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01015.jpg"
+      },
+      {
+        "id": "01020",
+        "nombre": "Fresa Fizz La Farruca 710 Cc",
+        "precio": 114.26,
+        "oferta": 114.26,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01020.jpg"
+      },
+      {
+        "id": "01022",
+        "nombre": "Sidra 1888 Saenz Briones 750 Ml.",
+        "precio": 323.85,
+        "oferta": 323.85,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01022.jpg"
+      },
+      {
+        "id": "01021",
+        "nombre": "Sidra Del Valle 720 Cc.",
+        "precio": 97.6,
+        "oferta": 97.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01021.jpg"
+      },
+      {
+        "id": "01017",
+        "nombre": "Sidra La Victoria 720 Ml.",
+        "precio": 101.89,
+        "oferta": 101.89,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01017.jpg"
+      },
+      {
+        "id": "01013",
+        "nombre": "Vino 4000 Malbec 750 Cc",
+        "precio": 910.0,
+        "oferta": 910.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01013.jpg"
+      },
+      {
+        "id": "01018",
+        "nombre": "Vino Bodega Bianchi Borgoña 700 Cc.",
+        "precio": 119.7,
+        "oferta": 119.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01018.jpg"
+      },
+      {
+        "id": "01014",
+        "nombre": "Vino Cafayate Ttes. Tard 750 Cc",
+        "precio": 199.0,
+        "oferta": 199.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01014.jpg"
+      },
+      {
+        "id": "01012",
+        "nombre": "Vino Plan B 100% Malbec 750 Cc",
+        "precio": 195.0,
+        "oferta": 195.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01012.jpg"
+      },
+      {
+        "id": "01016",
+        "nombre": "Vino San Felipe Blanco 750 Cc",
+        "precio": 228.1,
+        "oferta": 228.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01016.jpg"
+      },
+      {
+        "id": "01023",
+        "nombre": "Vino Tinto Dadá Art 391 Malbec 750 Cc",
+        "precio": 249.9,
+        "oferta": 249.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01023.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 1,
+        "titulo": "Carnicería"
+      },
+      {
+        "nivel": 2,
+        "titulo": "Achuras",
+        "titulo": [
+          "Achuras (2 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01107",
+        "nombre": "Chinchulín X Kg",
+        "precio": 180.0,
+        "oferta": 180.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01107.jpg"
+      },
+      {
+        "id": "01106",
+        "nombre": "Mollejas X Kg",
+        "precio": 579.0,
+        "oferta": 579.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01106.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Carnes de Cerdo",
+        "titulo": [
+          "Carnes de Cerdo (6 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01113",
+        "nombre": "Bondiola X Kg",
+        "precio": 476.0,
+        "oferta": 476.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01113.jpg"
+      },
+      {
+        "id": "01111",
+        "nombre": "Carré Con Hueso Cortado X Kg",
+        "precio": 409.0,
+        "oferta": 409.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01111.jpg"
+      },
+      {
+        "id": "01112",
+        "nombre": "Carré Con Hueso X Kg",
+        "precio": 355.0,
+        "oferta": 355.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01112.jpg"
+      },
+      {
+        "id": "01110",
+        "nombre": "Churrasquito De Cerdo X Kg",
+        "precio": 460.0,
+        "oferta": 460.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01110.jpg"
+      },
+      {
+        "id": "01109",
+        "nombre": "Paleta De Cerdo X Kg",
+        "precio": 373.0,
+        "oferta": 373.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01109.jpg"
+      },
+      {
+        "id": "01108",
+        "nombre": "Solomillo X Kg",
+        "precio": 493.0,
+        "oferta": 493.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01108.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Carnes de Novillo",
+        "titulo": [
+          "Carnes de Novillo (9 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01128",
+        "nombre": "Bife Angosto X Kg",
+        "precio": 675.0,
+        "oferta": 675.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01128.jpg"
+      },
+      {
+        "id": "01120",
+        "nombre": "Bola De Lomo Feteada Para Milanesa X Kg",
+        "precio": 558.87,
+        "oferta": 558.87,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01120.jpg"
+      },
+      {
+        "id": "01123",
+        "nombre": "Costeleta De Novillo Premium X Kg",
+        "precio": 507.0,
+        "oferta": 507.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01123.jpg"
+      },
+      {
+        "id": "01122",
+        "nombre": "Costilla De Novillo X Kg",
+        "precio": 461.9,
+        "oferta": 461.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01122.jpg"
+      },
+      {
+        "id": "01126",
+        "nombre": "Entraña X Kg",
+        "precio": 770.0,
+        "oferta": 770.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01126.jpg"
+      },
+      {
+        "id": "01127",
+        "nombre": "Filet X Kg",
+        "precio": 700.0,
+        "oferta": 700.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01127.jpg"
+      },
+      {
+        "id": "01124",
+        "nombre": "Matambre X Kg",
+        "precio": 545.0,
+        "oferta": 545.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01124.jpg"
+      },
+      {
+        "id": "01125",
+        "nombre": "Picana X Kg",
+        "precio": 614.85,
+        "oferta": 614.85,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01125.jpg"
+      },
+      {
+        "id": "01121",
+        "nombre": "Tomahawk X Kg",
+        "precio": 624.0,
+        "oferta": 624.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01121.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Carnes de Pollo",
+        "titulo": [
+          "Carnes de Pollo (6 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01115",
+        "nombre": "Bastoncito De Pollo Y Cheddar X 500 Gr Aprox.*",
+        "precio": 390.0,
+        "oferta": 390.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01115.jpg"
+      },
+      {
+        "id": "01118",
+        "nombre": "Medallón De Pollo Con Jamón Y Queso X 500 Gr Aprox. *",
+        "precio": 330.0,
+        "oferta": 330.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01118.jpg"
+      },
+      {
+        "id": "01119",
+        "nombre": "Medallón De Pollo Tradicional X 500 Gr Aprox.*",
+        "precio": 280.0,
+        "oferta": 280.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01119.jpg"
+      },
+      {
+        "id": "01116",
+        "nombre": "Pampitos De Pollo Con Jamón Y Queso X 500 Gr Aprox.*",
+        "precio": 340.0,
+        "oferta": 340.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01116.jpg"
+      },
+      {
+        "id": "01117",
+        "nombre": "Pampitos De Pollo X 500 Gr Aprox.*",
+        "precio": 280.0,
+        "oferta": 280.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01117.jpg"
+      },
+      {
+        "id": "01114",
+        "nombre": "Pollo Entero X Kg",
+        "precio": 129.95,
+        "oferta": 129.95,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01114.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Huevos",
+        "titulo": [
+          "Huevos (6 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01145",
+        "nombre": "Huevo Blanco Mediano X 12 Un.",
+        "precio": 133.9,
+        "oferta": 133.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01145.jpg"
+      },
+      {
+        "id": "01144",
+        "nombre": "Huevo Blanco Mediano X 30 Un.",
+        "precio": 297.0,
+        "oferta": 297.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01144.jpg"
+      },
+      {
+        "id": "01146",
+        "nombre": "Huevo Blanco Mediano X 6 Un.",
+        "precio": 66.95,
+        "oferta": 66.95,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01146.jpg"
+      },
+      {
+        "id": "01142",
+        "nombre": "Huevo Color Mediano X 12 Un.",
+        "precio": 133.9,
+        "oferta": 133.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01142.jpg"
+      },
+      {
+        "id": "01141",
+        "nombre": "Huevo Color Mediano X 30 Un.",
+        "precio": 297.0,
+        "oferta": 297.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01141.jpg"
+      },
+      {
+        "id": "01143",
+        "nombre": "Huevo Color Mediano X 6 Un.",
+        "precio": 66.95,
+        "oferta": 66.95,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01143.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "La Vaca Club",
+        "titulo": [
+          "La Vaca Club (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01140",
+        "nombre": "Bife Ancho X Kg *",
+        "precio": 510.0,
+        "oferta": 510.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01140.jpg"
+      },
+      {
+        "id": "01130",
+        "nombre": "Bife De Chorizo Cortado P/ Bife X Kg *",
+        "precio": 570.0,
+        "oferta": 570.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01130.jpg"
+      },
+      {
+        "id": "01129",
+        "nombre": "Bola De Lomo Cortada P/ Milanesa X Kg *",
+        "precio": 520.0,
+        "oferta": 520.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01129.jpg"
+      },
+      {
+        "id": "01135",
+        "nombre": "Costeleta X Kg *",
+        "precio": 500.0,
+        "oferta": 500.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01135.jpg"
+      },
+      {
+        "id": "01134",
+        "nombre": "Cuadrada Cortada P/ Milanesa X Kg *",
+        "precio": 530.0,
+        "oferta": 530.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01134.jpg"
+      },
+      {
+        "id": "01138",
+        "nombre": "Cuadril Sin Colita Cortado P/ Bife X Kg *",
+        "precio": 540.0,
+        "oferta": 540.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01138.jpg"
+      },
+      {
+        "id": "01137",
+        "nombre": "Filet X Kg *",
+        "precio": 750.0,
+        "oferta": 750.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01137.jpg"
+      },
+      {
+        "id": "01132",
+        "nombre": "Matambre X Kg *",
+        "precio": 580.0,
+        "oferta": 580.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01132.jpg"
+      },
+      {
+        "id": "01139",
+        "nombre": "Morcilla Vasca X Kg *",
+        "precio": 360.0,
+        "oferta": 360.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01139.jpg"
+      },
+      {
+        "id": "01136",
+        "nombre": "Paleta Cortada P/ Bife X Kg *",
+        "precio": 520.0,
+        "oferta": 520.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01136.jpg"
+      },
+      {
+        "id": "01133",
+        "nombre": "Roast Beef X Kg *",
+        "precio": 530.0,
+        "oferta": 530.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01133.jpg"
+      },
+      {
+        "id": "01131",
+        "nombre": "Vacío X Kg *",
+        "precio": 560.0,
+        "oferta": 560.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01131.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Pescados y Mariscos",
+        "titulo": [
+          "Pescados y Mariscos (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01218",
+        "nombre": "Empanadas De Pescado De Río X 6 Uds",
+        "precio": 130.0,
+        "oferta": 130.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01218.jpg"
+      },
+      {
+        "id": "01148",
+        "nombre": "Filet De Merluza Rebozado Con Finas Hierbas X 500 Gr*",
+        "precio": 490.0,
+        "oferta": 490.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01148.jpg"
+      },
+      {
+        "id": "01149",
+        "nombre": "Filet De Merluza Rebozado X 500 Gr Aprox.*",
+        "precio": 460.0,
+        "oferta": 460.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01149.jpg"
+      },
+      {
+        "id": "01217",
+        "nombre": "Langostinos Rebozados X 500 Gr *",
+        "precio": 1.1,
+        "oferta": 1.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01217.jpg"
+      },
+      {
+        "id": "01151",
+        "nombre": "Medallón De Merluza Con Espinaca Y Queso X 500 Gr Aprox.*",
+        "precio": 340.0,
+        "oferta": 340.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01151.jpg"
+      },
+      {
+        "id": "01152",
+        "nombre": "Medallón De Merluza Con Jamón Y Queso X 500 Gr Aprox.*",
+        "precio": 340.0,
+        "oferta": 340.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01152.jpg"
+      },
+      {
+        "id": "01153",
+        "nombre": "Medallón De Merluza Tradicional X 500 Gr Aprox.*",
+        "precio": 290.0,
+        "oferta": 290.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01153.jpg"
+      },
+      {
+        "id": "01150",
+        "nombre": "Nugget De Merluza X 500 Gr Aprox.*",
+        "precio": 290.0,
+        "oferta": 290.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01150.jpg"
+      },
+      {
+        "id": "01216",
+        "nombre": "Paella X 500 Gr *",
+        "precio": 820.0,
+        "oferta": 820.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01216.jpg"
+      },
+      {
+        "id": "01155",
+        "nombre": "Rabas Rebozadas X 500 Gr Aprox. *",
+        "precio": 950.0,
+        "oferta": 950.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01155.jpg"
+      },
+      {
+        "id": "01147",
+        "nombre": "Sardinas Enteras X Kg",
+        "precio": 597.0,
+        "oferta": 597.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01147.jpg"
+      },
+      {
+        "id": "01154",
+        "nombre": "Tinta De Calamar X 4 Gr X Unidad",
+        "precio": 75.0,
+        "oferta": 75.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01154.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 1,
+        "titulo": "Frescos"
+      },
+      {
+        "nivel": 2,
+        "titulo": "Congelados de Pollo",
+        "titulo": [
+          "Congelados de Pollo (2 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01037",
+        "nombre": "Patitas Granja De Sol Pollo 400 Gr",
+        "precio": 249.0,
+        "oferta": 249.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01037.jpg"
+      },
+      {
+        "id": "01038",
+        "nombre": "Patitas Granja De Sol Queso Jamón 400 Gr",
+        "precio": 245.0,
+        "oferta": 245.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01038.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Congelados de Vegetales",
+        "titulo": [
+          "Congelados de Vegetales (5 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01057",
+        "nombre": "Acelga Green Life Congelada 500 Gr",
+        "precio": 133.3,
+        "oferta": 133.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01057.jpg"
+      },
+      {
+        "id": "01047",
+        "nombre": "Choclo Green Life 300 Gr",
+        "precio": 86.6,
+        "oferta": 86.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01047.jpg"
+      },
+      {
+        "id": "01056",
+        "nombre": "Espinaca Green Life Congelada 500 Gr",
+        "precio": 189.9,
+        "oferta": 189.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01056.jpg"
+      },
+      {
+        "id": "01055",
+        "nombre": "Milanesa L.verde Soja 300 Gr",
+        "precio": 110.7,
+        "oferta": 110.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01055.jpg"
+      },
+      {
+        "id": "01046",
+        "nombre": "Papas Fritas Mc Cain Noisettes 1 Kg",
+        "precio": 375.7,
+        "oferta": 375.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01046.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Empanadas Tucumanas",
+        "titulo": [
+          "Empanadas Tucumanas (7 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01059",
+        "nombre": "Empanadas Capresse X 12 Unidades",
+        "precio": 412.0,
+        "oferta": 412.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01059.jpg"
+      },
+      {
+        "id": "01058",
+        "nombre": "Empanadas Capresse X 15 Unidades",
+        "precio": 515.0,
+        "oferta": 515.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01058.jpg"
+      },
+      {
+        "id": "01060",
+        "nombre": "Empanadas Capresse X 6 Unidades",
+        "precio": 206.0,
+        "oferta": 206.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01060.jpg"
+      },
+      {
+        "id": "01064",
+        "nombre": "Empanadas De Carne Picante X 15 Unidades",
+        "precio": 515.0,
+        "oferta": 515.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01064.jpg"
+      },
+      {
+        "id": "01062",
+        "nombre": "Empanadas De Ternera Y Queso X 12 Unidades",
+        "precio": 412.0,
+        "oferta": 412.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01062.jpg"
+      },
+      {
+        "id": "01061",
+        "nombre": "Empanadas De Ternera Y Queso X 15 Unidades",
+        "precio": 515.0,
+        "oferta": 515.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01061.jpg"
+      },
+      {
+        "id": "01063",
+        "nombre": "Empanadas De Ternera Y Queso X 6 Unidades",
+        "precio": 206.0,
+        "oferta": 206.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01063.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Lácteos",
+        "titulo": [
+          "Lácteos (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01098",
+        "nombre": "Crema De Leche La Serenísima 200 Gr",
+        "precio": 112.6,
+        "oferta": 112.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01098.jpg"
+      },
+      {
+        "id": "01096",
+        "nombre": "Leche La Serenísima Descremada Dha Sachet 1 Lt",
+        "precio": 89.7,
+        "oferta": 89.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01096.jpg"
+      },
+      {
+        "id": "01105",
+        "nombre": "Leche La Serenísima Ultra Entera 3% Sachet 1 L",
+        "precio": 57.99,
+        "oferta": 57.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01105.jpg"
+      },
+      {
+        "id": "01095",
+        "nombre": "Manteca La Paulina 200 Gr",
+        "precio": 158.0,
+        "oferta": 158.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01095.jpg"
+      },
+      {
+        "id": "01102",
+        "nombre": "Manteca La Serenísima Calidad Extra Paquete 200 Gr",
+        "precio": 135.0,
+        "oferta": 135.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01102.jpg"
+      },
+      {
+        "id": "01099",
+        "nombre": "Queso La Serenísima Cremón Descremado 300 Gr",
+        "precio": 164.8,
+        "oferta": 164.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01099.jpg"
+      },
+      {
+        "id": "01097",
+        "nombre": "Queso La Serenísima Procesado Finlandia Light Pote 300 Gr",
+        "precio": 161.71,
+        "oferta": 161.71,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01097.jpg"
+      },
+      {
+        "id": "01101",
+        "nombre": "Yoghur Yogurísimo Cr. Vainilla 120 Gr",
+        "precio": 57.34,
+        "oferta": 57.34,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01101.jpg"
+      },
+      {
+        "id": "01094",
+        "nombre": "Yoghur Yogurísimo Vai.fir.ent 120 Gr",
+        "precio": 55.8,
+        "oferta": 55.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01094.jpg"
+      },
+      {
+        "id": "01103",
+        "nombre": "Yogur Gran Compra Vainilla 900 Gr",
+        "precio": 84.99,
+        "oferta": 84.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01103.jpg"
+      },
+      {
+        "id": "01100",
+        "nombre": "Yogur Yogurísimo Forte Banana 1 Lt",
+        "precio": 192.9,
+        "oferta": 192.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01100.jpg"
+      },
+      {
+        "id": "01104",
+        "nombre": "Yogur Yogurísimo Forte Frutilla 1 Lt",
+        "precio": 135.0,
+        "oferta": 135.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01104.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Lácteos Ñulac",
+        "titulo": [
+          "Lácteos Ñulac (9 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01192",
+        "nombre": "Dulce De Leche Ñulac X 1 Kg",
+        "precio": 209.0,
+        "oferta": 209.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01192.jpg"
+      },
+      {
+        "id": "01197",
+        "nombre": "Queso Cremoso Ñulac X 1 Kg Aprox.",
+        "precio": 319.0,
+        "oferta": 319.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01197.jpg"
+      },
+      {
+        "id": "01195",
+        "nombre": "Queso Muzzarela Ñulac X 1 Kg Peso Aprox.",
+        "precio": 350.0,
+        "oferta": 350.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01195.jpg"
+      },
+      {
+        "id": "01196",
+        "nombre": "Queso Sardo Ñulac X 1 Kg Peso Aprox.",
+        "precio": 689.0,
+        "oferta": 689.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01196.jpg"
+      },
+      {
+        "id": "01198",
+        "nombre": "Queso Tybo X 1 Kg Peso Aprox.",
+        "precio": 406.0,
+        "oferta": 406.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01198.jpg"
+      },
+      {
+        "id": "01194",
+        "nombre": "Ricota Ñulac X 1 Kg Peso Aprox.",
+        "precio": 119.0,
+        "oferta": 119.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01194.jpg"
+      },
+      {
+        "id": "01190",
+        "nombre": "Yogur Ñulac Durazno X 1 Lt",
+        "precio": 70.0,
+        "oferta": 70.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01190.jpg"
+      },
+      {
+        "id": "01191",
+        "nombre": "Yogur Ñulac Frutilla X 1 Lt",
+        "precio": 70.0,
+        "oferta": 70.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01191.jpg"
+      },
+      {
+        "id": "01193",
+        "nombre": "Yogur Ñulac Vainilla X 1 Lt",
+        "precio": 70.0,
+        "oferta": 70.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01193.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Pastas y Tapas",
+        "titulo": [
+          "Pastas y Tapas (8 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01214",
+        "nombre": "Pascualina La Salteña Criolla 400 Gr",
+        "precio": 96.39,
+        "oferta": 96.39,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01214.jpg"
+      },
+      {
+        "id": "01210",
+        "nombre": "Ravioles La Salteña Jamón Y Queso 500 Gr",
+        "precio": 140.39,
+        "oferta": 140.39,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01210.jpg"
+      },
+      {
+        "id": "01208",
+        "nombre": "Ravioles La Salteña Pollo Y Verduras 1 Kg",
+        "precio": 265.3,
+        "oferta": 265.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01208.jpg"
+      },
+      {
+        "id": "01209",
+        "nombre": "Tapa Empanada Sumasa Freir 300 Gr",
+        "precio": 50.9,
+        "oferta": 50.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01209.jpg"
+      },
+      {
+        "id": "01211",
+        "nombre": "Tapa Empanadas Sumasa Hojaldrada Horno 300 Grs",
+        "precio": 50.9,
+        "oferta": 50.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01211.jpg"
+      },
+      {
+        "id": "01212",
+        "nombre": "Tapas Para Empanadas La Salteña Criolla 15u 412 Gr",
+        "precio": 115.7,
+        "oferta": 115.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01212.jpg"
+      },
+      {
+        "id": "01215",
+        "nombre": "Tapas Para Empanadas La Salteña Para Freír 15 Uní.",
+        "precio": 123.0,
+        "oferta": 123.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01215.jpg"
+      },
+      {
+        "id": "01213",
+        "nombre": "Ñoquis La Salteña Papa 500 Gr",
+        "precio": 95.1,
+        "oferta": 95.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01213.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Quesos, Fiambres y Embutidos",
+        "titulo": [
+          "Quesos, Fiambres y Embutidos (6 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01089",
+        "nombre": "Jamón Cocido Natural Labratto Feteado X 800 Grs *",
+        "precio": 1.122,
+        "oferta": 1.122,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01089.jpg"
+      },
+      {
+        "id": "01093",
+        "nombre": "Jamón Crudo Paladini Feteado X 300 Grs *",
+        "precio": 810.5,
+        "oferta": 810.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01093.jpg"
+      },
+      {
+        "id": "01092",
+        "nombre": "Lomito Ahumado Suizo Bierzo Feteado X 300 Grs *",
+        "precio": 308.21,
+        "oferta": 308.21,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01092.jpg"
+      },
+      {
+        "id": "01085",
+        "nombre": "Queso La Serenísima Cremón Cremoso Peso Aprox 500 Gr",
+        "precio": 255.0,
+        "oferta": 255.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01085.jpg"
+      },
+      {
+        "id": "01090",
+        "nombre": "Queso La Serenísima Rallado 40 Gr",
+        "precio": 85.3,
+        "oferta": 85.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01090.jpg"
+      },
+      {
+        "id": "01091",
+        "nombre": "Queso Tybo/danbo Noal Feteado X 800 Grs *",
+        "precio": 485.9,
+        "oferta": 485.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01091.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 1,
+        "titulo": "Limpieza"
+      },
+      {
+        "nivel": 2,
+        "titulo": "Cuidado Personal",
+        "titulo": [
+          "Cuidado Personal (14 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01324",
+        "nombre": "Acondicionador Head & Shoulders Prot. Caida 180 Ml",
+        "precio": 206.0,
+        "oferta": 206.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01324.jpg"
+      },
+      {
+        "id": "01320",
+        "nombre": "Algodón Estrella Super 200 Gr",
+        "precio": 185.5,
+        "oferta": 185.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01320.jpg"
+      },
+      {
+        "id": "01319",
+        "nombre": "Antitranspirante Femenino Dove Clásico 89 Gr",
+        "precio": 157.2,
+        "oferta": 157.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01319.jpg"
+      },
+      {
+        "id": "01321",
+        "nombre": "Antitranspirante Femenino Dove Pomelo Limón 89 Gr",
+        "precio": 157.2,
+        "oferta": 157.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01321.jpg"
+      },
+      {
+        "id": "01323",
+        "nombre": "Antitranspirante Femenino Nivea Roll On Pearl & Beauty 50 Ml",
+        "precio": 127.3,
+        "oferta": 127.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01323.jpg"
+      },
+      {
+        "id": "01314",
+        "nombre": "Antitranspirante Femenino Rexona Bambú Aloe Vera 90 Gr",
+        "precio": 122.0,
+        "oferta": 122.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01314.jpg"
+      },
+      {
+        "id": "01318",
+        "nombre": "Antitranspirante Masculino Rexona Motion Sense Invisible 90 Gr",
+        "precio": 157.2,
+        "oferta": 157.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01318.jpg"
+      },
+      {
+        "id": "01322",
+        "nombre": "Hisopos Estrella Baby 125 Un",
+        "precio": 103.9,
+        "oferta": 103.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01322.jpg"
+      },
+      {
+        "id": "01315",
+        "nombre": "Jabón De Tocador Dove Karite Y Vainilla 90 Gr",
+        "precio": 77.72,
+        "oferta": 77.72,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01315.jpg"
+      },
+      {
+        "id": "01316",
+        "nombre": "Jabón De Tocador Dove Revitalizante 90 Gr",
+        "precio": 77.72,
+        "oferta": 77.72,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01316.jpg"
+      },
+      {
+        "id": "01312",
+        "nombre": "Jabón De Tocador Espadol Active Deo 90 Gr",
+        "precio": 71.4,
+        "oferta": 71.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01312.jpg"
+      },
+      {
+        "id": "01317",
+        "nombre": "Jabón De Tocador Nivea Creme Soft 100 Gr",
+        "precio": 46.7,
+        "oferta": 46.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01317.jpg"
+      },
+      {
+        "id": "01325",
+        "nombre": "Sanitizante Patricia Allen 500 Cc",
+        "precio": 129.0,
+        "oferta": 129.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01325.jpg"
+      },
+      {
+        "id": "01313",
+        "nombre": "Toallitas Femeninas Siempre Libre Con Alas 16 Un",
+        "precio": 226.1,
+        "oferta": 226.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01313.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Fósforos, Lamparas y Pilas",
+        "titulo": [
+          "Fósforos, Lamparas y Pilas (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01329",
+        "nombre": "Fósforos Tres Patitos 400 Un",
+        "precio": 77.9,
+        "oferta": 77.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01329.jpg"
+      },
+      {
+        "id": "01334",
+        "nombre": "Lámpara Osram Led Calida 9 Wt",
+        "precio": 155.9,
+        "oferta": 155.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01334.jpg"
+      },
+      {
+        "id": "01335",
+        "nombre": "Lámpara Osram Led Emer.fr 10 Wt",
+        "precio": 818.9,
+        "oferta": 818.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01335.jpg"
+      },
+      {
+        "id": "01337",
+        "nombre": "Lámpara Osram Led Fria 14 Wt",
+        "precio": 201.4,
+        "oferta": 201.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01337.jpg"
+      },
+      {
+        "id": "01330",
+        "nombre": "Lámpara Osram Led Fria 5 Wt",
+        "precio": 132.4,
+        "oferta": 132.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01330.jpg"
+      },
+      {
+        "id": "01333",
+        "nombre": "Lámpara Osram Led Fria 9 Wt",
+        "precio": 155.9,
+        "oferta": 155.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01333.jpg"
+      },
+      {
+        "id": "01332",
+        "nombre": "Lámpara Osram Led Friax3 9 Wt",
+        "precio": 410.7,
+        "oferta": 410.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01332.jpg"
+      },
+      {
+        "id": "01336",
+        "nombre": "Lámpara Osram Led Gota Ca 3 Wt",
+        "precio": 172.8,
+        "oferta": 172.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01336.jpg"
+      },
+      {
+        "id": "01270",
+        "nombre": "Pila Duracell Aaa X 1 Ud",
+        "precio": 72.7,
+        "oferta": 72.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01270.jpg"
+      },
+      {
+        "id": "01331",
+        "nombre": "Pilas Duracell Aaa Tira 2 Un",
+        "precio": 135.1,
+        "oferta": 135.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01331.jpg"
+      },
+      {
+        "id": "01326",
+        "nombre": "Pilas Energizer Aaa 4 Un",
+        "precio": 251.6,
+        "oferta": 251.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01326.jpg"
+      },
+      {
+        "id": "01271",
+        "nombre": "Pilas Eveready Aa X 4 Un",
+        "precio": 175.0,
+        "oferta": 175.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01271.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Insecticidas",
+        "titulo": [
+          "Insecticidas (11 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01348",
+        "nombre": "Espiral Raid Country Fresh 12 Un",
+        "precio": 80.48,
+        "oferta": 80.48,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01348.jpg"
+      },
+      {
+        "id": "01347",
+        "nombre": "Espiral Raid Sobres 12x4 Un",
+        "precio": 324.9,
+        "oferta": 324.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01347.jpg"
+      },
+      {
+        "id": "01340",
+        "nombre": "Espirales Fuyi Country Fresh 12 Un",
+        "precio": 83.9,
+        "oferta": 83.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01340.jpg"
+      },
+      {
+        "id": "01342",
+        "nombre": "Insecticida Raid Doble Acción Moscas Y Mosquitos 360 Cc",
+        "precio": 207.9,
+        "oferta": 207.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01342.jpg"
+      },
+      {
+        "id": "01345",
+        "nombre": "Insecticida Raid Hormigas 390 Cc",
+        "precio": 246.9,
+        "oferta": 246.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01345.jpg"
+      },
+      {
+        "id": "01349",
+        "nombre": "Insecticida Raid Max Cucarachas 360 Cc",
+        "precio": 268.5,
+        "oferta": 268.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01349.jpg"
+      },
+      {
+        "id": "01346",
+        "nombre": "Insecticida Raid Sin Olor Mata Moscas Y Mosquitos 360 Cc",
+        "precio": 214.37,
+        "oferta": 214.37,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01346.jpg"
+      },
+      {
+        "id": "01341",
+        "nombre": "Insecticida X-5 360 Cc",
+        "precio": 171.6,
+        "oferta": 171.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01341.jpg"
+      },
+      {
+        "id": "01339",
+        "nombre": "Repelente Off Extra Duración Aerosol 12 Hs 165 Cc",
+        "precio": 235.0,
+        "oferta": 235.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01339.jpg"
+      },
+      {
+        "id": "01338",
+        "nombre": "Repelente Off Family Aerosol 165 Ml",
+        "precio": 177.6,
+        "oferta": 177.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01338.jpg"
+      },
+      {
+        "id": "01344",
+        "nombre": "Tabletas Raid Mosquitos 72 Un",
+        "precio": 551.2,
+        "oferta": 551.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01344.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Lavado de Ropa",
+        "titulo": [
+          "Lavado de Ropa (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01365",
+        "nombre": "Enjuague Comfort C.dp 450 Ml",
+        "precio": 235.8,
+        "oferta": 235.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01365.jpg"
+      },
+      {
+        "id": "01367",
+        "nombre": "Enjuague Comfort Clásico Bot 5 Lt",
+        "precio": 625.9,
+        "oferta": 625.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01367.jpg"
+      },
+      {
+        "id": "01357",
+        "nombre": "Enjuague Vivere Plancha Fac 810 Ml",
+        "precio": 102.1,
+        "oferta": 102.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01357.jpg"
+      },
+      {
+        "id": "01366",
+        "nombre": "Enjuegue Comfort D-p 3 Lt",
+        "precio": 534.7,
+        "oferta": 534.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01366.jpg"
+      },
+      {
+        "id": "01362",
+        "nombre": "Jabon Líquido Ace Botella 800 Ml",
+        "precio": 159.3,
+        "oferta": 159.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01362.jpg"
+      },
+      {
+        "id": "01361",
+        "nombre": "Jabon Pan G.federal Suavizante 150 Gr",
+        "precio": 31.1,
+        "oferta": 31.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01361.jpg"
+      },
+      {
+        "id": "01359",
+        "nombre": "Jabón En Pan Argentino Blanco 200 Gr",
+        "precio": 32.4,
+        "oferta": 32.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01359.jpg"
+      },
+      {
+        "id": "01363",
+        "nombre": "Jabón En Polvo Zorro Regular Clásico 800 Gr",
+        "precio": 88.3,
+        "oferta": 88.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01363.jpg"
+      },
+      {
+        "id": "01356",
+        "nombre": "Jabón Liquido Skip D.p. 3 Lt",
+        "precio": 440.0,
+        "oferta": 440.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01356.jpg"
+      },
+      {
+        "id": "01360",
+        "nombre": "Jabón Liquido Zorro Clásico Bot 800 Ml",
+        "precio": 113.0,
+        "oferta": 113.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01360.jpg"
+      },
+      {
+        "id": "01364",
+        "nombre": "Quitamanchas Vanish Pol Ro D/p 450 Gr",
+        "precio": 212.4,
+        "oferta": 212.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01364.jpg"
+      },
+      {
+        "id": "01358",
+        "nombre": "Set Jabón Para Diluir Skip Botx500 Ml",
+        "precio": 355.0,
+        "oferta": 355.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01358.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Limpieza de Cocina",
+        "titulo": [
+          "Limpieza de Cocina (11 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01400",
+        "nombre": "Bolsa Asurin Cierre Fácil 50x65 20 Un",
+        "precio": 303.5,
+        "oferta": 303.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01400.jpg"
+      },
+      {
+        "id": "01395",
+        "nombre": "Bolsa Asurin Residuos 3.45x60 10 Un",
+        "precio": 74.1,
+        "oferta": 74.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01395.jpg"
+      },
+      {
+        "id": "01392",
+        "nombre": "Desinfectante Lysoform Original 360 Cc",
+        "precio": 162.4,
+        "oferta": 162.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01392.jpg"
+      },
+      {
+        "id": "01398",
+        "nombre": "Detergente Magistral Limón Crema 500 Ml",
+        "precio": 144.2,
+        "oferta": 144.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01398.jpg"
+      },
+      {
+        "id": "01399",
+        "nombre": "Lavandina Vim Gel Original 700 Ml",
+        "precio": 103.87,
+        "oferta": 103.87,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01399.jpg"
+      },
+      {
+        "id": "01402",
+        "nombre": "Lavavajilla Ala Cr.colag 750 Ml",
+        "precio": 72.3,
+        "oferta": 72.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01402.jpg"
+      },
+      {
+        "id": "01396",
+        "nombre": "Limpiador Cif Antigrasa 450 Ml",
+        "precio": 72.0,
+        "oferta": 72.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01396.jpg"
+      },
+      {
+        "id": "01403",
+        "nombre": "Limpiador Cif Crema 375 Cc",
+        "precio": 77.4,
+        "oferta": 77.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01403.jpg"
+      },
+      {
+        "id": "01397",
+        "nombre": "Limpiador Cif Crema Limón 750 Gr",
+        "precio": 149.3,
+        "oferta": 149.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01397.jpg"
+      },
+      {
+        "id": "01394",
+        "nombre": "Limpiador Cif Pisos Antibacterial 750 Ml",
+        "precio": 141.5,
+        "oferta": 141.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01394.jpg"
+      },
+      {
+        "id": "01401",
+        "nombre": "Limpiador Mr. Musculo Vidrios Multiuso 450 Cc",
+        "precio": 52.11,
+        "oferta": 52.11,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01401.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Limpieza en General",
+        "titulo": [
+          "Limpieza en General (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01374",
+        "nombre": "Bolsa Asurin Residuos 3.45x60 10 Un",
+        "precio": 74.1,
+        "oferta": 74.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01374.jpg"
+      },
+      {
+        "id": "01368",
+        "nombre": "Desinfectante Lysoform Original 360 Cc",
+        "precio": 162.4,
+        "oferta": 162.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01368.jpg"
+      },
+      {
+        "id": "01377",
+        "nombre": "Lavandina X-5 2 Lt",
+        "precio": 96.9,
+        "oferta": 96.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01377.jpg"
+      },
+      {
+        "id": "01369",
+        "nombre": "Lavavajilla Esencial Colágeno 750 Cc",
+        "precio": 32.0,
+        "oferta": 32.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01369.jpg"
+      },
+      {
+        "id": "01370",
+        "nombre": "Lavavajilla Esencial Limón 750 Cc",
+        "precio": 32.0,
+        "oferta": 32.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01370.jpg"
+      },
+      {
+        "id": "01375",
+        "nombre": "Limpiador Cif Antigrasa 450 Ml",
+        "precio": 72.0,
+        "oferta": 72.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01375.jpg"
+      },
+      {
+        "id": "01379",
+        "nombre": "Limpiador Cif Baño 450 Ml",
+        "precio": 66.0,
+        "oferta": 66.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01379.jpg"
+      },
+      {
+        "id": "01376",
+        "nombre": "Limpiador Cif Crema Limón 750 Gr",
+        "precio": 149.3,
+        "oferta": 149.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01376.jpg"
+      },
+      {
+        "id": "01373",
+        "nombre": "Limpiador Cif Pisos Antibacterial 750 Ml",
+        "precio": 141.5,
+        "oferta": 141.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01373.jpg"
+      },
+      {
+        "id": "01371",
+        "nombre": "Paño Task 50x55 Cm",
+        "precio": 78.0,
+        "oferta": 78.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01371.jpg"
+      },
+      {
+        "id": "01378",
+        "nombre": "Rejilla Media Naranja Doble Ref.",
+        "precio": 45.4,
+        "oferta": 45.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01378.jpg"
+      },
+      {
+        "id": "01372",
+        "nombre": "Trapo De Piso Esencial Bco.consor. 60x70 Cm",
+        "precio": 100.0,
+        "oferta": 100.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01372.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Papel Higiénico, Rollos de Cocina y Servilletas",
+        "titulo": [
+          "Papel Higiénico, Rollos de Cocina y Servilletas (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01381",
+        "nombre": "Papel Higiénico Elite Doble Hoja 4x20 Mt",
+        "precio": 90.4,
+        "oferta": 90.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01381.jpg"
+      },
+      {
+        "id": "01384",
+        "nombre": "Papel Higiénico Esencial Blanco 4x30 Mt",
+        "precio": 64.9,
+        "oferta": 64.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01384.jpg"
+      },
+      {
+        "id": "01391",
+        "nombre": "Papel Higiénico Esencial Blanco 6x30 Mt",
+        "precio": 103.86,
+        "oferta": 103.86,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01391.jpg"
+      },
+      {
+        "id": "01382",
+        "nombre": "Papel Higiénico Higienol Doble Hoja 4x30 Mt",
+        "precio": 108.9,
+        "oferta": 108.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01382.jpg"
+      },
+      {
+        "id": "01383",
+        "nombre": "Papel Higiénico Higienol Export Plus 4x30 Mt",
+        "precio": 81.3,
+        "oferta": 81.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01383.jpg"
+      },
+      {
+        "id": "01385",
+        "nombre": "Papel Higiénico Higienol Premium 4x30 Mt",
+        "precio": 135.3,
+        "oferta": 135.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01385.jpg"
+      },
+      {
+        "id": "01388",
+        "nombre": "Rollo De Cocina Elite Diseño 3x60 Un",
+        "precio": 101.4,
+        "oferta": 101.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01388.jpg"
+      },
+      {
+        "id": "01380",
+        "nombre": "Rollo De Cocina Sussex Clásico 3x50 Un.",
+        "precio": 79.9,
+        "oferta": 79.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01380.jpg"
+      },
+      {
+        "id": "01387",
+        "nombre": "Rollo De Cocina Sussex Premium 3x60 Un",
+        "precio": 102.1,
+        "oferta": 102.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01387.jpg"
+      },
+      {
+        "id": "01389",
+        "nombre": "Rollo Esencial Aluminio 5 Mt",
+        "precio": 70.9,
+        "oferta": 70.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01389.jpg"
+      },
+      {
+        "id": "01386",
+        "nombre": "Rollo Esencial Film Adherente 20 Mt",
+        "precio": 61.0,
+        "oferta": 61.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01386.jpg"
+      },
+      {
+        "id": "01390",
+        "nombre": "Servilleta Esencial Blanca 40 Un",
+        "precio": 29.8,
+        "oferta": 29.8,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01390.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 1,
+        "titulo": "Mascotas",
+        "titulo": [
+          "Mascotas (3 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01421",
+        "nombre": "Alimento De Animales Dogui Cachorro 1,5 Kg",
+        "precio": 201.4,
+        "oferta": 201.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01421.jpg"
+      },
+      {
+        "id": "01419",
+        "nombre": "Alimento De Animales Dogui Carn.veg 1,5 Gr",
+        "precio": 201.4,
+        "oferta": 201.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01419.jpg"
+      },
+      {
+        "id": "01420",
+        "nombre": "Alimento De Animales Whiskas Pescado 500 Gr",
+        "precio": 133.7,
+        "oferta": 133.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01420.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 1,
+        "titulo": "Panadería",
+        "titulo": [
+          "Panadería (9 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01030",
+        "nombre": "Pebetes Chicos X 6 Unidades",
+        "precio": 187.5,
+        "oferta": 187.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01030.jpg"
+      },
+      {
+        "id": "01028",
+        "nombre": "Pebetes Grandes X 6 Unidades",
+        "precio": 240.0,
+        "oferta": 240.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01028.jpg"
+      },
+      {
+        "id": "01029",
+        "nombre": "Pebetes Medianos X 6 Unidades",
+        "precio": 210.0,
+        "oferta": 210.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01029.jpg"
+      },
+      {
+        "id": "01027",
+        "nombre": "Porteño X Kg",
+        "precio": 180.0,
+        "oferta": 180.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01027.jpg"
+      },
+      {
+        "id": "01025",
+        "nombre": "Prepizzas X Unidad",
+        "precio": 37.5,
+        "oferta": 37.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01025.jpg"
+      },
+      {
+        "id": "01026",
+        "nombre": "Spekel X Unidad",
+        "precio": 247.5,
+        "oferta": 247.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01026.jpg"
+      },
+      {
+        "id": "01032",
+        "nombre": "Super Hamburguesas X 5 Unidades",
+        "precio": 209.25,
+        "oferta": 209.25,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01032.jpg"
+      },
+      {
+        "id": "01031",
+        "nombre": "Viena X 10 Unidades",
+        "precio": 154.0,
+        "oferta": 154.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01031.jpg"
+      },
+      {
+        "id": "01024",
+        "nombre": "Árabes X 5 Unidades",
+        "precio": 128.25,
+        "oferta": 128.25,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01024.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 1,
+        "titulo": "Perfumería"
+      },
+      {
+        "nivel": 2,
+        "titulo": "Cuidado Bucal",
+        "titulo": [
+          "Cuidado Bucal (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01287",
+        "nombre": "Cepillo Dental Colgate Extra Clean Medio 2x1",
+        "precio": 93.5,
+        "oferta": 93.5,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01287.jpg"
+      },
+      {
+        "id": "01283",
+        "nombre": "Cepillo Dental Colgate Triple Acción 2x1",
+        "precio": 124.7,
+        "oferta": 124.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01283.jpg"
+      },
+      {
+        "id": "01282",
+        "nombre": "Crema Dental Colgate Herbal Brillante Blanqueadora 90 Gr",
+        "precio": 122.0,
+        "oferta": 122.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01282.jpg"
+      },
+      {
+        "id": "01284",
+        "nombre": "Crema Dental Colgate Max Fresh Cool Mint 133 Gr",
+        "precio": 179.3,
+        "oferta": 179.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01284.jpg"
+      },
+      {
+        "id": "01285",
+        "nombre": "Crema Dental Colgate Total 140 Gr",
+        "precio": 225.9,
+        "oferta": 225.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01285.jpg"
+      },
+      {
+        "id": "01281",
+        "nombre": "Crema Dental Colgate Total 90 Gr",
+        "precio": 174.1,
+        "oferta": 174.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01281.jpg"
+      },
+      {
+        "id": "01279",
+        "nombre": "Crema Dental Colgate Triple Acción 180 Gr",
+        "precio": 276.79,
+        "oferta": 276.79,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01279.jpg"
+      },
+      {
+        "id": "01277",
+        "nombre": "Crema Dental Colgate Triple Acción Extra Blancura 90 Gr",
+        "precio": 179.3,
+        "oferta": 179.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01277.jpg"
+      },
+      {
+        "id": "01286",
+        "nombre": "Crema Dental Kolynos Super Blanco 70 Gr",
+        "precio": 83.1,
+        "oferta": 83.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01286.jpg"
+      },
+      {
+        "id": "01276",
+        "nombre": "Crema Dental Oral B Anticaries 150 Gr",
+        "precio": 163.25,
+        "oferta": 163.25,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01276.jpg"
+      },
+      {
+        "id": "01280",
+        "nombre": "Enjuague Bucal Colgate Luminous 250 Ml",
+        "precio": 243.0,
+        "oferta": 243.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01280.jpg"
+      },
+      {
+        "id": "01278",
+        "nombre": "Enjuague Bucal Listerine Cool Mint 250 Ml",
+        "precio": 272.9,
+        "oferta": 272.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01278.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Cuidado del Cabello",
+        "titulo": [
+          "Cuidado del Cabello (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01289",
+        "nombre": "Acondicionador Dove Hidratación Intensa 400 Ml",
+        "precio": 290.9,
+        "oferta": 290.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01289.jpg"
+      },
+      {
+        "id": "01295",
+        "nombre": "Acondicionador Dove Reconstrución Completa 400 Ml",
+        "precio": 290.9,
+        "oferta": 290.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01295.jpg"
+      },
+      {
+        "id": "01292",
+        "nombre": "Acondicionador Suave Manzanilla 930 Ml",
+        "precio": 114.7,
+        "oferta": 114.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01292.jpg"
+      },
+      {
+        "id": "01290",
+        "nombre": "Acondicionador Tresemme Détox Capilar 400 Ml",
+        "precio": 220.1,
+        "oferta": 220.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01290.jpg"
+      },
+      {
+        "id": "01297",
+        "nombre": "Fijador Lord Ches. Classic 280 Gr",
+        "precio": 242.1,
+        "oferta": 242.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01297.jpg"
+      },
+      {
+        "id": "01296",
+        "nombre": "Shampoo Dove Hidratación Intensa 400 Ml",
+        "precio": 290.9,
+        "oferta": 290.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01296.jpg"
+      },
+      {
+        "id": "01293",
+        "nombre": "Shampoo Dove Reconstrucción Completa 750 Ml",
+        "precio": 528.4,
+        "oferta": 528.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01293.jpg"
+      },
+      {
+        "id": "01294",
+        "nombre": "Shampoo Pantene Clásico 2 En 1 200 Cc",
+        "precio": 172.3,
+        "oferta": 172.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01294.jpg"
+      },
+      {
+        "id": "01298",
+        "nombre": "Shampoo Pantene Hidratación Intensa 400 Cc",
+        "precio": 256.1,
+        "oferta": 256.1,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01298.jpg"
+      },
+      {
+        "id": "01299",
+        "nombre": "Shampoo Pantene Max Liso Extremo 200 Cc",
+        "precio": 172.3,
+        "oferta": 172.3,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01299.jpg"
+      },
+      {
+        "id": "01291",
+        "nombre": "Shampoo Suave Manzanilla 930 Ml",
+        "precio": 114.7,
+        "oferta": 114.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01291.jpg"
+      },
+      {
+        "id": "01288",
+        "nombre": "Shampoo Tresemme Keratina 400 Ml",
+        "precio": 240.6,
+        "oferta": 240.6,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01288.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Pañales y Bebés",
+        "titulo": [
+          "Pañales y Bebés (12 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01311",
+        "nombre": "Aceite Johnsons Aloe 100 Cc",
+        "precio": 191.0,
+        "oferta": 191.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01311.jpg"
+      },
+      {
+        "id": "01310",
+        "nombre": "Aceite Johnsons Normal 200 Cc",
+        "precio": 319.7,
+        "oferta": 319.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01310.jpg"
+      },
+      {
+        "id": "01305",
+        "nombre": "Pañal Estrella Hiperpack G 44 Unidades",
+        "precio": 629.0,
+        "oferta": 629.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01305.jpg"
+      },
+      {
+        "id": "01308",
+        "nombre": "Pañal Estrella Hiperpack Xg 36 Unidades",
+        "precio": 629.0,
+        "oferta": 629.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01308.jpg"
+      },
+      {
+        "id": "01307",
+        "nombre": "Pañal Estrella Hiperpack Xxg 36 Unidades",
+        "precio": 629.0,
+        "oferta": 629.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01307.jpg"
+      },
+      {
+        "id": "01306",
+        "nombre": "Pañal Estrella Mega Pequeño 30 Unidades",
+        "precio": 329.0,
+        "oferta": 329.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01306.jpg"
+      },
+      {
+        "id": "01304",
+        "nombre": "Pañal Estrella Superpack G 68 Unidades",
+        "precio": 979.0,
+        "oferta": 979.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01304.jpg"
+      },
+      {
+        "id": "01309",
+        "nombre": "Pañal Huggies Cl.hip.xxg 34 Un",
+        "precio": 610.9,
+        "oferta": 610.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01309.jpg"
+      },
+      {
+        "id": "01300",
+        "nombre": "Pañal Pampers Con.hip.gde 44 Un",
+        "precio": 1.094,
+        "oferta": 1.094,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01300.jpg"
+      },
+      {
+        "id": "01303",
+        "nombre": "Toallitas Húmedas Q Soft Baby Aloe Vera Doy Pack 50 Un",
+        "precio": 99.0,
+        "oferta": 99.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01303.jpg"
+      },
+      {
+        "id": "01302",
+        "nombre": "Toallitas Húmedas Q Soft Premium Baby Aloe 50 Un",
+        "precio": 150.7,
+        "oferta": 150.7,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01302.jpg"
+      },
+      {
+        "id": "01301",
+        "nombre": "Toallitas Húmedas Q Soft Premium Baby Óleo Calcáreo 50 Un",
+        "precio": 170.2,
+        "oferta": 170.2,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01301.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 1,
+        "titulo": "Saludable & Fit"
+      },
+      {
+        "nivel": 2,
+        "titulo": "Bajas Calorías",
+        "titulo": [
+          "Bajas Calorías (1 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01404",
+        "nombre": "Mermelada La Campagnola Bc Frutilla 390 Gr",
+        "precio": 179.0,
+        "oferta": 179.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01404.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Bajos en Sodio",
+        "titulo": [
+          "Bajos en Sodio (1 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01405",
+        "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5 L.",
+        "precio": 51.9,
+        "oferta": 51.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01405.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Deslactosados",
+        "titulo": [
+          "Deslactosados (2 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01417",
+        "nombre": "Leche La Serenísima Uat Parc. Descremada Zero Lactosa Pet 1 L",
+        "precio": 79.9,
+        "oferta": 79.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01417.jpg"
+      },
+      {
+        "id": "01418",
+        "nombre": "Leche Nido Deslactosada 800 Gr",
+        "precio": 663.0,
+        "oferta": 663.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01418.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 2,
+        "titulo": "Libres de Glúten",
+        "titulo": [
+          "Libres de Glúten (9 unidades)"
+        ]
+      }
+    ],
+    "productos": [
+      {
+        "id": "01408",
+        "nombre": "Ají Triturado Alicante 25 Gr",
+        "precio": 33.27,
+        "oferta": 33.27,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01408.jpg"
+      },
+      {
+        "id": "01351",
+        "nombre": "Café Dolce Gusto Au Lait 160 Gr",
+        "precio": 542.0,
+        "oferta": 542.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01351.jpg"
+      },
+      {
+        "id": "01355",
+        "nombre": "Café Dolce Gusto Cappuccino 188 Gr",
+        "precio": 450.0,
+        "oferta": 450.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01355.jpg"
+      },
+      {
+        "id": "01354",
+        "nombre": "Café Dolce Gusto Espresso 96 Gr",
+        "precio": 542.0,
+        "oferta": 542.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01354.jpg"
+      },
+      {
+        "id": "01352",
+        "nombre": "Café Dolce Gusto Latte Macciato 100.8 Gr",
+        "precio": 542.0,
+        "oferta": 542.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01352.jpg"
+      },
+      {
+        "id": "01353",
+        "nombre": "Café Dolce Gusto Lungo 112 Gr",
+        "precio": 542.0,
+        "oferta": 542.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01353.jpg"
+      },
+      {
+        "id": "01350",
+        "nombre": "Jugo De Limón Minerva 250 Cc",
+        "precio": 79.96,
+        "oferta": 79.96,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01350.jpg"
+      },
+      {
+        "id": "01407",
+        "nombre": "Jugo Minerva Limón 500 Cc",
+        "precio": 137.4,
+        "oferta": 137.4,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01407.jpg"
+      },
+      {
+        "id": "01406",
+        "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana Pet 1 L",
+        "precio": 69.9,
+        "oferta": 69.9,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01406.jpg"
+      }
+    ]
+  },
+  {
+    "titulos": [
+      {
+        "nivel": 1,
+        "titulo": "Verdulería"
+      }
+    ],
+    "productos": [
+      {
+        "id": "01251",
+        "nombre": "Acelga X Kg",
+        "precio": 109.0,
+        "oferta": 109.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01251.jpg"
+      },
+      {
+        "id": "01249",
+        "nombre": "Banana X Kg",
+        "precio": 129.0,
+        "oferta": 129.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01249.jpg"
+      },
+      {
+        "id": "01242",
+        "nombre": "Cebolla De Verdeo En Paquete X 20 Ramas Aprox.",
+        "precio": 89.0,
+        "oferta": 89.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01242.jpg"
+      },
+      {
+        "id": "01245",
+        "nombre": "Limón X Kg",
+        "precio": 119.0,
+        "oferta": 119.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01245.jpg"
+      },
+      {
+        "id": "01244",
+        "nombre": "Manzana Verde X Kg.",
+        "precio": 180.0,
+        "oferta": 180.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01244.jpg"
+      },
+      {
+        "id": "01248",
+        "nombre": "Manzana X Kg",
+        "precio": 199.0,
+        "oferta": 199.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01248.jpg"
+      },
+      {
+        "id": "01246",
+        "nombre": "Naranja X Kg",
+        "precio": 69.0,
+        "oferta": 69.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01246.jpg"
+      },
+      {
+        "id": "01243",
+        "nombre": "Palta Hass Por Unidad",
+        "precio": 56.99,
+        "oferta": 56.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01243.jpg"
+      },
+      {
+        "id": "01247",
+        "nombre": "Pera X Kg",
+        "precio": 99.0,
+        "oferta": 99.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01247.jpg"
+      },
+      {
+        "id": "01240",
+        "nombre": "Perejil Por Paquete",
+        "precio": 25.0,
+        "oferta": 25.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01240.jpg"
+      },
+      {
+        "id": "01241",
+        "nombre": "Remolacha Por Kg",
+        "precio": 79.99,
+        "oferta": 79.99,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01241.jpg"
+      },
+      {
+        "id": "01250",
+        "nombre": "Rúcula X Kg",
+        "precio": 129.0,
+        "oferta": 129.0,
+        "variacion": 0.0,
+        "url_imagen": "fotos/01250.jpg"
+      }
+    ]
+  }
 ]
