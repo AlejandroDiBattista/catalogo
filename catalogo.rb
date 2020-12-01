@@ -198,7 +198,7 @@ class Catalogo
 	class << self 
 		def leer(base, posicion=0)
 			origen = listar(base, :productos)[posicion]
-        	puts ">> #{origen}"
+        	# puts ">> #{origen}"
         	tmp = new(base, Archivo.leer(origen))
         	tmp -= tmp.filtrar(&:error?)
 		end
