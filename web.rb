@@ -440,7 +440,7 @@ end
 
 
 if __FILE__ == $0
-	bajar_todo true
-	limpiar_errores
+	# bajar_todo true
+	# limpiar_errores
 	limpiar_fotos
 end
