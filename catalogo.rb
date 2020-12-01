@@ -229,8 +229,12 @@ class Catalogo
 end
 
 if __FILE__ == $0
-	Catalogo.eliminar_errores(:jumbo)
-	Catalogo.eliminar_errores(:tatito)
-	Catalogo.eliminar_errores(:maxiconsumo)
-	Catalogo.eliminar_errores(:micarrito)
+	puts Archivo.ubicar(:publicar, :jumbo, :fotos, 'catalogo.html')
+	Archivo.borrar_fotos(:publicar, :jumbo)
+	
+	Archivo.borrar_fotos(:jumbo)
+	# Catalogo.eliminar_errores(:jumbo)
+	# Catalogo.eliminar_errores(:tatito)
+	# Catalogo.eliminar_errores(:maxiconsumo)
+	# Catalogo.eliminar_errores(:micarrito)
 end

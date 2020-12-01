@@ -43,25 +43,29 @@ def generar_paginas
 	
 		template = open('catalogo.erb').read
 		renderer = ERB.new(template)
-		output = renderer.result(binding)
+		output   = renderer.result(binding)
 
-		Archivo.copiar('catalogo.css', Archivo.ubicar(supermercado, "catalogo.css"))
-		Archivo.copiar('catalogo.css', "C:/Users/administrator/Documents/GitHub/vecinosyb/docs/#{supermercado}/catalogo.css")
-		Archivo.copiar("#{supermercado}/catalogo.html", "C:/Users/administrator/Documents/GitHub/vecinosyb/docs/#{supermercado}/catalogo.html")
+		Archivo.copiar('catalogo.css', [supermercado, 'catalogo.css'])
+		Archivo.escribir_txt(output, [supermercado, 'catalogo.html'])
+
+		#Copiar Paginas
+		Archivo.copiar([supermercado, 'catalogo.*'], [:publicar, supermercado])
 		
-		Archivo.escribir_txt(output, [supermercado, "catalogo.html"])
-		# open("#{supermercado}/catalogo.html",'w+'){|f|f.write output}
+		# Copiar Fotos 
+		Archivo.borrar_fotos :publicar, supermercado
+		Archivo.copiar [supermercado, :fotos, '*.jpg'], [:publicar, supermercado, :fotos] 
 	end
 end
 
-Catalogo.leer(:jumbo).resumir
-Catalogo.leer(:tatito).resumir
-Catalogo.leer(:tuchanguito).resumir
+# Catalogo.leer(:jumbo).resumir
+# Catalogo.leer(:tatito).resumir
+# Catalogo.leer(:tuchanguito).resumir
 
-# generar_paginas
+# Archivo.copiar [:tatito, :fotos, '*.jpg'], [:publicar, :tatito, :fotos]
+generar_paginas
 # Archivo.borrar_fotos(:tatito)
 # analizar :tatito , cambios: true
-arroz(:jumbo, :tatito, :tuchanguito, periodo: :semana)
+# arroz(:jumbo, :tatito, :tuchanguito, periodo: :semana)
 return
 # Catalogo.leer(:maxiconsumo).resumir
 # return 

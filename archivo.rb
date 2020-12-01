@@ -6,14 +6,27 @@ require_relative 'utils'
 require 'json'
 
 module Archivo
+	Publicar = 'C:/Users/administrator/Documents/GitHub/vecinosyb/docs' 
+	
+	def nombre(*camino)
+		origen = ubicar(camino)
+		File.basename(origen, ".*")
+	end
+
+	def extension(*camino)
+		origen = ubicar(camino)
+		File.extname(origen).gsub('.','')
+	end
 
 	def ubicar(*camino)
 		camino = [camino].flatten
 		if fecha = (TrueClass === camino.last)
 			camino.pop 
 		end
+		camino[0] = Dir.pwd if camino.first == '.'
+		camino[0] = Publicar if camino.first == :publicar
 		camino = camino.map(&:to_s).join("/")
-		camino = "#{camino}.dsv" unless camino[/\.\w+/]
+		
 		camino = camino.sub(".", Time.now.strftime("_%F.")) if fecha
 		camino
 	end
@@ -21,15 +34,22 @@ module Archivo
 	def listar(*camino)
 		camino = [camino].flatten.map(&:to_s).join("/")
 		camino = "#{camino}*.dsv" unless camino["."]
-		lista = Dir[camino].sort
+		lista  = Dir[camino].sort
 		
-		lista.each{|x| yield x} if block_given? 
+		lista  = lista.select{|x| yield x} if block_given? 
+		lista 
+	end
+
+	def listar_fotos(*camino)
+		origen = ubicar(camino + [:fotos, '*.jpg'])
+		lista  = Dir[origen].sort
+		lista  = lista.select{|x| yield Archivo.nombre(x)} if block_given? 
 		lista 
 	end
 
 	def leer(*camino)
 		origen = ubicar(*camino)
-		csv  = CSV.open(origen, :col_sep => "|")
+		csv    = CSV.open(origen, :col_sep => "|")
 		campos = csv.shift.map(&:to_key)
 		datos  = csv.map{|valores| Hash(campos, valores) }.normalizar
 		datos.each{|item|yield(item)} if block_given?
@@ -107,25 +127,40 @@ module Archivo
 		end
 	end
 
-	def borrar_fotos(*camino)
-		origen = ubicar(camino + [:fotos, '*.jpg'])
-		listar(origen){|x|borrar x}
-	end
-
-	def copiar(origen, destino)
-		puts "O> #{origen} => D>#{destino}"
-		begin
-			FileUtils.cp origen, destino
-		rescue
-			false
+	def borrar(*camino)
+		listar(ubicar(camino)) do |origen|
+			begin
+				File.delete(origen)
+			rescue
+				false				
+			end
 		end
 	end
 
-	def borrar(destino)
-		begin
-			File.delete(destino)
-		rescue
-			false				
+	def borrar_fotos(*camino)
+		borrar ubicar(camino, :fotos, '*.jpg')
+	end
+
+	def borrar_carpeta(*camino)
+		borrar ubicar(camino, '*.*')
+	end
+
+	def copiar(origenes, destino)
+		origenes = ubicar(origenes)
+		origen   = "#{origen}/*.*" unless origenes["*"]
+		# pp origenes
+		
+		# pp destino
+		destino  = ubicar(destino)
+		# pp destino
+
+		listar(origenes) do |origen|
+			begin
+				# puts origen
+				FileUtils.cp origen, destino
+			rescue
+				false
+			end
 		end
 	end
 	
@@ -137,6 +172,7 @@ module Archivo
 				Nokogiri::HTML(URI.open(url))
 			end
 		rescue 
+			nil
 		end
 	end
 
@@ -151,27 +187,19 @@ end
 include Archivo
 
 if __FILE__ == $0 
+	# Archivo.borrar_fotos :publicar, :jumbo
+	# p origen  = ubicar(:jumbo, :productos)
+	# p destino = ubicar(:jumbo, :productos, true)
 
-	p origen  = ubicar(:jumbo, :productos)
-	p destino = ubicar(:jumbo, :productos, true)
-
-	[:jumbo, :tatito, :maxiconsumo].each do |base| 
-		Archivo.listar(base, :productos) do |origen|
-			Archivo.limpiar(origen)
-		end
-	end
-
-	# Archivo.preservar(:jumbo, :productos)
-	# Archivo.preservar(:tatito, :productos)
 	# Archivo.preservar(:maxiconsumo, :productos)
 
 	# Archivo.limpiar(:jumbo, :productos)
 	# Archivo.limpiar(:tatito, :productos)
 	# Archivo.limpiar(:maxiconsumo, :productos)
 
-	# pp listar("jumbo/productos")
-	# pp listar("tatito/productos")
-	# pp listar("maxiconsumo/productos")
+	pp listar('jumbo/productos')
+	pp listar(:tatito, :productos)
+	pp listar('maxiconsumo/productos')
 end
 
 # Archivo.listar(:maxiconsumo, :productos){|o| Archivo.limpiar(o)}

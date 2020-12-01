@@ -9,7 +9,7 @@ class Web
 
 	def bajar_todo(regenerar=true)
 		destino = [carpeta, :productos]
-		puts "BAJANDO todos los datos de #{carpeta.upcase}".green
+		puts "BAJANDO todos los datos de #{carpeta.upcase}".pad(50).yellow.on_green
 		
 		puts " ► Bajando clasificacion...".cyan
 		clasificacion = bajar_clasificaciones()
@@ -17,7 +17,7 @@ class Web
 		puts " ► Bajando productos... (#{clasificacion.count})".cyan
 		productos = bajar_clasificacion(clasificacion).compact
 		puts "    Se bajaron #{productos.count} productos".green
-		Archivo.escribir(productos, destino)
+		# Archivo.escribir(productos, destino)
 
 		puts " ► Completando ID...".cyan
 		completar_id(destino, regenerar)
@@ -26,7 +26,7 @@ class Web
 		Archivo.borrar_fotos(carpeta) if regenerar
 		bajar_imagenes()
 
-		Archivo.preservar(destino)
+		# Archivo.preservar(destino)
 
 		puts "FIN.".green
 		puts
@@ -48,6 +48,12 @@ class Web
 		listar(carpeta, :productos).procesar do |origen|
         	Archivo.procesar(origen){|producto| !producto.nombre.vacio? }
 		end
+	end
+
+	def limpiar_fotos
+		ids   = Archivo.leer(carpeta, :productos).map(&:id)
+		fotos = Archivo.listar_fotos(carpeta){|id| !ids.include?(id) }
+		fotos.procesar{|origen| Archivo.borrar(origen) }
 	end
 
 	def bajar_productos(pagina, rubro)
@@ -79,9 +85,23 @@ class Web
 				productos << { url_imagen: producto.url_imagen, id: producto.id } 
 			end
 		end
-		productos = productos.uniq.select{|producto| (forzar || !File.exist?( foto(producto.id ))) && !producto.url_imagen.vacio? }
+
+		# ids = productos.map(&:id)
+		# fotos = Archivo.listar_fotos(carpeta)
+		# borrar = fotos.select{|n| ! ids.find{|x|x == Archivo.nombre(n)}}
+		# puts "IDs"
+		# pp ids.first(10)
+		# puts "Fotos"
+		# pp fotos.first(10)
+		# puts "Borrar"
+		# pp borrar.first(10)
+
+		bajar = productos.uniq.select{|producto| (forzar || !File.exist?( foto(producto.id ))) && !producto.url_imagen.vacio? }
+		# bajar = bajar.first(100)
+		# puts "Hay que borrar #{borrar.count}, Hay que bajar #{bajar.count}"
 		puts "Bajando #{productos.count} imagenes"
-		productos.procesar do |producto|
+		
+		bajar.procesar do |producto|
 			origen  = ubicar(:imagen, producto.url_imagen)
 			destino = foto(producto.id)
 			Archivo.bajar(origen, destino, forzar)
@@ -394,23 +414,33 @@ class TuChanguito < Web
 	end
 end
 
-def limpiar_errores
-	puts "Limpiando errores".on_green.yellow
-	Jumbo.new.limpiar_errores
-	TuChanguito.new.limpiar_errores
-	Tatito.new.limpiar_errores
-	Maxiconsumo.new.limpiar_errores
-end
-
 def bajar_todo(regenerar=false)
-	puts "Bajando datos".on_green.yellow
+	puts "Bajando datos".pad(100).white.on_red
 	Jumbo.new.bajar_todo regenerar
 	TuChanguito.new.bajar_todo regenerar
 	Tatito.new.bajar_todo regenerar
 	Maxiconsumo.new.bajar_todo regenerar
 end	
 
+def limpiar_errores
+	puts "Limpiando errores".pad(50).on_green.yellow
+	Jumbo.new.limpiar_errores
+	TuChanguito.new.limpiar_errores
+	Tatito.new.limpiar_errores
+	Maxiconsumo.new.limpiar_errores
+end
+
+def limpiar_fotos
+	puts "Limpiando Fotos".pad(50).on_green.yellow
+	Jumbo.new.limpiar_fotos
+	TuChanguito.new.limpiar_fotos
+	Tatito.new.limpiar_fotos
+	Maxiconsumo.new.limpiar_fotos
+end
+
+
 if __FILE__ == $0
-	bajar_todo 
+	bajar_todo true
 	limpiar_errores
+	limpiar_fotos
 end
