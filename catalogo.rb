@@ -5,20 +5,20 @@ require_relative 'producto'
 # require_relative 'catalogo'
 
 class Catalogo
-	attr_accessor :base, :datos, :productos, :ordenados 
 	include Enumerable 
+	attr_accessor :base, :datos, :productos, :ordenados 
 	
 	def initialize(base, productos=[])
 		@base, @datos, @productos, @ordenados = base, {}, [], false 
 		agregar(productos)
 	end
 
-	def escribir(tipo = :dsv)
-		Archivo.escribir(to_a, [base, "productos.#{tipo}"])
+	def escribir(tipo: :dsv)
+		Archivo.escribir(self, [base, "productos.#{tipo}"])
 	end
 
 	def guardar()
-		Archivo.escribir_json(map(&:to_h), "#{base}/catalogo.json")
+		Archivo.escribir(self, [base, 'catalogo.json'])
 	end
 	
 	def agregar(*items, fecha: nil)
@@ -198,14 +198,13 @@ class Catalogo
 	class << self 
 		def leer(base, posicion=0)
 			origen = listar(base, :productos)[posicion]
-        	puts ">> #{origen}"
         	tmp = new(base, Archivo.leer(origen))
         	tmp -= tmp.filtrar(&:error?)
 		end
 
 		def analizar(base, dias=1, verboso=false)
 			for d in 2..dias
-				nuevo = Catalogo.leer(base, -d+1)
+				nuevo = Catalogo.leer(base, -d + 1)
 				viejo = Catalogo.leer(base, -d)
 				print "#{d} dia  "
 				nuevo.comparar(viejo, verboso)
@@ -222,7 +221,7 @@ class Catalogo
 			Archivo.listar(base, :productos)[1..-1].each do |origen|
 				fecha = origen.to_fecha
 				productos.agregar(Archivo.leer(origen), fecha: fecha)
-				productos.each{|producto|producto.actualizar(fecha)}
+				productos.each{|producto| producto.actualizar(fecha) }
 			end
 			productos
     	end

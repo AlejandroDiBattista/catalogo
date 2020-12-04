@@ -7,7 +7,6 @@ require 'erb'
 
 def analizar(supermercado, filtro: '', periodo: :semana, cambios: true, verboso: false )
 	t = Catalogo.leer(supermercado)
-	# t -= t.filtrar(&:error?)
 	periodo = 30 if Symbol === periodo && :mes    === periodo 
 	periodo =  7 if Symbol === periodo && :semana === periodo  
 	t.comparar(periodo) if periodo
@@ -16,41 +15,32 @@ def analizar(supermercado, filtro: '', periodo: :semana, cambios: true, verboso:
 end
 
 def arroz(*supermercados, periodo: :semana)
-	puts "Analisis de variacion de precio del Arroz al #{Date.today} (perido: #{periodo})".on_red.white
+	puts "Analisis de variacion de precio del Arroz al #{Date.today} (perido: #{periodo})".titulo
 	supermercados.each do |supermercado|
 		analizar supermercado, filtro: 'arroz gallo /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo', periodo: periodo
 	end
 end
-
-# def generar_pagina(supermercado)
-# 	productos = Catalogo.leer(supermercado).generar_datos
-
-# 	renderer = ERB.new(template)
-# 	output = renderer.result()
-# 	open("#{supermercado}.html",'w+'){|f|f.write output}
-# end
 
 def generar_paginas(publicar: false)
 	productos, supermercado = [], "" 
 
 	[:tatito, :tuchanguito, :maxiconsumo, :jumbo].each do |aux|
 		supermercado = aux 
-		puts " > Generando [#{supermercado}]  ".pad(50).on_yellow.blue
+		puts " > Generando [#{supermercado}]  ".titulo(50)
 
 		productos = Catalogo.leer(supermercado).generar_datos
-		# pp productos.first
 		# productos = Catalogo.cargar_todo(supermercado).activos.generar_datos
-		Archivo.escribir_json(productos, "#{supermercado}/productos.json")
+		Archivo.escribir(productos, [supermercado, 'productos.json'])
 	
 		template = open('catalogo.erb').read
 		renderer = ERB.new(template)
 		output   = renderer.result(binding)
 
 		Archivo.copiar('catalogo.css', [supermercado, 'catalogo.css'])
-		Archivo.escribir_txt(output, [supermercado, 'catalogo.html'])
+		Archivo.escribir(output, [supermercado, 'catalogo.html'])
 
 		if publicar 
-			#Copiar Pagina
+			# Copiar Pagina
 			Archivo.copiar([supermercado, 'catalogo.*'], [:publicar, supermercado])
 			
 			# Sincronizar Fotos 
@@ -74,7 +64,7 @@ return
 # return 
 
 PARSE_NOMBRE = /(.{3,})\sx?\s?([0-9.,]+)\s?(\w+)\.?/i
-# [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre|	Catalogo.analizar(nombre, 7) }
+# [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre| Catalogo.analizar(nombre, 7) }
 # [:tatito, :maxiconsumo, :jumbo, :tuchanguito].each{|nombre| Catalogo.leer(nombre).filtrar{|x| !x.error? }.escribir}
 
 t = Catalogo.leer(:jumbo)

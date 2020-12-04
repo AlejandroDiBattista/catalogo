@@ -1,20 +1,21 @@
-$stdout.sync = true
-
 require 'parallel'
 require 'colorize'
 require 'date'
 
+$stdout.sync = true
+$semaphore = Mutex.new
+
 def Hash(campos, valores=nil)
-	campos = campos.map(&:to_sym).zip(valores) if valores
+	campos = campos.map(&:to_key).zip(valores) if valores
 	Hash[campos]
 end
 
 class Hash 
 	def method_missing(meth, *args, &blk)
-		if meth["="]
-			self[meth[0..-2]] = args
+		if meth['=']
+			self[meth.to_key] = args
 		else
-			self[meth]
+			self[meth.to_key]
 		end
 	end
 
@@ -47,25 +48,29 @@ class Array
 		return if count == 0
 		campos = first.keys
 		anchos = campos.map{|campo| map{|x| x[campo].to_s.size }.max}
-		puts ("▶  "+campos.zip(anchos).map{|campo, ancho| (campo.to_s.upcase + " " * ancho)[0...ancho]}.join("  ")).yellow
+		puts ('▶  '+campos.zip(anchos).map{|campo, ancho| (campo.to_s.upcase + ' ' * ancho)[0...ancho]}.join('  ')).yellow
 		each do |x|
-			puts " • ".green + x.values.zip(anchos).map{|valor, ancho| (valor.to_s + " " * ancho)[0...ancho]}.join("  ")
+			puts ' • '.green + x.values.zip(anchos).map{|valor, ancho| (valor.to_s + ' ' * ancho)[0...ancho]}.join('  ')
 		end
-		puts "■"
+		puts '■'
 	end
 
-	def listar(titulo="Listado", maximo=10)
+	def listar(titulo: 'Listado', maximo: 10)
 		return if count == 0
 		maximo ||= count
 		puts "#{titulo} (#{count})"
-		puts "▶ %-60s %7s | %-80s" % ["Nombre", "Precio", "Rubro"]
-		a = first(1)
-		first(maximo).each{|x| puts " • %-60s %7.2f | %-80s | %s | %s %s" % [x.nombre[0...60], x.precio.to_f, x.rubro, x.id, (x.anterior > 0 ? ("%7.2f" % x.anterior) : ""), (x.anterior > 0 ? ("%7.2f" % (x.precio - x.anterior)) : "")]}
-		puts "■"
+		puts '▶ %-60s %7s | %-80s' % ['Nombre', 'Precio', 'Rubro']
+		first(maximo).each do |x|
+			anterior  = x.anterior
+			variacion = x.anterior.vacio? ? 0 : x.precio - x.anterior 
+				   
+			puts ' • %-60s %7.2f | %-80s | %s | %s %s' % [x.nombre.pad(60), x.precio.to_f, x.rubro, x.id, anterior.to_precio(false), variacion.to_precio(false)]
+		end
+		puts '■'
 	end
 
 	def to_rubro
-		compact.map(&:strip).select{|x| x.size > 1 }.join(" > ")
+		compact.map(&:strip).select{|x| x.size > 1 }.join(' > ')
 	end
 end
 
@@ -126,8 +131,8 @@ class Integer
 		(self / 100.0).to_f.to_porcentaje
 	end
 	
-	def to_precio
-		to_f.to_precio
+	def to_precio(vacio: true)
+		to_f.to_precio(vacio)
 	end
 end 
 
@@ -137,34 +142,42 @@ class Float
 	end
 
 	def to_porcentaje
-		"%3.0f%%" % [100.0 * self]
+		'%3.0f%%' % [100.0 * self]
 	end
 
-	def to_precio
-		"%6.2f" % self 
+	def to_precio(vacio: true)
+		return '' if !vacio && vacio?
+		'%7.2f' % self 
 	end
 end
 
 module Enumerable
+	def vacio?
+		compact.count == 0 
+	end
+
 	def normalizar
 		map(&:normalizar)
 	end
 
 	def ranking
+		datos = block_given? ? map{|x| yield x} : clone 
+
 		suma = Hash.new
 		suma.default = 0
-		each{ |valor| suma[valor] += 1  }
+		datos.each{|valor| suma[valor] += 1  }
 		suma.to_a.sort_by(&:last).reverse
 	end
 
 	def repetidos
-		suma = Hash.new
-		suma.default = 0
-		each{ |valor| suma[yield(valor)] += 1  }
-		suma.select{|valor| suma[yield(valor)] > 2}
+		datos = block_given? ? map{|x| yield x} : clone 
+		
+		suma = Hash.new{0}
+		datos.each{|valor| suma[valor] += 1 }
+		suma.select{|_, value| value > 1 }
 	end
 
-	def procesar(hilos=50)
+	def procesar(hilos = 50)
 		salida = []
 		progreso = Progreso.new 
 		Parallel.each(to_a, in_threads: hilos) do |item|
@@ -174,10 +187,6 @@ module Enumerable
 		end
 		progreso.finalizar
 		salida
-	end
-
-	def vacio?
-		count == 0 
 	end
 end
 
@@ -209,89 +218,93 @@ class String
 	def limpiar_nombre
 		espacios.
 			gsub(/\(\w+\)/,'').
-			gsub(/[()]/,'')
-			.split.map(&:capitalize).join(' ')
+			gsub(/[()]/,'').
+			split(' ').
+			map(&:capitalize).
+			join(' ')
 	end
 
 	def pad(ancho)
-		"#{self[0...ancho]}#{" " * (ancho - self.size)}" 
+		"#{self[0...ancho]}#{' ' * (ancho - self.size)}" 
 	end
 end
 
-$semaphore = Mutex.new
 class Progreso
-	attr_accessor :cuenta , :inicio
+	attr_accessor :inicio, :cuenta
 
 	def initialize
 		self.cuenta = 0 
 		self.inicio = Time.new
-		print "  ► "
+		print '  ► '
 	end
 
 	def avanzar(correcto=true)
 		$semaphore.synchronize  do 
-			print correcto.nil? ? "●".yellow : (correcto ? "●".green : "●".red) #○
-			self.cuenta += 1 
-			print " "  if self.cuenta % 10 == 0 
-			print "  " if self.cuenta % 50 == 0
+			self.cuenta += 1
+
+			print correcto.nil? ? '●'.yellow : (correcto ? '●'.green : '●'.red)
+			print ' '  if self.cuenta % 10 == 0 
+			print '  ' if self.cuenta % 50 == 0
 			puts if self.cuenta %  100 == 0
 			puts if self.cuenta %  500 == 0
 			puts if self.cuenta % 1000 == 0
 			puts if self.cuenta % 5000 == 0
-			print "    " if self.cuenta % 100 == 0
+			print '    ' if self.cuenta % 100 == 0
 		end
 	end
 
 	def finalizar
 		puts unless self.cuenta % 100 == 0
-		puts "  ◄ %4.1f" % (Time.new - inicio) 
+		puts '  ◄ %4.1f' % (Time.new - inicio) 
+	end
+end
+
+class String #Gestion de colores
+	def titulo(ancho: 50)
+		pad(ancho).yellow.on_green
+	end
+	
+	def subtitulo
+		cyan
+	end
+end
+
+$nivel = 0 
+module Kernel
+	attr_accessor :nivel
+	alias :puts_anterior :puts 
+
+	def tab(tipo=nil, *valores)
+		if tipo.nil?
+			print "#{'  ' * $nivel} "
+			puts_anterior *valores if valores.size > 0
+		else 
+			$nivel -= 1 if !tipo 
+			print "#{'  ' * $nivel} #{ tipo ? '►' : '▪' } "
+			puts_anterior *valores if valores.size > 0
+			$nivel += 1 if  tipo  
+		end
+	end 
+	
+	def puts(*valores)
+		if block_given?
+			tab true, *valores
+			yield
+			tab false, ""
+		else 
+			tab nil, *valores	
+		end 
 	end
 end
 
 if __FILE__ == $0 
-	puts nil
-	puts nil.class 
-	puts nil.vacio?
-    return 
-	a,b ="algo".scan(/([-+:<>|])?(.*)/).first
-	p a
-	p b 
-	return 
-	a = Hash([:x, "y", "z"], [10, 20, 40])
-	b = Hash([[:a, 100], [:b, 200]])
-
-	c = {"m" => 1000, "n" => 2000}
-	p a 
-	p b 
-
-	p c 
-	p c.normalizar
-	p c 
-
-	p a.valores(:x, :y)
-
-	p "$12,23".to_money
-
-	p [1,2,3].include?(2)
-	p [1,2,3].include?(5)
-	# pp (({"a" => 1 , {"b" => 2, "c" => [3, {"d" => 4}]}).normalizar)
-	puts "as/12121.jpg".to_num
-	
-	a = "$ 62,80"
-	p a.to_money
-	p [1,2].class
-	# p [{x:10, y:"0000"},{x:"100000", y: 2}].tabular
-	a = [1, 1, 2, 2, 5, 6, 7, 8].sort
-	p a
-	# p a.select{|x| a.count(x) > 1}
-	p a.repetidos{|x|x}
-	p "c0.-1212a  ".to_sku
-	
-	p '-'*100
-	pp
-	( a="Almacén > Aceites y Vinagres")
-	pp( b = a.from_rubro )
-	pp( b.to_rubro)
-	
+	puts "Esto es muy bueno"
+	puts "Hola Mundo" do 
+		puts "Algo" do 
+			puts "va a"
+			puts "pasar"
+		end
+		puts "Lindo"
+	end
 end
 

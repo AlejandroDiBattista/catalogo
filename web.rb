@@ -1,32 +1,29 @@
 require 'nokogiri'
-require 'JSON'
-require 'open-uri'
+
 require_relative 'utils'
 require_relative 'archivo'
 
 class Web
 	attr_accessor :id_actual 
 
-	def bajar_todo(regenerar=true)
+	def bajar_todo(regenerar:true, grabar: true)
 		destino = [carpeta, 'productos.dsv']
-		puts "BAJANDO todos los datos de #{carpeta.upcase}".pad(50).yellow.on_green
+		puts "BAJANDO todos los datos de #{carpeta.upcase}".titulo(ancho: 50)
 		
-		puts " ► Bajando clasificacion...".cyan
+		puts " ► Bajando clasificacion...".subtitulo
 		clasificacion = bajar_clasificaciones()
 
-		puts " ► Bajando productos... (#{clasificacion.count})".cyan
+		puts " ► Bajando productos... (#{clasificacion.count})".subtitulo
 		productos = bajar_clasificacion(clasificacion).compact
 		puts "    Se bajaron #{productos.count} productos".green
-		# Archivo.escribir(productos, destino)
 
-		puts " ► Completando ID...".cyan
+		puts " ► Completando ID...".subtitulo
 		completar_id(destino, regenerar)
 		
-		puts " ► Bajando imagenes...".cyan
+		puts " ► Bajando imagenes...".subtitulo
 		Archivo.borrar_fotos(carpeta) if regenerar
 		bajar_imagenes()
 
-		# Archivo.preservar(destino)
 
 		puts "FIN.".green
 		puts
@@ -86,19 +83,7 @@ class Web
 			end
 		end
 
-		# ids = productos.map(&:id)
-		# fotos = Archivo.listar_fotos(carpeta)
-		# borrar = fotos.select{|n| ! ids.find{|x|x == Archivo.nombre(n)}}
-		# puts "IDs"
-		# pp ids.first(10)
-		# puts "Fotos"
-		# pp fotos.first(10)
-		# puts "Borrar"
-		# pp borrar.first(10)
-
 		bajar = productos.uniq.select{|producto| (forzar || !File.exist?( foto(producto.id ))) && !producto.url_imagen.vacio? }
-		# bajar = bajar.first(100)
-		# puts "Hay que borrar #{borrar.count}, Hay que bajar #{bajar.count}"
 		puts "Bajando #{productos.count} imagenes"
 		
 		bajar.procesar do |producto|
@@ -110,6 +95,7 @@ class Web
 
 	def ubicar(modo = :clasificacion, url = nil)
 		return url if url && url[/^http/i]
+
 		base = get_url[modo]
 		base = "#{get_url[:base]}#{base}" if base[/^\//]
 		base = base.gsub('*', url || '|')
@@ -202,8 +188,8 @@ class Web
 		end
 
 		def leer
-			base = new.carpeta 
-			Archivo.leer("#{base}/productos.dsv")
+			base = new.carpeta
+			Archivo.leer(base, 'productos.dsv')
 		end
 	end
 end
@@ -417,7 +403,7 @@ class TuChanguito < Web
 end
 
 def bajar_todo(regenerar=false)
-	puts "Bajando datos".pad(100).white.on_red
+	puts "Bajando datos".titulo
 	Jumbo.new.bajar_todo regenerar
 	TuChanguito.new.bajar_todo regenerar
 	Tatito.new.bajar_todo regenerar
@@ -425,7 +411,7 @@ def bajar_todo(regenerar=false)
 end	
 
 def limpiar_errores
-	puts "Limpiando errores".pad(50).on_green.yellow
+	puts "Limpiando errores".titulo
 	Jumbo.new.limpiar_errores
 	TuChanguito.new.limpiar_errores
 	Tatito.new.limpiar_errores
@@ -433,7 +419,7 @@ def limpiar_errores
 end
 
 def limpiar_fotos
-	puts "Limpiando Fotos".pad(50).on_green.yellow
+	puts "Limpiando Fotos".titulo
 	Jumbo.new.limpiar_fotos
 	TuChanguito.new.limpiar_fotos
 	Tatito.new.limpiar_fotos

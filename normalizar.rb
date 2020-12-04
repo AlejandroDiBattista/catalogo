@@ -31,6 +31,24 @@ class String
 	end
 end
 
+# class String
+# 	def separar
+# 		strip.scan(/^(.{2,})\s(\d+.*)$/)
+# 	end
+	
+# 	def unidad
+# 		strip
+# 			.gsub(/([a-zñ]+)\.\s*/i,"\\1 ")
+# 			.gsub(/([0-9.]+)([^0-9]*)/, "\\1 \\2")
+# 			.gsub(/\bG\b/,"GR")
+# 			.gsub(/\bGRS\b/,"GR")
+# 			.gsub(/\bL\b/,"LT")
+# 			.gsub(/\s+/," ")
+# 			.strip
+# 	end
+# end
+
+
 a = "Cera Líquida Para Madera Suiza-roble Oscuro-tradicional-bot"
 
 x = "bot"
