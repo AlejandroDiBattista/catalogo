@@ -60,6 +60,7 @@ generar_paginas publicar: true
 # analizar :tatito , cambios: true
 # arroz(:jumbo, :tatito, :tuchanguito, periodo: :semana)
 return
+
 # Catalogo.leer(:maxiconsumo).resumir
 # return 
 
@@ -75,6 +76,7 @@ t = Catalogo.leer(:jumbo)
 t.filtrar(&:vario?).listar_productos 'jugo de limón'
 # t.resumir
 return
+
 nombres = t.map(&:nombre).uniq.sort
 # pp nombres.select{|x|x['(']}
 # return

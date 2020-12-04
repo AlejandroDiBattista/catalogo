@@ -284,13 +284,7 @@ module Kernel
 	$continuar = true 
 
 	def indent(aumentar)
-		if block_given?
-			indent true 
-			yield 
-			indent false 
-		else
-			$nivel += aumentar ? +1 : -1
-		end
+		$nivel += aumentar ? +1 : -1
 	end
 
 	def print(*valores)
