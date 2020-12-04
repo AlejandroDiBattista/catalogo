@@ -3,7 +3,6 @@ require 'open-uri'
 require 'csv'
 require 'json'
 require 'colorize'
-
 require_relative 'utils'
 
 module Archivo
@@ -46,18 +45,18 @@ module Archivo
 	end
 
 	def leer(*camino)
-		origen = ubicar(*camino)
+		origen = ubicar(camino)
 		separador = extension(origen) == :dsv ? '|' : ';' 
 		csv    = CSV.open(origen, :col_sep => separador)
 		campos = csv.shift.map(&:to_key)
-		datos  = csv.map{|valores| Hash(campos, valores) }.normalizar
-		datos.each{|item| yield(item) } if block_given?
-		datos
+		datos = csv.map{|valores| Hash(campos, valores) }.normalizar
+		datos = datos.map{|item| yield(item) } if block_given?
+		datos.compact
 	end
 
 	def escribir(datos, *camino)
-		datos = datos.map(&:to_hash)
 		destino = ubicar(camino)
+		datos = datos.map(&:to_hash)
 
 		case extension(destino)
 			when :txt, :html
@@ -70,7 +69,7 @@ module Archivo
 				end
 			when :dsv, :csv 
 				campos = datos.map(&:keys).flatten.uniq.sort
-				separador = extencion(destino) == :dsv ? '|' : ';'
+				separador = extension(destino) == :dsv ? '|' : ';'
 				CSV.open(destino, 'w+', :col_sep => separador) do |csv|
 					csv << campos.map(&:to_key)
 					datos.each{|valores| csv << campos.map{|campo| valores[campo] } }
@@ -85,15 +84,14 @@ module Archivo
 	end
 
 	def procesar(*camino)
-		origen = ubicar(*camino)
-		datos = leer(origen)
+		datos = leer(camino)
 		datos = datos.select{|item| yield(item) }
 		escribir(datos, origen)
 	end
 
 	def listar(*camino)
 		origen = ubicar(camino)
-		origen = "#{origen}/*.dsv" unless extension(camino)
+		origen = "#{origen}*.dsv" unless extension(camino)
 		lista  = Dir[origen].sort
 		
 		block_given? ? lista.select{|item| yield item } : lista   
@@ -114,8 +112,6 @@ module Archivo
 			if forzar || !File.exist?(destino)
 				URI.open(origen, 'rb'){|f|  File.open(destino, 'wb'){|file| file.puts(f.read) }} 
 				true
-			else
-				nil
 			end
 		rescue 
 			false
@@ -124,11 +120,7 @@ module Archivo
 
 	def borrar(*camino)
 		listar(camino) do |origen|
-			begin
-				File.delete(origen)
-			rescue
-				false				
-			end
+			File.delete(origen) if File.exist?(destino)
 		end
 	end
 
@@ -161,7 +153,7 @@ end
 
 include Archivo
 
-if __FILE__ == $0 
+if __FILE__ == $0
 	p Archivo.extension("ale.jan")
 	# Archivo.borrar_fotos :publicar, :jumbo
 	# p origen  = ubicar(:jumbo, :productos)

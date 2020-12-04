@@ -6,27 +6,26 @@ require_relative 'archivo'
 class Web
 	attr_accessor :id_actual 
 
-	def bajar_todo(regenerar:true, grabar: true)
+	def bajar_todo(regenerar = true, grabar = true)
 		destino = [carpeta, 'productos.dsv']
-		puts "BAJANDO todos los datos de #{carpeta.upcase}".titulo(ancho: 50)
+		puts " BAJANDO todos los datos de #{carpeta.upcase}".titulo(ancho: 50) do 
 		
-		puts " ► Bajando clasificacion...".subtitulo
-		clasificacion = bajar_clasificaciones()
+			puts " ► Bajando clasificacion... ".subtitulo 
+			clasificacion = bajar_clasificaciones()			
 
-		puts " ► Bajando productos... (#{clasificacion.count})".subtitulo
-		productos = bajar_clasificacion(clasificacion).compact
-		puts "    Se bajaron #{productos.count} productos".green
+			puts " ► Bajando productos... (#{clasificacion.count}) ".subtitulo 
+			productos = bajar_clasificacion(clasificacion).compact
+			puts "    Se bajaron #{productos.count} productos ".green
 
-		puts " ► Completando ID...".subtitulo
-		completar_id(destino, regenerar)
-		
-		puts " ► Bajando imagenes...".subtitulo
-		Archivo.borrar_fotos(carpeta) if regenerar
-		bajar_imagenes()
+			puts " ► Completando ID... ".subtitulo 
+			completar_id(destino, regenerar)
 
+			puts " ► Bajando imagenes... ".subtitulo 
+			Archivo.borrar_fotos(carpeta) if regenerar
+			bajar_imagenes()
 
-		puts "FIN.".green
-		puts
+			puts "FIN.".green
+		end
 		self
 	end
 
@@ -42,7 +41,7 @@ class Web
 	end
 
 	def limpiar_errores
-		listar(carpeta, :productos).procesar do |origen|
+		Archivo.listar(carpeta, :productos).each do |origen|
         	Archivo.procesar(origen){|producto| !producto.nombre.vacio? }
 		end
 	end
@@ -50,7 +49,7 @@ class Web
 	def limpiar_fotos
 		ids   = Archivo.leer(carpeta, :productos).map(&:id)
 		fotos = Archivo.listar_fotos(carpeta){|id| !ids.include?(id) }
-		fotos.procesar{|origen| Archivo.borrar(origen) }
+		fotos.each{|origen| Archivo.borrar(origen) }
 	end
 
 	def bajar_productos(pagina, rubro)
@@ -104,12 +103,12 @@ class Web
 
 	def acortar(url)
 		[:imagen, :clasificacion, :productos, :producto].each do |modo|
-			ubicar(modo).split('|').each{|x| url = url.gsub(x,'') }
+			ubicar(modo).split('|').each{|x| url = url.gsub(x, '') }
 		end
 		url 
 	end
 
-	def completar_id(destino, regenerar=false)
+	def completar_id(destino, regenerar = false)
 		datos = {}
 
 		Archivo.listar(carpeta, :productos).procesar do |origen|
@@ -125,7 +124,6 @@ class Web
 				end
 			end
 		else
-			puts "Completar_id: #{destino}"
 			Archivo.procesar(destino) do |producto| 
 				producto[:id] = datos[key(producto)]
 			end
@@ -198,7 +196,7 @@ class Jumbo < Web
 	Tamaño = 512
 
 	def get_url
-		{base: 'https://www.jumbo.com.ar', clasificacion: '/api/catalog_system/pub/category/tree/3', productos: '/*?PS=99', producto: '/*/p', imagen: 'https://jumboargentina.vteximg.com.br/arquivos/ids/*'}
+		{ base: 'https://www.jumbo.com.ar', clasificacion: '/api/catalog_system/pub/category/tree/3', productos: '/*?PS=99', producto: '/*/p', imagen: 'https://jumboargentina.vteximg.com.br/arquivos/ids/*' }
 	end
 
 	def incluir(item)
@@ -225,7 +223,7 @@ class Jumbo < Web
 	end
 
 	def nombre(item)
-		item.css(".product-item__name a").text
+		item.css('.product-item__name a').text
 	end
 
 	def precio(item)
@@ -238,14 +236,14 @@ class Jumbo < Web
 
 	def imagen(item)
 		url = extraer_img(item.css('.product-item__image-link img'))
-		url = url && url.split("/")[0]
-		url = url && "#{url.split("-").first}-#{Tamaño}-#{Tamaño}" 
+		url = url && url.split('/')[0]
+		url = url && "#{url.split('-').first}-#{Tamaño}-#{Tamaño}" 
 	end
 end
 
 class Tatito < Web
 	def get_url
-		 {base: 'http://tatito.com.ar', clasificacion: '/tienda', productos: '/tienda/?filters=product_cat*', producto: '/producto/*', imagen: '/wp-content/uploads/*'}
+		 { base: 'http://tatito.com.ar', clasificacion: '/tienda', productos: '/tienda/?filters=product_cat*', producto: '/producto/*', imagen: '/wp-content/uploads/*' }
 	end
 
 	def bajar_clasificaciones 
@@ -253,11 +251,11 @@ class Tatito < Web
 		rubros = [nil, nil]
 		Archivo.abrir(url) do |pagina|
 			return pagina.css('select option').map do |x|
-				rubro = x.text.gsub("\u00A0"," ").gsub("\u00E9","é").strip 
+				rubro = x.text.gsub("\u00A0", ' ').gsub("\u00E9", 'é').strip 
 
-				nivel = rubro[0..0] == "-" ? 1 : 0
-				rubros[nivel] = rubro.gsub(/^-\s*/,'')
-				id = x["value"]
+				nivel = rubro[0..0] == '-' ? 1 : 0
+				rubros[nivel] = rubro.gsub(/^-\s*/, '')
+				id = x['value']
 				nivel == 1 ?  { rubro: rubros.to_rubro, url: "[#{id}]" } : nil 
 			end.compact
 		end
@@ -268,7 +266,7 @@ class Tatito < Web
 	end
 
 	def nombre(item)
-		item.css(".titulo_producto a").text
+		item.css('.titulo_producto a').text
 	end
 
 	def precio(item)
@@ -283,7 +281,7 @@ class Tatito < Web
 		item.css('.precio_mayor_cont').each_with_index do |x, i|
 			if i + 1 == indice then
 				cantidad, precio = *x.text.split('$')
-				return "%s,%1.2f" % [cantidad.gsub(/\D/,'').to_i, precio.to_money]
+				return '%s,%1.2f' % [cantidad.gsub(/\D/,'').to_i, precio.to_money]
 			end
 		end
 		return nil 
@@ -326,8 +324,8 @@ class Maxiconsumo < Web
 	end
 
 	def incluir(item)
-		validos = ["Perfumeria", "Fiambreria", "Comestibles", "Bebidas Con Alcohol", "Bebidas Sin Alcohol", "Limpieza"]
-		departamento = item.rubro.split(">").first.strip
+		validos = ['Perfumeria', 'Fiambreria', 'Comestibles', 'Bebidas Con Alcohol', 'Bebidas Sin Alcohol', 'Limpieza']
+		departamento = item.rubro.split('>').first.strip
 		validos.include?(departamento)	
 	end
 
@@ -385,7 +383,7 @@ class TuChanguito < Web
 	end
 
 	def nombre(item)
-		item.css("div.item-name").text.espacios
+		item.css('div.item-name').text.espacios
 	end
 
 	def precio(item)
@@ -403,32 +401,34 @@ class TuChanguito < Web
 end
 
 def bajar_todo(regenerar=false)
-	puts "Bajando datos".titulo
-	Jumbo.new.bajar_todo regenerar
-	TuChanguito.new.bajar_todo regenerar
-	Tatito.new.bajar_todo regenerar
-	Maxiconsumo.new.bajar_todo regenerar
+	puts ' Bajando datos '.titulo do 
+		Tatito.new.bajar_todo regenerar
+		Jumbo.new.bajar_todo regenerar
+		TuChanguito.new.bajar_todo regenerar
+		Maxiconsumo.new.bajar_todo regenerar
+	end
 end	
 
 def limpiar_errores
-	puts "Limpiando errores".titulo
-	Jumbo.new.limpiar_errores
-	TuChanguito.new.limpiar_errores
-	Tatito.new.limpiar_errores
-	Maxiconsumo.new.limpiar_errores
+	puts ' Limpiando errores '.titulo do 
+		Tatito.new.limpiar_errores
+		Jumbo.new.limpiar_errores
+		TuChanguito.new.limpiar_errores
+		Maxiconsumo.new.limpiar_errores
+	end
 end
 
 def limpiar_fotos
-	puts "Limpiando Fotos".titulo
-	Jumbo.new.limpiar_fotos
-	TuChanguito.new.limpiar_fotos
-	Tatito.new.limpiar_fotos
-	Maxiconsumo.new.limpiar_fotos
+	puts ' Limpiando Fotos '.titulo do 
+		Tatito.new.limpiar_fotos
+		Jumbo.new.limpiar_fotos
+		TuChanguito.new.limpiar_fotos
+		Maxiconsumo.new.limpiar_fotos
+	end
 end
 
-
 if __FILE__ == $0
-	bajar_todo false
+	# bajar_todo false
 	limpiar_errores
 	# limpiar_fotos
 end

@@ -235,7 +235,8 @@ class Progreso
 	def initialize
 		self.cuenta = 0 
 		self.inicio = Time.new
-		print '  ► '
+		indent true 
+		print ' ► '
 	end
 
 	def avanzar(correcto=true)
@@ -255,13 +256,14 @@ class Progreso
 
 	def finalizar
 		puts unless self.cuenta % 100 == 0
-		puts '  ◄ %4.1f' % (Time.new - inicio) 
+		puts ' ◄ %4.1f ' % (Time.new - inicio) 
+		indent false 
 	end
 end
 
 class String #Gestion de colores
-	def titulo(ancho: 50)
-		pad(ancho).yellow.on_green
+	def titulo(ancho: 100)
+		pad(ancho).black.on_green
 	end
 	
 	def subtitulo
@@ -269,42 +271,52 @@ class String #Gestion de colores
 	end
 end
 
-$nivel = 0 
 module Kernel
-	attr_accessor :nivel
-	alias :puts_anterior :puts 
+	alias :puts_  :puts
+	alias :print_ :print
 
-	def tab(tipo=nil, *valores)
-		if tipo.nil?
-			print "#{'  ' * $nivel} "
-			puts_anterior *valores if valores.size > 0
-		else 
-			$nivel -= 1 if !tipo 
-			print "#{'  ' * $nivel} #{ tipo ? '►' : '▪' } "
-			puts_anterior *valores if valores.size > 0
-			$nivel += 1 if  tipo  
+	$tab   = '·   '
+	$nivel = 0
+	$continuar = true 
+
+	def indent(aumentar)
+		if block_given?
+			indent true 
+			yield 
+			indent false 
+		else
+			$nivel += aumentar ? +1 : -1
 		end
-	end 
+	end
+
+	def print(*valores)
+		print_( $tab * $nivel ) unless $continuar 
+		print_(*valores)
+		$continuar = true 
+	end
 	
 	def puts(*valores)
+		print_( $tab * $nivel ) unless $continuar 
+		puts_( valores.join(' ') )
 		if block_given?
-			tab true, *valores
+			indent true
 			yield
-			tab false, ""
-		else 
-			tab nil, *valores	
-		end 
+			indent false 
+		end
+		$continuar = false 
 	end
 end
 
-if __FILE__ == $0 
+if __FILE__ == $0
 	puts "Esto es muy bueno"
 	puts "Hola Mundo" do 
 		puts "Algo" do 
 			puts "va a"
-			puts "pasar"
+			puts "pasar", "Dos"
+			print "nuevo"
+			print " intento", "doble"
+			puts " a"
 		end
 		puts "Lindo"
 	end
 end
-
