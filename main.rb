@@ -22,11 +22,11 @@ def arroz(*supermercados, periodo: :semana)
 end
 
 def generar_paginas(publicar: false)
-	productos, supermercado = [], "" 
+	productos, supermercado = [], '' 
 
 	[:tatito, :tuchanguito, :maxiconsumo, :jumbo].each do |aux|
 		supermercado = aux 
-		puts " > Generando [#{supermercado}]  ".titulo(50)
+		puts " > Generando [#{supermercado}]  ".titulo
 
 		productos = Catalogo.leer(supermercado).generar_datos
 		# productos = Catalogo.cargar_todo(supermercado).activos.generar_datos
@@ -41,10 +41,10 @@ def generar_paginas(publicar: false)
 
 		if publicar 
 			# Copiar Pagina
-			Archivo.copiar([supermercado, 'catalogo.*'], [:publicar, supermercado])
+			Archivo.copiar [supermercado, 'catalogo.*'], [:publicar, supermercado] 
 			
 			# Sincronizar Fotos 
-			Archivo.borrar_fotos :publicar, supermercado
+			Archivo.borrar :publicar, supermercado, :fotos, '*.jpg'
 			Archivo.copiar [supermercado, :fotos, '*.jpg'], [:publicar, supermercado, :fotos] 
 		end
 	end

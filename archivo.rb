@@ -56,24 +56,24 @@ module Archivo
 
 	def escribir(datos, *camino)
 		destino = ubicar(camino)
-		datos = datos.map(&:to_hash)
+		datos = datos.map(&:to_hash) unless String === datos
 
 		case extension(destino)
-			when :txt, :html
-				open(destino, 'w+') do |f|
-					f.write datos
-				end
-			when :json 
-				open(destino, 'w+') do |f|
-					f.write JSON.pretty_generate(datos)
-				end
-			when :dsv, :csv 
-				campos = datos.map(&:keys).flatten.uniq.sort
-				separador = extension(destino) == :dsv ? '|' : ';'
-				CSV.open(destino, 'w+', :col_sep => separador) do |csv|
-					csv << campos.map(&:to_key)
-					datos.each{|valores| csv << campos.map{|campo| valores[campo] } }
-				end
+		when :txt, :html
+			open(destino, 'w+') do |f|
+				f.write datos
+			end
+		when :json
+			open(destino, 'w+') do |f|
+				f.write JSON.pretty_generate(datos)
+			end
+		when :dsv, :csv
+			campos = datos.map(&:keys).flatten.uniq.sort
+			separador = extension(destino) == :dsv ? '|' : ';'
+			CSV.open(destino, 'w+', :col_sep => separador) do |csv|
+				csv << campos.map(&:to_key)
+				datos.each{|valores| csv << campos.map{|campo| valores[campo] } }
+			end
 		end
 		datos 
 	end
@@ -119,13 +119,16 @@ module Archivo
 	end
 
 	def borrar(*camino)
-		listar(camino) do |origen|
-			File.delete(origen) if File.exist?(destino)
+		listar(camino).procesar do |origen|
+			begin
+				if File.exist?(origen)
+					File.delete(origen)
+					true
+				end				
+			rescue
+				false
+			end
 		end
-	end
-
-	def borrar_fotos(*camino)
-		borrar camino, :fotos, '*.jpg'
 	end
 
 	def copiar(origenes, destino)
@@ -134,7 +137,7 @@ module Archivo
 		
 		destino  = ubicar(destino)
 
-		listar(origenes) do |origen|
+		listar(origenes).procesar do |origen|
 			begin
 				FileUtils.cp origen, ubicar(destino, "#{nombre(origen)}.#{extension(origen)}")
 			rescue

@@ -236,7 +236,7 @@ class Progreso
 		self.cuenta = 0 
 		self.inicio = Time.new
 		indent true 
-		print ' ► '
+		print ' ►  '
 	end
 
 	def avanzar(correcto=true)
