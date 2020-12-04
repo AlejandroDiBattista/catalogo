@@ -60,16 +60,12 @@ class Web
 					id: '',
 					nombre: nombre(x), 
 					rubro: rubro,
-					precio: precio(x), 
-					precio_1: oferta(x, 1),
-					precio_2: oferta(x, 2),
-					precio_3: oferta(x, 3),
-					url_producto: producto(x), 
-					url_imagen:  imagen(x),
+					precio: precio(x), precio_1: oferta(x, 1), precio_2: oferta(x, 2), precio_3: oferta(x, 3),
+					url_producto: producto(x), url_imagen:  imagen(x),
 				}
 			end
 		rescue Exception => e
-			puts "ERROR #{e}".red
+			puts " ERROR #{e} ".error
 		end
 		nuevos.compact
 	end
@@ -428,7 +424,7 @@ def limpiar_fotos
 end
 
 if __FILE__ == $0
-	# bajar_todo false
+	bajar_todo true
 	limpiar_errores
 	# limpiar_fotos
 end

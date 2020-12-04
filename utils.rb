@@ -262,12 +262,16 @@ class Progreso
 end
 
 class String #Gestion de colores
-	def titulo(ancho: 100)
+	def titulo(ancho = 100)
 		pad(ancho).black.on_green
 	end
 	
 	def subtitulo
-		cyan
+		white.on_cyan
+	end
+	
+	def error
+		yellow.on_red
 	end
 end
 

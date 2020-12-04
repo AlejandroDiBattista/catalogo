@@ -26,7 +26,7 @@ def generar_paginas(publicar: false)
 
 	[:tatito, :tuchanguito, :maxiconsumo, :jumbo].each do |aux|
 		supermercado = aux 
-		puts " > Generando [#{supermercado}]  ".titulo
+		puts " > Generando [#{supermercado}] ".titulo(120)
 
 		productos = Catalogo.leer(supermercado).generar_datos
 		# productos = Catalogo.cargar_todo(supermercado).activos.generar_datos
@@ -40,7 +40,7 @@ def generar_paginas(publicar: false)
 		Archivo.escribir(output, [supermercado, 'catalogo.html'])
 
 		if publicar 
-			# Copiar Pagina
+			# Copiar Página
 			Archivo.copiar [supermercado, 'catalogo.*'], [:publicar, supermercado] 
 			
 			# Sincronizar Fotos 
