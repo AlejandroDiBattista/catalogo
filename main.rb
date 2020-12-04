@@ -15,7 +15,7 @@ def analizar(supermercado, filtro: '', periodo: :semana, cambios: true, verboso:
 end
 
 def arroz(*supermercados, periodo: :semana)
-	puts "Analisis de variacion de precio del Arroz al #{Date.today} (perido: #{periodo})".titulo
+	puts "Analisis de variacion de precio del Arroz al #{Date.today} (perido: #{periodo})".pad(120).titulo
 	supermercados.each do |supermercado|
 		analizar supermercado, filtro: 'arroz gallo /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo', periodo: periodo
 	end
@@ -26,7 +26,7 @@ def generar_paginas(publicar: false)
 
 	[:tatito, :tuchanguito, :maxiconsumo, :jumbo].each do |aux|
 		supermercado = aux 
-		puts " > Generando [#{supermercado}] ".titulo(120)
+		puts " > Generando [#{supermercado}] ".pad(120).titulo
 
 		productos = Catalogo.leer(supermercado).generar_datos
 		# productos = Catalogo.cargar_todo(supermercado).activos.generar_datos
