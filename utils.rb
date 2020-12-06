@@ -160,34 +160,45 @@ module Enumerable
 		map(&:normalizar)
 	end
 
-	def ranking
-		datos = block_given? ? map{|x| yield x} : clone 
+	def contar
+		return map{|x| yield x}.contar    if block_given?
+		suma = Hash.new{0}
+		each{|valor| suma[valor] += 1 }
+		suma
+	end
 
-		suma = Hash.new
-		suma.default = 0
-		datos.each{|valor| suma[valor] += 1  }
-		suma.to_a.sort_by(&:last).reverse
+	def ranking
+		return map{|x| yield x}.ranking   if block_given?
+		contar.to_a.sort_by(&:last).reverse
 	end
 
 	def repetidos
-		datos = block_given? ? map{|x| yield x} : clone 
+		return map{|x| yield x}.repetidos if block_given?
+		contar.select{|_, value| value > 1 }
+	end
+
+	def promedio(&b)
+		return 0 if (n = count) == 0
 		
-		suma = Hash.new{0}
-		datos.each{|valor| suma[valor] += 1 }
-		suma.select{|_, value| value > 1 }
+		if block_given?
+			sum(&b) / n 
+		else
+			sum / n
+		end
 	end
 
 	def procesar(hilos = 50)
 		salida = []
-		progreso = Progreso.new 
-		Parallel.each(to_a, in_threads: hilos) do |item|
-			resultado = yield(item)
-			progreso.avanzar(resultado)
-			salida << resultado
+		Progreso.new do |progreso| 
+			Parallel.each(to_a, in_threads: hilos) do |item|
+				resultado = yield(item)
+				progreso.avanzar(resultado)
+				salida << resultado
+			end
 		end
-		progreso.finalizar
 		salida
 	end
+
 end
 
 class String
@@ -237,6 +248,10 @@ class Progreso
 		self.inicio = Time.new
 		indent true 
 		print ' ►  '
+		if block_given?
+			yield self 
+			finalizar
+		end
 	end
 
 	def avanzar(correcto=true)
@@ -281,7 +296,7 @@ module Kernel
 
 	$tab   = '·   '
 	$nivel = 0
-	$continuar = true 
+	$continuar = false 
 
 	def indent(aumentar)
 		$nivel += aumentar ? +1 : -1
@@ -289,7 +304,7 @@ module Kernel
 
 	def print(*valores)
 		print_( $tab * $nivel ) unless $continuar 
-		print_(*valores)
+		print_( *valores )
 		$continuar = true 
 	end
 	

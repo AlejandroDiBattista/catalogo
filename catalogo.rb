@@ -2,7 +2,6 @@ require_relative 'utils'
 require_relative 'archivo'
 require_relative 'web'
 require_relative 'producto'
-# require_relative 'catalogo'
 
 class Catalogo
 	include Enumerable 
@@ -68,21 +67,6 @@ class Catalogo
 		map(&:nombre).uniq.sort 
 	end
 
-	def precio_promedio
-		return 0 if (n = count) == 0
-		sum(&:precio) / n
-	end
-
-	def precio_promedio_oferta
-		return 0 if (n = count) == 0
-		sum(&:precio_oferta) / n
-	end
-
-	def variacion_promedio
-		return 0 if (n = count) == 0
-		sum(&:variacion) / n
-	end
-
 	def categorias
 		map(&:categoria).uniq.sort 
 	end
@@ -90,7 +74,19 @@ class Catalogo
 	def rubros
 		map(&:rubro).uniq.sort 
 	end
-	
+
+	def precio_promedio
+		promedio(&:precio)
+	end
+
+	def precio_promedio_oferta
+		promedio(&:precio_oferta) 
+	end
+
+	def variacion_promedio
+		promedio(&:variacion)
+	end
+
 	def analizar_cambios(otro, verboso)
 		altas = self - otro
 		bajas = otro - self
@@ -154,7 +150,7 @@ class Catalogo
 	end
 
     def generar_datos
-      salida   = []
+      salida = []
 		anterior = []
         sort_by{|x|[x.rubro, x.nombre]}.each do |x|
 			actual = x.rubro.from_rubro
@@ -175,7 +171,7 @@ class Catalogo
         salida
 	end
 
-	def comparar(dias=7)
+	def comparar(dias = 7)
 		referencia = Catalogo.leer(base, -dias)
 		each do |actual|
 			if anterior = referencia.buscar(actual)
@@ -198,7 +194,7 @@ class Catalogo
 	class << self 
 		def leer(base, posicion=0)
 			origen = listar(base, :productos)[posicion]
-        	tmp = new(base, Archivo.leer(origen))
+        	tmp  = new(base, Archivo.leer(origen))
         	tmp -= tmp.filtrar(&:error?)
 		end
 
