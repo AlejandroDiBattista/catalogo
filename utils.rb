@@ -282,7 +282,7 @@ class String #Gestion de colores
 	end
 	
 	def subtitulo
-		black.on_cyan
+		white.on_cyan
 	end
 	
 	def error

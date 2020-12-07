@@ -84,16 +84,14 @@ module Archivo
 	end
 
 	def procesar(*camino)
-		origen = ubicar(camino)
-		datos = leer(origen)
+		datos = leer(camino)
 		datos = datos.select{|item| yield(item) }
 		escribir(datos, origen)
 	end
 
 	def listar(*camino)
 		origen = ubicar(camino)
-		origen = "#{origen}*.dsv" unless extension(origen)
-		puts origen 
+		origen = "#{origen}*.dsv" unless extension(camino)
 		lista  = Dir[origen].sort
 		
 		block_given? ? lista.select{|item| yield item } : lista   
@@ -160,6 +158,7 @@ include Archivo
 
 if __FILE__ == $0
 	p Archivo.extension("ale.jan")
+	# Archivo.borrar_fotos :publicar, :jumbo
 	# p origen  = ubicar(:jumbo, :productos)
 	# p destino = ubicar(:jumbo, :productos, true)
 
