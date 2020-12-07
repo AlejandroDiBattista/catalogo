@@ -8,7 +8,7 @@ class Web
 
 	def bajar_todo(regenerar = true, grabar = true)
 		destino = [carpeta, 'productos.dsv']
-		puts " BAJANDO todos los datos de #{carpeta.upcase}".titulo(ancho: 50) do 
+		puts " BAJANDO todos los datos de #{carpeta.upcase}".pad(50).titulo do 
 		
 			puts " ► Bajando clasificacion... ".subtitulo 
 			clasificacion = bajar_clasificaciones()			
@@ -21,7 +21,7 @@ class Web
 			completar_id(destino, regenerar)
 
 			puts " ► Bajando imagenes... ".subtitulo 
-			Archivo.borrar_fotos(carpeta) if regenerar
+			Archivo.borrar(carpeta, :fotos, '*.jpg') if regenerar
 			bajar_imagenes()
 
 			puts "FIN.".green

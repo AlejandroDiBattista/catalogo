@@ -226,9 +226,8 @@ end
 
 if __FILE__ == $0
 	puts Archivo.ubicar(:publicar, :jumbo, :fotos, 'catalogo.html')
-	Archivo.borrar_fotos(:publicar, :jumbo)
 	
-	Archivo.borrar_fotos(:jumbo)
+	# Archivo.borrar(:jumbo, :fotos, '*.jpg')
 	# Catalogo.eliminar_errores(:jumbo)
 	# Catalogo.eliminar_errores(:tatito)
 	# Catalogo.eliminar_errores(:maxiconsumo)
