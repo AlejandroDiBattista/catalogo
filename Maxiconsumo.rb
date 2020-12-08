@@ -2,9 +2,11 @@ class Maxiconsumo < Web
 	#imagen: 		'/catalog/product/view/id/',
 	# http://maxiconsumo.com/sucursal_capital/catalog/product/view/id
 	def get_url 
-		{ base:'http://www.maxiconsumo.com/sucursal_capital', clasificacion: '/', productos: '/*', producto: '/catalog/product/view/id/*?product_list_limit=96', imagen: 'http://maxiconsumo.com/pub/media/catalog/product/cache/*'}
+		{ base:'http://www.maxiconsumo.com/sucursal_capital', clasificacion: '/', productos: '/*', 
+		  producto: 'http://maxiconsumo.com/sucursal_capital/catalog/product/view/id/*?product_list_limit=96', 
+		  imagen: 'http://maxiconsumo.com/pub/media/catalog/product/cache/*'}
 	end
-	http://maxiconsumo.com/sucursal_capital/catalog/product/view/
+	# http://maxiconsumo.com/sucursal_capital/catalog/product/view/
 	def get_selector
 		{ productos: '.product-item-info', nombre: 'a.product-item-link', precio: '.price', producto: 'a.product-item-link',}
 	end

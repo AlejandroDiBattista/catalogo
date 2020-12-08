@@ -214,7 +214,7 @@ class Catalogo
 
 		def cargar_todo(base)
 			productos = new(base)
-			Archivo.listar(base, :productos)[1..-1].each do |origen|
+			Archivo.listar(base, :productos, '.dsv')[1..-1].each do |origen|
 				fecha = origen.to_fecha
 				productos.agregar(Archivo.leer(origen), fecha: fecha)
 				productos.each{|producto| producto.actualizar(fecha) }

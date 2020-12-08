@@ -49,8 +49,8 @@ class Array
 		campos = first.keys
 		anchos = campos.map{|campo| map{|x| x[campo].to_s.size }.max}
 		puts ('▶  '+campos.zip(anchos).map{|campo, ancho| (campo.to_s.upcase + ' ' * ancho)[0...ancho]}.join('  ')).yellow
-		each do |x|
-			puts ' • '.green + x.values.zip(anchos).map{|valor, ancho| (valor.to_s + ' ' * ancho)[0...ancho]}.join('  ')
+		each.with_index do |x, i|
+			puts ' • '.blue + ('%3i' % (i+1)) + x.values.zip(anchos).map{|valor, ancho| (valor.to_s + ' ' * ancho)[0...ancho]}.join('  ')
 		end
 		puts '■'
 	end
@@ -252,7 +252,7 @@ class Progreso
 		self.cuenta = 0 
 		self.inicio = Time.new
 		indent true 
-		print '▶  '
+		print '▶   '
 		if block_given?
 			yield self 
 			finalizar
@@ -287,11 +287,15 @@ class String #Gestion de colores
 	end
 	
 	def subtitulo
-		white.on_cyan
+		black.on_cyan
 	end
 	
 	def error
 		yellow.on_red
+	end
+
+	def debug
+		red.on_yellow
 	end
 end
 

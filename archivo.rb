@@ -86,26 +86,25 @@ module Archivo
 	def procesar(*camino)
 		datos = leer(camino)
 		datos = datos.select{|item| yield(item) }
-		escribir(datos, origen)
+		escribir(datos, camino)
 	end
 
 	def listar(*camino)
-		origen = ubicar(camino)
-		origen = "#{origen}*.dsv" unless extension(camino)
+		origen = ubicar(camino).gsub('/.', '/*.').gsub(/\.$/, '.*')
 		lista  = Dir[origen].sort
 		
 		block_given? ? lista.select{|item| yield item } : lista   
 	end
 
 	def listar_fotos(*camino)
-		listar(camino, :fotos, '*.jpg'){|origen| yield origen }
+		listar(camino, :fotos, '.jpg'){|origen| yield origen }
 	end
 	
 	def limpiar(*camino)
 		procesar(*camino){|producto| producto[:id] = 0; true }
 	end
 
-	def bajar(origen, destino, forzar=false)
+	def bajar(origen, destino, forzar = false)
 		destino = ubicar(destino) 
 		destino += File.extname(origen) unless extension(destino)
 		begin
@@ -133,7 +132,7 @@ module Archivo
 
 	def copiar(origenes, destino)
 		origenes = ubicar(origenes)
-		origenes = "#{origenes}/*.*" unless origenes['*']
+		origenes += "/*.*" unless origenes['*']
 		
 		destino  = ubicar(destino)
 

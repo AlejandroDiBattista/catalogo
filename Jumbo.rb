@@ -2,11 +2,18 @@ class Jumbo < Web
 	Tamaño = 512
 
 	def get_url
-		{ base: 'https://www.jumbo.com.ar', clasificacion: '/api/catalog_system/pub/category/tree/3', productos: '/*?PS=99', producto: '/*/p', imagen: 'https://jumboargentina.vteximg.com.br/arquivos/ids/*',}
+		{ base: 'https://www.jumbo.com.ar', clasificacion: '/api/catalog_system/pub/category/tree/3', productos: '/*?PS=199', producto: '/*/p', 
+			imagen: 'https://jumboargentina.vteximg.com.br/arquivos/ids/*', }
+			
 	end
 
 	def get_selector
-		{ productos: 'product-shelf li', nombre: '.product-item__name a', precio: '.product-prices__value--best-price', producto: '.product-item__name a'}
+		{ productos: '.product-shelf li', 
+			nombre: '.product-item__name > a', 
+			marca: '.product-item__brand',
+			precio: '.product-prices__value--best-price', 
+			precio_unitario: '.product-prices__price--price-per-unit',
+			producto: '.product-item__name a'}
 	end
 
 	def incluir(item)
@@ -29,9 +36,14 @@ class Jumbo < Web
 	end
 
 	def imagen(item)
-		if url = extraer_img(item.css('.product-item__image-link img'))
-			url = url.split('/').first.split('-').first
-			"#{url}-#{Tamaño}-#{Tamaño}"
+		# return nil 
+		
+		if item = item.css('.product-item__image-link img')
+			if url = extraer_img(item)
+				url = url.split('/').first if url
+				url = url.split('-').first if url 
+				url && "#{url}-#{Tamaño}-#{Tamaño}" 
+			end
 		end
 	end
 end
