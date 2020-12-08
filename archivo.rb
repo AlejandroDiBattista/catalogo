@@ -145,7 +145,6 @@ module Archivo
 			end
 		end
 	end
-
 end
 
 module Enumerable

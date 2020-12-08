@@ -58,15 +58,16 @@ class Array
 	def listar(titulo: 'Listado', maximo: 10)
 		return if count == 0
 		maximo ||= count
-		puts "#{titulo} (#{count})"
-		puts '▶ %-60s %7s | %-80s' % ['Nombre', 'Precio', 'Rubro']
-		first(maximo).each do |x|
-			anterior  = x.anterior
-			variacion = x.anterior.vacio? ? 0 : x.precio - x.anterior 
-				   
-			puts ' • %-60s %7.2f | %-80s | %s | %s %s' % [x.nombre.pad(60), x.precio.to_f, x.rubro, x.id, anterior.to_precio(false), variacion.to_precio(false)]
+		puts "#{titulo} (#{count})" do 
+			puts '▶ %-60s %7s | %-80s' % ['Nombre', 'Precio', 'Rubro']
+			first(maximo).each do |x|
+				anterior  = x.anterior
+				variacion = x.anterior.vacio? ? 0 : x.precio - x.anterior 
+					
+				puts ' • %-60s %7.2f | %-80s | %s | %s %s' % [x.nombre.pad(60), x.precio.to_f, x.rubro, x.id, anterior.to_precio(false), variacion.to_precio(false)]
+			end
+			puts '■'
 		end
-		puts '■'
 	end
 
 	def to_rubro
@@ -154,6 +155,10 @@ end
 module Enumerable
 	def vacio?
 		compact.count == 0 
+	end
+
+	def to_key
+		map(&:to_key).join('-')
 	end
 
 	def normalizar
@@ -247,7 +252,7 @@ class Progreso
 		self.cuenta = 0 
 		self.inicio = Time.new
 		indent true 
-		print ' ►  '
+		print '▶  '
 		if block_given?
 			yield self 
 			finalizar
@@ -271,7 +276,7 @@ class Progreso
 
 	def finalizar
 		puts unless self.cuenta % 100 == 0
-		puts ' ◄ %4.1f ' % (Time.new - inicio) 
+		puts '■ %4.1fs ' % (Time.new - inicio) 
 		indent false 
 	end
 end
@@ -294,9 +299,22 @@ module Kernel
 	alias :puts_  :puts
 	alias :print_ :print
 
-	$tab   = '·   '
+	$tab   = '  '
 	$nivel = 0
-	$continuar = false 
+	$continuar  = false 
+	$mediciones = []
+
+	def avanzar(correcto=true)
+		$mediciones.last.avanzar(correcto)
+	end
+
+	def medir(titulo)
+		puts titulo do 
+			$mediciones << Progreso.new
+			yield $mediciones.last 
+			$mediciones.pop.finalizar
+		end
+	end
 
 	def indent(aumentar)
 		$nivel += aumentar ? +1 : -1
