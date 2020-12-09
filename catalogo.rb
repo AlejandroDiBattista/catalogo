@@ -116,10 +116,10 @@ class Catalogo
 
 	def resumir(nivel=nil, n=1)
 		if !nivel 
-			puts "  RESUMEN [#{@base.capitalize}]                                                                          ".yellow.on_red
+			puts " RESUMEN [#{@base.capitalize}]                                                                          ".yellow.on_red
 			nivel, n = "Productos", 1
 		end
-		puts ("%s%-88s   %4i   $ %6.2f" % ["  " * n, nivel, count, precio_promedio]).colorize([:green, :yellow, :cyan, :white][n-1])
+		puts("%s%-88s   %4i   $ %6.2f" % ["  " * n, nivel, count, precio_promedio]).colorize([:green, :yellow, :cyan, :white][n-1])
 
 		map{|x| x.nivel(n) }.compact.uniq.each do |nivel|
 			filtrar{|x| x.nivel(n) == nivel}.resumir(nivel.last, n + 1)
@@ -202,7 +202,7 @@ class Catalogo
 			for d in 2..dias
 				nuevo = Catalogo.leer(base, -d + 1)
 				viejo = Catalogo.leer(base, -d)
-				print "#{d} dia  "
+				print "#{d} dia "
 				nuevo.comparar(viejo, verboso)
 			end
 			nuevo = Catalogo.leer(base, -1)
@@ -214,7 +214,8 @@ class Catalogo
 
 		def cargar_todo(base)
 			productos = new(base)
-			Archivo.listar(base, :productos, '.dsv')[1..-1].each do |origen|
+			Archivo.listar(base, 'productos*.dsv')[1..-1].each do |origen|
+				puts origen
 				fecha = origen.to_fecha
 				productos.agregar(Archivo.leer(origen), fecha: fecha)
 				productos.each{|producto| producto.actualizar(fecha) }
@@ -225,12 +226,6 @@ class Catalogo
 end
 
 if __FILE__ == $0
-	puts Archivo.ubicar(:publicar, :jumbo, :fotos, 'catalogo.html')
-	Archivo.borrar_fotos(:publicar, :jumbo)
-	
-	Archivo.borrar_fotos(:jumbo)
-	# Catalogo.eliminar_errores(:jumbo)
-	# Catalogo.eliminar_errores(:tatito)
-	# Catalogo.eliminar_errores(:maxiconsumo)
-	# Catalogo.eliminar_errores(:micarrito)
+	t = Catalogo.cargar_todo(:tatito)
+	pp t.first 
 end
