@@ -10,14 +10,14 @@ def analizar(supermercado, filtro: '', periodo: :semana, cambios: true, verboso:
 	periodo = 30 if Symbol === periodo && :mes    === periodo 
 	periodo =  7 if Symbol === periodo && :semana === periodo  
 	t.comparar(periodo) if periodo
-	t = t.filtrar(&:vario?) if cambios
+	# t = t.filtrar(&:vario?) if cambios
 	t.listar_productos filtro, verboso
 end
 
 def arroz(*supermercados, periodo: :semana)
-	puts "Analisis de variacion de precio del Arroz al #{Date.today} (perido: #{periodo})".pad(120).titulo
+	puts " Analisis de variacion de precio del Arroz al #{Date.today} (perido: #{periodo})".pad(120).error
 	supermercados.each do |supermercado|
-		analizar supermercado, filtro: 'arroz gallo /arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo', periodo: periodo
+		analizar supermercado, filtro: '/arroz arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo 500', periodo: periodo
 	end
 end
 
@@ -52,13 +52,13 @@ end
 
 # Catalogo.leer(:jumbo).resumir
 # Catalogo.leer(:tatito).resumir
-# Catalogo.leer(:tuchanguito).resumir
+# Catalogo.leer(:tuchanguito).listar_productos "/arroz arroz -lenteja -garbanzo -maíz"
 
 # Archivo.copiar [:tatito, :fotos, '*.jpg'], [:publicar, :tatito, :fotos]
-generar_paginas publicar: true 
+# generar_paginas publicar: true 
 # Archivo.borrar_fotos(:tatito)
 # analizar :tatito , cambios: true
-# arroz(:jumbo, :tatito, :tuchanguito, periodo: :semana)
+arroz(:jumbo, :tatito, :tuchanguito, periodo: :mes)
 return
 
 # Catalogo.leer(:maxiconsumo).resumir

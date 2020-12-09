@@ -1,5 +1,5 @@
 
-Campos = [:nombre, :precio, :rubro, :unidad, :url_producto, :url_imagen, :id, :anterior, :texto, :precio_1, :precio_2, :precio_3]
+Campos = [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :anterior, :precio_unitario, :precio_1, :precio_2, :precio_3, :texto]
 
 class Producto < Struct.new(*Campos)
 	attr_accessor :ofertas, :historia
@@ -26,11 +26,12 @@ class Producto < Struct.new(*Campos)
 		self.texto = [
 			self.nombre, self.rubro, self.precio, self.unidad, 
 			self.nombre.tag(:nombre), 
-			# self.rubro.tag(:rubro), 
+			self.rubro.tag(:rubro),
+			self.marca, 
 			self.precio.tag(:precio), self.url_imagen.tag(:foto), 
 			self.error?.tag(:error),
 			self.id,
-		].map{|x|x.to_s.espacios}.join(' ')
+		].compact.map{|x|x.to_s.espacios}.join(' ')
 
 		self.ofertas = [] 
 		self.ofertas << [1, self.precio]

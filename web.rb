@@ -17,14 +17,14 @@ class Web
 
 	def bajar_todo(regenerar = true)
 		destino = [carpeta, 'productos.dsv']
-		puts " BAJANDO todos los datos de #{carpeta.upcase}".pad(100).titulo do 
+		puts " BAJANDO todos los datos de #{carpeta.upcase} ".pad(100).titulo do 
 		
 			puts " ► Bajando clasificacion... ".green 
 			clasificacion = bajar_clasificaciones()			
 
 			puts " ► Bajando productos... (#{clasificacion.count}) ".green 
 			productos = bajar_clasificacion(clasificacion).compact
-			puts " Se bajaron #{productos.count} productos ".green
+			puts " Se bajaron #{productos.count} productos ".yellow
 
 			Archivo.escribir(productos, destino)
 			Archivo.preservar(destino)
@@ -33,8 +33,6 @@ class Web
 
 			# puts " ► Bajando imagenes... ".green 
 			# bajar_imagenes(regenerar)
-
-			puts "FIN.".green
 		end
 		self
 	end
@@ -43,7 +41,6 @@ class Web
 		productos = []
 		clasificaciones.procesar(10) do |clasificacion|
 			url = ubicar(:productos, clasificacion.url)
-			# puts url
 			Archivo.abrir(url) do |pagina|
 				productos << bajar_productos(pagina, clasificacion.rubro).compact
 			end
@@ -203,7 +200,7 @@ class Web
 
 	def extraer_precio_unitario(pagina)
 		if item = seleccionar(pagina, :precio) 
-			item.last && item.last.text 
+			item.last && item.last.text.espacios
 		end
 	end
 
@@ -273,6 +270,7 @@ def bajar_todo
 	Jumbo.bajar_todo
 	TuChanguito.bajar_todo
 	Maxiconsumo.bajar_todo
+	puts "FIN.".pad(100).error
 end	
 
 def limpiar_errores
@@ -301,8 +299,8 @@ if __FILE__ == $0
 	# TuChanguito.muestra
 	# Maxiconsumo.muestra
 	# Jumbo.muestra
-	# Jumbo.bajar_todo
-	bajar_todo
-	limpiar_errores
+	Jumbo.bajar_todo
+	# bajar_todo
+	# limpiar_errores
 	# limpiar_fotos
 end

@@ -193,7 +193,7 @@ class Catalogo
 
 	class << self 
 		def leer(base, posicion=0)
-			origen = listar(base, :productos)[posicion]
+			origen = listar(base, 'productos*.dsv')[posicion]
         	tmp  = new(base, Archivo.leer(origen))
         	tmp -= tmp.filtrar(&:error?)
 		end
