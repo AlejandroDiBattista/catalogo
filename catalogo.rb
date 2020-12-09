@@ -24,12 +24,14 @@ class Catalogo
 		[items].flatten.each do |producto|
 			producto = Producto.cargar(producto) if Hash === producto
 			if Producto === producto
-				if !datos[producto.id]
-					datos[producto.id] = producto
+				if anterior = datos[producto.id]
+					producto.historia = anterior.historia
+				else 
 					productos << producto
 					ordenados = false 
 				end
-				datos[producto.id].actualizar(fecha, producto.precio) if fecha 
+				producto.actualizar(fecha, producto.precio) if fecha 
+				datos[producto.id] = producto
 			end
 		end
 		self
@@ -227,5 +229,7 @@ end
 
 if __FILE__ == $0
 	t = Catalogo.cargar_todo(:tatito)
-	pp t.first 
+	a = t.buscar('00005')
+	
+	a.guardar
 end

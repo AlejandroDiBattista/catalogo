@@ -1,8 +1,8 @@
 
-Campos = [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :anterior, :precio_unitario, :precio_1, :precio_2, :precio_3, :texto]
+Campos = [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :anterior, :precio_unitario, :precio_1, :precio_2, :precio_3]
 
 class Producto < Struct.new(*Campos)
-	attr_accessor :ofertas, :historia
+	attr_accessor :ofertas, :historia, :texto
 
 	def self.cargar(datos)
 		new.tap{|tmp| Campos.each{|campo| tmp[campo] = datos[campo]}}.normalizar
@@ -24,12 +24,12 @@ class Producto < Struct.new(*Campos)
 		self.anterior = 0
 
 		self.texto = [
-			self.nombre, self.rubro, 
-			self.precio, self.unidad, 
+			self.nombre, self.rubro,
+			self.precio, self.unidad,
 			self.marca, 
-			self.nombre.tag(:nombre), 
+			self.nombre.tag(:nombre),
 			# self.rubro.tag(:rubro),
-			self.precio.tag(:precio), self.url_imagen.tag(:foto), 
+			self.precio.tag(:precio), self.url_imagen.tag(:foto),
 			self.error?.tag(:error),
 			self.id,
 		].compact.map{|x|x.to_s.espacios}.join(' ')
@@ -38,15 +38,14 @@ class Producto < Struct.new(*Campos)
 		self.ofertas << [1, self.precio]
 		self.ofertas << extraer_oferta(self.precio_1) unless self.precio_1.vacio?
 		self.ofertas << extraer_oferta(self.precio_2) unless self.precio_2.vacio?
-		self.ofertas << extraer_oferta(self.precio_3) unless self.precio_3.vacio? 
+		self.ofertas << extraer_oferta(self.precio_3) unless self.precio_3.vacio?
 
 		self.historia ||= []
 		self
 	end
 
 	def extraer_oferta(oferta)
-		oferta = oferta.gsub(/[^\d.,]/,'')
-		a, b = oferta.split(',')
+		a, b = oferta.gsub(/[^\d.,]/,'').split(',')
 		[a.to_num, b.to_money]
 	end
 
@@ -97,7 +96,7 @@ class Producto < Struct.new(*Campos)
 	end
 
 	def variacion
-		precio / (anterior.vacio? ? precio : anterior).to_f - 1
+		precio / (anterior.vacio? ? precio : anterior).to_f - 1.0
 	end
 
 	def aumento?
@@ -129,6 +128,13 @@ class Producto < Struct.new(*Campos)
 		
 		self.historia << { desde: fecha, hasta: fecha, precio: precio } if !ultimo && precio 
 	end
+
+	def to_h
+		tmp = super.to_h 
+		tmp[:historia] = self.historia 
+		tmp 
+	end
+
 end
 
 if __FILE__ == $0
