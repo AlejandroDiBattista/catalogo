@@ -24,10 +24,11 @@ class Producto < Struct.new(*Campos)
 		self.anterior = 0
 
 		self.texto = [
-			self.nombre, self.rubro, self.precio, self.unidad, 
-			self.nombre.tag(:nombre), 
-			self.rubro.tag(:rubro),
+			self.nombre, self.rubro, 
+			self.precio, self.unidad, 
 			self.marca, 
+			self.nombre.tag(:nombre), 
+			# self.rubro.tag(:rubro),
 			self.precio.tag(:precio), self.url_imagen.tag(:foto), 
 			self.error?.tag(:error),
 			self.id,
@@ -71,7 +72,7 @@ class Producto < Struct.new(*Campos)
         
 		alternativas = condicion.split(' o ')
 		alternativas.any? do |palabras|
-			palabras = palabras.gsub(' y ', '')
+			palabras = palabras.gsub(' y ', ' ')
 			return true if palabras.vacio?
 			palabras.split(' ').all? do |palabra|
 				operador, valor = palabra.scan(/([-+:<>\/])?(.*)/).first
@@ -100,15 +101,15 @@ class Producto < Struct.new(*Campos)
 	end
 
 	def aumento?
-		variacion > 0 
+		variacion > +0.01 
 	end
 
 	def disminuyo?
-		variacion < 0 
+		variacion < -0.01 
 	end
 
 	def vario?
-		variacion.abs > 0 
+		variacion.abs > 0.01 
 	end
 
 	def actualizar(fecha, precio = nil)

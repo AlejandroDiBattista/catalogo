@@ -299,8 +299,8 @@ if __FILE__ == $0
 	# TuChanguito.muestra
 	# Maxiconsumo.muestra
 	# Jumbo.muestra
-	Jumbo.bajar_todo
-	# bajar_todo
+	# Jumbo.bajar_todo
+	bajar_todo
 	# limpiar_errores
 	# limpiar_fotos
 end
