@@ -270,7 +270,7 @@ def bajar_todo
 	Jumbo.bajar_todo
 	TuChanguito.bajar_todo
 	Maxiconsumo.bajar_todo
-	puts "FIN.".pad(100).error
+	puts " FIN.".pad(100).error
 end	
 
 def limpiar_errores
@@ -288,18 +288,6 @@ def limpiar_fotos
 end
 
 if __FILE__ == $0
-	# m = Maxiconsumo.new
-	# p m.ubicar(:producto)
-	# p m.acortar('http://maxiconsumo.com/sucursal_capital/catalog/product/view/id/2442/s/canasta-vim-citrus-podder-x5-55-gr-23856/category/248/')
-	# return
-	# puts "PROBANDO CAMBIOS".pad(100).yellow.on_red
-	# Jumbo.bajar_todo
-	
-	# Tatito.muestra
-	# TuChanguito.muestra
-	# Maxiconsumo.muestra
-	# Jumbo.muestra
-	# Jumbo.bajar_todo
 	bajar_todo
 	# limpiar_errores
 	# limpiar_fotos
