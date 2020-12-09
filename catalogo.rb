@@ -231,5 +231,5 @@ if __FILE__ == $0
 	t = Catalogo.cargar_todo(:tatito)
 	a = t.buscar('00005')
 	
-	a.guardar
+	t.guardar
 end

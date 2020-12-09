@@ -129,8 +129,8 @@ class Producto < Struct.new(*Campos)
 		self.historia << { desde: fecha, hasta: fecha, precio: precio } if !ultimo && precio 
 	end
 
-	def to_h
-		tmp = super.to_h 
+	def to_hash
+		tmp = to_h 
 		tmp[:historia] = self.historia 
 		tmp 
 	end
