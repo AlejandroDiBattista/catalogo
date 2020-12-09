@@ -27,7 +27,7 @@ class Catalogo
 				if anterior = datos[producto.id]
 					producto.historia = anterior.historia
 				else 
-					productos << producto
+					# productos << producto
 					ordenados = false 
 				end
 				producto.actualizar(fecha, producto.precio) if fecha 
@@ -37,7 +37,14 @@ class Catalogo
 		self
 	end
 
+	def ordenar!
+		return if self.ordenados 
+		self.ordenados = true 
+		self.productos = self.datos.values.sort_by(&:id)
+	end
+
 	def each
+		ordenar!
 		productos.each{|producto| yield(producto) }
 	end
 
@@ -194,6 +201,11 @@ class Catalogo
 	end
 
 	class << self 
+
+		def cargar(origen)
+			origen ||= [carpeta,'catalogo.json']
+		end
+
 		def leer(base, posicion=0)
 			origen = listar(base, 'productos*.dsv')[posicion]
         	tmp  = new(base, Archivo.leer(origen))
@@ -230,6 +242,6 @@ end
 if __FILE__ == $0
 	t = Catalogo.cargar_todo(:tatito)
 	a = t.buscar('00005')
-	
+	a.precio = 1000
 	t.guardar
 end
