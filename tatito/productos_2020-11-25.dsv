@@ -1,13 +1,13 @@
 id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
-00575|STEVIA HILERET X 200 BOT|170.0|3,147.10|||Almacén > Edulcorantes|2020/01/STEVIA-HILERET-X-200-BOT.jpg|stevia-hileret-x-200-bot/
-00576|Salsa Golf Benidorm 500 ml|155.0|3,134.06|||Aderezos > Salsa Golf|2020/10/benidorm-salsagolf.jpg|salsa-golf-benidorm-500-ml/
+00775|STEVIA HILERET X 200 BOT|170.0|3,147.10|||Almacén > Edulcorantes|2020/01/STEVIA-HILERET-X-200-BOT.jpg|stevia-hileret-x-200-bot/
+00776|Salsa Golf Benidorm 500 ml|155.0|3,134.06|||Aderezos > Salsa Golf|2020/10/benidorm-salsagolf.jpg|salsa-golf-benidorm-500-ml/
 00237|SALSA GOLF DANICA 220ML.|53.0|3,45.35|||Aderezos > Salsa Golf|2019/11/SALSA-GOLF-DANICA-220ML.jpg|salsa-golf-danica-220ml/
 00577|Azucar Light Lheritier 350 gr.|72.0|3,61.11|||Almacén > Azúcar|2020/10/azucar-light-lheritier.jpg|azucar-light-lheritier-350-gr/
 00001|Azucar 1 Kg.|60.0|3,50.00|10,46.00||Almacén > Azúcar|2019/11/azucar-comun-1kg-fraccionada.jpg|azucar-1kg-s-iva/
-00578|Ketchup Natura x  500 Grs.|158.0|3,140.94|||Aderezos > Ketchup|2020/11/ketchup-natura-x250.jpg|ketchup-natura-x-500-grs/
-00579|Ketchup Natura x  250 Grs.|80.0|3,71.67|||Aderezos > Ketchup|2020/11/ketchup-natura-x250.jpg|ketchup-natura-x-250-grs/
+00777|Ketchup Natura x  500 Grs.|158.0|3,140.94|||Aderezos > Ketchup|2020/11/ketchup-natura-x250.jpg|ketchup-natura-x-500-grs/
+00778|Ketchup Natura x  250 Grs.|80.0|3,71.67|||Aderezos > Ketchup|2020/11/ketchup-natura-x250.jpg|ketchup-natura-x-250-grs/
 00002|KETCHUP DANICA 220GR|54.0|3,46.03|||Aderezos > Ketchup|2020/01/KETCHUP-DANICA-220GR.jpg|ketchup-danica-220gr/
-00580|Mostaza Benidorm 500 ml|155.0|3,134.06|||Aderezos > Mostazas|2020/10/benidorm-mostaza.jpg|mostaza-benidorm-500-ml/
+00779|Mostaza Benidorm 500 ml|155.0|3,134.06|||Aderezos > Mostazas|2020/10/benidorm-mostaza.jpg|mostaza-benidorm-500-ml/
 00433|Mostaza Savora 1 Kg.|190.0|3,163.80|||Aderezos > Mostazas|2020/01/MOSTAZA-SAVORA-1KG.jpg|mostaza-savora-1kg/
 00437|MOSTAZA SAVORA ORIGINAL X250G|78.75|3,68.25|||Aderezos > Mostazas|2020/01/MOSTAZA-SAVORA-ORIGINAL-X250G.jpg|mostaza-savora-original-x250g/
 00003|MOSTAZA DANICA 220GR|47.75|3,41.36|||Aderezos > Mostazas|2020/01/MOSTAZA-DANICA-250GR.jpg|mostaza-danica-220gr/
@@ -24,7 +24,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00008|Harina Graciela  Real 000 1 Kg.|45.0|3,38.78|||Almacén > Harinas|2020/01/HAR-GRA-REAL-000-1KG.jpg|har-gra-real-000-1kg/
 00009|HARINA REINA ANA 000 X1 KG.|36.0|3,28.00|||Almacén > Harinas|2019/11/HAR-REINA-ANA-000.jpg|har-reina-ana-000-x1-kg-s-iva/
 00010|HARINA CELESTIAL 0000 X KG|57.0|3,47.84|||Almacén > Harinas|2020/01/HAR-CELESTIAL-0000-X-KG.jpg|har-celestial-0000-x-kg-s-iva/
-00582|Polenta Instantanea Verizzia 500 Grs.|24.0|3,21.00|||Almacén > Polentas|2020/11/polenta-verizzia-500.jpg|polenta-instantanea-verizzia-500-grs/
+00780|Polenta Instantanea Verizzia 500 Grs.|24.0|3,21.00|||Almacén > Polentas|2020/11/polenta-verizzia-500.jpg|polenta-instantanea-verizzia-500-grs/
 00011|POLENTA PRESTOPRONTA ARCOR 500 GRS|74.0|3,64.45|||Almacén > Polentas|2020/01/PRESTOPRONTA-ARCOR-500GR.jpg|prestopronta-arcor-500grs-iv/
 00584|Mayonesa Benidorm 500 ml|155.0|3,134.06|||Aderezos > Mayonesas|2020/10/aderezo-mayo-benidorm.jpg|mayonesa-benidorm-500-ml/
 00585|Mayonesa Natura 125 grs.|33.0|3,28.48|||Aderezos > Mayonesas|2020/06/mayonesa-natura-125gr.jpg|mayonesa-natura-125-grs/
@@ -38,15 +38,15 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00016|MAYONESA HELLMANNS 237GR|56.0|3,48.13|||Aderezos > Mayonesas|2020/01/MAYONESA-HELLMANNS-237GR.jpg|mayonesa-hellmanns-237gr/
 00434|MAYONESA HELLMANNS 118GR|27.0|3,23.00|||Aderezos > Mayonesas|2020/01/MAYONESA-HELLMANNS-118GR.jpg|mayonesa-hellmanns-118gr/
 00431|REBOZADOR PREFERIDO 500GR|87.0|3,75.40|||Almacén > Rebozadores|2020/01/REBOZADOR-PREFERIDO-500GR.jpg|rebozador-preferido-500gr-s-iva/
-00598|Jardinera Arcor c / Choclo 350 Grs.|65.5|3,56.93|||Almacén > Enlatados|2020/01/JARDINERA-ARCOR-300G.jpg|jardinera-arcor-c-choclo-350-grs/
-00599|Palmitos Marolio 220 Grs.|130.0|3,117.00|||Almacén > Enlatados|2020/11/Palmito-marolio-220.jpg|palmitos-marolio-220-grs/
+00844|Jardinera Arcor c / Choclo 350 Grs.|65.5|3,56.93|||Almacén > Enlatados|2020/01/JARDINERA-ARCOR-300G.jpg|jardinera-arcor-c-choclo-350-grs/
+00845|Palmitos Marolio 220 Grs.|130.0|3,117.00|||Almacén > Enlatados|2020/11/Palmito-marolio-220.jpg|palmitos-marolio-220-grs/
 00600|Atun Cumana en aceite Desmenuzado 170 gr.|78.0|3,67.04|||Almacén > Enlatados|2020/10/atun-cumana-desm-aceite-170.jpg|atun-cumana-en-aceite-desmenuzado-170-gr/
 00601|Atun Bahia en aceite y agua 170 Gr.|79.0|3,66.64|||Almacén > Enlatados|2020/10/atun-bahia-en-aceite-170g.jpg|atun-bahia-en-aceite-y-agua-170-gr/
 00441|Durazno en lata DF x 820 gr.|133.5|3,115.70|||Almacén > Enlatados|2020/09/durazno-df-820.jpg|durazno-en-lata-df-x-820-gr/
 00604|Atun Cumana al natural Desmenuzado 170 gr.|78.0|3,67.04|||Almacén > Enlatados|2020/01/ATUN-CUMANA-DESMENUZ-170GR.jpg|atun-cumana-desmenuz-170gr/
 00605|Lentejas Arcor 320 Grs..|69.0|3,59.92|||Almacén > Enlatados|2020/01/LENTEJAS-ARCOR-320G.jpg|lentejas-arcor-320g/
 00018|Arvejas Arcor  Secas 300 Grs.|55.3|3,48.27|||Almacén > Enlatados|2020/01/ARVEJAS-ARCOR-SECAS-300-GR.jpg|arvejas-arcor-secas-300-gr/
-00607|Tomate Perita Arcor  400 Grs.|78.49|3,67.31|||Almacén > Enlatados|2020/01/TOM-PERITA-ARCOR-3-400GR.jpg|tom-perita-arcor-3-400gr/
+00849|Tomate Perita Arcor  400 Grs.|78.49|3,67.31|||Almacén > Enlatados|2020/01/TOM-PERITA-ARCOR-3-400GR.jpg|tom-perita-arcor-3-400gr/
 00019|ARVEJAS INALPA  350GR|32.5|3,28.12|||Almacén > Enlatados|2020/01/ARVEJAS-INALPA-350GR.jpg|arvejas-inalpa-350gr/
 00432|Picadillo Changuito Carne 90 grs.|30.0|3,24.89|||Almacén > Enlatados|2020/01/PICADILLO-CHANGUITO.jpg|picadillo-changuito/
 00020|Picadillo La Negra Carne 90 grs.|30.0|3,24.89|||Almacén > Enlatados|2020/01/PICADILLO-LA-NEGRA-CARNE-90.jpg|picadillo-la-negra-carne-90/
@@ -64,14 +64,14 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00613|Budin Arcor Marmolado 215 gr.|135.0|3,117.59|||Almacén > Gall. Dulces y Saladas|2020/10/budin-arcor-marmolado-215.jpg|budin-arcor-marmolado-215-gr/
 00614|Pan Dulce Arcor con Frutas 400 gr.|250.0|3,217.78|||Almacén > Gall. Dulces y Saladas|2020/10/pan-dulce-arcor-fr-400gr.jpg|pan-dulce-arcor-con-frutas-400-gr/
 00789|Galletas de Hojaldre Mafalda x 150 grs.|35.5|3,30.82|||Almacén > Gall. Dulces y Saladas|2020/10/gall-mafalda-hojaldre-150.jpg|galletas-de-hojaldre-mafalda-x-150-grs/
-00615|Budin Dale Con Chips de Chocolate x 170 grs.|37.5|3,32.50|||Almacén > Gall. Dulces y Saladas|2020/10/budin-dale-chipsch-170.jpg|budin-dale-con-chips-de-chocolate-x-170-grs/
-00616|Budin Dale Vainilla Tia Maruca x 170 grs.|37.5|3,32.50|||Almacén > Gall. Dulces y Saladas|2020/10/budin-dale-vainilla-170.jpg|budin-dale-vainilla-tia-maruca-x-170-grs/
+00839|Budin Dale Con Chips de Chocolate x 170 grs.|37.5|3,32.50|||Almacén > Gall. Dulces y Saladas|2020/10/budin-dale-chipsch-170.jpg|budin-dale-con-chips-de-chocolate-x-170-grs/
+00840|Budin Dale Vainilla Tia Maruca x 170 grs.|37.5|3,32.50|||Almacén > Gall. Dulces y Saladas|2020/10/budin-dale-vainilla-170.jpg|budin-dale-vainilla-tia-maruca-x-170-grs/
 00617|Budin Dale Con Frutas Tia Maruca x 170 grs.|37.5|3,32.50|||Almacén > Gall. Dulces y Saladas|2020/10/budin-dale-frutas-170.jpg|budin-dale-con-frutas-tia-maruca-x-170-grs/
 00795|Galletas de Arroz Con Sal Risky Dit x 100 grs.|52.0|3,43.72|||Almacén > Gall. Dulces y Saladas|2020/09/GALL-ARROZ-RISKYDIT-SAL.jpg|galletas-de-arroz-risky-dit-x-100-grs/
 00442|GALLETAS LA PROVIDENCIA CRACKERS 303 GR|58.0|3,50.09|||Almacén > Gall. Dulces y Saladas|2020/04/GALLETAS-LA-PROVIDENCIA-303.jpg|galletas-la-providencia-crackers-303-gr/
 00618|OBLEAS TYM X 46 GR|14.0|3,12.10|||Almacén > Gall. Dulces y Saladas|2020/01/OBLEAS-TYM-X-46-GR.jpg|obleas-tym-x-46-gr/
 00619|VAINILLA MAURI 80GR|22.0|3,18.97|||Almacén > Gall. Dulces y Saladas|2020/01/VAINILLA-MAURI-80GR.jpg|vainilla-mauri-80gr/
-00593|Avena La Espanola 500 Grs.|64.5|3,55.90|||Almacén > Legumbres|2019/11/avena-la-esp-400.jpg|avena-la-espanola-500gr/
+00841|Avena La Espanola 500 Grs.|64.5|3,55.90|||Almacén > Legumbres|2019/11/avena-la-esp-400.jpg|avena-la-espanola-500gr/
 00024|Maiz Blanco Jose Lopez 500 Grs.|52.5|3,45.46|||Almacén > Legumbres|2020/01/default.jpg|maiz-jose-lopez-bco-500gr/
 00594|Trigo Jose Lopez 500 Grs.|53.0|3,46.13|||Almacén > Legumbres|2020/01/default.jpg|trigo-jose-lopez-500gr/
 00595|Trigo La Espanola 500 Grs.|53.0|3,45.87|||Almacén > Legumbres|2020/01/default.jpg|trigo-la-espanola-3-500gr/
@@ -122,11 +122,11 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00047|Cafe la Virginia Suave 170 Grs. Vidrio|325.0|3,281.22|||Almacén > Café|2020/01/CAFE-LA-VIRG-170GR-SUAV-VIDRIO.jpg|cafe-la-virg-170gr-suav-vidrio/
 00635|Cafe La Virginia Instantaneo 50 Grs. Clasico|114.0|3,98.50|||Almacén > Café|2020/01/CAFE-LA-VIRG-INST-50GR-CLA.jpg|cafe-la-virg-inst-50gr-cla/
 00048|Cafe Arlistan 100 Grs.|220.0|3,181.21|||Almacén > Café|2020/04/cafe-arlistan-100gr.jpg|cafe-arlistan-100gr/
-00636|Cafe Dolca instantaneo Clasico 100 Grs.|255.0|3,219.38|||Almacén > Café|2020/01/CAFE-DOLCA-TORR-100GR.jpg|cafe-dolca-torr-100gr/
+00853|Cafe Dolca instantaneo Clasico 100 Grs.|255.0|3,219.38|||Almacén > Café|2020/01/CAFE-DOLCA-TORR-100GR.jpg|cafe-dolca-torr-100gr/
 00049|Cafe Dolca Instantaneo Suave 100 grs.|255.0|3,219.38|||Almacén > Café|2020/01/CAFE-DOLCA-SUAVE-100G.jpg|cafe-dolca-suave-100g/
 00050|Cafe la Virginia Cl?sico 170 Grs. Vidrio|325.0|3,281.22|||Almacén > Café|2020/01/CAFE-LA-VIRG-170GR-CLA-VIDRIO.jpg|cafe-la-virg-170gr-cla-vidrio/
 00051|Cafe la Virginia Clasico Instantaneo 100 Grs.|218.0|3,187.37|||Almacén > Café|2020/01/CAFE-LA-VIRG-INST-100GR-CLA.jpg|cafe-la-virg-inst-100gr-cla/
-00637|CAFE ARLISTAN X 170GR|285.0|3,227.63|||Almacén > Café|2020/01/CAFE-ARLISTAN-X-170GR.jpg|cafe-arlistan-x-170gr/
+00854|CAFE ARLISTAN X 170GR|285.0|3,227.63|||Almacén > Café|2020/01/CAFE-ARLISTAN-X-170GR.jpg|cafe-arlistan-x-170gr/
 00052|Cafe Villa Rica 125 Grs.|62.0|3,51.83|||Almacén > Café|2020/01/default.jpg|cafe-villa-rica-125gr/
 00053|CAFE LA VIRGINIA EQUIL X 125GR|92.5|3,80.14|||Almacén > Café|2020/01/CAFE-LA-VIRG-EQUIL-X-125GR.jpg|cafe-la-virg-equil-x-125gr/
 00054|Cafe La Virginia en Sobres (5 Grs.)|163.0|3,141.08|||Almacén > Café|2020/01/CAFE-LA-VIRG-5GR-SOBRE.jpg|cafe-la-virg-5gr-sobre/
@@ -146,7 +146,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00641|Dr. Lemon con Vodka 1 lt.|135.0|3,121.68|||Bebidas > Isotonicos y energizantes|2020/10/dr-lemon-vodka-1L.jpg|dr-lemon-con-vodka-1-lt/
 00642|Dr. Lemon con Vodka Lata 473 cm.|65.0|3,59.00|||Bebidas > Isotonicos y energizantes|2020/10/dr-lemon-vodka-473cc.jpg|dr-lemon-lata-473-cm/
 00063|ENERGY SPEED 250CC|50.0|3,42.25|||Bebidas > Isotonicos y energizantes|2020/01/ENERG-SPEED-250CC.jpg|energ-speed-250cc/
-00643|Cerveza Imperial Lata 473 Ml|70.0|3,58.00|||Bebidas > Cervezas y Fernet|2020/11/CERV-imperial-473jpg.jpg|cerveza-imperial-lata-473-ml/
+00855|Cerveza Imperial Lata 473 Ml|70.0|3,58.00|||Bebidas > Cervezas y Fernet|2020/11/CERV-imperial-473jpg.jpg|cerveza-imperial-lata-473-ml/
 00064|FERNET BRANCA 750CC|490.0|3,409.98|||Bebidas > Cervezas y Fernet|2020/01/FERNET-BRANCA-750CC.jpg|fernet-branca-750cc/
 00644|CERVEZA ISENBECK LATA 473ML|65.0|3,55.00|||Bebidas > Cervezas y Fernet|2020/01/CERV-ISENBECK-LATA-473ML.jpg|cerv-isenbeck-lata-473ml/
 00447|Cerveza Schneider Rubia Lata 473 Ml.|70.0|3,60.00|||Bebidas > Cervezas y Fernet|2020/01/CERV-SCHNEIDER-RUBIA-LATA-473-ML.jpg|cerv-schneider-rubia-lata-473-ml/
@@ -159,7 +159,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00067|YERBA BROCHE ORO 250GR|78.5|3,65.80|||Almacén > Mate|2020/01/YERBA-BROCHE-ORO-250GR.jpg|yerba-broche-oro-250gr-s-iva/
 00068|TE LA VIRGINIA X 100 SAQ|165.0|3,148.29|||Almacén > Mate|2020/01/TE-LA-VIRG-X-100-SAQ.jpg|te-la-virg-x-100-saq-s-iva/
 00646|Mate Cocido Taragui en Saquitos x 100 uds.|228.0|3,197.33|||Almacén > Mate|2020/01/YERBA-SAQ-TARAGUI-100UN.jpg|yerba-saq-taragui-100un-s-iva/
-00647|Mate Cocido Taragui en Saquitos x 50 uds.|119.0|3,103.15|||Almacén > Mate|2020/01/YERBA-SAQ-TARAGUI-50UN.jpg|yerba-saq-taragui-50un/
+00856|Mate Cocido Taragui en Saquitos x 50 uds.|119.0|3,103.15|||Almacén > Mate|2020/01/YERBA-SAQ-TARAGUI-50UN.jpg|yerba-saq-taragui-50un/
 00449|YERBA AMANDA 250GR|88.0|3,75.21|||Almacén > Mate|2020/01/YERBA-AMANDA-250GR.jpg|yerba-amanda-250gr-s-iva/
 00450|Yerba Taragui 250 Grs.|90.0|3,77.80|||Almacén > Mate|2020/01/YERBA-TARAGUI-250GR.jpg|yerba-taragui-250gr-s-iva/
 00069|Mate Cocido en Saquitos Cachamate x 25 Uds.|56.5|3,48.79|||Almacén > Mate|2020/01/YERBA-SAQ-CACHAMATE-X-25U.jpg|yerba-saq-cachamate-x-25u-s-iva/
@@ -197,9 +197,9 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00088|SALSA ARCOR PARA PIZZA 340 grs.|57.0|3,48.57|||Almacén > Salsas|2020/01/SALSA-ARCOR-3-350GR.jpg|salsa-arcor-3-350gr/
 00089|Tomate Perita Arcor  400 Grs.|78.49|3,67.31|||Almacén > Salsas|2020/01/TOM-PERITA-ARCOR-3-400GR.jpg|tom-perita-arcor-3-400gr/
 00454|PURE DE TOMATE SABORES DEL VALLE  520GR|50.0|3,41.41|||Almacén > Salsas|2020/01/PURE-TOM-SABORES-DEL-V-520GR.jpg|pure-tom-sabores-del-v-520gr/
-00670|Aceite Natura girasol x 3 Lts|435.0|3,419.99|||Almacén > Aceites|2020/11/aceite-natura-girasol-x3lts.jpg|aceite-natura-girasol-x-3-lts/
-00671|Aceite Oleo Mix 900 ml.|102.0|3,93.25|||Almacén > Aceites|2020/10/aceite-oleomix-900.jpg|aceite-oleo-mix-900-ml/
-00672|Aceite de Girasol Clarisimo 3 lt.|450.0||||Almacén > Aceites|2020/10/aceite-clarisimo-5lt.jpg|aceite-de-girasol-clarisimo-3-lt/
+00863|Aceite Natura girasol x 3 Lts|435.0|3,419.99|||Almacén > Aceites|2020/11/aceite-natura-girasol-x3lts.jpg|aceite-natura-girasol-x-3-lts/
+00864|Aceite Oleo Mix 900 ml.|102.0|3,93.25|||Almacén > Aceites|2020/10/aceite-oleomix-900.jpg|aceite-oleo-mix-900-ml/
+00865|Aceite de Girasol Clarisimo 3 lt.|450.0||||Almacén > Aceites|2020/10/aceite-clarisimo-5lt.jpg|aceite-de-girasol-clarisimo-3-lt/
 00673|Aceite de Chia Vita 250 ml|199.0|3,183.34|||Almacén > Aceites|2020/10/aceite-chia-vita-250.jpg|aceite-de-chia-vita-250-ml/
 00674|Aceite de Girasol Clarisimo 5 lt.|720.0|3,665.28|||Almacén > Aceites|2020/10/aceite-clarisimo-5lt.jpg|aceite-de-girasol-clarisimo-5-lt/
 00675|Aceite de Girasol Clarisimo 900 ml|150.0|3,129.54|||Almacén > Aceites|2020/10/aceite-clarisimo-900.jpg|aceite-de-girasol-clarisimo-900-ml/
@@ -208,13 +208,13 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00091|Aceite Natura girasol x 1.5 Lts.|235.0|3,202.64|||Almacén > Aceites|2020/01/ACEITE-NATURA-GIRASOL-1500cc.jpg|aceite-natura-girasol-1-5lt/
 00455|Aceite Natura girasol x 900 ml.|150.0|3,136.16|||Almacén > Aceites|2020/01/ACEITE-NATURA-GIRASOL-900ML.jpg|aceite-natura-girasol-900ml/
 00092|ACEITE VICENTIN GIRASOL 900CC|133.0|3,122.21|||Almacén > Aceites|2020/01/ACEITE-VICENTIN-GIRASOL-900CC.jpg|aceite-vicentin-girasol-900cc-s-iva/
-00666|Mermelada Emeth ciruela x 500 grs.|55.0|3,44.52|||Desayuno > Mermeladas|2020/11/mermelada-emeth-ciruela.jpg|mermelada-emeth-ciruela-x-500-grs-2/
-00667|Mermelada Emeth frutilla x 500 grs.|55.0|3,44.52|||Desayuno > Mermeladas|2020/11/mermelada-emeth-frutilla.jpg|mermelada-emeth-ciruela-x-500-grs/
-00668|Mermelada Emeth durazno light x 500 grs.|55.0|3,44.52|||Desayuno > Mermeladas|2020/11/mermelada-emeth-durazno-light.jpg|mermelada-emeth-frutilla-light-x-500-grs/
-00681|Edulcorante El Pocillo 180 ml.|68.5|3,59.14|||Desayuno > Edulcorantes|2020/10/edulc-el-pocillo-180.jpg|edulcorante-el-pocillo-180-ml/
+00859|Mermelada Emeth ciruela x 500 grs.|55.0|3,44.52|||Desayuno > Mermeladas|2020/11/mermelada-emeth-ciruela.jpg|mermelada-emeth-ciruela-x-500-grs-2/
+00860|Mermelada Emeth frutilla x 500 grs.|55.0|3,44.52|||Desayuno > Mermeladas|2020/11/mermelada-emeth-frutilla.jpg|mermelada-emeth-ciruela-x-500-grs/
+00861|Mermelada Emeth durazno light x 500 grs.|55.0|3,44.52|||Desayuno > Mermeladas|2020/11/mermelada-emeth-durazno-light.jpg|mermelada-emeth-frutilla-light-x-500-grs/
+00869|Edulcorante El Pocillo 180 ml.|68.5|3,59.14|||Desayuno > Edulcorantes|2020/10/edulc-el-pocillo-180.jpg|edulcorante-el-pocillo-180-ml/
 00682|Azucar Light Lheritier 350 gr.|72.0|3,61.11|||Desayuno > Edulcorantes|2020/10/azucar-light-lheritier.jpg|azucar-light-lheritier-350-gr/
 00094|EDULCORANTE SI DIET 200CC|69.0|3,60.00|||Desayuno > Edulcorantes|2020/01/EDULC-SI-DIET-200CC.jpg|edulc-si-diet-200cc/
-00684|Edulcorante Barny 500 Ml.|130.0|3,111.07|||Desayuno > Edulcorantes|2019/11/EDULCORANTE-BARNY-500-1.jpg|edulc-barny-500ml/
+00870|Edulcorante Barny 500 Ml.|130.0|3,111.07|||Desayuno > Edulcorantes|2019/11/EDULCORANTE-BARNY-500-1.jpg|edulc-barny-500ml/
 00685|Edulcorante Barny 250 ml.|76.5|3,65.74|||Desayuno > Edulcorantes|2019/11/EDULCORANTE-BARNY-250-1.jpg|edulc-barny-250cc/
 00678|Jugo Baggio Multi Fruta 200 CC|21.5|3,18.55|||Bebidas > Jugos|2020/10/jugo-baggio-multifruta-200-cc.jpg|jugo-baggio-multi-fruta-200-cc/
 00095|Jugo Baggio Fresh Manzana Deliciosa 1.5 LT|56.84|3,48.50|||Bebidas > Jugos|2019/11/jugo-baggio-fresh-manzana.jpg|jugo-baggio-fresh-manzana-deliciosa-1-5-lt/
@@ -230,7 +230,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00102|Miel Don Gustavo 500 cc|195.0|3,169.01|||Desayuno > Miel|2020/01/default.jpg|miel-don-gustavo-500-cc/
 00103|Miel Don Gustavo 250 cc|125.0|3,104.00|||Desayuno > Miel|2020/01/default.jpg|miel-don-gustavo-250cc/
 00104|Miel Colmenares Mata 260 Grs.|119.99|3,104.99|||Desayuno > Miel|2019/11/miel-colmenares-mata-260.jpg|miel-mata-260gr/
-00680|Cacao Nesquik 180 Grs.|85.0|3,75.00|||Desayuno > Cacao|2020/10/nesquik-180.jpg|cacao-nesquik-180-grs-2/
+00868|Cacao Nesquik 180 Grs.|85.0|3,75.00|||Desayuno > Cacao|2020/10/nesquik-180.jpg|cacao-nesquik-180-grs-2/
 00105|CACAO QUICKER X 200GR|49.0|3,42.50|||Desayuno > Cacao|2020/04/CACAO-QUICKER-200.jpg|cacao-quicker-x-200gr/
 00106|CACAO CHOCOLINO PLUS FORT 180G|74.0|3,63.63|||Desayuno > Cacao|2020/04/cacao-chocolino-180gr.jpg|cacao-chocolino-plus-fort-180g/
 00107|Jamon Crudo Goggi Feteado x 100 grs.|120.0||||Fiambreria > Jamon Crudo|2019/11/jamon-crudo-goggi-D_NQ_NP_882252-MLA32138258660_092019-F.jpg|jamon-crudo-goggi-medio-listo/
@@ -271,9 +271,9 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00186|Chimichurri Vanoli Picante 190 grs.|72.0|3,61.96|||Almacén > Varios|2020/07/chimichurri-vanoli-picante-190.jpg|chimichurri-vanoli-picante-190-grs/
 00700|Leche en Polvo Entera Lheritier 350 gr.|205.0|3,176.01|||Almacén > Varios|2020/06/leche-en-polvo-entera-lheritier-800.jpg|leche-en-polvo-entera-lheritier-350-gr/
 00126|Leche en Polvo Descremada Lheritier 350 gr.|199.01|3,171.63|||Almacén > Varios|2020/05/leche-en-polvo-lheritier-800.jpg|leche-en-polvo-descremada-lheritier-350-gr/
-00686|Jamon Cocido Paladini X PIEZA (6KG.)|3.9||||Fiambreria > Jamón|2020/01/JAMON-COC-PALADINI.jpg|jamon-cocido-paladini-x-pieza-6kg/
+00871|Jamon Cocido Paladini X PIEZA (6KG.)|3.9||||Fiambreria > Jamón|2020/01/JAMON-COC-PALADINI.jpg|jamon-cocido-paladini-x-pieza-6kg/
 00128|Jamon Cocido Goggi Feteado x 100 grs.|58.0||||Fiambreria > Jamón|2020/01/JAMON-COC-GOGGI.jpg|jamon-coc-goggi-2/
-00687|Jamon Cocido Paladini Feteado x 100 grs.|80.0||||Fiambreria > Jamón|2020/04/jamon-coc-paladini-fet.jpg|jamon-cocido-paladini/
+00872|Jamon Cocido Paladini Feteado x 100 grs.|80.0||||Fiambreria > Jamón|2020/04/jamon-coc-paladini-fet.jpg|jamon-cocido-paladini/
 00130|Jamon Cocido Goggi con Cuero Feteado x 100 grs.|60.0||||Fiambreria > Jamón|2020/01/JAMON-COCIDO-GOGGI-CON-CUERO.jpg|jamon-coc-goggi-c-cuero/
 00792|Sardo Debaldo x 100 grs.|55.0|10,45.00|||Fiambreria > Sardo|2020/01/SARDO-DEBALDO.jpg|sardo-debaldo/
 00131|Queso Danbo Noal (Tybo) Feteado x 100 grs.|50.0||||Fiambreria > Dambo|2020/01/DAMBO-NOAL.jpg|dambo-noal/
@@ -367,7 +367,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00197|Margarina Margadan 200GR|47.0|3,40.15|||Lacteos > Mantecas y Margarinas|2020/01/MARG-MARGADAN-200GR.jpg|marg-margadan-200gr/
 00240|MANTECA CLUCELAT 200G|90.0|3,72.00|||Lacteos > Mantecas y Margarinas|2020/01/MANTECA-CLUCELAT-200G.jpg|manteca-clucelat-200g/
 00241|Manteca Clucelat 100 Grs.|45.0|3,36.00|||Lacteos > Mantecas y Margarinas|2020/01/MANTECA-CLUCELAT-100G.jpg|manteca-clucelat-100g/
-00724|Leche La Lacteo Larga Vida 1Lt.|65.0|3,57.20|||Lacteos > Leche|2020/10/leche-lv-la-lacteo-1lt.jpg|leche-la-lacteo-larga-vida-1lt/
+00881|Leche La Lacteo Larga Vida 1Lt.|65.0|3,57.20|||Lacteos > Leche|2020/10/leche-lv-la-lacteo-1lt.jpg|leche-la-lacteo-larga-vida-1lt/
 00540|Leche La Serenisima Sachet Entero 1L|79.0|3,71.65|||Lacteos > Leche|2020/01/LECHE-LS-SACH-ENTERA-1L.jpg|leche-ls-sach-ent-1l/
 00541|Leche La Serenisima  Sachet Descremada 1L|79.0|3,71.65|||Lacteos > Leche|2020/01/LECHE-LS-SACH-DES1L.jpg|leche-ls-sach-des1l-s-iva/
 00198|LECHE ILOLAY LARGA VIDA DESCREMADA X 1LT|73.9|3,59.90|||Lacteos > Leche|2020/01/LECHE-ILOLAY-LV-DDESCREMADA-X-1LS.jpg|leche-ilolay-lv-d-x-1ls-iva/
@@ -410,7 +410,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00525|Papel Higienico Campanita Doble Hoja 4 x 30 mt.|110.0|3,93.01|||Limpieza > Papel Higiénico|2020/08/papel-hig-camp-azul-4x30-1.jpg|papel-higienico-campanita-doble-hoja-4-x-30-mt/
 00786|Papel Higienico Higienol Export 4 x 30 mts|67.5|3,58.50|||Limpieza > Papel Higiénico|2020/05/papel-hig-higienol-export-x4.jpg|papel-higienico-higienol-export-4-x-30-mts/
 00248|Papel Higienico Family x 4 x 30 Mts.|57.0|3,49.00|||Limpieza > Papel Higiénico|2020/04/HIGIENICO-ECO-FAMILY-X4-30MT.jpg|papel-higienico-family-x-4-x-30-mts/
-00787|Papel Higienico Campanita Clasic 4 X 50M|62.0|3,53.17|||Limpieza > Papel Higiénico|2019/11/papel-hig-camp-celes-4-50.jpg|hig-camp-clasic-x4-x-50m-celes/
+00887|Papel Higienico Campanita Clasic 4 X 50M|62.0|3,53.17|||Limpieza > Papel Higiénico|2019/11/papel-hig-camp-celes-4-50.jpg|hig-camp-clasic-x4-x-50m-celes/
 00795|Espiral X5 Caja x 12 uds.|62.0|3,53.54|||Limpieza > Espiral|2020/10/espiral-x5-x12.jpg|espiral-x5-caja-x-12-uds/
 00796|ESPIRAL RAID X 12 UND.5 EN 1|68.65|3,65.05|||Limpieza > Espiral|2019/11/Sin-título-1.jpg|espiral-raid-x-12-und-5-en-1/
 00802|Lavavajillas Esencial 750 cc. (Detergente)|42.0|3,35.91|||Limpieza > Lavavajillas|2020/01/LAVAV-ESENCIAL-750CC.jpg|lavav-esencial-750cc/
@@ -426,7 +426,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00543|DENTIFRICO KOLYNOS 70GR|75.0|3,65.00|||Limpieza > Dentifrico|2020/04/dentifrico-kolynos-70.jpg|dentifrico-kolynos-70gr/
 00225|Dentifrico Colgate 180 Grs.|190.0|3,162.51|||Limpieza > Dentifrico|2019/11/dentifrico-colgate-180.jpg|dent-colgate-70gr/
 00226|DENTIFRICO ODOL 70GR|76.0|3,65.00|||Limpieza > Dentifrico|2019/11/dentifrico-odol-70.jpg|dent-odol-70gr/
-00804|Limpiador Procenex Liquido x 900 ml|70.0|3,60.32|||Limpieza > Desodorante de piso|2020/11/limpiador-procenex-900.jpg|limpiador-procenex-liquido-x-900-ml/
+00891|Limpiador Procenex Liquido x 900 ml|70.0|3,60.32|||Limpieza > Desodorante de piso|2020/11/limpiador-procenex-900.jpg|limpiador-procenex-liquido-x-900-ml/
 00805|Limpiador Tibu 900 ml.|42.0|3,35.20|||Limpieza > Desodorante de piso|2020/10/limpiador-tibu-900.jpg|limpiador-tibu-900-ml/
 00227|Limpiador Sedilee 4.5 Lts.|141.86|3,141.86|||Limpieza > Desodorante de piso|2020/01/LIMP-SEDILEE-4.5-LT.jpg|limp-sedilee-4-5-lt/
 00806|Limpiador Jardin X 900 Ml.|66.0|3,54.01|||Limpieza > Desodorante de piso|2020/01/LIMP-JARDIN-X-900.jpg|limp-jardin-x-900/
@@ -518,16 +518,16 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00544|Maiz Pisingallo Verizzia|32.0|3,29.00|||Almacén > Legumbres|2020/09/maiz-pising-verizzia-400.jpg|maiz-pisingallo-verizzia/
 00683|Stevia  Sobres X 50 Hileret|85.5|3,73.74|||Desayuno > Edulcorantes|2020/01/STEVIA-SOB-X-50-HILERT.jpg|stevia-sob-x-50-hileret/
 00839|Gaseosa Pepsi 2 Lt.|105.0|3,85.00|||Bebidas > Gaseosas|2020/11/pepsi-2l.jpg|gaseosa-pepsi-2-lt/
-00659|Salsa para Pizza Vanoli 340 grs.|65.5|3,56.64|||Almacén > Salsas|2020/11/salsa-p-pizza-vanoli-340.jpg|salsa-para-pizza-vanoli-340-grs/
-00669|Aceite de Girasol Cañuelas 900 ml.|134.0|3,122.21|||Almacén > Aceites|2020/11/aceite-girasol-canuelas-900.jpg|aceite-de-girasol-canuelas-900-ml/
-00778|Dulce de Leche Santa Maria 1 Kg.|225.0|3,188.37|||Lacteos > Dulce de Leche|2020/11/dulce-d-leche-santamaria-1kg.jpg|dulce-de-leche-santa-maria-1-kg/
-00791|Queso Rallado la Serenisima 40 gr.|65.0|3,56.82|||Lacteos > Quesos|2020/01/RALL-LS-3-40GR.jpg|rall-ls-3-40gr/
+00858|Salsa para Pizza Vanoli 340 grs.|65.5|3,56.64|||Almacén > Salsas|2020/11/salsa-p-pizza-vanoli-340.jpg|salsa-para-pizza-vanoli-340-grs/
+00862|Aceite de Girasol Cañuelas 900 ml.|134.0|3,122.21|||Almacén > Aceites|2020/11/aceite-girasol-canuelas-900.jpg|aceite-de-girasol-canuelas-900-ml/
+00884|Dulce de Leche Santa Maria 1 Kg.|225.0|3,188.37|||Lacteos > Dulce de Leche|2020/11/dulce-d-leche-santamaria-1kg.jpg|dulce-de-leche-santa-maria-1-kg/
+00889|Queso Rallado la Serenisima 40 gr.|65.0|3,56.82|||Lacteos > Quesos|2020/01/RALL-LS-3-40GR.jpg|rall-ls-3-40gr/
 00737|Queso Rallado La Quesera 40GR|30.0|3,24.05|||Lacteos > Quesos|2020/01/RALL-LA-QUESERA-40GR.jpg|rall-la-quesera-40gr/
-00807|Dentifrico Odolito Niños 50 grs.|55.5|3,48.00|||Limpieza > Dentifrico|2020/11/dent-odolito-50gr.jpg|dentifrico-odolito-50-grs/
-00808|Dentifrico Colgate Herbal 70 grs.|82.78|3,70.85|||Limpieza > Dentifrico|2019/11/DENT-COLGATE-HERBAL-70GR.jpg|dent-colgate-herbal-70gr/
+00892|Dentifrico Odolito Niños 50 grs.|55.5|3,48.00|||Limpieza > Dentifrico|2020/11/dent-odolito-50gr.jpg|dentifrico-odolito-50-grs/
+00893|Dentifrico Colgate Herbal 70 grs.|82.78|3,70.85|||Limpieza > Dentifrico|2019/11/DENT-COLGATE-HERBAL-70GR.jpg|dent-colgate-herbal-70gr/
 00838|Cerveza Andes Lata 473 ml.|70.0|3,60.00|||Bebidas > Cervezas y Fernet|2020/11/cerveza-andes-473.jpg|cerveza-andes-lata-473-ml/
-00651|Te Negro Green Hills Classic x 25 uds|58.0|3,49.91|||Almacén > Otros|2020/11/te-green-hills-25.jpg|te-negro-green-hills-classic-x-25-uds/
-00663|Champagne Norton Cosecha Tardia 750 ml.|245.0|3,204.99|||Bebidas > Vinos|2020/11/champagne-norton-tardio.jpg|champagne-norton-cosecha-tardia-750-ml/
-00720|Pepas Gaona  X 315 Gr.|52.0|3,45.43|||Desayuno > Gall Dulces y Saladas|2020/11/pepas-gaona-315.jpg|pepas-gaona-x-315-gr/
-00712|Levadura Danica X 500 Grs.|109.99|3,97.35|||Frescos y Congelados > Levaduras|2020/01/LEVADURA-DANICA-X500.jpg|levadura-danica-x500/
-00792|Queso Rallado La Paulina X 150 Grs.|190.0|3,165.00|||Lacteos > Quesos|2019/11/QUESO-RALLADO-LA-PAULINA-150.jpg|rall-la-paulina-x-150g/
+00852|Te Negro Green Hills Classic x 25 uds|58.0|3,49.91|||Almacén > Otros|2020/11/te-green-hills-25.jpg|te-negro-green-hills-classic-x-25-uds/
+00857|Champagne Norton Cosecha Tardia 750 ml.|245.0|3,204.99|||Bebidas > Vinos|2020/11/champagne-norton-tardio.jpg|champagne-norton-cosecha-tardia-750-ml/
+00878|Pepas Gaona  X 315 Gr.|52.0|3,45.43|||Desayuno > Gall Dulces y Saladas|2020/11/pepas-gaona-315.jpg|pepas-gaona-x-315-gr/
+00876|Levadura Danica X 500 Grs.|109.99|3,97.35|||Frescos y Congelados > Levaduras|2020/01/LEVADURA-DANICA-X500.jpg|levadura-danica-x500/
+00890|Queso Rallado La Paulina X 150 Grs.|190.0|3,165.00|||Lacteos > Quesos|2019/11/QUESO-RALLADO-LA-PAULINA-150.jpg|rall-la-paulina-x-150g/
