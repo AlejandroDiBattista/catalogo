@@ -135,6 +135,22 @@ class Producto < Struct.new(*Campos)
 		tmp 
 	end
 
+# [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :anterior, :precio_unitario, :precio_1, :precio_2, :precio_3]
+
+	def mostrar(verboso=true)
+		puts "ID: #{id}" do
+			puts " Nombre: %s" % self.nombre 
+			puts " Rubro : %s" % self.rubro 
+			puts " Precio: $%7.2f" % self.precio
+			if verboso 
+				self.historia.each do |h|
+					puts "         $%7.2f  de  %s  a  %s" % [ h.precio, h.desde.strftime('%d/%m/%Y'), h.hasta.strftime('%d/%m/%Y')]
+				end 
+				puts "URL: #{self.url_imagen} / #{self.url_producto}"
+			end
+			puts 
+		end
+	end
 end
 
 if __FILE__ == $0

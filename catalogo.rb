@@ -241,7 +241,8 @@ end
 
 if __FILE__ == $0
 	t = Catalogo.cargar_todo(:tatito)
-	a = t.buscar('00005')
-	a.precio = 1000
-	t.guardar
+	t.buscar('00005').mostrar(false)
+	t.buscar('00006').mostrar 
+	t.buscar('00007').mostrar(false)
+	# t.guardar
 end
