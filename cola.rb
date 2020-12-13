@@ -7,6 +7,15 @@ class Entrada < Struct.new(:cantidad, :hora, :temporal)
     def mostrar
         puts "%2i > %3i  %s" % [hora, cantidad, temporal ? "?" : " "]
     end
+
+    def demora(otro)
+        (self.hora - otro.hora) / (self.cantidad - otro.cantidad).to_f.abs 
+    end
+
+    def estimar(otro, n)
+        offset = n - otro.cantidad
+        otro.hora + offset * self.demora(otro)
+    end
 end
 
 class Cola 
@@ -14,10 +23,13 @@ class Cola
     
     def initialize(nombre='Cola')
         self.nombre = nombre
+        comenzar(0)
+    end
+
+    def comenzar(cantidad)
         self.configuracion = true
         self.reloj = 0
-
-        self.entradas = [] << Entrada.new(0,0,true)
+        self.entradas = [] << Entrada.new(cantidad, 0, true)
     end
 
     def avanzar(tiempo = 1)
@@ -25,38 +37,28 @@ class Cola
         revisar_estado
     end
 
-    def entra()
+    def entrar()
         registrar(ultimo.cantidad + 1) 
     end
 
-    def sale() 
+    def salir() 
         registrar(ultimo.cantidad - 1)
     end
 
-private 
-
     def registrar(cantidad)
         return if cantidad < 0
-
-        if ultimo.temporal
-            ultimo.cantidad = cantidad 
-            ultimo.hora = reloj
-        else
-            self.entradas << Entrada.new(cantidad, reloj, true)
-        end
-       
+        self.entradas.pop if ultimo.temporal
+        self.entradas << Entrada.new(cantidad, reloj, true)
         revisar_estado
     end
 
     def revisar_estado
-        ultimo.temporal = false if tiempo_actual >= TiempoMinimoAtencion    # rapido
+        ultimo.temporal &&= !(tiempo_actual >= TiempoMinimoAtencion)    # rapido
 
-        if tiempo_actual >= TiempoMinimoObservacion                         # lento
-            
+        if tiempo_actual >= TiempoMinimoObservacion                     # lento
             self.configuracion = false
             if anterior && ultimo.cantidad > anterior.cantidad 
-                puts "Reiniciar!"
-                self.entradas = [] << ultimo
+                comenzar ultimo.cantidad
             end
         end 
     end
@@ -65,31 +67,48 @@ private
         reloj - ultimo.hora
     end
 
+    def primero
+        entradas.first
+    end
+
     def anterior
         entradas[-2]
     end
 
     def ultimo
-        entradas[-1]
+        entradas.last
     end
 
     def mostrar(tmp="")
-        puts " #{nombre} reloj: #{reloj}s (#{entradas.first.cantidad} #{ self.configuracion ? 'Configurando' : 'Ejecutando' }) t:#{tmp} ".titulo do 
+        puts " #{nombre} reloj: #{reloj}s (#{primero.cantidad} #{ self.configuracion ? 'Configurando' : 'Ejecutando' }) t:#{tmp} ".titulo do 
             entradas.each( &:mostrar )
         end
     end
 
     def estimar
-        puts " #{nombre} reloj: #{reloj}s (#{entradas.first.cantidad} #{ self.configuracion ? 'Configurando' : 'Ejecutando' }) ESTIMAR ".error do 
-            i = 0 
-            (0..entradas.first.cantidad).to_a.reverse.each do |e|
-                print e  
-                aux = entradas[i]
-                if  aux && aux.cantidad == e 
-                    puts " + #{aux.hora} #{aux.temporal ? "?" : ""}"
-                    i += 1
+        if entradas.count == 1 || self.configuracion 
+            puts "No hay datos suficientes".error
+            return 
+        end
+
+        puts " #{nombre} reloj: #{reloj}s (#{primero.cantidad} #{ self.configuracion ? 'Configurando' : 'Ejecutando' }) ESTIMAR ".error do 
+            i, anterior, actual = 0, nil, primero 
+
+            (0..primero.cantidad).to_a.reverse.each do |e|
+                if actual && e == actual.cantidad 
+                    anterior, actual = actual, entradas[i+=1] 
+                end
+
+                print " %2i)" % e
+
+                if e >= ultimo.cantidad
+                    if anterior.cantidad == e 
+                        puts " + %2i #{anterior.temporal ? "?" : ""}".green % anterior.hora
+                    else
+                        puts " ~ %2i".yellow % anterior.estimar(actual, e)
+                    end
                 else
-                    puts " -"
+                    puts " ~ %2i".red % primero.estimar(ultimo, e)
                 end
             end
         end
@@ -98,39 +117,45 @@ end
 
 def Cola(nombre, cantidad=0, &bloque)
     tmp = Cola.new(nombre)
-    cantidad.times{tmp.entra}
+    cantidad.times{tmp.entrar}
     tmp.instance_eval(&bloque)
 end
-
 
 if __FILE__ == $0
 
     puts "Simulacion".pad(100).error
     Cola :polo_norte do 
-        10.times{ entra } 
-        # mostrar 0 #10!
-        avanzar 20
-        3.times{ sale }
-        # mostrar 1 #7*
-        avanzar 10
-        # mostrar 2 #7
-        2.times{ avanzar 10; sale }
-        avanzar 8
-        # mostrar 3 #5
-        sale
-        # mostrar 4 #4* 
-        entra 
-        entra 
-        # mostrar 5 #6*
-        avanzar 10
-        # mostrar 6 #6!
-        sale 
-        # mostrar 7 #5*
-        avanzar 3
-        # mostrar 8 #5
-        2.times{sale}
-        mostrar 9 #3
+        # 10.times{ entrar } 
+        # # mostrar 0 #10!
+        # avanzar 20
+        # 3.times{ salir }
+        # # mostrar 1 #7*
+        # avanzar 10
+        # # mostrar 2 #7
+        # 2.times{ avanzar 10; salir }
+        # avanzar 8
+        # # mostrar 3 #5
+        # salir
+        # # mostrar 4 #4* 
+        # entrar 
+        # entrar 
+        # # mostrar 5 #6*
+        # avanzar 10
+        # # mostrar 6 #6!
+        # salir 
+        # # mostrar 7 #5*
+        # avanzar 3
+        # # mostrar 8 #5
+        # 2.times{salir}
+        # mostrar 9 #3
 
+        10.times{entrar}
+        avanzar 21
+        3.times{salir}
+        avanzar 10
+        3.times{salir}
+        avanzar 28
+        mostrar
         estimar
     end
 
