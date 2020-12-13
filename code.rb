@@ -1,0 +1,6 @@
+require 'erb'
+require_relative 'utils'
+require_relative 'archivo'
+require_relative 'web'
+require_relative 'producto'
+require_relative 'catalogo'
