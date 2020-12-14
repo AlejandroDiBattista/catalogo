@@ -9,7 +9,7 @@ class Entrada < Struct.new(:cantidad, :hora, :temporal)
     end
 
     def promedio(otro)
-        ((self.hora - otro.hora) / (self.cantidad - otro.cantidad).to_f).abs
+        ((self.hora - otro.hora) / (self.cantidad - otro.cantidad).to_f).abs.round(2)
     end
 
     def estimar(otro, n)
@@ -100,15 +100,22 @@ class Cola
         promedios.promedio
     end
 
-    def promedio_loco
+    def promedio_loco(cantidad=1000, min=-0.2, max=+0.2)
         promedios = []
-        1000.times do 
+        cantidad.times do 
             i = rand(entradas.count)
             j = rand(entradas.count)
             redo if i == j 
             promedios << entradas[i].promedio(entradas[j]) 
         end
-        promedios.promedio
+
+        promedio = promedios.promedio
+        min  = promedio * (1+min)
+        max  = promedio * (1+max)
+        pmin = promedios.count{|x|x<min} / promedios.count.to_f 
+        pmax = promedios.count{|x|x>max} / promedios.count.to_f 
+        prango = promedios.count{|x|x>min && x<max} / promedios.count.to_f
+        [promedio.round(2), pmin.round(2), pmax.round(2), prango.round(2)]
     end
 
     def estimar
@@ -179,16 +186,21 @@ if __FILE__ == $0
         3.times{salir}
         avanzar 10
         3.times{salir}
-        avanzar 18
+        avanzar 28
         mostrar
         salir
-        avanzar 10
+        avanzar 30
         estimar
    
         puts "Promedios" do 
             puts "Simple   #{promedio_simple}"
             puts "Multiple #{promedio_multiple}"
-            puts "Loco     #{promedio_loco}"
+            puts "Loco   10  #{promedio_loco(10)}"
+            puts "Loco  100  #{promedio_loco(100)}"
+            puts "Loco   1k  #{promedio_loco(1000)}"
+            puts "Loco  10k  #{promedio_loco(10000)}"
+            puts "Loco 100k  #{promedio_loco(100000)}"
+            puts "Loco   1M  #{promedio_loco(1000000)}"
         end
     end
  end
