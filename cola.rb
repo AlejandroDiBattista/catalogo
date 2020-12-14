@@ -8,13 +8,13 @@ class Entrada < Struct.new(:cantidad, :hora, :temporal)
         puts "%2i > %3i  %s" % [hora, cantidad, temporal ? "?" : " "]
     end
 
-    def demora(otro)
-        (self.hora - otro.hora) / (self.cantidad - otro.cantidad).to_f.abs 
+    def promedio(otro)
+        ((self.hora - otro.hora) / (self.cantidad - otro.cantidad).to_f).abs
     end
 
     def estimar(otro, n)
         offset = n - otro.cantidad
-        otro.hora + offset * self.demora(otro)
+        otro.hora + offset * self.promedio(otro)
     end
 end
 
@@ -85,6 +85,31 @@ class Cola
         end
     end
 
+    def promedio_simple
+        primero && ultimo ? ultimo.promedio(primero) : 0
+    end
+
+    def promedio_multiple
+        n = entradas.count 
+        promedios = [] << promedio_simple
+        (0...n-1).each do |i|
+            (i+1...n).each do |j|
+                promedios << entradas[j].promedio(entradas[i])
+            end
+        end
+        promedios.promedio
+    end
+
+    def promedio_loco
+        promedios = []
+        1000.times do 
+            i = rand(entradas.count)
+            j = rand(entradas.count)
+            promedios << entradas[i].promedio(entradas[j]) if i != j 
+        end
+        promedios.promedio
+    end
+
     def estimar
         if entradas.count == 1 || self.configuracion 
             puts "No hay datos suficientes".error
@@ -122,7 +147,6 @@ def Cola(nombre, cantidad=0, &bloque)
 end
 
 if __FILE__ == $0
-
     puts "Simulacion".pad(100).error
     Cola :polo_norte do 
         # 10.times{ entrar } 
@@ -154,9 +178,17 @@ if __FILE__ == $0
         3.times{salir}
         avanzar 10
         3.times{salir}
-        avanzar 28
+        avanzar 18
         mostrar
+        salir
+        avanzar 10
         estimar
+   
+        puts "Promedios" do 
+            puts "Simple   #{promedio_simple}"
+            puts "Multiple #{promedio_multiple}"
+            puts "Loco     #{promedio_loco}"
+        end
     end
-
-end
+ end
+   
