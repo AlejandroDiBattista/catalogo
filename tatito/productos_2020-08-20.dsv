@@ -2,9 +2,9 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00001|Azucar 1 Kg.|60.0|Almacén > Azúcar|/2019/11/azucar-comun-1kg-fraccionada.jpg|/azucar-1kg-s-iva/
 00002|KETCHUP DANICA 220GR|52.0|Aderezos > Ketchup|/2020/01/KETCHUP-DANICA-220GR.jpg|/ketchup-danica-220gr/
 00003|MOSTAZA DANICA 220GR|43.0|Aderezos > Mostazas|/2020/01/MOSTAZA-DANICA-250GR.jpg|/mostaza-danica-220gr/
-00179|Arroz Gallo Largo Fino 500 Grs.|52.0|Almacén > Arroz|/2020/07/arroz-gallo-largo-fino-500.jpg|/arroz-gallo-largo-fino-500-grs/
-00180|Arroz Dos Hermanos L. Fino x 500 grs.|40.0|Almacén > Arroz|/2020/07/arroz-dos-hermanos-Lfino-500.jpg|/arroz-dos-hermanos-l-fino-x-500-grs/
-00181|Arroz Dos Hermanos Parboil x 500 grs.|49.5|Almacén > Arroz|/2020/07/arroz-dos-hermanos-parboil-500.jpg|/arroz-dos-hermanos-parboil-x-500-grs/
+00440|Arroz Gallo Largo Fino 500 Grs.|52.0|Almacén > Arroz|/2020/07/arroz-gallo-largo-fino-500.jpg|/arroz-gallo-largo-fino-500-grs/
+00441|Arroz Dos Hermanos L. Fino x 500 grs.|40.0|Almacén > Arroz|/2020/07/arroz-dos-hermanos-Lfino-500.jpg|/arroz-dos-hermanos-l-fino-x-500-grs/
+00442|Arroz Dos Hermanos Parboil x 500 grs.|49.5|Almacén > Arroz|/2020/07/arroz-dos-hermanos-parboil-500.jpg|/arroz-dos-hermanos-parboil-x-500-grs/
 00004|Arroz Gallo Oro 1 Kg.|127.0|Almacén > Arroz|/2020/01/ARROZ-GALLO-ORO-B1-KG.jpg|/arroz-gallo-oro-b1-kg-s-iva/
 00005|Arroz Gallo Oro Amarillo 500 Grs.|69.0|Almacén > Arroz|/2020/01/ARROZ-GALLO-ORO-AMA-500GR.jpg|/arroz-gallo-oro-ama-500gr/
 00006|ARROZ LUCHADOR 4/0 500GR|36.5|Almacén > Arroz|/2019/11/arroz-luchador-500.jpg|/arroz-luchador-4-0-500gr-s-iva/
@@ -42,7 +42,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00036|FIDEOS LA PROVIDENCIA  SPAGUETTI 500 GR|45.0|Almacén > Fideos|/2020/04/FIDEOS-LA-PROVIDENCIA-SPAG-500.jpg|/fideos-la-providencia-spaguetti-500-gr/
 00037|FIDEOS VERIZZIA GUISERO|39.0|Almacén > Fideos|/2020/01/FIDEOS-VERIZZIA-GUISERO-S-IVA.jpg|/fideos-verizzia-guisero-s-iva/
 00038|Fideos Chicago Rosca|50.0|Almacén > Fideos|/2020/01/default.jpg|/fideos-chicago-rosca-s-iva/
-00214|FIDEOS RIVOLI MOÑITO 500G|65.0|Almacén > Fideos|/2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg|/fideos-rivoli-espec-500g-s-iva/
+00487|FIDEOS RIVOLI MOÑITO 500G|65.0|Almacén > Fideos|/2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg|/fideos-rivoli-espec-500g-s-iva/
 00039|FIDEOS RIVOLI GUISERO/SOPERO 500G.|55.0|Almacén > Fideos|/2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg|/fideos-rivoli-gui-sop-500g-s-iva/
 00040|FIDEOS CHICAGO GUISEROS 500G|42.0|Almacén > Fideos|/2020/01/default.jpg|/fideos-chicago-guis-500g-s-iva/
 00041|FIDEOS PARRADIN 500GR|39.0|Almacén > Fideos|/2020/01/default.jpg|/fideos-parradin-500gr/
