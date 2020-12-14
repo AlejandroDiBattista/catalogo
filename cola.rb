@@ -105,7 +105,8 @@ class Cola
         1000.times do 
             i = rand(entradas.count)
             j = rand(entradas.count)
-            promedios << entradas[i].promedio(entradas[j]) if i != j 
+            redo if i == j 
+            promedios << entradas[i].promedio(entradas[j]) 
         end
         promedios.promedio
     end
