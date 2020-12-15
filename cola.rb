@@ -1,8 +1,7 @@
 require_relative 'code'
 
-TiempoMinimoAtencion = 2
+TiempoMinimoAtencion    = 2
 TiempoMinimoObservacion = 5
-
 
 def promedio(a, b)
     return 0 if b.cantidad == a.cantidad
@@ -75,14 +74,14 @@ class Cola
         puts " #{nombre} (#{reloj}s, #{lista.count}) [#{texto}] ".titulo do 
             lista.each{|e| puts ' %2is > %2i ' % [e.hora, e.cantidad] }
         end
-        puts ""
+        puts ''
     end
 
 end
 
 def Cola(nombre, cantidad=0, &bloque)
     tmp = Cola.new(nombre)
-    cantidad.times{tmp.entrar}
+    cantidad.times{ tmp.entrar }
     tmp.instance_eval(&bloque)
 end
 
