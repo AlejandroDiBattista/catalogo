@@ -267,10 +267,10 @@ require_relative './maxiconsumo'
 
 def bajar_todo
 	Tatito.bajar_todo
-	# Jumbo.bajar_todo
-	# TuChanguito.bajar_todo
-	# Maxiconsumo.bajar_todo
-	# puts " FIN.".pad(100).error
+	Jumbo.bajar_todo
+	TuChanguito.bajar_todo
+	Maxiconsumo.bajar_todo
+	puts " FIN.".pad(100).error
 end	
 
 def limpiar_errores
@@ -297,7 +297,7 @@ end
 
 if __FILE__ == $0
 	bajar_todo
-	pull 
+	# pull 
 	# limpiar_errores
 	# limpiar_fotos
 end
