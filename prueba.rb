@@ -1,12 +1,16 @@
-require_relative 'utils'
-def prueba(*lista, fecha: nil)
-	puts lista
-	puts fecha
-end
+require 'discordrb'
 
-# prueba 10, 20, 30
-# prueba 10, 20, 30, fecha: 'hoy'
+bot = Discordrb::Bot.new token: 'Nzg4MjExNjAwNTg2MDQ3NTU4.X9gNQQ.p_tSsd3hj5pw_jFrFwhTSVqD2PQ'
 
-origen = "productos_2020-07-24.dsv"
-pp origen.to_fecha
-p Date.today
+
+bot.send_message 'franco-bot#5114', "Hola mundo!"
+
+# '
+# # p Discordrb::Channel.new(1,1)
+# # bot.message(with_text: 'Ping!') do |event|
+# #   event.respond 'Pong!'
+# # end
+
+# # bot.chanel
+# # at_exit{bot.stop}
+# # bot.run

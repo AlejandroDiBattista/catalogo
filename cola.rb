@@ -155,6 +155,7 @@ def Cola(nombre, cantidad=0, &bloque)
 end
 
 if __FILE__ == $0
+    
     puts "Simulacion".pad(100).error
     Cola :polo_norte do 
         # 10.times{ entrar } 
