@@ -267,10 +267,10 @@ require_relative './maxiconsumo'
 
 def bajar_todo
 	Tatito.bajar_todo
-	Jumbo.bajar_todo
-	TuChanguito.bajar_todo
-	Maxiconsumo.bajar_todo
-	puts " FIN.".pad(100).error
+	# Jumbo.bajar_todo
+	# TuChanguito.bajar_todo
+	# Maxiconsumo.bajar_todo
+	# puts " FIN.".pad(100).error
 end	
 
 def limpiar_errores
@@ -291,13 +291,13 @@ def pull
     puts `git status -s`
 	`git add .`
 	`git commit -m "Upload automatic #{Date.today.to_s}"`
-	`git pull`
+	`git push`
 
 end
 
 if __FILE__ == $0
+	bajar_todo
 	pull 
-	# bajar_todo
 	# limpiar_errores
 	# limpiar_fotos
 end
