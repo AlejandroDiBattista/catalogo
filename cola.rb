@@ -14,11 +14,11 @@ class Cola
     
     def initialize(nombre='Cola')
         self.nombre = nombre
-        self.reloj = 0
+        self.reloj  = 0
         self.registros = []
     end
 
-    def avanzar(tiempo = 1)
+    def avanzar(tiempo=1)
         self.reloj += tiempo if tiempo > 0
     end
 
@@ -27,7 +27,7 @@ class Cola
     end
 
     def entrar
-        registrar(+1)
+        registrar(+1) 
     end
 
     def salir
@@ -62,19 +62,20 @@ class Cola
     end
 
     def muestra(cantidad=1000)
-        cantidad.times.map do 
-            i = rand(entradas.count)
-            j = rand(entradas.count)
-            redo if i == j 
-            promedio(entradas[i], entradas[j])
-        end
+        lista = entradas.clone
+        cantidad.times.map do
+            i = rand(lista.count)
+            j = rand(lista.count)
+            redo if i == j
+            promedio(lista[i], lista[j])
+        end.promedio.round(1)
     end
 
-    def mostrar(lista,texto="")
-        puts " #{nombre} [ #{reloj}s] (#{lista.count}) [#{texto}] ".titulo do 
-            lista.each{|e| puts "%2i > %3i " % [e.hora, e.cantidad] }
+    def mostrar(lista, texto='')
+        puts " #{nombre} (#{reloj}s, #{lista.count}) [#{texto}] ".titulo do 
+            lista.each{|e| puts ' %2is > %2i ' % [e.hora, e.cantidad] }
         end
-        puts "."
+        puts ""
     end
 
 end
@@ -89,19 +90,28 @@ if __FILE__ == $0
     
     puts "Simulacion".pad(100).error
     Cola 'Polo Norte' do 
-        10.times{ entrar } 
+        10.times{entrar}
+
         avanzar 20
-        3.times{ salir }
-        avanzar 20
-        # 5.times{ entrar }
-        2.times{ avanzar 10; salir }
-        avanzar 8
-        2.times{ salir }
+        3.times{salir}
+        
+        avanzar 30
+        salir 
+
         avanzar 10
         salir 
-        2.times{ entrar }
+
+        avanzar 8
+        2.times{salir}
+        
+        avanzar 10
+        salir 
+
+        2.times{entrar}
+
         avanzar 3
-        2.times{ salir }
+        2.times{salir}
+        
         avanzar 10
 
         mostrar registros,   'Registros Brutos'
@@ -110,7 +120,7 @@ if __FILE__ == $0
 
         # mostrar entradas,    "Entradas" 
    
-        pp muestra(10)
+        pp muestra(1000)
 
         # puts "Promedios" do 
         #     puts "Loco   10  #{promedio(10)}"
