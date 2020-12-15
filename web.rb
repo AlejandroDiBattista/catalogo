@@ -288,7 +288,7 @@ def limpiar_fotos
 end
 
 def pull
-    `git status -s`
+    puts `git status -s`
 	`git add .`
 	`git commit -m "Upload automatic #{Date.today.to_s}"`
 	`git pull`
