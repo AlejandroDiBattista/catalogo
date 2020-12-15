@@ -287,8 +287,17 @@ def limpiar_fotos
 	Maxiconsumo.limpiar_fotos
 end
 
+def pull
+    `git status -s`
+	`git add .`
+	`git commit -m "Upload automatic #{Date.today.to_s}"`
+	`git pull`
+
+end
+
 if __FILE__ == $0
-	bajar_todo
+	pull 
+	# bajar_todo
 	# limpiar_errores
 	# limpiar_fotos
 end
