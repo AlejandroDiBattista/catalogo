@@ -54,9 +54,8 @@ class Cola
             next unless actual
             if salida.count == 0
                 salida << anterior if actual.hora - anterior.hora >= TiempoMinimoObservacion
-            else 
-                salida << actual   if actual.cantidad < anterior.cantidad 
-            end
+            end 
+            salida << actual   if actual.cantidad < anterior.cantidad 
         end
         salida 
     end
@@ -107,37 +106,18 @@ end
 if __FILE__ == $0
     puts ' Simulacion '.pad(100).error
     Cola 'Polo Norte' do 
-        10.times{ entrar }
+        entrar
+        entrar
+        entrar
+        entrar
+        entrar
+        avanzar 10 #5 
+        salir
+        salir       
+        avanzar 30  #3
         salir 
-
-        avanzar 20
-        3.times{ salir }
+        avanzar 10  #2
         
-        avanzar 30
-        salir 
-
-        avanzar 10
-        salir 
-
-        avanzar 8
-        2.times{ salir }
-        
-        avanzar 10
-        salir 
-
-        2.times{ entrar }
-
-        avanzar 3
-        2.times{ salir }
-        
-        avanzar 10
-
-        # mostrar registros,   'Registros Brutos'
-        # mostrar permanentes, 'Permanentes'
-        mostrar entradas,    'Entradas'
-
-        # mostrar entradas,    "Entradas" 
-   
         pp muestra(100).promedio.round(1)
     end
  end
