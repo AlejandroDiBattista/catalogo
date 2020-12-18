@@ -1,4 +1,4 @@
-require_relative 'code'
+require_relative '../code'
 
 TiempoMinimoAtencion    = 2
 TiempoMinimoObservacion = 5
