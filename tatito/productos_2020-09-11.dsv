@@ -1,5 +1,5 @@
 id|nombre|precio|rubro|url_imagen|url_producto
-00516|SALSA GOLF DANICA 220ML.|48.0|Aderezos > Salsa Golf|/2019/11/SALSA-GOLF-DANICA-220ML.jpg|/salsa-golf-danica-220ml/
+00714|SALSA GOLF DANICA 220ML.|48.0|Aderezos > Salsa Golf|/2019/11/SALSA-GOLF-DANICA-220ML.jpg|/salsa-golf-danica-220ml/
 00001|Azucar 1 Kg.|58.95|Almacén > Azúcar|/2019/11/azucar-comun-1kg-fraccionada.jpg|/azucar-1kg-s-iva/
 00002|KETCHUP DANICA 220GR|52.0|Aderezos > Ketchup|/2020/01/KETCHUP-DANICA-220GR.jpg|/ketchup-danica-220gr/
 00003|MOSTAZA DANICA 220GR|43.0|Aderezos > Mostazas|/2020/01/MOSTAZA-DANICA-250GR.jpg|/mostaza-danica-220gr/
@@ -17,11 +17,11 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00013|MAYONESA FANACOA  2755KG|299.0|Aderezos > Mayonesas|/2020/01/MAYONESA-FANACOA-2755KG.jpg|/mayonesa-fanacoa-2755kg/
 00015|MAYONESA DANICA F X 500GR|70.0|Aderezos > Mayonesas|/2019/11/MAYONESA-DANICA-F-X-500GR.jpg|/mayonesa-danica-f-x-500gr/
 00016|MAYONESA HELLMANNS 237GR|55.0|Aderezos > Mayonesas|/2020/01/MAYONESA-HELLMANNS-237GR.jpg|/mayonesa-hellmanns-237gr/
-00537|REBOZADOR PREFERIDO 500GR|82.9|Almacén > Rebozadores|/2020/01/REBOZADOR-PREFERIDO-500GR.jpg|/rebozador-preferido-500gr-s-iva/
+00735|REBOZADOR PREFERIDO 500GR|82.9|Almacén > Rebozadores|/2020/01/REBOZADOR-PREFERIDO-500GR.jpg|/rebozador-preferido-500gr-s-iva/
 00017|Sardinas en aceite Marbella 120 gr.|100.0|Almacén > Enlatados|/2020/05/sardina-marbella-120g.jpg|/sardinas-en-aceite-marbella-120-gr/
 00018|Arvejas Arcor  Secas 300 Grs.|50.0|Almacén > Enlatados|/2020/01/ARVEJAS-ARCOR-SECAS-300-GR.jpg|/arvejas-arcor-secas-300-gr/
 00019|ARVEJAS INALPA  350GR|30.0|Almacén > Enlatados|/2020/01/ARVEJAS-INALPA-350GR.jpg|/arvejas-inalpa-350gr/
-00568|Picadillo Changuito Carne 90 grs.|27.8|Almacén > Enlatados|/2020/01/PICADILLO-CHANGUITO.jpg|/picadillo-changuito/
+00772|Picadillo Changuito Carne 90 grs.|27.8|Almacén > Enlatados|/2020/01/PICADILLO-CHANGUITO.jpg|/picadillo-changuito/
 00020|Picadillo La Negra Carne 90 grs.|27.8|Almacén > Enlatados|/2020/01/PICADILLO-LA-NEGRA-CARNE-90.jpg|/picadillo-la-negra-carne-90/
 00021|BIZCOCHUELO GODET CHOCOLATE 480GR|120.0|Almacén > Postres|/2020/01/BIZC-GODET-CHOC-480GR.jpg|/bizc-godet-choc-480gr/
 00022|FLAN GODET DULCE DE LECHE 30 GRS.|30.0|Almacén > Postres|/2020/01/FLAN-GODET-D-DE-LECHE-30-GRS.jpg|/flan-godet-d-de-leche-30-grs/
@@ -75,7 +75,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00068|TE LA VIRGINIA X 100 SAQ|170.0|Almacén > Mate|/2020/01/TE-LA-VIRG-X-100-SAQ.jpg|/te-la-virg-x-100-saq-s-iva/
 00069|Mate Cocido en Saquitos Cachamate x 25 Uds.|53.84|Almacén > Mate|/2020/01/YERBA-SAQ-CACHAMATE-X-25U.jpg|/yerba-saq-cachamate-x-25u-s-iva/
 00070|YERBA TARAGUI C/P X 500GR|165.0|Almacén > Mate|/2020/04/yerba-mate-taragui-500-grs.jpg|/yerba-taragui-c-p-x-500gr-s-iva/
-00611|Yerba Nobleza Gaucha 500 Grs.|130.0|Almacén > Mate|/2020/01/YERBA-NOBLEZA-G-500GR.jpg|/yerba-nobleza-g-500gr-s-iva/
+00803|Yerba Nobleza Gaucha 500 Grs.|130.0|Almacén > Mate|/2020/01/YERBA-NOBLEZA-G-500GR.jpg|/yerba-nobleza-g-500gr-s-iva/
 00071|TE LA VIRGINIA X 50 SAQ|89.0|Almacén > Mate|/2020/01/TE-LA-VIRG-X-50-SAQ.jpg|/te-la-virg-x-50-saq-s-iva/
 00072|Mate Cocido Broche de Oro x 25 uds.|59.04|Almacén > Mate|/2020/01/YERBA-SAQ-BROCHE-O-X-25.jpg|/yerba-saq-broche-o-x-25-s-iva/
 00073|YERBA BROCHE ORO 500GR|135.0|Almacén > Mate|/2020/01/YERBA-BROCHE-ORO-500GR.jpg|/yerba-broche-oro-500gr-s-iva/
@@ -180,7 +180,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00174|GALLETAS OPERA 55GR|37.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-OPERA-55GR.jpg|/gall-opera-55gr/
 00175|Galletas Porte?itas 125 Grs.|49.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-PORTENITAS-125GR.jpg|/gall-portenitas-125gr/
 00176|GALLETAS MAURI SIN SAL 400GR|94.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-MAURI-SIN-SAL-400GR.jpg|/gall-mauri-sin-sal-400gr/
-00681|Galletas Chocolinas 170 Grs.  Bagley|66.0|Desayuno > Gall Dulces y Saladas|/2020/01/GALL-CHOCOLINAS-170G-BAGLEY-3.jpg|/gall-chocolinas-170g-bagley-3/
+00879|Galletas Chocolinas 170 Grs.  Bagley|66.0|Desayuno > Gall Dulces y Saladas|/2020/01/GALL-CHOCOLINAS-170G-BAGLEY-3.jpg|/gall-chocolinas-170g-bagley-3/
 00188|GALLETAS TRAVIATA  3 X101 GR|84.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-TRAVIATA-3-X101-GR.jpg|/gall-traviata-3-x101-gr/
 00189|GALLETAS MANA RELL 165GR|57.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-MANA-RELL-165GR.jpg|/gall-mana-rell-165gr/
 00682|GALLETAS CRIOLLITAS DE 3 X100GR|70.0|Desayuno > Gall Dulces y Saladas|/2020/01/GALL-CRIOLLITAS-DE-3-X100GR.jpg|/gall-criollitas-de-3-x100gr/
@@ -206,7 +206,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00211|Leche Nido Fort Tapa Amarilla 800Gr|485.0|Lacteos > Leche en Polvo|/2020/01/LECHE-NIDO-CON-PROT-T-AMARILLA-800GR.jpg|/leche-nido-fort-t-ama-800gr/
 00710|ROLLO DE COCINA CAMPANITA CLASICA MULTIUSO|59.79|Limpieza > Rollos de Cocina|/2020/01/ROLL-COC-CAMP-CLASISCA-MULTIUSO.jpg|/roll-coc-camp-clas-multiuso/
 00212|ROLLO DE COCINA SOL MAYOR X 3UN|58.0|Limpieza > Rollos de Cocina|/2020/01/ROLL-COC-SOL-MAYOR-X-3UN.jpg|/roll-coc-sol-mayor-x-3un/
-00718|Papel Higienico Campanita Texturado x 6un|85.0|Limpieza > Papel Higiénico|/2020/09/Papel-hig-camp-text-6.jpg|/papel-higienico-campanita-texturado-x-6un/
+00906|Papel Higienico Campanita Texturado x 6un|85.0|Limpieza > Papel Higiénico|/2020/09/Papel-hig-camp-text-6.jpg|/papel-higienico-campanita-texturado-x-6un/
 00719|Papel Higienico Campanita Doble Hoja 4 x 30 mt.|110.0|Limpieza > Papel Higiénico|/2020/08/papel-hig-camp-azul-4x30-1.jpg|/papel-higienico-campanita-doble-hoja-4-x-30-mt/
 00218|Desodorante Rexona Clinical Men 48 grs.|289.99|Limpieza > Desodorante Hombre/Mujer|/2020/07/rexona-clinical-men-48g.jpg|/desodorante-rexona-clinical-men-48-grs/
 00219|Desodorante Rexona Odorono 60 grs.|95.29|Limpieza > Desodorante Hombre/Mujer|/2020/07/Desodorante-rexona-odorono-60grs.jpg|/desodorante-rexona-odorono-60-grs/
@@ -409,10 +409,10 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00519|AVENA JOSE LOPEZ 500GR|51.0|Almacén > Legumbres|/2020/01/default.jpg|/avena-jose-lopez-500gr/
 00520|Edulcorante Barny 500 Ml.|125.0|Desayuno > Edulcorantes|/2019/11/EDULCORANTE-BARNY-500.jpg|/edulc-barny-500ml/
 00524|Mermelada Ciruela Orieta light x 420 gr.|52.5|Desayuno > Mermeladas|/2020/04/mermelada-ciruela-orieta-light.jpg|/mermelada-ciruela-orieta-light-x-420-gr/
-00569|Maiz Pisingallo Verizzia|32.0|Almacén > Legumbres|/2020/09/maiz-pising-verizzia-400.jpg|/maiz-pisingallo-verizzia/
+00754|Maiz Pisingallo Verizzia|32.0|Almacén > Legumbres|/2020/09/maiz-pising-verizzia-400.jpg|/maiz-pisingallo-verizzia/
 00545|CALDO WILDE VERDURAS 12UN|57.0|Almacén > Sopas y Caldos|/2020/01/CALDO-WILDE-12UN.jpg|/caldo-wilde-12un/
 00546|Fideos La Providencia Moño x 500 grs|47.0|Almacén > Fideos|/2020/01/default.jpg|/fideos-la-providencia-mono-x-500-grs/
 00573|MAIZ PISINGALLO LA ESPANOLA 500GR|44.0|Almacén > Legumbres|/2020/01/default.jpg|/maiz-la-espanola-pisingallo-500gr/
 00547|TOMATE TRITURADO LA RIOJANITA 980GR|100.0|Almacén > Salsas|""|/tom-trit-la-riojanita-980gr/
 00548|Muzzarella Debaldo|400.0|Fiambreria > Muzzarella|/2020/01/MUZZARELLA-DEBALDO.jpg|/muzzarella-debaldo/
-00653|LASAGNA MATARAZZO 250GRS|105.0|Almacén > Varios|/2020/01/LASAGNA-MATARAZZO-250GRS.jpg|/lasagna-matarazzo-250grs/
+00851|LASAGNA MATARAZZO 250GRS|105.0|Almacén > Varios|/2020/01/LASAGNA-MATARAZZO-250GRS.jpg|/lasagna-matarazzo-250grs/
