@@ -15,7 +15,7 @@ def analizar(supermercado, filtro: '', periodo: :semana, cambios: true, verboso:
 end
 
 def arroz(*supermercados, periodo: :semana)
-	puts " Analisis de variacion de precio del Arroz al #{Date.today} (perido: #{periodo})".pad(120).error
+	puts " Análisis de variación de precio del Arroz al #{Date.today} (Período: #{periodo})".pad(113).error
 	supermercados.each do |supermercado|
 		analizar supermercado, filtro: '/arroz arroz -garbanzo -ma.z -poroto -lentej -arvej -/listo 500', periodo: periodo
 	end

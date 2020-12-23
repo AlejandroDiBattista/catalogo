@@ -141,7 +141,7 @@ class Catalogo
 		puts (" %-12s | %-66s | %4i  %6.2f   %6.2f %s  " % [datos.base.upcase, verboso ? "Productos para '#{busqueda}'" : '', datos.count, datos.precio_promedio, datos.precio_promedio_oferta, datos.variacion_promedio.to_porcentaje]).on_green.black
 
 		anterior = []
-		datos.each do |x|
+		datos.sort_by(&:nombre).each do |x|
 			actual = x.rubro.from_rubro
 			if actual != anterior
 				mostrar = false 
