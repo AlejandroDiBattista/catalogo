@@ -34,7 +34,7 @@ export default {
   setup(prop) {
     const compras = ref(prop.unidades || 0);
 
-const incrementar = () => compras.value++;
+    const incrementar = () => compras.value++;
     const decrementar = () => compras.value--;
     const vaciar = () => (compras.value = 0);
 
