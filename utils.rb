@@ -313,7 +313,7 @@ module Kernel
 	end
 
 	def medir(titulo)
-		puts titulo do 
+		puts " #{titulo} ".pad(100).white.on_blue do 
 			$mediciones << Progreso.new
 			yield $mediciones.last 
 			$mediciones.pop.finalizar

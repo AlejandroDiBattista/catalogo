@@ -266,11 +266,13 @@ require_relative './tu_changuito'
 require_relative './maxiconsumo'
 
 def bajar_todo
+	medir "Bajando todos los datos" do 
 	Tatito.bajar_todo
-	Jumbo.bajar_todo
-	TuChanguito.bajar_todo
-	Maxiconsumo.bajar_todo
-	puts " FIN.".pad(100).error
+		Jumbo.bajar_todo
+		TuChanguito.bajar_todo
+		Maxiconsumo.bajar_todo
+		puts " FIN.".pad(100).error
+	end
 end	
 
 def limpiar_errores
