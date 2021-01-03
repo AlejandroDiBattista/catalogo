@@ -192,7 +192,7 @@ module Enumerable
 		end
 	end
 
-	def procesar(hilos = 50)
+	def procesar(hilos = 20)
 		salida = []
 		Progreso.new do |progreso| 
 			Parallel.each(to_a, in_threads: hilos) do |item|
