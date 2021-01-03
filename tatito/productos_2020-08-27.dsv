@@ -42,7 +42,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00036|FIDEOS LA PROVIDENCIA  SPAGUETTI 500 GR|47.0|Almacén > Fideos|/2020/04/FIDEOS-LA-PROVIDENCIA-SPAG-500.jpg|/fideos-la-providencia-spaguetti-500-gr/
 00037|FIDEOS VERIZZIA GUISERO|39.0|Almacén > Fideos|/2020/01/FIDEOS-VERIZZIA-GUISERO-S-IVA.jpg|/fideos-verizzia-guisero-s-iva/
 00038|Fideos Chicago Rosca|50.0|Almacén > Fideos|/2020/01/default.jpg|/fideos-chicago-rosca-s-iva/
-00664|FIDEOS RIVOLI MO?ITO 500G|65.0|Almacén > Fideos|/2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg|/fideos-rivoli-espec-500g-s-iva/
+00775|FIDEOS RIVOLI MO?ITO 500G|65.0|Almacén > Fideos|/2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg|/fideos-rivoli-espec-500g-s-iva/
 00039|FIDEOS RIVOLI GUISERO/SOPERO 500G.|55.0|Almacén > Fideos|/2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg|/fideos-rivoli-gui-sop-500g-s-iva/
 00040|FIDEOS CHICAGO GUISEROS 500G|42.0|Almacén > Fideos|/2020/01/default.jpg|/fideos-chicago-guis-500g-s-iva/
 00041|FIDEOS PARRADIN 500GR|39.0|Almacén > Fideos|/2020/01/default.jpg|/fideos-parradin-500gr/
@@ -182,7 +182,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00609|GALLETAS TRAVIATA  3 X101 GR|84.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-TRAVIATA-3-X101-GR.jpg|/gall-traviata-3-x101-gr/
 00189|GALLETAS MANA RELL 165GR|57.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-MANA-RELL-165GR.jpg|/gall-mana-rell-165gr/
 00610|GALLETAS CRIOLLITAS DE 3 X100GR|70.0|Desayuno > Gall Dulces y Saladas|/2020/01/GALL-CRIOLLITAS-DE-3-X100GR.jpg|/gall-criollitas-de-3-x100gr/
-00813|GALLETAS HOGARENAS SALVADO 200GR|58.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-HOGARENAS-SALVADO-200GR.jpg|/gall-hogarenas-salvado-200gr/
+00900|GALLETAS HOGARENAS SALVADO 200GR|58.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-HOGARENAS-SALVADO-200GR.jpg|/gall-hogarenas-salvado-200gr/
 00191|Flan Manfrey 120Gr|35.0|Lacteos > Flan|/2020/01/FLAN-MANFREY-120GR.jpg|/flan-manfrey-120gr/
 00193|CASANCREM ENTERO 290GR|180.0|Frescos y Congelados > Untables|/2020/01/CASANCREM-LS-300GR-ENT.jpg|/casancrem-ls-300gr-ent/
 00194|QUESO UNTABLE LA PAULINA X 200GR VS SABORES|94.29|Frescos y Congelados > Untables|/2019/11/QUESO-UNT-LA-PAULINA.jpg|/queso-unt-la-paulina-x-200gr/
@@ -195,7 +195,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00644|Dulce de Leche Santa Maria 400 Grs.|92.0|Lacteos > Dulce de Leche|/2020/01/DULCE-LECHE-SANTA-MARIA-400GR.jpg|/dulce-leche-santa-maria-400gr/
 00203|Protector Calipso Normal x 20 sin desodorante|49.0|Limpieza > Protección Femenina|/2019/11/protector-calipso-normal-x20-1.jpg|/protec-calipso-x-20un/
 00204|Toalla Calipso Normal con Gel con Alas x 8 uds.|33.0|Limpieza > Protección Femenina|/2020/01/TOALL-CALIPSO-PLUS-VERDE.8U..jpg|/toall-calipso-plus-verde-8u/
-00824|TOALLA LADYSOFT C/A VERDE 8UN|39.99|Limpieza > Protección Femenina|/2020/01/TOALLA-LADYSOFT-CON-ALOE-NUEVA-VERDE-8UN.jpg|/toalla-ladysoft-c-a-nueva-verde-8un/
+00911|TOALLA LADYSOFT C/A VERDE 8UN|39.99|Limpieza > Protección Femenina|/2020/01/TOALLA-LADYSOFT-CON-ALOE-NUEVA-VERDE-8UN.jpg|/toalla-ladysoft-c-a-nueva-verde-8un/
 00206|Queso Rallado Chef X 40 Grs.|25.0|Lacteos > Quesos|/2020/01/default.jpg|/rall-chef-x-40-gr/
 00207|QUESO UNTABLE LA PAULINA X 200GR VS SABORES|94.29|Lacteos > Quesos|/2019/11/QUESO-UNT-LA-PAULINA.jpg|/queso-unt-la-paulina-x-200gr/
 00630|Leche Descremada en Polvo Purisima x 800 grs.|395.0|Lacteos > Leche en Polvo|/2020/07/leche-en-polvo-purisima-descremada-800.jpg|/leche-descremada-en-polvo-purisima-x-800-grs/
@@ -432,7 +432,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00518|FIBRA ESPONJA MAKE LISA|18.0|Limpieza > Varios|/2020/01/FIBRA-ESP-MAKE-LISA.jpg|/fibra-esp-make-lisa/
 00519|AVENA JOSE LOPEZ 500GR|51.0|Almacén > Legumbres|/2020/01/default.jpg|/avena-jose-lopez-500gr/
 00520|Edulcorante Barny 500 Ml.|125.0|Desayuno > Edulcorantes|/2019/11/EDULCORANTE-BARNY-500.jpg|/edulc-barny-500ml/
-00809|Yogur Yofrey Manfrey Vainilla x 120 grs.|28.5|Lacteos > Yogures|/2020/07/yogur-manfrey-yofrey-120.jpg|/yogur-yofrey-manfrey-x-120-grs/
+00896|Yogur Yofrey Manfrey Vainilla x 120 grs.|28.5|Lacteos > Yogures|/2020/07/yogur-manfrey-yofrey-120.jpg|/yogur-yofrey-manfrey-x-120-grs/
 00521|Queso Rallado Rosalat x 30 grs.|28.58|Almacén > Otros|/2020/08/queso-rallado-rosalat-30.jpg|/queso-rallado-rosalat-x-30-grs/
 00522|Queso Rallado Rosalat x 30 grs.|28.58|Fiambreria > Romanito / Sardo|/2020/08/queso-rallado-rosalat-30.jpg|/queso-rallado-rosalat-x-30-grs/
 00523|Queso Rallado Rosalat x 30 grs.|28.58|Lacteos > Quesos|/2020/08/queso-rallado-rosalat-30.jpg|/queso-rallado-rosalat-x-30-grs/
