@@ -30,15 +30,15 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00767|MAYONESA DANICA F 100GR|19.0|Aderezos > Mayonesas|/2019/11/mayonesa-danica-fiesta-100g.jpg|/mayonesa-danica-f-100gr/
 00768|Mayonesa Danica F. 220 Gr.|39.0|Aderezos > Mayonesas|/2019/11/mayonesa-danica-220.jpg|/mayonesa-danica-f-220gr/
 00769|MAYONESA HELLMANNS 118GR|27.0|Aderezos > Mayonesas|/2020/01/MAYONESA-HELLMANNS-118GR.jpg|/mayonesa-hellmanns-118gr/
-00795|Atun Cumana en aceite Desmenuzado 170 gr.|78.0|Almacén > Enlatados|/2020/10/atun-cumana-desm-aceite-170.jpg|/atun-cumana-en-aceite-desmenuzado-170-gr/
-00796|Atun Bahia en aceite y agua 170 Gr.|79.0|Almacén > Enlatados|/2020/10/atun-bahia-en-aceite-170g.jpg|/atun-bahia-en-aceite-y-agua-170-gr/
-00797|Durazno en lata DF x 820 gr.|133.5|Almacén > Enlatados|/2020/09/durazno-df-820.jpg|/durazno-en-lata-df-x-820-gr/
+00797|Atun Cumana en aceite Desmenuzado 170 gr.|78.0|Almacén > Enlatados|/2020/10/atun-cumana-desm-aceite-170.jpg|/atun-cumana-en-aceite-desmenuzado-170-gr/
+00798|Atun Bahia en aceite y agua 170 Gr.|79.0|Almacén > Enlatados|/2020/10/atun-bahia-en-aceite-170g.jpg|/atun-bahia-en-aceite-y-agua-170-gr/
+00799|Durazno en lata DF x 820 gr.|133.5|Almacén > Enlatados|/2020/09/durazno-df-820.jpg|/durazno-en-lata-df-x-820-gr/
 00017|Sardinas en aceite Marbella 120 gr.|100.0|Almacén > Enlatados|/2020/05/sardina-marbella-120g.jpg|/sardinas-en-aceite-marbella-120-gr/
-00801|Atun Cumana al natural Desmenuzado 170 gr.|78.0|Almacén > Enlatados|/2020/01/ATUN-CUMANA-DESMENUZ-170GR.jpg|/atun-cumana-desmenuz-170gr/
-00802|Lentejas Arcor 320 Grs..|69.0|Almacén > Enlatados|/2020/01/LENTEJAS-ARCOR-320G.jpg|/lentejas-arcor-320g/
+00803|Atun Cumana al natural Desmenuzado 170 gr.|78.0|Almacén > Enlatados|/2020/01/ATUN-CUMANA-DESMENUZ-170GR.jpg|/atun-cumana-desmenuz-170gr/
+00804|Lentejas Arcor 320 Grs..|69.0|Almacén > Enlatados|/2020/01/LENTEJAS-ARCOR-320G.jpg|/lentejas-arcor-320g/
 00018|Arvejas Arcor  Secas 300 Grs.|50.0|Almacén > Enlatados|/2020/01/ARVEJAS-ARCOR-SECAS-300-GR.jpg|/arvejas-arcor-secas-300-gr/
 00019|ARVEJAS INALPA  350GR|32.5|Almacén > Enlatados|/2020/01/ARVEJAS-INALPA-350GR.jpg|/arvejas-inalpa-350gr/
-00805|Picadillo Changuito Carne 90 grs.|30.0|Almacén > Enlatados|/2020/01/PICADILLO-CHANGUITO.jpg|/picadillo-changuito/
+00807|Picadillo Changuito Carne 90 grs.|30.0|Almacén > Enlatados|/2020/01/PICADILLO-CHANGUITO.jpg|/picadillo-changuito/
 00020|Picadillo La Negra Carne 90 grs.|30.0|Almacén > Enlatados|/2020/01/PICADILLO-LA-NEGRA-CARNE-90.jpg|/picadillo-la-negra-carne-90/
 00021|BIZCOCHUELO GODET CHOCOLATE 480GR|120.0|Almacén > Postres|/2020/01/BIZC-GODET-CHOC-480GR.jpg|/bizc-godet-choc-480gr/
 00022|FLAN GODET DULCE DE LECHE 30 GRS.|30.0|Almacén > Postres|/2020/01/FLAN-GODET-D-DE-LECHE-30-GRS.jpg|/flan-godet-d-de-leche-30-grs/
@@ -62,10 +62,10 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00029|BURGOL LA ESPANOLA 500GR|71.0|Almacén > Legumbres|/2020/04/burgol-la-española.jpg|/burgol-la-espanola-500gr/
 00030|POLENTA JOSE LOPEZ 500GR|29.0|Almacén > Legumbres|/2020/01/default.jpg|/polenta-jose-lopez-500gr/
 00031|POLENTA LA ESPANOLA 500GR|28.99|Almacén > Legumbres|/2020/01/default.jpg|/polenta-la-espanola-500gr/
-00806|Sal Susysal Fina 500 gr.|28.0|Almacén > Sal|/2020/10/sal-fina-susysal.jpg|/sal-susysal-fina-500-gr/
+00793|Sal Susysal Fina 500 gr.|28.0|Almacén > Sal|/2020/10/sal-fina-susysal.jpg|/sal-susysal-fina-500-gr/
 00032|SAL MANTO BLANCO FINA 500GR|19.0|Almacén > Sal|/2019/11/sal-manto-blanco-fina-500.jpg|/sal-manto-blanco-fina-500gr/
 00033|SAL MANTO BLANCO GRUESA 500GR|19.0|Almacén > Sal|/2019/11/sal-manto-blanco-gruesa-500.jpg|/sal-manto-blanco-gruesa-500gr/
-00807|SAL SAN ANTONIO FINA 500G|12.0|Almacén > Sal|/2020/01/default.jpg|/sal-san-antonio-fina-500g/
+00794|SAL SAN ANTONIO FINA 500G|12.0|Almacén > Sal|/2020/01/default.jpg|/sal-san-antonio-fina-500g/
 00034|SAL CELUSAL FINA 500GR|39.99|Almacén > Sal|/2020/01/SAL-CELUSAL-FINA-500GR.jpg|/sal-celusal-fina-500gr/
 00620|Capelettini Carne Giacomo 500 g.|209.0|Almacén > Fideos|/2020/10/capelettini-giacomo-carne-500.jpg|/capelettini-carne-giacomo-500-g/
 00770|Capelettini Tridicci Giacomo 500 g.|209.0|Almacén > Fideos|/2020/10/capelettini-giacomo-tridicci-500.jpg|/capelettini-tridicci-giacomo-500-g/
@@ -143,8 +143,8 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00818|Dr. Lemon con Vodka Lata 473 cm.|65.0|Bebidas > Aperitivos|/2020/10/dr-lemon-vodka-473cc.jpg|/dr-lemon-lata-473-cm/
 00971|GANCIA AMERICANO X 950ML|245.0|Bebidas > Aperitivos|/2019/11/GANCIA-AMAERICANO-X-950ML.jpg|/gancia-amaericano-x-950ml/
 00078|Vino Dada 1 750 ml|256.0|Bebidas > Vinos|/2020/05/vino-dada-1.jpg|/vino-dada-1-750-ml/
-00841|Vino Finca La Sofia Malbec x 750 mm.|99.0|Bebidas > Vinos|/2020/05/VINO-LA-SOFIA-malbec-750.jpg|/vino-finca-la-sofia-malbec-x-750-mm/
-00842|Vino Elementos Malbec x 750 Ml.|255.0|Bebidas > Vinos|/2020/04/vino-elementos-malbec-750.jpg|/vino-elementos-malbec-x-750-ml/
+00839|Vino Finca La Sofia Malbec x 750 mm.|99.0|Bebidas > Vinos|/2020/05/VINO-LA-SOFIA-malbec-750.jpg|/vino-finca-la-sofia-malbec-x-750-mm/
+00840|Vino Elementos Malbec x 750 Ml.|255.0|Bebidas > Vinos|/2020/04/vino-elementos-malbec-750.jpg|/vino-elementos-malbec-x-750-ml/
 00080|VINO FRIZZE EVOLUTION 750CC|118.0|Bebidas > Vinos|/2020/01/VINO-FRIZZE-EVOLUTION-750CC.jpg|/vino-frizze-evolution-750cc/
 00081|Vino Balbo Borges 1,125 Lts.|105.0|Bebidas > Vinos|/2020/01/VINO-BALBO-BORGX-1125.jpg|/vino-balbo-borgx-1125/
 00082|VINO TERMIDOR TINTO 1LT|85.0|Bebidas > Vinos|/2020/01/VINO-TERMIDOR-TINTO-1LT.jpg|/vino-termidor-tinto-1lt/
@@ -221,7 +221,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00128|Jamon Cocido Goggi Feteado x 100 grs.|58.0|Fiambreria > Jamón|/2020/01/JAMON-COC-GOGGI.jpg|/jamon-coc-goggi-2/
 00129|Jamon Cocido Lario Feteado x 100 grs.|60.0|Fiambreria > Jamón|/2020/01/FIAMBRE-COC-LARIO-COD-108.jpg|/jamon-cocido-lario/
 00130|Jamon Cocido Goggi con Cuero Feteado x 100 grs.|60.0|Fiambreria > Jamón|/2020/01/JAMON-COCIDO-GOGGI-CON-CUERO.jpg|/jamon-coc-goggi-c-cuero/
-00863|Sardo Debaldo x 100 grs.|55.0|Fiambreria > Sardo|/2020/01/SARDO-DEBALDO.jpg|/sardo-debaldo/
+00860|Sardo Debaldo x 100 grs.|55.0|Fiambreria > Sardo|/2020/01/SARDO-DEBALDO.jpg|/sardo-debaldo/
 00131|Queso Danbo Noal (Tybo) Feteado x 100 grs.|50.0|Fiambreria > Dambo|/2020/01/DAMBO-NOAL.jpg|/dambo-noal/
 00132|Bondiola Goggi Feteada x 100 grs.|110.0|Fiambreria > Bondiola|/2020/01/BONDIOLA-GOGGI.jpg|/bondiola-goggi/
 00133|Bondiola Lario Feteada x 100 grs.|100.0|Fiambreria > Bondiola|/2020/01/BONDIOLA-LARIO.jpg|/bondiola-lario/
@@ -281,7 +281,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00167|LECHE CONDENSADA NESTLE 395G|185.0|Lacteos > Leche Condensada|/2020/01/LECHE-CONDENSADA-NESTLE-395G.jpg|/leche-condensada-nestle-395g/
 00890|Tapa para Empanadas la Tucumanita 12 u.|44.5|Frescos y Congelados > Tapas|/2019/11/tapa-emp-tucumanita.jpg|/tapa-p-emp-la-tuc-12un/
 00168|TAPA PARA EMPANADAS MADOMI X12 UN.|46.0|Frescos y Congelados > Tapas|/2020/01/TAPA-MADOMI-P-EMP.jpg|/tapa-madomi-p-emp/
-00893|Actimel 100Ml|72.85|Frescos y Congelados > Yogures|/2020/01/ACTIMEL-100ML.jpg|/actimel-100ml/
+00894|Actimel 100Ml|72.85|Frescos y Congelados > Yogures|/2020/01/ACTIMEL-100ML.jpg|/actimel-100ml/
 00187|Galletas Frutigran Tropical 250 gr.|85.0|Desayuno > Gall Dulces y Saladas|/2020/07/frutigran-tropical-250.jpg|/galletas-frutigran-tropical-250-gr/
 00169|Galletas Chocolinas 100 Grs.  Bagley|45.0|Desayuno > Gall Dulces y Saladas|/2020/01/GALL-CHOCOLINAS-170G-BAGLEY-3.jpg|/galletas-chocolinas-100-grs-bagley/
 00170|GALLETAS CHOCOCHIPS DE 135GR|40.0|Desayuno > Gall Dulces y Saladas|/2020/01/GALL-CHOCOCHIPS-DE-135GR.jpg|/gall-chocochips-de-135gr/
@@ -299,12 +299,12 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00193|CASANCREM ENTERO 290GR|190.0|Frescos y Congelados > Untables|/2020/01/CASANCREM-LS-300GR-ENT.jpg|/casancrem-ls-300gr-ent/
 00206|Queso Rallado Chef X 40 Grs.|25.0|Lacteos > Quesos|/2020/01/default.jpg|/rall-chef-x-40-gr/
 00207|QUESO UNTABLE LA PAULINA X 200GR VS SABORES|99.99|Lacteos > Quesos|/2019/11/QUESO-UNT-LA-PAULINA.jpg|/queso-unt-la-paulina-x-200gr/
-00919|Leche en Polvo Zero Lactosa La serenisima 400 gr.|321.0|Lacteos > Leche en Polvo|/2020/10/leche-en-polvo-zerolactosa-ls-400.jpg|/leche-en-polvo-zero-lactosa-la-serenisima-400-gr/
-00920|Leche en Polvo Entera Lheritier 350 gr.|199.0|Lacteos > Leche en Polvo|/2020/06/leche-en-polvo-entera-lheritier-800.jpg|/leche-en-polvo-entera-lheritier-350-gr/
-00921|Leche Entera en Polvo Purisima x 800 grs.|417.0|Lacteos > Leche en Polvo|/2020/05/leche-en-polvo-purisima-800.jpg|/leche-entera-en-polvo-purisima-x-800-grs/
+00923|Leche en Polvo Zero Lactosa La serenisima 400 gr.|321.0|Lacteos > Leche en Polvo|/2020/10/leche-en-polvo-zerolactosa-ls-400.jpg|/leche-en-polvo-zero-lactosa-la-serenisima-400-gr/
+00924|Leche en Polvo Entera Lheritier 350 gr.|199.0|Lacteos > Leche en Polvo|/2020/06/leche-en-polvo-entera-lheritier-800.jpg|/leche-en-polvo-entera-lheritier-350-gr/
+00925|Leche Entera en Polvo Purisima x 800 grs.|417.0|Lacteos > Leche en Polvo|/2020/05/leche-en-polvo-purisima-800.jpg|/leche-entera-en-polvo-purisima-x-800-grs/
 00210|Leche en Polvo Descremada Lheritier 350 gr.|199.0|Lacteos > Leche en Polvo|/2020/05/leche-en-polvo-lheritier-800.jpg|/leche-en-polvo-descremada-lheritier-350-gr/
 00211|Leche Nido Fort Tapa Amarilla 800Gr|430.0|Lacteos > Leche en Polvo|/2020/01/LECHE-NIDO-CON-PROT-T-AMARILLA-800GR.jpg|/leche-nido-fort-t-ama-800gr/
-00922|Leche Nido C/Prot T.Roja 800Gr|485.0|Lacteos > Leche en Polvo|/2020/01/LECHE-NIDO-CON-PROT-T.ROJA-800GR.jpg|/leche-nido-c-prot-t-roja-800gr/
+00926|Leche Nido C/Prot T.Roja 800Gr|485.0|Lacteos > Leche en Polvo|/2020/01/LECHE-NIDO-CON-PROT-T.ROJA-800GR.jpg|/leche-nido-c-prot-t-roja-800gr/
 00264|Mayonesa Natura 250 grs.|64.0|Aderezos > Mayonesas|/2020/06/mayonesa-natura-250.jpg|/mayonesa-natura-250-grs/
 00273|Cafe La Morenita 125 Grs.|90.0|Almacén > Café|/2020/01/CAFE-LA-MORENITA-125GR.jpg|/cafe-la-morenita-125gr/
 00274|CAFE DOLCA CLASICO 170 GRS. VIDRIO|285.0|Almacén > Café|/2020/01/CAFE-DOLCA-TORR-VID170GR.jpg|/cafe-dolca-torr-vid170gr/
@@ -358,7 +358,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00281|Atun Bahia al natural 170 GR|79.0|Almacén > Enlatados|/2020/05/atun-bahia-170g.jpg|/atun-bahia-170-gr/
 00801|Jugo Baggio Mix Frutal 1LT|73.0|Bebidas > Jugos|/2020/10/jugo-baggio-mixfr-1-lt.jpg|/jugo-baggio-mix-frutal-1lt/
 00803|Galletas Gaona Recreo Surtida x 350 grs.|69.9|Desayuno > Gall Dulces y Saladas|/2020/10/galletas-gaona-recreo-surt-350gr.jpg|/galletas-gaona-recreo-surtida-x-350-grs/
-00905|Leche Cotapa  Larga Vida  Descremada  1 Lt.|64.5|Lacteos > Leche|/2020/01/LECHE-COTAPA-LV-DESC.jpg|/leche-cotapa-lv-desc-s-iva/
+00907|Leche Cotapa  Larga Vida  Descremada  1 Lt.|64.5|Lacteos > Leche|/2020/01/LECHE-COTAPA-LV-DESC.jpg|/leche-cotapa-lv-desc-s-iva/
 00817|CASANCREM DESCREMADO 290GR|190.0|Frescos y Congelados > Untables||/casancrem-ls-300gr-desc/
 00818|QUESO UNTABLE LA PAULINA X 200GR VS SABORES|99.99|Frescos y Congelados > Untables||/queso-unt-la-paulina-x-200gr/
 00819|Leche La Serenisima Sachet Entero 1L|79.0|Lacteos > Leche||/leche-ls-sach-ent-1l/

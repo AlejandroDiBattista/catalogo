@@ -23,11 +23,11 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00016|MAYONESA HELLMANNS 237GR|57.0|Aderezos > Mayonesas|/2020/01/MAYONESA-HELLMANNS-237GR.jpg|/mayonesa-hellmanns-237gr/
 00769|MAYONESA HELLMANNS 118GR|27.0|Aderezos > Mayonesas|/2020/01/MAYONESA-HELLMANNS-118GR.jpg|/mayonesa-hellmanns-118gr/
 00750|REBOZADOR PREFERIDO 500GR|82.9|Almacén > Rebozadores|/2020/01/REBOZADOR-PREFERIDO-500GR.jpg|/rebozador-preferido-500gr-s-iva/
-00797|Durazno en lata DF x 820 gr.|112.0|Almacén > Enlatados|/2020/09/durazno-df-820.jpg|/durazno-en-lata-df-x-820-gr/
+00799|Durazno en lata DF x 820 gr.|112.0|Almacén > Enlatados|/2020/09/durazno-df-820.jpg|/durazno-en-lata-df-x-820-gr/
 00017|Sardinas en aceite Marbella 120 gr.|100.0|Almacén > Enlatados|/2020/05/sardina-marbella-120g.jpg|/sardinas-en-aceite-marbella-120-gr/
 00018|Arvejas Arcor  Secas 300 Grs.|50.0|Almacén > Enlatados|/2020/01/ARVEJAS-ARCOR-SECAS-300-GR.jpg|/arvejas-arcor-secas-300-gr/
 00019|ARVEJAS INALPA  350GR|30.0|Almacén > Enlatados|/2020/01/ARVEJAS-INALPA-350GR.jpg|/arvejas-inalpa-350gr/
-00805|Picadillo Changuito Carne 90 grs.|28.0|Almacén > Enlatados|/2020/01/PICADILLO-CHANGUITO.jpg|/picadillo-changuito/
+00807|Picadillo Changuito Carne 90 grs.|28.0|Almacén > Enlatados|/2020/01/PICADILLO-CHANGUITO.jpg|/picadillo-changuito/
 00020|Picadillo La Negra Carne 90 grs.|28.0|Almacén > Enlatados|/2020/01/PICADILLO-LA-NEGRA-CARNE-90.jpg|/picadillo-la-negra-carne-90/
 00021|BIZCOCHUELO GODET CHOCOLATE 480GR|120.0|Almacén > Postres|/2020/01/BIZC-GODET-CHOC-480GR.jpg|/bizc-godet-choc-480gr/
 00022|FLAN GODET DULCE DE LECHE 30 GRS.|30.0|Almacén > Postres|/2020/01/FLAN-GODET-D-DE-LECHE-30-GRS.jpg|/flan-godet-d-de-leche-30-grs/
@@ -216,8 +216,8 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00197|Margarina Margadan 200GR|47.0|Lacteos > Mantecas y Margarinas|/2020/01/MARG-MARGADAN-200GR.jpg|/marg-margadan-200gr/
 00904|MANTECA CLUCELAT 200G|90.0|Lacteos > Mantecas y Margarinas|/2020/01/MANTECA-CLUCELAT-200G.jpg|/manteca-clucelat-200g/
 00241|Manteca Clucelat 100 Grs.|45.0|Lacteos > Mantecas y Margarinas|/2020/01/MANTECA-CLUCELAT-100G.jpg|/manteca-clucelat-100g/
-00907|Leche La Serenisima Sachet Entero 1L|75.0|Lacteos > Leche|/2020/01/LECHE-LS-SACH-ENTERA-1L.jpg|/leche-ls-sach-ent-1l/
-00908|Leche La Serenisima  Sachet Descremada 1L|75.0|Lacteos > Leche|/2020/01/LECHE-LS-SACH-DES1L.jpg|/leche-ls-sach-des1l-s-iva/
+00909|Leche La Serenisima Sachet Entero 1L|75.0|Lacteos > Leche|/2020/01/LECHE-LS-SACH-ENTERA-1L.jpg|/leche-ls-sach-ent-1l/
+00910|Leche La Serenisima  Sachet Descremada 1L|75.0|Lacteos > Leche|/2020/01/LECHE-LS-SACH-DES1L.jpg|/leche-ls-sach-des1l-s-iva/
 00198|LECHE ILOLAY LARGA VIDA DESCREMADA X 1LT|73.9|Lacteos > Leche|/2020/01/LECHE-ILOLAY-LV-DDESCREMADA-X-1LS.jpg|/leche-ilolay-lv-d-x-1ls-iva/
 00199|LECHE ILOLAY LARGA VIDA – ENTERA 1LT|73.9|Lacteos > Leche|/2020/01/LECHE-ILOLAY-LV-ENTERA-X-1L.jpg|/leche-ilolay-lv-ent-1lt-s-iva/
 01056|Yogur Yofrey Manfrey Frutilla 120 grs|28.5|Lacteos > Yogures|/2020/01/YOGUR-YOFREY-120GR.jpg|/yogur-yofrey-120gr/
@@ -232,15 +232,15 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00206|Queso Rallado Chef X 40 Grs.|25.0|Lacteos > Quesos|/2020/01/default.jpg|/rall-chef-x-40-gr/
 00207|QUESO UNTABLE LA PAULINA X 200GR VS SABORES|99.99|Lacteos > Quesos|/2019/11/QUESO-UNT-LA-PAULINA.jpg|/queso-unt-la-paulina-x-200gr/
 00630|Leche Descremada en Polvo Purisima x 800 grs.|395.0|Lacteos > Leche en Polvo|/2020/07/leche-en-polvo-purisima-descremada-800.jpg|/leche-descremada-en-polvo-purisima-x-800-grs/
-00921|Leche Entera en Polvo Purisima x 800 grs.|395.0|Lacteos > Leche en Polvo|/2020/05/leche-en-polvo-purisima-800.jpg|/leche-entera-en-polvo-purisima-x-800-grs/
+00925|Leche Entera en Polvo Purisima x 800 grs.|395.0|Lacteos > Leche en Polvo|/2020/05/leche-en-polvo-purisima-800.jpg|/leche-entera-en-polvo-purisima-x-800-grs/
 00211|Leche Nido Fort Tapa Amarilla 800Gr|485.0|Lacteos > Leche en Polvo|/2020/01/LECHE-NIDO-CON-PROT-T-AMARILLA-800GR.jpg|/leche-nido-fort-t-ama-800gr/
 00912|TRAPO ESTRELLITA NUVIA 48X50CM|42.0|Limpieza > Trapo de piso|/2020/01/TRAPO-ESTRELLITA-NUVIA-48X50CM.jpg|/trapo-estrellita-nuvia-48x50cm/
 00903|Rollo de Cocina Sussex x 3 uds.|67.0|Limpieza > Rollos de Cocina|/2020/07/rollo-de-cocina-sussex.jpg|/rollo-de-cocina-sussex-x-3-uds/
 01069|ROLLO DE COCINA CAMPANITA CLASICA MULTIUSO|59.79|Limpieza > Rollos de Cocina|/2020/01/ROLL-COC-CAMP-CLASISCA-MULTIUSO.jpg|/roll-coc-camp-clas-multiuso/
 00213|SUAVIZANTE BORITA X 900ML TODOS|68.0|Limpieza > Suavizante|/2020/01/SUAV-BORITA-X-900ML-TODOS.jpg|/suav-borita-x-900ml-todos/
-00913|Velas Malambo x 4 Un.|20.0|Limpieza > Velas|/2019/11/velas-malambo-x4-80gr.jpg|/velas-amanecer-4un/
-00923|Papel Higienico Campanita Texturado x 6un|85.0|Limpieza > Papel Higiénico|/2020/09/Papel-hig-camp-text-6.jpg|/papel-higienico-campanita-texturado-x-6un/
-00924|Papel Higienico Campanita Doble Hoja 4 x 30 mt.|110.0|Limpieza > Papel Higiénico|/2020/08/papel-hig-camp-azul-4x30-1.jpg|/papel-higienico-campanita-doble-hoja-4-x-30-mt/
+00916|Velas Malambo x 4 Un.|20.0|Limpieza > Velas|/2019/11/velas-malambo-x4-80gr.jpg|/velas-amanecer-4un/
+00918|Papel Higienico Campanita Texturado x 6un|85.0|Limpieza > Papel Higiénico|/2020/09/Papel-hig-camp-text-6.jpg|/papel-higienico-campanita-texturado-x-6un/
+00919|Papel Higienico Campanita Doble Hoja 4 x 30 mt.|110.0|Limpieza > Papel Higiénico|/2020/08/papel-hig-camp-azul-4x30-1.jpg|/papel-higienico-campanita-doble-hoja-4-x-30-mt/
 00218|Desodorante Rexona Clinical Men 48 grs.|289.99|Limpieza > Desodorante Hombre/Mujer|/2020/07/rexona-clinical-men-48g.jpg|/desodorante-rexona-clinical-men-48-grs/
 00219|Desodorante Rexona Odorono 60 grs.|95.29|Limpieza > Desodorante Hombre/Mujer|/2020/07/Desodorante-rexona-odorono-60grs.jpg|/desodorante-rexona-odorono-60-grs/
 00220|Desodorante Rexona Forest 150 ml.|153.99|Limpieza > Desodorante Hombre/Mujer|/2020/07/rexona-forest-men-150ml.jpg|/desodorante-rexona-forest-150-ml/
@@ -385,7 +385,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00518|FIBRA ESPONJA MAKE LISA|22.0|Limpieza > Varios|/2020/01/FIBRA-ESP-MAKE-LISA.jpg|/fibra-esp-make-lisa/
 00519|AVENA JOSE LOPEZ 500GR|56.0|Almacén > Legumbres|/2020/01/default.jpg|/avena-jose-lopez-500gr/
 00520|Edulcorante Barny 500 Ml.|128.0|Desayuno > Edulcorantes|/2019/11/EDULCORANTE-BARNY-500.jpg|/edulc-barny-500ml/
-00896|Yogur Yofrey Manfrey Vainilla x 120 grs.|28.5|Lacteos > Yogures|/2020/07/yogur-manfrey-yofrey-120.jpg|/yogur-yofrey-manfrey-x-120-grs/
+00893|Yogur Yofrey Manfrey Vainilla x 120 grs.|28.5|Lacteos > Yogures|/2020/07/yogur-manfrey-yofrey-120.jpg|/yogur-yofrey-manfrey-x-120-grs/
 00524|Mermelada Ciruela Orieta light x 420 gr.|52.5|Desayuno > Mermeladas|/2020/04/mermelada-ciruela-orieta-light.jpg|/mermelada-ciruela-orieta-light-x-420-gr/
 00777|Maiz Pisingallo Verizzia|32.0|Almacén > Legumbres|/2020/09/maiz-pising-verizzia-400.jpg|/maiz-pisingallo-verizzia/
 00545|CALDO WILDE VERDURAS 12UN|57.0|Almacén > Sopas y Caldos|/2020/01/CALDO-WILDE-12UN.jpg|/caldo-wilde-12un/

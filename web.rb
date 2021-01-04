@@ -50,7 +50,6 @@ class Web
 
 	def bajar_productos(pagina, rubro)
 		nuevos = [] 
-		# puts " BAJAR_PRODUCTOS ".debug
 		if items = seleccionar(pagina, :productos) 
 			items.each do |x| 
 				begin
@@ -74,7 +73,6 @@ class Web
 				end
 			end
 		end
-		# puts "Se bajaron #{nuevos.count} (en relidad #{nuevos.compact.count}) productos".debug
 		nuevos.compact
 	end
 
