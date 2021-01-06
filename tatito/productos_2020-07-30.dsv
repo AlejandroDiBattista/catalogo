@@ -23,7 +23,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00022|FLAN GODET DULCE DE LECHE 30 GRS.|27.0|Almacén > Postres|/2020/01/FLAN-GODET-D-DE-LECHE-30-GRS.jpg|/flan-godet-d-de-leche-30-grs/
 00023|Flan Godet  Vainilla  30 Grs.|27.0|Almacén > Postres|/2020/01/FLAN-GODET-VAINILLA-30GR.jpg|/flan-godet-vainilla-30gr/
 00177|Caldo Knoor Verduras 12 uds.|75.0|Almacén > Sopas y Caldos|/2020/07/caldo-knoo-verduras.jpg|/caldo-knoor-verduras-12-uds/
-00178|Caldo Knoor Gallina 12 uds.|75.0|Almacén > Sopas y Caldos|/2020/01/CALDO-KNOOR-A-12UN.jpg|/caldo-knoor-a-12un/
+00443|Caldo Knoor Gallina 12 uds.|75.0|Almacén > Sopas y Caldos|/2020/01/CALDO-KNOOR-A-12UN.jpg|/caldo-knoor-a-12un/
 00024|Maiz Blanco Jose Lopez 500 Grs.|29.91|Almacén > Legumbres|/2020/01/default.jpg|/maiz-jose-lopez-bco-500gr/
 00025|BURGOL BEDOIAN 500GR|76.99|Almacén > Legumbres|/2020/01/BURGOL-BEDOIAN-500GR.jpg|/burgol-bedoian-500gr/
 00026|BURGOL JOSE LOPEZ 500GR|62.0|Almacén > Legumbres|/2019/11/burgol-jose-lopez.jpg|/burgol-jose-lopez-500gr/
@@ -259,8 +259,8 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00288|FIDEOS LA TUCUMANITA 500GR|58.0|Almacén > Fideos|/2020/01/default.jpg|/fideos-la-tuc-500gr/
 00289|Galletas de Arroz All Rice Limon x 100 grs.|58.0|Almacén > Gall. Dulces y Saladas|/2020/05/galletas-all-rice-limon.jpg|/galletas-all-rice-arroz-integral-limon-x-100-grs/
 00290|Galletas de Arroz All Rice Sin Sal x 100 grs.|58.0|Almacén > Gall. Dulces y Saladas|/2020/05/galletas-all-rice-sin-sal.jpg|/galletas-all-rice-sin-sal-x-100-grs/
-00291|Galletas de Arroz All Rice Naranja x 100 grs.|58.0|Almacén > Gall. Dulces y Saladas|/2020/05/galletas-all-rice-naranja.jpg|/galletas-all-rice-naranja-x-100-grs/
-00292|Galletas de Arroz All Rice Dulces x 100 grs.|58.0|Almacén > Gall. Dulces y Saladas|/2020/05/galletas-all-rice-dulce.jpg|/galletas-all-rice-dulces-x-100-grs/
+00313|Galletas de Arroz All Rice Naranja x 100 grs.|58.0|Almacén > Gall. Dulces y Saladas|/2020/05/galletas-all-rice-naranja.jpg|/galletas-all-rice-naranja-x-100-grs/
+00314|Galletas de Arroz All Rice Dulces x 100 grs.|58.0|Almacén > Gall. Dulces y Saladas|/2020/05/galletas-all-rice-dulce.jpg|/galletas-all-rice-dulces-x-100-grs/
 00293|Galletas de Arroz All Rice Con Sal x 100 grs.|58.0|Almacén > Gall. Dulces y Saladas|/2019/11/GALLETA-ALL-RICE-X-100-GR.jpg|/galleta-all-rice-x-100-gr/
 00294|Harina Celestial 000 X1 Kg.|45.0|Almacén > Harinas|/2020/01/HAR-CELESTIAL-000-X1KG.jpg|/har-celestial-000-x1kg-s-iva/
 00295|Avena La Espanola 500 Grs.|58.0|Almacén > Legumbres|/2020/01/default.jpg|/avena-la-espanola-500gr/
