@@ -258,6 +258,7 @@ class Web
 	end
 end
 
+
 require_relative './jumbo'
 require_relative './tatito'
 require_relative './tu_changuito'
@@ -296,7 +297,8 @@ def pull
 end
 
 if __FILE__ == $0
-	bajar_todo
+	# bajar_todo
+	pull 
 	# pull 
 	# limpiar_errores
 	# limpiar_fotos
