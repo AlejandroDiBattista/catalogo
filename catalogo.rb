@@ -3,13 +3,6 @@ require_relative 'archivo'
 require_relative 'web'
 require_relative 'producto'
 
-$proximo_id = "00000"
-$claves     = {}
-
-def next_id(key)
-	$claves[key] ||= $proximo_id.succ!
-end
-
 class Catalogo
 	include Enumerable 
 	attr_accessor :base, :datos, :productos, :ordenados 
@@ -217,8 +210,8 @@ class Catalogo
 	end
 
 	class << self 
-		def cargar(origen)
-			origen ||= [carpeta,'catalogo.json']
+		def cargar(base)
+			new(base, Archivo.leer_json([base, 'catalogo.json']))
 		end
 
 		def leer(base, posicion=0)
@@ -255,6 +248,10 @@ class Catalogo
 end
 
 if __FILE__ == $0
+	100.times{puts}
+	t = Catalogo.cargar(:tatito)
+	t.first(10).each(&:mostrar )
+	return 
 	t = Catalogo.cargar_todo(:tatito)
 	t.guardar
 

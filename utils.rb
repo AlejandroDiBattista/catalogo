@@ -150,6 +150,10 @@ class Float
 		return '' if !vacio && vacio?
 		'%7.2f' % self 
 	end
+
+	def to_money
+		self
+	end
 end
 
 module Enumerable
@@ -339,6 +343,18 @@ module Kernel
 			indent false 
 		end
 		$continuar = false 
+	end
+end
+
+class Date
+	def to_fecha
+		"%02i/%02i/%04i" % [self.day, self.month, self.year]
+	end
+end
+
+class DateTime
+	def to_fecha
+		"%02i/%02i/%04i" % [self.day, self.month, self.year]
 	end
 end
 

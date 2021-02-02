@@ -54,6 +54,11 @@ module Archivo
 		datos.compact
 	end
 
+	def leer_json(*camino)
+		origen = ubicar(camino)
+		open(origen){|f| return JSON.parse(f.read) }
+	end
+
 	def escribir(datos, *camino)
 		destino = ubicar(camino)
 		datos = datos.map(&:to_hash) unless String === datos

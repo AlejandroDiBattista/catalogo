@@ -1,3 +1,7 @@
+require 'date'
+require_relative 'utils'
+
+
 class Producto < Struct.new(:nombre, :rubro, :precio, :id)
     def key 
         "#{self.nombre}-#{self.rubro}".downcase.gsub(/[^a-z09-]/i,'')
@@ -25,6 +29,10 @@ class Producto < Struct.new(:nombre, :rubro, :precio, :id)
     end
 end
 
+p(d="2017-12-23".to_fecha)
+p d.strftime('%d/%m/%Y')
+p d.to_s
+return 
 l = [   
         Producto.new('Coca Cola',   :gaseosa,  100),
         Producto.new('Pepsi Cola',  :gaseosa,   90), 

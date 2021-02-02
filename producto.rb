@@ -5,11 +5,12 @@ class Producto < Struct.new(*Campos)
 	attr_accessor :ofertas, :historia, :texto
 
 	def self.cargar(datos)
-		new.tap{|tmp| Campos.each{|campo| tmp[campo] = datos[campo]}}.normalizar
-	end
-
-	def to_hash
-		Hash[Campos.map{|campo|[campo, self[campo]]}]
+		datos = datos.normalizar
+		tmp = new 
+		Campos.each{|campo| tmp[campo] = datos[campo] }
+		tmp.historia = datos[:historia]	
+		tmp.normalizar
+		tmp 
 	end
 
 	def normalizar
@@ -41,6 +42,10 @@ class Producto < Struct.new(*Campos)
 		self.ofertas << extraer_oferta(self.precio_3) unless self.precio_3.vacio?
 
 		self.historia ||= []
+		self.historia.each do |h|
+			h[:desde] = h[:desde].to_fecha
+			h[:hasta] = h[:hasta].to_fecha
+		end
 		self
 	end
 
@@ -134,23 +139,28 @@ class Producto < Struct.new(*Campos)
 	end
 
 	def to_hash
+		Hash[Campos.map{|campo|[campo, self[campo]]}]
+	end
+
+	def to_hash
 		tmp = to_h 
 		tmp[:historia] = self.historia 
 		tmp 
 	end
 
+
 # [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :anterior, :precio_unitario, :precio_1, :precio_2, :precio_3]
 
 	def mostrar(verboso=true)
 		puts "ID: #{id}" do
-			puts " Nombre: %s" % self.nombre 
-			puts " Rubro : %s" % self.rubro 
-			puts " Precio: $%7.2f" % self.precio
+			puts "Nombre: %s" % self.nombre 
+			puts "Rubro : %s" % self.rubro 
+			puts "Precio: $%7.2f" % self.precio
 			if verboso 
 				self.historia.each do |h|
-					puts "         $%7.2f  de  %s  a  %s" % [ h.precio, h.desde.strftime('%d/%m/%Y'), h.hasta.strftime('%d/%m/%Y')]
+					puts "        $%7.2f  de  #{h.desde.to_fecha}  a  #{h.hasta.to_fecha}" % [ h.precio ]
 				end 
-				puts "URL: #{self.url_imagen} / #{self.url_producto}"
+				puts "URL   : #{self.url_imagen} | #{self.url_producto}"
 			end
 			puts 
 		end
