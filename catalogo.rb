@@ -3,6 +3,13 @@ require_relative 'archivo'
 require_relative 'web'
 require_relative 'producto'
 
+$proximo_id = "00000"
+$claves     = {}
+
+def next_id(key)
+	$claves[key] ||= $proximo_id.succ!
+end
+
 class Catalogo
 	include Enumerable 
 	attr_accessor :base, :datos, :productos, :ordenados 
@@ -24,14 +31,13 @@ class Catalogo
 		[items].flatten.each do |producto|
 			producto = Producto.cargar(producto) if Hash === producto
 			if Producto === producto
-				if anterior = datos[producto.id]
+				if anterior = datos[producto.key]
 					producto.historia = anterior.historia
 				else 
-					# productos << producto
 					ordenados = false 
 				end
 				producto.actualizar(fecha, producto.precio) if fecha 
-				datos[producto.id] = producto
+				datos[producto.key] = producto
 			end
 		end
 		self
@@ -56,7 +62,7 @@ class Catalogo
 	def filtrar()
 		self.class.new(@base, select{|producto| yield(producto) })
 	end
-
+	
 	def +(otro)
 		self.class.new(@base, datos.values).agregar(otro.values)
 	end
@@ -200,8 +206,17 @@ class Catalogo
 		filtrar{|x|x.historia.last[:hasta] == fecha}
 	end
 
-	class << self 
+	def identificar_todo(regenerar=false)
+		each{|producto|producto.id = nil} if regenerar 
+		ultimo = map(&:id).compact.max || '00000'
+		select{|producto| !producto.id }.each do |producto|
+			ultimo.succ!
+			producto.id = ultimo.clone
+		end
+		self 
+	end
 
+	class << self 
 		def cargar(origen)
 			origen ||= [carpeta,'catalogo.json']
 		end
@@ -234,15 +249,21 @@ class Catalogo
 				productos.agregar(Archivo.leer(origen), fecha: fecha)
 				productos.each{|producto| producto.actualizar(fecha) }
 			end
-			productos
+			productos.identificar_todo(true)
     	end
 	end
 end
 
 if __FILE__ == $0
 	t = Catalogo.cargar_todo(:tatito)
-	t.buscar('00005').mostrar(false)
-	t.buscar('00006').mostrar 
-	t.buscar('00007').mostrar(false)
-	# t.guardar
+	t.guardar
+
+	t = Catalogo.cargar_todo(:jumbo)
+	t.guardar
+
+	t = Catalogo.cargar_todo(:tuchanguito)
+	t.guardar
+	
+	t = Catalogo.cargar_todo(:maxiconsumo)
+	t.guardar
 end

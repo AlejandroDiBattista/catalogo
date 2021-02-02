@@ -20,7 +20,7 @@ class Producto < Struct.new(*Campos)
 		self.url_producto = nil if self.url_producto.vacio?
 		self.url_imagen   = nil	if self.url_imagen.vacio?
 
-		self.id =  nil 			if self.id.vacio?
+		self.id           = nil if self.id.vacio?
 		self.anterior = 0
 
 		self.texto = [
@@ -42,6 +42,10 @@ class Producto < Struct.new(*Campos)
 
 		self.historia ||= []
 		self
+	end
+
+	def key 
+		[:nombre, :url_producto, :url_imagen, :rubro].map{|campo| self[campo]}.to_key
 	end
 
 	def extraer_oferta(oferta)

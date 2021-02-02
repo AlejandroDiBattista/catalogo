@@ -2,8 +2,8 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00007|Azucar 1 Kg.|55.0|Almacén > Azúcar|/2019/11/azucar-comun-1kg-fraccionada.jpg|/azucar-1kg-s-iva/
 00003|KETCHUP DANICA 220GR|49.9|Aderezos > Ketchup|/2020/01/KETCHUP-DANICA-220GR.jpg|/ketchup-danica-220gr/
 00012|MOSTAZA DANICA 220GR|45.0|Aderezos > Mostazas|/2020/01/MOSTAZA-DANICA-250GR.jpg|/mostaza-danica-220gr/
-00241|Arroz Gallo Largo Fino 500 Grs.|52.0|Almacén > Arroz|/2020/07/arroz-gallo-largo-fino-500.jpg|/arroz-gallo-largo-fino-500-grs/
-00242|Arroz Dos Hermanos L. Fino x 500 grs.|40.0|Almacén > Arroz|/2020/07/arroz-dos-hermanos-Lfino-500.jpg|/arroz-dos-hermanos-l-fino-x-500-grs/
+00601|Arroz Gallo Largo Fino 500 Grs.|52.0|Almacén > Arroz|/2020/07/arroz-gallo-largo-fino-500.jpg|/arroz-gallo-largo-fino-500-grs/
+00602|Arroz Dos Hermanos L. Fino x 500 grs.|40.0|Almacén > Arroz|/2020/07/arroz-dos-hermanos-Lfino-500.jpg|/arroz-dos-hermanos-l-fino-x-500-grs/
 00509|Arroz Dos Hermanos Parboil x 500 grs.|49.5|Almacén > Arroz|/2020/07/arroz-dos-hermanos-parboil-500.jpg|/arroz-dos-hermanos-parboil-x-500-grs/
 00017|Arroz Gallo Oro 1 Kg.|127.0|Almacén > Arroz|/2020/01/ARROZ-GALLO-ORO-B1-KG.jpg|/arroz-gallo-oro-b1-kg-s-iva/
 00019|Arroz Gallo Oro Amarillo 500 Grs.|69.0|Almacén > Arroz|/2020/01/ARROZ-GALLO-ORO-AMA-500GR.jpg|/arroz-gallo-oro-ama-500gr/
@@ -430,7 +430,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00490|Hummus Kamar Olivas Negras x 250 grs.|120.19|Frescos y Congelados > Tapas|/2020/07/hummus-kamar-olivasnegras-250grs.jpg|/hummus-kamar-olivas-negras-x-250-grs/
 00491|Crema De Leche Her Bal X 200 Grs.|68.0|Lacteos > Crema de Leche|/2019/11/crema-de-leche-herbal-250.jpg|/crema-de-leche-her-bal-x-200gr/
 00815|Crema De Leche La Serenisima Doble 200 Grs.|100.0|Lacteos > Crema de Leche|/2020/01/CREMA-DE-LECHE-LS-DOBLE-200GR.jpg|/crema-de-leche-ls-doble-200gr/
-00582|CREMA DE LECHE SANTA MARIA 200GR|68.0|Lacteos > Crema de Leche|/2020/01/CREMA-DE-LECHE-SANTA-MARIA-200GR-e1587147275291.jpg|/crema-de-leche-santa-maria-200gr/
+00831|CREMA DE LECHE SANTA MARIA 200GR|68.0|Lacteos > Crema de Leche|/2020/01/CREMA-DE-LECHE-SANTA-MARIA-200GR-e1587147275291.jpg|/crema-de-leche-santa-maria-200gr/
 00494|Yogur Yofrey Manfrey x 120 grs.|28.5|Lacteos > Yogures|/2020/07/yogur-manfrey-yofrey-120.jpg|/yogur-yofrey-manfrey-x-120-grs/
 00495|YOGUR MANFREY C/CEREAL 163GR|43.0|Lacteos > Yogures|/2019/11/yogur-manfrey-cereal-163.jpg|/yogur-manfrey-c-cereal-163gr/
 00496|QUESO FINLANDIA LIGHT X 200G|113.0|Lacteos > Quesos|/2020/04/QUESO-FINLANDIA-LIGHT.jpg|/queso-finlandia-light-x-200g/

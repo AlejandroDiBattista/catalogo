@@ -2,8 +2,8 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00007|Azucar 1 Kg.|60.0|Almacén > Azúcar|/2019/11/azucar-comun-1kg-fraccionada.jpg|/azucar-1kg-s-iva/
 00003|KETCHUP DANICA 220GR|52.0|Aderezos > Ketchup|/2020/01/KETCHUP-DANICA-220GR.jpg|/ketchup-danica-220gr/
 00012|MOSTAZA DANICA 220GR|43.0|Aderezos > Mostazas|/2020/01/MOSTAZA-DANICA-250GR.jpg|/mostaza-danica-220gr/
-00241|Arroz Gallo Largo Fino 500 Grs.|52.0|Almacén > Arroz|/2020/07/arroz-gallo-largo-fino-500.jpg|/arroz-gallo-largo-fino-500-grs/
-00242|Arroz Dos Hermanos L. Fino x 500 grs.|40.0|Almacén > Arroz|/2020/07/arroz-dos-hermanos-Lfino-500.jpg|/arroz-dos-hermanos-l-fino-x-500-grs/
+00601|Arroz Gallo Largo Fino 500 Grs.|52.0|Almacén > Arroz|/2020/07/arroz-gallo-largo-fino-500.jpg|/arroz-gallo-largo-fino-500-grs/
+00602|Arroz Dos Hermanos L. Fino x 500 grs.|40.0|Almacén > Arroz|/2020/07/arroz-dos-hermanos-Lfino-500.jpg|/arroz-dos-hermanos-l-fino-x-500-grs/
 00509|Arroz Dos Hermanos Parboil x 500 grs.|49.5|Almacén > Arroz|/2020/07/arroz-dos-hermanos-parboil-500.jpg|/arroz-dos-hermanos-parboil-x-500-grs/
 00017|Arroz Gallo Oro 1 Kg.|127.0|Almacén > Arroz|/2020/01/ARROZ-GALLO-ORO-B1-KG.jpg|/arroz-gallo-oro-b1-kg-s-iva/
 00019|Arroz Gallo Oro Amarillo 500 Grs.|69.0|Almacén > Arroz|/2020/01/ARROZ-GALLO-ORO-AMA-500GR.jpg|/arroz-gallo-oro-ama-500gr/
@@ -185,7 +185,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00348|GALLETAS MAURI SIN SAL 400GR|94.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-MAURI-SIN-SAL-400GR.jpg|/gall-mauri-sin-sal-400gr/
 00679|GALLETAS TRAVIATA  3 X101 GR|79.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-TRAVIATA-3-X101-GR.jpg|/gall-traviata-3-x101-gr/
 00355|GALLETAS MANA RELL 165GR|48.5|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-MANA-RELL-165GR.jpg|/gall-mana-rell-165gr/
-00572|GALLETAS CRIOLLITAS DE 3 X100GR|70.0|Desayuno > Gall Dulces y Saladas|/2020/01/GALL-CRIOLLITAS-DE-3-X100GR.jpg|/gall-criollitas-de-3-x100gr/
+00824|GALLETAS CRIOLLITAS DE 3 X100GR|70.0|Desayuno > Gall Dulces y Saladas|/2020/01/GALL-CRIOLLITAS-DE-3-X100GR.jpg|/gall-criollitas-de-3-x100gr/
 00191|Flan Manfrey 120Gr|33.0|Lacteos > Flan|/2020/01/FLAN-MANFREY-120GR.jpg|/flan-manfrey-120gr/
 00361|Queso Crema Light La Paulina X 290 grs.|105.1|Frescos y Congelados > Untables|/2020/05/queso-crema-light-la-paulina-290.jpg|/queso-crema-light-la-paulina-x-290-grs/
 00364|CASANCREM ENTERO 290GR|180.0|Frescos y Congelados > Untables|/2020/01/CASANCREM-LS-300GR-ENT.jpg|/casancrem-ls-300gr-ent/
@@ -428,7 +428,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00490|Hummus Kamar Olivas Negras x 250 grs.|120.19|Frescos y Congelados > Tapas|/2020/07/hummus-kamar-olivasnegras-250grs.jpg|/hummus-kamar-olivas-negras-x-250-grs/
 00491|Crema De Leche Her Bal X 200 Grs.|68.0|Lacteos > Crema de Leche|/2019/11/crema-de-leche-herbal-250.jpg|/crema-de-leche-her-bal-x-200gr/
 00815|Crema De Leche La Serenisima Doble 200 Grs.|100.0|Lacteos > Crema de Leche|/2020/01/CREMA-DE-LECHE-LS-DOBLE-200GR.jpg|/crema-de-leche-ls-doble-200gr/
-00582|CREMA DE LECHE SANTA MARIA 200GR|68.0|Lacteos > Crema de Leche|/2020/01/CREMA-DE-LECHE-SANTA-MARIA-200GR-e1587147275291.jpg|/crema-de-leche-santa-maria-200gr/
+00831|CREMA DE LECHE SANTA MARIA 200GR|68.0|Lacteos > Crema de Leche|/2020/01/CREMA-DE-LECHE-SANTA-MARIA-200GR-e1587147275291.jpg|/crema-de-leche-santa-maria-200gr/
 00494|Yogur Yofrey Manfrey x 120 grs.|43.0|Lacteos > Yogures|/2020/07/yogur-manfrey-yofrey-120.jpg|/yogur-yofrey-manfrey-x-120-grs/
 00495|YOGUR MANFREY C/CEREAL 163GR|43.0|Lacteos > Yogures|/2019/11/yogur-manfrey-cereal-163.jpg|/yogur-manfrey-c-cereal-163gr/
 00496|QUESO FINLANDIA LIGHT X 200G|105.0|Lacteos > Quesos|/2020/04/QUESO-FINLANDIA-LIGHT.jpg|/queso-finlandia-light-x-200g/
@@ -448,6 +448,6 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00510|Veggie Snacks Granix Pizza x 45 grs.|39.0|Snacks > Otros|/2020/07/veggie-snacks-pizza-45g.jpg|/veggie-snacks-granix-pizza-x-45-grs/
 00511|Veggie Snacks Granix Cebolla x 45 grs.|39.0|Snacks > Otros|/2020/07/veggie-snacks-cebolla-45g.jpg|/veggie-snacks-granix-cebolla-x-45-grs/
 00881|Desodorante Glade Campos de Lavanda 360 cc|90.0|Limpieza > Varios|/2020/07/desodorante-glade-lavanda-360.jpg|/desodorante-glade-campos-de-lavanda-360-cc/
-00334|YERBA YERBACID C/CASCARA 500 G|115.0|Almacén > Mate|/2020/01/default.jpg|/yerba-yerbacid-c-cascara-500-g/
+00687|YERBA YERBACID C/CASCARA 500 G|115.0|Almacén > Mate|/2020/01/default.jpg|/yerba-yerbacid-c-cascara-500-g/
 00514|Sardo Rivadavia x 100 grs.|44.0|Fiambreria > Sardo|/2020/01/default.jpg|/sardo-rivadavia/
-00555|Queso Cremoso Debaldo x 100 grs.|30.0|Fiambreria > Cremosos|/2020/08/cremoso-debaldo.jpg|/queso-cremoso-debaldo-x-100-grs/
+00809|Queso Cremoso Debaldo x 100 grs.|30.0|Fiambreria > Cremosos|/2020/08/cremoso-debaldo.jpg|/queso-cremoso-debaldo-x-100-grs/

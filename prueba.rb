@@ -1,53 +1,51 @@
-
-def azar(min = -2, max = 2)
-    (rand * (max-min) + min).round(0)
-end 
-
-def generar_pesos(pesos)
-    pesos.map{azar}
-end
-
-def activar(z)
-    z < 0 ? 0 : 1 
-end
-
-def evaluar(entrada, pesos)
-    suma = entrada.zip(pesos).map{|e,p|e*p}.sum
-    activar(suma)
-end
-
-def ejecutar(entradas, pesos)
-    activar( evaluar(entradas + [1], pesos) )
-end
-
-def buscar(entradas, salidas, intentos = 1000)
-    n = entradas.first.size 
-    pesos = Array.new(n,0)
-    intentos.times do |i|
-        pesos = generar_pesos(pesos)
-        evaluaciones = entradas.map{|entrada| evaluar(entrada, pesos) }
-        ok = evaluaciones.zip(salidas).all?{|v, s| v == s }
-        return pesos if ok 
+class Producto < Struct.new(:nombre, :rubro, :precio, :id)
+    def key 
+        "#{self.nombre}-#{self.rubro}".downcase.gsub(/[^a-z09-]/i,'')
     end
-    nil 
+
+    @@proximo = "00001"
+    @@claves  = {}
+
+    def self.registrar(producto)
+        if clave = producto.id 
+            @@claves[producto.key] = clave 
+            @@proximo = clave.succ if clave >= @@proximo 
+        end
+    end
+
+    def self.identificar(producto)
+        if !producto.id
+            producto.id = @@claves[producto.key] || @@proximo
+            registrar(producto)
+        end
+    end
+
+    def self.mostrar
+        pp @@claves
+    end
 end
 
-datos = [
-    [[0, 0], 0], 
-    [[0, 1], 0], 
-    [[1, 0], 0], 
-    [[1, 1], 1],
-]
+l = [   
+        Producto.new('Coca Cola',   :gaseosa,  100),
+        Producto.new('Pepsi Cola',  :gaseosa,   90), 
+        Producto.new('Gallo',       :arroz,     40), 
+        Producto.new('Triunfador',  :arroz,     30),
+    ]
 
-entradas = datos.map{|e, _| e + [1] }
-salidas  = datos.map{|_, s| s }
+10.times{puts}
+puts "INICIAL"
+Producto.mostrar 
+pp l
 
+l.each{|o| Producto.registrar(o)}
+puts "\nREGISTRADO"
+Producto.mostrar 
+pp l
 
-if pesos = buscar(entradas, salidas)
-    puts "La solucion es #{pesos}"
-    datos.each do |entrada, salida|
-        puts " #{entrada} = #{salida} >> #{evaluar(entrada+[1], pesos)}"
-    end
-else
-    puts "No hay solucion"
-end 
+puts "\nIDENTIFICADO"
+l.each{|o| Producto.identificar(o)}
+Producto.mostrar 
+pp l 
+
+p [nil, nil, nil].max 
+p [].max 

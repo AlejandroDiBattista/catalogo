@@ -266,7 +266,7 @@ require_relative './maxiconsumo'
 
 def bajar_todo
 	medir "Bajando todos los datos" do 
-	Tatito.bajar_todo
+		Tatito.bajar_todo
 		Jumbo.bajar_todo
 		TuChanguito.bajar_todo
 		Maxiconsumo.bajar_todo
@@ -297,8 +297,8 @@ def pull
 end
 
 if __FILE__ == $0
-	# bajar_todo
-	pull 
+	bajar_todo
+	# pull 
 	# pull 
 	# limpiar_errores
 	# limpiar_fotos

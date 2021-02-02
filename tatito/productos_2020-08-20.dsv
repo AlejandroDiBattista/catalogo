@@ -2,8 +2,8 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00007|Azucar 1 Kg.|60.0|Almacén > Azúcar|/2019/11/azucar-comun-1kg-fraccionada.jpg|/azucar-1kg-s-iva/
 00003|KETCHUP DANICA 220GR|52.0|Aderezos > Ketchup|/2020/01/KETCHUP-DANICA-220GR.jpg|/ketchup-danica-220gr/
 00012|MOSTAZA DANICA 220GR|43.0|Aderezos > Mostazas|/2020/01/MOSTAZA-DANICA-250GR.jpg|/mostaza-danica-220gr/
-00241|Arroz Gallo Largo Fino 500 Grs.|52.0|Almacén > Arroz|/2020/07/arroz-gallo-largo-fino-500.jpg|/arroz-gallo-largo-fino-500-grs/
-00242|Arroz Dos Hermanos L. Fino x 500 grs.|40.0|Almacén > Arroz|/2020/07/arroz-dos-hermanos-Lfino-500.jpg|/arroz-dos-hermanos-l-fino-x-500-grs/
+00601|Arroz Gallo Largo Fino 500 Grs.|52.0|Almacén > Arroz|/2020/07/arroz-gallo-largo-fino-500.jpg|/arroz-gallo-largo-fino-500-grs/
+00602|Arroz Dos Hermanos L. Fino x 500 grs.|40.0|Almacén > Arroz|/2020/07/arroz-dos-hermanos-Lfino-500.jpg|/arroz-dos-hermanos-l-fino-x-500-grs/
 00509|Arroz Dos Hermanos Parboil x 500 grs.|49.5|Almacén > Arroz|/2020/07/arroz-dos-hermanos-parboil-500.jpg|/arroz-dos-hermanos-parboil-x-500-grs/
 00017|Arroz Gallo Oro 1 Kg.|127.0|Almacén > Arroz|/2020/01/ARROZ-GALLO-ORO-B1-KG.jpg|/arroz-gallo-oro-b1-kg-s-iva/
 00019|Arroz Gallo Oro Amarillo 500 Grs.|69.0|Almacén > Arroz|/2020/01/ARROZ-GALLO-ORO-AMA-500GR.jpg|/arroz-gallo-oro-ama-500gr/
@@ -42,7 +42,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00105|FIDEOS LA PROVIDENCIA  SPAGUETTI 500 GR|45.0|Almacén > Fideos|/2020/04/FIDEOS-LA-PROVIDENCIA-SPAG-500.jpg|/fideos-la-providencia-spaguetti-500-gr/
 00106|FIDEOS VERIZZIA GUISERO|39.0|Almacén > Fideos|/2020/01/FIDEOS-VERIZZIA-GUISERO-S-IVA.jpg|/fideos-verizzia-guisero-s-iva/
 00038|Fideos Chicago Rosca|50.0|Almacén > Fideos|/2020/01/default.jpg|/fideos-chicago-rosca-s-iva/
-00283|FIDEOS RIVOLI MOÑITO 500G|65.0|Almacén > Fideos|/2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg|/fideos-rivoli-espec-500g-s-iva/
+00655|FIDEOS RIVOLI MOÑITO 500G|65.0|Almacén > Fideos|/2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg|/fideos-rivoli-espec-500g-s-iva/
 00113|FIDEOS RIVOLI GUISERO/SOPERO 500G.|55.0|Almacén > Fideos|/2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg|/fideos-rivoli-gui-sop-500g-s-iva/
 00114|FIDEOS CHICAGO GUISEROS 500G|42.0|Almacén > Fideos|/2020/01/default.jpg|/fideos-chicago-guis-500g-s-iva/
 00115|FIDEOS PARRADIN 500GR|39.0|Almacén > Fideos|/2020/01/default.jpg|/fideos-parradin-500gr/
@@ -181,8 +181,8 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00348|GALLETAS MAURI SIN SAL 400GR|94.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-MAURI-SIN-SAL-400GR.jpg|/gall-mauri-sin-sal-400gr/
 00679|GALLETAS TRAVIATA  3 X101 GR|79.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-TRAVIATA-3-X101-GR.jpg|/gall-traviata-3-x101-gr/
 00355|GALLETAS MANA RELL 165GR|48.5|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-MANA-RELL-165GR.jpg|/gall-mana-rell-165gr/
-00572|GALLETAS CRIOLLITAS DE 3 X100GR|70.0|Desayuno > Gall Dulces y Saladas|/2020/01/GALL-CRIOLLITAS-DE-3-X100GR.jpg|/gall-criollitas-de-3-x100gr/
-00573|GALLETAS HOGARENAS SALVADO 200GR|55.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-HOGARENAS-SALVADO-200GR.jpg|/gall-hogarenas-salvado-200gr/
+00824|GALLETAS CRIOLLITAS DE 3 X100GR|70.0|Desayuno > Gall Dulces y Saladas|/2020/01/GALL-CRIOLLITAS-DE-3-X100GR.jpg|/gall-criollitas-de-3-x100gr/
+00825|GALLETAS HOGARENAS SALVADO 200GR|55.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-HOGARENAS-SALVADO-200GR.jpg|/gall-hogarenas-salvado-200gr/
 00191|Flan Manfrey 120Gr|35.0|Lacteos > Flan|/2020/01/FLAN-MANFREY-120GR.jpg|/flan-manfrey-120gr/
 00364|CASANCREM ENTERO 290GR|180.0|Frescos y Congelados > Untables|/2020/01/CASANCREM-LS-300GR-ENT.jpg|/casancrem-ls-300gr-ent/
 00365|QUESO UNTABLE LA PAULINA X 200GR VS SABORES|94.29|Frescos y Congelados > Untables|/2019/11/QUESO-UNT-LA-PAULINA.jpg|/queso-unt-la-paulina-x-200gr/
@@ -195,12 +195,12 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00700|Dulce de Leche Santa Maria 400 Grs.|92.0|Lacteos > Dulce de Leche|/2020/01/DULCE-LECHE-SANTA-MARIA-400GR.jpg|/dulce-leche-santa-maria-400gr/
 00376|Protector Calipso Normal x 20 sin desodorante|45.0|Limpieza > Protección Femenina|/2019/11/protector-calipso-normal-x20-1.jpg|/protec-calipso-x-20un/
 00377|Toalla Calipso Normal con Gel con Alas x 8 uds.|33.0|Limpieza > Protección Femenina|/2020/01/TOALL-CALIPSO-PLUS-VERDE.8U..jpg|/toall-calipso-plus-verde-8u/
-00590|TOALLA LADYSOFT C/A VERDE 8UN|39.99|Limpieza > Protección Femenina|/2020/01/TOALLA-LADYSOFT-CON-ALOE-NUEVA-VERDE-8UN.jpg|/toalla-ladysoft-c-a-nueva-verde-8un/
+00841|TOALLA LADYSOFT C/A VERDE 8UN|39.99|Limpieza > Protección Femenina|/2020/01/TOALLA-LADYSOFT-CON-ALOE-NUEVA-VERDE-8UN.jpg|/toalla-ladysoft-c-a-nueva-verde-8un/
 00407|Queso Rallado Chef X 40 Grs.|25.0|Lacteos > Quesos|/2020/01/default.jpg|/rall-chef-x-40-gr/
 00408|QUESO UNTABLE LA PAULINA X 200GR VS SABORES|94.29|Lacteos > Quesos|/2019/11/QUESO-UNT-LA-PAULINA.jpg|/queso-unt-la-paulina-x-200gr/
 00596|Leche Descremada en Polvo Purisima x 800 grs.|395.0|Lacteos > Leche en Polvo|/2020/07/leche-en-polvo-purisima-descremada-800.jpg|/leche-descremada-en-polvo-purisima-x-800-grs/
 00399|Leche Nido Fort Tapa Amarilla 800Gr|485.0|Lacteos > Leche en Polvo|/2020/01/LECHE-NIDO-CON-PROT-T-AMARILLA-800GR.jpg|/leche-nido-fort-t-ama-800gr/
-00602|Rollo de Cocina Sussex x 3 uds.|65.0|Limpieza > Rollos de Cocina|/2020/07/rollo-de-cocina-sussex.jpg|/rollo-de-cocina-sussex-x-3-uds/
+00845|Rollo de Cocina Sussex x 3 uds.|65.0|Limpieza > Rollos de Cocina|/2020/07/rollo-de-cocina-sussex.jpg|/rollo-de-cocina-sussex-x-3-uds/
 00212|ROLLO DE COCINA SOL MAYOR X 3UN|60.0|Limpieza > Rollos de Cocina|/2020/01/ROLL-COC-SOL-MAYOR-X-3UN.jpg|/roll-coc-sol-mayor-x-3un/
 00385|SUAVIZANTE BORITA X 900ML TODOS|85.0|Limpieza > Suavizante|/2020/01/SUAV-BORITA-X-900ML-TODOS.jpg|/suav-borita-x-900ml-todos/
 00418|Desodorante Rexona Clinical Men 48 grs.|289.99|Limpieza > Desodorante Hombre/Mujer|/2020/07/rexona-clinical-men-48g.jpg|/desodorante-rexona-clinical-men-48-grs/
@@ -414,7 +414,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00490|Hummus Kamar Olivas Negras x 250 grs.|120.19|Frescos y Congelados > Tapas|/2020/07/hummus-kamar-olivasnegras-250grs.jpg|/hummus-kamar-olivas-negras-x-250-grs/
 00491|Crema De Leche Her Bal X 200 Grs.|68.0|Lacteos > Crema de Leche|/2019/11/crema-de-leche-herbal-250.jpg|/crema-de-leche-her-bal-x-200gr/
 00815|Crema De Leche La Serenisima Doble 200 Grs.|100.0|Lacteos > Crema de Leche|/2020/01/CREMA-DE-LECHE-LS-DOBLE-200GR.jpg|/crema-de-leche-ls-doble-200gr/
-00582|CREMA DE LECHE SANTA MARIA 200GR|84.0|Lacteos > Crema de Leche|/2020/01/CREMA-DE-LECHE-SANTA-MARIA-200GR-e1587147275291.jpg|/crema-de-leche-santa-maria-200gr/
+00831|CREMA DE LECHE SANTA MARIA 200GR|84.0|Lacteos > Crema de Leche|/2020/01/CREMA-DE-LECHE-SANTA-MARIA-200GR-e1587147275291.jpg|/crema-de-leche-santa-maria-200gr/
 00494|Yogur Yofrey Manfrey x 120 grs.|43.0|Lacteos > Yogures|/2020/07/yogur-manfrey-yofrey-120.jpg|/yogur-yofrey-manfrey-x-120-grs/
 00495|YOGUR MANFREY C/CEREAL 163GR|43.0|Lacteos > Yogures|/2019/11/yogur-manfrey-cereal-163.jpg|/yogur-manfrey-c-cereal-163gr/
 00371|Manteca S y S x 200 grs.|99.0|Lacteos > Mantecas y Margarinas|/2020/07/manteca-sys-200gr.jpg|/manteca-s-y-s-x-200-grs/
@@ -429,9 +429,9 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00510|Veggie Snacks Granix Pizza x 45 grs.|39.0|Snacks > Otros|/2020/07/veggie-snacks-pizza-45g.jpg|/veggie-snacks-granix-pizza-x-45-grs/
 00511|Veggie Snacks Granix Cebolla x 45 grs.|39.0|Snacks > Otros|/2020/07/veggie-snacks-cebolla-45g.jpg|/veggie-snacks-granix-cebolla-x-45-grs/
 00881|Desodorante Glade Campos de Lavanda 360 cc|90.0|Limpieza > Varios|/2020/07/desodorante-glade-lavanda-360.jpg|/desodorante-glade-campos-de-lavanda-360-cc/
-00334|YERBA YERBACID C/CASCARA 500 G|115.0|Almacén > Mate|/2020/01/default.jpg|/yerba-yerbacid-c-cascara-500-g/
+00687|YERBA YERBACID C/CASCARA 500 G|115.0|Almacén > Mate|/2020/01/default.jpg|/yerba-yerbacid-c-cascara-500-g/
 00514|Sardo Rivadavia x 100 grs.|44.0|Fiambreria > Sardo|/2020/01/default.jpg|/sardo-rivadavia/
-00555|Queso Cremoso Debaldo x 100 grs.|30.0|Fiambreria > Cremosos|/2020/08/cremoso-debaldo.jpg|/queso-cremoso-debaldo-x-100-grs/
+00809|Queso Cremoso Debaldo x 100 grs.|30.0|Fiambreria > Cremosos|/2020/08/cremoso-debaldo.jpg|/queso-cremoso-debaldo-x-100-grs/
 00517|PAPEL HIGIENICO CAMPANITA CLASIC X4 X 50M CELES|62.0|Limpieza > Papel Higiénico|/2019/11/papel-hig-camp-celes-4-50.jpg|/hig-camp-clasic-x4-x-50m-celes/
 00518|FIBRA ESPONJA MAKE LISA|18.5|Limpieza > Varios|/2020/01/FIBRA-ESP-MAKE-LISA.jpg|/fibra-esp-make-lisa/
 00519|AVENA JOSE LOPEZ 500GR|51.0|Almacén > Legumbres|/2020/01/default.jpg|/avena-jose-lopez-500gr/
