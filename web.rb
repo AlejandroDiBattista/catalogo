@@ -15,7 +15,7 @@ class Web
 		end
 	end
 
-	def bajar_todo(regenerar = true)
+	def bajar_todo(regenerar = false)
 		destino = [carpeta, 'productos.dsv']
 		puts " BAJANDO todos los datos de #{carpeta.upcase} ".pad(100).titulo do 
 		
@@ -141,9 +141,7 @@ class Web
 		end
 
 		if regenerar then
-			# puts "COMPLETAR_ID #{datos.count}"
 			Archivo.listar(carpeta, 'productos*.dsv') do |origen|
-				# puts origen 
 				Archivo.procesar(origen) do |producto| 
 					producto[:id] = datos[key(producto)]
 				end
