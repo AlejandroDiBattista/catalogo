@@ -5,7 +5,7 @@ require_relative 'producto'
 
 class Catalogo
 	include Enumerable 
-	attr_accessor :base, :datos, :productos, :ordenados 
+	attr_accessor :base, :datos, :productos, :ordenados
 	
 	def initialize(base, productos=[])
 		@base, @datos, @productos, @ordenados = base, {}, [], false 
@@ -39,10 +39,24 @@ class Catalogo
 	def ordenar!
 		return if self.ordenados 
 		self.ordenados = true 
+		identificar!
 		self.productos = self.datos.values.sort_by(&:id)
 	end
 
+	def identificar!(regenerar=false)
+		productos = self.datos.values 		
+		productos.each{|producto|producto.id = nil} if regenerar 
+		ultimo = productos.map(&:id).compact.max || '00000'
+		productos.select{|producto| producto.id.nil? }.each do |producto|
+			ultimo.succ!
+			producto.id = ultimo.clone
+		end
+		self 
+	end
+
 	def each
+		self.productos = self.datos.values
+		identificar!
 		ordenar!
 		productos.each{|producto| yield(producto) }
 	end
@@ -199,16 +213,7 @@ class Catalogo
 		filtrar{|x|x.historia.last[:hasta] == fecha}
 	end
 
-	def identificar_todo(regenerar=false)
-		each{|producto|producto.id = nil} if regenerar 
-		ultimo = map(&:id).compact.max || '00000'
-		select{|producto| !producto.id }.each do |producto|
-			ultimo.succ!
-			producto.id = ultimo.clone
-		end
-		self 
-	end
-
+	
 	class << self 
 		def cargar(base)
 			new(base, Archivo.leer_json([base, 'catalogo.json']))
@@ -242,18 +247,23 @@ class Catalogo
 				productos.agregar(Archivo.leer(origen), fecha: fecha)
 				productos.each{|producto| producto.actualizar(fecha) }
 			end
-			productos.identificar_todo(true)
+			productos.identificar!(true)
     	end
 	end
 end
 
 if __FILE__ == $0
-	100.times{puts}
+	10.times{puts}
 	t = Catalogo.cargar(:tatito)
+	puts t.count 
 	t.agregar(Tatito.new.bajar)
+	puts t.count 
+	puts(l=t.select{|producto|producto.id.nil?}.map(&:nombre))
+	puts l.size
+	t.identificar!
 	t.guardar
 	return 
-	
+
 	t = Catalogo.cargar_todo(:tatito)
 	t.guardar
 

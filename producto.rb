@@ -121,6 +121,7 @@ class Producto < Struct.new(*Campos)
 	end
 
 	def actualizar(fecha, precio = nil)
+		fecha ||= Date.today # REVISAR
 		if ultimo = self.historia.last 
 			if precio 
 				if ultimo.precio == precio 

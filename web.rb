@@ -242,6 +242,10 @@ class Web
 			Archivo.leer(base, 'productos.dsv')
 		end
 
+		def bajar
+			new.bajar 
+		end 
+		
 		def bajar_todo
 			new.bajar_todo
 		end 
