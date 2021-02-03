@@ -29,6 +29,15 @@ class Producto < Struct.new(:nombre, :rubro, :precio, :id)
     end
 end
 
+pp (a=Object.const_get('Producto'))
+pp Producto === a 
+pp a.new("ale", "persona", 99)
+pp Class === Producto
+return
+puts Date.new 
+puts Date.today 
+puts Date.new.to_fecha
+return
 p(d="2017-12-23".to_fecha)
 p d.strftime('%d/%m/%Y')
 p d.to_s

@@ -21,6 +21,7 @@ class Catalogo
 	end
 	
 	def agregar(*items, fecha: nil)
+		fecha ||= Date.today 
 		[items].flatten.each do |producto|
 			producto = Producto.cargar(producto) if Hash === producto
 			if Producto === producto
@@ -216,10 +217,12 @@ class Catalogo
 	
 	class << self 
 		def cargar(base)
+			base = base.name if Class === base 
 			new(base, Archivo.leer_json([base, 'catalogo.json']))
 		end
 
 		def leer(base, posicion=0)
+			base = base.name if Class === base
 			origen = listar(base, 'productos*.dsv')[posicion]
         	tmp  = new(base, Archivo.leer(origen))
         	tmp -= tmp.filtrar(&:error?)
@@ -240,39 +243,28 @@ class Catalogo
 		end
 
 		def cargar_todo(base)
+			base = base.name if Class === base
 			productos = new(base)
 			Archivo.listar(base, 'productos*.dsv')[1..-1].each do |origen|
-				puts origen
 				fecha = origen.to_fecha
 				productos.agregar(Archivo.leer(origen), fecha: fecha)
 				productos.each{|producto| producto.actualizar(fecha) }
 			end
 			productos.identificar!(true)
-    	end
+			productos
+		end
+		
+		def actualizar(base)
+			t = Catalogo.cargar(base)
+			t.agregar(base.bajar)
+			t.guardar
+			t 
+		end
 	end
 end
 
 if __FILE__ == $0
-	10.times{puts}
-	t = Catalogo.cargar(:tatito)
-	puts t.count 
-	t.agregar(Tatito.new.bajar)
-	puts t.count 
-	puts(l=t.select{|producto|producto.id.nil?}.map(&:nombre))
-	puts l.size
-	t.identificar!
-	t.guardar
-	return 
-
-	t = Catalogo.cargar_todo(:tatito)
-	t.guardar
-
-	t = Catalogo.cargar_todo(:jumbo)
-	t.guardar
-
-	t = Catalogo.cargar_todo(:tuchanguito)
-	t.guardar
-	
-	t = Catalogo.cargar_todo(:maxiconsumo)
-	t.guardar
+	Catalogo.actualizar(Tatito)
+	Catalogo.actualizar(TuChanguito)
+	Catalogo.actualizar()
 end
