@@ -135,6 +135,10 @@ class Integer
 	def to_precio(vacio: true)
 		to_f.to_precio(vacio)
 	end
+
+	def to_money
+		to_f.to_money 
+	end
 end 
 
 class Float 
