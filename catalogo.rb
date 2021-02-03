@@ -264,7 +264,6 @@ class Catalogo
 end
 
 if __FILE__ == $0
-	Catalogo.actualizar(Tatito)
-	Catalogo.actualizar(TuChanguito)
-	Catalogo.actualizar()
+	# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar}
+	# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.actualizar(base)}
 end
