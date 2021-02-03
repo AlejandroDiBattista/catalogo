@@ -250,8 +250,10 @@ end
 if __FILE__ == $0
 	100.times{puts}
 	t = Catalogo.cargar(:tatito)
-	t.first(10).each(&:mostrar )
+	t.agregar(Tatito.new.bajar)
+	t.guardar
 	return 
+	
 	t = Catalogo.cargar_todo(:tatito)
 	t.guardar
 
