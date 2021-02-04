@@ -133,7 +133,7 @@ class Web
 
 	def completar_id(destino, regenerar = false)
 		datos = {}
-
+		self.id_actual = '00000' 
 		Archivo.listar(carpeta, 'productos*.dsv').procesar do |origen|
 			Archivo.leer(origen) do |producto| 
 				datos[key(producto)] ||= generar_id(producto)
@@ -197,7 +197,7 @@ class Web
 	def extraer_precio_unitario(pagina)
 		if item = seleccionar(pagina, :precio) 
 			item.last && item.last.text.espacios
-		end
+		end 
 	end
 
 	def extraer_producto(pagina)
@@ -231,7 +231,7 @@ class Web
 			puts "Bajando Productos #{clasificacion.count}".error
 
 			productos = tmp.bajar_clasificacion(clasificacion)
-			# productos = productos.first(4) if breve
+			productos = productos.first(4) if breve
 			productos.tabular
 
 			productos
@@ -250,6 +250,10 @@ class Web
 			new.bajar_todo
 		end 
 
+		def completar_id
+			new.completar_id
+		end
+
 		def limpiar_errores
 			new.limpiar_errores
 		end
@@ -259,7 +263,6 @@ class Web
 		end
 	end
 end
-
 
 require_relative './jumbo'
 require_relative './tatito'
@@ -290,6 +293,13 @@ def limpiar_fotos
 	Maxiconsumo.limpiar_fotos
 end
 
+def completar_id
+	Tatito.completar_id
+	Jumbo.completar_id
+	TuChanguito.completar_id
+	Maxiconsumo.completar_id
+end
+
 def pull
     puts `git status -s`
 	`git add .`
@@ -299,7 +309,9 @@ def pull
 end
 
 if __FILE__ == $0
-	bajar_todo
+	limpiar_errores
+	completar_id
+	# bajar_todo
 	# pull 
 	# pull 
 	# limpiar_errores

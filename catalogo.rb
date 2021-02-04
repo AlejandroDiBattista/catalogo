@@ -246,8 +246,10 @@ class Catalogo
 		def cargar_todo(base)
 			base = base.name if Class === base
 			productos = new(base)
-			Archivo.listar(base, 'productos*.dsv')[1..-1].each do |origen|
+			puts "Cargando #{base}"
+			Archivo.listar(base, 'productos_*.dsv')[1..-1].each do |origen|
 				fecha = origen.to_fecha
+				puts fecha
 				productos.agregar(Archivo.leer(origen), fecha: fecha)
 				productos.each{|producto| producto.actualizar(fecha) }
 			end
