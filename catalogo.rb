@@ -38,19 +38,20 @@ class Catalogo
 	end
 
 	def ordenar!
+		identificar!
 		return if self.ordenados 
 		self.ordenados = true 
-		identificar!
 		self.productos = self.datos.values.sort_by(&:id)
 	end
 
 	def identificar!(regenerar=false)
-		productos = self.datos.values 		
-		productos.each{|producto|producto.id = nil} if regenerar 
-		ultimo = productos.map(&:id).compact.max || '00000'
-		productos.select{|producto| producto.id.nil? }.sort_by(&:key).each do |producto|
+		datos = self.datos.values 		
+		datos.each{|producto|producto.id = nil} if regenerar 
+		ultimo = datos.map(&:id).compact.max || '00000'
+		datos.select{|producto| producto.id.nil? }.sort_by(&:key).each do |producto|
 			ultimo.succ!
 			producto.id = ultimo.clone
+			self.ordenados = false 
 		end
 		self 
 	end
