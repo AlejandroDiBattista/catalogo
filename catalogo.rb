@@ -48,7 +48,7 @@ class Catalogo
 		productos = self.datos.values 		
 		productos.each{|producto|producto.id = nil} if regenerar 
 		ultimo = productos.map(&:id).compact.max || '00000'
-		productos.select{|producto| producto.id.nil? }.each do |producto|
+		productos.select{|producto| producto.id.nil? }.sort_by(&:key).each do |producto|
 			ultimo.succ!
 			producto.id = ultimo.clone
 		end
