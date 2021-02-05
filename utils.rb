@@ -11,11 +11,11 @@ def Hash(campos, valores=nil)
 end
 
 class Hash 
-	def method_missing(m, *args, &blk)
-		if m['=']
-			self[m.to_key] = args
+	def method_missing(meth, *args, &blk)
+		if meth['=']
+			self[meth.to_key] = args
 		else
-			self[m.to_key]
+			self[meth.to_key]
 		end
 	end
 
@@ -36,17 +36,6 @@ class Hash
 		borrar = keys.select{|key| self[key].nil? }
 		borrar.each{|key| self.delete(key)}
 		self 
-	end
-
-	def to_struct
-		Struct.new(*keys).new(*values)
-	end
-	
-end
-
-class Struct 
-	def to_hash
-		to_h 
 	end
 end
 
@@ -227,7 +216,7 @@ end
 
 class String
 	def espacios
-		gsub(/\s+/, ' ').strip
+		strip.gsub(/\s+/, ' ').strip
 	end
 
 	def to_money
@@ -248,6 +237,15 @@ class String
 
 	def from_rubro(separador='>')
 		split(separador).map(&:espacios)
+	end
+
+	def limpiar_nombre
+		espacios.
+			gsub(/\(\w+\)/,'').
+			gsub(/[()]/,'').
+			split(' ').
+			map(&:capitalize).
+			join(' ')
 	end
 
 	def pad(ancho)
@@ -364,18 +362,16 @@ class DateTime
 	end
 end
 
-
 if __FILE__ == $0
-	# puts "Esto es muy bueno"
-	# puts "Hola Mundo" do 
-	# 	puts "Algo" do 
-	# 		puts "va a"
-	# 		puts "pasar", "Dos"
-	# 		print "nuevo"
-	# 		print " intento", "doble"
-	# 		puts " a"
-	# 	end
-	# 	puts "Lindo"
-	# end
+	puts "Esto es muy bueno"
+	puts "Hola Mundo" do 
+		puts "Algo" do 
+			puts "va a"
+			puts "pasar", "Dos"
+			print "nuevo"
+			print " intento", "doble"
+			puts " a"
+		end
+		puts "Lindo"
+	end
 end
-

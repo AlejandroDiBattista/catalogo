@@ -49,7 +49,7 @@ module Archivo
 		separador = extension(origen) == :dsv ? '|' : ';' 
 		csv    = CSV.open(origen, :col_sep => separador)
 		campos = csv.shift.map(&:to_key)
-		datos = csv.map{|valores| Hash(campos, valores.normalizar).to_struct }
+		datos = csv.map{|valores| Hash(campos, valores) }.normalizar
 		datos = datos.map{|item| yield(item) } if block_given?
 		datos.compact
 	end
@@ -160,17 +160,7 @@ end
 include Archivo
 
 if __FILE__ == $0
-	3.times{puts ""}
-	puts " Probando lectura de archivo".pad(100).titulo
-	# # p Archivo.extension("ale.jan")
-	ll = Archivo.leer('tatito/productos.dsv').first(1)
-	l = ll.first
-	# pp ll
-	pp l
-	pp l.class.name
-	pp l.nombre
-	pp l[:nombre]
-
+	p Archivo.extension("ale.jan")
 	# Archivo.borrar_fotos :publicar, :jumbo
 	# p origen  = ubicar(:jumbo, :productos)
 	# p destino = ubicar(:jumbo, :productos, true)

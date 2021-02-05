@@ -1,7 +1,8 @@
 require 'nokogiri'
 
+require_relative 'utils'
 require_relative 'archivo'
-require_relative 'normalizar'
+
 class Web
 	attr_accessor :id_actual 
 
@@ -76,14 +77,8 @@ class Web
 	end
 
 	def limpiar_errores
-		puts "Limpiando Productos con Errores" do 
-			Archivo.listar(carpeta, 'productos*.dsv').each do |origen|
-				puts " > #{origen}"
-				Archivo.procesar(origen) do |producto| 
-					producto.nombre = producto.nombre.limpiar_nombre
-					!producto.nombre.vacio? 
-				end
-			end
+		Archivo.listar(carpeta, 'productos*.dsv').first(1).each do |origen|
+        	Archivo.procesar(origen){|producto| !producto.nombre.vacio? }
 		end
 	end
 
@@ -315,11 +310,12 @@ def pull
 end
 
 if __FILE__ == $0
-	limpiar_errores
+	# limpiar_errores
+	Tatito.limpiar_errores
 	# Tatito.completar_id
 	# bajar_todo
-	# pull
-	# pull
+	# pull 
+	# pull 
 	# limpiar_errores
 	# limpiar_fotos
 end
