@@ -32,6 +32,10 @@ class Hash
 		self 
 	end
 
+	def to_struct
+		Struct.new(*keys).new(*values)
+	end
+
 	def compact 
 		borrar = keys.select{|key| self[key].nil? }
 		borrar.each{|key| self.delete(key)}
