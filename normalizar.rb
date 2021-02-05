@@ -1,6 +1,13 @@
 require_relative 'utils'
 
-Unidades = {gr: :gr, grs: :gr, gramos: :gr, g: :gr, kilo: :kg, kgs: :kg, ml: :ml, cc: :cc, litro: :lt, litros: :lt, lt: :lt, unidades: :un, uni: :un, u: :un}
+Unidades = {
+	gramos: :gr, gramo: :gr, grs: :gr, gr: :gr, g: :gr, 
+	kilogramos: :kg, kilogramo: :kg, kilo: :kg, kgs: :kg, kg: :kg, k: :kg,
+	ml: :ml, 
+	cc: :cc, 
+	litros: :lt, litro: :lt, lt: :lt, l: :lt, 
+	unidades: :un, uni: :un, und: :un, u: :un,
+}
 class String
 	def limpiar_nombre
 		tmp = espacios.split(' ').map(&:capitalize).join(' ')
@@ -26,7 +33,6 @@ class String
 		tmp = tmp.gsub("unidades", " un ")
 		tmp = tmp.gsub(/\bu\b/i, " un ")
 		Unidades.each do |origen, destino|
-			pp [origen, destino]
 			tmp = tmp.gsub( /\b([0-9,]+)\s*(#{origen})\b/i, ' \1 \2 ')
 			tmp = tmp.gsub( /\b#{origen}\b/i, " #{destino} ")
 			tmp = tmp.gsub( /(\d+)\s+(#{destino})\b/i, '\1\2')

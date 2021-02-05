@@ -81,7 +81,7 @@ class Web
 				puts " > #{origen}"
 				Archivo.procesar(origen) do |producto| 
 					producto.nombre = producto.nombre.limpiar_nombre
-					puts producto.nombre
+					# puts producto.nombre
 					!producto.nombre.vacio? 
 				end
 			end
