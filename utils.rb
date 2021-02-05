@@ -41,6 +41,10 @@ class Hash
 		borrar.each{|key| self.delete(key)}
 		self 
 	end
+
+	def to_hash
+		to_h
+	end
 end
 
 class Array
