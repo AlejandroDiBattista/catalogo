@@ -85,7 +85,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00642||Lentejas Arcor 320gr|69.0|3,59.92|||$69,00|Almacén > Enlatados|2020/01/LENTEJAS-ARCOR-320G.jpg|lentejas-arcor-320g/
 00643||Poroto Inalpa 350gr|47.0|3,40.90|||$47,00|Almacén > Enlatados|2020/01/POROTO-INALPA-350GR.jpg|poroto-inalpa-350gr-s-iva/
 00085||Arvejas Arcor Secas 300gr|55.3|3,48.27|||$55,30|Almacén > Enlatados|2020/01/ARVEJAS-ARCOR-SECAS-300-GR.jpg|arvejas-arcor-secas-300-gr/
-00644||Tomate Perita Arcor 400gr|78.49|3,67.31|||$78,49|Almacén > Enlatados|2020/01/TOM-PERITA-ARCOR-3-400GR.jpg|tom-perita-arcor-3-400gr/
+00232||Tomate Perita Arcor 400gr|78.49|3,67.31|||$78,49|Almacén > Enlatados|2020/01/TOM-PERITA-ARCOR-3-400GR.jpg|tom-perita-arcor-3-400gr/
 00297||Caballa Marbella Al Ac/nat 425gr|174.0|3,150.81|||$174,00|Almacén > Enlatados|2020/01/CABALLA-MARBELLA-AL-AC-Y-NAT-425GR.jpg|caballa-marbella-al-ac-nat-425gr/
 00088||Arvejas Inalpa 350gr|32.5|3,28.12|||$32,50|Almacén > Enlatados|2020/01/ARVEJAS-INALPA-350GR.jpg|arvejas-inalpa-350gr/
 00645||Picadillo Changuito Carne 90gr|30.0|3,24.89|||$30,00|Almacén > Enlatados|2020/01/PICADILLO-CHANGUITO.jpg|picadillo-changuito/
@@ -133,12 +133,12 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00095||Sal Celusal Fina 500gr|39.99|3,33.32|||$39,99|Almacén > Sal|2020/01/SAL-CELUSAL-FINA-500GR.jpg|sal-celusal-fina-500gr/
 00672||Dr. Lemon Con Vodka Lata 473 Cm|65.0|3,59.00|||$65,00|Bebidas > Isotonicos y energizantes|2020/10/dr-lemon-vodka-473cc.jpg|dr-lemon-lata-473-cm/
 00152||Energy Speed 250cc|56.5|3,48.00|||$56,50|Bebidas > Isotonicos y energizantes|2020/01/ENERG-SPEED-250CC.jpg|energ-speed-250cc/
-00657||Pan Dulce Buon Natale Con Frutas 400gr|115.0|3,97.50|||$115,00|Almacén > Otros|2020/12/pan-dulce-buon-natale-400.jpg|pan-dulce-buon-natale-con-frutas-400-gr/
+00617||Pan Dulce Buon Natale Con Frutas 400gr|115.0|3,97.50|||$115,00|Almacén > Otros|2020/12/pan-dulce-buon-natale-400.jpg|pan-dulce-buon-natale-con-frutas-400-gr/
 00658||Te Negro Green Hills Classic x 25 Uds|58.0|3,49.91|||$58,00|Almacén > Otros|2020/11/te-green-hills-25.jpg|te-negro-green-hills-classic-x-25-uds/
 00659||Grasa Vacuna Recreo x 1kg|150.0|3,130.01|||$150,00|Almacén > Otros|2020/10/grasa-recreo-1kg.jpg|grasa-vacuna-recreo-x-1-kg/
 00661||Leche En Polvo Entera Lheritier 350gr|205.0|3,176.01|||$205,00|Almacén > Otros|2020/06/leche-en-polvo-entera-lheritier-800.jpg|leche-en-polvo-entera-lheritier-350-gr/
-00303||Galletas De Arroz All Rice Sin Sal x 100gr|71.0|3,61.75|||$71,00|Almacén > Otros|2020/05/galletas-all-rice-sin-sal.jpg|galletas-all-rice-sin-sal-x-100-grs/
-00304||Galletas De Arroz All Rice Naranja x 100gr|71.0|3,61.75|||$71,00|Almacén > Otros|2020/05/galletas-all-rice-naranja.jpg|galletas-all-rice-naranja-x-100-grs/
+00290||Galletas De Arroz All Rice Sin Sal x 100gr|71.0|3,61.75|||$71,00|Almacén > Otros|2020/05/galletas-all-rice-sin-sal.jpg|galletas-all-rice-sin-sal-x-100-grs/
+00260||Galletas De Arroz All Rice Naranja x 100gr|71.0|3,61.75|||$71,00|Almacén > Otros|2020/05/galletas-all-rice-naranja.jpg|galletas-all-rice-naranja-x-100-grs/
 00141||Leche En Polvo Descremada Lheritier 350gr|199.01|3,171.63|||$199,01|Almacén > Otros|2020/05/leche-en-polvo-lheritier-800.jpg|leche-en-polvo-descremada-lheritier-350-gr/
 00056||Grasa Vacuna Kamote x 1kg|90.0|3,66.00|||$90,00|Almacén > Otros|2020/05/grasa-kamote-1kg.jpg|grasa-vacuna-kamote-x-1-kg/
 00142||Grasa Vacuna Kamote x 500gr|55.5|3,46.25|||$55,50|Almacén > Otros|2020/05/grasa-kamote-500g.jpg|grasa-vacuna-kamote-x-500-gr/
@@ -151,9 +151,9 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00147||Fernet Branca 750cc|560.0|3,467.99|||$560,00|Bebidas > Cervezas y Fernet|2020/01/FERNET-BRANCA-750CC.jpg|fernet-branca-750cc/
 00681||Cerveza Isenbeck Lata 473ml|83.0|3,71.79|||$83,00|Bebidas > Cervezas y Fernet|2020/01/CERV-ISENBECK-LATA-473ML.jpg|cerv-isenbeck-lata-473ml/
 00682||Cerveza Schneider Rubia Lata 473ml|90.0|3,77.14|||$90,00|Bebidas > Cervezas y Fernet|2020/01/CERV-SCHNEIDER-RUBIA-LATA-473-ML.jpg|cerv-schneider-rubia-lata-473-ml/
-00678||Dr. Lemon Con Vodka Lata 473 Cm|65.0|3,59.00|||$65,00|Bebidas > Vodkas|2020/10/dr-lemon-vodka-473cc.jpg|dr-lemon-lata-473-cm/
+00672||Dr. Lemon Con Vodka Lata 473 Cm|65.0|3,59.00|||$65,00|Bebidas > Vodkas|2020/10/dr-lemon-vodka-473cc.jpg|dr-lemon-lata-473-cm/
 00155||Vodka Sky 750ml|400.0|3,332.00|||$400,00|Bebidas > Vodkas|2020/01/AGUA-PALAU-X-1.5LTS.jpg|vodka-sky-750-ml/
-00684||Dr. Lemon Con Vodka Lata 473 Cm|65.0|3,59.00|||$65,00|Bebidas > Aperitivos|2020/10/dr-lemon-vodka-473cc.jpg|dr-lemon-lata-473-cm/
+00672||Dr. Lemon Con Vodka Lata 473 Cm|65.0|3,59.00|||$65,00|Bebidas > Aperitivos|2020/10/dr-lemon-vodka-473cc.jpg|dr-lemon-lata-473-cm/
 00685||Gancia Americano x 950ml|224.99|3,224.00|||$224,99|Bebidas > Aperitivos|2019/11/GANCIA-AMAERICANO-X-950ML.jpg|gancia-amaericano-x-950ml/
 00077||Dulce De Leche La Serenisima Colonial x 400gr|136.0|3,119.79|||$136,00|Desayuno > Dulce de Leche|2020/05/dulce-de-leche-la-serenisima-colonial-400g.jpg|dulce-de-leche-la-serenisima-colonial-x-400-gr/
 00792||Aceite De Girasol Ca?uelas 900ml|150.0|3,132.39|||$150,00|Almacén > Aceites|2020/11/aceite-girasol-canuelas-900.jpg|aceite-de-girasol-canuelas-900-ml/
@@ -222,10 +222,10 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00208||Jugo Baggio Durazno 200cc|23.5|3,20.28|||$23,50|Bebidas > Jugos|2019/11/jugo-baggio-durazno-200-cc.jpg|jugo-baggio-200cc/
 00209||Jugo Baggio Multifruta 125cc|17.9|3,15.51|||$17,90|Bebidas > Jugos|2019/11/jugo-baggio-multifruta-125-cc.jpg|jugo-baggio-x-125/
 00210||Jugo Dodi 25gr Rinde 2lt|13.0|3,10.73|||$13,00|Bebidas > Jugos|2020/01/JUGO-DODI-25G-RINDE-2LT.jpg|jugo-dodi-25g-rinde-2lt/
-00105||Cacao Quicker x 200gr|49.0|3,42.50|||$49,00|Desayuno > Cacao|2020/04/CACAO-QUICKER-200.jpg|cacao-quicker-x-200gr/
+00058||Cacao Quicker x 200gr|49.0|3,42.50|||$49,00|Desayuno > Cacao|2020/04/CACAO-QUICKER-200.jpg|cacao-quicker-x-200gr/
 00198||Cacao Chocolino Plus Fort 180gr|74.0|3,63.63|||$74,00|Desayuno > Cacao|2020/04/cacao-chocolino-180gr.jpg|cacao-chocolino-plus-fort-180g/
 00776||Edulcorante El Pocillo 180ml|68.5|3,59.14|||$68,50|Desayuno > Edulcorantes|2020/10/edulc-el-pocillo-180.jpg|edulcorante-el-pocillo-180-ml/
-00777||Azucar Light Lheritier 350gr|72.0|3,61.11|||$72,00|Desayuno > Edulcorantes|2020/10/azucar-light-lheritier.jpg|azucar-light-lheritier-350-gr/
+00599||Azucar Light Lheritier 350gr|72.0|3,61.11|||$72,00|Desayuno > Edulcorantes|2020/10/azucar-light-lheritier.jpg|azucar-light-lheritier-350-gr/
 01007||Stevia Sobres x 50 Hileret|85.5|3,73.74|||$85,50|Desayuno > Edulcorantes|2020/01/STEVIA-SOB-X-50-HILERT.jpg|stevia-sob-x-50-hileret/
 00349||Stevia Sobres x 100 Hileret|147.9|3,127.95|||$147,90|Desayuno > Edulcorantes|2020/01/STEVIA-SOB-X-100-HILERT.jpg|stevia-sob-x-100-hilert/
 00778||Azucar Hileret Light x 500gr paq|77.0|3,66.50|||$77,00|Desayuno > Edulcorantes|2020/01/AZUCAR-HILERET-LIGHT-X-500G-PAQ.jpg|azucar-hileret-lig-x-500g-paq/
@@ -259,21 +259,21 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00251||Ricota San Lucio x 100gr|12.6|10,10.92|||$12,60|Fiambreria > Ricota|2019/11/RICOTA-SAN-LUCIO.jpg|ricota-san-lucio/
 00798||Queso Azul El Emperador x 100gr . (roquefort)|65.0|10,53.63|||$65,00|Fiambreria > Roquefort|2019/11/queso-azul-el-emperador.jpg|roquefort-her-bal/
 00252||Romanito Santa Maria x 100gr|75.0|20,62.49|||$75,00|Fiambreria > Romanito / Sardo|2019/11/romanito-santa-maria.jpg|romanito-santa-maria-1-5/
-00786||Pan Dulce Buon Natale Con Frutas 400gr|115.0|3,97.50|||$115,00|Almacén > Varios|2020/12/pan-dulce-buon-natale-400.jpg|pan-dulce-buon-natale-con-frutas-400-gr/
-00787||Budin Marmolado Bimbo 200gr|130.0|3,113.46|||$130,00|Almacén > Varios|2020/11/budin-bimbo-marmolado-200g.jpg|budin-marmolado-bimbo-200-gr/
-00788||Budin Con Frutas Bimbo 200gr|130.0|3,113.46|||$130,00|Almacén > Varios|2020/11/budin-bimbo-frutas-200g.jpg|budin-con-frutas-bimbo-200-gr/
-00789||Galletas Coquitas Bagley 170gr|69.5|3,62.15|||$69,50|Almacén > Varios|2020/10/galletas-coquitas-170.jpg|galletas-coquitas-bagley-170-gr/
-00843||Budin Arcor Chocolate 215gr|135.0|3,117.59|||$135,00|Almacén > Varios|2020/10/budin-arcor-chocolate-215.jpg|budin-arcor-chocolate-215-gr/
-00790||Capelettini Tridicci Giacomo 500gr|209.0|3,180.97|||$209,00|Almacén > Varios|2020/10/capelettini-giacomo-tridicci-500.jpg|capelettini-tridicci-giacomo-500-g/
-00777||Capelettini Jamon y Queso Giacomo 500gr|209.0|3,180.97|||$209,00|Almacén > Varios|2020/10/capelettini-giacomo-jyq-500.jpg|capelettini-jamon-y-queso-giacomo-500-g/
-00779||Budin Dale Vainilla Tia Maruca x 170gr|37.5|3,32.50|||$37,50|Almacén > Varios|2020/10/budin-dale-vainilla-170.jpg|budin-dale-vainilla-tia-maruca-x-170-grs/
+00617||Pan Dulce Buon Natale Con Frutas 400gr|115.0|3,97.50|||$115,00|Almacén > Varios|2020/12/pan-dulce-buon-natale-400.jpg|pan-dulce-buon-natale-con-frutas-400-gr/
+00618||Budin Marmolado Bimbo 200gr|130.0|3,113.46|||$130,00|Almacén > Varios|2020/11/budin-bimbo-marmolado-200g.jpg|budin-marmolado-bimbo-200-gr/
+00619||Budin Con Frutas Bimbo 200gr|130.0|3,113.46|||$130,00|Almacén > Varios|2020/11/budin-bimbo-frutas-200g.jpg|budin-con-frutas-bimbo-200-gr/
+00620||Galletas Coquitas Bagley 170gr|69.5|3,62.15|||$69,50|Almacén > Varios|2020/10/galletas-coquitas-170.jpg|galletas-coquitas-bagley-170-gr/
+00701||Budin Arcor Chocolate 215gr|135.0|3,117.59|||$135,00|Almacén > Varios|2020/10/budin-arcor-chocolate-215.jpg|budin-arcor-chocolate-215-gr/
+00649||Capelettini Tridicci Giacomo 500gr|209.0|3,180.97|||$209,00|Almacén > Varios|2020/10/capelettini-giacomo-tridicci-500.jpg|capelettini-tridicci-giacomo-500-g/
+00558||Capelettini Jamon y Queso Giacomo 500gr|209.0|3,180.97|||$209,00|Almacén > Varios|2020/10/capelettini-giacomo-jyq-500.jpg|capelettini-jamon-y-queso-giacomo-500-g/
+00518||Budin Dale Vainilla Tia Maruca x 170gr|37.5|3,32.50|||$37,50|Almacén > Varios|2020/10/budin-dale-vainilla-170.jpg|budin-dale-vainilla-tia-maruca-x-170-grs/
 00575||Pure De Papas Knorr x 125gr|79.89|3,68.25|||$79,89|Almacén > Varios|2020/09/pure-de-papas-knorr-125.jpg|pure-de-papas-knorr-x-125-grs/
-00793||Leche En Polvo Entera Lheritier 350gr|205.0|3,176.01|||$205,00|Almacén > Varios|2020/06/leche-en-polvo-entera-lheritier-800.jpg|leche-en-polvo-entera-lheritier-350-gr/
-00529||Galletas De Arroz All Rice Naranja x 100gr|71.0|3,61.75|||$71,00|Almacén > Varios|2020/05/galletas-all-rice-naranja.jpg|galletas-all-rice-naranja-x-100-grs/
-00316||Galletas De Arroz All Rice Sin Sal x 100gr|71.0|3,61.75|||$71,00|Almacén > Varios|2020/05/galletas-all-rice-sin-sal.jpg|galletas-all-rice-sin-sal-x-100-grs/
-00274||Leche En Polvo Descremada Lheritier 350gr|199.01|3,171.63|||$199,01|Almacén > Varios|2020/05/leche-en-polvo-lheritier-800.jpg|leche-en-polvo-descremada-lheritier-350-gr/
+00661||Leche En Polvo Entera Lheritier 350gr|205.0|3,176.01|||$205,00|Almacén > Varios|2020/06/leche-en-polvo-entera-lheritier-800.jpg|leche-en-polvo-entera-lheritier-350-gr/
+00260||Galletas De Arroz All Rice Naranja x 100gr|71.0|3,61.75|||$71,00|Almacén > Varios|2020/05/galletas-all-rice-naranja.jpg|galletas-all-rice-naranja-x-100-grs/
+00290||Galletas De Arroz All Rice Sin Sal x 100gr|71.0|3,61.75|||$71,00|Almacén > Varios|2020/05/galletas-all-rice-sin-sal.jpg|galletas-all-rice-sin-sal-x-100-grs/
+00141||Leche En Polvo Descremada Lheritier 350gr|199.01|3,171.63|||$199,01|Almacén > Varios|2020/05/leche-en-polvo-lheritier-800.jpg|leche-en-polvo-descremada-lheritier-350-gr/
 00794||Fecula Glutal x 500gr|106.0|3,91.00|||$106,00|Almacén > Varios|2019/11/glutal-500.jpg|fecula-glutal-x-500gr/
-00783||Chimichurri Vanoli Clasico 190gr|72.0|3,61.96|||$72,00|Almacén > Varios|2020/01/CHIMICHURRI-VANOLI-CLA-y-AHU-190.jpg|chimichurri-vanoli-cla-ahu-190/
+00630||Chimichurri Vanoli Clasico 190gr|72.0|3,61.96|||$72,00|Almacén > Varios|2020/01/CHIMICHURRI-VANOLI-CLA-y-AHU-190.jpg|chimichurri-vanoli-cla-ahu-190/
 00277||Fecula Glutal 5kg|342.0|3,315.80|||$342,00|Almacén > Varios|2020/01/FECULA-GLUTAL-5KG.jpg|fecula-glutal-5kg/
 00795||Grasa Faty 500gr|85.0|3,73.00|||$85,00|Almacén > Varios|2020/01/GRASA-FATY-500GR.jpg|grasa-faty-500gr/
 00796||Lasagna Matarazzo 250gr|105.0|3,87.59|||$105,00|Almacén > Varios|2020/01/LASAGNA-MATARAZZO-250GRS.jpg|lasagna-matarazzo-250grs/
@@ -320,7 +320,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00324||Sorrentinos Madomi x 500gr|93.0|3,80.08|||$93,00|Frescos y Congelados > Sorrentinos|2020/01/SORRENTINOS-MADOMI-X-500G.jpg|sorrentinos-madomi-x-500g/
 00809||Queso Cremoso Debaldo x 100gr|32.0|20,27.26|||$32,00|Fiambreria > Cremosos|2020/08/cremoso-debaldo.jpg|queso-cremoso-debaldo-x-100-grs/
 01029||Queso Cremoso Nulac|30.0|20,24.50|||$30,00|Fiambreria > Cremosos|2020/01/default.jpg|cremoso-nulac/
-00670||Por Salut Santa Maria x 100gr|40.0|20,33.00|||$40,00|Fiambreria > Cremosos|2020/01/POR-SALUT-SANTA-MARIA.jpg|por-salut-santa-maria/
+00637||Por Salut Santa Maria x 100gr|40.0|20,33.00|||$40,00|Fiambreria > Cremosos|2020/01/POR-SALUT-SANTA-MARIA.jpg|por-salut-santa-maria/
 01030||Queso Cremoso Rivadavia x 100gr|30.0|20,23.36|||$30,00|Fiambreria > Cremosos|2020/01/CREMOSO-RIVADAVIA.jpg|cremoso-rivadavia/
 00298||Queso Cremoso Santa Maria x 100gr|35.0|20,28.75|||$35,00|Fiambreria > Cremosos|2020/01/CREMOSO-SANTA-MARIA.jpg|cremoso-santa-maria/
 00810||Queso Cremoso Mi Campo x 100gr|32.0|20,27.26|||$32,00|Fiambreria > Cremosos|2020/01/CREMOSO-MI-CAMPO.jpg|cremoso-mi-campo/
@@ -384,9 +384,9 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00195||Queso Crema Tradicional La Paulina x 290gr|105.1|3,96.09|||$105,10|Frescos y Congelados > Untables|2019/11/queso-crema-tradicional-la-paulina-290.jpg|queso-crema-la-paulina-x-290/
 00836||Leche En Polvo Entera Ilolay 400gr|290.0|3,267.87|||$290,00|Lacteos > Leche en Polvo|2020/11/leche-polvo-entera-ilolay-400.jpg|leche-en-polvo-entera-ilolay-400-gr/
 00596||Leche Descremada En Polvo Purisima x 800gr|434.24|3,376.75|||$434,24|Lacteos > Leche en Polvo|2020/07/leche-en-polvo-purisima-descremada-800.jpg|leche-descremada-en-polvo-purisima-x-800-grs/
-00846||Leche En Polvo Entera Lheritier 350gr|205.0|3,176.01|||$205,00|Lacteos > Leche en Polvo|2020/06/leche-en-polvo-entera-lheritier-800.jpg|leche-en-polvo-entera-lheritier-350-gr/
+00661||Leche En Polvo Entera Lheritier 350gr|205.0|3,176.01|||$205,00|Lacteos > Leche en Polvo|2020/06/leche-en-polvo-entera-lheritier-800.jpg|leche-en-polvo-entera-lheritier-350-gr/
 00847||Leche Entera En Polvo Purisima x 800gr|434.24|3,376.75|||$434,24|Lacteos > Leche en Polvo|2020/05/leche-en-polvo-purisima-800.jpg|leche-entera-en-polvo-purisima-x-800-grs/
-00398||Leche En Polvo Descremada Lheritier 350gr|199.01|3,171.63|||$199,01|Lacteos > Leche en Polvo|2020/05/leche-en-polvo-lheritier-800.jpg|leche-en-polvo-descremada-lheritier-350-gr/
+00141||Leche En Polvo Descremada Lheritier 350gr|199.01|3,171.63|||$199,01|Lacteos > Leche en Polvo|2020/05/leche-en-polvo-lheritier-800.jpg|leche-en-polvo-descremada-lheritier-350-gr/
 00399||Leche Nido Fort Tapa Amarilla 800gr|430.0|3,390.70|||$430,00|Lacteos > Leche en Polvo|2020/01/LECHE-NIDO-CON-PROT-T-AMARILLA-800GR.jpg|leche-nido-fort-t-ama-800gr/
 00848||Leche Nido C/prot T.roja 800gr|485.0|3,436.99|||$485,00|Lacteos > Leche en Polvo|2020/01/LECHE-NIDO-CON-PROT-T.ROJA-800GR.jpg|leche-nido-c-prot-t-roja-800gr/
 00836||Franela Marilu 40*48|76.0|3,66.00|||$76,00|Limpieza > Rejilla|2020/10/franela-marilu.jpg|franela-marilu-4048/
@@ -413,13 +413,13 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00212||Rollo De Cocina Sol Mayor x 3un|55.0|3,47.45|||$55,00|Limpieza > Rollos de Cocina|2020/01/ROLL-COC-SOL-MAYOR-X-3UN.jpg|roll-coc-sol-mayor-x-3un/
 00849||Velas Malambo x 4Un|20.0|3,16.90|||$20,00|Limpieza > Velas|2019/11/velas-malambo-x4-80gr.jpg|velas-amanecer-4un/
 00855||Queso Azul Manfrey 180gr|113.0|3,101.29|||$113,00|Lacteos > Quesos|2020/10/queso-unt-manfrey-azul-180.jpg|queso-azul-manfrey-180-gr/
-00403||Queso Crema Light La Paulina x 290gr|105.1|3,96.09|||$105,10|Lacteos > Quesos|2020/05/queso-crema-light-la-paulina-290.jpg|queso-crema-light-la-paulina-x-290-grs/
-00856||Queso Finlandia Light 200gr|120.0|3,107.46|||$120,00|Lacteos > Quesos|2020/04/QUESO-FINLANDIA-LIGHT-1.jpg|queso-finlandia-light-x-200g/
-00858||Queso Finlandia Clasico 200gr|120.0|3,107.46|||$120,00|Lacteos > Quesos|2019/11/QUESO-FINLANDIA-CLASICO-1.jpg|queso-unt-ls-todos-x-200g/
+00361||Queso Crema Light La Paulina x 290gr|105.1|3,96.09|||$105,10|Lacteos > Quesos|2020/05/queso-crema-light-la-paulina-290.jpg|queso-crema-light-la-paulina-x-290-grs/
+00834||Queso Finlandia Light 200gr|120.0|3,107.46|||$120,00|Lacteos > Quesos|2020/04/QUESO-FINLANDIA-LIGHT-1.jpg|queso-finlandia-light-x-200g/
+00835||Queso Finlandia Clasico 200gr|120.0|3,107.46|||$120,00|Lacteos > Quesos|2019/11/QUESO-FINLANDIA-CLASICO-1.jpg|queso-unt-ls-todos-x-200g/
 00407||Queso Rallado Chef x 40gr|25.0|3,20.80|||$25,00|Lacteos > Quesos|2020/01/default.jpg|rall-chef-x-40-gr/
 00655||Queso Rallado La Serenisima 40gr|65.0|3,56.82|||$65,00|Lacteos > Quesos|2020/01/RALL-LS-3-40GR.jpg|rall-ls-3-40gr/
-00408||Queso Untable La Paulina x 200gr Vs Sabores|94.29|3,86.21|||$94,29|Lacteos > Quesos|2019/11/QUESO-UNT-LA-PAULINA.jpg|queso-unt-la-paulina-x-200gr/
-00208||Queso Crema Tradicional La Paulina x 290gr|105.1|3,96.09|||$105,10|Lacteos > Quesos|2019/11/queso-crema-tradicional-la-paulina-290.jpg|queso-crema-la-paulina-x-290/
+00365||Queso Untable La Paulina x 200gr Vs Sabores|94.29|3,86.21|||$94,29|Lacteos > Quesos|2019/11/QUESO-UNT-LA-PAULINA.jpg|queso-unt-la-paulina-x-200gr/
+00195||Queso Crema Tradicional La Paulina x 290gr|105.1|3,96.09|||$105,10|Lacteos > Quesos|2019/11/queso-crema-tradicional-la-paulina-290.jpg|queso-crema-la-paulina-x-290/
 01070||Papel Higienico Suapel 6 x 30 Mts|98.0|3,84.50|||$98,00|Limpieza > Papel Higiénico|2020/01/default.jpg|papel-higienico-suapel-6-x-30-mts/
 00838||Papel Higienico Eco Family 6 x 30 M|83.0|3,72.00|||$83,00|Limpieza > Papel Higiénico|2020/10/papel-hig-ecof-x6.jpg|papel-higienico-eco-family-6-x-30-m/
 00831||Papel Higienico Campanita Texturado x 6un|85.0|3,67.38|||$85,00|Limpieza > Papel Higiénico|2020/09/Papel-hig-camp-text-6.jpg|papel-higienico-campanita-texturado-x-6un/

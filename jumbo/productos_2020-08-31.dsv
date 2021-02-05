@@ -781,17 +781,17 @@ id|nombre|precio|rubro|url_imagen|url_producto
 01920|Caldo De Gallina Knorr 4un|47.84|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|557923-512-512|/caldo-knorr-x-4-un-2
 01921|Manteca La Serenisima 200gr|128.44|Almacén > Libre de Gluten|580196-512-512|/manteca-la-serenisima-200-gr
 01922|Cremon Desayuno La Serenisima 300gr|117.54|Almacén > Libre de Gluten|580281-512-512|/cremon-desayuno-la-serenisima-300-gr
-01924|Atún Al Natural La Campagnola 120gr|204.97|Almacén > Libre de Gluten|584767-512-512|/atun-la-campagnola-x-120-gr-3
+00132|Atún Al Natural La Campagnola 120gr|204.97|Almacén > Libre de Gluten|584767-512-512|/atun-la-campagnola-x-120-gr-3
 01925|Mozzarella La Serenisima 220gr|217.02|Almacén > Libre de Gluten|580243-512-512|/mozzarella-la-serenisima-220-gr
-01926|Puré De Papas Maggi 125gr|76.5|Almacén > Libre de Gluten|595162-512-512|/pure-de-papas-maggi-125-gr-2
-01927|Mayonesa Hellmanns Clásica Doypack 475gr|87.47|Almacén > Libre de Gluten|424839-512-512|/mayonesa-hellmanns-clasica-doypack-475-gr
-01928|Aderezo Ketchup Heinz Rocket Up Side Down 397gr|233.58|Almacén > Importados|554953-512-512|/ketchup-heinz-x-397-gr
-01929|Mayonesa Heinz 350gr|122.3|Almacén > Importados|554975-512-512|/mayonesa-heinz-350-gr
+01819|Puré De Papas Maggi 125gr|76.5|Almacén > Libre de Gluten|595162-512-512|/pure-de-papas-maggi-125-gr-2
+01214|Mayonesa Hellmanns Clásica Doypack 475gr|87.47|Almacén > Libre de Gluten|424839-512-512|/mayonesa-hellmanns-clasica-doypack-475-gr
+01223|Aderezo Ketchup Heinz Rocket Up Side Down 397gr|233.58|Almacén > Importados|554953-512-512|/ketchup-heinz-x-397-gr
+01215|Mayonesa Heinz 350gr|122.3|Almacén > Importados|554975-512-512|/mayonesa-heinz-350-gr
 01930|Pepinos Gherkins 1,55kg|266.77|Almacén > Importados|181466-512-512|/pepinos-gherkins-1550-grs
-01931|Mayonesa Heinz 850gr|274.38|Almacén > Importados|554974-512-512|/mayonesa-heinz-850-gr
-01932|Chocolate Villars Pure Negro 72 % Cacao 100gr|314.15|Almacén > Importados|477660-512-512|/chocolate-villars-pure-negro-72-cacao-x-100-gr
+00042|Mayonesa Heinz 850gr|274.38|Almacén > Importados|554974-512-512|/mayonesa-heinz-850-gr
+01426|Chocolate Villars Pure Negro 72 % Cacao 100gr|314.15|Almacén > Importados|477660-512-512|/chocolate-villars-pure-negro-72-cacao-x-100-gr
 01933|Aceitunas Fragata Rellenas Con Anchoas 85gr|122.57|Almacén > Importados|505048-512-512|/aceitunas-fragata-rellenas
-01934|Salsa De Soja Lee Kum Kee Clasica 500cc|321.3|Almacén > Importados|584140-512-512|/salsa-de-soja-lee-kum-kee-clasica-500cc
+01268|Salsa De Soja Lee Kum Kee Clasica 500cc|321.3|Almacén > Importados|584140-512-512|/salsa-de-soja-lee-kum-kee-clasica-500cc
 00700|Agua Villavicencio Pet Sin Gas 2lt|90.48|Bebidas > Aguas > Aguas Sin Gas|583147-512-512|/agua-villavicencio-pet-sin-gas-2-l
 00702|Agua Baja En Sodio Glaciar Bidon 6,6lt|196.56|Bebidas > Aguas > Aguas Sin Gas|567597-512-512|/agua-baja-en-sodio-glaciar-bidon-6-3-l
 01935|Kin Agua Sin Gas Bidón 6lt|102.96|Bebidas > Aguas > Aguas Sin Gas|580636-512-512|/kin-agua-sin-gas-bidon-6-l
@@ -1019,7 +1019,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 01010|Espumante Brut Nature Salentein 750ml|546.0|Bebidas > Champagnes|549764-512-512|/espumante-brut-nature-salentein-750-ml
 02326|Champaña Fresita Original 750ml|350.0|Bebidas > Champagnes|484871-512-512|/champana-fresita-original-750-ml
 01009|Espumante Brut Nature Rose Salentein 750ml|546.0|Bebidas > Champagnes|549777-512-512|/espumante-brut-nature-rose-salentein-750-ml
-00910|Bebida Energizante Speed Unlimited 250ml - Pack 4|208.0|Bebidas > Energizantes|182015-512-512|/bebida-speed-unlimited-x-4-un
+00869|Bebida Energizante Speed Unlimited 250ml - Pack 4|208.0|Bebidas > Energizantes|182015-512-512|/bebida-speed-unlimited-x-4-un
 02328|Moscato Promesa 700cc|106.76|Bebidas > Generosos|412892-512-512|/moscato-promesa
 00911|Istotónica Gatorade Manzana 500ml|66.0|Bebidas > Isotónicas|588366-512-512|/istotonica-gatorade-manzana-500-ml
 00921|Istotónica Gatorade Cool Blue 500ml|61.0|Bebidas > Isotónicas|588364-512-512|/istotonica-gatorade-cool-blue-500-ml
@@ -1028,7 +1028,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 02596|Powerade Multifurta 995ml|62.4|Bebidas > Isotónicas|580609-512-512|/bebida-powerade-10
 00920|Istotónica Gatorade Naranja 500ml|61.0|Bebidas > Isotónicas|588368-512-512|/istotonica-gatorade-naranja-500-ml
 00913|Istotónica Gatorade Lima Limón 500ml|63.44|Bebidas > Isotónicas|588365-512-512|/istotonica-gatorade-lima-limon-500-ml
-00928|Bebida Energizante Speed Unlimited 250ml - Pack 4|208.0|Bebidas > Isotónicas|182015-512-512|/bebida-speed-unlimited-x-4-un
+00869|Bebida Energizante Speed Unlimited 250ml - Pack 4|208.0|Bebidas > Isotónicas|182015-512-512|/bebida-speed-unlimited-x-4-un
 00914|Istotónica Gatorade Frutas Tropicales 1,1lt|114.4|Bebidas > Isotónicas|588492-512-512|/istotonica-gatorade-frutas-tropicales-1-25-l
 00924|Istotónica Gatorade Manzana 750ml|83.2|Bebidas > Isotónicas|588422-512-512|/istotonica-gatorade-manzana-750-ml
 02329|Powerade Mountain Blast 1,1lt|85.8|Bebidas > Isotónicas|580606-512-512|/bebida-powerade-mountain-blast
@@ -1165,9 +1165,9 @@ id|nombre|precio|rubro|url_imagen|url_producto
 03016|Dulce De Membrillo Orieta|189.0|Quesos y Fiambres > Dulces|235553-512-512|/dulce-de-membrillo-orieta-2
 01054|Aceitunas La Toscana Verdes Descarozada 300gr|93.73|Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|449498-512-512|/aceitunas-la-toscana-verdes-descarozada
 02547|Aceitunas Castell Descarozadas 150gr|90.54|Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|340322-512-512|/aceitunas-castell-descarozadas-2
-02548|Pepinos Gherkins 1,55kg|266.77|Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|181466-512-512|/pepinos-gherkins-1550-grs
-01061|Aceitunas Fragata Rellenas Con Ajo 85gr|122.57|Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|184200-512-512|/aceitunas-fragata-rellenas-2
-01062|Aceitunas Fragata Rellenas Con Anchoas 85gr|122.57|Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|505048-512-512|/aceitunas-fragata-rellenas
+01930|Pepinos Gherkins 1,55kg|266.77|Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|181466-512-512|/pepinos-gherkins-1550-grs
+02494|Aceitunas Fragata Rellenas Con Ajo 85gr|122.57|Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|184200-512-512|/aceitunas-fragata-rellenas-2
+01933|Aceitunas Fragata Rellenas Con Anchoas 85gr|122.57|Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|505048-512-512|/aceitunas-fragata-rellenas
 01056|Pepinos Jumbo 1,55kg|256.47|Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|547692-512-512|/pepinos-jumbo-1550gr
 02607|Pepinos Seasoned 670gr|184.37|Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|421144-512-512|/pepinos-seasoned-670-grs
 02549|Aceitunas Nucete Verde En Rodajas 150gr|119.48|Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|515939-512-512|/aceitunas-nucete-verdes-x-150-gr
@@ -1212,9 +1212,9 @@ id|nombre|precio|rubro|url_imagen|url_producto
 01110|Casancrem Light Pote 480gr|203.43|Quesos y Fiambres > Quesos > Quesos Untables|551522-512-512|/casancrem-light-pote-480g
 01111|Casancrem Entero Pote 480gr|203.43|Quesos y Fiambres > Quesos > Quesos Untables|551518-512-512|/casancrem-entero-pote-480g
 02571|Queso Untable Finlandia Light La Serenisima 300gr|163.77|Quesos y Fiambres > Quesos > Quesos Untables|580242-512-512|/queso-untable-finlandia-light-la-serenisima-300-gr
-02572|Cremon Desayuno La Serenisima 300gr|117.54|Quesos y Fiambres > Quesos > Quesos Untables|580281-512-512|/cremon-desayuno-la-serenisima-300-gr
+01922|Cremon Desayuno La Serenisima 300gr|117.54|Quesos y Fiambres > Quesos > Quesos Untables|580281-512-512|/cremon-desayuno-la-serenisima-300-gr
 01116|Finlandia Clasico La Serensima 300gr|163.77|Quesos y Fiambres > Quesos > Quesos Untables|580241-512-512|/finlandia-clasico-la-serensima-300-gr
-02573|Finlandia Balance La Serenisima 300gr|163.77|Quesos y Fiambres > Quesos > Quesos Untables|580234-512-512|/finlandia-balance-la-serenisima-300-gr
+02372|Finlandia Balance La Serenisima 300gr|163.77|Quesos y Fiambres > Quesos > Quesos Untables|580234-512-512|/finlandia-balance-la-serenisima-300-gr
 02574|Queso Casancrem Intenso Ciboulette 200gr|112.27|Quesos y Fiambres > Quesos > Quesos Untables|577482-512-512|/queso-casancrem-intenso-ciboulette-200-gr
 01117|Casancrem Light Pote 290gr|144.2|Quesos y Fiambres > Quesos > Quesos Untables|574801-512-512|/casancrem-light-pote-290g
 01115|Casancrem Entero Pote 290gr|144.2|Quesos y Fiambres > Quesos > Quesos Untables|574800-512-512|/casancrem-entero-pote-290g
@@ -1223,7 +1223,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 02577|Finlandia Guacamole La Serenisima 200gr|109.08|Quesos y Fiambres > Quesos > Quesos Untables|580294-512-512|/finlandia-guacamole-la-serenisima-200-gr
 01122|Queso Blan.ilolaycrem Lightx300g|112.27|Quesos y Fiambres > Quesos > Quesos Untables|534874-512-512|/queso-blan-ilolaycrem-lightx300g
 02578|Casancrem Ligero 200gr|81.0|Quesos y Fiambres > Quesos > Quesos Untables|593307-512-512|/casancrem-ligero-200-g
-02579|Mozzarella La Serenisima 220gr|217.02|Quesos y Fiambres > Quesos > Queso Muzzarella|580243-512-512|/mozzarella-la-serenisima-220-gr
+01925|Mozzarella La Serenisima 220gr|217.02|Quesos y Fiambres > Quesos > Queso Muzzarella|580243-512-512|/mozzarella-la-serenisima-220-gr
 01135|Queso Jumbo Polpeta 200gr|184.37|Quesos y Fiambres > Quesos > Queso Muzzarella|205843-512-512|/queso-mozzarella-jumbo-tipo-polpeta
 02611|Queso Mozzarella Milkaut 1kg|849.75|Quesos y Fiambres > Quesos > Queso Muzzarella|201027-512-512|/queso-mozzarella-milkaut
 02612|Queso Polpetta Fior Di Latte Arrivata 125gr|130.4|Quesos y Fiambres > Quesos > Queso Muzzarella|504495-512-512|/polpetta-fior-di-latte-arrivata
@@ -1311,7 +1311,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 02956|Tabla Criolla|1.48|Quesos y Fiambres > Picadas|535539-512-512|/tabla-criolla
 02957|Tabla De Quesos y Fiambres|1.84|Quesos y Fiambres > Picadas|535537-512-512|/tabla-de-quesos-y-fiambres-3
 02958|Tabla Porteña|1.84|Quesos y Fiambres > Picadas|535538-512-512|/tabla-portena
-02959|Tabla Tradicional|675.0|Quesos y Fiambres > Picadas|535540-512-512|/tabla-tradicional
+06619|Tabla Tradicional|675.0|Quesos y Fiambres > Picadas|535540-512-512|/tabla-tradicional
 02960|Tabla Amigos|1.91|Quesos y Fiambres > Picadas|535534-512-512|/tabla-amigos
 02961|Tabla Capresse|2.27|Quesos y Fiambres > Picadas|535532-512-512|/tabla-capresse
 02962|Crema Para Cocinar La Serenisima 330cc|135.96|Lácteos > Cremas|580295-512-512|/crema-para-cocinar-la-serenisima-330-cc
@@ -1390,7 +1390,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 03845|Leche De Cacahuate Cacao Power Vivet 200gr|71.07|Lácteos > Leches > Leches Vegetales|586486-512-512|/leche-de-cacahuate-cacao-power-vivet-200-gr
 01874|Bebida De Arroz Riso Scotti 1lt|324.45|Lácteos > Leches > Leches Vegetales|562650-512-512|/bebida-de-arroz-riso-scotti-1-l
 02770|Producto Untable Armonia 200gr|99.6|Lácteos > Mantecas y Margarinas > Manteca|580287-512-512|/producto-untable-armonia-200g
-02992|Manteca La Serenisima 200gr|128.44|Lácteos > Mantecas y Margarinas > Manteca|580196-512-512|/manteca-la-serenisima-200-gr
+01921|Manteca La Serenisima 200gr|128.44|Lácteos > Mantecas y Margarinas > Manteca|580196-512-512|/manteca-la-serenisima-200-gr
 02774|Manteca Milkaut Calidad Extra 200gr|122.57|Lácteos > Mantecas y Margarinas > Manteca|594314-512-512|/manteca-milkaut-calidad-extra-200-gr
 02772|Manteca Light Untable La Serenisima 200gr|191.58|Lácteos > Mantecas y Margarinas > Manteca|580223-512-512|/manteca-light-untable-la-serenisima-200-gr
 02776|Manteca La Serenisima Multidefensas 200gr|144.0|Lácteos > Mantecas y Margarinas > Manteca|591683-512-512|/manteca-la-serenisima-multidefensas-200-gr
@@ -1618,7 +1618,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 03221|Bocaditos De Pollo Granja Tres Arroyos Rebozado Bolsa 800gr|416.15|Congelados > Pollo y Carnes|370423-512-512|/bocaditos-de-pollo-granja-tres-arroyos-350852
 03222|Nuggets De Pollo Granja Tres Arroyos Rebozado Bolsa 400gr|240.88|Congelados > Pollo y Carnes|254560-512-512|/nuggets-de-pollo-granja-tres-arroyos
 02744|Espinaca Green Life 500gr|216.28|Congelados > Vegetales|533473-512-512|/espinaca-green-life-500-gr
-03960|Hamburguesa Arroz Yamaní y Ceb.caramel Granja Del Sol 2un|114.7|Congelados > Vegetales|544681-512-512|/hamburguesa-arroz-yamani-y-ceb-caramel-granja-del-sol-2-u
+08060|Hamburguesa Arroz Yamaní y Ceb.caramel Granja Del Sol 2un|114.7|Congelados > Vegetales|544681-512-512|/hamburguesa-arroz-yamani-y-ceb-caramel-granja-del-sol-2-u
 02758|Acelga Green Life 500gr|189.52|Congelados > Vegetales|532700-512-512|/acelga-green-life-500-gr
 02745|Mix Primavera Green Life 300gr|119.41|Congelados > Vegetales|532466-512-512|/mix-primavera-green-life-300-gr
 02746|Choclo Green Life 300gr|117.77|Congelados > Vegetales|532463-512-512|/choclo-green-life-300-gr
@@ -2273,11 +2273,11 @@ id|nombre|precio|rubro|url_imagen|url_producto
 02702|Aromatizante Glade Mini Gel Car Acqua|105.58|Limpieza > Desodorantes de Ambiente > Aromatizantes|431337-512-512|/aromatizante-glade-mini-gel-car-acqua
 03966|Aromatizante Glade Mini Gel Campos De Lavanda|88.15|Limpieza > Desodorantes de Ambiente > Aromatizantes|431333-512-512|/aromatizante-glade-mini-gel-campos-de-lavanda
 02692|Aromatizante En Gel Glade Sensations Repuesto Néctar De Flores|162.98|Limpieza > Desodorantes de Ambiente > Aromatizantes|431219-512-512|/aromatizante-en-gel-glade-sensations-repuesto-nectar-de-flores
-02707|Desinfectante De Ambientes Lysoform En Aerosol Citrico - 360cc|120.95|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431270-512-512|/desinfectante-de-ambientes-lysoform-en-aerosol-citrico-360-cc
-02709|Desinfectante De Ambientes Lysoform En Aerosol Original - 360cc|120.95|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431018-512-512|/desinfectante-de-ambientes-lysoform-en-aerosol-original-360-cc
-02710|Desinfectante De Ambientes Lysoform En Aerosol Aires De Montaña - 360cc|120.95|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431017-512-512|/desinfectante-de-ambientes-lysoform-en-aerosol-aires-de-montana-360-cc
-02708|Desinfectante De Ambientes Lysoform En Aerosol Lavanda - 360cc|120.95|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431215-512-512|/desinfectante-de-ambientes-lysoform-en-aerosol-lavanda-360-cc
-02715|Desinfectante De Ambientes Lysoform En Aerosol Frutal - 360cc|120.95|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|544609-512-512|/desinfectante-de-ambientes-lysoform-en-aerosol-frutal-360-cc
+03465|Desinfectante De Ambientes Lysoform En Aerosol Citrico - 360cc|120.95|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431270-512-512|/desinfectante-de-ambientes-lysoform-en-aerosol-citrico-360-cc
+03466|Desinfectante De Ambientes Lysoform En Aerosol Original - 360cc|120.95|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431018-512-512|/desinfectante-de-ambientes-lysoform-en-aerosol-original-360-cc
+03467|Desinfectante De Ambientes Lysoform En Aerosol Aires De Montaña - 360cc|120.95|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431017-512-512|/desinfectante-de-ambientes-lysoform-en-aerosol-aires-de-montana-360-cc
+03472|Desinfectante De Ambientes Lysoform En Aerosol Lavanda - 360cc|120.95|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431215-512-512|/desinfectante-de-ambientes-lysoform-en-aerosol-lavanda-360-cc
+03475|Desinfectante De Ambientes Lysoform En Aerosol Frutal - 360cc|120.95|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|544609-512-512|/desinfectante-de-ambientes-lysoform-en-aerosol-frutal-360-cc
 03967|Desinfectante De Ambientes Lysoform En Aerosol Bebé - 360cc|120.95|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431016-512-512|/desinfectante-de-ambientes-lysoform-en-aerosol-bebe-360-cc
 03968|Desodorante De Ambiente Glade Caricias De Algodón 360ml|99.43|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431411-512-512|/desodorante-de-ambientes-glade-360ml-5
 02714|Aromatizante Glade Toque Repuesto 3un ( 27gr ) Mix De Fragancias|210.13|Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|210230-512-512|/aromatizante-glade-toque-repuesto-3-unidades-27-gr-mix-de-fragancias
@@ -2308,17 +2308,17 @@ id|nombre|precio|rubro|url_imagen|url_producto
 03981|Líquido Eléctrico Raid Repuesto 45 Noches|251.13|Limpieza > Insecticidas > Tabletas y Difusores|431276-512-512|/liquido-electrico-raid-repuesto-45-noches
 03982|Líquido Eléctrico Raid Aparato Eléctrico 45 Noches|326.98|Limpieza > Insecticidas > Tabletas y Difusores|431277-512-512|/liquido-electrico-raid-aparato-electrico-45-noches
 03983|Espirales Para Mosquitos Fuyí Verdes 12un|63.55|Limpieza > Insecticidas > Tabletas y Difusores|430982-512-512|/espirales-para-mosquitos-fuyi-verdes-12u
-02907|Lavandina Ayudin Máxima Pureza - 2lt|88.0|Limpieza > Lavandina|565817-512-512|/lavandina-ayudin-maxima-pureza-2-l
-03984|Lavandina Ayudín Clásica 1lt|40.15|Limpieza > Lavandina|554373-512-512|/lavandina-ayudin
-03985|Lavandina Odex 2lt|88.15|Limpieza > Lavandina|567793-512-512|/lavandina-odex-2-lt
-03986|Lavandina En Gel Vim Original 700ml|89.18|Limpieza > Lavandina|475403-512-512|/lavandina-en-gel-vim-original-700ml-4
-03987|Lavandina Ayudín Multisuperficies Pureza De Glaciar 4lt|224.48|Limpieza > Lavandina|565838-512-512|/lavandina-ayudin-multisuperficies-6
-02916|Lavandina Original Ayudín Máxima Pureza 1lt|46.13|Limpieza > Lavandina|564463-512-512|/lavandina-original-ayudin-maxima-pureza-1-l
+03463|Lavandina Ayudin Máxima Pureza - 2lt|88.0|Limpieza > Lavandina|565817-512-512|/lavandina-ayudin-maxima-pureza-2-l
+03464|Lavandina Ayudín Clásica 1lt|40.15|Limpieza > Lavandina|554373-512-512|/lavandina-ayudin
+03468|Lavandina Odex 2lt|88.15|Limpieza > Lavandina|567793-512-512|/lavandina-odex-2-lt
+03469|Lavandina En Gel Vim Original 700ml|89.18|Limpieza > Lavandina|475403-512-512|/lavandina-en-gel-vim-original-700ml-4
+03470|Lavandina Ayudín Multisuperficies Pureza De Glaciar 4lt|224.48|Limpieza > Lavandina|565838-512-512|/lavandina-ayudin-multisuperficies-6
+03471|Lavandina Original Ayudín Máxima Pureza 1lt|46.13|Limpieza > Lavandina|564463-512-512|/lavandina-original-ayudin-maxima-pureza-1-l
 02910|Lavandina Ayudín Anti-splash 2lt|119.0|Limpieza > Lavandina|586131-512-512|/lavandina-ayudin-anti-splash-2-l
-03988|Lavandina En Gel Vim Agua 300ml|60.65|Limpieza > Lavandina|531763-512-512|/lavandina-en-gel-vim-agua-300-ml
-03989|Lavandina Triple Acción Ayudín Lavanda 4lt|224.48|Limpieza > Lavandina|565837-512-512|/lavandina-triple-accion-ayudin-lavanda-4-l
-02917|Lavandina Ayudín Multisuperficies Pureza De Glaciar 2lt|100.45|Limpieza > Lavandina|565789-512-512|/lavandina-ayudin-multisuperficies-3
-02911|Lavandina Ayudín Multisuperficies 2lt|100.45|Limpieza > Lavandina|564495-512-512|/lavandina-ayudin-2
+03473|Lavandina En Gel Vim Agua 300ml|60.65|Limpieza > Lavandina|531763-512-512|/lavandina-en-gel-vim-agua-300-ml
+03474|Lavandina Triple Acción Ayudín Lavanda 4lt|224.48|Limpieza > Lavandina|565837-512-512|/lavandina-triple-accion-ayudin-lavanda-4-l
+03786|Lavandina Ayudín Multisuperficies Pureza De Glaciar 2lt|100.45|Limpieza > Lavandina|565789-512-512|/lavandina-ayudin-multisuperficies-3
+03787|Lavandina Ayudín Multisuperficies 2lt|100.45|Limpieza > Lavandina|564495-512-512|/lavandina-ayudin-2
 02908|Lavandina En Gel Ayudín Original 700ml|93.28|Limpieza > Lavandina|565777-512-512|/lavandina-en-gel-ayudin-original-700-ml
 02913|Lavandina Ayudín Anti-splash 1lt|66.0|Limpieza > Lavandina|586137-512-512|/lavandina-ayudin-anti-splash-1-l
 02920|Lavandina En Gel Ayudín Pureza Cítrica1500ml|214.23|Limpieza > Lavandina|538647-512-512|/lavandina-en-gel-ayudin-pureza-citrica1500ml
@@ -2440,7 +2440,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 02889|Limpiador Líquido Procenex Extra Fragancia Lavanda 1,8lt|150.68|Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|570018-512-512|/limpiador-liquido-procenex-extra-fragancia-4
 04147|Limpiador De Pisos Cif Líquido Antibacterial 750ml|112.75|Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|521719-512-512|/cif-limpiador-de-pisos-antibacterial-botella-750ml
 04148|Limpiador Líquido Cif Plastificados y Flotantes 750ml|189.63|Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|565471-512-512|/limpiador-liquido-cif-plastificados-y-flotantes-750-ml
-02896|Limpiador Líquido Antibacterialbotella Lysoform 900ml|114.8|Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|431133-512-512|/limpiador-liquido-antibacterialbotella-lysoform-900-ml
+03476|Limpiador Líquido Antibacterialbotella Lysoform 900ml|114.8|Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|431133-512-512|/limpiador-liquido-antibacterialbotella-lysoform-900-ml
 02904|Limpiador De Pisos Poett Primavera 1800ml|116.85|Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|565774-512-512|/limpiador-de-pisos-poett-primavera-1800-ml
 04149|Limpiador De Pisos Poett Lavanda 1800ml|116.85|Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|564402-512-512|/limpiador-de-pisos-poett-lavanda-1800-ml
 04150|Limpiador De Pisos Cif Oxygel Botella 2 Lts|302.38|Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|565541-512-512|/cif-limpiador-de-pisos-oxygel-botella-2lt
@@ -2540,7 +2540,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04227|Fiambre De Cerdo '66' x kg|239.0|Quesos y Fiambres > Fiambres > Jamón Cocido y Crudo|340808-512-512|/fiambre-de-cerdo-66-x-kg
 04228|Manteca Tonadita 200gr|112.27|Lácteos > Mantecas y Margarinas > Manteca|176504-512-512|/manteca-tonadita-x-200-gr
 04229|Fanta Naranja Lata 354ml|46.8|Bebidas > Gaseosas > Naranja|580567-512-512|/fanta-naranja-lata-354-ml
-04230|Puré De Tomate Salsati 520gr|59.74|Almacén > Libre de Gluten|178522-512-512|/pure-de-tomate-salsati-x-520-gr
+04221|Puré De Tomate Salsati 520gr|59.74|Almacén > Libre de Gluten|178522-512-512|/pure-de-tomate-salsati-x-520-gr
 01140|Queso Bocconcino Wapi 200gr|211.15|Quesos y Fiambres > Quesos > Queso Muzzarella|443666-512-512|/bocconcino-wapi
 01139|Pulpeta Wapi 250gr|287.37|Quesos y Fiambres > Quesos > Queso Muzzarella|451625-512-512|/pulpeta-wapi
 04231|Queso Brie Wapi Leche De Vaca 100gr|277.07|Quesos y Fiambres > Quesos > Quesos Especiales e Importados|176396-512-512|/queso-brie-wapi
@@ -2586,7 +2586,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04267|Jabón Líquido Para Manos Protex Avena 500ml|357.08|Perfumería > Cuidado Personal > Jabones|477644-512-512|/jabon-liquido-para-manos-protex-avena-500-ml-2
 04863|Fideos La Molisana Rigatoni 500gr|124.8|Almacén > Pastas Secas y Salsas > Pastas Secas Guiseras|545557-512-512|/fideos-la-molisana-rigatoni-500-g
 04268|Bicarbonato De Sodio Dos Anclas 25gr|20.4|Almacén > Sal, Pimienta y Especias > Especias|188772-512-512|/bicarbonato-de-sodio-dos-anclas-x-25-gr
-04270|Lavandina En Gel Ayudín Original 700ml|93.28|Perfumería > Cuidado Personal > Higiene Preventiva|565777-512-512|/lavandina-en-gel-ayudin-original-700-ml
+02908|Lavandina En Gel Ayudín Original 700ml|93.28|Perfumería > Cuidado Personal > Higiene Preventiva|565777-512-512|/lavandina-en-gel-ayudin-original-700-ml
 04271|Toallas Femeninas Kotex Nocturnas Con Alas 16un|278.42|Perfumería > Cuidado Personal > Protección Femenina|590337-512-512|/toallas-femeninas-kotex-2
 04771|Enjuague Bucal Colgate Plax Classic 500ml Promo Lleve 500ml Pague 350ml|346.73|Perfumería > Cuidado Oral > Enjuagues Bucales|488555-512-512|/enjuague-bucal-colgate-plax-classic-500-ml-promo-lleve-500-ml-pague-350-ml-2
 04272|Alim Polv Cacao Fort.in Nesquik x 180gr|83.6|Almacén > Desayuno y Merienda > Cacao y Saborizantes|595149-512-512|/alim-polv-cacao-fort-in-nesquik-x180gr
@@ -2614,7 +2614,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04286|Vino Los Intocables Malbec 750cc|494.0|Bebidas > Vinos > Vinos Tintos|581039-512-512|/vino-los-intocables-malbec
 00994|Vino Tinto Fabre Montmayou Reserva Malbec 750cc|505.44|Bebidas > Vinos > Vinos Tintos|586916-512-512|/vino-fabre-montmayou-malbec
 04777|Licor Bols Café 700ml|258.96|Bebidas > Licores|178912-512-512|/licor-bols-cafe-premium
-04945|Arroz Gallo Integral Yamani Sin Tacc|122.72|Almacén > Libre de Gluten|468591-512-512|/arroz-gallo-integral-yamani-sin-tacc
+01252|Arroz Gallo Integral Yamani Sin Tacc|122.72|Almacén > Libre de Gluten|468591-512-512|/arroz-gallo-integral-yamani-sin-tacc
 01541|Queso Parmesano La Paulina 1kg|719.0|Quesos y Fiambres > Quesos > Quesos Duros|596261-512-512|/queso-parmesano-la-paulina-x-kg
 01594|Queso Rallado Sancor Reggianito 100gr|149.35|Quesos y Fiambres > Quesos > Quesos Rallados|193416-512-512|/queso-reggianito-rallado-sancor-tradicional-2
 04287|Tapas Para Pascualina Jumbo Criolla 400gr|65.42|Lácteos > Pastas Frescas y Tapas > Tapas|190029-512-512|/tapas-para-pascualina-jumbo-criolla
@@ -2669,8 +2669,8 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00088|Salsa De Soja Kikkoman Clasica 148ml|311.1|Almacén > Aderezos > Otros Condimentos|584207-512-512|/salsa-de-soja-kikkoman-clasica-148ml
 00197|Pudding 100 Ducados Chocolate C/chips x 300gr|150.0|Almacén > Desayuno y Merienda > Bizcochuelos, Budines y Magdalenas|554090-512-512|/pudding-100-ducados-chocolate-c-chips-x300gr
 00201|Madalenas Marmoladas Bimbo 225gr|114.3|Almacén > Desayuno y Merienda > Bizcochuelos, Budines y Magdalenas|580878-512-512|/madalenas-marmoladas-bimbo-225g
-04329|Almidón De Maíz Maizena 520gr|123.76|Almacén > Libre de Gluten|521780-512-512|/almidon-de-maiz-maizena-2
-04330|Caramelos Masticables Skittles Original x 204gr|338.87|Almacén > Importados|592157-512-512|/caramelos-masticables-skittles-original-x-204-grs
+01452|Almidón De Maíz Maizena 520gr|123.76|Almacén > Libre de Gluten|521780-512-512|/almidon-de-maiz-maizena-2
+01419|Caramelos Masticables Skittles Original x 204gr|338.87|Almacén > Importados|592157-512-512|/caramelos-masticables-skittles-original-x-204-grs
 04869|Soda Sifón Ivess 2lt|69.32|Bebidas > Aguas > Aguas Con Gas|432823-512-512|/soda-sifon-ivess-2-l
 00593|Snacks Ser No Fritos Sabor Jamon Iberico|71.4|Almacén > Snacks > Snacks|591538-512-512|/snacks-ser-no-fritos-sabor-jamon-iberico
 00760|7up Lima Limón Sin Azúcar Lata 354ml|41.6|Bebidas > Gaseosas > Lima Limón|567440-512-512|/7up-lima-limon-sin-azucar-lata-354-ml
@@ -2681,7 +2681,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04333|Gaseosa Mirinda Naranja 3lt|104.0|Bebidas > Gaseosas > Naranja|589184-512-512|/gaseosa-mirinda-naranja-3l
 04334|Energizante Red Bull 250ml Lata|86.22|Bebidas > Energizantes|589160-512-512|/energizante-red-bull-250-ml-lata
 00909|Cerveza Rubia Brahma Chopp 6-pack 473ml Lata|364.0|Bebidas > Cervezas|588330-512-512|/cerveza-rubia-brahma-chopp-6-pack-473-ml-lata
-04335|Energizante Red Bull 250ml Lata|86.22|Bebidas > Isotónicas|589160-512-512|/energizante-red-bull-250-ml-lata
+04334|Energizante Red Bull 250ml Lata|86.22|Bebidas > Isotónicas|589160-512-512|/energizante-red-bull-250-ml-lata
 01030|Dulce De Batata Con Chocolate El Guri Sob-1- kg|156.0|Quesos y Fiambres > Dulces|589075-512-512|/dulce-de-batata-con-chocolate-el-guri-sob-1-kg
 04336|Pan De Miga Blanco Por kg|279.9|Panadería y Repostería > Panadería > Sándwiches|184343-512-512|/pan-de-miga-x-1-kg
 04337|Tintura Permanente Excellence Creme 123 Rubio Ultra Claro Dorado 47gr|599.27|Perfumería > Cuidado Capilar > Coloración|583035-512-512|/tintura-excellence-creme-15
@@ -2741,14 +2741,14 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04378|Jabón Líquido Para Manos Palmolive Natureza Secreta Castaña 200ml|111.78|Perfumería > Cuidado Personal > Jabones|571710-512-512|/jabon-liquido-para-manos-palmolive-natureza-secreta-castana-200-ml-2
 04379|Lavandina En Gel Ayudín Lavanda 700ml|100.45|Perfumería > Cuidado Personal > Higiene Preventiva|565815-512-512|/lavandina-en-gel-ayudin-10
 04381|Pomada P/calzado Wassington Negra Lat. 74ml|170.15|Limpieza > Calzado > Pomadas Para Calzado|421865-512-512|/pomada-p-calzado-wassington-negra-lat-74-ml
-02909|Lavandina En Gel Ayudín Lavanda 700ml|100.45|Limpieza > Lavandina|565815-512-512|/lavandina-en-gel-ayudin-10
+04379|Lavandina En Gel Ayudín Lavanda 700ml|100.45|Limpieza > Lavandina|565815-512-512|/lavandina-en-gel-ayudin-10
 04382|Aderezo Cocinero 250ml|108.12|Almacén > Aceites y Vinagres > Acetos|468733-512-512|/aceto-balsamico-cocinero
 04937|Arroz Preparado Gallo Queso 240gr|82.16|Almacén > Arroz y Legumbres > Arroz Listos|570101-512-512|/arroz-preparado-gallo-queso-240-gr
 04938|Arroz Preparado Gallo Verdeo 240gr|82.16|Almacén > Arroz y Legumbres > Arroz Listos|570099-512-512|/arroz-preparado-gallo-verdeo-240-gr
 00168|Azucar Arcor Comun Tipo 'a' x 1kg|58.71|Almacén > Desayuno y Merienda > Azúcar y Edulcorantes|596850-512-512|/azucar-arcor-comun-tipo-a-x1kg
-04383|Manteca Jumbo 200gr|108.15|Almacén > Libre de Gluten|557949-512-512|/manteca-jumbo
-04384|Arroz Scotti Carnaroli 500gr|199.68|Almacén > Importados|177107-512-512|/arroz-scotti-x-500-gr
-04385|Obleas Gullon Chocolate x 70gr|76.86|Almacén > Importados|467324-512-512|/obleas-gullon-chocolate-x-70-grs
+02777|Manteca Jumbo 200gr|108.15|Almacén > Libre de Gluten|557949-512-512|/manteca-jumbo
+01273|Arroz Scotti Carnaroli 500gr|199.68|Almacén > Importados|177107-512-512|/arroz-scotti-x-500-gr
+10212|Obleas Gullon Chocolate x 70gr|76.86|Almacén > Importados|467324-512-512|/obleas-gullon-chocolate-x-70-grs
 04386|Filet De Merluza Rebozados Por kg|459.0|Pescados y Mariscos > Pescados|428008-512-512|/filet-de-merluza-rebozado
 04387|Queso Cremon Cremoso La Serenisima Unidad Aprox 500gr|369.77|Quesos y Fiambres > Quesos > Quesos Port Salut y Cremosos|596808-512-512|/queso-cremon-cremoso-la-serenisima-unidad-aprox-500-gr
 01145|Queso Cremon Light La Serenisima Unidad Aprox 500gr|581.95|Quesos y Fiambres > Quesos > Quesos Port Salut y Cremosos|596804-512-512|/queso-cremon-light-la-serenisima-unidad-aprox-500-gr
@@ -2809,7 +2809,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04413|Masa Fina Delicias De Oriente 500gr|655.2|Lácteos > Pastas Frescas y Tapas > Masas y Lavaduras|180705-512-512|/masa-fila-delicias-de-oriente
 04414|Espuma De Afeitar Gillette Foamy 322ml|247.37|Perfumería > Cuidado Personal > Productos Para Afeitarse|571081-512-512|/espuma-de-afeitar-gillette-2
 04415|Espuma De Afeitar Gillette Foamy 322ml|247.37|Perfumería > Cuidado Personal > Productos Para Afeitarse|571080-512-512|/espuma-de-afeitar-gillette
-04416|Lavandina En Gel Vim Original 700ml|90.1|Perfumería > Cuidado Personal > Higiene Preventiva|503027-512-512|/lavandina-en-gel-vim-original-700ml
+03991|Lavandina En Gel Vim Original 700ml|90.1|Perfumería > Cuidado Personal > Higiene Preventiva|503027-512-512|/lavandina-en-gel-vim-original-700ml
 02389|Escobillón La Gauchita Barremax Indoor|367.95|Limpieza > Accesorios de Limpieza > Escobas y Escobillones|592501-512-512|/escobillon-la-gauchita-barremax-indoor
 02387|Escoba La Gauchita Bombay-s/e-un.-1|303.0|Limpieza > Accesorios de Limpieza > Escobas y Escobillones|592497-512-512|/escoba-la-gauchita-bombay
 02390|Escobillon La Gauchita Nogal-s/e-un.-1|539.0|Limpieza > Accesorios de Limpieza > Escobas y Escobillones|592491-512-512|/escobillon-la-gauchita-nogal
@@ -2819,8 +2819,8 @@ id|nombre|precio|rubro|url_imagen|url_producto
 02442|Secador Doble Goma De 30 La Gauchita|279.23|Limpieza > Accesorios de Limpieza > Secadores y Cepillos|592545-512-512|/secador-doble-goma-de-30-la-gauchita
 02443|Cepillo La Gauchita|215.0|Limpieza > Accesorios de Limpieza > Secadores y Cepillos|592498-512-512|/cepillo-la-gauchita-planchita
 04447|Jeringa Mata Cucarachas En Gel Baygon 6gr|261.38|Limpieza > Insecticidas > Cebos, Bolillas y Pastillas|431135-512-512|/jeringa-mata-cucarachas-en-gel-baygon-6-gr
-04448|Chocolate Karina Amargo x 100gr|164.8|Almacén > Importados|471718-512-512|/chocolate-karina-amargo-x100gr
-04449|Salsa Pizza Arcor 340gr|57.68|Almacén > Libre de Gluten|207233-512-512|/salsa-arcor-pizza-x340gr
+04317|Chocolate Karina Amargo x 100gr|164.8|Almacén > Importados|471718-512-512|/chocolate-karina-amargo-x100gr
+04363|Salsa Pizza Arcor 340gr|57.68|Almacén > Libre de Gluten|207233-512-512|/salsa-arcor-pizza-x340gr
 01127|Queso Adler Feteado Cheddar 144gr|180.25|Quesos y Fiambres > Quesos > Quesos Untables|597245-512-512|/queso-fundido-adler-6
 04450|Queso Philadelphia Light 150gr|267.7|Quesos y Fiambres > Quesos > Quesos Untables|225870-512-512|/queso-philadelphia-light-150-gr
 04451|Queso Brie Pre Vert 1kg|1.502|Quesos y Fiambres > Quesos > Quesos Especiales e Importados|444578-512-512|/queso-brie-pre-vert-pza-x-kg
@@ -2922,8 +2922,8 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04516|Galletitas Gallo Snacks Queso - 100gr|98.8|Almacén > Snacks > Snacks|589090-512-512|/galletitas-gallo-snacks-queso-100-gr
 04517|Papas Mccain + Finitas x 1kg|261.38|Congelados > Papas|596809-512-512|/papas-mccain-finitas-x-1-kg
 04518|Limpiador Cif Gel Con Lavandina Ultra Blanco 500ml|119.93|Limpieza > Limpieza de Cocina > Limpiadores|565513-512-512|/cif-limpiador-gel-c-lavandina-ultra-blanco-botella-500ml
-04519|Chocolate Karina Con Avellanas x 100gr|164.8|Almacén > Importados|471720-512-512|/chocolate-karina-con-avellanas-x100gr
-04520|Chocolate Karina Con Leche x 100gr|164.8|Almacén > Importados|471717-512-512|/chocolate-karina-con-leche-x100gr
+04466|Chocolate Karina Con Avellanas x 100gr|164.8|Almacén > Importados|471720-512-512|/chocolate-karina-con-avellanas-x100gr
+04346|Chocolate Karina Con Leche x 100gr|164.8|Almacén > Importados|471717-512-512|/chocolate-karina-con-leche-x100gr
 04521|Aceto Suave Pet|127.0|Almacén > Aceites y Vinagres > Acetos|576339-512-512|/aceto-suave-pet
 00014|Ketchup Heinz Doy-pack 190gr|91.7|Almacén > Aderezos > Ketchup|555017-512-512|/ketchup-heinz-doy-pack-190gr
 00116|Lentejas Los Silos x 350gr|111.99|Almacén > Arroz y Legumbres > Legumbres|592067-512-512|/lentejas-los-silos-x-350-gr
@@ -2946,7 +2946,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04547|Jugo De Limón Minerva 250ml|65.03|Almacén > Aceites y Vinagres > Jugos de Limón|468559-512-512|/jugo-minerva-de-limon
 00472|Alim Nesquik Opti Plv Choc S/tacc 150gr|69.0|Almacén > Desayuno y Merienda > Cacao y Saborizantes|597311-512-512|/alim-nesquik-opti-plv-choc-s-tacc-150g
 04548|Palitos Pehuamar Sal 90gr|64.41|Almacén > Snacks > Palitos Salados|549596-512-512|/palitos-pehuamar-sal-90-gr
-04549|Lentejas La Campagnola 300gr|56.65|Almacén > Libre de Gluten|206748-512-512|/lentejas-la-campagnola-x300gr
+00211|Lentejas La Campagnola 300gr|56.65|Almacén > Libre de Gluten|206748-512-512|/lentejas-la-campagnola-x300gr
 04550|Kin Soda 2,2lt|59.28|Bebidas > Aguas > Aguas Con Gas|580634-512-512|/kin-soda-2-25-l
 04551|Gaseosa Schweppes Pomelo Sin Azucares Lata 354ml|46.8|Bebidas > Gaseosas > Pomelo|580675-512-512|/gaseosa-schweppes-pomelo-sin-azucares-lata-354
 04552|Gaseosa Schweppes Pomelo Sin Azúcar 600ml|57.2|Bebidas > Gaseosas > Pomelo|526927-512-512|/gaseosa-schweppes-600cc
@@ -2987,7 +2987,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04586|Grisines Riera Sin Sal 160gr|65.42|Almacén > Panificados > Tostadas y Grisines|432593-512-512|/grisines-riera-sin-sal
 04899|Grisines Riera Finas Hierbas 160gr|65.42|Almacén > Panificados > Tostadas y Grisines|432267-512-512|/grisines-riera-clasicos-x-160-gr-2
 04587|Galletitas Gallo Snacks Pizza 100gr|98.8|Almacén > Snacks > Snacks|589085-512-512|/galletitas-gallo-snacks-pizza-100-gr
-04588|Mermelada Bonne Maman Cuatro Frutas 370gr|401.7|Almacén > Importados|180596-512-512|/mermelada-bonne-mamam-4
+01374|Mermelada Bonne Maman Cuatro Frutas 370gr|401.7|Almacén > Importados|180596-512-512|/mermelada-bonne-mamam-4
 04589|Torta Helada White Cho&ras Karinat 150gr|300.0|Congelados > Helados y Postres > Postres|599687-512-512|/torta-helada-white-cho-ras-karinat-150gr
 04590|Torta Helada Marquise Karinat x 150gr|300.0|Congelados > Helados y Postres > Postres|599683-512-512|/torta-helada-marquise-karinat-x-150-gr
 04591|Torta Helada Nut Pie Karinat x 150gr|300.0|Congelados > Helados y Postres > Postres|599682-512-512|/torta-helada-nut-pie-karinat-x-150-gr
@@ -3013,10 +3013,10 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04608|Mix Power C&co 40gr|79.05|Almacén > Snacks > Frutas Secas y Disecadas|576706-512-512|/mix-power-c-co-40-gr
 04609|Mix Tropical C&co 40gr|79.05|Almacén > Snacks > Frutas Secas y Disecadas|576703-512-512|/mix-tropical-c-co-40-gr
 04610|Mix Oriental C&co 40gr|79.05|Almacén > Snacks > Frutas Secas y Disecadas|575710-512-512|/mix-oriental-c-co-40-gr
-04611|Fideos Penne Rigate Barilla 500gr|338.0|Almacén > Importados|177327-512-512|/fideos-barilla-guiseros-3
-00660|Tostaditas Crackines De Arroz Libre De Gluten 120gr|67.6|Almacén > Libre de Gluten|423331-512-512|/tostaditas-crackines-de-arroz-libre-de-gluten
-04612|Arvejas Arcor 300gr|47.38|Almacén > Libre de Gluten|581393-512-512|/arvejas-arcor-300-gr
-04613|Choclo Amarillo Arcor - 300gr|84.46|Almacén > Libre de Gluten|581392-512-512|/choclo-amarillo-arcor-300-gr
+02580|Fideos Penne Rigate Barilla 500gr|338.0|Almacén > Importados|177327-512-512|/fideos-barilla-guiseros-3
+00240|Tostaditas Crackines De Arroz Libre De Gluten 120gr|67.6|Almacén > Libre de Gluten|423331-512-512|/tostaditas-crackines-de-arroz-libre-de-gluten
+00208|Arvejas Arcor 300gr|47.38|Almacén > Libre de Gluten|581393-512-512|/arvejas-arcor-300-gr
+01300|Choclo Amarillo Arcor - 300gr|84.46|Almacén > Libre de Gluten|581392-512-512|/choclo-amarillo-arcor-300-gr
 01044|Vodka Sernova Fresh Citrus Bot-700- cc|480.0|Bebidas > Bebidas Blancas|599653-512-512|/vodka-sernova-fresh-citrus-bot-700-cc
 01028|Dulce De Membrillo Marca Propioa Mínimo 1kg Mayorista|139.0|Quesos y Fiambres > Dulces|421370-512-512|/dulce-de-membrillo-mp
 04614|Good Drink Sabor Original C&co 1lt|215.0|Lácteos > Leches > Leches Vegetales|600217-512-512|/good-drink-sabor-original-c-co-1-l
@@ -3058,7 +3058,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04649|Fideos Al Huevo Caserito Don Vicente 500gr|95.68|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|592352-512-512|/fideos-al-huevo-caserito-don-vicente-500-gr
 04650|Fideos Al Huevo Fettuccini Don Vicente 500gr|95.68|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|592354-512-512|/fideos-al-huevo-fettuccini-don-vicente-500-gr
 04651|Fideos Tirabuzón 3 Vegetales Matarazzo 500gr|72.8|Almacén > Pastas Secas y Salsas > Pastas Secas Guiseras|592358-512-512|/fideos-tirabuzon-3-vegetales-matarazzo-500-gr
-00677|Fideos Fusilli Barilla 500gr|338.0|Almacén > Importados|177314-512-512|/fideos-barilla-guiseros
+06025|Fideos Fusilli Barilla 500gr|338.0|Almacén > Importados|177314-512-512|/fideos-barilla-guiseros
 04652|Gaseosa Paso De Los Toros Pomelo 250ml|31.2|Bebidas > Gaseosas > Pomelo|589168-512-512|/gaseosa-paso-de-los-toros-pomelo-250-ml
 04653|Gaseosa Paso De Los Toros Pomelo 269ml|27.07|Bebidas > Gaseosas > Tónica|596165-512-512|/gaseosa-paso-de-los-toros-pomelo-269ml
 04654|Ades Soja + Jugo De Manzana 1lt|78.0|Bebidas > Jugos > Listos|580575-512-512|/ades-soja-jugo-de-manzana-1-l
@@ -3088,10 +3088,10 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04675|Fideos Bucattini Lucchetti 500gr|55.12|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|592387-512-512|/fideos-bucattini-lucchetti-500-gr
 04676|Fideos Tallarín Lucchetti 500gr|55.12|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|592375-512-512|/fideos-tallarin-lucchetti-500-gr
 04677|Fideos Fettuccine Matarazzo 500gr|85.28|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|592369-512-512|/fideos-fettuccine-matarazzo-500-gr
-04678|Arroz Oro Estuche Gallo 1kg|99.84|Almacén > Libre de Gluten|468446-512-512|/arroz-oro-estuche-gallo-1-kg
-05256|Aceite Girasol Clásico En Aerosol Fritolim 120gr|124.8|Almacén > Libre de Gluten|468639-512-512|/aceite-girasol-clasico-en-aerosol-fritolim-120-gr
-04679|Arroz Oro Gallo 500gr|46.55|Almacén > Libre de Gluten|468450-512-512|/arroz-oro-gallo-500-gr
-05164|Confites Nerds Acidos Apple/lemonade Estuche 46,7gr|132.87|Almacén > Importados|466168-512-512|/confites-nerds-acidos-apple-lemonade-estuche-46-7-g
+04661|Arroz Oro Estuche Gallo 1kg|99.84|Almacén > Libre de Gluten|468446-512-512|/arroz-oro-estuche-gallo-1-kg
+04954|Aceite Girasol Clásico En Aerosol Fritolim 120gr|124.8|Almacén > Libre de Gluten|468639-512-512|/aceite-girasol-clasico-en-aerosol-fritolim-120-gr
+04662|Arroz Oro Gallo 500gr|46.55|Almacén > Libre de Gluten|468450-512-512|/arroz-oro-gallo-500-gr
+01420|Confites Nerds Acidos Apple/lemonade Estuche 46,7gr|132.87|Almacén > Importados|466168-512-512|/confites-nerds-acidos-apple-lemonade-estuche-46-7-g
 04680|Espumante Chandon Mini Rosé 187ml|143.52|Bebidas > Champagnes|596338-512-512|/espumante-chandon-mini-rose-187-ml
 01039|Vodka Sernova Wild Berries Bot-700- cc|480.0|Bebidas > Bebidas Blancas|599652-512-512|/vodka-sernova-wild-berries-bot-700-cc
 04681|Vino Bianchi Chablis 700cc|130.0|Bebidas > Vinos > Vinos Blancos|579434-512-512|/vino-bianchi-chablis-750-ml
@@ -3114,7 +3114,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04695|Fideos Dedalito Matarazzo 500gr|59.28|Almacén > Pastas Secas y Salsas > Pastas Secas Guiseras|592392-512-512|/fideos-dedalito-matarazzo-500-gr
 04696|Fideos Spaghetti Libre De Gluten Matarazzo 500gr|112.3|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|592405-512-512|/fideos-spaghetti-libre-de-gluten-matarazzo-500-gr
 04697|Fideos Tirabuzón Libre De Gluten Matarazzo 500gr|112.3|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|592410-512-512|/fideos-tirabuzon-libre-de-gluten-matarazzo-500-gr
-05257|Salsa Picante Tabasco® Rojo Original 60ml|423.3|Almacén > Importados|584126-512-512|/salsa-picante-tabasco-rojo-original-60-ml
+01237|Salsa Picante Tabasco® Rojo Original 60ml|423.3|Almacén > Importados|584126-512-512|/salsa-picante-tabasco-rojo-original-60-ml
 04698|Espumante Chandon Extra Brut Twinpack 375ml|494.0|Bebidas > Champagnes|596377-512-512|/espumante-chandon-extra-brut-twinpack-375-ml
 01019|Espumante Etra Brut Ruca Malen 750|473.2|Bebidas > Champagnes|592002-512-512|/espumante-etra-brut-ruca-malen-750
 04699|Ravioles Frescos De Jamón y Queso La Salteña 500gr|124.8|Lácteos > Pastas Frescas y Tapas > Pastas Rellenas|440221-512-512|/ravioles-frescos-de-jamon-y-queso-la-saltena-500-gr

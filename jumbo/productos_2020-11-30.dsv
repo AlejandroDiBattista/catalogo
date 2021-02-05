@@ -311,7 +311,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00310|Te La Virginia Verde Jazmin x 20 Saquitos|94.56||||Almacén > Desayuno y Merienda > Tés|580005-512-512|te-la-virginia-verde-jazmin-x-20-saquitos
 00311|Te La Virginia Maracuya x 20 Saquitos|96.73||||Almacén > Desayuno y Merienda > Tés|580003-512-512|te-la-virginia-maracuya-x-20-saquitos
 00312|Yerba Mate Mañanita 4flex 1kg|379.0||||Almacén > Desayuno y Merienda > Yerbas|611981-512-512|yerba-mate-mananita-4flex-1kg
-00313|Yerba Mate Canarias 500gr|318.0||||Almacén > Desayuno y Merienda > Yerbas|477652-512-512|yerba-mate-canarias
+00664|Yerba Mate Canarias 500gr|318.0||||Almacén > Desayuno y Merienda > Yerbas|477652-512-512|yerba-mate-canarias
 00314|Yerba Mate Rosamonte Con Palo Suave 1kg|293.55||||Almacén > Desayuno y Merienda > Yerbas|178702-512-512|yerba-mate-rosamonte-con-palo-plus-1kg
 00315|Yerba Mate Unión Con Palo Bcp 500gr|141.6||||Almacén > Desayuno y Merienda > Yerbas|577331-512-512|yerba-mate-union-con-palo-bcp
 00316|Yerba Mate Selección Especial Cruz De Malta 500gr|194.96||||Almacén > Desayuno y Merienda > Yerbas|601917-512-512|yerba-mate-seleccion-especial-cruz-de-malta-500-gr
@@ -644,7 +644,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00643|Caldo Carne Menos Sodio Maggi 12un|83.23||||Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|583562-512-512|caldo-carne-menos-sodio-maggi-12-u-2
 00644|Caldo Carne Menos Sodio Maggi 12un|83.23||||Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|583561-512-512|caldo-carne-menos-sodio-maggi-12-u
 00645|Caldo Carne Maggi 12un|83.23||||Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|595165-512-512|caldo-carne-maggi-12-u
-00646|Tostadas De Arroz Sin Sal Cariló 150gr|64.81||||Almacén > Libre de Gluten|458644-512-512|tostadas-arroz-carilo-sin-sal
+06596|Tostadas De Arroz Sin Sal Cariló 150gr|64.81||||Almacén > Libre de Gluten|458644-512-512|tostadas-arroz-carilo-sin-sal
 00647|Galletas Grandiet De Cereales Inflados Con Sal 100gr|49.0||||Almacén > Libre de Gluten|606516-512-512|galletitas-grandiet-de-cereal-x-100-gr-2
 00648|Galletas Grandiet De Cereales Inflados Dulce 100gr|41.78||||Almacén > Libre de Gluten|550641-512-512|galletitas-grandiet-de-cereal-x-100-gr-3
 00649|Galletas Grandiet De Cereales Inflados Sin Sal 100gr|41.78||||Almacén > Libre de Gluten|550640-512-512|galletitas-grandiet-de-cereal-x-100-gr
@@ -657,26 +657,26 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00656|Chalitas Viavita Con Semillas x 100gr Sin Tac|64.17||||Almacén > Libre de Gluten|564569-512-512|chalitas-viavita-con-semillas-x-100grs-sin-tac
 00657|Chalitas Viavita Clasicas x 100gr Sin Tacc|64.17||||Almacén > Libre de Gluten|564571-512-512|chalitas-viavita-clasicas-x-100-grs-sin-tacc
 00658|Bizchochitos De Grasa Natuzen 200gr|112.48||||Almacén > Libre de Gluten|180269-512-512|bizcochitos-de-grasa-natuzen
-00659|Gallo Snacks Bizcochos De Arroz Salados 100gr|80.34||||Almacén > Libre de Gluten|601791-512-512|gallo-snacks-bizcochos-de-arroz-salados-100-gr
-00660|Tostaditas Crackines De Arroz Libre De Gluten 120gr|69.63||||Almacén > Libre de Gluten|423331-512-512|tostaditas-crackines-de-arroz-libre-de-gluten
-00661|Tostadas De Arroz Cariló Original 150gr|64.81||||Almacén > Libre de Gluten|485655-512-512|tostadas-arroz-carilo-original
-00662|Grallo Snacks Crackeadas 100gr|77.95||||Almacén > Libre de Gluten|601910-512-512|grallo-snacks-crackeadas-100-gr
+05329|Gallo Snacks Bizcochos De Arroz Salados 100gr|80.34||||Almacén > Libre de Gluten|601791-512-512|gallo-snacks-bizcochos-de-arroz-salados-100-gr
+00240|Tostaditas Crackines De Arroz Libre De Gluten 120gr|69.63||||Almacén > Libre de Gluten|423331-512-512|tostaditas-crackines-de-arroz-libre-de-gluten
+06491|Tostadas De Arroz Cariló Original 150gr|64.81||||Almacén > Libre de Gluten|485655-512-512|tostadas-arroz-carilo-original
+00249|Grallo Snacks Crackeadas 100gr|77.95||||Almacén > Libre de Gluten|601910-512-512|grallo-snacks-crackeadas-100-gr
 00663|Discos De Arroz Sin Sal Grandiet 100gr|56.77||||Almacén > Libre de Gluten|422138-512-512|discos-grandiet-de-arroz-3
 00664|Yerba Mate Canarias 500gr|318.0||||Almacén > Importados|477652-512-512|yerba-mate-canarias
 00665|Barra De Cereal Corny Chocolate 150gr|263.68||||Almacén > Importados|285647-512-512|barra-de-cereal-corny-chocolate-150-gr
 00666|Barra De Cereal Corny Yoghurt 150gr|263.68||||Almacén > Importados|196473-512-512|barra-de-cereal-corny-2
-00667|Mermelada La Vieja Fábrica Naranja 350gr|204.0||||Almacén > Importados|477684-512-512|mermelada-la-vieja-fabrica-5
-00668|Mermelada La Vieja Fábrica Frutos Del Bosque 350gr|275.0||||Almacén > Importados|447706-512-512|mermelada-la-vieja-fabrica-2
-00669|Mermelada La Vieja Fábrica Frambuesa 350gr|275.0||||Almacén > Importados|477683-512-512|mermelada-la-vieja-fabrica-3
-00670|Mermelada La Vieja Fábrica Frutilla 350gr|275.0||||Almacén > Importados|190854-512-512|mermelada-la-vieja-fabrica-4
-00671|Arroz Thai Scotti 500gr|248.56||||Almacén > Importados|432036-512-512|arroz-scotti-x-500-gr-2
-00672|Fideos Spaghettoni Barilla 500gr|332.0||||Almacén > Importados|177339-512-512|fideos-barilla-largos
-00673|Fideos Bavette Barilla 500gr|332.0||||Almacén > Importados|192248-512-512|fideos-barilla-largos-4
-00674|Fideos Spaghetti Garofalo 500gr|316.0||||Almacén > Importados|188387-512-512|spaghettini-garofalo-largo-paquete-500-grs
-00675|Fideos Spaghetti Garofalo 500gr|316.0||||Almacén > Importados|422262-512-512|spaghetti-garofalo-largo-paquete-500-grs
+00560|Mermelada La Vieja Fábrica Naranja 350gr|204.0||||Almacén > Importados|477684-512-512|mermelada-la-vieja-fabrica-5
+01372|Mermelada La Vieja Fábrica Frutos Del Bosque 350gr|275.0||||Almacén > Importados|447706-512-512|mermelada-la-vieja-fabrica-2
+00561|Mermelada La Vieja Fábrica Frambuesa 350gr|275.0||||Almacén > Importados|477683-512-512|mermelada-la-vieja-fabrica-3
+00571|Mermelada La Vieja Fábrica Frutilla 350gr|275.0||||Almacén > Importados|190854-512-512|mermelada-la-vieja-fabrica-4
+00487|Arroz Thai Scotti 500gr|248.56||||Almacén > Importados|432036-512-512|arroz-scotti-x-500-gr-2
+01838|Fideos Spaghettoni Barilla 500gr|332.0||||Almacén > Importados|177339-512-512|fideos-barilla-largos
+03667|Fideos Bavette Barilla 500gr|332.0||||Almacén > Importados|192248-512-512|fideos-barilla-largos-4
+06052|Fideos Spaghetti Garofalo 500gr|316.0||||Almacén > Importados|188387-512-512|spaghettini-garofalo-largo-paquete-500-grs
+08867|Fideos Spaghetti Garofalo 500gr|316.0||||Almacén > Importados|422262-512-512|spaghetti-garofalo-largo-paquete-500-grs
 00676|Fideos Fetuccine Colavita 500gr|225.57||||Almacén > Importados|176759-512-512|fideos-colavita-largos-x-500-gr-2
-00677|Fideos Fusilli Barilla 500gr|366.0||||Almacén > Importados|177314-512-512|fideos-barilla-guiseros
-00678|Fideos Barilla De Semola Guiseros Tortiglioni Caja 500gr|366.0||||Almacén > Importados|422213-512-512|fideos-barilla-guiseros-4
+06025|Fideos Fusilli Barilla 500gr|366.0||||Almacén > Importados|177314-512-512|fideos-barilla-guiseros
+06021|Fideos Barilla De Semola Guiseros Tortiglioni Caja 500gr|366.0||||Almacén > Importados|422213-512-512|fideos-barilla-guiseros-4
 00679|Fideos Fusilli Garofalo Corto 500gr|348.14||||Almacén > Importados|188386-512-512|fusilli-garofalo-corto-paquete-500-grs
 00680|Fideos Penne Rigate Garofalo Corto 500gr|348.14||||Almacén > Importados|188380-512-512|penne-ziti-rigate-garofalo-corto
 00681|Fideos Rigatoni Romani 500gr|225.57||||Almacén > Importados|176755-512-512|fideos-colavita-guiseros-x-500-gr
@@ -908,7 +908,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00907|Cerveza Rubia Stella Artois 975ml Botella Retornable|160.68||||Bebidas > Cervezas|588370-512-512|cerveza-rubia-stella-artois-975-ml-botella-retornable
 00908|Cerveza Rubia Stella Artois 6 Pack 473ml Lata|551.67||||Bebidas > Cervezas|611945-512-512|cerveza-rubia-stella-artois-6-pack-473-ml-lata
 00909|Cerveza Rubia Brahma Chopp 6-pack 473ml Lata|374.92||||Bebidas > Cervezas|588330-512-512|cerveza-rubia-brahma-chopp-6-pack-473-ml-lata
-00910|Bebida Energizante Speed Unlimited 250ml - Pack 4|214.24||||Bebidas > Energizantes|182015-512-512|bebida-speed-unlimited-x-4-un
+00869|Bebida Energizante Speed Unlimited 250ml - Pack 4|214.24||||Bebidas > Energizantes|182015-512-512|bebida-speed-unlimited-x-4-un
 00911|Istotónica Gatorade Manzana 500ml|71.38||||Bebidas > Isotónicas|588366-512-512|istotonica-gatorade-manzana-500-ml
 00912|Isotónica Gatorade Cool Blue 1,1lt|123.72||||Bebidas > Isotónicas|588389-512-512|isotonica-gatorade-cool-blue-1-25-l
 00913|Istotónica Gatorade Lima Limón 500ml|68.61||||Bebidas > Isotónicas|588365-512-512|istotonica-gatorade-lima-limon-500-ml
@@ -926,7 +926,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00925|Istotónica Gatorade Cool Blue 750ml|89.99||||Bebidas > Isotónicas|588421-512-512|istotonica-gatorade-cool-blue-750-ml
 00926|Istotónica Gatorade Naranja 750ml|89.99||||Bebidas > Isotónicas|588420-512-512|istotonica-gatorade-naranja-750-ml
 00927|Bebida Isotónica Powerade Mountain Blast 995ml|67.48||||Bebidas > Isotónicas|580610-512-512|bebida-isotonica-powerade-mountain-blast-995-ml
-00928|Bebida Energizante Speed Unlimited 250ml - Pack 4|214.24||||Bebidas > Isotónicas|182015-512-512|bebida-speed-unlimited-x-4-un
+00869|Bebida Energizante Speed Unlimited 250ml - Pack 4|214.24||||Bebidas > Isotónicas|182015-512-512|bebida-speed-unlimited-x-4-un
 00929|Licor Bols Limoncello 700ml|280.07||||Bebidas > Licores|602947-512-512|licor-bols-limoncello-premium
 00930|Licor Bailey´s Botella 375cc|752.46||||Bebidas > Licores|179511-512-512|licor-bailey-s-x-375-cc
 00931|Licor Strega 700ml|1.569||||Bebidas > Licores|441888-512-512|licor-strega
@@ -1059,8 +1059,8 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 01058|Aceitunas Nucete Premium Descarozadas 180gr|216.42||||Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|515937-512-512|aceitunas-nucete-descarozadas-x-180-gr
 01059|Aceitunas Nucete Rellenas Con Morrón 180gr|103.97||||Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|204918-512-512|aceitunas-nucete-rellenas-5
 01060|Aceitunas Fragata Rellenas Con Alcaparras 85gr|149.35||||Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|184201-512-512|aceitunas-fragata-rellenas-3
-01061|Aceitunas Fragata Rellenas Con Ajo 85gr|149.35||||Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|184200-512-512|aceitunas-fragata-rellenas-2
-01062|Aceitunas Fragata Rellenas Con Anchoas 85gr|149.35||||Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|505048-512-512|aceitunas-fragata-rellenas
+02494|Aceitunas Fragata Rellenas Con Ajo 85gr|149.35||||Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|184200-512-512|aceitunas-fragata-rellenas-2
+01933|Aceitunas Fragata Rellenas Con Anchoas 85gr|149.35||||Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|505048-512-512|aceitunas-fragata-rellenas
 01063|Dilled Pickles 670gr|241.02||||Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|548097-512-512|dilled-pickles-670-grs
 01064|Aceitunas Castell Verdes En Rodajas 150gr|81.16||||Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|339840-512-512|aceitunas-castell-verdes-en-rodajas-x150g
 01065|Aceitunas Nucete Negras 200gr|158.07||||Quesos y Fiambres > Encurtidos, Aceitunas y Pickles|515911-512-512|aceitunas-negras-nucete-x200g
@@ -1694,15 +1694,15 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 02704|Aromatizante En Gel Glade Sensations Repuesto Floral Perfection|167.87||||Limpieza > Desodorantes de Ambiente > Aromatizantes|431123-512-512|aromatizante-en-gel-glade-sensations-repuesto-floral-perfection
 02705|Repuesto Aromatizante De Ambiente Poett Intense 9gr 2un|202.7||||Limpieza > Desodorantes de Ambiente > Aromatizantes|565779-512-512|aromatizante-de-ambiente-poett-intense-x-2u
 02706|Aromatizante Glade Auto Sport Aparato Completo 7ml Acqua|357.9||||Limpieza > Desodorantes de Ambiente > Aromatizantes|431176-512-512|aromatizante-glade-auto-sport-aparato-completo-7-ml-acqua
-02707|Desinfectante De Ambientes Lysoform En Aerosol Citrico - 360cc|124.58||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431270-512-512|desinfectante-de-ambientes-lysoform-en-aerosol-citrico-360-cc
-02708|Desinfectante De Ambientes Lysoform En Aerosol Lavanda - 360cc|124.58||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431215-512-512|desinfectante-de-ambientes-lysoform-en-aerosol-lavanda-360-cc
-02709|Desinfectante De Ambientes Lysoform En Aerosol Original - 360cc|124.58||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431018-512-512|desinfectante-de-ambientes-lysoform-en-aerosol-original-360-cc
-02710|Desinfectante De Ambientes Lysoform En Aerosol Aires De Montaña - 360cc|124.58||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431017-512-512|desinfectante-de-ambientes-lysoform-en-aerosol-aires-de-montana-360-cc
+03465|Desinfectante De Ambientes Lysoform En Aerosol Citrico - 360cc|124.58||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431270-512-512|desinfectante-de-ambientes-lysoform-en-aerosol-citrico-360-cc
+03472|Desinfectante De Ambientes Lysoform En Aerosol Lavanda - 360cc|124.58||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431215-512-512|desinfectante-de-ambientes-lysoform-en-aerosol-lavanda-360-cc
+03466|Desinfectante De Ambientes Lysoform En Aerosol Original - 360cc|124.58||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431018-512-512|desinfectante-de-ambientes-lysoform-en-aerosol-original-360-cc
+03467|Desinfectante De Ambientes Lysoform En Aerosol Aires De Montaña - 360cc|124.58||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|431017-512-512|desinfectante-de-ambientes-lysoform-en-aerosol-aires-de-montana-360-cc
 02711|Lysoform Aerosol Original 285ml|121.42||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|537633-512-512|lysoform-aerosol-original-285-ml
 02712|Ayudin Desinfectante Aerosol Original 332ml|144.29||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|603064-512-512|ayudin-desinfectante-aerosol-original-332ml
 02713|Ayudin Desinfectante Aerosol Matinal 332ml|144.29||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|603063-512-512|ayudin-desinfectante-aerosol-matinal-332ml
 02714|Aromatizante Glade Toque Repuesto 3un ( 27gr ) Mix De Fragancias|216.43||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|210230-512-512|aromatizante-glade-toque-repuesto-3-unidades-27-gr-mix-de-fragancias
-02715|Desinfectante De Ambientes Lysoform En Aerosol Frutal - 360cc|124.58||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|544609-512-512|desinfectante-de-ambientes-lysoform-en-aerosol-frutal-360-cc
+03475|Desinfectante De Ambientes Lysoform En Aerosol Frutal - 360cc|124.58||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|544609-512-512|desinfectante-de-ambientes-lysoform-en-aerosol-frutal-360-cc
 02716|Ayudin Desinfectante Aerosol Bebe 332ml|144.29||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|603065-512-512|ayudin-desinfectante-aerosol-bebe-332ml
 02717|Desodorante De Ambiente Poett Alegra Tu Día Aerosol 360ml|100.3||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|586133-512-512|desodorante-de-ambiente-poett-alegra-tu-dia-aerosol-360-ml
 02718|Desodorante De Ambientes Poett Música De Prima|107.69||||Limpieza > Desodorantes de Ambiente > Desodorantes y Desinfectantes|564563-512-512|desodorante-de-ambientes-poett-musica-de-prima
@@ -1756,7 +1756,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 02766|Repelente Para Mosquitos Off! Family Aerosol 300ml|300.89||||Limpieza > Insecticidas > Repelentes|431490-512-512|repelente-para-mosquitos-off-family-aerosol-300-ml
 02767|Repelente Para Mosquitos Off! Family Crema 200gr|131.97||||Limpieza > Insecticidas > Repelentes|431291-512-512|repelente-para-mosquitos-off-family-crema-200-gr
 02768|Repelente Para Mosquitos Off! Extra Duración Crema 90gr|182.65||||Limpieza > Insecticidas > Repelentes|431110-512-512|repelente-para-mosquitos-off-extra-duracion-crema-90-gr
-02769|Manteca La Serenisima 200gr|131.01||||Lácteos > Mantecas y Margarinas > Manteca|603727-512-512|manteca-la-serenisima-200-gr
+11223|Manteca La Serenisima 200gr|131.01||||Lácteos > Mantecas y Margarinas > Manteca|603727-512-512|manteca-la-serenisima-200-gr
 02770|Producto Untable Armonia 200gr|101.59||||Lácteos > Mantecas y Margarinas > Manteca|580287-512-512|producto-untable-armonia-200g
 02771|Manteca Tonadita C/vitamina 200gr|141.78||||Lácteos > Mantecas y Margarinas > Manteca|600691-512-512|manteca-tonadita-c-vitamina-200g
 02772|Manteca Light Untable La Serenisima 200gr|195.41||||Lácteos > Mantecas y Margarinas > Manteca|580223-512-512|manteca-light-untable-la-serenisima-200-gr
@@ -1843,7 +1843,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 02853|Limpiador Cif Crema Naranja Botella 500ml|96.4||||Limpieza > Limpieza de Cocina > Limpiadores|593101-512-512|limpiador-cif-crema-naranja-botella-500-ml
 02854|Repuesto Económico Cif Limpiador Líquido Antihongos 450ml|73.9||||Limpieza > Limpieza de Cocina > Limpiadores|605451-512-512|cif-limpiador-antihongos-repuesto-economico-450ml
 02855|Limpiador Cif Gel 2 En 1 Fresias Jazmin 500ml|123.53||||Limpieza > Limpieza de Cocina > Limpiadores|605805-512-512|limpiador-cif-gel-2-en-1-fresias-jazmin-500-ml
-02856|Toallitas Desinfectantes Ayudín Aroma Fresco 35un|231.21||||Limpieza > Limpieza de Cocina > Limpiadores|565843-512-512|toallitas-desinfectantes-ayudin-aroma-fresco-35-u
+07312|Toallitas Desinfectantes Ayudín Aroma Fresco 35un|231.21||||Limpieza > Limpieza de Cocina > Limpiadores|565843-512-512|toallitas-desinfectantes-ayudin-aroma-fresco-35-u
 02857|Limpiador Lysoform Cremoso Antibacterial Blanqueador - 450ml|109.8||||Limpieza > Limpieza de Cocina > Limpiadores|431346-512-512|limpiador-lysoform-cremoso-antibacterial-blanqueador-450-ml
 02858|Cremoso Cif Limpiador Original 250ml|62.29||||Limpieza > Limpieza de Cocina > Limpiadores|593095-512-512|cremoso-cif-limpiador-original-250-ml
 02859|Limpiador Vidrios y Multiuso Doy Pack Mr Musculo 450ml|50.3||||Limpieza > Limpieza de Cocina > Limpiadores|431126-512-512|limpiador-vidrios-y-multiuso-doy-pack-mr-musculo-450-ml
@@ -1883,7 +1883,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 02893|Limpiador Pisos Plastificados Con Aceite De Almendras Blem Botella 900ml|144.64||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|431307-512-512|limpiador-pisos-plastificados-con-aceite-de-almendras-blem-botella-900-ml
 02894|Limpiador Líquido Procenex Extra Fragancia Jazmín 1,8lt|155.2||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|570026-512-512|limpiador-liquido-procenex-extra-fragancia-12
 02895|Limpiador Líquido Procenex Extra Fragancia Limón 1,8lt|155.2||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|570024-512-512|limpiador-liquido-procenex-extra-fragancia-10
-02896|Limpiador Líquido Antibacterialbotella Lysoform 900ml|118.24||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|431133-512-512|limpiador-liquido-antibacterialbotella-lysoform-900-ml
+03476|Limpiador Líquido Antibacterialbotella Lysoform 900ml|118.24||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|431133-512-512|limpiador-liquido-antibacterialbotella-lysoform-900-ml
 02897|Limpiador De Pisos Poett Bebé 1800ml|120.36||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|573617-512-512|limpiador-de-pisos-poett-bebe-1800-ml
 02898|Limpiador De Pisos Poett Solo Para Ti 4lt|279.78||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|564501-512-512|limpiador-de-pisos-poett-solo-para-ti-4-l
 02899|Limpiador Líquido Procenex Vainilla 1,1lt|155.2||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|570037-512-512|limpiador-liquido-procenex-vainilla-1-8-lt
@@ -1894,17 +1894,17 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 02904|Limpiador De Pisos Poett Primavera 1800ml|120.36||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|565774-512-512|limpiador-de-pisos-poett-primavera-1800-ml
 02905|Limpiador Líquido Procenex Original 900ml|120.36||||Limpieza > Limpieza de Pisos y Muebles > Limpiadores de Pisos|612317-512-512|limpiador-liquido-procenex-original-900ml
 02906|Limpiador Para Calzado Cobra Blanco 60cc|248.11||||Limpieza > Calzado > Limpiadores|516225-512-512|limpiador-para-calzado-cobra
-02907|Lavandina Ayudin Máxima Pureza - 2lt|90.64||||Limpieza > Lavandina|565817-512-512|lavandina-ayudin-maxima-pureza-2-l
+03463|Lavandina Ayudin Máxima Pureza - 2lt|90.64||||Limpieza > Lavandina|565817-512-512|lavandina-ayudin-maxima-pureza-2-l
 02908|Lavandina En Gel Ayudín Original 700ml|96.08||||Limpieza > Lavandina|565777-512-512|lavandina-en-gel-ayudin-original-700-ml
-02909|Lavandina En Gel Ayudín Lavanda 700ml|103.46||||Limpieza > Lavandina|565815-512-512|lavandina-en-gel-ayudin-10
+04379|Lavandina En Gel Ayudín Lavanda 700ml|103.46||||Limpieza > Lavandina|565815-512-512|lavandina-en-gel-ayudin-10
 02910|Lavandina Ayudín Anti-splash 2lt|122.57||||Limpieza > Lavandina|586131-512-512|lavandina-ayudin-anti-splash-2-l
-02911|Lavandina Ayudín Multisuperficies 2lt|103.46||||Limpieza > Lavandina|564495-512-512|lavandina-ayudin-2
+03787|Lavandina Ayudín Multisuperficies 2lt|103.46||||Limpieza > Lavandina|564495-512-512|lavandina-ayudin-2
 02912|Lavandina En Gel Ayudín Pureza Cítrica 700ml|96.08||||Limpieza > Lavandina|565776-512-512|lavandina-en-gel-ayudin-pureza-citrica-700-ml
 02913|Lavandina Ayudín Anti-splash 1lt|67.98||||Limpieza > Lavandina|586137-512-512|lavandina-ayudin-anti-splash-1-l
 02914|Lavandina En Gel Ayudín Original 1500ml|220.66||||Limpieza > Lavandina|538646-512-512|lavandina-en-gel-ayudin-original-1500ml
 02915|Lavandina En Gel Vim Original 700ml|92.8||||Limpieza > Lavandina|605747-512-512|lavandina-en-gel-vim-original-700ml
-02916|Lavandina Original Ayudín Máxima Pureza 1lt|47.51||||Limpieza > Lavandina|564463-512-512|lavandina-original-ayudin-maxima-pureza-1-l
-02917|Lavandina Ayudín Multisuperficies Pureza De Glaciar 2lt|103.46||||Limpieza > Lavandina|565789-512-512|lavandina-ayudin-multisuperficies-3
+03471|Lavandina Original Ayudín Máxima Pureza 1lt|47.51||||Limpieza > Lavandina|564463-512-512|lavandina-original-ayudin-maxima-pureza-1-l
+03786|Lavandina Ayudín Multisuperficies Pureza De Glaciar 2lt|103.46||||Limpieza > Lavandina|565789-512-512|lavandina-ayudin-multisuperficies-3
 02918|Lavandina X-5 Clásica 2lt|110.86||||Limpieza > Lavandina|577591-512-512|lavandina-x-5-2
 02919|Lavandina En Gel Ayudín Control Floral 700ml|96.08||||Limpieza > Lavandina|565778-512-512|lavandina-en-gel-ayudin-7
 02920|Lavandina En Gel Ayudín Pureza Cítrica1500ml|220.66||||Limpieza > Lavandina|538647-512-512|lavandina-en-gel-ayudin-pureza-citrica1500ml

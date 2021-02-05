@@ -151,7 +151,7 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 00874|Fideos Lucchetti Tallarines 500gr|55.9||||Almacén > Pastas Secas|3001811-d2fcaf0831977afbc915990012830205-480-0.jpg|productos/fid-lucchetti-tallar-500-gr/
 00875|Fideos Lucchetti Moños 500gr|81.6||||Almacén > Pastas Secas|1221811-9e64dce88d9cdfb1ea15990014948421-480-0.jpg|productos/fid-lucchetti-monos-500-gr/
 00888|Gelatina Exquisita Frutilla Light 25gr|58.1||||Almacén > Postres y Repostería|75111-b3a82ddfae806ea7b115989990612130-480-0.jpg|productos/gelat-exquisita-frut-light-25-gr/
-00889|Leche Nestlé Condensada 395gr|146.8||||Almacén > Postres y Repostería|244231-54a748fdedbcc1f7da15990693513669-480-0.jpg|productos/leche-nestle-condensada-395-gr/
+00855|Leche Nestlé Condensada 395gr|146.8||||Almacén > Postres y Repostería|244231-54a748fdedbcc1f7da15990693513669-480-0.jpg|productos/leche-nestle-condensada-395-gr/
 00890|Bizcochuelo Exquisita Vainilla 540gr|130.1||||Almacén > Postres y Repostería|55411-bfd959ec6f9007ea9c15989995347366-480-0.jpg|productos/bizc-exquisita-vainilla-540-grs/
 00891|Extracto De Vainilla Alicante 100cc|103.9||||Almacén > Postres y Repostería|95271-5d381361220157ec1915988899654234-480-0.jpg|productos/ext-vai-alicante-100-cc/
 00892|Flan Royal Vainilla 60gr|36.1||||Almacén > Postres y Repostería|25051-36d47e1ff82cc30b2715988908990966-480-0.jpg|productos/flan-royal-vainilla-60-gr/
@@ -589,17 +589,17 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 01354|Nueces x 200gr|299.0||||Saludable & Fit > Frutos Secos|51-6a5ab638a3e356028a16019300960564-480-0.jpg|productos/nueces-x-200-gr/
 01355|Almendras x 200gr|299.0||||Saludable & Fit > Frutos Secos|11-8e6b946576eadb289a16019300143902-480-0.jpg|productos/almendras-x-200-gr/
 01404|Mermelada La Campagnola Bc Frutilla 390gr|179.0||||Saludable & Fit > Bajas Calorías|7793360812101_011-62a8a685b99a0ebc0e16014750945921-480-0.jpg|productos/mermelada-la-campagnola-bc-frutilla-390-gr/
-01405|Agua Ser Sin Gas - Bajo Sodio 1,5lt|51.9||||Saludable & Fit > Bajos en Sodio|d_nq_np_713550-mla42181488264_062020-o1-bd0495325cfdb9aad016019945936227-480-0.jpg|productos/agua-min-ser-bajo-sodio-1500-cc/
+00901|Agua Ser Sin Gas - Bajo Sodio 1,5lt|51.9||||Saludable & Fit > Bajos en Sodio|d_nq_np_713550-mla42181488264_062020-o1-bd0495325cfdb9aad016019945936227-480-0.jpg|productos/agua-min-ser-bajo-sodio-1500-cc/
 00599|Galletitas Grandiet Arroz Con Sal 100gr|74.8||||Saludable & Fit > Bajos en Sodio|239681-ed9f76953c4b74a98815988913510019-480-0.jpg|productos/gal-grandiet-arr-sal-100-gr/
-02073|Desinfectante Lysoform Original 360cc|162.4||||Limpieza > Limpieza en General|252451-6606867adc5be5255615989755747391-480-0.jpg|productos/desinf-lysoform-original-285-cc/
+02037|Desinfectante Lysoform Original 360cc|162.4||||Limpieza > Limpieza en General|252451-6606867adc5be5255615989755747391-480-0.jpg|productos/desinf-lysoform-original-285-cc/
 02074|Lavavajilla Esencial Colágeno 750cc|32.0||||Limpieza > Limpieza en General|39471-dd6af7f7cfca7b372e16001968486757-480-0.jpg|productos/lavavaj-esencial-colageno-750-cc/
 02075|Lavavajilla Esencial Limón 750cc|32.0||||Limpieza > Limpieza en General|39261-52be1598cd0c024a1215988900821534-480-0.jpg|productos/lavavaj-esencial-limon-750-cc/
 02076|Paño Task 50x55 Cm|78.0||||Limpieza > Limpieza en General|151601-3bf0c6aa578d334d4e15988850274121-480-0.jpg|productos/pano-task-50x55-cm/
 02077|Trapo De Piso Esencial Bco.consor. 60x70 Cm|100.0||||Limpieza > Limpieza en General|138731-e4e4fd6c3bd6c1186515988889979261-480-0.jpg|productos/tr-piso-esencial-bco-consor-60x70-cm/
-02078|Limpiador Cif Pisos Antibacterial 750ml|141.5||||Limpieza > Limpieza en General|209611-214abbe56f232f695115988902496909-480-0.jpg|productos/limp-cif-pis-antibac-750-ml/
-02079|Bolsa Asurin Residuos 3,3x60 10Un|74.1||||Limpieza > Limpieza en General|247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg|productos/bols-asurin-res-3-45x60-10-un/
-02080|Limpiador Cif Antigrasa 450ml|67.0||||Limpieza > Limpieza en General|145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg|productos/limp-cif-antig-d-p-450-ml/
-02081|Limpiador Cif Crema Limón 750gr|136.7||||Limpieza > Limpieza en General|8771-9e4d0c664c8a2eea2e15988900476119-480-0.jpg|productos/limp-cif-crem-limon-750-gr/
+02039|Limpiador Cif Pisos Antibacterial 750ml|141.5||||Limpieza > Limpieza en General|209611-214abbe56f232f695115988902496909-480-0.jpg|productos/limp-cif-pis-antibac-750-ml/
+02040|Bolsa Asurin Residuos 3,3x60 10Un|74.1||||Limpieza > Limpieza en General|247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg|productos/bols-asurin-res-3-45x60-10-un/
+02041|Limpiador Cif Antigrasa 450ml|67.0||||Limpieza > Limpieza en General|145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg|productos/limp-cif-antig-d-p-450-ml/
+02042|Limpiador Cif Crema Limón 750gr|136.7||||Limpieza > Limpieza en General|8771-9e4d0c664c8a2eea2e15988900476119-480-0.jpg|productos/limp-cif-crem-limon-750-gr/
 02082|Lavandina X-5 2lt|96.9||||Limpieza > Limpieza en General|135331-e3e9bbacbace19339d15988897149431-480-0.jpg|productos/lavand-x-5-2-lt/
 02083|Rejilla Media Naranja Doble Ref|45.4||||Limpieza > Limpieza en General|194751-7cef2b74611b50e8ed15988936344450-480-0.jpg|productos/rejilla-media-nja-doble-ref/
 02084|Limpiador Cif Baño 450ml|66.0||||Limpieza > Limpieza en General|145071-07103e1879f7e53abf15990673252278-480-0.jpg|productos/limp-cif-bano-d-p-450-ml/
@@ -615,22 +615,22 @@ id|nombre|precio|precio_1|precio_2|precio_3|rubro|url_imagen|url_producto
 02106|Rollo Esencial Aluminio 5 Mt|70.9||||Limpieza > Papel Higiénico, Rollos de Cocina y Servilletas|182041-6a3b379aca712d4b0515992493297795-480-0.jpg|productos/rollo-esencial-aluminio-5-mt/
 02107|Servilleta Esencial Blanca 40Un|29.8||||Limpieza > Papel Higiénico, Rollos de Cocina y Servilletas|138151-fd2c69d22de20d47ba15989011832475-480-0.jpg|productos/servill-esencial-blanca-40-un/
 02108|Papel Higiénico Esencial Blanco 6x30 Mt|100.0||||Limpieza > Papel Higiénico, Rollos de Cocina y Servilletas|136681-fe24a4dad5ececd83f15988868822849-480-0.jpg|productos/pap-hig-esencial-bco-6x30-mt/
-01417|Leche La Serenísima Uat Parc. Descremada Zero Lactosa Pet 1lt|88.0||||Saludable & Fit > Deslactosados|leche-deslactosada-la-serenisima1-494dd151e419dca6a716001943543601-480-0.jpeg|productos/leche-la-serenisima-uat-parc-descremada-zero-lactosa-pet-1-l/
-01418|Leche Nido Deslactosada 800gr|663.0||||Saludable & Fit > Deslactosados|242501-9c1d662aa6a1ef013115990894063344-480-0.jpg|productos/lec-pvo-nido-deslacto-800-gr/
+00857|Leche La Serenísima Uat Parc. Descremada Zero Lactosa Pet 1lt|88.0||||Saludable & Fit > Deslactosados|leche-deslactosada-la-serenisima1-494dd151e419dca6a716001943543601-480-0.jpeg|productos/leche-la-serenisima-uat-parc-descremada-zero-lactosa-pet-1-l/
+00863|Leche Nido Deslactosada 800gr|663.0||||Saludable & Fit > Deslactosados|242501-9c1d662aa6a1ef013115990894063344-480-0.jpg|productos/lec-pvo-nido-deslacto-800-gr/
 01419|Alimento De Animales Dogui Carn.veg 1,5gr|201.4||||Mascotas|3911-9ca9d4bfc8072299e415988180083868-480-0.jpg|productos/al-anim-dogui-carn-veg-1-5-gr/
 01420|Alimento De Animales Whiskas Pescado 500gr|133.7||||Mascotas|155811-14d213661d6efedf6915989750665717-480-0.jpg|productos/al-anim-whiskas-pescado-500-gr/
 01421|Alimento De Animales Dogui Cachorro 1,5kg|201.4||||Mascotas|3381-4b81aa09338bd5faa415988179619012-480-0.jpg|productos/al-anim-dogui-cachorro-1-5-kg/
-01406|Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana Pet 1lt|75.0||||Saludable & Fit > Libres de Glúten|botella-larga-vida1-be092cc5467eb617e115997437553116-480-0.jpg|productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-pet-1-l/
-01407|Jugo Minerva Limón 500cc|191.9||||Saludable & Fit > Libres de Glúten|113111-6f045e8b2c177790cd15990030622137-480-0.jpg|productos/jug-minerva-limon-500-cc/
+00852|Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana Pet 1lt|75.0||||Saludable & Fit > Libres de Glúten|botella-larga-vida1-be092cc5467eb617e115997437553116-480-0.jpg|productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-pet-1-l/
+01123|Jugo Minerva Limón 500cc|191.9||||Saludable & Fit > Libres de Glúten|113111-6f045e8b2c177790cd15990030622137-480-0.jpg|productos/jug-minerva-limon-500-cc/
 01408|Ají Triturado Alicante 25gr|33.27||||Saludable & Fit > Libres de Glúten|condimento-alicante-aji-triturado-25-gr-1-223431-1c75b2581879505d8116020017585992-480-0.jpg|productos/aji-triturado-alicante-25-gr/
-01349|Mermelada La Campagnola Bc Frutilla 390gr|179.0||||Saludable & Fit > Libres de Glúten|7793360812101_011-62a8a685b99a0ebc0e16014750945921-480-0.jpg|productos/mermelada-la-campagnola-bc-frutilla-390-gr/
-01350|Jugo De Limón Minerva 250cc|75.6||||Saludable & Fit > Libres de Glúten|7479281-809ef9693a95f4f0a416014858768712-480-0.jpg|productos/jugo-de-limon-minerva-250-cc/
+01404|Mermelada La Campagnola Bc Frutilla 390gr|179.0||||Saludable & Fit > Libres de Glúten|7793360812101_011-62a8a685b99a0ebc0e16014750945921-480-0.jpg|productos/mermelada-la-campagnola-bc-frutilla-390-gr/
+00316|Jugo De Limón Minerva 250cc|75.6||||Saludable & Fit > Libres de Glúten|7479281-809ef9693a95f4f0a416014858768712-480-0.jpg|productos/jugo-de-limon-minerva-250-cc/
 01351|Café Dolce Gusto Au Lait 160gr|542.0||||Saludable & Fit > Libres de Glúten|254781-946c38475780a1991c16001833444073-480-0.jpg|productos/cafe-dolce-gusto-au-lait-160-gr/
 01352|Café Dolce Gusto Latte Macciato 100,100gr|542.0||||Saludable & Fit > Libres de Glúten|254771-b21939648a59ce464316001833018653-480-0.jpg|productos/cafe-dolce-gusto-latte-macciato-110-gr/
 01353|Café Dolce Gusto Lungo 112gr|542.0||||Saludable & Fit > Libres de Glúten|254761-a5dd7dd686eb428efe16001832179518-480-0.jpg|productos/cafe-dolce-gusto-lungo-112-gr/
 01354|Café Dolce Gusto Espresso 96gr|542.0||||Saludable & Fit > Libres de Glúten|221361-274e852debe3c4546816001831478827-480-0.jpg|productos/cafe-dolce-gusto-espresso-96-gr/
 01355|Café Dolce Gusto Cappuccino 188gr|542.0||||Saludable & Fit > Libres de Glúten|221321-b45397230e2afaf84b16001830983243-480-0.jpg|productos/cafe-dolce-gusto-cappuccino-188-gr/
-01356|Leche La Serenisima Larga Vida Clásica Botella 1lt|75.0||||Saludable & Fit > Libres de Glúten|botella-clasica-serenisima1-5058c0d0463a798f8015997444856491-480-0.jpg|productos/leche-entera-clasica-la-serenisima-botella-larga-vida-1l/
+00859|Leche La Serenisima Larga Vida Clásica Botella 1lt|75.0||||Saludable & Fit > Libres de Glúten|botella-clasica-serenisima1-5058c0d0463a798f8015997444856491-480-0.jpg|productos/leche-entera-clasica-la-serenisima-botella-larga-vida-1l/
 02025|Pila Duracell Aaa x 1 Ud|72.7||||Limpieza > Fósforos, Lamparas y Pilas|pila-duracell-aaa-x-1-ud1-068be36391931d8aaa16052235002761-480-0.jpg|productos/pila-duracell-aaa-x-1-ud/
 02026|Pilas Eveready Aa x 4Un|175.0||||Limpieza > Fósforos, Lamparas y Pilas|diseno-sin-titulo-11-4e71d348cb9853ae6016052149698123-480-0.jpg|productos/pilas-eveready-aa-x-4-un/
 01967|Salsa Golf Danica 209gr|48.5||||Almacén > Aderezos|diseno-sin-titulo-471-333f0c8f8c51b1132216053672381911-480-0.jpg|productos/salsa-golf-danica-209-gr/

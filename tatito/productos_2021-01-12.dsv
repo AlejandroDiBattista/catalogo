@@ -84,7 +84,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00642||Lentejas Arcor 320gr|76.35|3,66.30|||$76,35|Almacén > Enlatados|2020/01/LENTEJAS-ARCOR-320G.jpg|lentejas-arcor-320g/
 00643||Poroto Inalpa 350gr|47.0|3,40.90|||$47,00|Almacén > Enlatados|2020/01/POROTO-INALPA-350GR.jpg|poroto-inalpa-350gr-s-iva/
 00085||Arvejas Arcor Secas 300gr|55.3|3,48.27|||$55,30|Almacén > Enlatados|2020/01/ARVEJAS-ARCOR-SECAS-300-GR.jpg|arvejas-arcor-secas-300-gr/
-00644||Tomate Perita Arcor 400gr|78.49|3,67.31|||$78,49|Almacén > Enlatados|2020/01/TOM-PERITA-ARCOR-3-400GR.jpg|tom-perita-arcor-3-400gr/
+00232||Tomate Perita Arcor 400gr|78.49|3,67.31|||$78,49|Almacén > Enlatados|2020/01/TOM-PERITA-ARCOR-3-400GR.jpg|tom-perita-arcor-3-400gr/
 00297||Caballa Marbella Al Ac/nat 425gr|215.0|3,179.40|||$215,00|Almacén > Enlatados|2020/01/CABALLA-MARBELLA-AL-AC-Y-NAT-425GR.jpg|caballa-marbella-al-ac-nat-425gr/
 00088||Arvejas Inalpa 350gr|32.5|3,28.12|||$32,50|Almacén > Enlatados|2020/01/ARVEJAS-INALPA-350GR.jpg|arvejas-inalpa-350gr/
 00645||Picadillo Changuito Carne 90gr|30.0|3,24.89|||$30,00|Almacén > Enlatados|2020/01/PICADILLO-CHANGUITO.jpg|picadillo-changuito/
@@ -132,13 +132,13 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00131||Cafe Villa Rica 125gr|62.0|3,51.83|||$62,00|Almacén > Café|2020/01/default.jpg|cafe-villa-rica-125gr/
 00132||Cafe La Virginia En Sobres ( 5gr .)|163.0|3,141.08|||$163,00|Almacén > Café|2020/01/CAFE-LA-VIRG-5GR-SOBRE.jpg|cafe-la-virg-5gr-sobre/
 00315||Cafe La Morenita Saq 20* 5gr|161.0|3,139.35|||$161,00|Almacén > Café|2020/01/CAFE-LA-MORENITA-SAQ-20-5GR.jpg|cafe-la-morenita-saq-205gr/
-00657||Pan Dulce Buon Natale Con Frutas 400gr|115.0|3,97.50|||$115,00|Almacén > Otros|2020/12/pan-dulce-buon-natale-400.jpg|pan-dulce-buon-natale-con-frutas-400-gr/
+00617||Pan Dulce Buon Natale Con Frutas 400gr|115.0|3,97.50|||$115,00|Almacén > Otros|2020/12/pan-dulce-buon-natale-400.jpg|pan-dulce-buon-natale-con-frutas-400-gr/
 00658||Te Negro Green Hills Classic x 25 Uds|63.0|3,54.51|||$63,00|Almacén > Otros|2020/11/te-green-hills-25.jpg|te-negro-green-hills-classic-x-25-uds/
 00646||Leche En Polvo Zero Lactosa La Serenisima 400gr|321.0|3,291.82|||$321,00|Almacén > Otros|2020/10/leche-en-polvo-zerolactosa-ls-400.jpg|leche-en-polvo-zero-lactosa-la-serenisima-400-gr/
 00659||Grasa Vacuna Recreo x 1kg|150.0|3,130.01|||$150,00|Almacén > Otros|2020/10/grasa-recreo-1kg.jpg|grasa-vacuna-recreo-x-1-kg/
 00661||Leche En Polvo Entera Lheritier 350gr|205.0|3,176.01|||$205,00|Almacén > Otros|2020/06/leche-en-polvo-entera-lheritier-800.jpg|leche-en-polvo-entera-lheritier-350-gr/
-00304||Galletas De Arroz All Rice Naranja x 100gr|71.0|3,61.75|||$71,00|Almacén > Otros|2020/05/galletas-all-rice-naranja.jpg|galletas-all-rice-naranja-x-100-grs/
-00305||Galletas De Arroz All Rice Dulces x 100gr|71.0|3,61.75|||$71,00|Almacén > Otros|2020/05/galletas-all-rice-dulce.jpg|galletas-all-rice-dulces-x-100-grs/
+00260||Galletas De Arroz All Rice Naranja x 100gr|71.0|3,61.75|||$71,00|Almacén > Otros|2020/05/galletas-all-rice-naranja.jpg|galletas-all-rice-naranja-x-100-grs/
+00261||Galletas De Arroz All Rice Dulces x 100gr|71.0|3,61.75|||$71,00|Almacén > Otros|2020/05/galletas-all-rice-dulce.jpg|galletas-all-rice-dulces-x-100-grs/
 00141||Leche En Polvo Descremada Lheritier 350gr|199.01|3,171.63|||$199,01|Almacén > Otros|2020/05/leche-en-polvo-lheritier-800.jpg|leche-en-polvo-descremada-lheritier-350-gr/
 00142||Grasa Vacuna Kamote x 500gr|50.0|3,40.00|||$50,00|Almacén > Otros|2020/05/grasa-kamote-500g.jpg|grasa-vacuna-kamote-x-500-gr/
 00143||Dulce De Batata Riojanita Cajon 5kg Vainilla|439.0|3,428.99|||$439,00|Almacén > Otros|2020/01/DULCE-BAT-RIOJANITA-CAJON-5K-VA.jpg|dulce-bat-riojanita-cajon-5k-vai/
@@ -151,8 +151,8 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00671||Dr. Lemon Con Vodka Pomelo 1lt|149.0|3,133.04|||$149,00|Bebidas > Isotonicos y energizantes|2020/12/drlemon-vodka-pomelo1l.jpg|dr-lemon-con-vodka-pomelo-1-lt/
 00672||Dr. Lemon Con Vodka Lata 473 Cm|65.0|3,59.00|||$65,00|Bebidas > Isotonicos y energizantes|2020/10/dr-lemon-vodka-473cc.jpg|dr-lemon-lata-473-cm/
 00152||Energy Speed 250cc|60.0|3,50.98|||$60,00|Bebidas > Isotonicos y energizantes|2020/01/ENERG-SPEED-250CC.jpg|energ-speed-250cc/
-00677||Dr. Lemon Con Vodka Pomelo 1lt|149.0|3,133.04|||$149,00|Bebidas > Vodkas|2020/12/drlemon-vodka-pomelo1l.jpg|dr-lemon-con-vodka-pomelo-1-lt/
-00678||Dr. Lemon Con Vodka Lata 473 Cm|65.0|3,59.00|||$65,00|Bebidas > Vodkas|2020/10/dr-lemon-vodka-473cc.jpg|dr-lemon-lata-473-cm/
+00671||Dr. Lemon Con Vodka Pomelo 1lt|149.0|3,133.04|||$149,00|Bebidas > Vodkas|2020/12/drlemon-vodka-pomelo1l.jpg|dr-lemon-con-vodka-pomelo-1-lt/
+00672||Dr. Lemon Con Vodka Lata 473 Cm|65.0|3,59.00|||$65,00|Bebidas > Vodkas|2020/10/dr-lemon-vodka-473cc.jpg|dr-lemon-lata-473-cm/
 00155||Vodka Sky 750ml|400.0|3,332.00|||$400,00|Bebidas > Vodkas|2020/01/AGUA-PALAU-X-1.5LTS.jpg|vodka-sky-750-ml/
 00156||Yerba Cachamate Con Hierbas 500gr . (amarilla)|143.0|3,121.94|||$143,00|Almacén > Mate|2020/05/yerba-cachamate-hierbas-amarilla-500.jpg|yerba-cachamate-con-hierbas-500-grs-amarilla/
 00686||Mate Cocido Amanda x 25 Uds|58.5|3,50.67|||$58,50|Almacén > Mate|2020/01/YERBA-SAQ-AMANDA-25UN.jpg|yerba-saq-amanda-25un/
@@ -174,8 +174,8 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00173||Mate Cocido Broche De Oro x 25 Uds|59.0|3,50.37|||$59,00|Almacén > Mate|2020/01/YERBA-SAQ-BROCHE-O-X-25.jpg|yerba-saq-broche-o-x-25-s-iva/
 00174||Yerba Cbse 500gr|143.0|3,123.24|||$143,00|Almacén > Mate|2020/01/YERBA-CBSE-500GR.jpg|yerba-cbse-500gr/
 00175||Yerba Cachamate Con Hierbas 500gr . (rosa)|143.0|3,121.94|||$143,00|Almacén > Mate|2019/11/yerba-cachamate-hierbas-500.jpg|yerba-cachamate-todas-500gr/
-00683||Dr. Lemon Con Vodka Pomelo 1lt|149.0|3,133.04|||$149,00|Bebidas > Aperitivos|2020/12/drlemon-vodka-pomelo1l.jpg|dr-lemon-con-vodka-pomelo-1-lt/
-00684||Dr. Lemon Con Vodka Lata 473 Cm|65.0|3,59.00|||$65,00|Bebidas > Aperitivos|2020/10/dr-lemon-vodka-473cc.jpg|dr-lemon-lata-473-cm/
+00671||Dr. Lemon Con Vodka Pomelo 1lt|149.0|3,133.04|||$149,00|Bebidas > Aperitivos|2020/12/drlemon-vodka-pomelo1l.jpg|dr-lemon-con-vodka-pomelo-1-lt/
+00672||Dr. Lemon Con Vodka Lata 473 Cm|65.0|3,59.00|||$65,00|Bebidas > Aperitivos|2020/10/dr-lemon-vodka-473cc.jpg|dr-lemon-lata-473-cm/
 00685||Gancia Americano x 950ml|270.0|3,224.99|||$270,00|Bebidas > Aperitivos|2019/11/GANCIA-AMAERICANO-X-950ML.jpg|gancia-amaericano-x-950ml/
 00714||Aceite Oleo Mix 900ml|120.0|3,109.70|||$120,00|Almacén > Aceites|2020/10/aceite-oleomix-900.jpg|aceite-oleo-mix-900-ml/
 00715||Aceite De Chia Vita 250ml|199.0|3,183.34|||$199,00|Almacén > Aceites|2020/10/aceite-chia-vita-250.jpg|aceite-de-chia-vita-250-ml/
@@ -210,7 +210,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00209||Jugo Baggio Multifruta 125cc|17.9|3,15.51|||$17,90|Bebidas > Jugos|2019/11/jugo-baggio-multifruta-125-cc.jpg|jugo-baggio-x-125/
 00210||Jugo Dodi 25gr Rinde 2lt|12.0|3,9.65|||$12,00|Bebidas > Jugos|2020/01/JUGO-DODI-25G-RINDE-2LT.jpg|jugo-dodi-25g-rinde-2lt/
 00776||Edulcorante El Pocillo 180ml|68.5|3,58.00|||$68,50|Desayuno > Edulcorantes|2020/10/edulc-el-pocillo-180.jpg|edulcorante-el-pocillo-180-ml/
-00777||Azucar Light Lheritier 350gr|72.0|3,61.11|||$72,00|Desayuno > Edulcorantes|2020/10/azucar-light-lheritier.jpg|azucar-light-lheritier-350-gr/
+00599||Azucar Light Lheritier 350gr|72.0|3,61.11|||$72,00|Desayuno > Edulcorantes|2020/10/azucar-light-lheritier.jpg|azucar-light-lheritier-350-gr/
 00778||Azucar Hileret Light x 500gr paq|77.0|3,66.50|||$77,00|Desayuno > Edulcorantes|2020/01/AZUCAR-HILERET-LIGHT-X-500G-PAQ.jpg|azucar-hileret-lig-x-500g-paq/
 00214||Edulcorante Si Diet 200cc|79.8|3,69.13|||$79,80|Desayuno > Edulcorantes|2020/01/EDULC-SI-DIET-200CC.jpg|edulc-si-diet-200cc/
 00779||Edulcorante Barny 500ml|130.0|3,111.07|||$130,00|Desayuno > Edulcorantes|2019/11/EDULCORANTE-BARNY-500-1.jpg|edulc-barny-500ml/
@@ -260,21 +260,21 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00798||Queso Azul El Emperador x 100gr . (roquefort)|66.0|10,55.00|||$66,00|Fiambreria > Roquefort|2019/11/queso-azul-el-emperador.jpg|roquefort-her-bal/
 00803||Salchichon Primavera Goggi x 100gr|20.0||||$20,00|Fiambreria > Salchichon|2020/12/salchichon-primav-goggi.jpg|salchichon-primavera-goggi-x-100-grs/
 00802||Sardo Debaldo x 100gr|56.0|10,45.05|||$56,00|Fiambreria > Sardo|2020/01/SARDO-DEBALDO.jpg|sardo-debaldo/
-00640||Budin Arcor Vainilla 215gr|135.0|3,117.59|||$135,00|Almacén > Varios|2020/12/Budin-arcor-vainilla-215.jpg|budin-arcor-vainilla-215-gr/
-00786||Pan Dulce Buon Natale Con Frutas 400gr|115.0|3,97.50|||$115,00|Almacén > Varios|2020/12/pan-dulce-buon-natale-400.jpg|pan-dulce-buon-natale-con-frutas-400-gr/
-00787||Budin Marmolado Bimbo 200gr|130.0|3,113.46|||$130,00|Almacén > Varios|2020/11/budin-bimbo-marmolado-200g.jpg|budin-marmolado-bimbo-200-gr/
-00788||Budin Con Frutas Bimbo 200gr|130.0|3,113.46|||$130,00|Almacén > Varios|2020/11/budin-bimbo-frutas-200g.jpg|budin-con-frutas-bimbo-200-gr/
-00789||Galletas Coquitas Bagley 170gr|69.5|3,62.15|||$69,50|Almacén > Varios|2020/10/galletas-coquitas-170.jpg|galletas-coquitas-bagley-170-gr/
-00790||Capelettini Tridicci Giacomo 500gr|209.0|3,180.97|||$209,00|Almacén > Varios|2020/10/capelettini-giacomo-tridicci-500.jpg|capelettini-tridicci-giacomo-500-g/
-00777||Capelettini Jamon y Queso Giacomo 500gr|209.0|3,180.97|||$209,00|Almacén > Varios|2020/10/capelettini-giacomo-jyq-500.jpg|capelettini-jamon-y-queso-giacomo-500-g/
-00778||Leche En Polvo Zero Lactosa La Serenisima 400gr|321.0|3,291.82|||$321,00|Almacén > Varios|2020/10/leche-en-polvo-zerolactosa-ls-400.jpg|leche-en-polvo-zero-lactosa-la-serenisima-400-gr/
-00779||Budin Dale Vainilla Tia Maruca x 170gr|37.5|3,32.50|||$37,50|Almacén > Varios|2020/10/budin-dale-vainilla-170.jpg|budin-dale-vainilla-tia-maruca-x-170-grs/
-00793||Leche En Polvo Entera Lheritier 350gr|205.0|3,176.01|||$205,00|Almacén > Varios|2020/06/leche-en-polvo-entera-lheritier-800.jpg|leche-en-polvo-entera-lheritier-350-gr/
-00530||Galletas De Arroz All Rice Dulces x 100gr|71.0|3,61.75|||$71,00|Almacén > Varios|2020/05/galletas-all-rice-dulce.jpg|galletas-all-rice-dulces-x-100-grs/
-00529||Galletas De Arroz All Rice Naranja x 100gr|71.0|3,61.75|||$71,00|Almacén > Varios|2020/05/galletas-all-rice-naranja.jpg|galletas-all-rice-naranja-x-100-grs/
-00274||Leche En Polvo Descremada Lheritier 350gr|199.01|3,171.63|||$199,01|Almacén > Varios|2020/05/leche-en-polvo-lheritier-800.jpg|leche-en-polvo-descremada-lheritier-350-gr/
+00515||Budin Arcor Vainilla 215gr|135.0|3,117.59|||$135,00|Almacén > Varios|2020/12/Budin-arcor-vainilla-215.jpg|budin-arcor-vainilla-215-gr/
+00617||Pan Dulce Buon Natale Con Frutas 400gr|115.0|3,97.50|||$115,00|Almacén > Varios|2020/12/pan-dulce-buon-natale-400.jpg|pan-dulce-buon-natale-con-frutas-400-gr/
+00618||Budin Marmolado Bimbo 200gr|130.0|3,113.46|||$130,00|Almacén > Varios|2020/11/budin-bimbo-marmolado-200g.jpg|budin-marmolado-bimbo-200-gr/
+00619||Budin Con Frutas Bimbo 200gr|130.0|3,113.46|||$130,00|Almacén > Varios|2020/11/budin-bimbo-frutas-200g.jpg|budin-con-frutas-bimbo-200-gr/
+00620||Galletas Coquitas Bagley 170gr|69.5|3,62.15|||$69,50|Almacén > Varios|2020/10/galletas-coquitas-170.jpg|galletas-coquitas-bagley-170-gr/
+00649||Capelettini Tridicci Giacomo 500gr|209.0|3,180.97|||$209,00|Almacén > Varios|2020/10/capelettini-giacomo-tridicci-500.jpg|capelettini-tridicci-giacomo-500-g/
+00558||Capelettini Jamon y Queso Giacomo 500gr|209.0|3,180.97|||$209,00|Almacén > Varios|2020/10/capelettini-giacomo-jyq-500.jpg|capelettini-jamon-y-queso-giacomo-500-g/
+00646||Leche En Polvo Zero Lactosa La Serenisima 400gr|321.0|3,291.82|||$321,00|Almacén > Varios|2020/10/leche-en-polvo-zerolactosa-ls-400.jpg|leche-en-polvo-zero-lactosa-la-serenisima-400-gr/
+00518||Budin Dale Vainilla Tia Maruca x 170gr|37.5|3,32.50|||$37,50|Almacén > Varios|2020/10/budin-dale-vainilla-170.jpg|budin-dale-vainilla-tia-maruca-x-170-grs/
+00661||Leche En Polvo Entera Lheritier 350gr|205.0|3,176.01|||$205,00|Almacén > Varios|2020/06/leche-en-polvo-entera-lheritier-800.jpg|leche-en-polvo-entera-lheritier-350-gr/
+00261||Galletas De Arroz All Rice Dulces x 100gr|71.0|3,61.75|||$71,00|Almacén > Varios|2020/05/galletas-all-rice-dulce.jpg|galletas-all-rice-dulces-x-100-grs/
+00260||Galletas De Arroz All Rice Naranja x 100gr|71.0|3,61.75|||$71,00|Almacén > Varios|2020/05/galletas-all-rice-naranja.jpg|galletas-all-rice-naranja-x-100-grs/
+00141||Leche En Polvo Descremada Lheritier 350gr|199.01|3,171.63|||$199,01|Almacén > Varios|2020/05/leche-en-polvo-lheritier-800.jpg|leche-en-polvo-descremada-lheritier-350-gr/
 00794||Fecula Glutal x 500gr|100.0|3,85.00|||$100,00|Almacén > Varios|2019/11/glutal-500.jpg|fecula-glutal-x-500gr/
-00783||Chimichurri Vanoli Clasico 190gr|72.0|3,61.96|||$72,00|Almacén > Varios|2020/01/CHIMICHURRI-VANOLI-CLA-y-AHU-190.jpg|chimichurri-vanoli-cla-ahu-190/
+00630||Chimichurri Vanoli Clasico 190gr|72.0|3,61.96|||$72,00|Almacén > Varios|2020/01/CHIMICHURRI-VANOLI-CLA-y-AHU-190.jpg|chimichurri-vanoli-cla-ahu-190/
 00277||Fecula Glutal 5kg|342.0|3,315.80|||$342,00|Almacén > Varios|2020/01/FECULA-GLUTAL-5KG.jpg|fecula-glutal-5kg/
 00795||Grasa Faty 500gr|85.0|3,73.00|||$85,00|Almacén > Varios|2020/01/GRASA-FATY-500GR.jpg|grasa-faty-500gr/
 00796||Lasagna Matarazzo 250gr|105.0|3,87.59|||$105,00|Almacén > Varios|2020/01/LASAGNA-MATARAZZO-250GRS.jpg|lasagna-matarazzo-250grs/
@@ -392,21 +392,21 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 00840||Papel Higienico Campanita Clasic 4 x 50m|78.0|3,66.89|||$78,00|Limpieza > Papel Higiénico|2019/11/papel-hig-camp-celes-4-50.jpg|hig-camp-clasic-x4-x-50m-celes/
 00849||Velas Malambo x 4Un|24.0|3,20.28|||$24,00|Limpieza > Velas|2019/11/velas-malambo-x4-80gr.jpg|velas-amanecer-4un/
 00836||Leche En Polvo Entera Ilolay 400gr|290.0|3,267.87|||$290,00|Lacteos > Leche en Polvo|2020/11/leche-polvo-entera-ilolay-400.jpg|leche-en-polvo-entera-ilolay-400-gr/
-00837||Leche En Polvo Zero Lactosa La Serenisima 400gr|321.0|3,291.82|||$321,00|Lacteos > Leche en Polvo|2020/10/leche-en-polvo-zerolactosa-ls-400.jpg|leche-en-polvo-zero-lactosa-la-serenisima-400-gr/
+00646||Leche En Polvo Zero Lactosa La Serenisima 400gr|321.0|3,291.82|||$321,00|Lacteos > Leche en Polvo|2020/10/leche-en-polvo-zerolactosa-ls-400.jpg|leche-en-polvo-zero-lactosa-la-serenisima-400-gr/
 00596||Leche Descremada En Polvo Purisima x 800gr|434.24|3,376.75|||$434,24|Lacteos > Leche en Polvo|2020/07/leche-en-polvo-purisima-descremada-800.jpg|leche-descremada-en-polvo-purisima-x-800-grs/
-00846||Leche En Polvo Entera Lheritier 350gr|205.0|3,176.01|||$205,00|Lacteos > Leche en Polvo|2020/06/leche-en-polvo-entera-lheritier-800.jpg|leche-en-polvo-entera-lheritier-350-gr/
+00661||Leche En Polvo Entera Lheritier 350gr|205.0|3,176.01|||$205,00|Lacteos > Leche en Polvo|2020/06/leche-en-polvo-entera-lheritier-800.jpg|leche-en-polvo-entera-lheritier-350-gr/
 00847||Leche Entera En Polvo Purisima x 800gr|434.24|3,376.75|||$434,24|Lacteos > Leche en Polvo|2020/05/leche-en-polvo-purisima-800.jpg|leche-entera-en-polvo-purisima-x-800-grs/
-00398||Leche En Polvo Descremada Lheritier 350gr|199.01|3,171.63|||$199,01|Lacteos > Leche en Polvo|2020/05/leche-en-polvo-lheritier-800.jpg|leche-en-polvo-descremada-lheritier-350-gr/
+00141||Leche En Polvo Descremada Lheritier 350gr|199.01|3,171.63|||$199,01|Lacteos > Leche en Polvo|2020/05/leche-en-polvo-lheritier-800.jpg|leche-en-polvo-descremada-lheritier-350-gr/
 00399||Leche Nido Fort Tapa Amarilla 800gr|430.0|3,390.70|||$430,00|Lacteos > Leche en Polvo|2020/01/LECHE-NIDO-CON-PROT-T-AMARILLA-800GR.jpg|leche-nido-fort-t-ama-800gr/
 00848||Leche Nido C/prot T.roja 800gr|485.0|3,438.00|||$485,00|Lacteos > Leche en Polvo|2020/01/LECHE-NIDO-CON-PROT-T.ROJA-800GR.jpg|leche-nido-c-prot-t-roja-800gr/
 00854||Queso Untable Jamon Manfrey 180gr|113.0|3,101.29|||$113,00|Lacteos > Quesos|2020/10/queso-unt-manfrey-jamon-180.jpg|queso-untable-jamon-manfrey-180-gr/
 00855||Queso Azul Manfrey 180gr|113.0|3,101.29|||$113,00|Lacteos > Quesos|2020/10/queso-unt-manfrey-azul-180.jpg|queso-azul-manfrey-180-gr/
-00403||Queso Crema Light La Paulina x 290gr|105.1|3,96.09|||$105,10|Lacteos > Quesos|2020/05/queso-crema-light-la-paulina-290.jpg|queso-crema-light-la-paulina-x-290-grs/
-00856||Queso Finlandia Light 200gr|120.0|3,107.46|||$120,00|Lacteos > Quesos|2020/04/QUESO-FINLANDIA-LIGHT-1.jpg|queso-finlandia-light-x-200g/
+00361||Queso Crema Light La Paulina x 290gr|105.1|3,96.09|||$105,10|Lacteos > Quesos|2020/05/queso-crema-light-la-paulina-290.jpg|queso-crema-light-la-paulina-x-290-grs/
+00834||Queso Finlandia Light 200gr|120.0|3,107.46|||$120,00|Lacteos > Quesos|2020/04/QUESO-FINLANDIA-LIGHT-1.jpg|queso-finlandia-light-x-200g/
 00857||Queso Untable Manfrey Gruyere 180gr|113.0|3,101.29|||$113,00|Lacteos > Quesos|2020/01/QUESO-UNT-MANFREY.jpg|queso-unt-manfrey/
-00858||Queso Finlandia Clasico 200gr|120.0|3,107.46|||$120,00|Lacteos > Quesos|2019/11/QUESO-FINLANDIA-CLASICO-1.jpg|queso-unt-ls-todos-x-200g/
+00835||Queso Finlandia Clasico 200gr|120.0|3,107.46|||$120,00|Lacteos > Quesos|2019/11/QUESO-FINLANDIA-CLASICO-1.jpg|queso-unt-ls-todos-x-200g/
 00407||Queso Rallado Chef x 40gr|25.0|3,20.80|||$25,00|Lacteos > Quesos|2020/01/default.jpg|rall-chef-x-40-gr/
-00408||Queso Untable La Paulina x 200gr Vs Sabores|94.29|3,86.21|||$94,29|Lacteos > Quesos|2019/11/QUESO-UNT-LA-PAULINA.jpg|queso-unt-la-paulina-x-200gr/
+00365||Queso Untable La Paulina x 200gr Vs Sabores|94.29|3,86.21|||$94,29|Lacteos > Quesos|2019/11/QUESO-UNT-LA-PAULINA.jpg|queso-unt-la-paulina-x-200gr/
 00852||Esponja De Fibra Make Plateada|58.75|3,50.77|||$58,75|Limpieza > Virulana|2021/01/esponja-make-plateada.jpg|esponja-de-fibra-make-plateada/
 00853||Esponja De Fibra Make Rosa|60.0|3,51.94|||$60,00|Limpieza > Virulana|2021/01/esponja-make-rosada.jpg|esponja-de-fibra-make-rosa/
 00862||Jabon Saint Tropez 1 x 125gr|28.0|3,24.05|||$28,00|Limpieza > Shampoo|2020/05/jabon-st-tropez-x1.jpg|jabon-saint-tropez-1-x-125-grs/

@@ -109,7 +109,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00102|Miel Don Gustavo 500cc|175.0|Desayuno > Miel|/2020/01/default.jpg|/miel-don-gustavo-500-cc/
 00103|Miel Don Gustavo 250cc|100.0|Desayuno > Miel|/2020/01/default.jpg|/miel-don-gustavo-250cc/
 00104|Miel Colmenares Mata 260gr|112.0|Desayuno > Miel|/2019/11/miel-colmenares-mata-260.jpg|/miel-mata-260gr/
-00105|Cacao Quicker x 200gr|52.0|Desayuno > Cacao|/2020/04/CACAO-QUICKER-200.jpg|/cacao-quicker-x-200gr/
+00058|Cacao Quicker x 200gr|52.0|Desayuno > Cacao|/2020/04/CACAO-QUICKER-200.jpg|/cacao-quicker-x-200gr/
 00198|Cacao Chocolino Plus Fort 180gr|67.7|Desayuno > Cacao|/2020/04/cacao-chocolino-180gr.jpg|/cacao-chocolino-plus-fort-180g/
 00199|Jamon Crudo Goggi Feteado x 100gr|69.0|Fiambreria > Jamon Crudo|/2019/11/jamon-crudo-goggi-D_NQ_NP_882252-MLA32138258660_092019-F.jpg|/jamon-crudo-goggi-medio-listo/
 00236|Te La Virginia Tilo 25 Uds|135.0|Desayuno > Mate|/2020/01/TE-LA-VIRG-TILO-25UN.jpg|/te-la-virg-tilo-25un/
@@ -131,8 +131,8 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00248|Mortadela Paladini Feteada x 100gr|40.0|Fiambreria > Mortadela|/2019/11/MORT-PALADINI.jpg|/mort-paladini/
 00252|Romanito Santa Maria x 100gr|69.0|Fiambreria > Romanito / Sardo|/2019/11/romanito-santa-maria.jpg|/romanito-santa-maria-1-5/
 00251|Ricota San Lucio x 100gr|12.0|Fiambreria > Ricota|/2019/11/RICOTA-SAN-LUCIO.jpg|/ricota-san-lucio/
-00186|Chimichurri Vanoli Picante 190gr|65.0|Almacén > Varios|/2020/07/chimichurri-vanoli-picante-190.jpg|/chimichurri-vanoli-picante-190-grs/
-00274|Leche En Polvo Descremada Lheritier 350gr|195.0|Almacén > Varios|/2020/05/leche-en-polvo-lheritier-800.jpg|/leche-en-polvo-descremada-lheritier-350-gr/
+00183|Chimichurri Vanoli Picante 190gr|65.0|Almacén > Varios|/2020/07/chimichurri-vanoli-picante-190.jpg|/chimichurri-vanoli-picante-190-grs/
+00141|Leche En Polvo Descremada Lheritier 350gr|195.0|Almacén > Varios|/2020/05/leche-en-polvo-lheritier-800.jpg|/leche-en-polvo-descremada-lheritier-350-gr/
 00255|Jamon Cocido Goggi Feteado x 100gr|40.0|Fiambreria > Jamón|/2020/01/JAMON-COC-GOGGI.jpg|/jamon-coc-goggi-2/
 00256|Jamon Cocido Lario Feteado x 100gr|55.0|Fiambreria > Jamón|/2020/01/FIAMBRE-COC-LARIO-COD-108.jpg|/jamon-cocido-lario/
 00258|Jamon Cocido Goggi Con Cuero Feteado x 100gr|45.5|Fiambreria > Jamón|/2020/01/JAMON-COCIDO-GOGGI-CON-CUERO.jpg|/jamon-coc-goggi-c-cuero/
@@ -200,12 +200,12 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00700|Dulce De Leche Santa Maria 400gr|83.75|Lacteos > Dulce de Leche|/2020/01/DULCE-LECHE-SANTA-MARIA-400GR.jpg|/dulce-leche-santa-maria-400gr/
 00376|Protector Calipso Normal x 20 Sin Desodorante|45.0|Limpieza > Protección Femenina|/2019/11/protector-calipso-normal-x20-1.jpg|/protec-calipso-x-20un/
 00377|Toalla Calipso Normal Con Gel Con Alas x 8 Uds|33.0|Limpieza > Protección Femenina|/2020/01/TOALL-CALIPSO-PLUS-VERDE.8U..jpg|/toall-calipso-plus-verde-8u/
-00403|Queso Crema Light La Paulina x 290gr|105.1|Lacteos > Quesos|/2020/05/queso-crema-light-la-paulina-290.jpg|/queso-crema-light-la-paulina-x-290-grs/
+00361|Queso Crema Light La Paulina x 290gr|105.1|Lacteos > Quesos|/2020/05/queso-crema-light-la-paulina-290.jpg|/queso-crema-light-la-paulina-x-290-grs/
 00407|Queso Rallado Chef x 40gr|25.0|Lacteos > Quesos|/2020/01/default.jpg|/rall-chef-x-40-gr/
-00408|Queso Untable La Paulina x 200gr Vs Sabores|94.29|Lacteos > Quesos|/2019/11/QUESO-UNT-LA-PAULINA.jpg|/queso-unt-la-paulina-x-200gr/
-00208|Queso Crema Tradicional La Paulina x 290gr|105.1|Lacteos > Quesos|/2019/11/queso-crema-tradicional-la-paulina-290.jpg|/queso-crema-la-paulina-x-290/
+00365|Queso Untable La Paulina x 200gr Vs Sabores|94.29|Lacteos > Quesos|/2019/11/QUESO-UNT-LA-PAULINA.jpg|/queso-unt-la-paulina-x-200gr/
+00195|Queso Crema Tradicional La Paulina x 290gr|105.1|Lacteos > Quesos|/2019/11/queso-crema-tradicional-la-paulina-290.jpg|/queso-crema-la-paulina-x-290/
 00596|Leche Descremada En Polvo Purisima x 800gr|395.0|Lacteos > Leche en Polvo|/2020/07/leche-en-polvo-purisima-descremada-800.jpg|/leche-descremada-en-polvo-purisima-x-800-grs/
-00398|Leche En Polvo Descremada Lheritier 350gr|195.0|Lacteos > Leche en Polvo|/2020/05/leche-en-polvo-lheritier-800.jpg|/leche-en-polvo-descremada-lheritier-350-gr/
+00141|Leche En Polvo Descremada Lheritier 350gr|195.0|Lacteos > Leche en Polvo|/2020/05/leche-en-polvo-lheritier-800.jpg|/leche-en-polvo-descremada-lheritier-350-gr/
 00399|Leche Nido Fort Tapa Amarilla 800gr|485.0|Lacteos > Leche en Polvo|/2020/01/LECHE-NIDO-CON-PROT-T-AMARILLA-800GR.jpg|/leche-nido-fort-t-ama-800gr/
 00212|Rollo De Cocina Sol Mayor x 3un|60.0|Limpieza > Rollos de Cocina|/2020/01/ROLL-COC-SOL-MAYOR-X-3UN.jpg|/roll-coc-sol-mayor-x-3un/
 00385|Suavizante Borita x 900ml Todos|85.0|Limpieza > Suavizante|/2020/01/SUAV-BORITA-X-900ML-TODOS.jpg|/suav-borita-x-900ml-todos/
@@ -290,26 +290,26 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00299|Yerba Verdeflor x 500gr Varios Sabores|135.0|Almacén > Mate|/2020/01/YERBA-VERDEFLOR-X-500GR-TODAS.jpg|/yerba-verdeflor-x-500gr-todas/
 00300|Te La Virginia x 25 Saq|42.0|Almacén > Mate|/2020/01/TE-LA-VIRG-X-25-SAQ.jpg|/te-la-virg-x-25-saq-s-iva/
 00301|Dulce De Leche Clasico Manfrey x 250gr|66.0|Almacén > Otros|/2020/05/Dulce-de-leche-manfrey-250.jpg|/dulce-de-leche-clasico-manfrey-x-250-grs/
-00302|Galletas De Arroz All Rice Limon x 100gr|63.0|Almacén > Otros|/2020/05/galletas-all-rice-limon.jpg|/galletas-all-rice-arroz-integral-limon-x-100-grs/
-00303|Galletas De Arroz All Rice Sin Sal x 100gr|63.0|Almacén > Otros|/2020/05/galletas-all-rice-sin-sal.jpg|/galletas-all-rice-sin-sal-x-100-grs/
-00304|Galletas De Arroz All Rice Naranja x 100gr|63.0|Almacén > Otros|/2020/05/galletas-all-rice-naranja.jpg|/galletas-all-rice-naranja-x-100-grs/
-00305|Galletas De Arroz All Rice Dulces x 100gr|63.0|Almacén > Otros|/2020/05/galletas-all-rice-dulce.jpg|/galletas-all-rice-dulces-x-100-grs/
+00289|Galletas De Arroz All Rice Limon x 100gr|63.0|Almacén > Otros|/2020/05/galletas-all-rice-limon.jpg|/galletas-all-rice-arroz-integral-limon-x-100-grs/
+00290|Galletas De Arroz All Rice Sin Sal x 100gr|63.0|Almacén > Otros|/2020/05/galletas-all-rice-sin-sal.jpg|/galletas-all-rice-sin-sal-x-100-grs/
+00260|Galletas De Arroz All Rice Naranja x 100gr|63.0|Almacén > Otros|/2020/05/galletas-all-rice-naranja.jpg|/galletas-all-rice-naranja-x-100-grs/
+00261|Galletas De Arroz All Rice Dulces x 100gr|63.0|Almacén > Otros|/2020/05/galletas-all-rice-dulce.jpg|/galletas-all-rice-dulces-x-100-grs/
 00306|Cono De Dulce De Leche Patagonia 50gr|55.0|Almacén > Otros|/2020/05/cono-dolchito-patagonia.jpg|/cono-de-dulce-de-leche-patagonia-50-grs/
 00307|Alfajor Dolche Patagonia Maicena 75gr|55.0|Almacén > Otros|/2020/05/alfajor-dolche-patagonia-maicena.jpg|/alfajor-dolche-patagonia-maicena-75-grs/
 00308|Alfajor Dolche Patagonia Blanco 60gr|55.0|Almacén > Otros|/2020/05/alfajor-dolche-patagonia-blanco.jpg|/alfajor-dolche-patagonia-blanco-60-grs/
 00309|Alfajor Dolche Patagonia Negro 60gr|55.0|Almacén > Otros|/2020/05/alfajor-dolche-patagonia-negro.jpg|/alfajor-dolche-patagonia-negro-60-grs/
 00252|Bizcochuelo Godet Vainilla 480gr|98.0|Almacén > Postres|/2020/01/BIZC-GODET-VAINILLA-480GR.jpg|/bizc-godet-vainilla-480gr/
 00313|Pure De Papas Cica x 100gr|95.0|Almacén > Varios|/2020/06/pure-de-papa-cica-100.jpg|/pure-de-papas-cica-x-100-grs/
-00314|Dulce De Leche Clasico Manfrey x 250gr|66.0|Almacén > Varios|/2020/05/Dulce-de-leche-manfrey-250.jpg|/dulce-de-leche-clasico-manfrey-x-250-grs/
-00315|Galletas De Arroz All Rice Limon x 100gr|63.0|Almacén > Varios|/2020/05/galletas-all-rice-limon.jpg|/galletas-all-rice-arroz-integral-limon-x-100-grs/
-00316|Galletas De Arroz All Rice Sin Sal x 100gr|63.0|Almacén > Varios|/2020/05/galletas-all-rice-sin-sal.jpg|/galletas-all-rice-sin-sal-x-100-grs/
-00529|Galletas De Arroz All Rice Naranja x 100gr|63.0|Almacén > Varios|/2020/05/galletas-all-rice-naranja.jpg|/galletas-all-rice-naranja-x-100-grs/
-00530|Galletas De Arroz All Rice Dulces x 100gr|63.0|Almacén > Varios|/2020/05/galletas-all-rice-dulce.jpg|/galletas-all-rice-dulces-x-100-grs/
-00319|Cono De Dulce De Leche Patagonia 50gr|55.0|Almacén > Varios|/2020/05/cono-dolchito-patagonia.jpg|/cono-de-dulce-de-leche-patagonia-50-grs/
-00320|Alfajor Dolche Patagonia Maicena 75gr|55.0|Almacén > Varios|/2020/05/alfajor-dolche-patagonia-maicena.jpg|/alfajor-dolche-patagonia-maicena-75-grs/
-00321|Alfajor Dolche Patagonia Blanco 60gr|55.0|Almacén > Varios|/2020/05/alfajor-dolche-patagonia-blanco.jpg|/alfajor-dolche-patagonia-blanco-60-grs/
-00322|Alfajor Dolche Patagonia Negro 60gr|55.0|Almacén > Varios|/2020/05/alfajor-dolche-patagonia-negro.jpg|/alfajor-dolche-patagonia-negro-60-grs/
-00324|Galletas De Arroz All Rice Con Sal x 100gr|63.0|Almacén > Varios|/2019/11/GALLETA-ALL-RICE-X-100-GR.jpg|/galleta-all-rice-x-100-gr/
+00301|Dulce De Leche Clasico Manfrey x 250gr|66.0|Almacén > Varios|/2020/05/Dulce-de-leche-manfrey-250.jpg|/dulce-de-leche-clasico-manfrey-x-250-grs/
+00289|Galletas De Arroz All Rice Limon x 100gr|63.0|Almacén > Varios|/2020/05/galletas-all-rice-limon.jpg|/galletas-all-rice-arroz-integral-limon-x-100-grs/
+00290|Galletas De Arroz All Rice Sin Sal x 100gr|63.0|Almacén > Varios|/2020/05/galletas-all-rice-sin-sal.jpg|/galletas-all-rice-sin-sal-x-100-grs/
+00260|Galletas De Arroz All Rice Naranja x 100gr|63.0|Almacén > Varios|/2020/05/galletas-all-rice-naranja.jpg|/galletas-all-rice-naranja-x-100-grs/
+00261|Galletas De Arroz All Rice Dulces x 100gr|63.0|Almacén > Varios|/2020/05/galletas-all-rice-dulce.jpg|/galletas-all-rice-dulces-x-100-grs/
+00306|Cono De Dulce De Leche Patagonia 50gr|55.0|Almacén > Varios|/2020/05/cono-dolchito-patagonia.jpg|/cono-de-dulce-de-leche-patagonia-50-grs/
+00307|Alfajor Dolche Patagonia Maicena 75gr|55.0|Almacén > Varios|/2020/05/alfajor-dolche-patagonia-maicena.jpg|/alfajor-dolche-patagonia-maicena-75-grs/
+00308|Alfajor Dolche Patagonia Blanco 60gr|55.0|Almacén > Varios|/2020/05/alfajor-dolche-patagonia-blanco.jpg|/alfajor-dolche-patagonia-blanco-60-grs/
+00309|Alfajor Dolche Patagonia Negro 60gr|55.0|Almacén > Varios|/2020/05/alfajor-dolche-patagonia-negro.jpg|/alfajor-dolche-patagonia-negro-60-grs/
+00293|Galletas De Arroz All Rice Con Sal x 100gr|63.0|Almacén > Varios|/2019/11/GALLETA-ALL-RICE-X-100-GR.jpg|/galleta-all-rice-x-100-gr/
 00535|Pan Rallado Preferido x 500|73.75|Almacén > Varios|/2020/01/PAN-RALL-PREFERIDO-X-500.jpg|/pan-rall-preferido-x-500-s-iva/
 00536|Semola Vitina Lucchetti 250gr|79.0|Almacén > Varios|/2020/01/SEMOLA-VITINA-LUCCHETTI-250GR.jpg|/semola-vitina-lucchetti-250gr/
 00329|Vinagre Molto Vino 500ml|43.12|Almacén > Vinagres|/2020/04/VINAGRE-VINO-MOLTO-400.jpg|/vinagre-molto-vino-500-ml/
@@ -328,14 +328,14 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00343|Agua Palau x 6lts|85.0|Bebidas > Agua|/2020/01/AGUA-PALAU-X-6LTS.jpg|/agua-palau-x-6lts/
 00344|Condimento Alicante P/pizza 25gr|40.0|Condimentos > Condimentos|/2020/01/COND-ALICANTE-PARA-PIZZA-25GR.jpg|/cond-alicante-p-pizza-25gr/
 00562|Provenzal Alicante 25gr|42.0|Condimentos > Condimentos|/2020/01/PROVENZAL-ALICANTE-25GR.jpg|/provenzal-alicante-25gr/
-00347|Dulce De Leche Clasico Manfrey x 250gr|66.0|Desayuno > Dulce de Leche|/2020/05/Dulce-de-leche-manfrey-250.jpg|/dulce-de-leche-clasico-manfrey-x-250-grs/
+00301|Dulce De Leche Clasico Manfrey x 250gr|66.0|Desayuno > Dulce de Leche|/2020/05/Dulce-de-leche-manfrey-250.jpg|/dulce-de-leche-clasico-manfrey-x-250-grs/
 00348|Dulce De Leche La Paulina Clas. x 400gr|121.6|Desayuno > Dulce de Leche|/2019/11/dulce-de-leche-paulina-400-clasico.jpg|/d-de-leche-pau-x400gr/
 00349|Stevia Sobres x 100 Hileret|142.0|Desayuno > Edulcorantes|/2020/01/STEVIA-SOB-X-100-HILERT.jpg|/stevia-sob-x-100-hilert/
 00216|Edulcorante Si Diet 500ml|132.0|Desayuno > Edulcorantes|/2019/11/EDULCORANTE-SI-DIET-500.jpg|/edulc-si-diet-500ml/
 00351|Edulcorante Barny 250cc|73.0|Desayuno > Edulcorantes|/2019/11/EDULCORANTE-BARNY-250.jpg|/edulc-barny-250cc/
 00352|Tostadas Light Gaona 200gr|70.0|Desayuno > Gall Dulces y Saladas|/2020/05/tostadas-gaona-light-200gr.jpg|/tostadas-light-gaona-200-grs/
 00353|Bizcochitos Gaona x 180gr|35.0|Desayuno > Gall Dulces y Saladas|/2020/05/bizcochitos-gaona-180.jpg|/bizcochitos-gaona-x-180-grs/
-00354|Galletas De Arroz All Rice Con Sal x 100gr|63.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALLETA-ALL-RICE-X-100-GR.jpg|/galleta-all-rice-x-100-gr/
+00293|Galletas De Arroz All Rice Con Sal x 100gr|63.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALLETA-ALL-RICE-X-100-GR.jpg|/galleta-all-rice-x-100-gr/
 00351|Galletas Bagley Salvado 3 x 214gr|138.0|Desayuno > Gall Dulces y Saladas|/2020/01/GALL-BAGLEY-SALV-DE-3-X214GR.jpg|/gall-bagley-salv-de-3-x214gr/
 00359|Te La Virginia Boldo 25 Uds|75.0|Desayuno > Mate|/2020/01/TE-LA-VIRG-BOLDO-25UN.jpg|/te-la-virg-boldo-25un/
 00360|Mermelada De Ciruela Dulcor Light x 420gr|59.0|Desayuno > Mermeladas|/2020/07/mermelada-dulcor-ciruela-light-420.jpg|/mermelada-de-ciruela-dulcor-light-x-420-grs/
@@ -348,7 +348,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00367|Cacao Nesquik 150gr|60.0|Desayuno > Cacao|/2019/11/nesquik-150g.jpg|/cacao-nesquik-180-grs/
 00368|Jamon Cocido Paladini Feteado x 100gr|58.0|Fiambreria > Jamón|/2020/01/JAMON-COC-PALADINI.jpg|/jamon-cocido-paladini/
 00369|Queso Magro Noal x 100gr|39.8|Fiambreria > Magro|/2020/01/MAGRO-NOAL.jpg|/magro-noal/
-00370|Queso Magro Noal x 100gr|39.8|Fiambreria > Por Salut|/2020/01/MAGRO-NOAL.jpg|/magro-noal/
+00369|Queso Magro Noal x 100gr|39.8|Fiambreria > Por Salut|/2020/01/MAGRO-NOAL.jpg|/magro-noal/
 00520|Queso Por Salut Noal x 100gr|39.0|Fiambreria > Por Salut|/2020/01/POR-SALUT-NOAL.jpg|/por-salut-noal/
 00373|Queso Azul Estancia De Oro x 100gr|50.0|Fiambreria > Roquefort|/2019/11/queso-azul-estancia-de-oro.jpg|/jamon-coc-paladini/
 00374|Salame Bierzo Feteado 100gr|53.0|Fiambreria > Salame|/2020/01/SALAME-BIERZO.jpg|/salame-bierzo/
@@ -370,7 +370,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00393|Margarina Danica Dorada 200gr|68.0|Lacteos > Mantecas y Margarinas|/2020/01/MARG-DANICA-D-200GR.jpg|/marg-danica-d-200gr/
 00242|Yogur Yofrey 120gr|28.5|Lacteos > Yogures|/2020/01/YOGUR-YOFREY-120GR.jpg|/yogur-yofrey-120gr/
 00396|Yogur Santa Maria Vasito 125cc|22.0|Lacteos > Yogures|/2020/01/YOGUR-SANTA-MARIA-VASITO-125CC.jpg|/yogur-santa-maria-vasito-125cc/
-00397|Dulce De Leche Clasico Manfrey x 250gr|66.0|Lacteos > Dulce de Leche|/2020/05/Dulce-de-leche-manfrey-250.jpg|/dulce-de-leche-clasico-manfrey-x-250-grs/
+00301|Dulce De Leche Clasico Manfrey x 250gr|66.0|Lacteos > Dulce de Leche|/2020/05/Dulce-de-leche-manfrey-250.jpg|/dulce-de-leche-clasico-manfrey-x-250-grs/
 00587|Dulce De Leche Cerros Tucumanos 1kg|218.0|Lacteos > Dulce de Leche|/2020/01/DULCE-LECHE-CERROS-TUC-1-KG.jpg|/dulce-leche-cerros-tuc-1-kg/
 00399|Papel Higienico Campanita Text 4un|56.0|Limpieza > Papel Higiénico|/2020/01/HIG-CAMP-TEXT-4UN.jpg|/hig-camp-text-4un/
 00594|Papel Higienico Campanita Soft 4un|60.0|Limpieza > Papel Higiénico|/2020/01/HIG-CAMP-CLAC-AMAR-AZUL-4-30M.jpg|/hig-camp-soft-4un/
@@ -385,7 +385,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00476|Secador Sachi 40|220.0|Limpieza > Varios|/2020/01/SECADOR-SACHI-40.jpg|/secador-sachi-40/
 00482|Cif Bano Doypack Verde 500cc|60.0|Limpieza > Varios|/2020/01/CIF-BANO-DPACK-VERD-500CC.jpg|/cif-bano-dpack-verd-500cc/
 00411|Escobillon Fede Sin Cabo|125.0|Limpieza > Varios|/2020/01/ESCOBILLON-FEDE-SIN-CABO.jpg|/escobillon-fede-sin-cabo/
-00412|Dentifrico Colgate 180gr|198.0|Limpieza > Varios|/2019/11/dentifrico-colgate-180.jpg|/dent-colgate-70gr/
+00225|Dentifrico Colgate 180gr|198.0|Limpieza > Varios|/2019/11/dentifrico-colgate-180.jpg|/dent-colgate-70gr/
 00413|Pano Amarillo S/membrete|29.0|Limpieza > Varios|/2020/01/PANO-AMARILLO-SIN-MEMBRETE.jpg|/pano-amarillo-s-membrete/
 00414|Esponja De Fibra Flexol|18.5|Limpieza > Virulana|/2020/06/Esponja-Fibra-flexol.jpg|/esponja-de-fibra-flexol/
 00415|Alcohol En Gel San Iginio x 250cc|155.0|Limpieza > Alcohol|""|/alcohol-en-gel-san-iginio-x-250-cc/
@@ -402,20 +402,20 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00428|Chips Pandino|55.0|Panadería > Chips|/2020/01/default.jpg|/chips-pandino/
 00429|Pan Lactal De Salvado Con Semillas 350gr|109.99|Panadería > Lactal|/2019/11/pan-lactal-salvado-semillado.jpg|/pan-lactal-fargo-mix-cereal530/
 00430|Papel Higienico Higienol Export 4 x 30 Mts|65.0|Limpieza > Papel Higiénico|/2020/05/papel-higienico-higienol-x4.jpg|/papel-higienico-higienol-export-4-x-30-mts/
-00783|Chimichurri Vanoli Clasico 190gr|65.0|Almacén > Varios|/2020/01/CHIMICHURRI-VANOLI-CLA-y-AHU-190.jpg|/chimichurri-vanoli-cla-ahu-190/
+00630|Chimichurri Vanoli Clasico 190gr|65.0|Almacén > Varios|/2020/01/CHIMICHURRI-VANOLI-CLA-y-AHU-190.jpg|/chimichurri-vanoli-cla-ahu-190/
 00468|Aceite Natura Aerosol x 120gr|168.0|Almacén > Aceites|/2020/07/aceite-natura-aerosol.jpg|/aceite-natura-aerosol-x-120-g/
 00469|Dulce De Leche Repostero Manfrey x 400gr|108.0|Almacén > Otros|/2020/07/Dulce-de-leche-manfrey-repostero-400.jpg|/dulce-de-leche-repostero-manfrey-x-400-grs/
 00470|Dulce De Leche Tradicional Tremblay x 400gr|87.0|Almacén > Otros|/2020/07/Dulce-de-leche-tremblay-400.jpg|/dulce-de-leche-tradicional-tremblay-x-400-grs/
 00471|Dulce De Leche Tradicional Tremblay x 250gr|56.5|Almacén > Otros|/2020/07/Dulce-de-leche-tremblay-250.jpg|/dulce-de-leche-tradicional-tremblay-x-250-grs/
 00472|Dulce De Leche Clasico Manfrey x 400gr|97.0|Almacén > Otros|/2020/05/Dulce-de-leche-manfrey-400.jpg|/dulce-de-leche-clasico-manfrey-x-400-grs/
-00473|Dulce De Leche Repostero Manfrey x 400gr|108.0|Desayuno > Dulce de Leche|/2020/07/Dulce-de-leche-manfrey-repostero-400.jpg|/dulce-de-leche-repostero-manfrey-x-400-grs/
-00474|Dulce De Leche Tradicional Tremblay x 400gr|87.0|Desayuno > Dulce de Leche|/2020/07/Dulce-de-leche-tremblay-400.jpg|/dulce-de-leche-tradicional-tremblay-x-400-grs/
-00475|Dulce De Leche Tradicional Tremblay x 250gr|56.5|Desayuno > Dulce de Leche|/2020/07/Dulce-de-leche-tremblay-250.jpg|/dulce-de-leche-tradicional-tremblay-x-250-grs/
-00476|Dulce De Leche Clasico Manfrey x 400gr|97.0|Desayuno > Dulce de Leche|/2020/05/Dulce-de-leche-manfrey-400.jpg|/dulce-de-leche-clasico-manfrey-x-400-grs/
-00477|Dulce De Leche Repostero Manfrey x 400gr|108.0|Almacén > Varios|/2020/07/Dulce-de-leche-manfrey-repostero-400.jpg|/dulce-de-leche-repostero-manfrey-x-400-grs/
-00478|Dulce De Leche Tradicional Tremblay x 400gr|87.0|Almacén > Varios|/2020/07/Dulce-de-leche-tremblay-400.jpg|/dulce-de-leche-tradicional-tremblay-x-400-grs/
-00479|Dulce De Leche Tradicional Tremblay x 250gr|56.5|Almacén > Varios|/2020/07/Dulce-de-leche-tremblay-250.jpg|/dulce-de-leche-tradicional-tremblay-x-250-grs/
-00480|Dulce De Leche Clasico Manfrey x 400gr|97.0|Almacén > Varios|/2020/05/Dulce-de-leche-manfrey-400.jpg|/dulce-de-leche-clasico-manfrey-x-400-grs/
+00469|Dulce De Leche Repostero Manfrey x 400gr|108.0|Desayuno > Dulce de Leche|/2020/07/Dulce-de-leche-manfrey-repostero-400.jpg|/dulce-de-leche-repostero-manfrey-x-400-grs/
+00470|Dulce De Leche Tradicional Tremblay x 400gr|87.0|Desayuno > Dulce de Leche|/2020/07/Dulce-de-leche-tremblay-400.jpg|/dulce-de-leche-tradicional-tremblay-x-400-grs/
+00471|Dulce De Leche Tradicional Tremblay x 250gr|56.5|Desayuno > Dulce de Leche|/2020/07/Dulce-de-leche-tremblay-250.jpg|/dulce-de-leche-tradicional-tremblay-x-250-grs/
+00472|Dulce De Leche Clasico Manfrey x 400gr|97.0|Desayuno > Dulce de Leche|/2020/05/Dulce-de-leche-manfrey-400.jpg|/dulce-de-leche-clasico-manfrey-x-400-grs/
+00469|Dulce De Leche Repostero Manfrey x 400gr|108.0|Almacén > Varios|/2020/07/Dulce-de-leche-manfrey-repostero-400.jpg|/dulce-de-leche-repostero-manfrey-x-400-grs/
+00470|Dulce De Leche Tradicional Tremblay x 400gr|87.0|Almacén > Varios|/2020/07/Dulce-de-leche-tremblay-400.jpg|/dulce-de-leche-tradicional-tremblay-x-400-grs/
+00471|Dulce De Leche Tradicional Tremblay x 250gr|56.5|Almacén > Varios|/2020/07/Dulce-de-leche-tremblay-250.jpg|/dulce-de-leche-tradicional-tremblay-x-250-grs/
+00472|Dulce De Leche Clasico Manfrey x 400gr|97.0|Almacén > Varios|/2020/05/Dulce-de-leche-manfrey-400.jpg|/dulce-de-leche-clasico-manfrey-x-400-grs/
 00481|Hummus Kamar Sesamo y Ajo x 250gr|120.19|Frescos y Congelados > Masa para Tacos|/2020/07/hummus-kamar-sesamoyajo-250grs.jpg|/hummus-kamar-sesamo-y-ajo-x-250-grs/
 00482|Hummus Kamar Morron x 250gr|120.19|Frescos y Congelados > Masa para Tacos|/2020/07/hummus-kamar-morron-250grs.jpg|/hummus-kamar-morron-x-250-grs/
 00483|Hummus Kamar Olivas Negras x 250gr|120.19|Frescos y Congelados > Masa para Tacos|/2020/07/hummus-kamar-olivasnegras-250grs.jpg|/hummus-kamar-olivas-negras-x-250-grs/
@@ -423,9 +423,9 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00343|Galletas Frutigran Avena y Frutos Rojos 250gr|83.0|Desayuno > Gall Dulces y Saladas|/2020/07/frutigran-avenayfr-250.jpg|/galletas-frutigran-avena-y-frutos-rojos-250-gr/
 00486|Galletas Turimar Palmeritas 200gr|53.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-TURIMAR-PALMER-200-GRS.png|/gall-turimar-palmer-200-grs/
 00809|Galletas Mauri Salvado 400gr|94.0|Desayuno > Gall Dulces y Saladas|/2019/11/GALL-MAURI-SALVADO-400GR.jpg|/gall-mauri-salvado-400gr/
-00488|Hummus Kamar Sesamo y Ajo x 250gr|120.19|Frescos y Congelados > Tapas|/2020/07/hummus-kamar-sesamoyajo-250grs.jpg|/hummus-kamar-sesamo-y-ajo-x-250-grs/
-00489|Hummus Kamar Morron x 250gr|120.19|Frescos y Congelados > Tapas|/2020/07/hummus-kamar-morron-250grs.jpg|/hummus-kamar-morron-x-250-grs/
-00490|Hummus Kamar Olivas Negras x 250gr|120.19|Frescos y Congelados > Tapas|/2020/07/hummus-kamar-olivasnegras-250grs.jpg|/hummus-kamar-olivas-negras-x-250-grs/
+00481|Hummus Kamar Sesamo y Ajo x 250gr|120.19|Frescos y Congelados > Tapas|/2020/07/hummus-kamar-sesamoyajo-250grs.jpg|/hummus-kamar-sesamo-y-ajo-x-250-grs/
+00482|Hummus Kamar Morron x 250gr|120.19|Frescos y Congelados > Tapas|/2020/07/hummus-kamar-morron-250grs.jpg|/hummus-kamar-morron-x-250-grs/
+00483|Hummus Kamar Olivas Negras x 250gr|120.19|Frescos y Congelados > Tapas|/2020/07/hummus-kamar-olivasnegras-250grs.jpg|/hummus-kamar-olivas-negras-x-250-grs/
 00491|Crema De Leche Her Bal x 200gr|68.0|Lacteos > Crema de Leche|/2019/11/crema-de-leche-herbal-250.jpg|/crema-de-leche-her-bal-x-200gr/
 00815|Crema De Leche La Serenisima Doble 200gr|100.0|Lacteos > Crema de Leche|/2020/01/CREMA-DE-LECHE-LS-DOBLE-200GR.jpg|/crema-de-leche-ls-doble-200gr/
 00831|Crema De Leche Santa Maria 200gr|68.0|Lacteos > Crema de Leche|/2020/01/CREMA-DE-LECHE-SANTA-MARIA-200GR-e1587147275291.jpg|/crema-de-leche-santa-maria-200gr/
@@ -435,15 +435,15 @@ id|nombre|precio|rubro|url_imagen|url_producto
 00497|Queso Finlandia Clasico x 200gr|105.0|Lacteos > Quesos|/2019/11/QUESO-FINLANDIA-CLASICO.jpg|/queso-unt-ls-todos-x-200g/
 00371|Manteca S y S x 200gr|99.0|Lacteos > Mantecas y Margarinas|/2020/07/manteca-sys-200gr.jpg|/manteca-s-y-s-x-200-grs/
 00374|Manteca Tonadita 100gr|54.0|Lacteos > Mantecas y Margarinas|/2020/01/MANTECA-TONADITA-100GR.jpg|/manteca-tonadita-100gr/
-00500|Hummus Kamar Sesamo y Ajo x 250gr|120.19|Frescos y Congelados > Untables|/2020/07/hummus-kamar-sesamoyajo-250grs.jpg|/hummus-kamar-sesamo-y-ajo-x-250-grs/
-00501|Hummus Kamar Morron x 250gr|120.19|Frescos y Congelados > Untables|/2020/07/hummus-kamar-morron-250grs.jpg|/hummus-kamar-morron-x-250-grs/
-00502|Hummus Kamar Olivas Negras x 250gr|120.19|Frescos y Congelados > Untables|/2020/07/hummus-kamar-olivasnegras-250grs.jpg|/hummus-kamar-olivas-negras-x-250-grs/
-00503|Queso Finlandia Light x 200gr|105.0|Frescos y Congelados > Untables|/2020/04/QUESO-FINLANDIA-LIGHT.jpg|/queso-finlandia-light-x-200g/
-00504|Queso Finlandia Clasico x 200gr|105.0|Frescos y Congelados > Untables|/2019/11/QUESO-FINLANDIA-CLASICO.jpg|/queso-unt-ls-todos-x-200g/
-00505|Dulce De Leche Repostero Manfrey x 400gr|108.0|Lacteos > Dulce de Leche|/2020/07/Dulce-de-leche-manfrey-repostero-400.jpg|/dulce-de-leche-repostero-manfrey-x-400-grs/
-00506|Dulce De Leche Tradicional Tremblay x 400gr|87.0|Lacteos > Dulce de Leche|/2020/07/Dulce-de-leche-tremblay-400.jpg|/dulce-de-leche-tradicional-tremblay-x-400-grs/
-00507|Dulce De Leche Tradicional Tremblay x 250gr|56.5|Lacteos > Dulce de Leche|/2020/07/Dulce-de-leche-tremblay-250.jpg|/dulce-de-leche-tradicional-tremblay-x-250-grs/
-00508|Dulce De Leche Clasico Manfrey x 400gr|97.0|Lacteos > Dulce de Leche|/2020/05/Dulce-de-leche-manfrey-400.jpg|/dulce-de-leche-clasico-manfrey-x-400-grs/
+00481|Hummus Kamar Sesamo y Ajo x 250gr|120.19|Frescos y Congelados > Untables|/2020/07/hummus-kamar-sesamoyajo-250grs.jpg|/hummus-kamar-sesamo-y-ajo-x-250-grs/
+00482|Hummus Kamar Morron x 250gr|120.19|Frescos y Congelados > Untables|/2020/07/hummus-kamar-morron-250grs.jpg|/hummus-kamar-morron-x-250-grs/
+00483|Hummus Kamar Olivas Negras x 250gr|120.19|Frescos y Congelados > Untables|/2020/07/hummus-kamar-olivasnegras-250grs.jpg|/hummus-kamar-olivas-negras-x-250-grs/
+00496|Queso Finlandia Light x 200gr|105.0|Frescos y Congelados > Untables|/2020/04/QUESO-FINLANDIA-LIGHT.jpg|/queso-finlandia-light-x-200g/
+00497|Queso Finlandia Clasico x 200gr|105.0|Frescos y Congelados > Untables|/2019/11/QUESO-FINLANDIA-CLASICO.jpg|/queso-unt-ls-todos-x-200g/
+00469|Dulce De Leche Repostero Manfrey x 400gr|108.0|Lacteos > Dulce de Leche|/2020/07/Dulce-de-leche-manfrey-repostero-400.jpg|/dulce-de-leche-repostero-manfrey-x-400-grs/
+00470|Dulce De Leche Tradicional Tremblay x 400gr|87.0|Lacteos > Dulce de Leche|/2020/07/Dulce-de-leche-tremblay-400.jpg|/dulce-de-leche-tradicional-tremblay-x-400-grs/
+00471|Dulce De Leche Tradicional Tremblay x 250gr|56.5|Lacteos > Dulce de Leche|/2020/07/Dulce-de-leche-tremblay-250.jpg|/dulce-de-leche-tradicional-tremblay-x-250-grs/
+00472|Dulce De Leche Clasico Manfrey x 400gr|97.0|Lacteos > Dulce de Leche|/2020/05/Dulce-de-leche-manfrey-400.jpg|/dulce-de-leche-clasico-manfrey-x-400-grs/
 00509|Pochoclo Dulce Semix 80gr|33.0|Snacks > Otros|/2020/07/pochoclos-dulces-semix-80.jpg|/pochoclo-dulce-semix-80-grs/
 00510|Veggie Snacks Granix Pizza x 45gr|39.0|Snacks > Otros|/2020/07/veggie-snacks-pizza-45g.jpg|/veggie-snacks-granix-pizza-x-45-grs/
 00511|Veggie Snacks Granix Cebolla x 45gr|39.0|Snacks > Otros|/2020/07/veggie-snacks-cebolla-45g.jpg|/veggie-snacks-granix-cebolla-x-45-grs/

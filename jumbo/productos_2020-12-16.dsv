@@ -1314,7 +1314,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 13166|MAROLIO|Fideos Spaghetti Marolio 500gr|48.2||||$ 48,20|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|539292-512-512|fideos-marolio-spaghetti-secos-c-curcuma-x500g/p
 13024|GAROFALO|Fideos Spaghetti Garofalo 500gr|316.0||||$ 316,00|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|422262-512-512|spaghetti-garofalo-largo-paquete-500-grs/p
 13233|CICA|Fideos Cica Spaghetti 500gr|47.13||||$ 47,13|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|186659-512-512|fideos-cica-spaghetti-x-500-grs/p
-13005|BARILLA|Fideos Spaghetti Integrales Barilla 500gr|381.0||||$ 381,00|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|183100-512-512|fideos-integrales-barilla/p
+13491|BARILLA|Fideos Spaghetti Integrales Barilla 500gr|381.0||||$ 381,00|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|183100-512-512|fideos-integrales-barilla/p
 13294|DORITOS|Doritos Queso 250gr|218.48||||$ 218,48|Almacén > Snacks > Nachos|549624-512-512|doritos-queso-250-gr/p
 13084|CHEETOS|Cheetos Queso 165gr|116.52||||$ 116,52|Almacén > Snacks > Palitos de Maíz|549633-512-512|palitos-de-maiz-cheetos-8/p
 01491|CHEETOS|Palitos De Maíz Cheetos 250gr|183.6||||$ 183,60|Almacén > Snacks > Palitos de Maíz|606306-512-512|palitos-de-maiz-cheetos-250gr/p
@@ -1439,7 +1439,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 01510|DORITOS|Doritos Queso 230gr|265.0||||$ 265,00|Almacén > Snacks > Snacks|615367-512-512|doritos-queso-230g/p
 01545|GALLO|Galletitas Gallo Snacks Queso - 100gr|100.78||||$ 100,78|Almacén > Snacks > Snacks|601920-512-512|galletitas-gallo-snacks-queso-100-gr/p
 01548|GALLO|Galletitas Gallo Snacks Queso 50gr|63.65||||$ 63,65|Almacén > Snacks > Snacks|601918-512-512|galletitas-gallo-snacks-queso-50-gr/p
-13202|MACRITAS|Snacks Nachos Restaurant Style Macritas 90gr|106.12||||$ 106,12|Almacén > Snacks > Snacks|538480-512-512|nachos-restaurant-style-macritas-bsa-x-90gr/p
+13082|MACRITAS|Snacks Nachos Restaurant Style Macritas 90gr|106.12||||$ 106,12|Almacén > Snacks > Snacks|538480-512-512|nachos-restaurant-style-macritas-bsa-x-90gr/p
 01544|DORITOS|Doritos Queso 135gr|177.0||||$ 177,00|Almacén > Snacks > Snacks|615366-512-512|doritos-queso-135g/p
 13204|Nuestros Sabores|Chips De Zanahoria Con Sal Marina Nuestros Sab|54.1||||$ 54,10|Almacén > Snacks > Snacks|575027-512-512|chips-de-zanahoria-con-sal-marina-nuestros-sab/p
 13559|SALADIX|Saladix Cross 74gr|46.82||||$ 46,82|Almacén > Snacks > Snacks|583109-512-512|saladix-cross-x-74g/p
@@ -1510,15 +1510,15 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 13239|SCHAR|Grisines Schar Grissini 150gr|294.58||||$ 294,58|Almacén > Libre de Gluten|574257-512-512|grisines-schar-grissini-150-gr/p
 13253|VIAVITA|Chalitas Viavita Con Semillas x 100gr Sin Tac|64.17||||$ 64,17|Almacén > Libre de Gluten|564569-512-512|chalitas-viavita-con-semillas-x-100grs-sin-tac/p
 01599|GALLO|Gallo Snacks Bizcochos De Arroz Salados 100gr|80.34||||$ 80,34|Almacén > Libre de Gluten|601791-512-512|gallo-snacks-bizcochos-de-arroz-salados-100-gr/p
-01622|GALLO|Grallo Snacks Crackeadas 100gr|77.95||||$ 77,95|Almacén > Libre de Gluten|601910-512-512|grallo-snacks-crackeadas-100-gr/p
+00604|GALLO|Grallo Snacks Crackeadas 100gr|77.95||||$ 77,95|Almacén > Libre de Gluten|601910-512-512|grallo-snacks-crackeadas-100-gr/p
 13242|GRANDIET|Discos De Arroz Sin Sal Grandiet 100gr|56.77||||$ 56,77|Almacén > Libre de Gluten|422138-512-512|discos-grandiet-de-arroz-3/p
 13243|GRANDIET|Discos De Arroz Dulce Grandiet 100gr|56.77||||$ 56,77|Almacén > Libre de Gluten|526103-512-512|discos-grandiet-de-arroz-2/p
 13247|Crisppino|Galletita Cracker Crisppino Clasica Sin Salx|65.95||||$ 65,95|Almacén > Libre de Gluten|589067-512-512|galletita-cracker-crisppino-clasica-sin-salx/p
 13462|Crisppino|Galletitas Snack Crisppino Mini Jamón 50gr|47.03||||$ 47,03|Almacén > Libre de Gluten|187503-512-512|galletitas-snack-crisppino-mini-jamon-bolsa-x-50g/p
 13463|Crisppino|Galletitas Snack Crisppino Mini Queso 50gr|47.03||||$ 47,03|Almacén > Libre de Gluten|187506-512-512|galletitas-snack-crisppino-mini-queso-bolsa-x-50g/p
 13464|Crisppino|Galletitas Snack Crisppino Mini Crema y Ciboulette 50gr|47.03||||$ 47,03|Almacén > Libre de Gluten|187510-512-512|galletitas-snack-crisppino-mini-crema-y-ciboulette-bolsa-x-50g/p
-13465|Crisppino|Snack Crisppino Mini Oliva y Hierbas Bolsa 50gr|47.03||||$ 47,03|Almacén > Libre de Gluten|412924-512-512|snack-crisppino-mini-oliva-y-hierbas-bolsa-x-5/p
-13124|CUISINE & CO NBE MP|Mini Tostaditas De Arroz Sin Sal 120gr Cuisine & Co|58.92||||$ 58,92|Almacén > Libre de Gluten|601166-512-512|mini-tostaditas-de-arroz-sin-sal-120-gr-cuisine-co/p
+12340|Crisppino|Snack Crisppino Mini Oliva y Hierbas Bolsa 50gr|47.03||||$ 47,03|Almacén > Libre de Gluten|412924-512-512|snack-crisppino-mini-oliva-y-hierbas-bolsa-x-5/p
+12509|CUISINE & CO NBE MP|Mini Tostaditas De Arroz Sin Sal 120gr Cuisine & Co|58.92||||$ 58,92|Almacén > Libre de Gluten|601166-512-512|mini-tostaditas-de-arroz-sin-sal-120-gr-cuisine-co/p
 13125|CUISINE & CO NBE MP|Mini Tostaditas De Arroz Con Sal 120gr Cuisine & Co|58.92||||$ 58,92|Almacén > Libre de Gluten|601165-512-512|mini-tostaditas-de-arroz-con-sal-120-gr-cuisine-co/p
 13282|KNORR|Sabor Al Horno Knorr Limón y Orégano Sin Conservantes 21gr|75.85||||$ 75,85|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|605643-512-512|sabor-al-horno-knorr-limon-y-oregano-sin-conservantes-21-gr/p
 13417|KNORR|Caldo Knorr De Verduras 12 Cubos|84.79||||$ 84,79|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|605425-512-512|caldo-knorr-de-verduras-12-cubos/p
@@ -1541,22 +1541,22 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 13448|KNORR|Caldo De Gallina Knorr 4un|48.8||||$ 48,80|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|557923-512-512|caldo-knorr-x-4-un-2/p
 13292|KNORR|Caldo Knorr De Gallina 6un|40.3||||$ 40,30|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|521750-512-512|caldo-knorr-suiza-gallina/p
 13266|CORNY|Barra De Cereal Corny Yoghurt 150gr|263.68||||$ 263,68|Almacén > Importados|196473-512-512|barra-de-cereal-corny-2/p
-13275|LA VIEJA FABRICA|Mermelada La Vieja Fábrica Frutilla 350gr|297.0||||$ 297,00|Almacén > Importados|190854-512-512|mermelada-la-vieja-fabrica-4/p
-01615|BARILLA|Fideos Spaghettoni Barilla 500gr|332.0||||$ 332,00|Almacén > Importados|177339-512-512|fideos-barilla-largos/p
-01616|BARILLA|Fideos Barilla Largos De Sémola Spaghettini N°3 500gr|332.0||||$ 332,00|Almacén > Importados|177341-512-512|fideos-barilla-largos-de-semola-spaghettini-n-3-500-gr/p
-01617|BARILLA|Fideos Spaghetti Barilla 500gr|332.0||||$ 332,00|Almacén > Importados|192262-512-512|fideos-barilla-largos-5/p
-01618|BARILLA|Fideos Bavette Barilla 500gr|332.0||||$ 332,00|Almacén > Importados|192248-512-512|fideos-barilla-largos-4/p
-01619|GAROFALO|Fideos Spaghetti Garofalo 500gr|316.0||||$ 316,00|Almacén > Importados|188387-512-512|spaghettini-garofalo-largo-paquete-500-grs/p
-01620|GAROFALO|Fideos Spaghetti Garofalo 500gr|316.0||||$ 316,00|Almacén > Importados|422262-512-512|spaghetti-garofalo-largo-paquete-500-grs/p
-13501|BARILLA|Fideos Fusilli Barilla 500gr|366.0||||$ 366,00|Almacén > Importados|177314-512-512|fideos-barilla-guiseros/p
-13502|BARILLA|Fideos Farfalle Barilla 500gr|366.0||||$ 366,00|Almacén > Importados|177325-512-512|fideos-barilla-guiseros-2/p
-13535|BARILLA|Fideos Penne Rigate Barilla 500gr|366.0||||$ 366,00|Almacén > Importados|177327-512-512|fideos-barilla-guiseros-3/p
-13427|BARILLA|Fideos Barilla De Semola Guiseros Tortiglioni Caja 500gr|366.0||||$ 366,00|Almacén > Importados|422213-512-512|fideos-barilla-guiseros-4/p
-13428|GAROFALO|Fideos Fusilli Garofalo Corto 500gr|348.14||||$ 348,14|Almacén > Importados|188386-512-512|fusilli-garofalo-corto-paquete-500-grs/p
+12187|LA VIEJA FABRICA|Mermelada La Vieja Fábrica Frutilla 350gr|297.0||||$ 297,00|Almacén > Importados|190854-512-512|mermelada-la-vieja-fabrica-4/p
+13007|BARILLA|Fideos Spaghettoni Barilla 500gr|332.0||||$ 332,00|Almacén > Importados|177339-512-512|fideos-barilla-largos/p
+13016|BARILLA|Fideos Barilla Largos De Sémola Spaghettini N°3 500gr|332.0||||$ 332,00|Almacén > Importados|177341-512-512|fideos-barilla-largos-de-semola-spaghettini-n-3-500-gr/p
+12987|BARILLA|Fideos Spaghetti Barilla 500gr|332.0||||$ 332,00|Almacén > Importados|192262-512-512|fideos-barilla-largos-5/p
+12992|BARILLA|Fideos Bavette Barilla 500gr|332.0||||$ 332,00|Almacén > Importados|192248-512-512|fideos-barilla-largos-4/p
+13003|GAROFALO|Fideos Spaghetti Garofalo 500gr|316.0||||$ 316,00|Almacén > Importados|188387-512-512|spaghettini-garofalo-largo-paquete-500-grs/p
+13024|GAROFALO|Fideos Spaghetti Garofalo 500gr|316.0||||$ 316,00|Almacén > Importados|422262-512-512|spaghetti-garofalo-largo-paquete-500-grs/p
+12916|BARILLA|Fideos Fusilli Barilla 500gr|366.0||||$ 366,00|Almacén > Importados|177314-512-512|fideos-barilla-guiseros/p
+12915|BARILLA|Fideos Farfalle Barilla 500gr|366.0||||$ 366,00|Almacén > Importados|177325-512-512|fideos-barilla-guiseros-2/p
+12914|BARILLA|Fideos Penne Rigate Barilla 500gr|366.0||||$ 366,00|Almacén > Importados|177327-512-512|fideos-barilla-guiseros-3/p
+12925|BARILLA|Fideos Barilla De Semola Guiseros Tortiglioni Caja 500gr|366.0||||$ 366,00|Almacén > Importados|422213-512-512|fideos-barilla-guiseros-4/p
+12924|GAROFALO|Fideos Fusilli Garofalo Corto 500gr|348.14||||$ 348,14|Almacén > Importados|188386-512-512|fusilli-garofalo-corto-paquete-500-grs/p
 13429|GAROFALO|Fideos Penne Rigate Garofalo Corto 500gr|348.14||||$ 348,14|Almacén > Importados|188380-512-512|penne-ziti-rigate-garofalo-corto/p
-13490|BARILLA|Fideos Barilla Nidos Al Huevo Tagliatelle 500gr|576.0||||$ 576,00|Almacén > Importados|432468-512-512|fideos-barilla-nidos-al-huevo/p
+13002|BARILLA|Fideos Barilla Nidos Al Huevo Tagliatelle 500gr|576.0||||$ 576,00|Almacén > Importados|432468-512-512|fideos-barilla-nidos-al-huevo/p
 13491|BARILLA|Fideos Spaghetti Integrales Barilla 500gr|381.0||||$ 381,00|Almacén > Importados|183100-512-512|fideos-integrales-barilla/p
-13492|BARILLA|Fideos Integrales Pennette Rigate Barilla 500gr|433.0||||$ 433,00|Almacén > Importados|183208-512-512|fideos-integrales-pennette-rigate-barilla-500-gr/p
+13004|BARILLA|Fideos Integrales Pennette Rigate Barilla 500gr|433.0||||$ 433,00|Almacén > Importados|183208-512-512|fideos-integrales-pennette-rigate-barilla-500-gr/p
 13487|GAROFALO|Capellini Garofalo 500gr|316.0||||$ 316,00|Almacén > Importados|188375-512-512|capellini-garofalo-largo/p
 13490|KNORR|Sopa Instantánea Knorr Quick Vegetales Light 5 Sobres - 52,52gr|124.54||||$ 124,54|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Sopas|605434-512-512|sopa-instantanea-knorr-quick-vegetales-light-5-sobres-52-5-gr/p
 13464|KNORR|Sopa Knorr Verduras Con Fideos Dedalitos 115gr|78.11||||$ 78,11|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Sopas|605724-512-512|sopa-knorr-verduras-con-fideos-dedalitos/p
@@ -1987,7 +1987,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 13662|TERMA|Amargo Terma Pomelo 1,1lt|103.48||||$ 103,48|Bebidas > A Base de Hierbas|557935-512-512|bebida-a-base-de-hierbas-terma-pomelo/p
 13670|TERMA|Amargo Terma Cuyano 1,1lt|103.48||||$ 103,48|Bebidas > A Base de Hierbas|557937-512-512|bebida-a-base-de-hierbas-terma-cuyano/p
 13663|TERMA|Amargo Terma Patagónico 1,1lt|103.48||||$ 103,48|Bebidas > A Base de Hierbas|557939-512-512|amargo-terma-patagonico-1-35-l/p
-13668|ENERGY DRINK|Bebida Energizante Speed Unlimited 250ml - Pack 4|214.24||||$ 214,24|Bebidas > A Base de Hierbas|182015-512-512|bebida-speed-unlimited-x-4-un/p
+13654|ENERGY DRINK|Bebida Energizante Speed Unlimited 250ml - Pack 4|214.24||||$ 214,24|Bebidas > A Base de Hierbas|182015-512-512|bebida-speed-unlimited-x-4-un/p
 13676|TERMA|Amargo Terma Serrano 1,1lt|103.48||||$ 103,48|Bebidas > A Base de Hierbas|558053-512-512|bebida-a-base-de-hierbas-terma-serrano/p
 14032|MONSTER|Energizante Monster Ultra Sunrise 473cc|84.62||||$ 84,62|Bebidas > A Base de Hierbas|615322-512-512|energizante-monster-ultra-sunrise-473cc/p
 02013|RED BULL|Energizante Red Bull Sugar Free 250ml Lata|88.81||||$ 88,81|Bebidas > A Base de Hierbas|589159-512-512|energizante-red-bull-sugar-free-250-ml-lata/p
@@ -2069,7 +2069,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 13776|POWERADE|Bebida Isotónica Powerade Manzana 500ml|48.36||||$ 48,36|Bebidas > Isotónicas|580596-512-512|bebida-isotonica-powerade-manzana-500-ml/p
 14142|GATORADE|Istotónica Gatorade Frutas Tropicales 500ml|68.61||||$ 68,61|Bebidas > Isotónicas|588375-512-512|istotonica-gatorade-frutas-tropicales-500-ml/p
 13773|GATORADE|Istotónica Gatorade Naranja 500ml|65.97||||$ 65,97|Bebidas > Isotónicas|588368-512-512|istotonica-gatorade-naranja-500-ml/p
-13780|ENERGY DRINK|Bebida Energizante Speed Unlimited 250ml - Pack 4|214.24||||$ 214,24|Bebidas > Isotónicas|182015-512-512|bebida-speed-unlimited-x-4-un/p
+13654|ENERGY DRINK|Bebida Energizante Speed Unlimited 250ml - Pack 4|214.24||||$ 214,24|Bebidas > Isotónicas|182015-512-512|bebida-speed-unlimited-x-4-un/p
 13775|POWERADE|Bebida Isotónica Powerade Mountain Blast 995ml|67.48||||$ 67,48|Bebidas > Isotónicas|580610-512-512|bebida-isotonica-powerade-mountain-blast-995-ml/p
 14052|POWERADE|Bebida Isotónica Powerade Mountain Blast 1,5lt|92.79||||$ 92,79|Bebidas > Isotónicas|614678-512-512|bebida-isotonica-powerade-mountain-blast-1-5-lt/p
 02248|DANONE|Agua Villa Del Sur Sin Gas 600cc|64.67||||$ 64,67|Bebidas > Isotónicas|583179-512-512|agua-villa-del-sur-sin-gas-600cc/p
@@ -2757,7 +2757,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 14554|SIN MARCA|Tabla Alemana|2.799||||$ 2.799,00|Quesos y Fiambres > Picadas|535535-512-512|tabla-alemana/p
 14555|SIN MARCA|Tabla Amigos|3.199||||$ 3.199,00|Quesos y Fiambres > Picadas|535534-512-512|tabla-amigos/p
 14556|SIN MARCA|Tabla Capresse|3.899||||$ 3.899,00|Quesos y Fiambres > Picadas|535532-512-512|tabla-capresse/p
-14557|SIN MARCA|Tabla Tradicional|1.099||||$ 1.099,00|Quesos y Fiambres > Picadas|535540-512-512|tabla-tradicional/p
+14306|SIN MARCA|Tabla Tradicional|1.099||||$ 1.099,00|Quesos y Fiambres > Picadas|535540-512-512|tabla-tradicional/p
 14558|SIN MARCA|Tabla Porteña|2.999||||$ 2.999,00|Quesos y Fiambres > Picadas|535538-512-512|tabla-portena/p
 14559|SIN MARCA|Tabla De Quesos y Fiambres|3.499||||$ 3.499,00|Quesos y Fiambres > Picadas|535537-512-512|tabla-de-quesos-y-fiambres-3/p
 02897|LA SERENISIMA|Crema Para Batir La Serenisima 330cc|146.77||||$ 146,77|Lácteos > Cremas|580279-512-512|crema-para-batir-la-serenisima-330-cc/p
@@ -3991,21 +3991,21 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 15791|PORTA|Alcohol Fino Porta Puro 500ml|130.14||||$ 130,14|Perfumería > Cuidado Personal > Higiene Preventiva|567479-512-512|alcohol-fino-porta-2/p
 15794|ESPADOL|Alcohol En Gel Antibacterial Original Espadol Dettol 50ml|133.12||||$ 133,12|Perfumería > Cuidado Personal > Higiene Preventiva|506714-512-512|alcohol-en-gel-antibacterial-original-espadol-dettol-50ml/p
 04200|LYSOFORM|Lysoform Sanitizante Para Manos Refresh 47ml|181.92||||$ 181,92|Perfumería > Cuidado Personal > Higiene Preventiva|431492-512-512|lysoform-sanitizante-para-manos-refresh-47-ml/p
-15797|LYSOFORM|Jabón Líquido Para Manos Lysoform Refresh 250ml|242.2||||$ 242,20|Perfumería > Cuidado Personal > Higiene Preventiva|431495-512-512|jabon-liquido-para-manos-lysoform-refresh-250-ml/p
+15728|LYSOFORM|Jabón Líquido Para Manos Lysoform Refresh 250ml|242.2||||$ 242,20|Perfumería > Cuidado Personal > Higiene Preventiva|431495-512-512|jabon-liquido-para-manos-lysoform-refresh-250-ml/p
 15703|LYSOFORM|Jabón En Barra Lysoform Refresh 90gr|75.24||||$ 75,24|Perfumería > Cuidado Personal > Higiene Preventiva|526239-512-512|jabon-en-barra-lysoform-refresh-90-gr/p
-15798|LYSOFORM|Jabón Líquido Para Manos Lysoform Refresh 250ml Repuesto|160.39||||$ 160,39|Perfumería > Cuidado Personal > Higiene Preventiva|431503-512-512|jabon-liquido-para-manos-lysoform-refresh-250-ml-repuesto/p
+15727|LYSOFORM|Jabón Líquido Para Manos Lysoform Refresh 250ml Repuesto|160.39||||$ 160,39|Perfumería > Cuidado Personal > Higiene Preventiva|431503-512-512|jabon-liquido-para-manos-lysoform-refresh-250-ml-repuesto/p
 15799|JUMBO FAMILY CARE MP|Sanitizante Para Manos Fresias 65ml|96.77||||$ 96,77|Perfumería > Cuidado Personal > Higiene Preventiva|179369-512-512|sanitizante-para-manos-fresias/p
 15801|LIFEBUOY|Jabón Antibacterial Lifebuoy Total 10 3x125Gr|175.46||||$ 175,46|Perfumería > Cuidado Personal > Higiene Preventiva|605622-512-512|jabon-de-tocador-lifebuoy-12/p
 15802|LIFEBUOY|Jabón Antibacterial Lifebuoy Cream 125gr|72.12||||$ 72,12|Perfumería > Cuidado Personal > Higiene Preventiva|605621-512-512|jabon-de-tocador-lifebuoy-11/p
-04204|PROTEX|Jabón Líquido Para Manos Protex Avena 500ml|371.36||||$ 371,36|Perfumería > Cuidado Personal > Higiene Preventiva|603728-512-512|jabon-liquido-para-manos-protex-avena-500-ml-2/p
+04040|PROTEX|Jabón Líquido Para Manos Protex Avena 500ml|371.36||||$ 371,36|Perfumería > Cuidado Personal > Higiene Preventiva|603728-512-512|jabon-liquido-para-manos-protex-avena-500-ml-2/p
 04206|PROTEX|Jabón En Barra Protex Aloe 125gr|81.81||||$ 81,81|Perfumería > Cuidado Personal > Higiene Preventiva|477696-512-512|jabon-en-barra-protex-aloe-125-gr/p
-04211|PROTEX|Jabon De Tocador Protex Pro-hidrata 85gr|68.89||||$ 68,89|Perfumería > Cuidado Personal > Higiene Preventiva|547803-512-512|jabon-de-tocador-protex-pro-hidrata-85-gr/p
+15997|PROTEX|Jabon De Tocador Protex Pro-hidrata 85gr|68.89||||$ 68,89|Perfumería > Cuidado Personal > Higiene Preventiva|547803-512-512|jabon-de-tocador-protex-pro-hidrata-85-gr/p
 04212|PROTEX|Jabón En Barra Protex Omega 3 125gr|81.81||||$ 81,81|Perfumería > Cuidado Personal > Higiene Preventiva|603738-512-512|jabon-en-barra-protex-omega-3-125-gr-2/p
 04214|ESPADOL|Jabón De Tocador Antibacterial Skincare Espadol Dettol 90gr x 1un|76.42||||$ 76,42|Perfumería > Cuidado Personal > Higiene Preventiva|520423-512-512|jabon-de-tocador-antibacterial-skincare-espadol-dettol-90grs-x-1u/p
 04215|ESPADOL|Jabón De Tocador Antibacterial Exfoliante Espadol Dettol 90gr x 1un|76.43||||$ 76,43|Perfumería > Cuidado Personal > Higiene Preventiva|539364-512-512|jabon-de-tocador-antibacterial-exfoliante-espadol-dettol-90grs-x-1u/p
-16169|ESPADOL|Jabón De Tocador Antibacterial Active Deo Espadol Dettol 90gr x 3un|213.13||||$ 213,13|Perfumería > Cuidado Personal > Higiene Preventiva|527163-512-512|jabon-de-tocador-antibacterial-active-deo-espadol-dettol-90grs-x-3u/p
+15737|ESPADOL|Jabón De Tocador Antibacterial Active Deo Espadol Dettol 90gr x 3un|213.13||||$ 213,13|Perfumería > Cuidado Personal > Higiene Preventiva|527163-512-512|jabon-de-tocador-antibacterial-active-deo-espadol-dettol-90grs-x-3u/p
 15715|ESPADOL|Jabón De Tocador Antibacterial Original Espadol Dettol 90gr x 1un|76.42||||$ 76,42|Perfumería > Cuidado Personal > Higiene Preventiva|520500-512-512|jabon-de-tocador-antibacterial-original-espadol-dettol-90grs-x-1u/p
-15716|ESPADOL|Jabón De Tocador Antibacterial Cremoso Espadol Dettol 90gr x 1un|76.42||||$ 76,42|Perfumería > Cuidado Personal > Higiene Preventiva|527158-512-512|jabon-de-tocador-antibacterial-cremoso-espadol-dettol-90grs-x-1u/p
+04055|ESPADOL|Jabón De Tocador Antibacterial Cremoso Espadol Dettol 90gr x 1un|76.42||||$ 76,42|Perfumería > Cuidado Personal > Higiene Preventiva|527158-512-512|jabon-de-tocador-antibacterial-cremoso-espadol-dettol-90grs-x-1u/p
 15810|ESTRELLA|Desmaquillador Estrella 80un|103.98||||$ 103,98|Perfumería > Cuidado de la Piel > Cremas Desmaquillantes|178401-512-512|desmaquillador-estrella/p
 15814|NEUTROGENA|Toallitas Desmaquillantes Neutrogena® Night Calming x 25un|270.12||||$ 270,12|Perfumería > Cuidado de la Piel > Cremas Desmaquillantes|585653-512-512|toallitas-desmaquillantes-neutrogena-night-calming-x-25-u/p
 04231|GARNIER|Mascara Garnier Skin Active Pure Carbon|292.73||||$ 292,73|Perfumería > Cuidado de la Piel > Cremas Desmaquillantes|522456-512-512|mascara-garnier-skin-active-pure-carbon/p
@@ -4249,7 +4249,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 16192|PLENITUD|Protector De Cama Plenitud 8un|532.82||||$ 532,82|Perfumería > Farmacia > Apósitos|590334-512-512|protector-de-cama-plenitud-8-u/p
 16188|CURITAS|Apósito Curitas Mickey 20un|160.39||||$ 160,39|Perfumería > Farmacia > Apósitos|579055-512-512|aposito-curitas/p
 16151|AKTIOL|Alcohol En Aerosol Aktiol 143ml|175.76||||$ 175,76|Perfumería > Farmacia > Alcohol|615503-512-512|alcohol-en-aerosol-aktiol-143-ml/p
-16149|PORTA|Alcohol Fino Porta Puro 500ml|130.14||||$ 130,14|Perfumería > Farmacia > Alcohol|567479-512-512|alcohol-fino-porta-2/p
+15791|PORTA|Alcohol Fino Porta Puro 500ml|130.14||||$ 130,14|Perfumería > Farmacia > Alcohol|567479-512-512|alcohol-fino-porta-2/p
 04398|REXONA|Alcohol En Aerosol Rexona Antibacterial 75ml|129.17||||$ 129,17|Perfumería > Farmacia > Alcohol|595246-512-512|alcohol-en-aerosol-rexona-antibacterial-75-ml/p
 04399|REXONA|Alcohol En Spray Rexona Antibacterial 125ml|161.46||||$ 161,46|Perfumería > Farmacia > Alcohol|595245-512-512|alcohol-en-spray-rexona-antibacterial-125-ml/p
 16152|BIALCOHOL|Bialcohol 70° 500ml|143.27||||$ 143,27|Perfumería > Farmacia > Alcohol|582581-512-512|bialcohol-70-500ml/p
@@ -4258,8 +4258,8 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 16154|Alcospray|Alcohol Al 70 Alcospray 70ml|107.12||||$ 107,12|Perfumería > Farmacia > Alcohol|599678-512-512|alcohol-al-70-alcospray-70ml/p
 16160|Dr.Farma|Alchon En Gel Dr.farma 50ml|92.56||||$ 92,56|Perfumería > Farmacia > Alcohol|583628-512-512|alchon-en-gel-dr-farma-50-ml/p
 16161|Dr.Farma|Alchon En Gel Dr.farma 150ml|186.16||||$ 186,16|Perfumería > Farmacia > Alcohol|583627-512-512|alchon-en-gel-dr-farma-150-ml/p
-04403|LYSOFORM|Lysoform Sanitizante Para Manos Refresh 47ml|181.92||||$ 181,92|Perfumería > Farmacia > Alcohol|431492-512-512|lysoform-sanitizante-para-manos-refresh-47-ml/p
-16155|ESPADOL|Alcohol En Gel Antibacterial Original Espadol Dettol 50ml|133.12||||$ 133,12|Perfumería > Farmacia > Alcohol|506714-512-512|alcohol-en-gel-antibacterial-original-espadol-dettol-50ml/p
+04200|LYSOFORM|Lysoform Sanitizante Para Manos Refresh 47ml|181.92||||$ 181,92|Perfumería > Farmacia > Alcohol|431492-512-512|lysoform-sanitizante-para-manos-refresh-47-ml/p
+15794|ESPADOL|Alcohol En Gel Antibacterial Original Espadol Dettol 50ml|133.12||||$ 133,12|Perfumería > Farmacia > Alcohol|506714-512-512|alcohol-en-gel-antibacterial-original-espadol-dettol-50ml/p
 16158|Germex|Alcohol En Gel Germex 250ml|101.0||||$ 101,00|Perfumería > Farmacia > Alcohol|597659-512-512|alcohol-en-gel-germex-250ml/p
 04408|VILLENEUVE|Alcohol En Gel Villeneuve 200ml|165.36||||$ 165,36|Perfumería > Farmacia > Alcohol|616786-512-512|alcohol-en-gel-villeneuve-200-ml/p
 16162|Dr.Farma|Alchon En Gel Dr.farma 80ml|144.56||||$ 144,56|Perfumería > Farmacia > Alcohol|583626-512-512|alchon-en-gel-dr-farma-80-ml/p
@@ -4268,7 +4268,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 16398|ALGABO|Alcohol En Gel Star Wars 75ml|118.29||||$ 118,29|Perfumería > Farmacia > Alcohol|577665-512-512|alcohol-en-gel-star-wars-75-ml/p
 16156|ORGANIC SPA|Alcohol En Gel Organic Spa Sin Aroma 200gr|196.56||||$ 196,56|Perfumería > Farmacia > Alcohol|582127-512-512|alcohol-en-gel-organic-spa-sin-aroma-200-gr/p
 16173|ALGABO|Alcohol En Gel Algabo Humectante 75ml|151.84||||$ 151,84|Perfumería > Farmacia > Alcohol|577670-512-512|alcohol-en-gel-algabo-humectante-75-ml/p
-16168|JUMBO FAMILY CARE MP|Sanitizante Para Manos Fresias 65ml|96.77||||$ 96,77|Perfumería > Farmacia > Alcohol|179369-512-512|sanitizante-para-manos-fresias/p
+15799|JUMBO FAMILY CARE MP|Sanitizante Para Manos Fresias 65ml|96.77||||$ 96,77|Perfumería > Farmacia > Alcohol|179369-512-512|sanitizante-para-manos-fresias/p
 16170|OTOWIL|Alcohol En Gel Oto 250ml|260.0||||$ 260,00|Perfumería > Farmacia > Alcohol|589102-512-512|alcohol-en-gel-oto-250-ml/p
 16337|SIN MARCA|Alcoprotect Alcohol En Gel 250ml|155.17||||$ 155,17|Perfumería > Farmacia > Alcohol|582583-512-512|alcoprotect-alcohol-en-gel-250-ml/p
 16171|ORGANIC SPA|Alcohol En Gel Organic Spa Citrus 200gr|206.96||||$ 206,96|Perfumería > Farmacia > Alcohol|582129-512-512|alcohol-en-gel-organic-spa-citrus-200-gr/p

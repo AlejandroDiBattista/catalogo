@@ -550,11 +550,11 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 12497|JUMBO MP|Grisines Clásicos Jumbo 200gr|93.73||||$ 93,73|Almacén > Desayuno y Merienda > Galletitas Saladas|205232-512-512|grisines-clasicos-jumbo/p
 12345|EXPRESS|Galletitas Terrabusi Express Clasica 324gr|92.12||||$ 92,12|Almacén > Desayuno y Merienda > Galletitas Saladas|569219-512-512|galletitas-express-de-agua-3/p
 12137|EXPRESS|Galletitas Terrabusi Express Clasica 540gr|148.9||||$ 148,90|Almacén > Desayuno y Merienda > Galletitas Saladas|569218-512-512|galletitas-express-de-agua-2/p
-00584|GALLO|Gallo Snacks Bizcochos De Arroz Salados 100gr|80.34||||$ 80,34|Almacén > Desayuno y Merienda > Galletitas Saladas|601791-512-512|gallo-snacks-bizcochos-de-arroz-salados-100-gr/p
+01599|GALLO|Gallo Snacks Bizcochos De Arroz Salados 100gr|80.34||||$ 80,34|Almacén > Desayuno y Merienda > Galletitas Saladas|601791-512-512|gallo-snacks-bizcochos-de-arroz-salados-100-gr/p
 12552|MEDIA TARDE|Galletitas De Agua Media Tarde|21.42||||$ 21,42|Almacén > Desayuno y Merienda > Galletitas Saladas|583032-512-512|galletitas-de-agua-media-tarde/p
 12499|DON SATUR|Bizcochos Light Don Satur 170gr|46.6||||$ 46,60|Almacén > Desayuno y Merienda > Galletitas Saladas|191196-512-512|bizcochos-don-satur-light-x170grs/p
 12427|JORGITO|Bizcochos Jorgito De Grasa 400gr|81.31||||$ 81,31|Almacén > Desayuno y Merienda > Galletitas Saladas|188794-512-512|bizcochos-jorgito-paq-400-gr/p
-00588|Crisppino|Galletitas Snack Crisppino Mini Crema y Ciboulette 50gr|47.03||||$ 47,03|Almacén > Desayuno y Merienda > Galletitas Saladas|187510-512-512|galletitas-snack-crisppino-mini-crema-y-ciboulette-bolsa-x-50g/p
+13464|Crisppino|Galletitas Snack Crisppino Mini Crema y Ciboulette 50gr|47.03||||$ 47,03|Almacén > Desayuno y Merienda > Galletitas Saladas|187510-512-512|galletitas-snack-crisppino-mini-crema-y-ciboulette-bolsa-x-50g/p
 12166|LA CAMPAGNOLA|Mermelada Bc La Campagnola Frutilla 390gr|172.3||||$ 172,30|Almacén > Desayuno y Merienda > Mermeladas y Jaleas|584758-512-512|mermelada-la-campagnola-b-c-5/p
 12168|LA CAMPAGNOLA|Mermelada Bc La Campagnola Durazno 390gr|133.43||||$ 133,43|Almacén > Desayuno y Merienda > Mermeladas y Jaleas|584750-512-512|mermelada-la-campagnola-b-c-3/p
 12172|LA CAMPAGNOLA|Mermelada Bc La Campagnola Naranja 390gr|133.43||||$ 133,43|Almacén > Desayuno y Merienda > Mermeladas y Jaleas|584759-512-512|mermelada-la-campagnola-b-c-6/p
@@ -1265,7 +1265,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 13345|La Providencia|Fideos Codos La Providencia|36.36||||$ 36,36|Almacén > Pastas Secas y Salsas > Pastas Secas Guiseras|203577-512-512|fideos-codos-la-providencia/p
 12909|KNORR|Fideos Tirabuzón Knorr Trigo Candeal 500gr|61.06||||$ 61,06|Almacén > Pastas Secas y Salsas > Pastas Secas Guiseras|521844-512-512|fideos-knorr-tirabuzon-de-trigo-candeal-x500-grs/p
 12910|KNORR|Fideos Rigatti Knorr Trigo Candeal 500gr|61.06||||$ 61,06|Almacén > Pastas Secas y Salsas > Pastas Secas Guiseras|193803-512-512|fideos-rigatti-knorr-trigo-candeal-500-gr/p
-12863|GAROFALO|Fideos Penne Rigate Garofalo Corto 500gr|348.14||||$ 348,14|Almacén > Pastas Secas y Salsas > Pastas Secas Guiseras|188380-512-512|penne-ziti-rigate-garofalo-corto/p
+13429|GAROFALO|Fideos Penne Rigate Garofalo Corto 500gr|348.14||||$ 348,14|Almacén > Pastas Secas y Salsas > Pastas Secas Guiseras|188380-512-512|penne-ziti-rigate-garofalo-corto/p
 01411|JUMBO MP|Fideos Cabello De Angel Jumbo Trigo Candeal 500gr|62.13||||$ 62,13|Almacén > Pastas Secas y Salsas > Pastas Secas Guiseras|557930-512-512|fideos-cabello-de-angel-trigo-candial-pasta-nido-gr-500-paq/p
 13351|Paese|Fideos De Sémola Conchiglie Duro Paese 500gr|223.88||||$ 223,88|Almacén > Pastas Secas y Salsas > Pastas Secas Guiseras|179125-512-512|fideos-de-semola-de-grano-duropaese-conchiglie-n-36x500g/p
 13294|DORITOS|Doritos Queso 250gr|218.48||||$ 218,48|Almacén > Snacks > Nachos|549624-512-512|doritos-queso-250-gr/p
@@ -1336,7 +1336,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 13021|WAKAS|Pastas Con Legumbres Wakas Arvejas Con Chia 250gr|192.82||||$ 192,82|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|587931-512-512|pastas-con-legumbres-wakas-arvejas-con-chia-250-gr/p
 01259|La Providencia|Fideos Tallarin La Providencia 500gr|35.35||||$ 35,35|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|202969-512-512|fideos-tallarin-la-providencia-500-gr/p
 13000|KNNOR|Fideos Spaghetti Knorr 500gr|61.06||||$ 61,06|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|193955-512-512|fideos-knorr-spaghetti-de-trigo-candeal-x500-grs/p
-13005|BARILLA|Fideos Spaghetti Integrales Barilla 500gr|381.0||||$ 381,00|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|183100-512-512|fideos-integrales-barilla/p
+13491|BARILLA|Fideos Spaghetti Integrales Barilla 500gr|381.0||||$ 381,00|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|183100-512-512|fideos-integrales-barilla/p
 13013|WAKAS|Pasta Multicereal Wakas 250gr|134.97||||$ 134,97|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|179226-512-512|pasta-multicereal-wakas/p
 13016|BARILLA|Fideos Barilla Largos De Sémola Spaghettini N°3 500gr|332.0||||$ 332,00|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|177341-512-512|fideos-barilla-largos-de-semola-spaghettini-n-3-500-gr/p
 13027|RICATTO|Fideos Spaghetti Ricatto 500gr|35.35||||$ 35,35|Almacén > Pastas Secas y Salsas > Pastas Secas Largas|544600-512-512|fideos-ricatto-largos-x-500-gr-2/p
@@ -1491,9 +1491,9 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 13239|SCHAR|Grisines Schar Grissini 150gr|294.58||||$ 294,58|Almacén > Libre de Gluten|574257-512-512|grisines-schar-grissini-150-gr/p
 13253|VIAVITA|Chalitas Viavita Con Semillas x 100gr Sin Tac|64.17||||$ 64,17|Almacén > Libre de Gluten|564569-512-512|chalitas-viavita-con-semillas-x-100grs-sin-tac/p
 01599|GALLO|Gallo Snacks Bizcochos De Arroz Salados 100gr|80.34||||$ 80,34|Almacén > Libre de Gluten|601791-512-512|gallo-snacks-bizcochos-de-arroz-salados-100-gr/p
-13241|CRACKINES|Tostaditas Crackines De Arroz Libre De Gluten 120gr|69.63||||$ 69,63|Almacén > Libre de Gluten|423331-512-512|tostaditas-crackines-de-arroz-libre-de-gluten/p
+12319|CRACKINES|Tostaditas Crackines De Arroz Libre De Gluten 120gr|69.63||||$ 69,63|Almacén > Libre de Gluten|423331-512-512|tostaditas-crackines-de-arroz-libre-de-gluten/p
 13405|0 Carilo|Tostadas De Arroz Cariló Dulce 150gr|64.81||||$ 64,81|Almacén > Libre de Gluten|548128-512-512|tostadas-arroz-carilo-dulce/p
-01622|GALLO|Grallo Snacks Crackeadas 100gr|77.95||||$ 77,95|Almacén > Libre de Gluten|601910-512-512|grallo-snacks-crackeadas-100-gr/p
+00604|GALLO|Grallo Snacks Crackeadas 100gr|77.95||||$ 77,95|Almacén > Libre de Gluten|601910-512-512|grallo-snacks-crackeadas-100-gr/p
 13242|GRANDIET|Discos De Arroz Sin Sal Grandiet 100gr|56.77||||$ 56,77|Almacén > Libre de Gluten|422138-512-512|discos-grandiet-de-arroz-3/p
 13243|GRANDIET|Discos De Arroz Dulce Grandiet 100gr|56.77||||$ 56,77|Almacén > Libre de Gluten|526103-512-512|discos-grandiet-de-arroz-2/p
 13244|GRANDIET|Discos De Arroz Con Sal Grandiet 100gr|56.77||||$ 56,77|Almacén > Libre de Gluten|482008-512-512|discos-grandiet-de-arroz/p
@@ -1503,18 +1503,18 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 13262|VIAGGIO|Café En Cápsulas Viaggio Espresso Espresso -10 Cápsulas|463.19||||$ 463,19|Almacén > Importados|602368-512-512|cafe-en-capsulas-viaggio-espresso-espresso-10-capsulas/p
 13263|VIAGGIO|Café En Cápsulas Viaggio Espresso Descafeinado -10 Cápsulas|463.19||||$ 463,19|Almacén > Importados|602371-512-512|cafe-en-capsulas-viaggio-espresso-descafeinado-10-capsulas/p
 13266|CORNY|Barra De Cereal Corny Yoghurt 150gr|263.68||||$ 263,68|Almacén > Importados|196473-512-512|barra-de-cereal-corny-2/p
-13275|LA VIEJA FABRICA|Mermelada La Vieja Fábrica Frutilla 350gr|297.0||||$ 297,00|Almacén > Importados|190854-512-512|mermelada-la-vieja-fabrica-4/p
-01615|BARILLA|Fideos Spaghettoni Barilla 500gr|332.0||||$ 332,00|Almacén > Importados|177339-512-512|fideos-barilla-largos/p
-01616|BARILLA|Fideos Barilla Largos De Sémola Spaghettini N°3 500gr|332.0||||$ 332,00|Almacén > Importados|177341-512-512|fideos-barilla-largos-de-semola-spaghettini-n-3-500-gr/p
-01617|BARILLA|Fideos Spaghetti Barilla 500gr|332.0||||$ 332,00|Almacén > Importados|192262-512-512|fideos-barilla-largos-5/p
-01618|BARILLA|Fideos Bavette Barilla 500gr|332.0||||$ 332,00|Almacén > Importados|192248-512-512|fideos-barilla-largos-4/p
-01619|GAROFALO|Fideos Spaghetti Garofalo 500gr|316.0||||$ 316,00|Almacén > Importados|188387-512-512|spaghettini-garofalo-largo-paquete-500-grs/p
-01620|GAROFALO|Fideos Spaghetti Garofalo 500gr|316.0||||$ 316,00|Almacén > Importados|422262-512-512|spaghetti-garofalo-largo-paquete-500-grs/p
-13501|BARILLA|Fideos Fusilli Barilla 500gr|366.0||||$ 366,00|Almacén > Importados|177314-512-512|fideos-barilla-guiseros/p
-13502|BARILLA|Fideos Farfalle Barilla 500gr|366.0||||$ 366,00|Almacén > Importados|177325-512-512|fideos-barilla-guiseros-2/p
-13535|BARILLA|Fideos Penne Rigate Barilla 500gr|366.0||||$ 366,00|Almacén > Importados|177327-512-512|fideos-barilla-guiseros-3/p
-13427|BARILLA|Fideos Barilla De Semola Guiseros Tortiglioni Caja 500gr|366.0||||$ 366,00|Almacén > Importados|422213-512-512|fideos-barilla-guiseros-4/p
-13428|GAROFALO|Fideos Fusilli Garofalo Corto 500gr|348.14||||$ 348,14|Almacén > Importados|188386-512-512|fusilli-garofalo-corto-paquete-500-grs/p
+12187|LA VIEJA FABRICA|Mermelada La Vieja Fábrica Frutilla 350gr|297.0||||$ 297,00|Almacén > Importados|190854-512-512|mermelada-la-vieja-fabrica-4/p
+13007|BARILLA|Fideos Spaghettoni Barilla 500gr|332.0||||$ 332,00|Almacén > Importados|177339-512-512|fideos-barilla-largos/p
+13016|BARILLA|Fideos Barilla Largos De Sémola Spaghettini N°3 500gr|332.0||||$ 332,00|Almacén > Importados|177341-512-512|fideos-barilla-largos-de-semola-spaghettini-n-3-500-gr/p
+12987|BARILLA|Fideos Spaghetti Barilla 500gr|332.0||||$ 332,00|Almacén > Importados|192262-512-512|fideos-barilla-largos-5/p
+12992|BARILLA|Fideos Bavette Barilla 500gr|332.0||||$ 332,00|Almacén > Importados|192248-512-512|fideos-barilla-largos-4/p
+13003|GAROFALO|Fideos Spaghetti Garofalo 500gr|316.0||||$ 316,00|Almacén > Importados|188387-512-512|spaghettini-garofalo-largo-paquete-500-grs/p
+13024|GAROFALO|Fideos Spaghetti Garofalo 500gr|316.0||||$ 316,00|Almacén > Importados|422262-512-512|spaghetti-garofalo-largo-paquete-500-grs/p
+12916|BARILLA|Fideos Fusilli Barilla 500gr|366.0||||$ 366,00|Almacén > Importados|177314-512-512|fideos-barilla-guiseros/p
+12915|BARILLA|Fideos Farfalle Barilla 500gr|366.0||||$ 366,00|Almacén > Importados|177325-512-512|fideos-barilla-guiseros-2/p
+12914|BARILLA|Fideos Penne Rigate Barilla 500gr|366.0||||$ 366,00|Almacén > Importados|177327-512-512|fideos-barilla-guiseros-3/p
+12925|BARILLA|Fideos Barilla De Semola Guiseros Tortiglioni Caja 500gr|366.0||||$ 366,00|Almacén > Importados|422213-512-512|fideos-barilla-guiseros-4/p
+12924|GAROFALO|Fideos Fusilli Garofalo Corto 500gr|348.14||||$ 348,14|Almacén > Importados|188386-512-512|fusilli-garofalo-corto-paquete-500-grs/p
 13429|GAROFALO|Fideos Penne Rigate Garofalo Corto 500gr|348.14||||$ 348,14|Almacén > Importados|188380-512-512|penne-ziti-rigate-garofalo-corto/p
 13417|KNORR|Caldo Knorr De Verduras 12 Cubos|84.79||||$ 84,79|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|605425-512-512|caldo-knorr-de-verduras-12-cubos/p
 13279|KNORR|Caldo Knorr Gallina 12 Cubos|80.33||||$ 80,33|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|605423-512-512|caldo-knorr-gallina-12-cubos/p
@@ -1536,12 +1536,12 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 13448|KNORR|Caldo De Gallina Knorr 4un|48.8||||$ 48,80|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|557923-512-512|caldo-knorr-x-4-un-2/p
 13287|LA VIRGINIA|Saborizador Panceta La Virginia 30gr|54.62||||$ 54,62|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|613814-512-512|saborizador-la-virginia-4/p
 13292|KNORR|Caldo Knorr De Gallina 6un|40.3||||$ 40,30|Almacén > Caldos, Sopas, Puré y Bolsas para Horno > Caldos|521750-512-512|caldo-knorr-suiza-gallina/p
-13506|ARCOR|Garrapiñadas Arcor De Mani Paquete 80gr|70.0||||$ 70,00|Almacén > Mesa Dulce Navideña|498696-512-512|garrapinadas-arcor-de-mani-x-80-gr/p
+12501|ARCOR|Garrapiñadas Arcor De Mani Paquete 80gr|70.0||||$ 70,00|Almacén > Mesa Dulce Navideña|498696-512-512|garrapinadas-arcor-de-mani-x-80-gr/p
 01623|MANI KING|Garrapiñada Mani King - 80gr|39.0||||$ 39,00|Almacén > Mesa Dulce Navideña|609396-512-512|garrapinada-mani-king-80-gr/p
 13527|FRANCE|Pan Dulce France Con Frutas Paquete 400gr|129.0||||$ 129,00|Almacén > Mesa Dulce Navideña|565724-512-512|pan-dulce-france-con-frutas-paquete-400-grs-2/p
 13455|BARILOCHE|Garrapiñadas Bariloche De Almendras x 80gr|279.0||||$ 279,00|Almacén > Mesa Dulce Navideña|500649-512-512|garrapinadas-bariloche-de-almendras-x-80-gr/p
 13227|SERENATA|Turrón De Maní Serenata - 70gr|39.0||||$ 39,00|Almacén > Mesa Dulce Navideña|598670-512-512|turron-de-mani-serenata-70-gr/p
-13457|ARCOR|Garrapiñada De Mani Arcor Paquete 100gr|112.0||||$ 112,00|Almacén > Mesa Dulce Navideña|499595-512-512|garrapinada-de-mani-arcor-paquete-100-gr/p
+12506|ARCOR|Garrapiñada De Mani Arcor Paquete 100gr|112.0||||$ 112,00|Almacén > Mesa Dulce Navideña|499595-512-512|garrapinada-de-mani-arcor-paquete-100-gr/p
 13529|LACASA|Turron Lacasa De Almendras Duro Caja 150gr|779.0||||$ 779,00|Almacén > Mesa Dulce Navideña|615664-512-512|turron-lacasa-de-almendras-x-150-gr/p
 13530|NOEL|Pan Dulce Noel Con Frutas 400gr|252.0||||$ 252,00|Almacén > Mesa Dulce Navideña|427631-512-512|pan-dulce-noel-con-frutas-x-400-gr/p
 13511|FIRENZE|Pan Dulce Con Fruta Firenze - 500gr|250.0||||$ 250,00|Almacén > Mesa Dulce Navideña|606520-512-512|pan-dulce-con-fruta-firenze-500-gr/p
@@ -1759,7 +1759,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 13665|TERMA|Bebida A Base De Hierbas Terma Citrus 1,1lt|103.48||||$ 103,48|Bebidas > A Base de Hierbas|558060-512-512|bebida-a-base-de-hierbas-terma-citrus-1-35-l/p
 13659|TERMA|Amargo Terma Serrano 1,1lt|118.1||||$ 118,10|Bebidas > A Base de Hierbas|600794-512-512|bebida-a-base-de-hierbas-terma-serrano-2/p
 13660|TERMA|Amargo Terma Cero Manzana 1,1lt|103.48||||$ 103,48|Bebidas > A Base de Hierbas|575799-512-512|bebida-a-base-de-hierbas-terma-manzana-cero/p
-13668|ENERGY DRINK|Bebida Energizante Speed Unlimited 250ml - Pack 4|214.24||||$ 214,24|Bebidas > A Base de Hierbas|182015-512-512|bebida-speed-unlimited-x-4-un/p
+13654|ENERGY DRINK|Bebida Energizante Speed Unlimited 250ml - Pack 4|214.24||||$ 214,24|Bebidas > A Base de Hierbas|182015-512-512|bebida-speed-unlimited-x-4-un/p
 13669|TERMA|Amargo Terma Limón 1,1lt|103.48||||$ 103,48|Bebidas > A Base de Hierbas|557938-512-512|bebida-a-base-de-hierbas-terma-limon-pet/p
 13662|TERMA|Amargo Terma Pomelo 1,1lt|103.48||||$ 103,48|Bebidas > A Base de Hierbas|557935-512-512|bebida-a-base-de-hierbas-terma-pomelo/p
 13670|TERMA|Amargo Terma Cuyano 1,1lt|103.48||||$ 103,48|Bebidas > A Base de Hierbas|557937-512-512|bebida-a-base-de-hierbas-terma-cuyano/p
@@ -1808,7 +1808,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 13481|LA CAMPAGNOLA|Jugo Bc Multifruta 500ml|67.37||||$ 67,37|Bebidas > Jugos > Listos|584781-512-512|jugo-liquido-bc-la-campagnola-multifruta-12x-500-ml/p
 13612|LA CAMPAGNOLA|Jugo Bc Manzana 500ml|67.37||||$ 67,37|Bebidas > Jugos > Listos|584779-512-512|jugo-liquido-bc-la-campagnola-bc-manzana-12x1-500-ml/p
 13834|ADES|Jugo Ades Soja Manzana 200ml|42.75||||$ 42,75|Bebidas > Jugos > Listos|614604-512-512|jugo-ades-soja-manzana-200-ml/p
-13202|MACRITAS|Snacks Nachos Restaurant Style Macritas 90gr|106.12||||$ 106,12|Almacén > Snacks > Snacks|538480-512-512|nachos-restaurant-style-macritas-bsa-x-90gr/p
+13082|MACRITAS|Snacks Nachos Restaurant Style Macritas 90gr|106.12||||$ 106,12|Almacén > Snacks > Snacks|538480-512-512|nachos-restaurant-style-macritas-bsa-x-90gr/p
 01510|DORITOS|Doritos Queso 230gr|265.0||||$ 265,00|Almacén > Snacks > Snacks|615367-512-512|doritos-queso-230g/p
 01544|DORITOS|Doritos Queso 135gr|177.0||||$ 177,00|Almacén > Snacks > Snacks|615366-512-512|doritos-queso-135g/p
 01547|GALLO|Galletitas Gallo Snacks Pizza - 50gr|63.65||||$ 63,65|Almacén > Snacks > Snacks|601921-512-512|galletitas-gallo-snacks-pizza-50g/p
@@ -2083,7 +2083,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 13772|GATORADE|Isotónica Gatorade Cool Blue 1,1lt|123.72||||$ 123,72|Bebidas > Isotónicas|588389-512-512|isotonica-gatorade-cool-blue-1-25-l/p
 14142|GATORADE|Istotónica Gatorade Frutas Tropicales 500ml|68.61||||$ 68,61|Bebidas > Isotónicas|588375-512-512|istotonica-gatorade-frutas-tropicales-500-ml/p
 13773|GATORADE|Istotónica Gatorade Naranja 500ml|65.97||||$ 65,97|Bebidas > Isotónicas|588368-512-512|istotonica-gatorade-naranja-500-ml/p
-13780|ENERGY DRINK|Bebida Energizante Speed Unlimited 250ml - Pack 4|214.24||||$ 214,24|Bebidas > Isotónicas|182015-512-512|bebida-speed-unlimited-x-4-un/p
+13654|ENERGY DRINK|Bebida Energizante Speed Unlimited 250ml - Pack 4|214.24||||$ 214,24|Bebidas > Isotónicas|182015-512-512|bebida-speed-unlimited-x-4-un/p
 13774|GATORADE|Istotónica Gatorade Naranja 1,1lt|123.72||||$ 123,72|Bebidas > Isotónicas|588490-512-512|istotonica-gatorade-naranja-1-25-l/p
 02220|GATORADE|Istotónica Gatorade Cool Blue 750ml|89.99||||$ 89,99|Bebidas > Isotónicas|588421-512-512|istotonica-gatorade-cool-blue-750-ml/p
 13771|GATORADE|Istotónica Gatorade Naranja 750ml|89.99||||$ 89,99|Bebidas > Isotónicas|588420-512-512|istotonica-gatorade-naranja-750-ml/p
@@ -2780,7 +2780,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 14554|SIN MARCA|Tabla Alemana|2.799||||$ 2.799,00|Quesos y Fiambres > Picadas|535535-512-512|tabla-alemana/p
 14555|SIN MARCA|Tabla Amigos|2.89||||$ 2.890,00|Quesos y Fiambres > Picadas|535534-512-512|tabla-amigos/p
 14556|SIN MARCA|Tabla Capresse|3.899||||$ 3.899,00|Quesos y Fiambres > Picadas|535532-512-512|tabla-capresse/p
-14557|SIN MARCA|Tabla Tradicional|799.0||||$ 799,00|Quesos y Fiambres > Picadas|535540-512-512|tabla-tradicional/p
+14306|SIN MARCA|Tabla Tradicional|799.0||||$ 799,00|Quesos y Fiambres > Picadas|535540-512-512|tabla-tradicional/p
 14558|SIN MARCA|Tabla Porteña|2.999||||$ 2.999,00|Quesos y Fiambres > Picadas|535538-512-512|tabla-portena/p
 14559|SIN MARCA|Tabla De Quesos y Fiambres|3.499||||$ 3.499,00|Quesos y Fiambres > Picadas|535537-512-512|tabla-de-quesos-y-fiambres-3/p
 02994|LA SERENISIMA|Leche Parcialmente Descremada Liviana La Serenisima Sachet 1lt|55.68||||$ 55,68|Lácteos > Leches > Leches Refrigeradas|580273-512-512|leche-parcialmente-descremada-liviana-la-serenisima-sachet-1-l/p
@@ -4012,18 +4012,18 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 16026|BIALCOHOL|Alcohol En Gel Bialcohol Aloe 250ml|174.62||||$ 174,62|Perfumería > Cuidado Personal > Higiene Preventiva|412873-512-512|alcohol-en-gel-bialcohol-2/p
 15794|ESPADOL|Alcohol En Gel Antibacterial Original Espadol Dettol 50ml|133.12||||$ 133,12|Perfumería > Cuidado Personal > Higiene Preventiva|506714-512-512|alcohol-en-gel-antibacterial-original-espadol-dettol-50ml/p
 04200|LYSOFORM|Lysoform Sanitizante Para Manos Refresh 47ml|181.92||||$ 181,92|Perfumería > Cuidado Personal > Higiene Preventiva|431492-512-512|lysoform-sanitizante-para-manos-refresh-47-ml/p
-15797|LYSOFORM|Jabón Líquido Para Manos Lysoform Refresh 250ml|242.2||||$ 242,20|Perfumería > Cuidado Personal > Higiene Preventiva|431495-512-512|jabon-liquido-para-manos-lysoform-refresh-250-ml/p
+15728|LYSOFORM|Jabón Líquido Para Manos Lysoform Refresh 250ml|242.2||||$ 242,20|Perfumería > Cuidado Personal > Higiene Preventiva|431495-512-512|jabon-liquido-para-manos-lysoform-refresh-250-ml/p
 15799|JUMBO FAMILY CARE MP|Sanitizante Para Manos Fresias 65ml|96.77||||$ 96,77|Perfumería > Cuidado Personal > Higiene Preventiva|179369-512-512|sanitizante-para-manos-fresias/p
 15801|LIFEBUOY|Jabón Antibacterial Lifebuoy Total 10 3x125Gr|175.46||||$ 175,46|Perfumería > Cuidado Personal > Higiene Preventiva|605622-512-512|jabon-de-tocador-lifebuoy-12/p
 15802|LIFEBUOY|Jabón Antibacterial Lifebuoy Cream 125gr|72.12||||$ 72,12|Perfumería > Cuidado Personal > Higiene Preventiva|605621-512-512|jabon-de-tocador-lifebuoy-11/p
-04204|PROTEX|Jabón Líquido Para Manos Protex Avena 500ml|371.36||||$ 371,36|Perfumería > Cuidado Personal > Higiene Preventiva|603728-512-512|jabon-liquido-para-manos-protex-avena-500-ml-2/p
-15804|PROTEX|Jabón En Barra Protex Aloe 90gr Pack 3un|178.68||||$ 178,68|Perfumería > Cuidado Personal > Higiene Preventiva|477695-512-512|jabon-en-barra-protex-aloe-90-gr-pack-3-u-2/p
+04040|PROTEX|Jabón Líquido Para Manos Protex Avena 500ml|371.36||||$ 371,36|Perfumería > Cuidado Personal > Higiene Preventiva|603728-512-512|jabon-liquido-para-manos-protex-avena-500-ml-2/p
+16048|PROTEX|Jabón En Barra Protex Aloe 90gr Pack 3un|178.68||||$ 178,68|Perfumería > Cuidado Personal > Higiene Preventiva|477695-512-512|jabon-en-barra-protex-aloe-90-gr-pack-3-u-2/p
 04206|PROTEX|Jabón En Barra Protex Aloe 125gr|81.81||||$ 81,81|Perfumería > Cuidado Personal > Higiene Preventiva|477696-512-512|jabon-en-barra-protex-aloe-125-gr/p
 15805|PROTEX|Jabón Líquido Para Manos Protex Avena 221ml|246.5||||$ 246,50|Perfumería > Cuidado Personal > Higiene Preventiva|603754-512-512|jabon-liquido-para-manos-protex-avena-221-ml/p
-15806|PROTEX|Jabón En Barra Protex Avena 90gr Pack 3un|166.85||||$ 166,85|Perfumería > Cuidado Personal > Higiene Preventiva|477625-512-512|jabon-en-barra-protex-avena-90-gr-pack-3-u-2/p
+15950|PROTEX|Jabón En Barra Protex Avena 90gr Pack 3un|166.85||||$ 166,85|Perfumería > Cuidado Personal > Higiene Preventiva|477625-512-512|jabon-en-barra-protex-avena-90-gr-pack-3-u-2/p
 15807|PROTEX|Jabón En Barra Protex Omega 3 90gr Pack 3un|166.85||||$ 166,85|Perfumería > Cuidado Personal > Higiene Preventiva|603735-512-512|jabon-en-barra-protex-omega-3-90-gr-pack-3-u-2/p
-04094|PROTEX|Gel De Ducha Protex Nutri Protect Vitamina E|153.93||||$ 153,93|Perfumería > Cuidado Personal > Higiene Preventiva|603795-512-512|gel-de-ducha-protex-nutri-protect-vitamina-e/p
-04211|PROTEX|Jabon De Tocador Protex Pro-hidrata 85gr|68.89||||$ 68,89|Perfumería > Cuidado Personal > Higiene Preventiva|547803-512-512|jabon-de-tocador-protex-pro-hidrata-85-gr/p
+03914|PROTEX|Gel De Ducha Protex Nutri Protect Vitamina E|153.93||||$ 153,93|Perfumería > Cuidado Personal > Higiene Preventiva|603795-512-512|gel-de-ducha-protex-nutri-protect-vitamina-e/p
+15997|PROTEX|Jabon De Tocador Protex Pro-hidrata 85gr|68.89||||$ 68,89|Perfumería > Cuidado Personal > Higiene Preventiva|547803-512-512|jabon-de-tocador-protex-pro-hidrata-85-gr/p
 04212|PROTEX|Jabón En Barra Protex Omega 3 125gr|81.81||||$ 81,81|Perfumería > Cuidado Personal > Higiene Preventiva|603738-512-512|jabon-en-barra-protex-omega-3-125-gr-2/p
 04214|ESPADOL|Jabón De Tocador Antibacterial Skincare Espadol Dettol 90gr x 1un|76.42||||$ 76,42|Perfumería > Cuidado Personal > Higiene Preventiva|520423-512-512|jabon-de-tocador-antibacterial-skincare-espadol-dettol-90grs-x-1u/p
 15750|DERMAGLOS|Dermaglós C Hidratación Inmediata Cr 300gr|946.16||||$ 946,16|Perfumería > Cuidado de la Piel > Cremas Corporales|586480-512-512|dermaglos-c-hidratacion-inmediata-cr-300-g/p
@@ -4242,7 +4242,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 16134|GUM|Palillo Interdental Soft Picks Advanced Gum|176.53||||$ 176,53|Perfumería > Cuidado Oral > Accesorios Dentales|608637-512-512|palillo-interdental-soft-picks-advanced-gum/p
 16138|GUM|Cera Ortodóntica Gum 5un|224.97||||$ 224,97|Perfumería > Cuidado Oral > Accesorios Dentales|573625-512-512|cera-ortodontica-gum/p
 16140|COREGA|Crema Adhesiva Corega Para Protesis 40gr|317.54||||$ 317,54|Perfumería > Cuidado Oral > Accesorios Dentales|598240-512-512|crema-adhesiva-corega-para-protesis-40-gr/p
-16149|PORTA|Alcohol Fino Porta Puro 500ml|130.14||||$ 130,14|Perfumería > Farmacia > Alcohol|567479-512-512|alcohol-fino-porta-2/p
+15791|PORTA|Alcohol Fino Porta Puro 500ml|130.14||||$ 130,14|Perfumería > Farmacia > Alcohol|567479-512-512|alcohol-fino-porta-2/p
 16151|AKTIOL|Alcohol En Aerosol Aktiol 143ml|175.76||||$ 175,76|Perfumería > Farmacia > Alcohol|615503-512-512|alcohol-en-aerosol-aktiol-143-ml/p
 04398|REXONA|Alcohol En Aerosol Rexona Antibacterial 75ml|129.17||||$ 129,17|Perfumería > Farmacia > Alcohol|595246-512-512|alcohol-en-aerosol-rexona-antibacterial-75-ml/p
 04399|REXONA|Alcohol En Spray Rexona Antibacterial 125ml|161.46||||$ 161,46|Perfumería > Farmacia > Alcohol|595245-512-512|alcohol-en-spray-rexona-antibacterial-125-ml/p
@@ -4251,9 +4251,9 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 16153|ALGABO|Alcohol En Gel Ultra 70 Repuesto 220ml|129.0||||$ 129,00|Perfumería > Farmacia > Alcohol|599680-512-512|alcohol-en-gel-ultra-70-repuesto-220-ml/p
 16154|Alcospray|Alcohol Al 70 Alcospray 70ml|107.12||||$ 107,12|Perfumería > Farmacia > Alcohol|599678-512-512|alcohol-al-70-alcospray-70ml/p
 16161|Dr.Farma|Alchon En Gel Dr.farma 150ml|186.16||||$ 186,16|Perfumería > Farmacia > Alcohol|583627-512-512|alchon-en-gel-dr-farma-150-ml/p
-04403|LYSOFORM|Lysoform Sanitizante Para Manos Refresh 47ml|181.92||||$ 181,92|Perfumería > Farmacia > Alcohol|431492-512-512|lysoform-sanitizante-para-manos-refresh-47-ml/p
-16155|ESPADOL|Alcohol En Gel Antibacterial Original Espadol Dettol 50ml|133.12||||$ 133,12|Perfumería > Farmacia > Alcohol|506714-512-512|alcohol-en-gel-antibacterial-original-espadol-dettol-50ml/p
-16294|BIALCOHOL|Alcohol En Gel Bialcohol Aloe 250ml|174.62||||$ 174,62|Perfumería > Farmacia > Alcohol|412873-512-512|alcohol-en-gel-bialcohol-2/p
+04200|LYSOFORM|Lysoform Sanitizante Para Manos Refresh 47ml|181.92||||$ 181,92|Perfumería > Farmacia > Alcohol|431492-512-512|lysoform-sanitizante-para-manos-refresh-47-ml/p
+15794|ESPADOL|Alcohol En Gel Antibacterial Original Espadol Dettol 50ml|133.12||||$ 133,12|Perfumería > Farmacia > Alcohol|506714-512-512|alcohol-en-gel-antibacterial-original-espadol-dettol-50ml/p
+16026|BIALCOHOL|Alcohol En Gel Bialcohol Aloe 250ml|174.62||||$ 174,62|Perfumería > Farmacia > Alcohol|412873-512-512|alcohol-en-gel-bialcohol-2/p
 16160|Dr.Farma|Alchon En Gel Dr.farma 50ml|92.56||||$ 92,56|Perfumería > Farmacia > Alcohol|583628-512-512|alchon-en-gel-dr-farma-50-ml/p
 16162|Dr.Farma|Alchon En Gel Dr.farma 80ml|144.56||||$ 144,56|Perfumería > Farmacia > Alcohol|583626-512-512|alchon-en-gel-dr-farma-80-ml/p
 16157|ALGABO|Alcohol En Gel Algabo Ultra 70ml|99.0||||$ 99,00|Perfumería > Farmacia > Alcohol|578581-512-512|alcohol-en-gel-algabo-ultra-70-ml/p
@@ -4261,7 +4261,7 @@ id|marca|nombre|precio|precio_1|precio_2|precio_3|precio_unitario|rubro|url_imag
 16156|ORGANIC SPA|Alcohol En Gel Organic Spa Sin Aroma 200gr|196.56||||$ 196,56|Perfumería > Farmacia > Alcohol|582127-512-512|alcohol-en-gel-organic-spa-sin-aroma-200-gr/p
 16172|ALGABO|Alcohol En Gel Algabo Ultra 150ml|156.0||||$ 156,00|Perfumería > Farmacia > Alcohol|578562-512-512|alcohol-en-gel-algabo-ultra-150-ml/p
 16165|ALGABO|Alcohol En Gel Hello Kitty 75ml|162.09||||$ 162,09|Perfumería > Farmacia > Alcohol|577668-512-512|alcohol-en-gel-hello-kitty-75-ml/p
-16168|JUMBO FAMILY CARE MP|Sanitizante Para Manos Fresias 65ml|96.77||||$ 96,77|Perfumería > Farmacia > Alcohol|179369-512-512|sanitizante-para-manos-fresias/p
+15799|JUMBO FAMILY CARE MP|Sanitizante Para Manos Fresias 65ml|96.77||||$ 96,77|Perfumería > Farmacia > Alcohol|179369-512-512|sanitizante-para-manos-fresias/p
 16170|OTOWIL|Alcohol En Gel Oto 250ml|260.0||||$ 260,00|Perfumería > Farmacia > Alcohol|589102-512-512|alcohol-en-gel-oto-250-ml/p
 16337|SIN MARCA|Alcoprotect Alcohol En Gel 250ml|155.17||||$ 155,17|Perfumería > Farmacia > Alcohol|582583-512-512|alcoprotect-alcohol-en-gel-250-ml/p
 16171|ORGANIC SPA|Alcohol En Gel Organic Spa Citrus 200gr|206.96||||$ 206,96|Perfumería > Farmacia > Alcohol|582129-512-512|alcohol-en-gel-organic-spa-citrus-200-gr/p
