@@ -28,7 +28,7 @@ class Web
 			Archivo.escribir(productos, destino)
 			Archivo.preservar(destino)
 			puts " ► Completando ID... ".green 
-			completar_id(destino, regenerar)
+			completar_id(regenerar, destino)
 
 			# puts " ► Bajando imagenes... ".green 
 			# bajar_imagenes(regenerar)
@@ -316,8 +316,8 @@ end
 
 if __FILE__ == $0
 	# limpiar_errores
-	completar_id
-	# bajar_todo
+	# completar_id
+	bajar_todo
 	# pull
 	# pull
 	# limpiar_errores
