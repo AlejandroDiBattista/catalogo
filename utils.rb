@@ -47,6 +47,12 @@ class Hash
 	end
 end
 
+class Struct
+	def to_hash
+		to_h
+	end
+end
+
 class Array
 	def normalizar
 		map(&:normalizar)
