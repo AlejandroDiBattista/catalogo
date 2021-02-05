@@ -54,7 +54,7 @@ class Web
 				begin
 					nuevos << { 
 						id: '',
-						nombre: extraer_nombre(x), 
+						nombre: extraer_nombre(x).limpiar_nombre, 
 						marca: extraer_marca(x),
 						rubro: rubro,
 						precio: extraer_precio(x),
@@ -77,10 +77,11 @@ class Web
 
 	def limpiar_errores
 		puts "Limpiando Productos con Errores" do 
-			Archivo.listar(carpeta, 'productos*.dsv').each do |origen|
+			Archivo.listar(carpeta, 'productos_*.dsv').first(1).each do |origen|
 				puts " > #{origen}"
 				Archivo.procesar(origen) do |producto| 
 					producto.nombre = producto.nombre.limpiar_nombre
+					puts producto.nombre
 					!producto.nombre.vacio? 
 				end
 			end
@@ -316,7 +317,7 @@ end
 
 if __FILE__ == $0
 	limpiar_errores
-	completar_id
+	# completar_id
 	# bajar_todo
 	# pull
 	# pull

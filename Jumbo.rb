@@ -36,8 +36,6 @@ class Jumbo < Web
 	end
 
 	def imagen(item)
-		# return nil 
-		
 		if item = item.css('.product-item__image-link img')
 			if url = extraer_img(item)
 				url = url.split('/').first if url
