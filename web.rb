@@ -77,7 +77,7 @@ class Web
 	end
 
 	def limpiar_errores
-		Archivo.listar(carpeta, 'productos*.dsv').each do |origen|
+		Archivo.listar(carpeta, 'productos*.dsv').first(1).each do |origen|
         	Archivo.procesar(origen){|producto| !producto.nombre.vacio? }
 		end
 	end
@@ -131,9 +131,25 @@ class Web
 		url 
 	end
 
-	def completar_id(destino, regenerar = false)
-		datos = {}
+	def generar_id(producto)
+		self.id_actual ||= "00000"
+		if producto.id.vacio? 
+			self.id_actual = self.id_actual.succ
+		else
+			self.id_actual = producto.id if producto.id > self.id_actual
+			producto.id 
+		end
+	end
+	
+	def key(producto)
+		# "#{producto.nombre.to_key}-#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}-#{producto.rubro.to_key}"
+		[:nombre, :url_producto, :url_imagen].map{|campo| producto[campo] }.to_key
+	end
+	
+	def completar_id(regenerar = false, destino=nil)
 		self.id_actual = '00000' 
+		datos = {}
+
 		Archivo.listar(carpeta, 'productos*.dsv').procesar do |origen|
 			Archivo.leer(origen) do |producto| 
 				datos[key(producto)] ||= generar_id(producto)
@@ -146,28 +162,13 @@ class Web
 					producto[:id] = datos[key(producto)]
 				end
 			end
-		else
+		elsif destino then
 			Archivo.procesar(destino) do |producto| 
 				producto[:id] = datos[key(producto)]
 			end
 		end
 	end
 
-	def key(producto)
-		# "#{producto.nombre.to_key}-#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}-#{producto.rubro.to_key}"
-		[:nombre, :url_producto, :url_imagen, :rubro].map{|campo| producto[campo] }.to_key
-	end
-
-	def generar_id(producto)
-		self.id_actual ||= "00000"
-		if producto.id.vacio? 
-			self.id_actual = self.id_actual.succ
-		else
-			self.id_actual = producto.id if producto.id > self.id_actual
-			producto.id 
-		end
-	end
-	
 	def nombre_foto(id)
 		"#{carpeta}/fotos/#{id}.jpg"
 	end
@@ -251,7 +252,7 @@ class Web
 		end 
 
 		def completar_id
-			new.completar_id
+			new.completar_id true
 		end
 
 		def limpiar_errores
@@ -309,8 +310,9 @@ def pull
 end
 
 if __FILE__ == $0
-	limpiar_errores
-	completar_id
+	# limpiar_errores
+	Tatito.limpiar_errores
+	# Tatito.completar_id
 	# bajar_todo
 	# pull 
 	# pull 

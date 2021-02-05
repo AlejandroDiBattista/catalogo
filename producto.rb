@@ -50,7 +50,7 @@ class Producto < Struct.new(*Campos)
 	end
 
 	def key 
-		[:nombre, :url_producto, :url_imagen, :rubro].map{|campo| self[campo]}.to_key
+		[:nombre, :url_producto, :url_imagen].map{|campo| self[campo]}.to_key
 	end
 
 	def extraer_oferta(oferta)
