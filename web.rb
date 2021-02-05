@@ -77,11 +77,10 @@ class Web
 
 	def limpiar_errores
 		puts "Limpiando Productos con Errores" do 
-			Archivo.listar(carpeta, 'productos_*.dsv').first(1).each do |origen|
+			Archivo.listar(carpeta, 'productos_*.dsv').each do |origen|
 				puts " > #{origen}"
 				Archivo.procesar(origen) do |producto| 
 					producto.nombre = producto.nombre.limpiar_nombre
-					# puts producto.nombre
 					!producto.nombre.vacio? 
 				end
 			end
