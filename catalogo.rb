@@ -22,15 +22,17 @@ class Catalogo
 	
 	def agregar(*items, fecha: nil)
 		fecha ||= Date.today 
-		[items].flatten.each do |producto|
-			producto = Producto.cargar(producto) if Hash === producto
+		items = [items].flatten
+		items.each do |producto|
+			producto = producto.to_hash 		 if Struct === producto
+			producto = Producto.cargar(producto) if Hash === producto 
 			if Producto === producto
 				if anterior = datos[producto.key]
 					producto.historia = anterior.historia
 				else 
 					ordenados = false 
 				end
-				producto.actualizar(fecha, producto.precio) if fecha 
+				producto.actualizar(fecha, producto.precio)
 				datos[producto.key] = producto
 			end
 		end
@@ -58,7 +60,6 @@ class Catalogo
 
 	def each
 		self.productos = self.datos.values
-		identificar!
 		ordenar!
 		productos.each{|producto| yield(producto) }
 	end
@@ -246,14 +247,15 @@ class Catalogo
 		def cargar_todo(base)
 			base = base.name if Class === base
 			productos = new(base)
-			puts "Cargando #{base}" do 
-				Archivo.listar(base, 'productos_*.dsv')[1..-1].each do |origen|
-					fecha = origen.to_fecha
-					puts " > #{fecha}"
-					productos.agregar(Archivo.leer(origen), fecha: fecha)
-					productos.each{|producto| producto.actualizar(fecha) }
+			puts "Cargando [#{base}]".pad(100).error do 
+				Archivo.listar(base, 'productos_*.dsv').each do |origen|
+					fecha = Archivo.extraer_fecha(origen)
+					nuevos = Archivo.leer(origen)
+					productos.each{|producto| producto.actualizar(fecha, nil) }
+					productos.agregar(nuevos, fecha: fecha)
+					puts " > #{fecha} x #{nuevos.count} > #{productos.count}"
 				end
-				productos.identificar!(true)
+				productos.identificar!
 			end
 			productos
 		end
@@ -268,6 +270,6 @@ class Catalogo
 end
 
 if __FILE__ == $0
-	[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar}
+	[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar }
 	# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.actualizar(base)}
 end

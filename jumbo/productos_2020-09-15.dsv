@@ -1119,7 +1119,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 01100|Mortadela Bocatti Feteada 70gr|79.76|Quesos y Fiambres > Fiambres > Fiambres|181728-512-512|/mortadela-bocatti-feteada-x-70-gr
 01092|Salame Bocatti Feteado 70gr|109.81|Quesos y Fiambres > Fiambres > Fiambres|181726-512-512|/salame-bocatti-feteado-x-70-gr
 01094|Salamin Cagnoli Picado Fino 1kg|1.399|Quesos y Fiambres > Fiambres > Fiambres|593082-512-512|/salamin-cagnoli-picado-fino
-02567|Panceta Ahumada Campo Austral1Kg|1.347|Quesos y Fiambres > Fiambres > Fiambres|443893-512-512|/panceta-campo-austral-2
+02567|Panceta Ahumada Campo Austral1kg|1.347|Quesos y Fiambres > Fiambres > Fiambres|443893-512-512|/panceta-campo-austral-2
 02568|Bondiola Feteada Cagnoli 120gr|226.03|Quesos y Fiambres > Fiambres > Fiambres|593202-512-512|/bondiola-feteada-cagnoli-120-gr
 01106|Chorizo Candelario Sello De Oro 1kg|1.478|Quesos y Fiambres > Fiambres > Fiambres|421458-512-512|/chorizo-candelario-sello-de-oro
 02569|Panceta Jumbo (elab.propia)|876.5|Quesos y Fiambres > Fiambres > Fiambres|490671-512-512|/panceta-jumbo-elab-propia-2
@@ -1253,7 +1253,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 02405|Leche Entera Clasica La Serenisima Larga Vida 1lt|71.07|Lácteos > Leches > Leches Larga Vida|580268-512-512|/leche-entera-clasica-la-serenisima-larga-vida-1-l
 02409|Leche Deslact Las 3niñas|65.92|Lácteos > Leches > Leches Larga Vida|577175-512-512|/leche-deslact-las-3ninas
 02414|Leche Parcialmente Descremada Uat Tregar 1lt|66.95|Lácteos > Leches > Leches Larga Vida|181979-512-512|/leche-parcialmente-descremada-uat-tregar-1-l
-02413|Leche Jumbo un .a.t Entera-entera-brk- lt .-1|61.8|Lácteos > Leches > Leches Larga Vida|519821-512-512|/leche-jumbo-u-a-t-entera
+02413|Leche Jumbo Un .a.t Entera-entera-brk- lt .-1|61.8|Lácteos > Leches > Leches Larga Vida|519821-512-512|/leche-jumbo-u-a-t-entera
 02410|Leche Ilolay Parcialmente Descremada De Lechada Brik x 1lt|66.95|Lácteos > Leches > Leches Larga Vida|531367-512-512|/leche-descremada-ilolay-u-a-t
 02967|Leche Entera Uat Tregar 1lt|66.95|Lácteos > Leches > Leches Larga Vida|482023-512-512|/leche-entera-uat-tregar-x-1-litro
 01650|Leche Parcialmente Descremada Liviana La Serenisima Sachet 1lt|54.59|Lácteos > Leches > Leches Refrigeradas|580273-512-512|/leche-parcialmente-descremada-liviana-la-serenisima-sachet-1-l
@@ -1341,13 +1341,13 @@ id|nombre|precio|rubro|url_imagen|url_producto
 03059|Postre Danette Crema Americana x 95gr|43.26|Lácteos > Postres|574771-512-512|/postre-danette-crema-americana-x-95grs
 03060|Flan Con Caramelo Ser 95gr|43.26|Lácteos > Postres|574760-512-512|/flan-con-caramelo-ser-95-gr
 03086|Postre Shimy De Vainilla Con Dulce De Leche 120gr|37.45|Lácteos > Postres|548502-512-512|/postre-shimy-x-120-gr-3
-03683|Flan Sancor Casero 2x120Gr|77.25|Lácteos > Postres|548498-512-512|/flan-casero-x-240-grs
+03683|Flan Sancor Casero 2x120gr|77.25|Lácteos > Postres|548498-512-512|/flan-casero-x-240-grs
 03061|Postre Ser 100gr Dulce De Leche|45.32|Lácteos > Postres|574807-512-512|/postre-ser-100gr-dulce-de-leche
 03062|Alimento Lacteo Danonino Frutilla 80gr|43.26|Lácteos > Postres|581428-512-512|/alimento-lacteo-danonino-frutilla-80-gr
 03063|Flan Danette – Sabor Vainilla x 95gr|43.26|Lácteos > Postres|574773-512-512|/flan-danette-sabor-vainilla-x-95grs
 03087|Postre Serenito Wau Pack Vainilla 100gr|43.26|Lácteos > Postres|548334-512-512|/postre-serenito-wau-pack-vainilla-100-gr
 03064|Postre Copa Danette - Chocolate Con Crema 100gr|75.19|Lácteos > Postres|574717-512-512|/postre-copa-danette-chocolate-con-crema
-03684|Flan Sancor Casero Con Dulce De Leche 2x120Gr|77.25|Lácteos > Postres|548499-512-512|/flan-casero-con-dulce-de-leche-x-240-grs
+03684|Flan Sancor Casero Con Dulce De Leche 2x120gr|77.25|Lácteos > Postres|548499-512-512|/flan-casero-con-dulce-de-leche-x-240-grs
 03065|Postre Serenito Vainilla Con Confites 120gr|91.67|Lácteos > Postres|548082-512-512|/postre-serenito-x-120-gr
 03068|Alimento Lacteo Danonino Vainilla 80gr|43.26|Lácteos > Postres|581429-512-512|/alimento-lacteo-danonino-vainilla-80-gr
 03088|Postre Serenito Vainilla 120gr|75.19|Lácteos > Postres|548084-512-512|/postre-serenito-x-120-gr-2
@@ -1520,18 +1520,18 @@ id|nombre|precio|rubro|url_imagen|url_producto
 03249|Bizcochuelo Húmedo|319.0|Panadería y Repostería > Repostería|504577-512-512|/bizcochuelo-humedo
 03251|Merenguitos 180gr|119.0|Panadería y Repostería > Repostería|505806-512-512|/merenguitos
 03254|Muffin Vainilla Con Dulce De Leche|59.0|Panadería y Repostería > Repostería|529017-512-512|/muffin-vainilla-con-dulce-de-leche
-02246|Empanada De Carne Por un|58.0|Comidas Preparadas > Menú Caliente|423844-512-512|/empanada-carne-elab-propia-x-unidad
+02246|Empanada De Carne Por Un|58.0|Comidas Preparadas > Menú Caliente|423844-512-512|/empanada-carne-elab-propia-x-unidad
 03255|Pollo Rostisado|439.0|Comidas Preparadas > Menú Caliente|180804-512-512|/pollo-rotiseria-x-un-2
 02255|Empanada De Calabaza y Queso Gouda|58.0|Comidas Preparadas > Menú Caliente|423708-512-512|/empanada-de-calabaza-y-queso-gouda
 02251|Canelones De Ricota y Verdura-bja- gr .-400|199.0|Comidas Preparadas > Menú Caliente|472953-512-512|/canelones-de-ricota-y-verdura
-02248|Empanadas Arabes Elaboración Propia x un|58.0|Comidas Preparadas > Menú Caliente|195126-512-512|/empanadas-arabe-r
-02249|Empanada Árabe Por un|58.0|Comidas Preparadas > Menú Caliente|194399-512-512|/empanada-arabe
-02250|Empanadas De Jamon y Queso x un (rotiseria)|58.0|Comidas Preparadas > Menú Caliente|423755-512-512|/empanadas-r-5
+02248|Empanadas Arabes Elaboración Propia x Un|58.0|Comidas Preparadas > Menú Caliente|195126-512-512|/empanadas-arabe-r
+02249|Empanada Árabe Por Un|58.0|Comidas Preparadas > Menú Caliente|194399-512-512|/empanada-arabe
+02250|Empanadas De Jamon y Queso x Un (rotiseria)|58.0|Comidas Preparadas > Menú Caliente|423755-512-512|/empanadas-r-5
 02261|Tortilla De Papa|399.0|Comidas Preparadas > Menú Caliente|500136-512-512|/tortilla-de-papa
 03258|Lentejas A La Española Por kg|429.0|Comidas Preparadas > Menú Caliente|195644-512-512|/lentejas-r
-03259|Empanadas De Jamón y Queso Por un|58.0|Comidas Preparadas > Menú Caliente|423821-512-512|/empanadas-r-10
+03259|Empanadas De Jamón y Queso Por Un|58.0|Comidas Preparadas > Menú Caliente|423821-512-512|/empanadas-r-10
 02262|Tortilla De Verdura|399.0|Comidas Preparadas > Menú Caliente|500135-512-512|/tortilla-de-verdura-2
-03260|Empanadasde Verdura x un (rotiseria)|58.0|Comidas Preparadas > Menú Caliente|250114-512-512|/empanadas-r-5-2
+03260|Empanadasde Verdura x Un (rotiseria)|58.0|Comidas Preparadas > Menú Caliente|250114-512-512|/empanadas-r-5-2
 03261|Lasaña De Jamón, Queso, Ricota y Verd.-bja- gr .-400|219.0|Comidas Preparadas > Menú Caliente|472950-512-512|/lasana-de-jamon-queso-ricota-y-verd
 03262|Tarta Individual De Pollo|229.0|Comidas Preparadas > Menú Frío|451593-512-512|/tarta-ind-pollo-bs
 03263|Tarta Individual De Humita|219.0|Comidas Preparadas > Menú Frío|472949-512-512|/tarta-indiv-humita
@@ -1677,13 +1677,13 @@ id|nombre|precio|rubro|url_imagen|url_producto
 03410|Jabón Líquido Corporal Protex Macadamia 250ml|179.06|Perfumería > Cuidado Personal > Geles de Ducha|482501-512-512|/jabon-liquido-corporal-protex-macadamia-250-ml-2
 03411|Gel De Ducha Masculino Adidas Get Ready Citrus 250ml|212.18|Perfumería > Cuidado Personal > Geles de Ducha|555988-512-512|/gel-de-ducha-masculino-adidas-get-ready-citrus-250-ml
 03412|Gel De Ducha Masculino Adidas After Sport 250ml|212.18|Perfumería > Cuidado Personal > Geles de Ducha|555986-512-512|/gel-de-ducha-masculino-adidas-after-sport-250-ml
-03413|Jabón Pastilla Multipack Dove Original 6x90Gr|361.22|Perfumería > Cuidado Personal > Jabones|521765-512-512|/jabon-de-tocador-dove-8
-03414|Jabón De Tocador Dove Original Multipack 3x90Gr|188.37|Perfumería > Cuidado Personal > Jabones|521761-512-512|/jabon-de-tocador-dove-original-multipack-3x90-gr
+03413|Jabón Pastilla Multipack Dove Original 6x90gr|361.22|Perfumería > Cuidado Personal > Jabones|521765-512-512|/jabon-de-tocador-dove-8
+03414|Jabón De Tocador Dove Original Multipack 3x90gr|188.37|Perfumería > Cuidado Personal > Jabones|521761-512-512|/jabon-de-tocador-dove-original-multipack-3x90-gr
 03415|Jabón De Tocador Lux Jazmin Piel Suave|135.59|Perfumería > Cuidado Personal > Jabones|501710-512-512|/jabon-de-tocador-lux-jazmin-piel-suave
 03416|Jabón De Tocador Nivea Cremoso|108.68|Perfumería > Cuidado Personal > Jabones|579212-512-512|/jabon-de-tocador-nivea-cremoso-2
 03417|Jabón Líquido Para Manos Palmolive Naturals Jazmín y Manteca De Cacao 200ml|111.78|Perfumería > Cuidado Personal > Jabones|477824-512-512|/jabon-liquido-para-manos-palmolive-naturals-jazmin-y-manteca-de-cacao-200-ml-2
 03418|Jabón Líquido Algabo Citrus Splash Repuesto 300ml|66.8|Perfumería > Cuidado Personal > Jabones|197446-512-512|/jabon-liquido-algabo-6
-03419|Jabón En Barra Rexona Sensible Fresh 3x125Gr|115.92|Perfumería > Cuidado Personal > Jabones|432530-512-512|/jabon-en-barra-rexona-sensible-fresh-3x125-gr
+03419|Jabón En Barra Rexona Sensible Fresh 3x125gr|115.92|Perfumería > Cuidado Personal > Jabones|432530-512-512|/jabon-en-barra-rexona-sensible-fresh-3x125-gr
 03420|Jabon Palmolive Naturals Jazmin Pack 6un|182.16|Perfumería > Cuidado Personal > Jabones|543440-512-512|/jabon-palmolive-naturals-jazmin-pack-6-u
 04050|Jabón Líquido Lux Rosas Francesas Piel Renovad|174.92|Perfumería > Cuidado Personal > Jabones|492052-512-512|/jabon-liquido-lux-rosas-francesas-piel-renovad
 03659|Jabón En Barra Rexona Men Active 3x125g|115.92|Perfumería > Cuidado Personal > Jabones|521745-512-512|/jabon-de-tocador-rexona-active
@@ -1948,7 +1948,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 02388|Escobillón Novica Barre Todo|405.0|Limpieza > Accesorios de Limpieza > Escobas y Escobillones|584197-512-512|/escobillon-novica-barre-todo
 03764|Escobillón Virulana Multiuso Sin Cabo|355.0|Limpieza > Accesorios de Limpieza > Escobas y Escobillones|197155-512-512|/escobillon-virulana-x-1-un
 03766|Escobillon Novica Varremax|555.0|Limpieza > Accesorios de Limpieza > Escobas y Escobillones|584161-512-512|/escobillon-novica-varremax
-02394|Escobillon Virulana x 1Un-exterior-sin Cabo-s/e-un.-1|395.0|Limpieza > Accesorios de Limpieza > Escobas y Escobillones|328552-512-512|/escobillon-virulana-x-1-un-exterior-sin-cabo-s-e-un-1
+02394|Escobillon Virulana x 1un-exterior-sin Cabo-s/e-un.-1|395.0|Limpieza > Accesorios de Limpieza > Escobas y Escobillones|328552-512-512|/escobillon-virulana-x-1-un-exterior-sin-cabo-s-e-un-1
 02415|Cepillo Novica Largo Alcance|309.0|Limpieza > Accesorios de Limpieza > Escobillas|584203-512-512|/cepillo-novica-largo-alcance
 02417|Cepillo Novica Sanitario|365.0|Limpieza > Accesorios de Limpieza > Escobillas|584193-512-512|/cepillo-novica-sanitario
 02421|Cepillo Novica Planchita|395.0|Limpieza > Accesorios de Limpieza > Escobillas|584150-512-512|/cepillo-novica-planchita
@@ -2311,7 +2311,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 04194|Rollo De Cocina Felpita Doble Hoja 3un|78.0|Limpieza > Papeles > Rollos de Cocina|480905-512-512|/rollo-de-cocina-felpita-doble-hoja-3-x-40-mas-fuerte
 04195|Rollo De Cocina Campanita 100 Paños|168.1|Limpieza > Papeles > Rollos de Cocina|548169-512-512|/rollo-de-cocina-campanita-100-panos
 04196|Rollo De Cocina New Elegante 100 Paños|148.63|Limpieza > Papeles > Rollos de Cocina|207873-512-512|/rollo-de-cocina-new-elegante-100-panos
-04197|Rollo De Cocina Felpita Disney 3Un x 120 Paños|96.0|Limpieza > Papeles > Rollos de Cocina|480945-512-512|/rollo-de-cocina-felpita-disney-3-un-x-120-panos
+04197|Rollo De Cocina Felpita Disney 3un x 120 Paños|96.0|Limpieza > Papeles > Rollos de Cocina|480945-512-512|/rollo-de-cocina-felpita-disney-3-un-x-120-panos
 04198|Paños De Cocina Elegante Premium 100 Paños|59.85|Limpieza > Papeles > Rollos de Cocina|548936-512-512|/panos-de-cocina-elegante-premium-100-panos
 04199|Rollo De Cocina Felpita Decoré 3 x 40|89.0|Limpieza > Papeles > Rollos de Cocina|480906-512-512|/rollo-de-cocina-felpita-decore-3-x-40
 04200|Rollo De Cocina Felpita Infinity 100 Paños|164.0|Limpieza > Papeles > Rollos de Cocina|539483-512-512|/rollo-de-cocina-felpita-infinity-100-panos
@@ -2716,7 +2716,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 01118|Queso Crema Untable Crematto Ligth Pote 290gr|114.95|Quesos y Fiambres > Quesos > Quesos Untables|594382-512-512|/queso-crema-untable-crematto-ligth-pote-290-gr
 04882|Shampoo Anti-caspa Arcilla Purificante Elvive Loreal Paris 400ml|299.12|Perfumería > Cuidado Capilar > Shampoo|531192-512-512|/shampoo-anticaspa-elvive-2
 05081|Algabo Control Polvo Desodorante Talq. Rosa|98.0|Perfumería > Cuidado Personal > Desodorantes y Polvos Pédicos|539065-512-512|/algabo-control-polvo-desodorante-talq-rosa
-04500|Toallitas Humedas Antibacteriales Next Ab 25Un|245.0|Perfumería > Farmacia > Otros|596864-512-512|/toallitas-humedas-antibacteriales-next-ab-25-un
+04500|Toallitas Humedas Antibacteriales Next Ab 25un|245.0|Perfumería > Farmacia > Otros|596864-512-512|/toallitas-humedas-antibacteriales-next-ab-25-un
 04501|Aceto Balsamico Espeso Ahumado 500ml|244.8|Almacén > Aceites y Vinagres > Acetos|567535-512-512|/aceto-balsamico-espeso-ahumado-500-ml
 04884|Alim Polv Nesquik 25% Menos Azucar x 300gr|177.65|Almacén > Desayuno y Merienda > Cacao y Saborizantes|595172-512-512|/alim-polv-nesquik-25-menos-azucar-x300g
 04504|Gaseosa Paso De Los Toros Toníca 269ml|32.0|Bebidas > Gaseosas > Pomelo|596162-512-512|/gaseosa-paso-de-los-toros-tonica-269ml
@@ -2959,7 +2959,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 05127|Preservativos Prime Espermicida 6un|97.81|Perfumería > Farmacia > Preservativos|210580-512-512|/preservativos-prime-18
 05128|Preservativos Prime Lubricado 6un|97.81|Perfumería > Farmacia > Preservativos|432785-512-512|/preservativos-prime-17
 05129|Preservativos Prime Texturado 6un|97.81|Perfumería > Farmacia > Preservativos|210327-512-512|/preservativos-prime-16
-05130|Trapo De Piso Poltex Nido De Abeja un|229.0|Limpieza > Accesorios de Limpieza > Trapos de Piso|161433-512-512|/trapo-de-piso-pol-tex-2
+05130|Trapo De Piso Poltex Nido De Abeja Un|229.0|Limpieza > Accesorios de Limpieza > Trapos de Piso|161433-512-512|/trapo-de-piso-pol-tex-2
 05131|Antihumedad Novica Lavanda 130gr|337.23|Limpieza > Desodorantes de Ambiente > Absorbe Humedad|584181-512-512|/antihumedad-novica-lavanda-130-gr
 05132|Rollo De Cocina Rendipel Con Precorte|54.33|Limpieza > Papeles > Rollos de Cocina|497380-512-512|/rollo-de-cocina-rendipel-con-precorte
 05133|Aceite Oliva En Aerosol Fritolim 120gr|161.2|Almacén > Aceites y Vinagres > Aceites Especiales|468429-512-512|/aceite-oliva-en-aerosol-fritolim-120-gr
@@ -3032,7 +3032,7 @@ id|nombre|precio|rubro|url_imagen|url_producto
 01172|Queso Fontina Santa Rosa Trozado x kg|946.57|Quesos y Fiambres > Quesos > Quesos Semiblandos|602090-512-512|/queso-fontina-santa-rosa-trozado-x-kg
 01179|Queso Pategras Milkaut 1kg|983.65|Quesos y Fiambres > Quesos > Quesos Semiblandos|602048-512-512|/queso-pategras-milkaut
 01604|Salchichas Granja Iris Americana 225gr 5un|119.63|Quesos y Fiambres > Salchichas|580238-512-512|/salchichas-granja-iris-americana-225-gr-5-u
-02245|Empanadas De Queso & Cebolla Caramelizada x un (rotiseria)|11.9|Comidas Preparadas > Menú Caliente|491662-512-512|/empanadas-de-queso-cebolla-caramelizada-x-u-rotiseria
+02245|Empanadas De Queso & Cebolla Caramelizada x Un (rotiseria)|11.9|Comidas Preparadas > Menú Caliente|491662-512-512|/empanadas-de-queso-cebolla-caramelizada-x-u-rotiseria
 05211|Kit Completo De Coloración Permanente Nutrisse Ultra Cobertura Tono 30 45gr|454.37|Perfumería > Cuidado Capilar > Coloración|584725-512-512|/coloracion-nutrisse-permanente-42
 05212|Acondicionador Pantene Pro-v Micelar Purifica & Hidrata 400ml|278.42|Perfumería > Cuidado Capilar > Acondicionador|602082-512-512|/acondicionador-pantene-micellar-400ml
 05213|Acondicionador Pantene Pro-v Restauración 400ml|268.07|Perfumería > Cuidado Capilar > Acondicionador|601850-512-512|/acondicionador-pantene-pro-v-restauracion-400-ml
@@ -3136,9 +3136,9 @@ id|nombre|precio|rubro|url_imagen|url_producto
 05307|Crema De Día Dermaglos Facial Hidratante 50gr|757.62|Perfumería > Cuidado de la Piel > Cremas Faciales|585350-512-512|/crema-de-dia-dermaglos-facial-3
 05308|Revitalift Noche lt 'oreal Paris 50ml|822.83|Perfumería > Cuidado de la Piel > Cremas Faciales|460984-512-512|/crema-de-noche-dermo-expertise
 05309|Exfoliante Neutrogena® Deep Clean® Energizing x 100gr|299.12|Perfumería > Cuidado de la Piel > Cremas Desmaquillantes|585665-512-512|/exfoliante-neutrogena-deep-clean-energizing-x-100-gr
-05310|Bolsas Para Perros Asurín® Repuesto x 3 Rollos, 20un C/ un|345.0|Limpieza > Accesorios de Limpieza > Bolsas|551771-512-512|/bolsas-para-perros-asurin-repuesto-x3-rollos-20u-c-u
+05310|Bolsas Para Perros Asurín® Repuesto x 3 Rollos, 20un C/ Un|345.0|Limpieza > Accesorios de Limpieza > Bolsas|551771-512-512|/bolsas-para-perros-asurin-repuesto-x3-rollos-20u-c-u
 02691|Velas Ranchera 123gr|103.0|Limpieza > Desodorantes de Ambiente > Aromatizantes|444008-512-512|/velas-ranchera-blanca-x-120-grs-paq-4-un
-05311|Vela Farolito x 120gr -4x30Gr-paq- gr .-120|40.0|Limpieza > Desodorantes de Ambiente > Aromatizantes|168073-512-512|/vela-farolito-x-120-gr
+05311|Vela Farolito x 120gr -4x30gr-paq- gr .-120|40.0|Limpieza > Desodorantes de Ambiente > Aromatizantes|168073-512-512|/vela-farolito-x-120-gr
 02729|Insecticida Raid Mmm Eficacia Segura 360cc|191.68|Limpieza > Insecticidas > Aerosoles|544816-512-512|/insecticida-raid-mmm-eficacia-segura-360-cc
 05312|Aerosol Multi Insecto Baygon Casa y Jardin 300ml|120.95|Limpieza > Insecticidas > Aerosoles|431489-512-512|/aerosol-multi-insecto-baygon-casa-y-jardin-300-ml
 05313|Tabletas Para Mosquitos Fuyí 16un|107.63|Limpieza > Insecticidas > Tabletas y Difusores|431054-512-512|/tabletas-para-mosquitos-fuyi-16u

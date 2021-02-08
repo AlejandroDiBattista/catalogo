@@ -32,6 +32,11 @@ module Archivo
 		camino
 	end
 
+	def extraer_fecha(*camino)
+		origen = nombre(camino)
+		origen.split('_').last.to_date 
+	end
+
 	def abrir(url)
 		begin
 			if block_given?
@@ -53,7 +58,7 @@ module Archivo
 		datos = datos.map{|item| yield(item) } if block_given?
 		datos.compact
 	end
-
+  
 	def leer_json(*camino)
 		origen = ubicar(camino)
 		open(origen){|f| return JSON.parse(f.read) }

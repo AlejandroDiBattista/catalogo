@@ -1,4 +1,4 @@
-
+require_relative 'utils'
 Campos = [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :anterior, :precio_unitario, :precio_1, :precio_2, :precio_3]
 
 class Producto < Struct.new(*Campos)
@@ -41,12 +41,24 @@ class Producto < Struct.new(*Campos)
 		self.ofertas << extraer_oferta(self.precio_2) unless self.precio_2.vacio?
 		self.ofertas << extraer_oferta(self.precio_3) unless self.precio_3.vacio?
 
-		self.historia ||= []
-		self.historia.each do |h|
-			h[:desde] = h[:desde].to_fecha
-			h[:hasta] = h[:hasta].to_fecha
-		end
+		normalizar_historia
 		self
+	end
+
+	def normalizar_historia
+		self.historia ||= []
+		self.historia.each{|h| h[:fecha] = h[:fecha].to_date }
+		self
+	end
+
+	def actualizar(fecha, precio = nil)
+		fecha = fecha.to_date 
+		self.historia ||= []
+		self.historia = self.historia.select{|h| h.fecha < fecha }
+		ultimo = self.historia.last
+		self.historia << { fecha: fecha, precio: precio }  if !ultimo || ultimo.precio != precio
+
+		normalizar_historia
 	end
 
 	def key 
@@ -120,48 +132,30 @@ class Producto < Struct.new(*Campos)
 		variacion.abs > 0.01 
 	end
 
-	def actualizar(fecha, precio = nil)
-		fecha ||= Date.today # REVISAR
-		if ultimo = self.historia.last 
-			if precio 
-				if ultimo.precio == precio 
-					ultimo[:hasta] = fecha
-					precio = nil 
-				else
-					ultimo[:hasta] = fecha - 1
-					ultimo = nil 
-				end
-			elsif ultimo[:hasta] != fecha
-				ultimo[:hasta] = fecha - 1
-			end
-		end 
-		
-		self.historia << { desde: fecha, hasta: fecha, precio: precio } if !ultimo && precio 
-	end
-
 	def to_hash
-		Hash[Campos.map{|campo|[campo, self[campo]]}]
+		Hash[ Campos.map{|campo| [campo, self[campo]] } ]
 	end
 
 	def to_hash
 		tmp = to_h 
-		tmp[:historia] = self.historia 
+		tmp[:historia] = self.historia.map{|h|[fecha: h.fecha.dia, precio: h.precio]} 
 		tmp 
 	end
 
-
-# [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :anterior, :precio_unitario, :precio_1, :precio_2, :precio_3]
-
+	# [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :anterior, :precio_unitario, :precio_1, :precio_2, :precio_3]
 	def mostrar(verboso=true)
 		puts "ID: #{id}" do
 			puts "Nombre: %s" % self.nombre 
 			puts "Rubro : %s" % self.rubro 
-			puts "Precio: $%7.2f" % self.precio
+			puts "URL   : #{self.url_imagen} | #{self.url_producto}" if verboso 
+			puts "Precio: $%7.2f (%s)" % [self.precio, [self.precio_1, self.precio_2, self.precio_3].compact.join(", ")]
 			if verboso 
+				precio_anterior = nil 
 				self.historia.each do |h|
-					puts "        $%7.2f  de  #{h.desde.to_fecha}  a  #{h.hasta.to_fecha}" % [ h.precio ]
-				end 
-				puts "URL   : #{self.url_imagen} | #{self.url_producto}"
+					accion = precio_anterior.vacio? ? :alta : (h[:precio].vacio? ? :baja : :cambio)
+					puts "   #{h.fecha.dia}  => #{h.precio ? "%6.2f" % h.precio : "      "} > #{accion}" 
+					precio_anterior = h.precio
+				end
 			end
 			puts 
 		end
@@ -169,5 +163,17 @@ class Producto < Struct.new(*Campos)
 end
 
 if __FILE__ == $0
-
+	a = [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :anterior, :precio_unitario, :precio_1, :precio_2, :precio_3].zip(['0', 'Cola Cola Zero', 12.34, 'gaseosa', '/i1','/p1','Coca Cola', 'lt', nil, nil, nil, nil, nil])
+	a = Hash[a]
+	b = Producto.cargar(a)
+	b.mostrar(true) 
+	b.actualizar('2020/02/01', 100)
+	b.actualizar('2020/02/02', nil)
+	b.actualizar('2020/02/02', 120)
+	b.actualizar('2020/02/03', nil)
+	b.actualizar('2020/02/04', 120)
+	b.actualizar('2020/02/05', 120)
+	b.actualizar('2020/02/06', 130)
+	b.mostrar(true)
+	pp b.to_hash
 end

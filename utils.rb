@@ -229,6 +229,7 @@ module Enumerable
 end
 
 class String
+
 	def espacios
 		strip.gsub(/\s+/, ' ').strip
 	end
@@ -243,10 +244,6 @@ class String
 
 	def to_num
 		gsub(/\D/,'')
-	end
-
-	def to_fecha
-		Date.parse(self.scan(/(\d{2,4}-\d{1,2}-\d{1,2})/).flatten.first)
 	end
 
 	def from_rubro(separador='>')
@@ -364,15 +361,23 @@ module Kernel
 	end
 end
 
-class Date
-	def to_fecha
-		"%02i/%02i/%04i" % [self.day, self.month, self.year]
+class String
+	def to_date
+		Date.parse(self)
 	end
 end
 
-class DateTime
-	def to_fecha
+class Date
+	def to_date
+		self 
+	end 
+	
+	def dia
 		"%02i/%02i/%04i" % [self.day, self.month, self.year]
+	end
+
+	def hora 
+		"%02i:%02i:%04i" % [self.hour, self.minute, self.seconds]
 	end
 end
 

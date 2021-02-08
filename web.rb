@@ -315,9 +315,9 @@ def pull
 end
 
 if __FILE__ == $0
-	# limpiar_errores
+	limpiar_errores
 	# completar_id
-	bajar_todo
+	# bajar_todo
 	# pull
 	# pull
 	# limpiar_errores
