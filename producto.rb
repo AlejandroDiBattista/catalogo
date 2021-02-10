@@ -1,8 +1,8 @@
 require_relative 'utils'
-Campos = [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :anterior, :precio_unitario, :precio_1, :precio_2, :precio_3]
+Campos = [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :precio_unitario, :precio_1, :precio_2, :precio_3]
 
 class Producto < Struct.new(*Campos)
-	attr_accessor :ofertas, :historia, :texto
+	attr_accessor :ofertas, :historia, :texto, :anterior
 
 	def self.cargar(datos)
 		datos = datos.normalizar
@@ -137,7 +137,7 @@ class Producto < Struct.new(*Campos)
 	end
 
 	def to_hash
-		tmp = to_h 
+		tmp = to_h.compact 
 		tmp[:historia] = self.historia.map{|h|[fecha: h.fecha.dia, precio: h.precio]} 
 		tmp 
 	end

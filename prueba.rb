@@ -1,5 +1,5 @@
 # require 'date'
-require_relative 'utils'
+# require_relative 'utils'
 
 
 # class Producto < Struct.new(:nombre, :rubro, :precio, :id)
@@ -35,6 +35,13 @@ require_relative 'utils'
 # p a.class.name
 # p b 
 # p b.class.name
+require 'date'
+
+class String
+    def to_date 
+        Date.parse(self)
+    end
+end
 
 a = Date.today 
 b = "2020-3-1".to_date 
@@ -44,6 +51,5 @@ p a.to_s
 p b 
 p b.to_s 
 
-p a == a.to_s.to_date 
-
+p a == a.to
 

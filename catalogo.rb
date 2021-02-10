@@ -17,49 +17,48 @@ class Catalogo
 	end
 
 	def guardar()
-		Archivo.escribir(self, [base, 'catalogo.json'])
+		ordenar!
+		Archivo.escribir(self.compactar, [base, 'catalogo.json'])
 	end
 	
 	def agregar(*items, fecha: nil)
 		fecha ||= Date.today 
-		items = [items].flatten
-		items.each do |producto|
+		[items].flatten.each do |producto|
 			producto = producto.to_hash 		 if Struct === producto
-			producto = Producto.cargar(producto) if Hash === producto 
+			producto = Producto.cargar(producto) if Hash   === producto 
 			if Producto === producto
 				if anterior = datos[producto.key]
+					producto.id = anterior.id 
 					producto.historia = anterior.historia
-				else 
-					ordenados = false 
 				end
 				producto.actualizar(fecha, producto.precio)
 				datos[producto.key] = producto
 			end
+			ordenados = false
 		end
 		self
 	end
 
-	def ordenar!
-		identificar!
-		return if self.ordenados 
-		self.ordenados = true 
-		self.productos = self.datos.values.sort_by(&:id)
-	end
-
-	def identificar!(regenerar=false)
-		datos = self.datos.values 		
-		datos.each{|producto|producto.id = nil} if regenerar 
-		ultimo = datos.map(&:id).compact.max || '00000'
-		datos.select{|producto| producto.id.nil? }.sort_by(&:key).each do |producto|
+	def completar_id
+		ultimo = self.datos.values.map(&:id).compact.max || '00000'
+		self.datos.values.select{|producto| producto.id.nil? }.sort_by(&:key).each do |producto|
 			ultimo.succ!
 			producto.id = ultimo.clone
-			self.ordenados = false 
 		end
-		self 
+		self.ordenados = false 
+	end
+
+	def ordenar!(regenerar=false)
+		self.datos.values.each{|producto|producto.id = nil} if regenerar 
+		completar_id 
+
+		if !self.ordenados 
+		self.ordenados = true
+		self.productos = self.datos.values.sort_by(&:id)
+		end
 	end
 
 	def each
-		self.productos = self.datos.values
 		ordenar!
 		productos.each{|producto| yield(producto) }
 	end
@@ -248,14 +247,16 @@ class Catalogo
 			base = base.name if Class === base
 			productos = new(base)
 			puts "Cargando [#{base}]".pad(100).error do 
-				Archivo.listar(base, 'productos_*.dsv').each do |origen|
+				Archivo.listar(base, 'productos_*.dsv').sort.each do |origen|
 					fecha = Archivo.extraer_fecha(origen)
+
+					productos.each{|producto| producto.actualizar(fecha) }
 					nuevos = Archivo.leer(origen)
-					productos.each{|producto| producto.actualizar(fecha, nil) }
+					nuevos.each{|producto| producto.id = nil }
 					productos.agregar(nuevos, fecha: fecha)
+					productos.ordenar!
 					puts " > #{fecha} x #{nuevos.count} > #{productos.count}"
 				end
-				productos.identificar!
 			end
 			productos
 		end
@@ -270,6 +271,16 @@ class Catalogo
 end
 
 if __FILE__ == $0
-	[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar }
+	# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar }
+	[TuChanguito].each do |base| 
+		a = Catalogo.cargar_todo(base)
+		a.ordenar!
+		i = a.map(&:id) 
+		pp i.first(10)
+		pp i.last(10)
+		puts i.count 
+		puts i.uniq.count 
+		a.guardar 
+	end
 	# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.actualizar(base)}
 end

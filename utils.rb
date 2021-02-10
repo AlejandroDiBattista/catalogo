@@ -36,12 +36,6 @@ class Hash
 		Struct.new(*keys).new(*values)
 	end
 
-	def compact 
-		borrar = keys.select{|key| self[key].nil? }
-		borrar.each{|key| self.delete(key)}
-		self 
-	end
-
 	def to_hash
 		to_h
 	end
@@ -371,13 +365,39 @@ class Date
 	def to_date
 		self 
 	end 
-	
+
 	def dia
 		"%02i/%02i/%04i" % [self.day, self.month, self.year]
 	end
 
 	def hora 
 		"%02i:%02i:%04i" % [self.hour, self.minute, self.seconds]
+	end
+end
+
+class Hash
+	def compactar
+		borrar = keys.select{|key| self[key].nil? }
+		borrar.each{|key| self.delete(key)}
+		each{|k,v|self[k] = v.compactar }
+		self 
+	end
+end
+class Object
+	def compactar
+		self 
+	end
+end
+
+class Struct
+	def compactar
+		to_hash.compactar
+	end 
+end
+
+module Enumerable
+	def compactar
+		map(&:compactar).compact
 	end
 end
 
@@ -393,4 +413,7 @@ if __FILE__ == $0
 		end
 		puts "Lindo"
 	end
+	a = {a: nil, b: "hola", c: [10,nil, {d: nil, e: 10}]}
+	pp a 
+	pp a.compactar
 end
