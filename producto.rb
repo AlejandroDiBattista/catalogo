@@ -1,8 +1,8 @@
 require_relative 'utils'
-Campos = [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :precio_unitario, :precio_1, :precio_2, :precio_3]
+Campos = [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :precio_unitario, :precio_1, :precio_2, :precio_3, :historia]
 
 class Producto < Struct.new(*Campos)
-	attr_accessor :ofertas, :historia, :texto, :anterior, :key
+	attr_accessor :ofertas, :texto, :anterior, :key#, :historia
 
 	def self.cargar(datos)
 		return datos if Producto === datos
@@ -11,11 +11,9 @@ class Producto < Struct.new(*Campos)
 		datos = datos.to_hash if Struct === datos 
 		datos = datos.normalizar
 
-		# puts "Cargar DATOS".error
-		# pp datos 
 		tmp = new 
 		Campos.each{|campo| tmp[campo] = datos[campo] }
-		tmp.historia = (datos[:historia]||[])	
+		tmp.historia = datos[:historia]
 		tmp.normalizar
 		tmp 
 	end
@@ -48,8 +46,6 @@ class Producto < Struct.new(*Campos)
 
 		self.key = [self.nombre, self.url_producto, self.url_imagen].to_key
 		self.historia ||= []
-		# puts "Normalizar HISTORIA".error
-		# pp self.historia
 		self.historia.each{|h| h[:fecha] = h[:fecha].to_date }
 		self
 	end
@@ -62,12 +58,12 @@ class Producto < Struct.new(*Campos)
 	end
 
 	def activo?
-		historia.count > 1 && !historia.last.precio.vacio?
+		historia.count > 1 && ! historia.last.precio.vacio?
 	end
 
 	def extraer_oferta(oferta)
-		a, b = oferta.gsub(/[^\d.,]/,'').split(',')
-		[a.to_num, b.to_money]
+		cantidad, precio = oferta.gsub(/[^\d.,]/,'').split(',')
+		[cantidad.to_num, precio.to_money]
 	end
 
 	def categoria
@@ -134,8 +130,8 @@ class Producto < Struct.new(*Campos)
 
 	def to_hash
 		tmp = Hash[ Campos.map{|campo| [campo, self[campo]] } ]
-		tmp[:historia] = self.historia.map{|h|[fecha: h.fecha.dia, precio: h.precio]} 
-		tmp
+		tmp[:historia] = self.historia.map{|h|{fecha: h.fecha.dia, precio: h.precio}} 
+		tmp.compactar
 	end
 
 	def mostrar(verboso=true)

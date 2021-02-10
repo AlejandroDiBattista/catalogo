@@ -9,7 +9,8 @@ class Catalogo
 	
 	def initialize(base, productos=[])
 		@base, @datos, @productos, @ordenados = base, {}, [], false 
-		agregar(productos)
+		productos.each{|producto|datos[producto.key] = producto}
+		ordenar!
 	end
 
 	def escribir(tipo: :dsv)
@@ -18,7 +19,7 @@ class Catalogo
 
 	def guardar()
 		ordenar!
-		Archivo.escribir(compactar, [base, 'catalogo.json'])
+		Archivo.escribir(self, [base, 'catalogo.json'])
 	end
 	
 	def agregar(*items, fecha: nil)
@@ -223,7 +224,7 @@ class Catalogo
 
 		def leer(base, posicion=0)
 			base = base.name if Class === base
-			origen = listar(base, 'productos*.dsv')[posicion]
+			origen = listar(base, 'productos_*.dsv').sort[posicion]
         	tmp  = new(base, Archivo.leer(origen))
         	tmp -= tmp.filtrar(&:error?)
 		end
@@ -262,7 +263,8 @@ class Catalogo
 		
 		def actualizar(base)
 			t = Catalogo.cargar(base)
-			t.agregar(base.bajar)
+			# pp t.first
+			# t.agregar(base.bajar)
 			t.guardar
 			t 
 		end
@@ -270,8 +272,8 @@ class Catalogo
 end
 
 if __FILE__ == $0
-	# medir "Cargando [Tatito]" do 
-	# 	[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar }
-	# end
-	[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.actualizar(base)}
+	medir "Cargando [Tatito]" do 
+		# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar }
+		[Tatito].each{|base| Catalogo.actualizar(base)}
+	end
 end

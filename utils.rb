@@ -375,17 +375,18 @@ class Date
 	end
 end
 
-class Hash
-	def compactar
-		borrar = keys.select{|key| self[key].nil? }
-		borrar.each{|key| self.delete(key)}
-		each{|k,v|self[k] = v.compactar }
-		self 
-	end
-end
 class Object
 	def compactar
 		self 
+	end
+end
+
+class Hash
+	def compactar
+		campos = keys.select{|key| self[key] }
+		tmp = {}
+		campos.each{|campo| tmp[campo] = self[campo].compactar}
+		tmp 
 	end
 end
 
