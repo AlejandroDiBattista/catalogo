@@ -2,10 +2,15 @@ require_relative 'utils'
 Campos = [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :precio_unitario, :precio_1, :precio_2, :precio_3]
 
 class Producto < Struct.new(*Campos)
-	attr_accessor :ofertas, :historia, :texto, :anterior
+	attr_accessor :ofertas, :historia, :texto, :anterior, :key
 
 	def self.cargar(datos)
+		return datos if Producto === datos
+		return nil unless Hash === datos || Struct === datos
+
+		datos = datos.to_hash if Struct === datos 
 		datos = datos.normalizar
+
 		tmp = new 
 		Campos.each{|campo| tmp[campo] = datos[campo] }
 		tmp.historia = datos[:historia]	
@@ -22,14 +27,12 @@ class Producto < Struct.new(*Campos)
 		self.url_imagen   = nil	if self.url_imagen.vacio?
 
 		self.id           = nil if self.id.vacio?
-		self.anterior = 0
 
 		self.texto = [
 			self.nombre, self.rubro,
 			self.precio, self.unidad,
 			self.marca, 
 			self.nombre.tag(:nombre),
-			# self.rubro.tag(:rubro),
 			self.precio.tag(:precio), self.url_imagen.tag(:foto),
 			self.error?.tag(:error),
 			self.id,
@@ -41,11 +44,7 @@ class Producto < Struct.new(*Campos)
 		self.ofertas << extraer_oferta(self.precio_2) unless self.precio_2.vacio?
 		self.ofertas << extraer_oferta(self.precio_3) unless self.precio_3.vacio?
 
-		normalizar_historia
-		self
-	end
-
-	def normalizar_historia
+		self.key = [self.nombre, self.url_producto, self.url_imagen].to_key
 		self.historia ||= []
 		self.historia.each{|h| h[:fecha] = h[:fecha].to_date }
 		self
@@ -53,16 +52,13 @@ class Producto < Struct.new(*Campos)
 
 	def actualizar(fecha, precio = nil)
 		fecha = fecha.to_date 
-		self.historia ||= []
-		self.historia = self.historia.select{|h| h.fecha < fecha }
-		ultimo = self.historia.last
-		self.historia << { fecha: fecha, precio: precio }  if !ultimo || ultimo.precio != precio
-
-		normalizar_historia
+		self.historia = historia.select{|h| h.fecha < fecha }
+		ultimo = historia.last
+		historia << { fecha: fecha, precio: precio }  if !ultimo || ultimo.precio != precio
 	end
 
-	def key 
-		[:nombre, :url_producto, :url_imagen].map{|campo| self[campo]}.to_key
+	def activo?
+		historia.count > 1 && !historia.last.precio.vacio?
 	end
 
 	def extraer_oferta(oferta)
@@ -133,27 +129,22 @@ class Producto < Struct.new(*Campos)
 	end
 
 	def to_hash
-		Hash[ Campos.map{|campo| [campo, self[campo]] } ]
-	end
-
-	def to_hash
-		tmp = to_h.compact 
+		tmp = Hash[ Campos.map{|campo| [campo, self[campo]] } ]
 		tmp[:historia] = self.historia.map{|h|[fecha: h.fecha.dia, precio: h.precio]} 
-		tmp 
+		tmp
 	end
 
-	# [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :anterior, :precio_unitario, :precio_1, :precio_2, :precio_3]
 	def mostrar(verboso=true)
-		puts "ID: #{id}" do
-			puts "Nombre: %s" % self.nombre 
-			puts "Rubro : %s" % self.rubro 
-			puts "URL   : #{self.url_imagen} | #{self.url_producto}" if verboso 
-			puts "Precio: $%7.2f (%s)" % [self.precio, [self.precio_1, self.precio_2, self.precio_3].compact.join(", ")]
+		puts " ID: #{id}" do
+			puts " Nombre : %s" % nombre 
+			puts " Rubro  : %s" % rubro 
+			puts " URL    : #{url_imagen} | #{url_producto} > #{key}" if verboso 
+			puts " Precio : $%7.2f (%s)" % [precio, [precio_1, precio_2, precio_3].compact.join(", ")]
 			if verboso 
 				precio_anterior = nil 
-				self.historia.each do |h|
+				historia.each do |h|
 					accion = precio_anterior.vacio? ? :alta : (h[:precio].vacio? ? :baja : :cambio)
-					puts "   #{h.fecha.dia}  => #{h.precio ? "%6.2f" % h.precio : "      "} > #{accion}" 
+					puts "   #{h.fecha.dia} : #{h.precio ? "%6.2f" % h.precio : "      "} > #{accion}" 
 					precio_anterior = h.precio
 				end
 			end
@@ -163,17 +154,18 @@ class Producto < Struct.new(*Campos)
 end
 
 if __FILE__ == $0
-	a = [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :unidad, :anterior, :precio_unitario, :precio_1, :precio_2, :precio_3].zip(['0', 'Cola Cola Zero', 12.34, 'gaseosa', '/i1','/p1','Coca Cola', 'lt', nil, nil, nil, nil, nil])
-	a = Hash[a]
-	b = Producto.cargar(a)
+	puts " Probar PRODUCTOS ".pad(100).error
+	b = Producto.cargar({id: '000', nombre: 'Cola Cola Zero', precio: 120.00, rubro: 'Gaseosa', url_imagen: '/i1', url_producto: '/p1', marca: 'Coca Cola', unidad: 'lt', precio_1: '3,99.0', precio_2: '6,89.0'})
+	c = Producto.cargar(b)
 	b.mostrar(true) 
 	b.actualizar('2020/02/01', 100)
-	b.actualizar('2020/02/02', nil)
+	b.actualizar('2020/02/02')
 	b.actualizar('2020/02/02', 120)
-	b.actualizar('2020/02/03', nil)
+	b.actualizar('2020/02/03')
 	b.actualizar('2020/02/04', 120)
 	b.actualizar('2020/02/05', 120)
 	b.actualizar('2020/02/06', 130)
 	b.mostrar(true)
-	pp b.to_hash
+	c.mostrar(true)
+	pp b.compactar
 end

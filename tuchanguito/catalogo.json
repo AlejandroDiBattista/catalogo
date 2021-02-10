@@ -6675,7 +6675,7 @@
       ],
       [
         {
-          "fecha": "05/11/2020"
+          "fecha": "06/11/2020"
         }
       ]
     ]
@@ -11347,7 +11347,7 @@
       ],
       [
         {
-          "fecha": "05/11/2020"
+          "fecha": "06/11/2020"
         }
       ]
     ]
@@ -11368,7 +11368,7 @@
       ],
       [
         {
-          "fecha": "05/11/2020"
+          "fecha": "06/11/2020"
         }
       ]
     ]
@@ -15607,7 +15607,7 @@
       ],
       [
         {
-          "fecha": "05/11/2020"
+          "fecha": "06/11/2020"
         }
       ]
     ]
@@ -18996,7 +18996,7 @@
       ],
       [
         {
-          "fecha": "05/11/2020"
+          "fecha": "06/11/2020"
         }
       ]
     ]
@@ -19566,6 +19566,27 @@
     ]
   },
   {
+    "id": "00620",
+    "nombre": "Zapallito Verde x kg",
+    "precio": 139.0,
+    "rubro": "Verdulería",
+    "url_imagen": "zapallito-verde1-fbc47107517b8ff80116025975115447-480-0.jpg",
+    "url_producto": "zapallito-verde-x-kg/",
+    "historia": [
+      [
+        {
+          "fecha": "28/10/2020",
+          "precio": 139.0
+        }
+      ],
+      [
+        {
+          "fecha": "06/11/2020"
+        }
+      ]
+    ]
+  },
+  {
     "id": "00621",
     "nombre": "Shampoo Dove Reconstrucción Completa 750ml",
     "precio": 528.4,
@@ -19837,7 +19858,7 @@
       ],
       [
         {
-          "fecha": "03/11/2020"
+          "fecha": "04/11/2020"
         }
       ]
     ]
@@ -40722,17 +40743,6 @@
       ],
       [
         {
-          "fecha": "23/12/2020"
-        }
-      ],
-      [
-        {
-          "fecha": "25/12/2020",
-          "precio": 48.28
-        }
-      ],
-      [
-        {
           "fecha": "07/01/2021"
         }
       ]
@@ -40750,17 +40760,6 @@
       [
         {
           "fecha": "12/11/2020",
-          "precio": 80.0
-        }
-      ],
-      [
-        {
-          "fecha": "23/12/2020"
-        }
-      ],
-      [
-        {
-          "fecha": "25/12/2020",
           "precio": 80.0
         }
       ],
@@ -40788,17 +40787,6 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
-        }
-      ],
-      [
-        {
-          "fecha": "01/02/2021",
-          "precio": 80.0
-        }
-      ],
-      [
-        {
           "fecha": "07/02/2021"
         }
       ],
@@ -40806,6 +40794,11 @@
         {
           "fecha": "08/02/2021",
           "precio": 80.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -41274,7 +41267,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ]
     ]
@@ -41420,7 +41413,7 @@
       ],
       [
         {
-          "fecha": "09/02/2021"
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -42207,7 +42200,7 @@
       ],
       [
         {
-          "fecha": "24/11/2020"
+          "fecha": "25/11/2020"
         }
       ]
     ]
@@ -43024,7 +43017,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ],
       [
@@ -43035,7 +43028,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -43190,7 +43183,7 @@
     "id": "01384",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 75.0,
-    "rubro": "Productos > Arroz y Legumbres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "precio_unitario": "$75",
@@ -43404,7 +43397,7 @@
     "id": "01390",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Conservas",
+    "rubro": "Productos > Almacén",
     "url_imagen": "140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "precio_unitario": "$199",
@@ -43597,11 +43590,11 @@
   {
     "id": "01395",
     "nombre": "Azúcar Chango Organica 1kg",
-    "precio": 159.9,
+    "precio": 164.9,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "240791-d6de2568191d21ca1015990692101572-480-0.jpg",
     "url_producto": "productos/azucar-chango-organica-1-kg/",
-    "precio_unitario": "$159,90",
+    "precio_unitario": "$164,90",
     "historia": [
       [
         {
@@ -43624,6 +43617,12 @@
         {
           "fecha": "18/01/2021",
           "precio": 159.9
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 164.9
         }
       ]
     ]
@@ -43770,17 +43769,6 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
-        }
-      ],
-      [
-        {
-          "fecha": "01/02/2021",
-          "precio": 123.0
-        }
-      ],
-      [
-        {
           "fecha": "07/02/2021"
         }
       ],
@@ -43788,6 +43776,11 @@
         {
           "fecha": "08/02/2021",
           "precio": 123.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -43932,7 +43925,7 @@
     "id": "01404",
     "nombre": "Bife Ancho (marucha) x kg (*)",
     "precio": 620.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "bife-ancho1-046e8ec9180bc119ef15988756860268-480-0.jpg",
     "url_producto": "productos/bife-ancho-marucha-x-kg/",
     "precio_unitario": "$620",
@@ -43977,11 +43970,11 @@
   {
     "id": "01405",
     "nombre": "Bife Angosto x kg",
-    "precio": 675.0,
+    "precio": 730.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
-    "precio_unitario": "$675",
+    "precio_unitario": "$730",
     "historia": [
       [
         {
@@ -44005,6 +43998,12 @@
           "fecha": "18/01/2021",
           "precio": 675.0
         }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 730.0
+        }
       ]
     ]
   },
@@ -44012,7 +44011,7 @@
     "id": "01406",
     "nombre": "Bife De Chorizo Cortado P/ Bife x kg (*)",
     "precio": 770.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "bife-chorizo1-041d9d9fbaf770027115988756952195-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-bifedechorizo/",
     "precio_unitario": "$770",
@@ -44096,17 +44095,6 @@
           "fecha": "18/01/2021",
           "precio": 46.3
         }
-      ],
-      [
-        {
-          "fecha": "26/01/2021"
-        }
-      ],
-      [
-        {
-          "fecha": "01/02/2021",
-          "precio": 46.3
-        }
       ]
     ]
   },
@@ -44154,7 +44142,7 @@
     "id": "01409",
     "nombre": "Bola De Lomo Cortada P/ Milanesa x kg (*)",
     "precio": 780.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "bola-de-lomo1-0432a199844759898f15988757082702-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-boladelomo/",
     "precio_unitario": "$780",
@@ -44211,11 +44199,11 @@
   {
     "id": "01410",
     "nombre": "Bola De Lomo Feteada Para Milanesa x kg",
-    "precio": 640.0,
+    "precio": 660.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "bola-lomo-fet1-44e054598c02eecd9816027207901849-480-0.jpg",
     "url_producto": "productos/bola-de-lomo-feteada-para-milanesa-x-kg/",
-    "precio_unitario": "$640",
+    "precio_unitario": "$660",
     "historia": [
       [
         {
@@ -44250,6 +44238,12 @@
         {
           "fecha": "18/01/2021",
           "precio": 640.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 660.0
         }
       ]
     ]
@@ -44313,11 +44307,11 @@
   {
     "id": "01413",
     "nombre": "Bondiola x kg",
-    "precio": 545.0,
+    "precio": 585.0,
     "rubro": "Productos > Carnes de Cerdo",
     "url_imagen": "171-f373cd19c8c5396e2f16022705670318-480-0.jpg",
     "url_producto": "productos/bondiola-x-kg/",
-    "precio_unitario": "$545",
+    "precio_unitario": "$585",
     "historia": [
       [
         {
@@ -44340,6 +44334,12 @@
         {
           "fecha": "18/01/2021",
           "precio": 545.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 585.0
         }
       ]
     ]
@@ -44624,11 +44624,11 @@
   {
     "id": "01422",
     "nombre": "Caldo Maggi Verdura 12un",
-    "precio": 64.9,
+    "precio": 85.0,
     "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
     "url_imagen": "504311-15c6c5c917616cf89015990798701161-480-0.jpg",
     "url_producto": "productos/caldo-maggi-verdura-12-un/",
-    "precio_unitario": "$64,90",
+    "precio_unitario": "$85",
     "historia": [
       [
         {
@@ -44645,6 +44645,12 @@
         {
           "fecha": "18/01/2021",
           "precio": 64.9
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 85.0
         }
       ]
     ]
@@ -45233,7 +45239,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ],
       [
@@ -45318,7 +45324,7 @@
       ],
       [
         {
-          "fecha": "29/12/2020"
+          "fecha": "30/12/2020"
         }
       ]
     ]
@@ -45632,11 +45638,11 @@
   {
     "id": "01450",
     "nombre": "Churrasquito De Cerdo x kg",
-    "precio": 530.0,
+    "precio": 540.0,
     "rubro": "Productos > Carnes de Cerdo",
     "url_imagen": "131-d094f040c89765e46c16022708719512-480-0.jpg",
     "url_producto": "productos/churrasquito-de-cerdo-x-kg/",
-    "precio_unitario": "$530",
+    "precio_unitario": "$540",
     "historia": [
       [
         {
@@ -45671,6 +45677,12 @@
         {
           "fecha": "18/01/2021",
           "precio": 530.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 540.0
         }
       ]
     ]
@@ -45811,7 +45823,7 @@
     "id": "01454",
     "nombre": "Costeleta x kg (*)",
     "precio": 550.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "costeleta1-2969de50493bcf0bd915988757828419-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-costeleta/",
     "precio_unitario": "$550",
@@ -45850,11 +45862,11 @@
   {
     "id": "01455",
     "nombre": "Costilla De Novillo x kg",
-    "precio": 560.0,
+    "precio": 578.9,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "costilla1-5aa1363e9728dcd1bb16027208333800-480-0.png",
     "url_producto": "productos/costilla-de-novillo-x-kg/",
-    "precio_unitario": "$560",
+    "precio_unitario": "$578,90",
     "historia": [
       [
         {
@@ -45877,6 +45889,12 @@
         {
           "fecha": "18/01/2021",
           "precio": 560.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 578.9
         }
       ]
     ]
@@ -46200,7 +46218,7 @@
     "id": "01466",
     "nombre": "Cuadrada Cortada P/ Milanesa x kg (*)",
     "precio": 780.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "cuadrada1-7c547b439b086b2d6f15988758197929-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-cuadrada/",
     "precio_unitario": "$780",
@@ -46258,7 +46276,7 @@
     "id": "01467",
     "nombre": "Cuadril Sin Colita Cortado P/ Bife x kg (*)",
     "precio": 650.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "cuadril-colita11-2eec1b79652cdaec1515988758198978-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-cuadrilsincolita/",
     "precio_unitario": "$650",
@@ -46785,17 +46803,6 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
-        }
-      ],
-      [
-        {
-          "fecha": "01/02/2021",
-          "precio": 117.0
-        }
-      ],
-      [
-        {
           "fecha": "07/02/2021"
         }
       ],
@@ -46803,6 +46810,11 @@
         {
           "fecha": "08/02/2021",
           "precio": 117.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -47358,7 +47370,7 @@
       ],
       [
         {
-          "fecha": "15/12/2020"
+          "fecha": "16/12/2020"
         }
       ]
     ]
@@ -47484,11 +47496,11 @@
   {
     "id": "01506",
     "nombre": "Entraña x kg",
-    "precio": 880.0,
+    "precio": 975.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "entrana1-63782353e1918bb94216027208807855-480-0.jpg",
     "url_producto": "productos/entrana-x-kg/",
-    "precio_unitario": "$880",
+    "precio_unitario": "$975",
     "historia": [
       [
         {
@@ -47517,6 +47529,12 @@
         {
           "fecha": "18/01/2021",
           "precio": 880.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 975.0
         }
       ]
     ]
@@ -48328,11 +48346,11 @@
   {
     "id": "01532",
     "nombre": "Filet x kg",
-    "precio": 875.0,
+    "precio": 950.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "jrb1-a50223f72a8c46831416023459185263-480-0.jpg",
     "url_producto": "productos/filet-x-kg/",
-    "precio_unitario": "$875",
+    "precio_unitario": "$950",
     "historia": [
       [
         {
@@ -48374,6 +48392,12 @@
           "fecha": "18/01/2021",
           "precio": 875.0
         }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 950.0
+        }
       ]
     ]
   },
@@ -48381,7 +48405,7 @@
     "id": "01533",
     "nombre": "Filet x kg (*)",
     "precio": 1.05,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "filet1-b9cba792c2a2a00d4215988758554893-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-filet/",
     "precio_unitario": "$1.050",
@@ -48827,17 +48851,6 @@
           "fecha": "18/01/2021",
           "precio": 40.39
         }
-      ],
-      [
-        {
-          "fecha": "26/01/2021"
-        }
-      ],
-      [
-        {
-          "fecha": "01/02/2021",
-          "precio": 40.39
-        }
       ]
     ]
   },
@@ -49108,7 +49121,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ],
       [
@@ -49711,11 +49724,11 @@
   {
     "id": "01570",
     "nombre": "Hamburguesa Swift Carne 20un",
-    "precio": 1.127,
+    "precio": 1.258,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "236161-61c45c86ae4cfaa4ef15992499385568-480-0.jpg",
     "url_producto": "productos/hamburguesa-swift-carne-20-un/",
-    "precio_unitario": "$1.127,10",
+    "precio_unitario": "$1.258,30",
     "historia": [
       [
         {
@@ -49732,6 +49745,12 @@
         {
           "fecha": "18/01/2021",
           "precio": 1.127
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 1.258
         }
       ]
     ]
@@ -50346,7 +50365,7 @@
       ],
       [
         {
-          "fecha": "29/12/2020"
+          "fecha": "30/12/2020"
         }
       ]
     ]
@@ -50691,7 +50710,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ]
     ]
@@ -50903,11 +50922,11 @@
   {
     "id": "01608",
     "nombre": "Jabón Liquido Skip D.p. 3lt",
-    "precio": 455.0,
+    "precio": 537.0,
     "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "215981-7b18d0c61234c65b5615988874442888-480-0.jpg",
     "url_producto": "productos/jab-liq-skip-d-p-3-lt/",
-    "precio_unitario": "$455",
+    "precio_unitario": "$537",
     "historia": [
       [
         {
@@ -50942,6 +50961,12 @@
         {
           "fecha": "18/01/2021",
           "precio": 455.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 537.0
         }
       ]
     ]
@@ -51042,7 +51067,7 @@
       ],
       [
         {
-          "fecha": "09/02/2021"
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -51110,7 +51135,7 @@
       ],
       [
         {
-          "fecha": "05/01/2021"
+          "fecha": "06/01/2021"
         }
       ]
     ]
@@ -51676,7 +51701,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ]
     ]
@@ -52360,7 +52385,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ],
       [
@@ -52391,7 +52416,7 @@
     "id": "01652",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Leches en Polvo y Larga Vida",
+    "rubro": "Productos > Postres y Repostería",
     "url_imagen": "244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "precio_unitario": "$155,90",
@@ -52466,7 +52491,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ],
       [
@@ -52969,7 +52994,7 @@
       ],
       [
         {
-          "fecha": "05/01/2021"
+          "fecha": "06/01/2021"
         }
       ]
     ]
@@ -53027,6 +53052,11 @@
         {
           "fecha": "05/02/2021",
           "precio": 199.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -53130,11 +53160,11 @@
   {
     "id": "01673",
     "nombre": "Manteca La Paulina 200gr",
-    "precio": 162.0,
+    "precio": 162.5,
     "rubro": "Productos > Lácteos",
     "url_imagen": "58391-120f95e2d69f1904b015988906329721-480-0.jpg",
     "url_producto": "productos/manteca-l-paulina-200-gr/",
-    "precio_unitario": "$162",
+    "precio_unitario": "$162,50",
     "historia": [
       [
         {
@@ -53157,6 +53187,12 @@
         {
           "fecha": "18/01/2021",
           "precio": 162.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 162.5
         }
       ]
     ]
@@ -53261,7 +53297,7 @@
     "id": "01677",
     "nombre": "Matambre x kg (*)",
     "precio": 710.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "matambre1-1ab90bd2123cd55bd115988758558654-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-matambre/",
     "precio_unitario": "$710",
@@ -53306,11 +53342,11 @@
   {
     "id": "01678",
     "nombre": "Matambre x kg",
-    "precio": 699.0,
+    "precio": 750.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "matambre1-f3ebb76d5a9f5751bf16027223150982-480-0.jpg",
     "url_producto": "productos/matambre-x-kg/",
-    "precio_unitario": "$699",
+    "precio_unitario": "$750",
     "historia": [
       [
         {
@@ -53345,6 +53381,12 @@
         {
           "fecha": "18/01/2021",
           "precio": 699.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 750.0
         }
       ]
     ]
@@ -53607,7 +53649,7 @@
       ],
       [
         {
-          "fecha": "29/12/2020"
+          "fecha": "30/12/2020"
         }
       ],
       [
@@ -54464,7 +54506,7 @@
       ],
       [
         {
-          "fecha": "09/02/2021"
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -54501,7 +54543,7 @@
     "id": "01714",
     "nombre": "Mostaza Savora 250gr",
     "precio": 85.9,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aderezos",
     "url_imagen": "115651-091ba485b56ce6138915989074478331-480-0.jpg",
     "url_producto": "productos/mostaza-savora-250-grs/",
     "precio_unitario": "$85,90",
@@ -55042,7 +55084,7 @@
     "id": "01731",
     "nombre": "Paleta (rolliza) Cortada P/ Bife x kg (*)",
     "precio": 650.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "paleta1-15697187b50ddc277b15988759318660-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-paleta/",
     "precio_unitario": "$650",
@@ -55152,6 +55194,11 @@
         {
           "fecha": "18/01/2021",
           "precio": 179.2
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -56062,6 +56109,12 @@
         {
           "fecha": "01/02/2021"
         }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 135.3
+        }
       ]
     ]
   },
@@ -56304,6 +56357,11 @@
         {
           "fecha": "18/01/2021",
           "precio": 202.5
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -56649,7 +56707,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ]
     ]
@@ -56772,7 +56830,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ]
     ]
@@ -57154,11 +57212,11 @@
   {
     "id": "01795",
     "nombre": "Queso Ilolay Cream Light 300gr",
-    "precio": 149.3,
+    "precio": 155.4,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "2366711-ff8614ee965c9b2c9e15990917915270-480-0.jpg",
     "url_producto": "productos/queso-ilolay-cream-light-300-gr/",
-    "precio_unitario": "$149,30",
+    "precio_unitario": "$155,40",
     "historia": [
       [
         {
@@ -57181,6 +57239,12 @@
         {
           "fecha": "18/01/2021",
           "precio": 149.3
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 155.4
         }
       ]
     ]
@@ -57319,7 +57383,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ]
     ]
@@ -57341,7 +57405,7 @@
       ],
       [
         {
-          "fecha": "05/01/2021"
+          "fecha": "06/01/2021"
         }
       ]
     ]
@@ -57451,11 +57515,11 @@
   {
     "id": "01805",
     "nombre": "Queso Tybo/danbo Noal Feteado x 800gr (*)",
-    "precio": 534.49,
+    "precio": 650.76,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "queso-noal1-b7346bd194d57c7ba615995211415615-480-0.jpg",
     "url_producto": "productos/alem500-quesotybo-danbonoalfeteadox800grs/",
-    "precio_unitario": "$534,49",
+    "precio_unitario": "$650,76",
     "historia": [
       [
         {
@@ -57485,17 +57549,23 @@
           "fecha": "07/02/2021",
           "precio": 534.49
         }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 650.76
+        }
       ]
     ]
   },
   {
     "id": "01806",
     "nombre": "Queso Tybo Ilolay Feteado x 800gr (*)",
-    "precio": 607.98,
+    "precio": 699.5,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "queso-ilolay1-18e416b5a829be344315995212003710-480-0.jpg",
     "url_producto": "productos/alem500-quesotyboilolayfeteadox800grs/",
-    "precio_unitario": "$607,98",
+    "precio_unitario": "$699,50",
     "historia": [
       [
         {
@@ -57524,6 +57594,12 @@
         {
           "fecha": "07/02/2021",
           "precio": 607.98
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 699.5
         }
       ]
     ]
@@ -58063,7 +58139,7 @@
     "id": "01823",
     "nombre": "Roast Beef x kg (*)",
     "precio": 630.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "roast-beef1-1012e92b51251e985215988759674691-480-0.jpg",
     "url_producto": "productos/lavacaclub-duros-roastbeef/",
     "precio_unitario": "$630",
@@ -58420,7 +58496,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ]
     ]
@@ -58727,7 +58803,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ]
     ]
@@ -59140,11 +59216,11 @@
   {
     "id": "01857",
     "nombre": "Solomillo x kg",
-    "precio": 510.0,
+    "precio": 560.0,
     "rubro": "Productos > Carnes de Cerdo",
     "url_imagen": "101-b33096445d3545bd8916022710051138-480-0.jpg",
     "url_producto": "productos/solomillo-x-kg/",
-    "precio_unitario": "$510",
+    "precio_unitario": "$560",
     "historia": [
       [
         {
@@ -59168,6 +59244,12 @@
           "fecha": "18/01/2021",
           "precio": 510.0
         }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 560.0
+        }
       ]
     ]
   },
@@ -59188,17 +59270,6 @@
       ],
       [
         {
-          "fecha": "23/12/2020"
-        }
-      ],
-      [
-        {
-          "fecha": "25/12/2020",
-          "precio": 67.5
-        }
-      ],
-      [
-        {
           "fecha": "07/01/2021",
           "precio": 77.99
         }
@@ -59212,11 +59283,6 @@
         {
           "fecha": "18/01/2021",
           "precio": 77.99
-        }
-      ],
-      [
-        {
-          "fecha": "26/01/2021"
         }
       ],
       [
@@ -59295,17 +59361,6 @@
       ],
       [
         {
-          "fecha": "23/12/2020"
-        }
-      ],
-      [
-        {
-          "fecha": "25/12/2020",
-          "precio": 125.68
-        }
-      ],
-      [
-        {
           "fecha": "05/01/2021",
           "precio": 139.3
         }
@@ -59318,17 +59373,6 @@
       [
         {
           "fecha": "18/01/2021",
-          "precio": 139.3
-        }
-      ],
-      [
-        {
-          "fecha": "26/01/2021"
-        }
-      ],
-      [
-        {
-          "fecha": "01/02/2021",
           "precio": 139.3
         }
       ],
@@ -59545,11 +59589,11 @@
   {
     "id": "01867",
     "nombre": "Té La Virginia Verde 20un",
-    "precio": 95.0,
+    "precio": 123.0,
     "rubro": "Productos > Infusiones",
     "url_imagen": "134371-c7762f00aff2ecd64615988885429321-480-0.jpg",
     "url_producto": "productos/te-l-virginia-verde-20-un/",
-    "precio_unitario": "$95",
+    "precio_unitario": "$123",
     "historia": [
       [
         {
@@ -59572,6 +59616,12 @@
         {
           "fecha": "09/02/2021",
           "precio": 95.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 123.0
         }
       ]
     ]
@@ -60254,7 +60304,7 @@
     "id": "01889",
     "nombre": "Vacío x kg (*)",
     "precio": 690.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "vacio1-452065eddeb5cb7d7a15988759969775-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-vacio/",
     "precio_unitario": "$690",
@@ -60353,6 +60403,12 @@
       [
         {
           "fecha": "01/02/2021"
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021",
+          "precio": 187.5
         }
       ]
     ]
@@ -60554,7 +60610,7 @@
       ],
       [
         {
-          "fecha": "10/12/2020"
+          "fecha": "11/12/2020"
         }
       ]
     ]
@@ -60691,7 +60747,7 @@
       ],
       [
         {
-          "fecha": "17/11/2020"
+          "fecha": "18/11/2020"
         }
       ],
       [
@@ -60746,7 +60802,7 @@
       ],
       [
         {
-          "fecha": "04/01/2021"
+          "fecha": "06/01/2021"
         }
       ],
       [
@@ -60813,7 +60869,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ],
       [
@@ -61457,7 +61513,7 @@
       ],
       [
         {
-          "fecha": "08/12/2020"
+          "fecha": "09/12/2020"
         }
       ],
       [
@@ -61864,7 +61920,7 @@
       ],
       [
         {
-          "fecha": "05/01/2021"
+          "fecha": "06/01/2021"
         }
       ],
       [
@@ -61947,17 +62003,6 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
-        }
-      ],
-      [
-        {
-          "fecha": "01/02/2021",
-          "precio": 85.8
-        }
-      ],
-      [
-        {
           "fecha": "07/02/2021"
         }
       ],
@@ -61965,6 +62010,11 @@
         {
           "fecha": "08/02/2021",
           "precio": 85.8
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -62014,17 +62064,6 @@
       ],
       [
         {
-          "fecha": "23/12/2020"
-        }
-      ],
-      [
-        {
-          "fecha": "25/12/2020",
-          "precio": 98.6
-        }
-      ],
-      [
-        {
           "fecha": "08/01/2021"
         }
       ],
@@ -62047,17 +62086,6 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
-        }
-      ],
-      [
-        {
-          "fecha": "01/02/2021",
-          "precio": 98.6
-        }
-      ],
-      [
-        {
           "fecha": "07/02/2021"
         }
       ],
@@ -62071,6 +62099,11 @@
         {
           "fecha": "09/02/2021",
           "precio": 130.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -62818,17 +62851,6 @@
       ],
       [
         {
-          "fecha": "23/12/2020"
-        }
-      ],
-      [
-        {
-          "fecha": "25/12/2020",
-          "precio": 93.4
-        }
-      ],
-      [
-        {
           "fecha": "08/01/2021",
           "precio": 99.0
         }
@@ -62847,17 +62869,6 @@
       [
         {
           "fecha": "21/01/2021",
-          "precio": 105.0
-        }
-      ],
-      [
-        {
-          "fecha": "26/01/2021"
-        }
-      ],
-      [
-        {
-          "fecha": "01/02/2021",
           "precio": 105.0
         }
       ],
@@ -62897,7 +62908,7 @@
       ],
       [
         {
-          "fecha": "23/12/2020"
+          "fecha": "25/12/2020"
         }
       ]
     ]
@@ -62919,7 +62930,7 @@
       ],
       [
         {
-          "fecha": "23/12/2020"
+          "fecha": "25/12/2020"
         }
       ]
     ]
@@ -62941,7 +62952,7 @@
       ],
       [
         {
-          "fecha": "23/12/2020"
+          "fecha": "25/12/2020"
         }
       ]
     ]
@@ -63590,7 +63601,7 @@
       ],
       [
         {
-          "fecha": "23/12/2020"
+          "fecha": "25/12/2020"
         }
       ]
     ]
@@ -63634,7 +63645,7 @@
       ],
       [
         {
-          "fecha": "15/12/2020"
+          "fecha": "16/12/2020"
         }
       ]
     ]
@@ -63983,7 +63994,7 @@
       ],
       [
         {
-          "fecha": "23/12/2020"
+          "fecha": "25/12/2020"
         }
       ]
     ]
@@ -64005,7 +64016,7 @@
       ],
       [
         {
-          "fecha": "23/12/2020"
+          "fecha": "25/12/2020"
         }
       ]
     ]
@@ -64105,7 +64116,7 @@
       ],
       [
         {
-          "fecha": "23/12/2020"
+          "fecha": "25/12/2020"
         }
       ]
     ]
@@ -64127,7 +64138,7 @@
       ],
       [
         {
-          "fecha": "23/12/2020"
+          "fecha": "25/12/2020"
         }
       ]
     ]
@@ -64210,7 +64221,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -64514,7 +64525,7 @@
       ],
       [
         {
-          "fecha": "29/12/2020"
+          "fecha": "30/12/2020"
         }
       ]
     ]
@@ -64536,7 +64547,7 @@
       ],
       [
         {
-          "fecha": "29/12/2020"
+          "fecha": "30/12/2020"
         }
       ]
     ]
@@ -64558,7 +64569,7 @@
       ],
       [
         {
-          "fecha": "29/12/2020"
+          "fecha": "30/12/2020"
         }
       ]
     ]
@@ -64580,7 +64591,7 @@
       ],
       [
         {
-          "fecha": "29/12/2020"
+          "fecha": "30/12/2020"
         }
       ]
     ]
@@ -64602,7 +64613,7 @@
       ],
       [
         {
-          "fecha": "29/12/2020"
+          "fecha": "30/12/2020"
         }
       ]
     ]
@@ -64624,7 +64635,7 @@
       ],
       [
         {
-          "fecha": "04/01/2021"
+          "fecha": "06/01/2021"
         }
       ],
       [
@@ -65411,7 +65422,7 @@
     "id": "02066",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 179.0,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "precio_unitario": "$179",
@@ -65578,6 +65589,11 @@
           "fecha": "01/02/2021",
           "precio": 135.0
         }
+      ],
+      [
+        {
+          "fecha": "10/02/2021"
+        }
       ]
     ]
   },
@@ -65677,6 +65693,11 @@
         {
           "fecha": "01/02/2021",
           "precio": 135.0
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -65793,7 +65814,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -65826,7 +65847,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -68704,7 +68725,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -68894,7 +68915,7 @@
       ],
       [
         {
-          "fecha": "09/02/2021"
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -69576,7 +69597,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -69598,7 +69619,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -69620,7 +69641,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -69642,7 +69663,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -69664,7 +69685,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -69686,7 +69707,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -69748,7 +69769,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -69770,7 +69791,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -69792,7 +69813,7 @@
       ],
       [
         {
-          "fecha": "26/01/2021"
+          "fecha": "01/02/2021"
         }
       ]
     ]
@@ -69814,7 +69835,7 @@
       ],
       [
         {
-          "fecha": "03/02/2021"
+          "fecha": "04/02/2021"
         }
       ]
     ]
@@ -69836,7 +69857,7 @@
       ],
       [
         {
-          "fecha": "03/02/2021"
+          "fecha": "04/02/2021"
         }
       ]
     ]
@@ -70409,7 +70430,7 @@
     "id": "02291",
     "nombre": "Pan De Hamburguesa La Panerita x 4un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "311-c0d1a72eb892048d8c16118693644227-480-0.jpg",
     "url_producto": "productos/pan-de-hamburguesa-la-panerita-x-4-unidades/",
     "precio_unitario": "$67,60",
@@ -70432,7 +70453,7 @@
     "id": "02292",
     "nombre": "Pan De Viena La Panerita x 6un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "211-be805d33b897e5219a16118693250617-480-0.jpg",
     "url_producto": "productos/pan-de-viena-la-panerita-x-6-unidades/",
     "precio_unitario": "$67,60",
@@ -70455,7 +70476,7 @@
     "id": "02293",
     "nombre": "Pan Lactal La Panerita Blanco 400gr ,",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "41-967720a304d43123a016118693910439-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-blanco-400-gr/",
     "precio_unitario": "$105",
@@ -70478,7 +70499,7 @@
     "id": "02294",
     "nombre": "Pan Lactal La Panerita Salvado 400gr",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "51-7eb96e352d872455a216118694168191-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-salvado-400-gr/",
     "precio_unitario": "$105",
@@ -70501,7 +70522,7 @@
     "id": "02295",
     "nombre": "Pan Pebete La Panerita x 6un",
     "precio": 110.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "pebete1-6f4d4cf5f8495b246116118692752394-480-0.jpg",
     "url_producto": "productos/pan-pebete-la-panerita-x-6-unidades/",
     "precio_unitario": "$110",
@@ -70641,6 +70662,11 @@
           "fecha": "01/02/2021",
           "precio": 37.5
         }
+      ],
+      [
+        {
+          "fecha": "10/02/2021"
+        }
       ]
     ]
   },
@@ -70657,6 +70683,11 @@
         {
           "fecha": "03/02/2021",
           "precio": 208.5
+        }
+      ],
+      [
+        {
+          "fecha": "10/02/2021"
         }
       ]
     ]
@@ -71274,7 +71305,7 @@
     "id": "02335",
     "nombre": "Morcilla Vasca x 500gr (*)",
     "precio": 210.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "morcilla-vasca1-62dc9c1bf793919ad015988758936814-480-0.jpg",
     "url_producto": "productos/morcilla-vasca-x-500gr/",
     "precio_unitario": "$210",
@@ -71288,22 +71319,35 @@
     ]
   },
   {
-    "id": "02335",
-    "nombre": "Zapallito Verde x kg",
-    "precio": 139.0,
-    "rubro": "Verdulería",
-    "url_imagen": "zapallito-verde1-fbc47107517b8ff80116025975115447-480-0.jpg",
-    "url_producto": "zapallito-verde-x-kg/",
+    "id": "02336",
+    "nombre": "Pepino x kg",
+    "precio": 90.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "venta-de-pepinos-en-mendoza1-8c24c4a64dbc73d71715863085757118-640-01-b9488bbb20f4ff3d6b16128886958211-480-0.png",
+    "url_producto": "productos/pepino-x-kg/",
+    "precio_unitario": "$90",
     "historia": [
       [
         {
-          "fecha": "28/10/2020",
-          "precio": 139.0
+          "fecha": "10/02/2021",
+          "precio": 90.0
         }
-      ],
+      ]
+    ]
+  },
+  {
+    "id": "02337",
+    "nombre": "Zapallo Plomo x kg",
+    "precio": 115.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "2326951000004_021-9533fa2ac25a84278716128884666054-480-0.jpg",
+    "url_producto": "productos/zapallo-plomo-x-kg/",
+    "precio_unitario": "$115",
+    "historia": [
       [
         {
-          "fecha": "05/11/2020"
+          "fecha": "10/02/2021",
+          "precio": 115.0
         }
       ]
     ]

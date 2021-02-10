@@ -18,15 +18,14 @@ class Catalogo
 
 	def guardar()
 		ordenar!
-		Archivo.escribir(self.compactar, [base, 'catalogo.json'])
+		Archivo.escribir(compactar, [base, 'catalogo.json'])
 	end
 	
 	def agregar(*items, fecha: nil)
 		fecha ||= Date.today 
 		[items].flatten.each do |producto|
-			producto = producto.to_hash 		 if Struct === producto
-			producto = Producto.cargar(producto) if Hash   === producto 
-			if Producto === producto
+			if producto = Producto.cargar(producto) 
+				producto.id = nil
 				if anterior = datos[producto.key]
 					producto.id = anterior.id 
 					producto.historia = anterior.historia
@@ -39,23 +38,23 @@ class Catalogo
 		self
 	end
 
-	def completar_id
-		ultimo = self.datos.values.map(&:id).compact.max || '00000'
-		self.datos.values.select{|producto| producto.id.nil? }.sort_by(&:key).each do |producto|
-			ultimo.succ!
-			producto.id = ultimo.clone
+	def completar_id(regenerar=false)
+		aux = datos.values 
+		aux.each{|producto|producto.id = nil} if regenerar 
+		ultimo = aux.map(&:id).compact.max || '00000'
+		aux.select{|producto| producto.id.nil? }.sort_by(&:key).each do |producto|
+			producto.id = (ultimo = ultimo.succ)
+			self.ordenados = false 
 		end
-		self.ordenados = false 
 	end
 
 	def ordenar!(regenerar=false)
-		self.datos.values.each{|producto|producto.id = nil} if regenerar 
-		completar_id 
-
-		if !self.ordenados 
+		completar_id(regenerar)
+		n = datos.values.count{|producto|producto.id.nil?}
+		puts "Hay #{n} productos sin ID" if n > 0 
+		return if ordenados 
+		self.productos = datos.values.sort_by(&:id)
 		self.ordenados = true
-		self.productos = self.datos.values.sort_by(&:id)
-		end
 	end
 
 	def each
@@ -245,20 +244,20 @@ class Catalogo
 
 		def cargar_todo(base)
 			base = base.name if Class === base
-			productos = new(base)
-			puts "Cargando [#{base}]".pad(100).error do 
-				Archivo.listar(base, 'productos_*.dsv').sort.each do |origen|
-					fecha = Archivo.extraer_fecha(origen)
+			tmp = new(base)
+			Archivo.listar(base, 'productos_*.dsv').sort.each do |origen|
+				fecha = Archivo.extraer_fecha(origen)
+				tmp.each{|producto| producto.actualizar(fecha) }
+				
+				nuevos = Archivo.leer(origen)
+				nuevos.each{|producto| producto.id = nil}
 
-					productos.each{|producto| producto.actualizar(fecha) }
-					nuevos = Archivo.leer(origen)
-					nuevos.each{|producto| producto.id = nil }
-					productos.agregar(nuevos, fecha: fecha)
-					productos.ordenar!
-					puts " > #{fecha} x #{nuevos.count} > #{productos.count}"
-				end
+				tmp.agregar(nuevos, fecha: fecha)
+				tmp.ordenar!
+
+				puts " > #{fecha} x #{nuevos.count} > #{tmp.count}"
 			end
-			productos
+			tmp
 		end
 		
 		def actualizar(base)
@@ -271,16 +270,8 @@ class Catalogo
 end
 
 if __FILE__ == $0
-	# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar }
-	[TuChanguito].each do |base| 
-		a = Catalogo.cargar_todo(base)
-		a.ordenar!
-		i = a.map(&:id) 
-		pp i.first(10)
-		pp i.last(10)
-		puts i.count 
-		puts i.uniq.count 
-		a.guardar 
+	medir "Cargando [Tatito]" do 
+		[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar }
 	end
 	# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.actualizar(base)}
 end
