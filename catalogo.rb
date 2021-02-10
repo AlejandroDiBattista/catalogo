@@ -270,8 +270,8 @@ class Catalogo
 end
 
 if __FILE__ == $0
-	medir "Cargando [Tatito]" do 
-		[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar }
-	end
-	# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.actualizar(base)}
+	# medir "Cargando [Tatito]" do 
+	# 	[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar }
+	# end
+	[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.actualizar(base)}
 end

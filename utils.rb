@@ -5,7 +5,7 @@ require 'date'
 $stdout.sync = true
 $semaphore = Mutex.new
 
-def Hash(campos, valores=nil)
+def cargar_hash(campos, valores=nil)
 	campos = campos.map(&:to_key).zip(valores) if valores
 	Hash[campos]
 end
@@ -24,7 +24,7 @@ class Hash
 	end
 
 	def normalizar
-		Hash(keys.map(&:to_key), values.normalizar)
+		cargar_hash(keys.map(&:to_key), values.normalizar)
 	end
 
 	def normalizar!

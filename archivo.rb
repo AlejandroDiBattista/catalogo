@@ -54,7 +54,7 @@ module Archivo
 		separador = extension(origen) == :dsv ? '|' : ';' 
 		csv    = CSV.open(origen, :col_sep => separador)
 		campos = csv.shift.map(&:to_key)
-		datos = csv.map{|valores| Hash(campos, valores.normalizar).to_struct }
+		datos = csv.map{|valores| cargar_hash(campos, valores.normalizar).to_struct }
 		datos = datos.map{|item| yield(item) } if block_given?
 		datos.compact
 	end

@@ -11,9 +11,11 @@ class Producto < Struct.new(*Campos)
 		datos = datos.to_hash if Struct === datos 
 		datos = datos.normalizar
 
+		# puts "Cargar DATOS".error
+		# pp datos 
 		tmp = new 
 		Campos.each{|campo| tmp[campo] = datos[campo] }
-		tmp.historia = datos[:historia]	
+		tmp.historia = (datos[:historia]||[])	
 		tmp.normalizar
 		tmp 
 	end
@@ -46,6 +48,8 @@ class Producto < Struct.new(*Campos)
 
 		self.key = [self.nombre, self.url_producto, self.url_imagen].to_key
 		self.historia ||= []
+		# puts "Normalizar HISTORIA".error
+		# pp self.historia
 		self.historia.each{|h| h[:fecha] = h[:fecha].to_date }
 		self
 	end
@@ -54,7 +58,7 @@ class Producto < Struct.new(*Campos)
 		fecha = fecha.to_date 
 		self.historia = historia.select{|h| h.fecha < fecha }
 		ultimo = historia.last
-		historia << { fecha: fecha, precio: precio }  if !ultimo || ultimo.precio != precio
+		self.historia << { fecha: fecha, precio: precio }  if !ultimo || ultimo.precio != precio
 	end
 
 	def activo?
