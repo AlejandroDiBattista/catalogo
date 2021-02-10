@@ -9,7 +9,10 @@ class Catalogo
 	
 	def initialize(base, productos=[])
 		@base, @datos, @productos, @ordenados = base, {}, [], false 
-		productos.each{|producto|datos[producto.key] = producto}
+		productos.each do |producto|
+			producto = Producto.cargar(producto)
+			datos[producto.key] = producto
+		end
 		ordenar!
 	end
 
@@ -263,8 +266,7 @@ class Catalogo
 		
 		def actualizar(base)
 			t = Catalogo.cargar(base)
-			# pp t.first
-			# t.agregar(base.bajar)
+			t.agregar(base.bajar)
 			t.guardar
 			t 
 		end
@@ -274,6 +276,6 @@ end
 if __FILE__ == $0
 	medir "Cargando [Tatito]" do 
 		# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar }
-		[Tatito].each{|base| Catalogo.actualizar(base)}
+		[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.actualizar(base)}
 	end
 end
