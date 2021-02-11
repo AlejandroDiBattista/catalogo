@@ -37,9 +37,10 @@ module Archivo
 		origen.split('_').last.to_date 
 	end
 
-	def crear(*camino)
-		origen = ubicar(camino)
-		FileUtils.mkdir_p origen
+	def crear_carpeta(*camino)
+		carpeta = File.dirname(ubicar(camino))
+		# puts "Crear Carpeta: #{carpeta}"
+		FileUtils.mkdir_p carpeta unless File.exist?(carpeta)
 	end
 
 	def abrir(url)
@@ -120,6 +121,7 @@ module Archivo
 	def bajar(origen, destino, forzar = false)
 		destino = ubicar(destino) 
 		destino += File.extname(origen) unless extension(destino)
+		crear_carpeta destino
 		begin
 			if forzar || !File.exist?(destino)
 				URI.open(origen, 'rb'){|f|  File.open(destino, 'wb'){|file| file.puts(f.read) }} 
@@ -168,5 +170,5 @@ end
 include Archivo
 
 if __FILE__ == $0
-	Archivo.crear()
+	# Archivo.crear_carpeta()
 end

@@ -9,10 +9,11 @@ class Catalogo
 	
 	def initialize(base, productos=[])
 		@base, @datos, @productos, @ordenados = base, {}, [], false 
-		self.productos.each do |producto|
+		productos.each do |producto|
 			producto = Producto.cargar(producto)
-			datos[producto.key] = producto
+			self.datos[producto.key] = producto
 		end
+		puts self.datos.count
 		ordenar!
 	end
 
@@ -241,7 +242,15 @@ class Catalogo
 			end
 			tmp
 		end
-		
+
+		def bajar_fotos(base)
+			tmp = Catalogo.cargar(base)
+			puts "Hay #{tmp.count} productos en #{base.name}"
+			aux = base.new 
+			tmp.activos.procesar{|producto| aux.bajar_foto(producto) }	
+			tmp 
+		end
+
 		def actualizar(base)
 			tmp = Catalogo.cargar(base)
 			tmp.agregar(base.bajar)
@@ -264,12 +273,16 @@ if __FILE__ == $0
 	# pp ['11/02/2021', a.precio('11/02/2021')]
 	medir "Cargando TODO" do 
 		puts 
-		[	
-			Tatito, 
-			TuChanguito, 
-			Jumbo, 
-			Maxiconsumo,
-		].each{|base| Catalogo.cargar_todo(base).guardar }
+		Catalogo.bajar_fotos(Tatito)
+		Catalogo.bajar_fotos(TuChanguito)
+		Catalogo.bajar_fotos(Jumbo)
+		Catalogo.bajar_fotos(Maxiconsumo)
+		# [	
+		# 	Tatito, 
+		# 	TuChanguito, 
+		# 	Jumbo, 
+		# 	Maxiconsumo,
+		# ].each{|base| Catalogo.cargar_todo(base).guardar }
 		 
 		# [
 		# 	Tatito, 

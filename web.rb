@@ -104,13 +104,16 @@ class Web
 		end
 
 		bajar = productos.uniq.select{|producto| (forzar || !File.exist?( nombre_foto(producto.id ))) && !producto.url_imagen.vacio? }
+
 		puts "Bajando #{productos.count} imagenes"
-		
-		bajar.procesar do |producto|
-			origen  = ubicar(:imagen, producto.url_imagen)
-			destino = nombre_foto(producto.id)
-			Archivo.bajar(origen, destino, forzar)
-		end
+		bajar.procesar{ |producto| bajar_foto(producto, forzar) }
+	end
+
+	def bajar_foto(producto, forzar=false)
+		origen  = ubicar(:imagen, producto.url_imagen)
+		destino = nombre_foto(producto.id)
+		Archivo.crear_carpeta(destino)
+		Archivo.bajar(origen, destino, forzar)
 	end
 
 	def seleccionar(pagina, selector)
@@ -248,9 +251,6 @@ class Web
 			Archivo.leer(base, 'productos.dsv')
 		end
 
-		def bajar
-			new.bajar 
-		end 
 	end
 end
 
