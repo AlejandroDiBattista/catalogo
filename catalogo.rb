@@ -253,7 +253,8 @@ class Catalogo
 
 		def actualizar(base)
 			tmp = Catalogo.cargar(base)
-			tmp.agregar(base.bajar)
+			aux = base.new 
+			tmp.agregar(aux.bajar)
 			tmp.guardar
 			tmp 
 		end
@@ -272,23 +273,15 @@ if __FILE__ == $0
 	# pp ['06/11/2020', a.precio('06/11/2020')]
 	# pp ['11/02/2021', a.precio('11/02/2021')]
 	medir "Cargando TODO" do 
+		bases = [	
+			Tatito, 
+			TuChanguito, 
+			Jumbo, 
+			Maxiconsumo,
+		]
 		puts 
-		Catalogo.bajar_fotos(Tatito)
-		Catalogo.bajar_fotos(TuChanguito)
-		Catalogo.bajar_fotos(Jumbo)
-		Catalogo.bajar_fotos(Maxiconsumo)
-		# [	
-		# 	Tatito, 
-		# 	TuChanguito, 
-		# 	Jumbo, 
-		# 	Maxiconsumo,
-		# ].each{|base| Catalogo.cargar_todo(base).guardar }
-		 
-		# [
-		# 	Tatito, 
-		# 	TuChanguito, 
-		# 	Jumbo, 
-		# 	Maxiconsumo
-		# ].each{|base| Catalogo.actualizar(base)}
+		# bases.each{|base| Catalogo.cargar_todo(base).guardar }
+		bases.each{|base| Catalogo.actualizar(base)}
+		bases.each{|base| Catalogo.bajar_fotos(base)}
 	end
 end
