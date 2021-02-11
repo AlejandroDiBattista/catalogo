@@ -108,6 +108,14 @@ class Producto < Struct.new(*Campos)
 		self.ofertas.select{|maximo, precio| cantidad >= maximo }.last.last
 	end
 
+	def precio(fecha= nil)
+		return self[:precio] unless fecha 
+		fecha = fecha.to_date 
+		if item = historia.select{|h| h.fecha <= fecha}.last
+			item.precio 
+		end
+	end
+
 	def precio_oferta
 		ofertas.last.last
 	end

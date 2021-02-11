@@ -18,11 +18,13 @@ class Catalogo
 
 	def escribir(tipo: :dsv)
 		Archivo.escribir(self, [base, "productos.#{tipo}"])
+		self
 	end
 
 	def guardar()
 		ordenar!
 		Archivo.escribir(self, [base, 'catalogo.json'])
+		self
 	end
 	
 	def agregar(*items, fecha: nil)
@@ -31,7 +33,7 @@ class Catalogo
 			if producto = Producto.cargar(producto) 
 				producto.id = nil
 				if anterior = datos[producto.key]
-					producto.id = anterior.id 
+					producto.id = anterior.id
 					producto.historia = anterior.historia
 				end
 				producto.actualizar(fecha, producto.precio)
@@ -53,10 +55,11 @@ class Catalogo
 	end
 
 	def ordenar!(regenerar=false)
+		return if ordenados && !regenerar
+
 		completar_id(regenerar)
-		n = datos.values.count{|producto|producto.id.nil?}
+		n = datos.values.count{|producto| producto.id.nil? }
 		puts "Hay #{n} productos sin ID" if n > 0 
-		return if ordenados 
 		self.productos = datos.values.sort_by(&:id)
 		self.ordenados = true
 	end
@@ -85,11 +88,6 @@ class Catalogo
 	end
 	alias :restar :-
 
-	def listar
-		map{|x|{nombre: x.nombre, precio: x.precio, rubro: x.rubro, id: x.id, anterior: x.anterior}}.sort_by(&:nombre).listar("Listado #{@base}", 1000)
-		self 
-	end
-
 	def nombres
 		map(&:nombre).uniq.sort 
 	end
@@ -112,33 +110,6 @@ class Catalogo
 
 	def variacion_promedio
 		promedio(&:variacion)
-	end
-
-	def analizar_cambios(otro, verboso)
-		altas = self - otro
-		bajas = otro - self
-		igual = self - bajas - altas 
-
-		igual.each{|n| n.anterior = otro.buscar(n.id).precio }
-		cambios = igual.filtrar{|n| (n.anterior - n.precio).abs > 1.0}
-	
-		t = igual.sum(&:precio)
-		v = cambios.sum(&:precio)
-		n = cambios.sum(&:anterior)
-
-		inf = 100.0 * (n - v) / t 
-
-		puts "%-20s A: %5i  B: %5i  M: %5i  T: %5i > Inf: %6.2f%%" % [base, altas.count, bajas.count, cambios.count, count, inf]
-		if verboso
-			puts "ALTAS"
-			altas.listar
-
-			puts "\nCAMBIOS"
-			cambios.listar
-
-			puts "\nBAJAS"
-			bajas.listar
-		end
 	end
 
 	def resumir(nivel=nil, n=1)
@@ -177,9 +148,9 @@ class Catalogo
 	end
 
     def generar_datos
-      salida = []
 		anterior = []
-        sort_by{|x|[x.rubro, x.nombre]}.each do |x|
+      	salida = []
+		sort_by{|x|[x.rubro, x.nombre]}.each do |x|
 			actual = x.rubro.from_rubro
 			if actual != anterior
 				if salida.last
@@ -193,9 +164,9 @@ class Catalogo
 				end
 			end
 			anterior = actual
-            salida.last.productos << { id: x.id, nombre: x.nombre, precio: x.precio, oferta: x.precio_oferta, variacion: x.variacion , url_imagen: "fotos/#{x.id}.jpg" }
-        end
-        salida
+			salida.last.productos << { id: x.id, nombre: x.nombre, precio: x.precio, oferta: x.precio_oferta, variacion: x.variacion , url_imagen: "fotos/#{x.id}.jpg" }
+		end
+    	salida
 	end
 
 	def comparar(dias = 7)
@@ -209,16 +180,10 @@ class Catalogo
 		end
 	end
 
-	def ultima_actualizacion
-		map{|x|x.historia.last}.compact.map(&:hasta).max 
-	end
-
 	def activos
-		fecha = ultima_actualizacion
-		filtrar{|x|x.historia.last[:hasta] == fecha}
+		filtrar(&:activo?)
 	end
 
-	
 	class << self 
 		def cargar(base)
 			base = base.name if Class === base 
@@ -265,15 +230,25 @@ class Catalogo
 		end
 		
 		def actualizar(base)
-			t = Catalogo.cargar(base)
-			t.agregar(base.bajar)
-			t.guardar
+			tmp = Catalogo.cargar(base)
+			tmp.agregar(base.bajar)
+			tmp.guardar
 			t 
 		end
 	end
 end
 
 if __FILE__ == $0
+	a = Catalogo.cargar(Tatito)
+	puts a.count 
+	a = a.first 
+	a.mostrar true 
+	pp ['11/02/2020', a.precio('11/02/2020')]
+	pp ['25/07/2020', a.precio('25/07/2020')]
+	pp ['27/10/2020', a.precio('27/10/2020')]
+	pp ['28/10/2020', a.precio('28/10/2020')]
+	pp ['06/11/2020', a.precio('06/11/2020')]
+	pp ['11/02/2021', a.precio('11/02/2021')]
 	medir "Cargando [Tatito]" do 
 		# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar }
 		[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.actualizar(base)}

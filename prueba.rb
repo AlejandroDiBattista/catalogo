@@ -1,55 +1,22 @@
-# require 'date'
-# require_relative 'utils'
+require_relative 'utils'
+
+class Punto < Struct.new(:x , :y)
+    def x(m=3)
+        self[:x] * m 
+        def precio(fecha: '1/1/2000', cantidad: 1)
+            puts "#{fecha} > #{cantidad}"
+        end
+    end 
+end 
 
 
-# class Producto < Struct.new(:nombre, :rubro, :precio, :id)
-#     def key 
-#         "#{self.nombre}-#{self.rubro}".downcase.gsub(/[^a-z09-]/i,'')
-#     end
+a = Punto.new(10,20)
+pp a 
+puts a.x 
+puts a.x(2) 
+puts a[:x]
 
-#     @@proximo = "00001"
-#     @@claves  = {}
-
-#     def self.registrar(producto)
-#         if clave = producto.id 
-#             @@claves[producto.key] = clave 
-#             @@proximo = clave.succ if clave >= @@proximo 
-#         end
-#     end
-
-#     def self.identificar(producto)
-#         if !producto.id
-#             producto.id = @@claves[producto.key] || @@proximo
-#             registrar(producto)
-#         end
-#     end
-
-#     def self.mostrar
-#         pp @@claves
-#     end
-# end
-
-# a = "2020-12-5".to_fecha
-# b = a.to_fecha
-# p a 
-# p a.class.name
-# p b 
-# p b.class.name
-require 'date'
-
-class String
-    def to_date 
-        Date.parse(self)
-    end
-end
-
-a = Date.today 
-b = "2020-3-1".to_date 
-p a 
-p a.to_s
-
-p b 
-p b.to_s 
-
-p a == a.to
-
+precio 
+precio fecha: '2/2/2000'
+precio cantidad: 10 
+precio cantidad: 10 , fecha: '3/3/2000'
