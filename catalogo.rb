@@ -187,6 +187,16 @@ class Catalogo
 		filtrar(&:activo?)
 	end
 
+	def bajar_imagenes
+		lista = select{|producto| producto.id && !producto.url_imagen.vacio?}
+		lista.procesar do |producto|
+			origen  = Web.ubicar(:imagen, producto.url_imagen)
+			destino = Web.nombre_foto(producto.id)
+			Archivo.bajar(origen, destino, forzar)
+		end
+
+	end
+
 	class << self 
 		def cargar(base)
 			base = base.name if Class === base 

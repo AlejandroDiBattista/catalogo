@@ -6,12 +6,8 @@ class Web
 	attr_accessor :id_actual 
 
 	def bajar
-		puts " BAJANDO productos de #{carpeta.upcase}".pad(100).titulo do 
-			puts " ► Bajando clasificacion... ".subtitulo 
-			clasificacion = bajar_clasificaciones()			
-			puts " ► Bajando productos... (#{clasificacion.count}) ".subtitulo 
-			return bajar_clasificacion(clasificacion).compact
-		end
+		clasificacion = bajar_clasificaciones()			
+		bajar_clasificacion(clasificacion).compact
 	end
 
 	def bajar_todo(regenerar = false)
@@ -277,33 +273,21 @@ require_relative './maxiconsumo'
 
 def bajar_todo
 	medir "Bajando todos los datos" do 
-		Tatito.bajar_todo
-		Jumbo.bajar_todo
-		TuChanguito.bajar_todo
-		Maxiconsumo.bajar_todo
+		[Tatito, Jumbo,	TuChanguito, Maxiconsumo].each(&:bajar_todo)
 		puts " FIN.".pad(100).error
 	end
 end	
 
 def limpiar_errores
-	Tatito.limpiar_errores
-	Jumbo.limpiar_errores
-	TuChanguito.limpiar_errores
-	Maxiconsumo.limpiar_errores
+	[Tatito, Jumbo,	TuChanguito, Maxiconsumo].each(&:limpiar_errores)
 end
 
 def limpiar_fotos
-	Tatito.limpiar_fotos
-	Jumbo.limpiar_fotos
-	TuChanguito.limpiar_fotos
-	Maxiconsumo.limpiar_fotos
+	[Tatito, Jumbo,	TuChanguito, Maxiconsumo].each(&:limpiar_fotos)
 end
 
 def completar_id
-	Tatito.completar_id
-	Jumbo.completar_id
-	TuChanguito.completar_id
-	Maxiconsumo.completar_id
+	[Tatito, Jumbo,	TuChanguito, Maxiconsumo].each(&:completar_id)
 end
 
 def pull
@@ -311,7 +295,6 @@ def pull
 	`git add .`
 	`git commit -m "Upload automatic #{Date.today.to_s}"`
 	`git push`
-
 end
 
 if __FILE__ == $0

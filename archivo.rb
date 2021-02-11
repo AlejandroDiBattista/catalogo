@@ -8,17 +8,6 @@ require_relative 'utils'
 module Archivo
 	Publicar = 'C:/Users/administrator/Documents/GitHub/vecinosyb/docs' 
 	
-	def nombre(*camino)
-		origen = ubicar(camino)
-		File.basename(origen, '.*')
-	end
-
-	def extension(*camino)
-		origen = ubicar(camino)
-		tipo = File.extname(origen).gsub('.', '')
-		tipo.vacio? ? nil : tipo.to_key
-	end
-
 	def ubicar(*camino)
 		camino = [camino].flatten
 		if fecha = (TrueClass === camino.last)
@@ -32,9 +21,25 @@ module Archivo
 		camino
 	end
 
+	def nombre(*camino)
+		origen = ubicar(camino)
+		File.basename(origen, '.*')
+	end
+
+	def extension(*camino)
+		origen = ubicar(camino)
+		tipo = File.extname(origen).gsub('.', '')
+		tipo.vacio? ? nil : tipo.to_key
+	end
+
 	def extraer_fecha(*camino)
 		origen = nombre(camino)
 		origen.split('_').last.to_date 
+	end
+
+	def crear(*camino)
+		origen = ubicar(camino)
+		FileUtils.mkdir_p origen
 	end
 
 	def abrir(url)
@@ -165,4 +170,5 @@ end
 include Archivo
 
 if __FILE__ == $0
+	Archivo.crear()
 end
