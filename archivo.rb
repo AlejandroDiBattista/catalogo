@@ -54,11 +54,16 @@ module Archivo
 		separador = extension(origen) == :dsv ? '|' : ';' 
 		csv    = CSV.open(origen, :col_sep => separador)
 		campos = csv.shift.map(&:to_key)
-		datos = csv.map{|valores| cargar_hash(campos, valores.normalizar).to_struct }
+		datos = csv.map{|valores| Struct.new(*campos).new(*valores.normalizar) }
 		datos = datos.map{|item| yield(item) } if block_given?
 		datos.compact
 	end
   
+	# def cargar_hash(campos, valores=nil)
+	# 	campos = campos.map(&:to_key).zip(valores) if valores
+	# 	Hash[campos]
+	# end
+	
 	def leer_json(*camino)
 		origen = ubicar(camino)
 		open(origen){|f| return JSON.parse(f.read) }

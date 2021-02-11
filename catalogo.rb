@@ -9,7 +9,7 @@ class Catalogo
 	
 	def initialize(base, productos=[])
 		@base, @datos, @productos, @ordenados = base, {}, [], false 
-		productos.each do |producto|
+		self.productos.each do |producto|
 			producto = Producto.cargar(producto)
 			datos[producto.key] = producto
 		end
@@ -29,15 +29,17 @@ class Catalogo
 	
 	def agregar(*items, fecha: nil)
 		fecha ||= Date.today 
-		[items].flatten.each do |producto|
+		items = [items].flatten
+		items.each do |producto|
 			if producto = Producto.cargar(producto) 
 				producto.id = nil
-				if anterior = datos[producto.key]
+				if anterior = self.datos[producto.key]
 					producto.id = anterior.id
 					producto.historia = anterior.historia
 				end
 				producto.actualizar(fecha, producto.precio)
-				datos[producto.key] = producto
+				# puts "> #{producto.key} > #{producto.id}"
+				self.datos[producto.key] = producto
 			end
 			ordenados = false
 		end
@@ -47,6 +49,7 @@ class Catalogo
 	def completar_id(regenerar=false)
 		aux = datos.values 
 		aux.each{|producto|producto.id = nil} if regenerar 
+		return if aux.all?(&:id)
 		ultimo = aux.map(&:id).compact.max || '00000'
 		aux.select{|producto| producto.id.nil? }.sort_by(&:key).each do |producto|
 			producto.id = (ultimo = ultimo.succ)
@@ -55,18 +58,18 @@ class Catalogo
 	end
 
 	def ordenar!(regenerar=false)
-		return if ordenados && !regenerar
-
 		completar_id(regenerar)
+		return if ordenados
+
 		n = datos.values.count{|producto| producto.id.nil? }
 		puts "Hay #{n} productos sin ID" if n > 0 
-		self.productos = datos.values.sort_by(&:id)
+		self.productos = self.datos.values.sort_by(&:id)
 		self.ordenados = true
 	end
 
 	def each
 		ordenar!
-		productos.each{|producto| yield(producto) }
+		self.productos.each{|producto| yield(producto) }
 	end
 
 	def buscar(producto)
@@ -224,7 +227,7 @@ class Catalogo
 				tmp.agregar(nuevos, fecha: fecha)
 				tmp.ordenar!
 
-				puts " > #{fecha} x #{nuevos.count} > #{tmp.count}"
+				puts " > #{fecha} x #{nuevos.count} > #{tmp.count} | #{origen}"
 			end
 			tmp
 		end
@@ -233,24 +236,30 @@ class Catalogo
 			tmp = Catalogo.cargar(base)
 			tmp.agregar(base.bajar)
 			tmp.guardar
-			t 
+			tmp 
 		end
 	end
 end
 
 if __FILE__ == $0
-	a = Catalogo.cargar(Tatito)
-	puts a.count 
-	a = a.first 
-	a.mostrar true 
-	pp ['11/02/2020', a.precio('11/02/2020')]
-	pp ['25/07/2020', a.precio('25/07/2020')]
-	pp ['27/10/2020', a.precio('27/10/2020')]
-	pp ['28/10/2020', a.precio('28/10/2020')]
-	pp ['06/11/2020', a.precio('06/11/2020')]
-	pp ['11/02/2021', a.precio('11/02/2021')]
-	medir "Cargando [Tatito]" do 
-		# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.cargar_todo(base).guardar }
-		[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.actualizar(base)}
+	# a = Catalogo.cargar(Tatito)
+	# puts a.count 
+	# a = a.first 
+	# a.mostrar true 
+	# pp ['11/02/2020', a.precio('11/02/2020')]
+	# pp ['25/07/2020', a.precio('25/07/2020')]
+	# pp ['27/10/2020', a.precio('27/10/2020')]
+	# pp ['28/10/2020', a.precio('28/10/2020')]
+	# pp ['06/11/2020', a.precio('06/11/2020')]
+	# pp ['11/02/2021', a.precio('11/02/2021')]
+	medir "Cargando TODO" do 
+		puts 
+		[	
+			Tatito, 
+			TuChanguito, 
+			Jumbo, 
+			Maxiconsumo,
+		].each{|base| Catalogo.cargar_todo(base).guardar }
+		# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.actualizar(base)}
 	end
 end

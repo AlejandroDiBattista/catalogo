@@ -30658,6 +30658,9 @@
       {
         "fecha": "21/01/2021",
         "precio": 220.0
+      },
+      {
+        "fecha": "11/02/2021"
       }
     ]
   },
@@ -30926,6 +30929,10 @@
       },
       {
         "fecha": "10/02/2021"
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 80.0
       }
     ]
   },
@@ -32925,7 +32932,7 @@
     "id": "01390",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Conservas",
     "url_imagen": "140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "precio_unitario": "$199",
@@ -33212,6 +33219,10 @@
       },
       {
         "fecha": "10/02/2021"
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 123.0
       }
     ]
   },
@@ -33586,7 +33597,7 @@
     "id": "01412",
     "nombre": "Bolsa Asurin Residuos 3,3x60 10un",
     "precio": 74.1,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg",
     "url_producto": "productos/bols-asurin-res-3-45x60-10-un/",
     "precio_unitario": "$74,10",
@@ -35136,7 +35147,7 @@
     "id": "01468",
     "nombre": "Desinfectante Lysoform Original 360cc",
     "precio": 169.0,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "252451-6606867adc5be5255615989755747391-480-0.jpg",
     "url_producto": "productos/desinf-lysoform-original-285-cc/",
     "precio_unitario": "$169",
@@ -35291,7 +35302,7 @@
     "id": "01474",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
     "precio": 107.0,
-    "rubro": "Productos > Dulces y Mermeladas",
+    "rubro": "Productos > Almacén",
     "url_imagen": "2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-400-gr/",
     "precio_unitario": "$107",
@@ -35508,17 +35519,21 @@
       },
       {
         "fecha": "10/02/2021"
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 117.0
       }
     ]
   },
   {
     "id": "01483",
     "nombre": "Empanadas Capresse x 12un",
-    "precio": 412.0,
+    "precio": 440.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "diseno-sin-titulo-1111-15467ecf4d4b39d61e16034698684247-480-0.jpg",
     "url_producto": "productos/empanadas-capresse-x-12-unidades/",
-    "precio_unitario": "$412",
+    "precio_unitario": "$440",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -35530,17 +35545,21 @@
       {
         "fecha": "18/01/2021",
         "precio": 412.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 440.0
       }
     ]
   },
   {
     "id": "01484",
     "nombre": "Empanadas Capresse x 15un",
-    "precio": 515.0,
+    "precio": 550.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "diseno-sin-titulo-111-15467ecf4d4b39d61e16034698129142-480-0.jpg",
     "url_producto": "productos/empanadas-capresse-x-15-unidades/",
-    "precio_unitario": "$515",
+    "precio_unitario": "$550",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -35552,17 +35571,21 @@
       {
         "fecha": "18/01/2021",
         "precio": 515.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 550.0
       }
     ]
   },
   {
     "id": "01485",
     "nombre": "Empanadas Capresse x 6un",
-    "precio": 206.0,
+    "precio": 220.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "diseno-sin-titulo-1121-15467ecf4d4b39d61e16034698980636-480-0.jpg",
     "url_producto": "productos/empanadas-capresse-x-6-unidades/",
-    "precio_unitario": "$206",
+    "precio_unitario": "$220",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -35574,17 +35597,21 @@
       {
         "fecha": "18/01/2021",
         "precio": 206.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 220.0
       }
     ]
   },
   {
     "id": "01486",
     "nombre": "Empanadas De Carne Picante x 12un",
-    "precio": 412.0,
+    "precio": 440.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "diseno-sin-titulo-1211-b24f33229cc0c7d4c916034745536965-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-picante-x-12-unidades/",
-    "precio_unitario": "$412",
+    "precio_unitario": "$440",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -35596,17 +35623,21 @@
       {
         "fecha": "18/01/2021",
         "precio": 412.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 440.0
       }
     ]
   },
   {
     "id": "01487",
     "nombre": "Empanadas De Carne Picante x 15un",
-    "precio": 515.0,
+    "precio": 550.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "diseno-sin-titulo-121-b24f33229cc0c7d4c916034702395016-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-picante-x-15-unidades/",
-    "precio_unitario": "$515",
+    "precio_unitario": "$550",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -35618,17 +35649,21 @@
       {
         "fecha": "18/01/2021",
         "precio": 515.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 550.0
       }
     ]
   },
   {
     "id": "01488",
     "nombre": "Empanadas De Carne Picante x 6un",
-    "precio": 206.0,
+    "precio": 220.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "diseno-sin-titulo-1221-b24f33229cc0c7d4c916034745974293-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-picante-x-6-unidades/",
-    "precio_unitario": "$206",
+    "precio_unitario": "$220",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -35640,17 +35675,21 @@
       {
         "fecha": "18/01/2021",
         "precio": 206.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 220.0
       }
     ]
   },
   {
     "id": "01489",
     "nombre": "Empanadas De Carne Suave x 12un",
-    "precio": 412.0,
+    "precio": 440.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "diseno-sin-titulo-1311-d1ea17d8916eba948416034759752893-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-suave-x-12-unidades/",
-    "precio_unitario": "$412",
+    "precio_unitario": "$440",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -35662,17 +35701,21 @@
       {
         "fecha": "18/01/2021",
         "precio": 412.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 440.0
       }
     ]
   },
   {
     "id": "01490",
     "nombre": "Empanadas De Carne Suave x 15un",
-    "precio": 515.0,
+    "precio": 550.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "diseno-sin-titulo-131-d1ea17d8916eba948416034759395733-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-suave-x-15-unidades/",
-    "precio_unitario": "$515",
+    "precio_unitario": "$550",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -35684,17 +35727,21 @@
       {
         "fecha": "18/01/2021",
         "precio": 515.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 550.0
       }
     ]
   },
   {
     "id": "01491",
     "nombre": "Empanadas De Carne Suave x 6un",
-    "precio": 206.0,
+    "precio": 220.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "diseno-sin-titulo-1321-d1ea17d8916eba948416034760729503-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-suave-x-6-unidades/",
-    "precio_unitario": "$206",
+    "precio_unitario": "$220",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -35706,6 +35753,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 206.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 220.0
       }
     ]
   },
@@ -35738,11 +35789,11 @@
   {
     "id": "01493",
     "nombre": "Empanadas De Ternera y Queso x 12un",
-    "precio": 412.0,
+    "precio": 440.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "119884523_2674272619459675_5460709936343647419_n11-8179601ba2fb67f07e16034700811861-480-0.png",
     "url_producto": "productos/empanadas-de-ternera-y-queso-x-12-unidades/",
-    "precio_unitario": "$412",
+    "precio_unitario": "$440",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -35754,17 +35805,21 @@
       {
         "fecha": "18/01/2021",
         "precio": 412.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 440.0
       }
     ]
   },
   {
     "id": "01494",
     "nombre": "Empanadas De Ternera y Queso x 15un",
-    "precio": 515.0,
+    "precio": 550.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "119884523_2674272619459675_5460709936343647419_n1-6c6e8e42c103714a0316034700410200-480-0.png",
     "url_producto": "productos/empanadas-de-ternera-y-queso-x-15-unidades/",
-    "precio_unitario": "$515",
+    "precio_unitario": "$550",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -35776,17 +35831,21 @@
       {
         "fecha": "18/01/2021",
         "precio": 515.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 550.0
       }
     ]
   },
   {
     "id": "01495",
     "nombre": "Empanadas De Ternera y Queso x 6un",
-    "precio": 206.0,
+    "precio": 220.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "119884523_2674272619459675_5460709936343647419_n21-72feaa4b28485192a216034701095215-480-0.png",
     "url_producto": "productos/empanadas-de-ternera-y-queso-x-6-unidades/",
-    "precio_unitario": "$206",
+    "precio_unitario": "$220",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -35798,6 +35857,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 206.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 220.0
       }
     ]
   },
@@ -37871,11 +37934,11 @@
   {
     "id": "01576",
     "nombre": "Harina Cañuelas 000 1kg",
-    "precio": 59.9,
+    "precio": 65.5,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "152821-1f0c1dd5ac0c0e8c6815988938825436-480-0.jpg",
     "url_producto": "productos/har-canuelas-000-1-kg/",
-    "precio_unitario": "$59,90",
+    "precio_unitario": "$65,50",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -37891,6 +37954,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 59.9
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 65.5
       }
     ]
   },
@@ -40020,7 +40087,7 @@
     "id": "01661",
     "nombre": "Limpiador Cif Antigrasa 450ml",
     "precio": 89.0,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg",
     "url_producto": "productos/limp-cif-antig-d-p-450-ml/",
     "precio_unitario": "$89",
@@ -40132,7 +40199,7 @@
     "id": "01665",
     "nombre": "Limpiador Cif Pisos Antibacterial 750ml",
     "precio": 172.9,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "209611-214abbe56f232f695115988902496909-480-0.jpg",
     "url_producto": "productos/limp-cif-pis-antibac-750-ml/",
     "precio_unitario": "$172,90",
@@ -40280,6 +40347,10 @@
       },
       {
         "fecha": "10/02/2021"
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 199.0
       }
     ]
   },
@@ -41918,6 +41989,10 @@
       },
       {
         "fecha": "10/02/2021"
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 179.2
       }
     ]
   },
@@ -47134,6 +47209,10 @@
       },
       {
         "fecha": "10/02/2021"
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 85.8
       }
     ]
   },
@@ -47199,6 +47278,10 @@
       },
       {
         "fecha": "10/02/2021"
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 130.0
       }
     ]
   },
@@ -47941,11 +48024,11 @@
   {
     "id": "01977",
     "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana 1lt",
-    "precio": 78.0,
+    "precio": 84.0,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "7790742362100_01_nuevopack1-e6b51851f43cddfcbb16071715461968-480-0.jpg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-1-lt/",
-    "precio_unitario": "$78",
+    "precio_unitario": "$84",
     "historia": [
       {
         "fecha": "08/12/2020",
@@ -47961,6 +48044,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 78.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 84.0
       }
     ]
   },
@@ -50335,7 +50422,7 @@
     "id": "02089",
     "nombre": "Limpiador Cif Crema Limón 750gr",
     "precio": 143.5,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "cif-crema-limon1-ace4b3e161ca9ce96f16101128144620-480-0.jpg",
     "url_producto": "productos/limp-cif-crem-limon-750-gr/",
     "precio_unitario": "$143,50",
@@ -54137,6 +54224,10 @@
       },
       {
         "fecha": "10/02/2021"
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 208.5
       }
     ]
   },
@@ -54465,15 +54556,19 @@
   {
     "id": "02322",
     "nombre": "Chocolate Kit-kat 2 Fingers 16,16gr . Caja x 16un",
-    "precio": 189.0,
+    "precio": 199.0,
     "rubro": "Productos > Chocolates",
     "url_imagen": "kit-kat-2-finger-milk-16x16-7g1-6aee348de509e674ff16123044642364-480-0.jpg",
     "url_producto": "productos/chocolate-kit-kat-2-fingers-16-7-gr-caja-x-16-un/",
-    "precio_unitario": "$189",
+    "precio_unitario": "$199",
     "historia": [
       {
         "fecha": "05/02/2021",
         "precio": 189.0
+      },
+      {
+        "fecha": "11/02/2021",
+        "precio": 199.0
       }
     ]
   },
@@ -54699,6 +54794,21 @@
       {
         "fecha": "10/02/2021",
         "precio": 115.0
+      }
+    ]
+  },
+  {
+    "id": "02338",
+    "nombre": "Aceite Cañuelas Oliva Suave 500cc",
+    "precio": 339.0,
+    "rubro": "Productos > Aceites y Vinagres",
+    "url_imagen": "220301-333f3a18318b80229215988119589449-480-0.jpg",
+    "url_producto": "productos/ac-canuelas-oliv-su-pet-500-cc/",
+    "precio_unitario": "$339",
+    "historia": [
+      {
+        "fecha": "11/02/2021",
+        "precio": 339.0
       }
     ]
   }

@@ -5,11 +5,6 @@ require 'date'
 $stdout.sync = true
 $semaphore = Mutex.new
 
-def cargar_hash(campos, valores=nil)
-	campos = campos.map(&:to_key).zip(valores) if valores
-	Hash[campos]
-end
-
 class Hash 
 	def method_missing(meth, *args, &blk)
 		if meth['=']
@@ -24,7 +19,7 @@ class Hash
 	end
 
 	def normalizar
-		cargar_hash(keys.map(&:to_key), values.normalizar)
+		Hash[keys.map(&:to_key).zip(values.normalizar)]
 	end
 
 	def normalizar!
@@ -414,7 +409,9 @@ if __FILE__ == $0
 		end
 		puts "Lindo"
 	end
-	a = {a: nil, b: "hola", c: [10,nil, {d: nil, e: 10}]}
+	a = {a: nil, "b" => "hola", c: [10,nil, {d: nil, "e" => 10}]}
 	pp a 
-	pp a.compactar
+	pp a.normalizar
+
+	
 end
