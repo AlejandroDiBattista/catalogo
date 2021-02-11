@@ -44,11 +44,9 @@ module Archivo
 
 	def abrir(url)
 		begin
-			if block_given?
-				URI.open(url){|f| yield(Nokogiri::HTML(f)) }
-			else
-				Nokogiri::HTML( URI.open(url) )
-			end
+			pagina = Nokogiri::HTML( URI.open(url) )
+			yield(pagina) if block_given?
+			pagina
 		rescue
 			nil
 		end

@@ -1,19 +1,25 @@
 class TuChanguito < Web
 	def get_url
-		{ base: 'https://www.tuchanguito.com.ar', clasificacion: '/', productos: '/*', producto: '/productos/*', imagen: 'http://d26lpennugtm8s.cloudfront.net/stores/001/219/229/products/*', }
+		{ 
+			base: 			'https://www.tuchanguito.com.ar', 
+			clasificacion: 	'/', 
+			productos: 		'/*', 
+			producto: 		'/productos/*', 
+			imagen: 		'http://d26lpennugtm8s.cloudfront.net/stores/001/219/229/products/*', 
+		}
 	end
 
 	def get_selector
-		{ productos: '.js-item-product', nombre: 'div.item-name',precio: '.item-price', producto: '.item-image a', }
-	end
-
-	def incluir(item)
-		!item[:rubro][/ver todo/i] && !item[:rubro][/ofertas/i]
+		{ 
+			productos: 		'.js-item-product', 
+			nombre: 		'div.item-name',
+			precio: 		'.item-price', 
+			producto: 		'.item-image a', 
+		}
 	end
 
 	def bajar_clasificaciones
-		url = ubicar(:clasificacion)
-		Archivo.abrir(url) do |pagina|
+		Archivo.abrir(ubicar(:clasificacion)) do |pagina|
 			rubros = {}
 			pagina.css('.nav-desktop-list li.nav-item-desktop').each do |x|
 				if y = x.at('.nav-item-container')
@@ -34,4 +40,9 @@ class TuChanguito < Web
 		url = acortar('http:' + item.css('.item-image img')[0]['data-srcset'].split(' ')[-2])
 		url[/no-foto/i] ? nil : url 
 	end
+
+	def incluir(item)
+		!item[:rubro][/ver todo/i] && !item[:rubro][/ofertas/i]
+	end
+
 end

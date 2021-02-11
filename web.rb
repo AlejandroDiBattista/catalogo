@@ -12,7 +12,7 @@ class Web
 
 	def bajar_todo(regenerar = false)
 		destino = [carpeta, 'productos.dsv']
-		puts " BAJANDO todos los datos de #{carpeta.upcase} ".pad(100).titulo do 
+		puts " BAJANDO todos los datos de #{carpeta.upcase} ".pad(120).titulo do 
 		
 			puts " ► Bajando clasificacion... ".green 
 			clasificacion = bajar_clasificaciones()			
@@ -41,6 +41,10 @@ class Web
 			end
 		end
 		productos.flatten.uniq
+	end
+
+	def bajar_clasificaciones
+		nil #Reescribir
 	end
 
 	def bajar_productos(pagina, rubro)
@@ -143,7 +147,6 @@ class Web
 	end
 	
 	def key(producto)
-		# "#{producto.nombre.to_key}-#{producto.url_producto.to_key}-#{producto.url_imagen.to_key}-#{producto.rubro.to_key}"
 		[:nombre, :url_producto, :url_imagen].map{|campo| producto[campo] }.to_key
 	end
 	
@@ -213,13 +216,14 @@ class Web
 		compacto ? acortar(url) : url 
 	end
 
-	def oferta(pagina, i)
-		nil
-	end
 	
 	def extraer_img(item, compacto=true)
 		url = item && item.first && item.first[:src] || ''
 		compacto ? acortar(url) : url 
+	end
+
+	def oferta(pagina, i)
+		nil
 	end
 
 	class << self
@@ -247,22 +251,6 @@ class Web
 		def bajar
 			new.bajar 
 		end 
-		
-		def bajar_todo
-			new.bajar_todo
-		end 
-
-		def completar_id
-			new.completar_id true
-		end
-
-		def limpiar_errores
-			new.limpiar_errores
-		end
-
-		def limpiar_fotos
-			new.limpiar_fotos
-		end
 	end
 end
 
@@ -271,23 +259,11 @@ require_relative './tatito'
 require_relative './tu_changuito'
 require_relative './maxiconsumo'
 
-def bajar_todo
-	medir "Bajando todos los datos" do 
-		[Tatito, Jumbo,	TuChanguito, Maxiconsumo].each(&:bajar_todo)
-		puts " FIN.".pad(100).error
+def correr(accion)
+	medir "Procesando datos [#{accion}]" do 
+		[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|x|x.new.send(accion)}
+		puts " FIN.".pad(120).error
 	end
-end	
-
-def limpiar_errores
-	[Tatito, Jumbo,	TuChanguito, Maxiconsumo].each(&:limpiar_errores)
-end
-
-def limpiar_fotos
-	[Tatito, Jumbo,	TuChanguito, Maxiconsumo].each(&:limpiar_fotos)
-end
-
-def completar_id
-	[Tatito, Jumbo,	TuChanguito, Maxiconsumo].each(&:completar_id)
 end
 
 def pull
@@ -300,9 +276,9 @@ end
 if __FILE__ == $0
 	# limpiar_errores
 	# completar_id
-	bajar_todo
+	correr :bajar_todo
+	# correr :limpiar_errores
+	# correr :completar_id
+	# correr :limpiar_fotos
 	# pull
-	# pull
-	# limpiar_errores
-	# limpiar_fotos
 end
