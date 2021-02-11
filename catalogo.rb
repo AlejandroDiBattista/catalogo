@@ -254,12 +254,18 @@ if __FILE__ == $0
 	# pp ['11/02/2021', a.precio('11/02/2021')]
 	medir "Cargando TODO" do 
 		puts 
-		[	
+		# [	
+		# 	Tatito, 
+		# 	TuChanguito, 
+		# 	Jumbo, 
+		# 	Maxiconsumo,
+		# ].each{|base| Catalogo.cargar_todo(base).guardar }
+		 
+		[
 			Tatito, 
 			TuChanguito, 
 			Jumbo, 
-			Maxiconsumo,
-		].each{|base| Catalogo.cargar_todo(base).guardar }
-		# [Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|base| Catalogo.actualizar(base)}
+			Maxiconsumo
+		].each{|base| Catalogo.actualizar(base)}
 	end
 end

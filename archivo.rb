@@ -58,11 +58,6 @@ module Archivo
 		datos = datos.map{|item| yield(item) } if block_given?
 		datos.compact
 	end
-  
-	# def cargar_hash(campos, valores=nil)
-	# 	campos = campos.map(&:to_key).zip(valores) if valores
-	# 	Hash[campos]
-	# end
 	
 	def leer_json(*camino)
 		origen = ubicar(camino)
