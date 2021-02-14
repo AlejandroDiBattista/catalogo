@@ -13,7 +13,6 @@ class Catalogo
 			producto = Producto.cargar(producto)
 			self.datos[producto.key] = producto
 		end
-		puts self.datos.count
 		ordenar!
 	end
 
@@ -48,22 +47,20 @@ class Catalogo
 	end
 
 	def completar_id(regenerar=false)
-		aux = datos.values 
-		aux.each{|producto|producto.id = nil} if regenerar 
-		return if aux.all?(&:id)
-		ultimo = aux.map(&:id).compact.max || '00000'
-		aux.select{|producto| producto.id.nil? }.sort_by(&:key).each do |producto|
+		lista = datos.values 
+		lista.each{|producto|producto.id = nil} if regenerar 
+		return if lista.all?(&:id)
+		ultimo = lista.map(&:id).compact.max || '00000'
+		lista.select{|producto| producto.id.nil? }.sort_by(&:key).each do |producto|
 			producto.id = (ultimo = ultimo.succ)
-			self.ordenados = false 
 		end
+		self.ordenados = false 
 	end
 
 	def ordenar!(regenerar=false)
 		completar_id(regenerar)
 		return if ordenados
 
-		n = datos.values.count{|producto| producto.id.nil? }
-		puts "Hay #{n} productos sin ID" if n > 0 
 		self.productos = self.datos.values.sort_by(&:id)
 		self.ordenados = true
 	end

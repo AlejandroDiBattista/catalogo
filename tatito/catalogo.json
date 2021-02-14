@@ -4933,12 +4933,12 @@
   {
     "id": "00182",
     "nombre": "Jugo Dodi 25gr Rinde 2lt",
-    "precio": 12.0,
+    "precio": 14.0,
     "rubro": "Bebidas > Jugos",
     "url_imagen": "2020/01/JUGO-DODI-25G-RINDE-2LT.jpg",
     "url_producto": "jugo-dodi-25g-rinde-2lt/",
-    "precio_unitario": "$12,00",
-    "precio_1": "3,9.80",
+    "precio_unitario": "$14,00",
+    "precio_1": "3,11.50",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -4951,6 +4951,10 @@
       {
         "fecha": "12/01/2021",
         "precio": 12.0
+      },
+      {
+        "fecha": "13/02/2021",
+        "precio": 14.0
       }
     ]
   },
@@ -5945,6 +5949,10 @@
       },
       {
         "fecha": "02/02/2021"
+      },
+      {
+        "fecha": "13/02/2021",
+        "precio": 540.0
       }
     ]
   },
@@ -7342,12 +7350,12 @@
   {
     "id": "00271",
     "nombre": "Polenta Prestopronta Arcor 500gr",
-    "precio": 74.0,
+    "precio": 45.0,
     "rubro": "Almacén > Polentas",
     "url_imagen": "2020/01/PRESTOPRONTA-ARCOR-500GR.jpg",
     "url_producto": "prestopronta-arcor-500grs-iv/",
-    "precio_unitario": "$74,00",
-    "precio_1": "3,64.45",
+    "precio_unitario": "$45,00",
+    "precio_1": "3,40.02",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -7356,6 +7364,10 @@
       {
         "fecha": "14/11/2020",
         "precio": 74.0
+      },
+      {
+        "fecha": "13/02/2021",
+        "precio": 45.0
       }
     ]
   },
@@ -8132,12 +8144,12 @@
   {
     "id": "00300",
     "nombre": "Ricota San Lucio x 100gr",
-    "precio": 13.5,
+    "precio": 15.0,
     "rubro": "Fiambreria > Ricota",
     "url_imagen": "2019/11/RICOTA-SAN-LUCIO.jpg",
     "url_producto": "ricota-san-lucio/",
-    "precio_unitario": "$13,50",
-    "precio_1": "10,11.50",
+    "precio_unitario": "$15,00",
+    "precio_1": "10,13.01",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -8157,6 +8169,10 @@
       {
         "fecha": "02/02/2021",
         "precio": 13.5
+      },
+      {
+        "fecha": "13/02/2021",
+        "precio": 15.0
       }
     ]
   },
@@ -8249,12 +8265,12 @@
   {
     "id": "00304",
     "nombre": "Sal Manto Blanco Fina 500gr",
-    "precio": 19.0,
+    "precio": 22.8,
     "rubro": "Almacén > Sal",
     "url_imagen": "2019/11/sal-manto-blanco-fina-500.jpg",
     "url_producto": "sal-manto-blanco-fina-500gr/",
-    "precio_unitario": "$19,00",
-    "precio_1": "3,16.50",
+    "precio_unitario": "$22,80",
+    "precio_1": "3,19.50",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -8263,18 +8279,22 @@
       {
         "fecha": "05/09/2020",
         "precio": 19.0
+      },
+      {
+        "fecha": "13/02/2021",
+        "precio": 22.8
       }
     ]
   },
   {
     "id": "00305",
     "nombre": "Sal Manto Blanco Gruesa 500gr",
-    "precio": 19.0,
+    "precio": 22.8,
     "rubro": "Almacén > Sal",
     "url_imagen": "2019/11/sal-manto-blanco-gruesa-500.jpg",
     "url_producto": "sal-manto-blanco-gruesa-500gr/",
-    "precio_unitario": "$19,00",
-    "precio_1": "3,16.50",
+    "precio_unitario": "$22,80",
+    "precio_1": "3,19.50",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -8290,6 +8310,10 @@
       {
         "fecha": "27/10/2020",
         "precio": 19.0
+      },
+      {
+        "fecha": "13/02/2021",
+        "precio": 22.8
       }
     ]
   },
@@ -11085,12 +11109,12 @@
   {
     "id": "00409",
     "nombre": "Manteca Tonadita 100gr",
-    "precio": 55.0,
+    "precio": 52.0,
     "rubro": "Lacteos > Mantecas y Margarinas",
     "url_imagen": "2020/01/MANTECA-TONADITA-100GR.jpg",
     "url_producto": "manteca-tonadita-100gr/",
-    "precio_unitario": "$55,00",
-    "precio_1": "3,47.28",
+    "precio_unitario": "$52,00",
+    "precio_1": "3,46.80",
     "historia": [
       {
         "fecha": "31/07/2020",
@@ -11124,6 +11148,10 @@
       {
         "fecha": "09/02/2021",
         "precio": 55.0
+      },
+      {
+        "fecha": "13/02/2021",
+        "precio": 52.0
       }
     ]
   },
@@ -11639,12 +11667,12 @@
   {
     "id": "00430",
     "nombre": "Queso Cremoso Debaldo x 100gr",
-    "precio": 36.0,
+    "precio": 38.0,
     "rubro": "Fiambreria > Cremosos",
     "url_imagen": "2020/08/cremoso-debaldo.jpg",
     "url_producto": "queso-cremoso-debaldo-x-100-grs/",
-    "precio_unitario": "$36,00",
-    "precio_1": "20,28.80",
+    "precio_unitario": "$38,00",
+    "precio_1": "20,30.60",
     "historia": [
       {
         "fecha": "12/08/2020",
@@ -11672,6 +11700,10 @@
       {
         "fecha": "02/02/2021",
         "precio": 36.0
+      },
+      {
+        "fecha": "13/02/2021",
+        "precio": 38.0
       }
     ]
   },
@@ -16378,12 +16410,12 @@
   {
     "id": "00646",
     "nombre": "Sardo Debaldo x 100gr",
-    "precio": 55.0,
+    "precio": 60.0,
     "rubro": "Fiambreria > Sardo",
     "url_imagen": "2020/01/SARDO-DEBALDO.jpg",
     "url_producto": "sardo-debaldo/",
-    "precio_unitario": "$55,00",
-    "precio_1": "10,47.00",
+    "precio_unitario": "$60,00",
+    "precio_1": "10,51.48",
     "historia": [
       {
         "fecha": "29/10/2020",
@@ -16400,6 +16432,10 @@
       {
         "fecha": "01/02/2021",
         "precio": 55.0
+      },
+      {
+        "fecha": "13/02/2021",
+        "precio": 60.0
       }
     ]
   },
@@ -17629,6 +17665,10 @@
       },
       {
         "fecha": "05/02/2021"
+      },
+      {
+        "fecha": "13/02/2021",
+        "precio": 100.0
       }
     ]
   },
@@ -19088,12 +19128,12 @@
   {
     "id": "00773",
     "nombre": "Queso Cremoso Mi Campo x 100gr",
-    "precio": 36.0,
+    "precio": 38.0,
     "rubro": "Fiambreria > Cremosos",
     "url_imagen": "2020/01/CREMOSO-MI-CAMPO.jpg",
     "url_producto": "cremoso-mi-campo/",
-    "precio_unitario": "$36,00",
-    "precio_1": "20,28.80",
+    "precio_unitario": "$38,00",
+    "precio_1": "20,30.60",
     "historia": [
       {
         "fecha": "10/12/2020",
@@ -19106,6 +19146,10 @@
       {
         "fecha": "02/02/2021",
         "precio": 36.0
+      },
+      {
+        "fecha": "13/02/2021",
+        "precio": 38.0
       }
     ]
   },
@@ -20363,6 +20407,22 @@
       {
         "fecha": "11/02/2021",
         "precio": 106.0
+      }
+    ]
+  },
+  {
+    "id": "00844",
+    "nombre": "Mayonesa Wilde 2755gr",
+    "precio": 352.89,
+    "rubro": "Aderezos > Mayonesas",
+    "url_imagen": "2020/01/MAYONESA-WILDE-2755-GR.jpg",
+    "url_producto": "mayonesa-wilde-2755-gr/",
+    "precio_unitario": "$352,89",
+    "precio_1": "3,352.89",
+    "historia": [
+      {
+        "fecha": "13/02/2021",
+        "precio": 352.89
       }
     ]
   }
