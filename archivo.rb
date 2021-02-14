@@ -71,10 +71,12 @@ module Archivo
 	def escribir(datos, *camino)
 		destino = ubicar(camino)
 		datos = datos.map(&:to_hash) unless String === datos
-
+		puts "ESCRIBIR > destino: #{destino} ext: #{extension(destino)}"
 		case extension(destino)
-		when :txt, :html
-			open(destino, 'w+') do |f|
+		when :txt, :html, :rb
+			puts datos 
+			puts destino
+				open(destino, 'w+') do |f|
 				f.write datos
 			end
 		when :json
@@ -171,4 +173,5 @@ include Archivo
 
 if __FILE__ == $0
 	# Archivo.crear_carpeta()
+	p Archivo.extension('tatito/seed.rb')
 end

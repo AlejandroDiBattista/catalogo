@@ -251,6 +251,10 @@ class String
 	def pad(ancho)
 		"#{self[0...ancho]}#{' ' * (ancho - self.size)}" 
 	end
+
+	def vacio?
+		strip.size == 0
+	end
 end
 
 class Progreso
