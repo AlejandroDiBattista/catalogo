@@ -287,5 +287,7 @@ if __FILE__ == $0
 	# 	# bases.each{|base| Catalogo.cargar_todo(base).guardar }
 		bases.each{|base| Catalogo.actualizar(base)}
 		bases.each{|base| Catalogo.bajar_fotos(base)}
+		# pp Jumbo.new.bajar.first(10)
+		# Catalogo.actualizar(Jumbo)
 	end
 end

@@ -203,7 +203,7 @@ class Web
 	end
 
 	def extraer_precio_unitario(pagina)
-		if item = seleccionar(pagina, :precio) 
+		if item = seleccionar(pagina, :precio_unitario) 
 			item.last && item.last.text.espacios
 		end 
 	end

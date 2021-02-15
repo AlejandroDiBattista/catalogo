@@ -46,6 +46,12 @@ class Jumbo < Web
 		end
 	end
 
+	def extraer_precio_unitario(pagina)
+		if item = seleccionar(pagina, :precio_unitario) 
+			item.last && item.last["data-ppum"]
+		end 
+	end
+
 	def incluir(item)
 		validos = ['Almacén', 'Bebidas', 'Pescados y Mariscos', 'Quesos y Fiambres', 'Lácteos', 'Congelados', 'Panadería y Repostería', 'Comidas Preparadas', 'Perfumería', 'Limpieza']
 		departamento = item.rubro.split(">").first.strip
