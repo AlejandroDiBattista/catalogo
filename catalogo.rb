@@ -273,19 +273,19 @@ if __FILE__ == $0
 	# pp ['28/10/2020', a.precio('28/10/2020')]
 	# pp ['06/11/2020', a.precio('06/11/2020')]
 	# pp ['11/02/2021', a.precio('11/02/2021')]
-	texto=Catalogo.cargar(Tatito).generar_seed
-	Archivo.escribir(texto, [:tatito, 'seed.rb'])
-	Catalogo.bajar_fotos(Tatito)
-	# medir "Cargando TODO" do 
-	# 	bases = [	
-	# 		Tatito, 
-	# 		TuChanguito, 
-	# 		Jumbo, 
-	# 		Maxiconsumo,
-	# 	]
+	# texto=Catalogo.cargar(Tatito).generar_seed
+	# Archivo.escribir(texto, [:tatito, 'seed.rb'])
+	# Catalogo.bajar_fotos(Tatito)
+	medir "Cargando TODO" do 
+		bases = [	
+			Tatito, 
+			TuChanguito, 
+			Jumbo, 
+			Maxiconsumo,
+		]
 	# 	puts 
 	# 	# bases.each{|base| Catalogo.cargar_todo(base).guardar }
-	# 	bases.each{|base| Catalogo.actualizar(base)}
-	# 	bases.each{|base| Catalogo.bajar_fotos(base)}
-	# end
+		bases.each{|base| Catalogo.actualizar(base)}
+		bases.each{|base| Catalogo.bajar_fotos(base)}
+	end
 end
