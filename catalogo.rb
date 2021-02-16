@@ -263,6 +263,12 @@ class Catalogo
 end
 
 if __FILE__ == $0
+	a = Jumbo.new.bajar.first(2)
+	puts ">> WEB"
+	pp a 
+	puts ">> Producto"
+	pp a.map{|x|Producto.cargar(x)}
+	return 
 	# a = Catalogo.cargar(Tatito)
 	# puts a.count 
 	# a = a.first 
