@@ -254,6 +254,11 @@ class Web
 			Archivo.leer(base, 'productos.dsv')
 		end
 
+		def crear(nombre)
+			nombre = nombre.name if Class === nombre
+			nombre = nombre.to_s.split('_').map(&:capitalize).join 
+			clazz = Object.const_get(nombre).new 	
+		end
 	end
 end
 
@@ -262,15 +267,10 @@ require_relative './tatito'
 require_relative './tu_changuito'
 require_relative './maxiconsumo'
 
-def crear(nombre)
-	nombre = nombre.name if Class === nombre
-	nombre = nombre.to_s.split('_').map(&:capitalize).join 
-	clazz = Object.const_get(nombre).new 	
-end
 
 def correr(accion, modulos: [:tatito, :tu_changuito, :jumbo, :maxiconsumo])
 	medir "Procesando datos [#{accion}] en #{modulos.count} modulos" do 
-		modulos.each{|modulo|crear(modulo).send(accion) }
+		modulos.each{|modulo|Web.crear(modulo).send(accion) }
 	end
 	puts " FIN.".pad(120).error
 end

@@ -3,7 +3,7 @@ Campos = [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :un
 
 class Producto < Struct.new(*Campos)
 	attr_accessor :ofertas, :texto, :anterior, :key#, :historia
-	attr_accessor :foto? 
+	attr_accessor :tiene_foto 
 
 	def self.cargar(datos)
 		return datos if Producto === datos

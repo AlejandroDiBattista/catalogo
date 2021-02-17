@@ -182,7 +182,7 @@ class Catalogo
 	end
 
 	def con_imagenes
-		filtrar(&:imagen?)
+		filtrar(&:tiene_foto)
 	end
 
 	def activos
@@ -247,17 +247,17 @@ class Catalogo
 			web = Web.crear(base)
 			catalogo.activos.procesar do |producto| 
 				web.bajar_foto(producto) 
-				producto.foto? = web.existe_foto?(producto)
+				producto.tiene_foto = web.existe_foto?(producto)
 			end	
 			catalogo 
 		end
 
 		DestinoSitio = 'C:/Users/gogo/Documents/GitHub/mitienda/tienda'
-		def genearar_datos_para_sitio(base)
+		def generar_sitio(base=:tatito)
 			 
-			destino_seed = "#{DestinoSitio}/db/seed.rb"
+			destino_seed = "#{DestinoSitio}/db/seeds.rb"
 			destino_img  = "#{DestinoSitio}/app/assets/images"
-			
+
 			catalogo = Catalogo.bajar_fotos(base)
 			catalogo = catalogo.activos.con_imagenes
 
@@ -265,6 +265,7 @@ class Catalogo
 
 			lineas.unshift "Productos.delette_all"
 
+			puts lineas.first(3).join("\n")
 			Archivo.escribir(lineas.join("\n"), destino_seed)
 			Archivo.borrar([destino_img, '.'])
 			Archivo.copiar("#{base}/fotos/*.jpg", destino_img)
@@ -281,41 +282,10 @@ class Catalogo
 end
 
 if __FILE__ == $0
-	a = Catalogo.cargar(Tatito)
-	b = a.activos
-	c = b.con_imagenes
-	puts "Total: #{a.count}"
-	puts "	Activos: #{b.count}"
-	puts "		ConImagenes: #{c.count}"
-
-	return 
-
-	# a = Jumbo.new.bajar.first(2)
-	# puts ">> WEB"
-	# pp a 
-	# puts ">> Producto"
-	# pp a.map{|x|Producto.cargar(x)}
-	# return 
-	# a = Catalogo.cargar(Tatito)
-	# puts a.count 
-	# a = a.first 
-	# a.mostrar true 
-	# pp ['11/02/2020', a.precio('11/02/2020')]
-	# pp ['25/07/2020', a.precio('25/07/2020')]
-	# pp ['27/10/2020', a.precio('27/10/2020')]
-	# pp ['28/10/2020', a.precio('28/10/2020')]
-	# pp ['06/11/2020', a.precio('06/11/2020')]
-	# pp ['11/02/2021', a.precio('11/02/2021')]
-	# texto=Catalogo.cargar(Tatito).generar_seed
-	# Archivo.escribir(texto, [:tatito, 'seed.rb'])
-	# Catalogo.bajar_fotos(Tatito)
 	medir "Cargando TODO" do 
-		bases = [ :tatito, :tu_changuito, :jumbo, :maxiconsumo,]
-	# 	puts 
-	# 	# bases.each{|base| Catalogo.cargar_todo(base).guardar }
+		bases = [ :tatito, :tu_changuito, :jumbo, :maxiconsumo]
 		bases.each{|base| Catalogo.actualizar(base)}
 		bases.each{|base| Catalogo.bajar_fotos(base)}
-		# pp Jumbo.new.bajar.first(10)
-		# Catalogo.actualizar(Jumbo)
+		Catalogo.generar_sitio :tatito
 	end
 end
