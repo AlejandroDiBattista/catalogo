@@ -134,6 +134,11 @@ module Archivo
 		end
 	end
 
+	def existe?(*camino)
+		origen = ubicar(camino)
+		File.exist?(origen)
+	end
+
 	def borrar(*camino)
 		listar(camino).procesar do |origen|
 			begin

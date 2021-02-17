@@ -91,6 +91,10 @@ class Object
 		to_s.strip.size < 3
 	end
 
+	def existe?
+		!vacio?
+	end 
+	
 	def to_sku
 		to_s.gsub(/\W/,'')
 	end

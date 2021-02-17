@@ -181,6 +181,10 @@ class Catalogo
 		end
 	end
 
+	def con_imagenes
+		filtrar(&:imagen?)
+	end
+
 	def activos
 		filtrar(&:activo?)
 	end
@@ -195,21 +199,15 @@ class Catalogo
 
 	end
 
-	def generar_seed
-		activos.map{|a|	"Producto.create!(id: #{a.id.to_i}, nombre: '#{a.nombre}', clasificacion: '#{a.rubro}', precio: #{a.precio}, imagen_url: '#{a.id}.jpg')"}.join("\n")
-	end
-
 	class << self 
 		def cargar(base)
-			base = base.name if Class === base 
 			new(base, Archivo.leer_json([base, 'catalogo.json']))
 		end
 
 		def leer(base, posicion=0)
-			base = base.name if Class === base
-			origen = listar(base, 'productos_*.dsv').sort[posicion]
-        	tmp  = new(base, Archivo.leer(origen))
-        	tmp -= tmp.filtrar(&:error?)
+			origen = listar(base, 'productos_*.dsv').sort()[posicion]
+        	catalogo  = new(base, Archivo.leer(origen))
+        	catalogo -= catalogo.filtrar(&:error?)
 		end
 
 		def analizar(base, dias=1, verboso=false)
@@ -227,42 +225,71 @@ class Catalogo
 		end
 
 		def cargar_todo(base)
-			base = base.name if Class === base
-			tmp = new(base)
+			catalogo = new(base)
 			Archivo.listar(base, 'productos_*.dsv').sort.each do |origen|
 				fecha = Archivo.extraer_fecha(origen)
-				tmp.each{|producto| producto.actualizar(fecha) }
+				catalogo.each{|producto| producto.actualizar(fecha) }
 				
 				nuevos = Archivo.leer(origen)
 				nuevos.each{|producto| producto.id = nil}
 
-				tmp.agregar(nuevos, fecha: fecha)
-				tmp.ordenar!
+				catalogo.agregar(nuevos, fecha: fecha)
+				catalogo.ordenar!
 
-				puts " > #{fecha} x #{nuevos.count} > #{tmp.count} | #{origen}"
+				puts " > #{fecha} x #{nuevos.count} > #{catalogo.count} | #{origen}"
 			end
-			tmp
+			catalogo
 		end
 
 		def bajar_fotos(base)
-			tmp = Catalogo.cargar(base)
-			puts "Hay #{tmp.count} productos en #{base.name}"
-			aux = base.new 
-			tmp.activos.procesar{|producto| aux.bajar_foto(producto) }	
-			tmp 
+			catalogo = Catalogo.cargar(base)
+			puts "Hay #{catalogo.count} productos en #{base.name}"
+			web = Web.crear(base)
+			catalogo.activos.procesar do |producto| 
+				web.bajar_foto(producto) 
+				producto.foto? = web.existe_foto?(producto)
+			end	
+			catalogo 
+		end
+
+		DestinoSitio = 'C:/Users/gogo/Documents/GitHub/mitienda/tienda'
+		def genearar_datos_para_sitio(base)
+			 
+			destino_seed = "#{DestinoSitio}/db/seed.rb"
+			destino_img  = "#{DestinoSitio}/app/assets/images"
+			
+			catalogo = Catalogo.bajar_fotos(base)
+			catalogo = catalogo.activos.con_imagenes
+
+			lineas = catalogo.map{|a| "Producto.create!(id: #{a.id.to_i}, nombre: '#{a.nombre}', clasificacion: '#{a.rubro}', precio: #{a.precio}, imagen_url: '#{a.id}.jpg')"}
+
+			lineas.unshift "Productos.delette_all"
+
+			Archivo.escribir(lineas.join("\n"), destino_seed)
+			Archivo.borrar([destino_img, '.'])
+			Archivo.copiar("#{base}/fotos/*.jpg", destino_img)
 		end
 
 		def actualizar(base)
-			tmp = Catalogo.cargar(base)
-			aux = base.new 
-			tmp.agregar(aux.bajar)
-			tmp.guardar
-			tmp 
+			catalogo = Catalogo.cargar(base)
+			web = Web.crear(base) 
+			catalogo.agregar(web.bajar)
+			catalogo.guardar
+			catalogo 
 		end
 	end
 end
 
 if __FILE__ == $0
+	a = Catalogo.cargar(Tatito)
+	b = a.activos
+	c = b.con_imagenes
+	puts "Total: #{a.count}"
+	puts "	Activos: #{b.count}"
+	puts "		ConImagenes: #{c.count}"
+
+	return 
+
 	# a = Jumbo.new.bajar.first(2)
 	# puts ">> WEB"
 	# pp a 
@@ -283,12 +310,7 @@ if __FILE__ == $0
 	# Archivo.escribir(texto, [:tatito, 'seed.rb'])
 	# Catalogo.bajar_fotos(Tatito)
 	medir "Cargando TODO" do 
-		bases = [	
-			Tatito, 
-			TuChanguito, 
-			Jumbo, 
-			Maxiconsumo,
-		]
+		bases = [ :tatito, :tu_changuito, :jumbo, :maxiconsumo,]
 	# 	puts 
 	# 	# bases.each{|base| Catalogo.cargar_todo(base).guardar }
 		bases.each{|base| Catalogo.actualizar(base)}

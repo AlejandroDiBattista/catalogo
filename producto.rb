@@ -3,6 +3,7 @@ Campos = [:id, :nombre, :precio, :rubro, :url_imagen, :url_producto, :marca, :un
 
 class Producto < Struct.new(*Campos)
 	attr_accessor :ofertas, :texto, :anterior, :key#, :historia
+	attr_accessor :foto? 
 
 	def self.cargar(datos)
 		return datos if Producto === datos
@@ -55,6 +56,10 @@ class Producto < Struct.new(*Campos)
 		self.historia = historia.select{|h| h.fecha < fecha }
 		ultimo = historia.last
 		self.historia << { fecha: fecha, precio: precio }  if !ultimo || ultimo.precio != precio
+	end
+
+	def imagen?
+		self.url_imagen
 	end
 
 	def activo?

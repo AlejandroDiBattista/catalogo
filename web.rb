@@ -103,10 +103,18 @@ class Web
 			end
 		end
 
-		bajar = productos.uniq.select{|producto| (forzar || !File.exist?( nombre_foto(producto.id ))) && !producto.url_imagen.vacio? }
+		bajar = productos.uniq.select{|producto| producto.url_imagen.existe? && (forzar || !existe_foto?(producto))  }
 
 		puts "Bajando #{productos.count} imagenes"
 		bajar.procesar{ |producto| bajar_foto(producto, forzar) }
+	end
+
+	def nombre_foto(id)
+		"#{carpeta}/fotos/#{id}.jpg"
+	end
+
+	def existe_foto?(producto)
+		producto.url_imagen.existe? && File.exist?( nombre_foto(producto.id) )
 	end
 
 	def bajar_foto(producto, forzar=false)
@@ -176,10 +184,6 @@ class Web
 		end
 	end
 
-	def nombre_foto(id)
-		"#{carpeta}/fotos/#{id}.jpg"
-	end
-
 	def carpeta
 		self.class.to_s.downcase
 	end
@@ -219,7 +223,6 @@ class Web
 		compacto ? acortar(url) : url 
 	end
 
-	
 	def extraer_img(item, compacto=true)
 		url = item && item.first && item.first[:src] || ''
 		compacto ? acortar(url) : url 
@@ -259,11 +262,17 @@ require_relative './tatito'
 require_relative './tu_changuito'
 require_relative './maxiconsumo'
 
-def correr(accion)
-	medir "Procesando datos [#{accion}]" do 
-		[Tatito, TuChanguito, Jumbo, Maxiconsumo].each{|x|x.new.send(accion)}
-		puts " FIN.".pad(120).error
+def crear(nombre)
+	nombre = nombre.name if Class === nombre
+	nombre = nombre.to_s.split('_').map(&:capitalize).join 
+	clazz = Object.const_get(nombre).new 	
+end
+
+def correr(accion, modulos: [:tatito, :tu_changuito, :jumbo, :maxiconsumo])
+	medir "Procesando datos [#{accion}] en #{modulos.count} modulos" do 
+		modulos.each{|modulo|crear(modulo).send(accion) }
 	end
+	puts " FIN.".pad(120).error
 end
 
 def pull
