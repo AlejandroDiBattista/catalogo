@@ -267,7 +267,6 @@ require_relative './tatito'
 require_relative './tu_changuito'
 require_relative './maxiconsumo'
 
-
 def correr(accion, modulos: [:tatito, :tu_changuito, :jumbo, :maxiconsumo])
 	medir "Procesando datos [#{accion}] en #{modulos.count} modulos" do 
 		modulos.each{|modulo|Web.crear(modulo).send(accion) }

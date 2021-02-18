@@ -94,7 +94,7 @@ class Object
 	def existe?
 		!vacio?
 	end 
-	
+
 	def to_sku
 		to_s.gsub(/\W/,'')
 	end
@@ -406,6 +406,8 @@ module Enumerable
 end
 
 if __FILE__ == $0
+	puts "TuChanuito".to_key
+	return 
 	puts "Esto es muy bueno"
 	puts "Hola Mundo" do 
 		puts "Algo" do 

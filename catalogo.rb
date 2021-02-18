@@ -23,7 +23,7 @@ class Catalogo
 
 	def guardar()
 		ordenar!
-		Archivo.escribir(self, [base, 'catalogo.json'])
+		Archivo.escribir(self, ['.', base, 'catalogo.json'])
 		self
 	end
 	
@@ -283,7 +283,7 @@ end
 
 if __FILE__ == $0
 	medir "Cargando TODO" do 
-		bases = [ :tatito, :tu_changuito, :jumbo, :maxiconsumo]
+		bases = [ :tatito, :jumbo, :maxiconsumo]
 		bases.each{|base| Catalogo.actualizar(base)}
 		bases.each{|base| Catalogo.bajar_fotos(base)}
 		Catalogo.generar_sitio :tatito
