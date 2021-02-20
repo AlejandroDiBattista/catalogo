@@ -9308,7 +9308,7 @@
     "id": "00344",
     "nombre": "Tomate Perita Arcor 400gr",
     "precio": 78.49,
-    "rubro": "Almacén > Salsas",
+    "rubro": "Almacén > Enlatados",
     "url_imagen": "2020/01/TOM-PERITA-ARCOR-3-400GR.jpg",
     "url_producto": "tom-perita-arcor-3-400gr/",
     "precio_1": "3,67.31",
@@ -9662,10 +9662,11 @@
   {
     "id": "00359",
     "nombre": "Vino Nativo Ros 1lt",
-    "precio": 65.35,
+    "precio": 86.0,
     "rubro": "Bebidas > Vinos",
-    "url_imagen": "/2020/01/VINO-NATIVO-ROS-1LT.jpg",
-    "url_producto": "/vino-nativo-ros-1lt/",
+    "url_imagen": "2020/01/VINO-NATIVO-ROS-1LT.jpg",
+    "url_producto": "vino-nativo-ros-1lt/",
+    "precio_1": "3,75.10",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -9673,6 +9674,10 @@
       },
       {
         "fecha": "27/10/2020"
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 86.0
       }
     ]
   },
@@ -17279,12 +17284,11 @@
   {
     "id": "00702",
     "nombre": "Dulce De Leche Cerros Tucumanos 400gr",
-    "precio": 65.0,
+    "precio": 73.69,
     "rubro": "Lacteos > Dulce de Leche",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "dulce-de-leche-cerros-tucumanos-400-gr/",
-    "precio_unitario": "$65,00",
-    "precio_1": "3,54.00",
+    "precio_1": "3,61.22",
     "historia": [
       {
         "fecha": "31/10/2020",
@@ -17299,6 +17303,10 @@
       },
       {
         "fecha": "02/02/2021"
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 73.69
       }
     ]
   },
@@ -20054,6 +20062,21 @@
       {
         "fecha": "18/02/2021",
         "precio": 40.0
+      }
+    ]
+  },
+  {
+    "id": "00847",
+    "nombre": "Magdalenas Gaona Frutilla x 250gr",
+    "precio": 82.0,
+    "rubro": "Almacén > Gall. Dulces y Saladas",
+    "url_imagen": "2019/11/magdalena-gaona-250g.jpg",
+    "url_producto": "magdalenas-gaona-vs-sabores/",
+    "precio_1": "3,71.28",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 82.0
       }
     ]
   }
