@@ -32312,7 +32312,7 @@
     "id": "01367",
     "nombre": "Antitranspirante Femenino Dove Clásico 89gr",
     "precio": 175.5,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "59401-1d3183784870bcc5ae15990738772133-480-0.jpg",
     "url_producto": "productos/ant-fem-dove-clasico-89-gr/",
     "historia": [
@@ -32416,7 +32416,7 @@
     "id": "01371",
     "nombre": "Antitranspirante Masculino Rexona Motion Sense Invisible 90gr",
     "precio": 169.9,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "172681-ba3a1c9253bcf28ee016025089275745-480-0.jpg",
     "url_producto": "productos/antitranspirante-masculino-rexona-motion-sense-invisible-90-gr/",
     "historia": [
@@ -32594,7 +32594,7 @@
   {
     "id": "01378",
     "nombre": "Arroz Ala Dorado 500gr",
-    "precio": 51.9,
+    "precio": 55.9,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "56811-a27fbacad85d70389115990023514253-480-0.jpg",
     "url_producto": "productos/arr-ala-dorado-500-gr/",
@@ -32609,6 +32609,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 51.9
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 55.9
       }
     ]
   },
@@ -32725,7 +32729,7 @@
   {
     "id": "01383",
     "nombre": "Arroz Gallo Oro 1kg",
-    "precio": 145.5,
+    "precio": 149.5,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "2071-6107be70bb5d9322ab15988781620142-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-estuch-1-kg/",
@@ -32740,14 +32744,18 @@
       {
         "fecha": "18/01/2021",
         "precio": 145.5
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 149.5
       }
     ]
   },
   {
     "id": "01384",
     "nombre": "Arroz Gallo Oro 500gr",
-    "precio": 75.0,
-    "rubro": "Productos > Arroz y Legumbres",
+    "precio": 85.7,
+    "rubro": "Productos > Almacén",
     "url_imagen": "2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -32765,6 +32773,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 75.0
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 85.7
       }
     ]
   },
@@ -32904,7 +32916,7 @@
     "id": "01390",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Conservas",
+    "rubro": "Productos > Almacén",
     "url_imagen": "140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -33834,7 +33846,7 @@
   {
     "id": "01423",
     "nombre": "Caldo Wilde Verdura 12un",
-    "precio": 59.9,
+    "precio": 65.9,
     "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
     "url_imagen": "125461-7ade5d5c70721ad79815988364125576-480-0.jpg",
     "url_producto": "productos/caldo-wilde-verdura-12-un/",
@@ -33853,6 +33865,10 @@
       {
         "fecha": "13/02/2021",
         "precio": 59.9
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 65.9
       }
     ]
   },
@@ -34075,7 +34091,7 @@
   {
     "id": "01432",
     "nombre": "Cepillo Dental Colgate Triple Acción 2x1",
-    "precio": 125.9,
+    "precio": 175.9,
     "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "44031-b896edfb4211e263fd15988786434266-480-0.png",
     "url_producto": "productos/cep-den-colgate-trip-ac-2x1/",
@@ -34094,6 +34110,10 @@
       {
         "fecha": "04/02/2021",
         "precio": 125.9
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 175.9
       }
     ]
   },
@@ -34879,7 +34899,7 @@
     "id": "01461",
     "nombre": "Crema Dental Colgate Triple Acción 180gr",
     "precio": 276.79,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "49201-a9ac16555da61d17ea15988990071112-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-trip-accion-180-gr/",
     "historia": [
@@ -34904,7 +34924,7 @@
     "id": "01462",
     "nombre": "Crema Dental Colgate Triple Acción Extra Blancura 90gr",
     "precio": 179.3,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "128361-32cf2b8a5126d20fdb15988991304092-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-t-ac-ex-bco-90-gr/",
     "historia": [
@@ -34954,7 +34974,7 @@
     "id": "01464",
     "nombre": "Crema Dental Oral B Anticaries 150gr",
     "precio": 163.25,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "crema-dental-oral-b-anticaries-150-gr1-f60633b3ab7e18ec5a16001951343628-480-0.jpg",
     "url_producto": "productos/cr-dental-oral-b-anticaries-150-gr/",
     "historia": [
@@ -35074,7 +35094,7 @@
     "id": "01468",
     "nombre": "Desinfectante Lysoform Original 360cc",
     "precio": 169.0,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Desinfectantes",
     "url_imagen": "252451-6606867adc5be5255615989755747391-480-0.jpg",
     "url_producto": "productos/desinf-lysoform-original-285-cc/",
     "historia": [
@@ -35868,7 +35888,7 @@
     "id": "01500",
     "nombre": "Enjuague Bucal Colgate Luminous 250ml",
     "precio": 309.9,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "144891-1b9e7233fdb30e8d0315988890856943-480-0.jpg",
     "url_producto": "productos/enj-buc-colgate-luminous-250-ml/",
     "historia": [
@@ -35931,7 +35951,7 @@
   {
     "id": "01503",
     "nombre": "Enjuague Comfort Clásico Bot 5lt",
-    "precio": 625.9,
+    "precio": 714.99,
     "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "243961-aa31847763e7c62c2615990693023080-480-0.jpg",
     "url_producto": "productos/enj-comfort-clasico-bot-5-lt/",
@@ -35946,6 +35966,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 625.9
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 714.99
       }
     ]
   },
@@ -36887,7 +36911,7 @@
     "id": "01541",
     "nombre": "Galletitas Pepitos 118gr",
     "precio": 62.4,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "75471-947736715d10244e2615988919945740-480-0.jpg",
     "url_producto": "productos/gal-pepitos-118-gr/",
     "historia": [
@@ -37002,7 +37026,7 @@
     "id": "01545",
     "nombre": "Galletitas Terrabusi Variedad 400gr",
     "precio": 105.0,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "209851-0f2bd8eb8fc27fb6db15988923475671-480-0.jpg",
     "url_producto": "productos/gal-terrabusi-variedad-400-gr/",
     "historia": [
@@ -37023,7 +37047,7 @@
     "id": "01546",
     "nombre": "Galletitas Traviata 5x100gr",
     "precio": 166.9,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "1681211-0f0aacfe4df74153ec15990865109777-480-0.jpg",
     "url_producto": "productos/gal-traviata-5x100-gr/",
     "historia": [
@@ -38397,7 +38421,7 @@
     "id": "01602",
     "nombre": "Jabón De Tocador Dove Karite y Vainilla 90gr",
     "precio": 85.7,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "234011-268f3b5530da9d27db15990689442139-480-0.jpg",
     "url_producto": "productos/jab-toc-dove-kar-y-vain-90-gr/",
     "historia": [
@@ -38426,7 +38450,7 @@
     "id": "01603",
     "nombre": "Jabón De Tocador Dove Revitalizante 90gr",
     "precio": 85.7,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "233381-87401b98e0c74afbd415990689047718-480-0.jpg",
     "url_producto": "productos/jab-toc-dove-revital-90-gr/",
     "historia": [
@@ -38455,7 +38479,7 @@
     "id": "01604",
     "nombre": "Jabón De Tocador Espadol Active Deo 90gr",
     "precio": 71.4,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "131441-176b7e58459baae17915990920652667-480-0.jpg",
     "url_producto": "productos/jab-toc-espadol-act-deo-90-gr/",
     "historia": [
@@ -38476,7 +38500,7 @@
     "id": "01605",
     "nombre": "Jabón De Tocador Nivea Creme Soft 100gr",
     "precio": 60.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "170251-d78643e1fdcbf4629d15990678722806-480-0.jpg",
     "url_producto": "productos/jab-toc-nivea-crem-125-gr/",
     "historia": [
@@ -39302,7 +39326,6 @@
     "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "16971-525a043a2d5876070415988898141885-480-0.jpg",
     "url_producto": "productos/lavavaj-ala-cr-colag-750-ml/",
-    "precio_unitario": "$85,50",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -39658,7 +39681,7 @@
     "id": "01652",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Postres y Repostería",
+    "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "historia": [
@@ -41348,7 +41371,7 @@
     "id": "01718",
     "nombre": "Oblea Nugaton Leche 27gr",
     "precio": 48.5,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "1221511-eeaca7ca177da77d9815989996596078-480-0.jpg",
     "url_producto": "productos/oblea-nugaton-leche-27-gr/",
     "historia": [
@@ -42187,7 +42210,7 @@
   {
     "id": "01752",
     "nombre": "Papas Fritas Mc Cain Para Horno 600gr",
-    "precio": 181.5,
+    "precio": 199.0,
     "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "papas-fritas-mc-cain-para-horno-720-gr11-c8f01341c813c80afb15996711312820-480-0.jpg",
     "url_producto": "productos/papas-fritas-mc-cain-para-horno-600-gr/",
@@ -42202,6 +42225,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 181.5
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 199.0
       }
     ]
   },
@@ -43276,7 +43303,7 @@
   {
     "id": "01796",
     "nombre": "Queso La Quesera Rallado 100gr",
-    "precio": 96.0,
+    "precio": 109.9,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "229311-1a28533f984a941a0c15990848837259-480-0.jpg",
     "url_producto": "productos/queso-l-quesera-rall-100-gr/",
@@ -43291,13 +43318,17 @@
       {
         "fecha": "18/01/2021",
         "precio": 96.0
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 109.9
       }
     ]
   },
   {
     "id": "01797",
     "nombre": "Queso La Quesera Rallado 40gr",
-    "precio": 39.1,
+    "precio": 47.3,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "2277711-f5d6b994a33f0cbdd915990918192393-480-0.jpg",
     "url_producto": "productos/queso-l-quesera-rall-40-gr/",
@@ -43312,6 +43343,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 39.1
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 47.3
       }
     ]
   },
@@ -44677,7 +44712,7 @@
     "id": "01854",
     "nombre": "Shampoo Tresemme Keratina 400ml",
     "precio": 259.9,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "161771-e8acb2da185d094b4d15988877301296-480-0.jpg",
     "url_producto": "productos/shamp-tresemme-keratina-400-ml/",
     "historia": [
@@ -45203,7 +45238,7 @@
   {
     "id": "01875",
     "nombre": "Tapas Para Empanadas La Salteña Criolla 15un 412gr",
-    "precio": 115.7,
+    "precio": 128.88,
     "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "221451-7e19d812d13a21e7aa15990686427188-480-0.jpg",
     "url_producto": "productos/tapas-para-empanadas-la-saltena-criolla-15u-412-gr/",
@@ -45218,13 +45253,17 @@
       {
         "fecha": "18/01/2021",
         "precio": 115.7
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 128.88
       }
     ]
   },
   {
     "id": "01876",
     "nombre": "Tapas Para Empanadas La Salteña Para Freír 15 Uní",
-    "precio": 123.0,
+    "precio": 128.88,
     "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "tapas-para-empanadas-la-saltena-para-freir-15-uni1-29d22ff389761c1e4c16039010501039-480-0.jpg",
     "url_producto": "productos/tapas-para-empanadas-la-saltena-para-freir-15-uni/",
@@ -45239,6 +45278,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 123.0
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 128.88
       }
     ]
   },
@@ -45267,7 +45310,7 @@
     "id": "01878",
     "nombre": "Toallitas Femeninas Siempre Libre Con Alas 16un",
     "precio": 235.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "130591-537459551c249564c015988887529678-480-0.jpg",
     "url_producto": "productos/toallitas-femeninas-siempre-libre-con-alas-16-un/",
     "historia": [
@@ -46438,7 +46481,6 @@
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "arroz-preparado-gallo-sabor-verdeo-x-240-gr1-0e59360ef75b70453116037380840707-480-0.jpg",
     "url_producto": "productos/arroz-preparado-gallo-verdeo-240-gr/",
-    "precio_unitario": "$115,68",
     "historia": [
       {
         "fecha": "14/11/2020",
@@ -46457,6 +46499,10 @@
       },
       {
         "fecha": "07/02/2021"
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 115.68
       }
     ]
   },
@@ -48903,7 +48949,7 @@
   {
     "id": "02040",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
-    "precio": 35.9,
+    "precio": 65.0,
     "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
@@ -48922,6 +48968,10 @@
       {
         "fecha": "01/02/2021",
         "precio": 35.9
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 65.0
       }
     ]
   },
@@ -49485,7 +49535,7 @@
     "id": "02066",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 179.0,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -50022,7 +50072,6 @@
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "maquina-gillette-prestobarba-excel-2-un1-209fb346dcc3576e5716101134878356-480-0.jpg",
     "url_producto": "productos/maquina-gillette-prestobarba-excel-2-un/",
-    "precio_unitario": "$220",
     "historia": [
       {
         "fecha": "09/01/2021",
@@ -50041,6 +50090,10 @@
       },
       {
         "fecha": "01/02/2021"
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 220.0
       }
     ]
   },
@@ -50257,7 +50310,7 @@
   {
     "id": "02102",
     "nombre": "Tapas Para Empanada La Salteña Criollas 12un",
-    "precio": 83.12,
+    "precio": 99.0,
     "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "tapas-para-empanada-la-saltena-criollas-12-un1-6cef173c164135dd4816103972952261-480-0.jpg",
     "url_producto": "productos/tapas-para-empanada-la-saltena-criollas-12-un/",
@@ -50272,6 +50325,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 83.12
+      },
+      {
+        "fecha": "20/02/2021",
+        "precio": 99.0
       }
     ]
   },
@@ -54479,6 +54536,314 @@
       {
         "fecha": "16/02/2021",
         "precio": 409.9
+      }
+    ]
+  },
+  {
+    "id": "02353",
+    "nombre": "Alimento De Animales Dogui Carne C/cereales y Arroz 1,1gr",
+    "precio": 201.04,
+    "rubro": "Productos > Mascotas",
+    "url_imagen": "http://d26lpennugtm8s.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/alimento-de-animales-dogui-carne-c-cereales-y-arroz-1-5-gr/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 201.04
+      }
+    ]
+  },
+  {
+    "id": "02354",
+    "nombre": "Batata x kg",
+    "precio": 105.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "http://d26lpennugtm8s.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/batata-x-kg/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 105.0
+      }
+    ]
+  },
+  {
+    "id": "02355",
+    "nombre": "Berengena x Unidad",
+    "precio": 32.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "http://d26lpennugtm8s.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/berengena-x-unidad/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 32.0
+      }
+    ]
+  },
+  {
+    "id": "02356",
+    "nombre": "Brocoli x Unidad",
+    "precio": 110.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "http://d26lpennugtm8s.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/brocoli-x-unidad/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 110.0
+      }
+    ]
+  },
+  {
+    "id": "02357",
+    "nombre": "Caldo Wilde Gallina 12un",
+    "precio": 65.9,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d26lpennugtm8s.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/caldo-wilde-gallina-12-un/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 65.9
+      }
+    ]
+  },
+  {
+    "id": "02358",
+    "nombre": "Cebolla Morada x kg",
+    "precio": 105.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "http://d26lpennugtm8s.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/cebolla-morada-x-kg/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 105.0
+      }
+    ]
+  },
+  {
+    "id": "02359",
+    "nombre": "Crema Dental Odolito Frutilla 50gr ,",
+    "precio": 59.9,
+    "rubro": "Productos > Cuidado Bucal",
+    "url_imagen": "crema-dental-odolito-frutilla-50-gr1-0399e38d06d028f9ae16135693889014-480-0.jpg",
+    "url_producto": "productos/crema-dental-odolito-frutilla-50-gr/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 59.9
+      }
+    ]
+  },
+  {
+    "id": "02360",
+    "nombre": "Desinfectante De Ambientes Lysoform En Aerosol Cítrico - 360cc",
+    "precio": 169.0,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "desinfectante-de-ambiente-lysoform-citrica-360-cc-1-291881-8385b75b78a0f2495016016511950642-480-0.jpg",
+    "url_producto": "productos/desinfectante-de-ambientes-lysoform-en-aerosol-citrico-360-cc/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 169.0
+      }
+    ]
+  },
+  {
+    "id": "02361",
+    "nombre": "Desinfectante De Ambientes Lysoform En Aerosol Lavanda - 360cc",
+    "precio": 169.0,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "5316361-2ef20eb7fc1dc424c916016507065823-480-0.jpg",
+    "url_producto": "productos/desinfectante-de-ambientes-lysoform-en-aerosol-lavanda-360-cc/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 169.0
+      }
+    ]
+  },
+  {
+    "id": "02362",
+    "nombre": "Desinfectante Lysoform Aire De Montaña 360cc",
+    "precio": 169.0,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "lysoform1-0d0cf4c5241f88cab516013806768036-480-0.jpg",
+    "url_producto": "productos/desinfectante-lysoform-aire-de-montana-360-cc/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 169.0
+      }
+    ]
+  },
+  {
+    "id": "02363",
+    "nombre": "Desinfectante Lysoform Bebé 360cc",
+    "precio": 169.0,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "7790520014191_011-a1f9f1e232ba87e0f216067749370997-480-0.jpg",
+    "url_producto": "productos/desinfectante-lysoform-bebe-360-cc/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 169.0
+      }
+    ]
+  },
+  {
+    "id": "02364",
+    "nombre": "Desinfectante Lysoform Floral 360cc",
+    "precio": 169.0,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "216471-cb87a1fc3fba0cee0f15989755538422-480-0.jpg",
+    "url_producto": "productos/desinf-lysoform-flor-frut-360-cc/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 169.0
+      }
+    ]
+  },
+  {
+    "id": "02365",
+    "nombre": "Jabón En Polvo Drive Matic Rosas 800gr",
+    "precio": 108.4,
+    "rubro": "Productos > Lavado de Ropa",
+    "url_imagen": "78121-4e7f58107d4fe9e7bb15988844150822-480-0.jpg",
+    "url_producto": "productos/jab-pvo-drive-mat-rosas-800-gr/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 108.4
+      }
+    ]
+  },
+  {
+    "id": "02366",
+    "nombre": "Lavavajilla Esencial Rosa 750cc",
+    "precio": 32.0,
+    "rubro": "Productos > Limpieza en General",
+    "url_imagen": "39441-92264dfd8dca2e748e15988901141709-480-0.jpg",
+    "url_producto": "productos/lavavaj-esencial-rosa-750-cc/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 32.0
+      }
+    ]
+  },
+  {
+    "id": "02367",
+    "nombre": "Limpiador Liquido Desinfectante Citrica 420ml",
+    "precio": 93.9,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "unnamed-41-e579cad90bc53f9ff116120104576558-480-0.jpg",
+    "url_producto": "productos/limpiador-liquido-desinfectante-citrica-420-ml/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 93.9
+      }
+    ]
+  },
+  {
+    "id": "02368",
+    "nombre": "Limpiador Liquido Desinfectante Lysoform Lavanda Dp 420ml",
+    "precio": 93.9,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "unnamed-31-78e748dbe1799bd68a16120102045414-480-0.jpg",
+    "url_producto": "productos/limpiador-liquido-desinfectante-lysoform-lavanda-dp-420-ml/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 93.9
+      }
+    ]
+  },
+  {
+    "id": "02369",
+    "nombre": "Medallones De Quinoa Bambu Con Batata Roja y Curry 360gr",
+    "precio": 169.0,
+    "rubro": "Productos > Bajas Calorías",
+    "url_imagen": "31-0d95a2d750cf46156016135887047402-480-0.jpg",
+    "url_producto": "productos/medallones-de-quinoa-bambu-con-batata-roja-y-curry-360-gr/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 169.0
+      }
+    ]
+  },
+  {
+    "id": "02370",
+    "nombre": "Medallones De Quinoa Bambu Con Cebolla Caramelizada 360gr",
+    "precio": 169.0,
+    "rubro": "Productos > Bajas Calorías",
+    "url_imagen": "41-0ac7d05aa033abaf7416135887401078-480-0.jpg",
+    "url_producto": "productos/medallones-de-quinoa-bambu-con-cebolla-caramelizada-360-gr/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 169.0
+      }
+    ]
+  },
+  {
+    "id": "02371",
+    "nombre": "Pañales Estrella Superpack Xxg 56un",
+    "precio": 1.299,
+    "rubro": "Productos > Pañales y Bebés",
+    "url_imagen": "panales-estrella-superpack-xxg-56-un1-0718b6bbd824f5770516135693207143-480-0.jpg",
+    "url_producto": "productos/panales-estrella-superpack-xxg-56-un/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 1.299
+      }
+    ]
+  },
+  {
+    "id": "02372",
+    "nombre": "Pan Veneziana Lacteado 400gr",
+    "precio": 105.0,
+    "rubro": "Productos > Panificados y Rebozadores",
+    "url_imagen": "2249011-659b8362eb51b6176215990900946835-480-0.jpg",
+    "url_producto": "productos/pan-veneziana-lacteado-400-gr/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 105.0
+      }
+    ]
+  },
+  {
+    "id": "02373",
+    "nombre": "Papel Higienico Higienol Max 4x80 Mts",
+    "precio": 175.3,
+    "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
+    "url_imagen": "http://d26lpennugtm8s.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/papel-higienico-higienol-max-4x80-mts/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 175.3
+      }
+    ]
+  },
+  {
+    "id": "02374",
+    "nombre": "Repuesto Lysoform Discos Adhesivos Citric 38ml",
+    "precio": 240.4,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "230661-97e6b1313db68397b415990688407171-480-0.jpg",
+    "url_producto": "productos/repuest-lysoform-d-a-citric-38-ml/",
+    "historia": [
+      {
+        "fecha": "20/02/2021",
+        "precio": 240.4
       }
     ]
   }

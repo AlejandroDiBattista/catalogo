@@ -78,13 +78,27 @@ class Array
 	end
 end
 
+class Class
+	def to_class
+		self 
+	end
+end
+
 class Object
 	def normalizar
 		self
 	end
 
 	def to_key
-		to_s.gsub(/[^a-z0-9]/i,' ').espacios.gsub(' ','_').downcase.to_sym
+		to_s.gsub(/([a-z])([A-Z])/,'\1 \2').gsub(/[^a-z0-9]/i,' ').espacios.gsub(' ','_').downcase.to_sym
+	end
+
+	def to_class_name 
+		to_s.gsub('_',' ').espacios.split.map(&:capitalize).join 
+	end
+
+	def to_class 
+		Object.const_get(to_class_name)
 	end
 
 	def vacio?
@@ -406,7 +420,9 @@ module Enumerable
 end
 
 if __FILE__ == $0
-	puts "TuChanuito".to_key
+
+	puts " TuChanGui to".to_key
+	puts :tu_chanquito.to_class_name
 	return 
 	puts "Esto es muy bueno"
 	puts "Hola Mundo" do 

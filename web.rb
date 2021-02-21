@@ -255,6 +255,7 @@ class Web
 		end
 
 		def crear(nombre)
+			return nombre.to_class.new 
 			nombre = nombre.name if Class === nombre
 			nombre = nombre.to_s.split('_').map(&:capitalize).join 
 			clazz = Object.const_get(nombre).new 	

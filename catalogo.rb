@@ -283,7 +283,7 @@ end
 
 if __FILE__ == $0
 	medir "Cargando TODO" do 
-		bases = [ :tatito, :jumbo, :maxiconsumo]
+		bases = [ :tatito, :jumbo, :maxiconsumo, :tu_changuito]
 		bases.each{|base| Catalogo.actualizar(base)}
 		bases.each{|base| Catalogo.bajar_fotos(base)}
 		Catalogo.generar_sitio :tatito
