@@ -23,8 +23,8 @@ class Web
 
 			Archivo.escribir(productos, destino)
 			Archivo.preservar(destino)
-			puts " ► Completando ID... ".green 
-			completar_id(regenerar, destino)
+			# puts " ► Completando ID... ".green 
+			# completar_id(regenerar, destino)
 
 			# puts " ► Bajando imagenes... ".green 
 			# bajar_imagenes(regenerar)
@@ -185,7 +185,7 @@ class Web
 	end
 
 	def carpeta
-		self.class.to_s.downcase
+		self.class.to_key
 	end
 
 	def extraer_nombre(pagina)
@@ -285,9 +285,9 @@ end
 if __FILE__ == $0
 	# limpiar_errores
 	# completar_id
-	correr :bajar_todo
 	# correr :limpiar_errores
 	# correr :completar_id
 	# correr :limpiar_fotos
+	correr :bajar_todo
 	# pull
 end
