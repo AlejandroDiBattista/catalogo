@@ -274,7 +274,7 @@ class Catalogo
 		def actualizar(base)
 			catalogo = Catalogo.cargar(base)
 			web = Web.crear(base) 
-			catalogo.agregar(web.bajar)
+			catalogo.agregar(web.bajar(true))
 			catalogo.guardar
 			catalogo 
 		end

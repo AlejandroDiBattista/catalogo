@@ -5,9 +5,15 @@ require_relative 'normalizar'
 class Web
 	attr_accessor :id_actual 
 
-	def bajar
+	def bajar(guardar=true)
 		clasificacion = bajar_clasificaciones()			
-		bajar_clasificacion(clasificacion).compact
+		productos = bajar_clasificacion(clasificacion).compact
+		if guardar 
+			destino = [carpeta, 'productos.dsv']
+			Archivo.escribir(productos, destino)
+			Archivo.preservar(destino)
+		end
+		productos
 	end
 
 	def bajar_todo(regenerar = false)

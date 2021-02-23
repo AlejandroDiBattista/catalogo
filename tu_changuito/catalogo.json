@@ -32916,7 +32916,7 @@
     "id": "01390",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Conservas",
     "url_imagen": "140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -35247,7 +35247,7 @@
   {
     "id": "01474",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
-    "precio": 107.0,
+    "precio": 125.0,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-400-gr/",
@@ -35274,6 +35274,10 @@
       {
         "fecha": "05/02/2021",
         "precio": 107.0
+      },
+      {
+        "fecha": "23/02/2021",
+        "precio": 125.0
       }
     ]
   },
@@ -36911,7 +36915,7 @@
     "id": "01541",
     "nombre": "Galletitas Pepitos 118gr",
     "precio": 62.4,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "75471-947736715d10244e2615988919945740-480-0.jpg",
     "url_producto": "productos/gal-pepitos-118-gr/",
     "historia": [
@@ -37026,7 +37030,7 @@
     "id": "01545",
     "nombre": "Galletitas Terrabusi Variedad 400gr",
     "precio": 105.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "209851-0f2bd8eb8fc27fb6db15988923475671-480-0.jpg",
     "url_producto": "productos/gal-terrabusi-variedad-400-gr/",
     "historia": [
@@ -37047,7 +37051,7 @@
     "id": "01546",
     "nombre": "Galletitas Traviata 5x100gr",
     "precio": 166.9,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "1681211-0f0aacfe4df74153ec15990865109777-480-0.jpg",
     "url_producto": "productos/gal-traviata-5x100-gr/",
     "historia": [
@@ -37252,11 +37256,10 @@
   {
     "id": "01553",
     "nombre": "Gaseosa Mirinda Manzana 2,2 Lts",
-    "precio": 145.0,
+    "precio": 160.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "gaseosa-mirinda-manzana-2-25-lts1-328df2f665de50abfe16037397195615-480-0.jpg",
     "url_producto": "productos/gaseosa-mirinda-manzana-2-25-lts/",
-    "precio_unitario": "$145",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -37271,6 +37274,10 @@
       },
       {
         "fecha": "21/01/2021"
+      },
+      {
+        "fecha": "23/02/2021",
+        "precio": 160.0
       }
     ]
   },
@@ -38943,7 +38950,7 @@
     "id": "01622",
     "nombre": "Jugo Minerva Limón 500cc",
     "precio": 137.4,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "113111-6f045e8b2c177790cd15990030622137-480-0.jpg",
     "url_producto": "productos/jug-minerva-limon-500-cc/",
     "historia": [
@@ -39465,7 +39472,7 @@
     "id": "01645",
     "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana Pet 1lt",
     "precio": 85.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "botella-larga-vida1-be092cc5467eb617e115997437553116-480-0.jpg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-pet-1-l/",
     "historia": [
@@ -41259,7 +41266,7 @@
     "id": "01714",
     "nombre": "Mostaza Savora 250gr",
     "precio": 85.9,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aderezos",
     "url_imagen": "115651-091ba485b56ce6138915989074478331-480-0.jpg",
     "url_producto": "productos/mostaza-savora-250-grs/",
     "historia": [
@@ -41371,7 +41378,7 @@
     "id": "01718",
     "nombre": "Oblea Nugaton Leche 27gr",
     "precio": 48.5,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "1221511-eeaca7ca177da77d9815989996596078-480-0.jpg",
     "url_producto": "productos/oblea-nugaton-leche-27-gr/",
     "historia": [
@@ -44712,7 +44719,7 @@
     "id": "01854",
     "nombre": "Shampoo Tresemme Keratina 400ml",
     "precio": 259.9,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "161771-e8acb2da185d094b4d15988877301296-480-0.jpg",
     "url_producto": "productos/shamp-tresemme-keratina-400-ml/",
     "historia": [
@@ -48949,8 +48956,8 @@
   {
     "id": "02040",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
-    "precio": 65.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "precio": 75.0,
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -48972,6 +48979,10 @@
       {
         "fecha": "20/02/2021",
         "precio": 65.0
+      },
+      {
+        "fecha": "23/02/2021",
+        "precio": 75.0
       }
     ]
   },
@@ -53202,7 +53213,7 @@
     "id": "02266",
     "nombre": "Galletas De Arroz Integral Arrotuc Saladas 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "11-80ddd43e1a57a435d816116159267143-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-arrotuc-saladas-12-un-s-t-a-c-c/",
     "historia": [
@@ -53216,7 +53227,7 @@
     "id": "02267",
     "nombre": "Galletas De Arroz Integral Dulces Arrotuc 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "31-34d6a2caa7cf8c242816116158614983-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-dulces-arrotuc-12-un-s-t-a-c-c/",
     "historia": [
@@ -53230,7 +53241,7 @@
     "id": "02268",
     "nombre": "Galletas De Arroz Integral Sin Sal Arrotuc 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "21-28085d50db185491d516116158878935-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-sin-sal-arrotuc-12-un-s-t-a-c-c/",
     "historia": [
@@ -53272,7 +53283,7 @@
     "id": "02271",
     "nombre": "Harina Pureza Integral 1kg",
     "precio": 79.2,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "59131-01a582d1c75c49900515989691653247-480-0.jpg",
     "url_producto": "productos/har-pureza-integral-1-kg/",
     "historia": [
@@ -53300,7 +53311,7 @@
     "id": "02273",
     "nombre": "Mantequilla De Mani C/dulce De Leche 500gr",
     "precio": 299.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "mantequilla-de-mani-con-dulce-de-leche-500-gr1-9ee9db0f0eec43651816116010205978-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-c-dulce-de-leche-500-gr/",
     "historia": [
@@ -53314,7 +53325,7 @@
     "id": "02274",
     "nombre": "Mantequilla De Mani Fitfruits 500gr",
     "precio": 275.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "diseno-sin-titulo-2021-01-25t155535-0511-a90958bee18a74825316116009496795-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-fitfruits-500-gr/",
     "historia": [
@@ -53561,7 +53572,7 @@
     "id": "02290",
     "nombre": "Medallones De Quinoa Bambu Con Brocoli 360gr",
     "precio": 169.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "diseno-sin-titulo-2021-01-28t133000-7341-9246fe4e03dc07a08d16118514633734-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-brocoli-360-gr/",
     "historia": [
@@ -54767,7 +54778,7 @@
     "id": "02369",
     "nombre": "Medallones De Quinoa Bambu Con Batata Roja y Curry 360gr",
     "precio": 169.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "31-0d95a2d750cf46156016135887047402-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-batata-roja-y-curry-360-gr/",
     "historia": [
@@ -54781,7 +54792,7 @@
     "id": "02370",
     "nombre": "Medallones De Quinoa Bambu Con Cebolla Caramelizada 360gr",
     "precio": 169.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "41-0ac7d05aa033abaf7416135887401078-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-cebolla-caramelizada-360-gr/",
     "historia": [
@@ -54844,6 +54855,118 @@
       {
         "fecha": "20/02/2021",
         "precio": 240.4
+      }
+    ]
+  },
+  {
+    "id": "02375",
+    "nombre": "Alimento De Animales Dogui Carne C/cereales y Arroz 1,1gr",
+    "precio": 201.04,
+    "rubro": "Productos > Mascotas",
+    "url_imagen": "alimento-de-animales-dogui-carne-cereales-y-arroz-1-5-gr1-c0735e5f355cff33ed16139985007323-480-0.jpg",
+    "url_producto": "productos/alimento-de-animales-dogui-carne-c-cereales-y-arroz-1-5-gr/",
+    "historia": [
+      {
+        "fecha": "23/02/2021",
+        "precio": 201.04
+      }
+    ]
+  },
+  {
+    "id": "02376",
+    "nombre": "Batata x kg",
+    "precio": 105.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "batata1-d475992372da0a5ae416139985660404-480-0.jpg",
+    "url_producto": "productos/batata-x-kg/",
+    "historia": [
+      {
+        "fecha": "23/02/2021",
+        "precio": 105.0
+      }
+    ]
+  },
+  {
+    "id": "02377",
+    "nombre": "Berengena x Unidad",
+    "precio": 32.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "berenjena1-b95421431fde7a27c516139986875117-480-0.png",
+    "url_producto": "productos/berengena-x-unidad/",
+    "historia": [
+      {
+        "fecha": "23/02/2021",
+        "precio": 32.0
+      }
+    ]
+  },
+  {
+    "id": "02378",
+    "nombre": "Brocoli x Unidad",
+    "precio": 110.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "brocoli1-a0f2832184752e1aa116139987353846-480-0.jpg",
+    "url_producto": "productos/brocoli-x-unidad/",
+    "historia": [
+      {
+        "fecha": "23/02/2021",
+        "precio": 110.0
+      }
+    ]
+  },
+  {
+    "id": "02379",
+    "nombre": "Caldo Wilde Gallina 12un",
+    "precio": 65.9,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "caldo-wilde-gallina-12-un1-a861759ad7853abd8b16139982098402-480-0.png",
+    "url_producto": "productos/caldo-wilde-gallina-12-un/",
+    "historia": [
+      {
+        "fecha": "23/02/2021",
+        "precio": 65.9
+      }
+    ]
+  },
+  {
+    "id": "02380",
+    "nombre": "Cebolla Morada x kg",
+    "precio": 105.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "cebolla-morada1-664871cb12a95dd27016139986215609-480-0.jpeg",
+    "url_producto": "productos/cebolla-morada-x-kg/",
+    "historia": [
+      {
+        "fecha": "23/02/2021",
+        "precio": 105.0
+      }
+    ]
+  },
+  {
+    "id": "02381",
+    "nombre": "Papel Higienico Higienol Max 4x80 Mts",
+    "precio": 175.3,
+    "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
+    "url_imagen": "papel-higienico-higienol-max-4x80-mts1-cdcced26899474ae3116139983579423-480-0.jpg",
+    "url_producto": "productos/papel-higienico-higienol-max-4x80-mts/",
+    "historia": [
+      {
+        "fecha": "23/02/2021",
+        "precio": 175.3
+      }
+    ]
+  },
+  {
+    "id": "02382",
+    "nombre": "Vodka Smirnoff Raspberry 700ml",
+    "precio": 468.2,
+    "rubro": "Productos > Bebidas Blancas y Licores",
+    "url_imagen": "vodka-smirnoff-raspberry-700-ml1-02c4a493b084c8fca616140026329294-480-0.jpg",
+    "url_producto": "productos/vodka-smirnoff-raspberry-700-ml/",
+    "historia": [
+      {
+        "fecha": "23/02/2021",
+        "precio": 468.2
       }
     ]
   }
