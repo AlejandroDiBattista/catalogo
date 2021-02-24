@@ -30634,11 +30634,10 @@
   {
     "id": "01298",
     "nombre": "Aceite Cañuelas Girasol 1,5lt",
-    "precio": 220.0,
+    "precio": 245.0,
     "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "2191-ed56f8b77cf21a55c515988094192453-480-0.jpg",
     "url_producto": "productos/ac-canuelas-girasol-1-5-lt/",
-    "precio_unitario": "$220",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -30661,6 +30660,10 @@
       },
       {
         "fecha": "11/02/2021"
+      },
+      {
+        "fecha": "24/02/2021",
+        "precio": 245.0
       }
     ]
   },
@@ -30806,7 +30809,7 @@
   {
     "id": "01305",
     "nombre": "Aceite Natura Girasol 1,5lt",
-    "precio": 225.0,
+    "precio": 245.0,
     "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "1241-124ae2fb728b35be9415988859531149-480-0.jpg",
     "url_producto": "productos/ac-natura-girasol-pvc-1-5-lt/",
@@ -30833,6 +30836,10 @@
       {
         "fecha": "21/01/2021",
         "precio": 225.0
+      },
+      {
+        "fecha": "24/02/2021",
+        "precio": 245.0
       }
     ]
   },
@@ -32755,7 +32762,7 @@
     "id": "01384",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 85.7,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -33560,7 +33567,7 @@
     "id": "01412",
     "nombre": "Bolsa Asurin Residuos 3,3x60 10un",
     "precio": 74.1,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg",
     "url_producto": "productos/bols-asurin-res-3-45x60-10-un/",
     "historia": [
@@ -38950,7 +38957,7 @@
     "id": "01622",
     "nombre": "Jugo Minerva Limón 500cc",
     "precio": 137.4,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "113111-6f045e8b2c177790cd15990030622137-480-0.jpg",
     "url_producto": "productos/jug-minerva-limon-500-cc/",
     "historia": [
@@ -39472,7 +39479,7 @@
     "id": "01645",
     "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana Pet 1lt",
     "precio": 85.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "botella-larga-vida1-be092cc5467eb617e115997437553116-480-0.jpg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-pet-1-l/",
     "historia": [
@@ -39688,7 +39695,7 @@
     "id": "01652",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Leches en Polvo y Larga Vida",
+    "rubro": "Productos > Postres y Repostería",
     "url_imagen": "244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "historia": [
@@ -39904,7 +39911,7 @@
     "id": "01661",
     "nombre": "Limpiador Cif Antigrasa 450ml",
     "precio": 89.0,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg",
     "url_producto": "productos/limp-cif-antig-d-p-450-ml/",
     "historia": [
@@ -40014,7 +40021,7 @@
     "id": "01665",
     "nombre": "Limpiador Cif Pisos Antibacterial 750ml",
     "precio": 172.9,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "209611-214abbe56f232f695115988902496909-480-0.jpg",
     "url_producto": "productos/limp-cif-pis-antibac-750-ml/",
     "historia": [
@@ -41780,7 +41787,7 @@
   {
     "id": "01734",
     "nombre": "Palmito Marolio Entero 400gr",
-    "precio": 149.37,
+    "precio": 168.86,
     "rubro": "Productos > Conservas",
     "url_imagen": "119641-4e51a297be1292e27315992491418710-480-0.jpg",
     "url_producto": "productos/palmito-marolio-entero-400-gr/",
@@ -41799,6 +41806,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 149.37
+      },
+      {
+        "fecha": "24/02/2021",
+        "precio": 168.86
       }
     ]
   },
@@ -44719,7 +44730,7 @@
     "id": "01854",
     "nombre": "Shampoo Tresemme Keratina 400ml",
     "precio": 259.9,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "161771-e8acb2da185d094b4d15988877301296-480-0.jpg",
     "url_producto": "productos/shamp-tresemme-keratina-400-ml/",
     "historia": [
@@ -46667,7 +46678,7 @@
   {
     "id": "01932",
     "nombre": "Aceite Cocinero Girasol 1,5lt",
-    "precio": 225.0,
+    "precio": 245.0,
     "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "aceite-girasol-cocinero-1-5-l1-70562c7e06c6ba7e9b16057061476408-480-0.jpg",
     "url_producto": "productos/ac-cocinero-girasol-1-5-lt/",
@@ -46693,6 +46704,10 @@
       {
         "fecha": "08/02/2021",
         "precio": 225.0
+      },
+      {
+        "fecha": "24/02/2021",
+        "precio": 245.0
       }
     ]
   },
@@ -48957,7 +48972,7 @@
     "id": "02040",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -49546,7 +49561,7 @@
     "id": "02066",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 179.0,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -50055,7 +50070,7 @@
     "id": "02089",
     "nombre": "Limpiador Cif Crema Limón 750gr",
     "precio": 143.5,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "cif-crema-limon1-ace4b3e161ca9ce96f16101128144620-480-0.jpg",
     "url_producto": "productos/limp-cif-crem-limon-750-gr/",
     "historia": [
@@ -52584,7 +52599,7 @@
     "id": "02227",
     "nombre": "Jugo Arcor Naranja S/t.a.c.c. 200ml",
     "precio": 26.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "jugo-arcor-naranja-sin-tacc-200-ml1-15e3f79a8468ad6b8716110759232509-480-0.jpg",
     "url_producto": "productos/jugo-arcor-naranja-s-t-a-c-c-200-ml/",
     "historia": [
@@ -53213,7 +53228,7 @@
     "id": "02266",
     "nombre": "Galletas De Arroz Integral Arrotuc Saladas 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "11-80ddd43e1a57a435d816116159267143-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-arrotuc-saladas-12-un-s-t-a-c-c/",
     "historia": [
@@ -53227,7 +53242,7 @@
     "id": "02267",
     "nombre": "Galletas De Arroz Integral Dulces Arrotuc 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "31-34d6a2caa7cf8c242816116158614983-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-dulces-arrotuc-12-un-s-t-a-c-c/",
     "historia": [
@@ -53241,7 +53256,7 @@
     "id": "02268",
     "nombre": "Galletas De Arroz Integral Sin Sal Arrotuc 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "21-28085d50db185491d516116158878935-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-sin-sal-arrotuc-12-un-s-t-a-c-c/",
     "historia": [
@@ -53283,7 +53298,7 @@
     "id": "02271",
     "nombre": "Harina Pureza Integral 1kg",
     "precio": 79.2,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "59131-01a582d1c75c49900515989691653247-480-0.jpg",
     "url_producto": "productos/har-pureza-integral-1-kg/",
     "historia": [
@@ -53311,7 +53326,7 @@
     "id": "02273",
     "nombre": "Mantequilla De Mani C/dulce De Leche 500gr",
     "precio": 299.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "mantequilla-de-mani-con-dulce-de-leche-500-gr1-9ee9db0f0eec43651816116010205978-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-c-dulce-de-leche-500-gr/",
     "historia": [
@@ -53325,7 +53340,7 @@
     "id": "02274",
     "nombre": "Mantequilla De Mani Fitfruits 500gr",
     "precio": 275.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "diseno-sin-titulo-2021-01-25t155535-0511-a90958bee18a74825316116009496795-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-fitfruits-500-gr/",
     "historia": [
@@ -53572,7 +53587,7 @@
     "id": "02290",
     "nombre": "Medallones De Quinoa Bambu Con Brocoli 360gr",
     "precio": 169.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "diseno-sin-titulo-2021-01-28t133000-7341-9246fe4e03dc07a08d16118514633734-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-brocoli-360-gr/",
     "historia": [
@@ -54778,7 +54793,7 @@
     "id": "02369",
     "nombre": "Medallones De Quinoa Bambu Con Batata Roja y Curry 360gr",
     "precio": 169.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "31-0d95a2d750cf46156016135887047402-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-batata-roja-y-curry-360-gr/",
     "historia": [
@@ -54792,7 +54807,7 @@
     "id": "02370",
     "nombre": "Medallones De Quinoa Bambu Con Cebolla Caramelizada 360gr",
     "precio": 169.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "41-0ac7d05aa033abaf7416135887401078-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-cebolla-caramelizada-360-gr/",
     "historia": [
@@ -54967,6 +54982,76 @@
       {
         "fecha": "23/02/2021",
         "precio": 468.2
+      }
+    ]
+  },
+  {
+    "id": "02383",
+    "nombre": "Alcohol Etilico Porta 70% Bidon 5lt",
+    "precio": 999.0,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "http://d26lpennugtm8s.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/alcohol-etilico-porta-70-bidon-5-lt/",
+    "historia": [
+      {
+        "fecha": "24/02/2021",
+        "precio": 999.0
+      }
+    ]
+  },
+  {
+    "id": "02384",
+    "nombre": "Bondiola x 2kg Aprox(*)",
+    "precio": 1.17,
+    "rubro": "Productos > Carnes de Cerdo",
+    "url_imagen": "171-f373cd19c8c5396e2f16022705670318-480-0.jpg",
+    "url_producto": "productos/bondiola-x-2-kg-aprox/",
+    "historia": [
+      {
+        "fecha": "24/02/2021",
+        "precio": 1.17
+      }
+    ]
+  },
+  {
+    "id": "02385",
+    "nombre": "Gaseosa Cunnington Indian Tonic 1,1lt",
+    "precio": 65.9,
+    "rubro": "Productos > Gaseosas",
+    "url_imagen": "gaseosa-cunnington-indian-tonic-1-5-lt1-e98075652a71275cbe16140981935510-480-0.jpg",
+    "url_producto": "productos/gaseosa-cunnington-indian-tonic-1-5-lt/",
+    "historia": [
+      {
+        "fecha": "24/02/2021",
+        "precio": 65.9
+      }
+    ]
+  },
+  {
+    "id": "02386",
+    "nombre": "Jugo Citric Naranja Valencia Tardia 1,5lt",
+    "precio": 267.45,
+    "rubro": "Productos > Jugos",
+    "url_imagen": "7798085681278_021-712d88609dd5e6a4a816141109680390-480-0.jpg",
+    "url_producto": "productos/jugo-citric-naranja-valencia-tardia-15-lt/",
+    "historia": [
+      {
+        "fecha": "24/02/2021",
+        "precio": 267.45
+      }
+    ]
+  },
+  {
+    "id": "02387",
+    "nombre": "Limpiador Liquido Desinfectante Lysoform Citrica 420ml",
+    "precio": 93.9,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "unnamed-41-e579cad90bc53f9ff116120104576558-480-0.jpg",
+    "url_producto": "productos/limpiador-liquido-desinfectante-lysoform-citrica-420-ml/",
+    "historia": [
+      {
+        "fecha": "24/02/2021",
+        "precio": 93.9
       }
     ]
   }
