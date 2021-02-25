@@ -31870,7 +31870,7 @@
   {
     "id": "01348",
     "nombre": "Alimento De Animales Dogui Cachorro 1,5kg",
-    "precio": 201.4,
+    "precio": 242.78,
     "rubro": "Productos > Mascotas",
     "url_imagen": "3381-4b81aa09338bd5faa415988179619012-480-0.jpg",
     "url_producto": "productos/al-anim-dogui-cachorro-1-5-kg/",
@@ -31885,13 +31885,17 @@
       {
         "fecha": "18/01/2021",
         "precio": 201.4
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 242.78
       }
     ]
   },
   {
     "id": "01349",
     "nombre": "Alimento De Animales Dogui Carn.veg 1,5gr",
-    "precio": 201.4,
+    "precio": 242.78,
     "rubro": "Productos > Mascotas",
     "url_imagen": "3911-9ca9d4bfc8072299e415988180083868-480-0.jpg",
     "url_producto": "productos/al-anim-dogui-carn-veg-1-5-gr/",
@@ -31906,6 +31910,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 201.4
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 242.78
       }
     ]
   },
@@ -32762,7 +32770,7 @@
     "id": "01384",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 85.7,
-    "rubro": "Productos > Arroz y Legumbres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -33312,7 +33320,7 @@
     "id": "01404",
     "nombre": "Bife Ancho (marucha) x kg (*)",
     "precio": 620.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "bife-ancho1-046e8ec9180bc119ef15988756860268-480-0.jpg",
     "url_producto": "productos/bife-ancho-marucha-x-kg/",
     "historia": [
@@ -33374,7 +33382,7 @@
     "id": "01406",
     "nombre": "Bife De Chorizo Cortado P/ Bife x kg (*)",
     "precio": 770.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "bife-chorizo1-041d9d9fbaf770027115988756952195-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-bifedechorizo/",
     "historia": [
@@ -33468,7 +33476,7 @@
     "id": "01409",
     "nombre": "Bola De Lomo Cortada P/ Milanesa x kg (*)",
     "precio": 780.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "bola-de-lomo1-0432a199844759898f15988757082702-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-boladelomo/",
     "historia": [
@@ -34731,7 +34739,7 @@
     "id": "01454",
     "nombre": "Costeleta x kg (*)",
     "precio": 550.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "costeleta1-2969de50493bcf0bd915988757828419-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-costeleta/",
     "historia": [
@@ -35023,7 +35031,7 @@
     "id": "01466",
     "nombre": "Cuadrada Cortada P/ Milanesa x kg (*)",
     "precio": 780.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "cuadrada1-7c547b439b086b2d6f15988758197929-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-cuadrada/",
     "historia": [
@@ -35064,7 +35072,7 @@
     "id": "01467",
     "nombre": "Cuadril Sin Colita Cortado P/ Bife x kg (*)",
     "precio": 650.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "cuadril-colita11-2eec1b79652cdaec1515988758198978-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-cuadrilsincolita/",
     "historia": [
@@ -35255,7 +35263,7 @@
     "id": "01474",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
     "precio": 125.0,
-    "rubro": "Productos > Dulces y Mermeladas",
+    "rubro": "Productos > Almacén",
     "url_imagen": "2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-400-gr/",
     "historia": [
@@ -35802,7 +35810,7 @@
   {
     "id": "01496",
     "nombre": "Energizante Gatorade Cool Blue 500cc",
-    "precio": 72.9,
+    "precio": 77.86,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "152791-0d67772e15cba3dfd915988887428609-480-0.jpg",
     "url_producto": "productos/energiz-gatorade-cool-bl-pet-500-cc/",
@@ -35821,13 +35829,17 @@
       {
         "fecha": "18/01/2021",
         "precio": 72.9
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 77.86
       }
     ]
   },
   {
     "id": "01497",
     "nombre": "Energizante Gatorade Lima Limón 500cc",
-    "precio": 72.9,
+    "precio": 77.86,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "149231-fca90f7c25149e487c15988888004310-480-0.jpg",
     "url_producto": "productos/energiz-gatorade-l-limon-pet-500-cc/",
@@ -35846,13 +35858,17 @@
       {
         "fecha": "18/01/2021",
         "precio": 72.9
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 77.86
       }
     ]
   },
   {
     "id": "01498",
     "nombre": "Energizante Gatorade Manzana 500cc",
-    "precio": 72.9,
+    "precio": 77.86,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "149241-8ac71393737a2eb81315988888342598-480-0.jpg",
     "url_producto": "productos/energiz-gatorade-mzna-pet-500-cc/",
@@ -35871,6 +35887,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 72.9
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 77.86
       }
     ]
   },
@@ -36706,7 +36726,7 @@
     "id": "01533",
     "nombre": "Filet x kg (*)",
     "precio": 1.05,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "filet1-b9cba792c2a2a00d4215988758554893-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-filet/",
     "historia": [
@@ -37552,7 +37572,7 @@
   {
     "id": "01564",
     "nombre": "Hamburguesa Paty 20un",
-    "precio": 1.499,
+    "precio": 1.695,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "242541-b4560129eef33321a915990692349988-480-0.jpg",
     "url_producto": "productos/hamb-paty-20-un/",
@@ -37575,6 +37595,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 1.499
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 1.695
       }
     ]
   },
@@ -38313,7 +38337,7 @@
   {
     "id": "01597",
     "nombre": "Isotónica Gatorade Frutas Tropicales 500cc",
-    "precio": 72.9,
+    "precio": 77.86,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "152811-98eb7afd2fe715f51716010469175551-480-0.jpg",
     "url_producto": "productos/isotonica-gatorade-frutas-tropicales-500-cc/",
@@ -38332,6 +38356,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 72.9
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 77.86
       }
     ]
   },
@@ -38392,7 +38420,7 @@
   {
     "id": "01600",
     "nombre": "Isotónica Gatorade Naranja 500cc",
-    "precio": 72.9,
+    "precio": 77.86,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "149221-d5eae83ccb515cdb0916010468267463-480-0.jpg",
     "url_producto": "productos/isotonica-gatorade-naranja-500-cc/",
@@ -38411,6 +38439,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 72.9
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 77.86
       }
     ]
   },
@@ -38957,7 +38989,7 @@
     "id": "01622",
     "nombre": "Jugo Minerva Limón 500cc",
     "precio": 137.4,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "113111-6f045e8b2c177790cd15990030622137-480-0.jpg",
     "url_producto": "productos/jug-minerva-limon-500-cc/",
     "historia": [
@@ -39479,7 +39511,7 @@
     "id": "01645",
     "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana Pet 1lt",
     "precio": 85.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "botella-larga-vida1-be092cc5467eb617e115997437553116-480-0.jpg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-pet-1-l/",
     "historia": [
@@ -40353,7 +40385,7 @@
     "id": "01677",
     "nombre": "Matambre x kg (*)",
     "precio": 710.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "matambre1-1ab90bd2123cd55bd115988758558654-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-matambre/",
     "historia": [
@@ -41273,7 +41305,7 @@
     "id": "01714",
     "nombre": "Mostaza Savora 250gr",
     "precio": 85.9,
-    "rubro": "Productos > Aderezos",
+    "rubro": "Productos > Almacén",
     "url_imagen": "115651-091ba485b56ce6138915989074478331-480-0.jpg",
     "url_producto": "productos/mostaza-savora-250-grs/",
     "historia": [
@@ -41695,7 +41727,7 @@
     "id": "01731",
     "nombre": "Paleta (rolliza) Cortada P/ Bife x kg (*)",
     "precio": 650.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "paleta1-15697187b50ddc277b15988759318660-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-paleta/",
     "historia": [
@@ -41884,7 +41916,7 @@
   {
     "id": "01738",
     "nombre": "Pan Bimbo Artesano 500gr",
-    "precio": 239.89,
+    "precio": 245.7,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "230131-407fb5200650265a4215992494324843-480-0.jpg",
     "url_producto": "productos/pan-bimbo-artesano-500-gr/",
@@ -41911,6 +41943,10 @@
       {
         "fecha": "26/01/2021",
         "precio": 239.89
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 245.7
       }
     ]
   },
@@ -43767,7 +43803,7 @@
   {
     "id": "01814",
     "nombre": "Ravioles La Salteña Pollo y Verduras 1kg",
-    "precio": 265.3,
+    "precio": 323.71,
     "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "236101-a7068ffd57c77d0b8a15988941777454-480-0.jpg",
     "url_producto": "productos/raviol-la-saltena-poll-y-verd-1-kg/",
@@ -43782,6 +43818,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 265.3
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 323.71
       }
     ]
   },
@@ -43993,7 +44033,7 @@
     "id": "01823",
     "nombre": "Roast Beef x kg (*)",
     "precio": 630.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "roast-beef1-1012e92b51251e985215988759674691-480-0.jpg",
     "url_producto": "productos/lavacaclub-duros-roastbeef/",
     "historia": [
@@ -44587,7 +44627,7 @@
   {
     "id": "01848",
     "nombre": "Shampoo Dove Hidratación Intensa 400ml",
-    "precio": 336.57,
+    "precio": 350.87,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "134041-2b0844a474a0a80cdf15989753099069-480-0.jpg",
     "url_producto": "productos/shamp-dove-hidrat-int-400-ml/",
@@ -44610,6 +44650,10 @@
       {
         "fecha": "04/02/2021",
         "precio": 336.57
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 350.87
       }
     ]
   },
@@ -44825,7 +44869,7 @@
   {
     "id": "01858",
     "nombre": "Sopa Knorr Crema Queso 76gr",
-    "precio": 84.5,
+    "precio": 90.87,
     "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
     "url_imagen": "34691-3b032394913b6e027f15988878624532-480-0.jpg",
     "url_producto": "productos/sopa-knorr-cr-queso-76-gr/",
@@ -44855,6 +44899,10 @@
       {
         "fecha": "08/02/2021",
         "precio": 84.5
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 90.87
       }
     ]
   },
@@ -45005,7 +45053,7 @@
   {
     "id": "01864",
     "nombre": "Suprema Graja De Sol Crocantes 480gr",
-    "precio": 357.5,
+    "precio": 427.7,
     "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "2552411-13ae0dfecf63a5ddb715990038034119-480-0.jpg",
     "url_producto": "productos/suprema-gja-sol-crocantes-480-gr/",
@@ -45020,6 +45068,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 357.5
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 427.7
       }
     ]
   },
@@ -45609,7 +45661,7 @@
     "id": "01889",
     "nombre": "Vacío x kg (*)",
     "precio": 690.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "vacio1-452065eddeb5cb7d7a15988759969775-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-vacio/",
     "historia": [
@@ -46070,7 +46122,7 @@
   {
     "id": "01907",
     "nombre": "Whisky Old Smuggler 1lt",
-    "precio": 408.9,
+    "precio": 480.87,
     "rubro": "Productos > Bebidas Blancas y Licores",
     "url_imagen": "4951-57c61322b52ac411d815988896056974-480-0.jpg",
     "url_producto": "productos/whisky-old-smugl-1-lt/",
@@ -46085,6 +46137,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 408.9
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 480.87
       }
     ]
   },
@@ -48972,7 +49028,7 @@
     "id": "02040",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -49561,7 +49617,7 @@
     "id": "02066",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 179.0,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -53031,7 +53087,7 @@
   {
     "id": "02254",
     "nombre": "Manteca La Serenísima Paquete 200gr",
-    "precio": 135.0,
+    "precio": 139.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "164231-70136e01a16fa88bab15988906582848-480-0.jpg",
     "url_producto": "productos/manteca-la-serenisima-paquete-200-gr/",
@@ -53039,6 +53095,10 @@
       {
         "fecha": "23/01/2021",
         "precio": 135.0
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 139.0
       }
     ]
   },
@@ -53228,7 +53288,7 @@
     "id": "02266",
     "nombre": "Galletas De Arroz Integral Arrotuc Saladas 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "11-80ddd43e1a57a435d816116159267143-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-arrotuc-saladas-12-un-s-t-a-c-c/",
     "historia": [
@@ -53242,7 +53302,7 @@
     "id": "02267",
     "nombre": "Galletas De Arroz Integral Dulces Arrotuc 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "31-34d6a2caa7cf8c242816116158614983-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-dulces-arrotuc-12-un-s-t-a-c-c/",
     "historia": [
@@ -53256,7 +53316,7 @@
     "id": "02268",
     "nombre": "Galletas De Arroz Integral Sin Sal Arrotuc 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "21-28085d50db185491d516116158878935-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-sin-sal-arrotuc-12-un-s-t-a-c-c/",
     "historia": [
@@ -53298,7 +53358,7 @@
     "id": "02271",
     "nombre": "Harina Pureza Integral 1kg",
     "precio": 79.2,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "59131-01a582d1c75c49900515989691653247-480-0.jpg",
     "url_producto": "productos/har-pureza-integral-1-kg/",
     "historia": [
@@ -53326,7 +53386,7 @@
     "id": "02273",
     "nombre": "Mantequilla De Mani C/dulce De Leche 500gr",
     "precio": 299.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "mantequilla-de-mani-con-dulce-de-leche-500-gr1-9ee9db0f0eec43651816116010205978-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-c-dulce-de-leche-500-gr/",
     "historia": [
@@ -53340,7 +53400,7 @@
     "id": "02274",
     "nombre": "Mantequilla De Mani Fitfruits 500gr",
     "precio": 275.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "diseno-sin-titulo-2021-01-25t155535-0511-a90958bee18a74825316116009496795-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-fitfruits-500-gr/",
     "historia": [
@@ -53587,7 +53647,7 @@
     "id": "02290",
     "nombre": "Medallones De Quinoa Bambu Con Brocoli 360gr",
     "precio": 169.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "diseno-sin-titulo-2021-01-28t133000-7341-9246fe4e03dc07a08d16118514633734-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-brocoli-360-gr/",
     "historia": [
@@ -53601,7 +53661,7 @@
     "id": "02291",
     "nombre": "Pan De Hamburguesa La Panerita x 4un",
     "precio": 67.6,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "311-c0d1a72eb892048d8c16118693644227-480-0.jpg",
     "url_producto": "productos/pan-de-hamburguesa-la-panerita-x-4-unidades/",
     "historia": [
@@ -53619,7 +53679,7 @@
     "id": "02292",
     "nombre": "Pan De Viena La Panerita x 6un",
     "precio": 67.6,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "211-be805d33b897e5219a16118693250617-480-0.jpg",
     "url_producto": "productos/pan-de-viena-la-panerita-x-6-unidades/",
     "historia": [
@@ -53637,7 +53697,7 @@
     "id": "02293",
     "nombre": "Pan Lactal La Panerita Blanco 400gr ,",
     "precio": 105.0,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "41-967720a304d43123a016118693910439-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-blanco-400-gr/",
     "historia": [
@@ -53655,7 +53715,7 @@
     "id": "02294",
     "nombre": "Pan Lactal La Panerita Salvado 400gr",
     "precio": 105.0,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "51-7eb96e352d872455a216118694168191-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-salvado-400-gr/",
     "historia": [
@@ -53673,7 +53733,7 @@
     "id": "02295",
     "nombre": "Pan Pebete La Panerita x 6un",
     "precio": 110.0,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "pebete1-6f4d4cf5f8495b246116118692752394-480-0.jpg",
     "url_producto": "productos/pan-pebete-la-panerita-x-6-unidades/",
     "historia": [
@@ -54317,7 +54377,7 @@
     "id": "02335",
     "nombre": "Morcilla Vasca x 500gr (*)",
     "precio": 210.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "morcilla-vasca1-62dc9c1bf793919ad015988758936814-480-0.jpg",
     "url_producto": "productos/morcilla-vasca-x-500gr/",
     "historia": [
@@ -54401,7 +54461,7 @@
     "id": "02341",
     "nombre": "Pan De Campo La Panerita 360gr",
     "precio": 110.9,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "1588705210_cgm1-8f978b8782b636012716130803607456-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-360-gr/",
     "historia": [
@@ -54415,7 +54475,7 @@
     "id": "02342",
     "nombre": "Pan De Campo La Panerita Con Semillas 340gr",
     "precio": 130.5,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "1588705583_chm1-9697b42f2bf55399aa16130802662831-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-con-semillas-340-gr/",
     "historia": [
@@ -54793,7 +54853,7 @@
     "id": "02369",
     "nombre": "Medallones De Quinoa Bambu Con Batata Roja y Curry 360gr",
     "precio": 169.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "31-0d95a2d750cf46156016135887047402-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-batata-roja-y-curry-360-gr/",
     "historia": [
@@ -54807,7 +54867,7 @@
     "id": "02370",
     "nombre": "Medallones De Quinoa Bambu Con Cebolla Caramelizada 360gr",
     "precio": 169.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "41-0ac7d05aa033abaf7416135887401078-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-cebolla-caramelizada-360-gr/",
     "historia": [
@@ -54876,7 +54936,7 @@
   {
     "id": "02375",
     "nombre": "Alimento De Animales Dogui Carne C/cereales y Arroz 1,1gr",
-    "precio": 201.04,
+    "precio": 242.78,
     "rubro": "Productos > Mascotas",
     "url_imagen": "alimento-de-animales-dogui-carne-cereales-y-arroz-1-5-gr1-c0735e5f355cff33ed16139985007323-480-0.jpg",
     "url_producto": "productos/alimento-de-animales-dogui-carne-c-cereales-y-arroz-1-5-gr/",
@@ -54884,6 +54944,10 @@
       {
         "fecha": "23/02/2021",
         "precio": 201.04
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 242.78
       }
     ]
   },
@@ -55030,7 +55094,7 @@
   {
     "id": "02386",
     "nombre": "Jugo Citric Naranja Valencia Tardia 1,5lt",
-    "precio": 267.45,
+    "precio": 278.27,
     "rubro": "Productos > Jugos",
     "url_imagen": "7798085681278_021-712d88609dd5e6a4a816141109680390-480-0.jpg",
     "url_producto": "productos/jugo-citric-naranja-valencia-tardia-15-lt/",
@@ -55038,6 +55102,10 @@
       {
         "fecha": "24/02/2021",
         "precio": 267.45
+      },
+      {
+        "fecha": "25/02/2021",
+        "precio": 278.27
       }
     ]
   },
@@ -55052,6 +55120,20 @@
       {
         "fecha": "24/02/2021",
         "precio": 93.9
+      }
+    ]
+  },
+  {
+    "id": "02388",
+    "nombre": "Alcohol Etilico Porta 70% Bidon 5lt",
+    "precio": 999.0,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "whatsapp-image-2021-02-23-at-13-45-361-ded82d1bad363ba3ba16141956597804-480-0.jpeg",
+    "url_producto": "productos/alcohol-etilico-porta-70-bidon-5-lt/",
+    "historia": [
+      {
+        "fecha": "25/02/2021",
+        "precio": 999.0
       }
     ]
   }
