@@ -31255,7 +31255,7 @@
   {
     "id": "01323",
     "nombre": "Acondicionador Tresemme Détox Capilar 400ml",
-    "precio": 259.9,
+    "precio": 285.88,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "161801-f33da357b2334e667015988147697694-480-0.jpg",
     "url_producto": "productos/acond-tresemme-detox-cap-400-ml/",
@@ -31274,6 +31274,10 @@
       {
         "fecha": "04/02/2021",
         "precio": 259.9
+      },
+      {
+        "fecha": "27/02/2021",
+        "precio": 285.88
       }
     ]
   },
@@ -31578,7 +31582,7 @@
     "id": "01336",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
     "precio": 133.5,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -31658,7 +31662,7 @@
     "id": "01339",
     "nombre": "Agua Sin Gas Kin 2lt",
     "precio": 74.0,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "agua-kin-sin-gas-2-lt1-758653d6a7aba3100016013973390850-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-kin-2-lt/",
     "historia": [
@@ -34821,7 +34825,7 @@
   {
     "id": "01457",
     "nombre": "Crema Dental Colgate Herbal Brillante Blanqueadora 90gr",
-    "precio": 122.0,
+    "precio": 140.0,
     "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "49401-fc93623532a7db63d615988986012933-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-herb-br-bla-90-gr/",
@@ -34840,6 +34844,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 122.0
+      },
+      {
+        "fecha": "27/02/2021",
+        "precio": 140.0
       }
     ]
   },
@@ -34914,7 +34922,7 @@
     "id": "01461",
     "nombre": "Crema Dental Colgate Triple Acción 180gr",
     "precio": 276.79,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "49201-a9ac16555da61d17ea15988990071112-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-trip-accion-180-gr/",
     "historia": [
@@ -34939,7 +34947,7 @@
     "id": "01462",
     "nombre": "Crema Dental Colgate Triple Acción Extra Blancura 90gr",
     "precio": 179.3,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "128361-32cf2b8a5126d20fdb15988991304092-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-t-ac-ex-bco-90-gr/",
     "historia": [
@@ -34989,7 +34997,7 @@
     "id": "01464",
     "nombre": "Crema Dental Oral B Anticaries 150gr",
     "precio": 163.25,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "crema-dental-oral-b-anticaries-150-gr1-f60633b3ab7e18ec5a16001951343628-480-0.jpg",
     "url_producto": "productos/cr-dental-oral-b-anticaries-150-gr/",
     "historia": [
@@ -35919,7 +35927,7 @@
     "id": "01500",
     "nombre": "Enjuague Bucal Colgate Luminous 250ml",
     "precio": 309.9,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "144891-1b9e7233fdb30e8d0315988890856943-480-0.jpg",
     "url_producto": "productos/enj-buc-colgate-luminous-250-ml/",
     "historia": [
@@ -43357,7 +43365,7 @@
   {
     "id": "01796",
     "nombre": "Queso La Quesera Rallado 100gr",
-    "precio": 109.9,
+    "precio": 119.9,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "229311-1a28533f984a941a0c15990848837259-480-0.jpg",
     "url_producto": "productos/queso-l-quesera-rall-100-gr/",
@@ -43376,13 +43384,17 @@
       {
         "fecha": "20/02/2021",
         "precio": 109.9
+      },
+      {
+        "fecha": "27/02/2021",
+        "precio": 119.9
       }
     ]
   },
   {
     "id": "01797",
     "nombre": "Queso La Quesera Rallado 40gr",
-    "precio": 47.3,
+    "precio": 59.3,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "2277711-f5d6b994a33f0cbdd915990918192393-480-0.jpg",
     "url_producto": "productos/queso-l-quesera-rall-40-gr/",
@@ -43401,6 +43413,10 @@
       {
         "fecha": "20/02/2021",
         "precio": 47.3
+      },
+      {
+        "fecha": "27/02/2021",
+        "precio": 59.3
       }
     ]
   },
@@ -44777,8 +44793,8 @@
   {
     "id": "01854",
     "nombre": "Shampoo Tresemme Keratina 400ml",
-    "precio": 259.9,
-    "rubro": "Productos > Cuidado del Cabello",
+    "precio": 285.88,
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "161771-e8acb2da185d094b4d15988877301296-480-0.jpg",
     "url_producto": "productos/shamp-tresemme-keratina-400-ml/",
     "historia": [
@@ -44796,6 +44812,10 @@
       {
         "fecha": "04/02/2021",
         "precio": 259.9
+      },
+      {
+        "fecha": "27/02/2021",
+        "precio": 285.88
       }
     ]
   },
@@ -49629,7 +49649,7 @@
     "id": "02066",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 179.0,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -53673,7 +53693,7 @@
     "id": "02291",
     "nombre": "Pan De Hamburguesa La Panerita x 4un",
     "precio": 67.6,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "311-c0d1a72eb892048d8c16118693644227-480-0.jpg",
     "url_producto": "productos/pan-de-hamburguesa-la-panerita-x-4-unidades/",
     "historia": [
@@ -53691,7 +53711,7 @@
     "id": "02292",
     "nombre": "Pan De Viena La Panerita x 6un",
     "precio": 67.6,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "211-be805d33b897e5219a16118693250617-480-0.jpg",
     "url_producto": "productos/pan-de-viena-la-panerita-x-6-unidades/",
     "historia": [
@@ -53709,7 +53729,7 @@
     "id": "02293",
     "nombre": "Pan Lactal La Panerita Blanco 400gr ,",
     "precio": 105.0,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "41-967720a304d43123a016118693910439-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-blanco-400-gr/",
     "historia": [
@@ -53727,7 +53747,7 @@
     "id": "02294",
     "nombre": "Pan Lactal La Panerita Salvado 400gr",
     "precio": 105.0,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "51-7eb96e352d872455a216118694168191-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-salvado-400-gr/",
     "historia": [
@@ -53745,7 +53765,7 @@
     "id": "02295",
     "nombre": "Pan Pebete La Panerita x 6un",
     "precio": 110.0,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "pebete1-6f4d4cf5f8495b246116118692752394-480-0.jpg",
     "url_producto": "productos/pan-pebete-la-panerita-x-6-unidades/",
     "historia": [
@@ -54473,7 +54493,7 @@
     "id": "02341",
     "nombre": "Pan De Campo La Panerita 360gr",
     "precio": 110.9,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "1588705210_cgm1-8f978b8782b636012716130803607456-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-360-gr/",
     "historia": [
@@ -54487,7 +54507,7 @@
     "id": "02342",
     "nombre": "Pan De Campo La Panerita Con Semillas 340gr",
     "precio": 130.5,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "1588705583_chm1-9697b42f2bf55399aa16130802662831-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-con-semillas-340-gr/",
     "historia": [
@@ -55159,6 +55179,20 @@
     "historia": [
       {
         "fecha": "26/02/2021",
+        "precio": 199.0
+      }
+    ]
+  },
+  {
+    "id": "02390",
+    "nombre": "Canasta Liquida Glade Campo De Lavanda Aparato 50ml",
+    "precio": 199.0,
+    "rubro": "Productos > Limpieza de Baño",
+    "url_imagen": "lavender_liquid_cages1-4f757e8f70a90bf80a16143442669028-480-0.jpg",
+    "url_producto": "productos/canasta-liquida-glade-campo-de-lavanda-aparato-50-ml/",
+    "historia": [
+      {
+        "fecha": "27/02/2021",
         "precio": 199.0
       }
     ]
