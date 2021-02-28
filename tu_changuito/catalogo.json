@@ -31582,7 +31582,7 @@
     "id": "01336",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
     "precio": 133.5,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -31662,7 +31662,7 @@
     "id": "01339",
     "nombre": "Agua Sin Gas Kin 2lt",
     "precio": 74.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "agua-kin-sin-gas-2-lt1-758653d6a7aba3100016013973390850-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-kin-2-lt/",
     "historia": [
@@ -34186,7 +34186,7 @@
   {
     "id": "01435",
     "nombre": "Cerveza Corona 330cc",
-    "precio": 145.0,
+    "precio": 135.0,
     "rubro": "Productos > Cervezas",
     "url_imagen": "cerveza-corona-330-cc1-d0ddb214c6a36dcf7c16003524185419-640-01-0020e8650e2dc35bb616005434767590-480-0.png",
     "url_producto": "productos/cerveza-corona-330-cc/",
@@ -34225,6 +34225,10 @@
       {
         "fecha": "13/02/2021",
         "precio": 145.0
+      },
+      {
+        "fecha": "28/02/2021",
+        "precio": 135.0
       }
     ]
   },
@@ -34922,7 +34926,7 @@
     "id": "01461",
     "nombre": "Crema Dental Colgate Triple Acción 180gr",
     "precio": 276.79,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "49201-a9ac16555da61d17ea15988990071112-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-trip-accion-180-gr/",
     "historia": [
@@ -34947,7 +34951,7 @@
     "id": "01462",
     "nombre": "Crema Dental Colgate Triple Acción Extra Blancura 90gr",
     "precio": 179.3,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "128361-32cf2b8a5126d20fdb15988991304092-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-t-ac-ex-bco-90-gr/",
     "historia": [
@@ -34997,7 +35001,7 @@
     "id": "01464",
     "nombre": "Crema Dental Oral B Anticaries 150gr",
     "precio": 163.25,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "crema-dental-oral-b-anticaries-150-gr1-f60633b3ab7e18ec5a16001951343628-480-0.jpg",
     "url_producto": "productos/cr-dental-oral-b-anticaries-150-gr/",
     "historia": [
@@ -35927,7 +35931,7 @@
     "id": "01500",
     "nombre": "Enjuague Bucal Colgate Luminous 250ml",
     "precio": 309.9,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "144891-1b9e7233fdb30e8d0315988890856943-480-0.jpg",
     "url_producto": "productos/enj-buc-colgate-luminous-250-ml/",
     "historia": [
@@ -36875,7 +36879,7 @@
   {
     "id": "01538",
     "nombre": "Galletitas Chocolinas 250gr",
-    "precio": 94.3,
+    "precio": 120.0,
     "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "1530711-05f79906a09567dc5915990009284375-480-0.jpg",
     "url_producto": "productos/gal-chocolinas-250-gr/",
@@ -36897,6 +36901,10 @@
       {
         "fecha": "18/01/2021",
         "precio": 94.3
+      },
+      {
+        "fecha": "28/02/2021",
+        "precio": 120.0
       }
     ]
   },
@@ -44794,7 +44802,7 @@
     "id": "01854",
     "nombre": "Shampoo Tresemme Keratina 400ml",
     "precio": 285.88,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "161771-e8acb2da185d094b4d15988877301296-480-0.jpg",
     "url_producto": "productos/shamp-tresemme-keratina-400-ml/",
     "historia": [
@@ -49649,7 +49657,7 @@
     "id": "02066",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 179.0,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -55194,6 +55202,62 @@
       {
         "fecha": "27/02/2021",
         "precio": 199.0
+      }
+    ]
+  },
+  {
+    "id": "02391",
+    "nombre": "Ajo x Unidad",
+    "precio": 52.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "http://d26lpennugtm8s.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/ajo-x-unidad/",
+    "historia": [
+      {
+        "fecha": "28/02/2021",
+        "precio": 52.0
+      }
+    ]
+  },
+  {
+    "id": "02392",
+    "nombre": "Chaucha x kg",
+    "precio": 195.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "http://d26lpennugtm8s.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/chaucha-x-kg/",
+    "historia": [
+      {
+        "fecha": "28/02/2021",
+        "precio": 195.0
+      }
+    ]
+  },
+  {
+    "id": "02393",
+    "nombre": "Choclo x Unidad",
+    "precio": 35.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "http://d26lpennugtm8s.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/choclo-x-unidad/",
+    "historia": [
+      {
+        "fecha": "28/02/2021",
+        "precio": 35.0
+      }
+    ]
+  },
+  {
+    "id": "02394",
+    "nombre": "Ciruela x kg",
+    "precio": 195.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "http://d26lpennugtm8s.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/ciruela-x-kg/",
+    "historia": [
+      {
+        "fecha": "28/02/2021",
+        "precio": 195.0
       }
     ]
   }
