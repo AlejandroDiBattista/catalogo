@@ -110,11 +110,11 @@
   {
     "id": "00005",
     "nombre": "Aceite Vicentin Girasol 900cc",
-    "precio": 200.0,
+    "precio": 215.0,
     "rubro": "Almacén > Aceites",
     "url_imagen": "2020/01/ACEITE-VICENTIN-GIRASOL-900CC.jpg",
     "url_producto": "aceite-vicentin-girasol-900cc-s-iva/",
-    "precio_1": "3,176.96",
+    "precio_1": "3,190.23",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -147,6 +147,10 @@
       {
         "fecha": "18/02/2021",
         "precio": 200.0
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 215.0
       }
     ]
   },
@@ -2157,11 +2161,11 @@
   {
     "id": "00084",
     "nombre": "Dentifrico Kolynos 180gr",
-    "precio": 218.0,
+    "precio": 225.0,
     "rubro": "Limpieza > Dentifrico",
     "url_imagen": "2020/05/dentifrico-kolynos-180.jpg",
     "url_producto": "dentifrico-kolynos-180-gr/",
-    "precio_1": "3,187.59",
+    "precio_1": "3,193.61",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -2182,6 +2186,10 @@
       {
         "fecha": "25/02/2021",
         "precio": 218.0
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 225.0
       }
     ]
   },
@@ -2192,7 +2200,7 @@
     "rubro": "Limpieza > Dentifrico",
     "url_imagen": "2020/05/dentifrico-odol-180.jpg",
     "url_producto": "dentifrico-odol-180-gr/",
-    "precio_1": "3,174.32",
+    "precio_1": "3,175.50",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -3134,11 +3142,11 @@
   {
     "id": "00119",
     "nombre": "Fideos Parradin 500gr",
-    "precio": 45.0,
+    "precio": 49.5,
     "rubro": "Almacén > Fideos",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "fideos-parradin-500gr/",
-    "precio_1": "3,39.00",
+    "precio_1": "3,42.90",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -3151,6 +3159,10 @@
       {
         "fecha": "03/11/2020",
         "precio": 45.0
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 49.5
       }
     ]
   },
@@ -3481,7 +3493,7 @@
     "id": "00131",
     "nombre": "Galletas De Arroz All Rice Dulces x 100gr",
     "precio": 78.75,
-    "rubro": "Almacén > Gall. Dulces y Saladas",
+    "rubro": "Almacén > Varios",
     "url_imagen": "2020/05/galletas-all-rice-dulce.jpg",
     "url_producto": "galletas-all-rice-dulces-x-100-grs/",
     "precio_1": "3,68.25",
@@ -3539,7 +3551,7 @@
     "id": "00133",
     "nombre": "Galletas De Arroz All Rice Naranja x 100gr",
     "precio": 78.75,
-    "rubro": "Almacén > Gall. Dulces y Saladas",
+    "rubro": "Almacén > Varios",
     "url_imagen": "2020/05/galletas-all-rice-naranja.jpg",
     "url_producto": "galletas-all-rice-naranja-x-100-grs/",
     "precio_1": "3,68.25",
@@ -5578,12 +5590,11 @@
   {
     "id": "00206",
     "nombre": "Manteca S y S 100gr",
-    "precio": 48.0,
+    "precio": 44.0,
     "rubro": "Lacteos > Mantecas y Margarinas",
     "url_imagen": "2020/05/manteca-sys-100gr.jpg",
     "url_producto": "manteca-s-y-s/",
-    "precio_unitario": "$48,00",
-    "precio_1": "3,37.50",
+    "precio_1": "3,35.10",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -5606,6 +5617,10 @@
       },
       {
         "fecha": "13/01/2021"
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 44.0
       }
     ]
   },
@@ -5715,11 +5730,11 @@
   {
     "id": "00211",
     "nombre": "Margarina Margadan 500gr",
-    "precio": 128.0,
+    "precio": 125.0,
     "rubro": "Lacteos > Mantecas y Margarinas",
-    "url_imagen": "/2020/01/MARG-MARGADAN-500GR.jpg",
-    "url_producto": "/marg-margadan-500gr/",
-    "precio_1": "3,110.28",
+    "url_imagen": "2020/01/MARG-MARGADAN-500GR.jpg",
+    "url_producto": "marg-margadan-500gr/",
+    "precio_1": "3,110.00",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -5731,6 +5746,10 @@
       },
       {
         "fecha": "12/11/2020"
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 125.0
       }
     ]
   },
@@ -7273,7 +7292,7 @@
     "rubro": "Almacén > Enlatados",
     "url_imagen": "2020/01/PICADILLO-LA-NEGRA-CARNE-90.jpg",
     "url_producto": "picadillo-la-negra-carne-90/",
-    "precio_1": "3,24.89",
+    "precio_1": "3,25.48",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -8597,11 +8616,11 @@
   {
     "id": "00311",
     "nombre": "Salchicha 66 6un",
-    "precio": 52.0,
+    "precio": 53.0,
     "rubro": "Frescos y Congelados > Salchichas",
     "url_imagen": "2020/01/SALCHICHA-66-6UN.jpg",
     "url_producto": "salchicha-66-6un/",
-    "precio_1": "3,48.67",
+    "precio_1": "3,49.61",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -8655,6 +8674,10 @@
       {
         "fecha": "25/02/2021",
         "precio": 52.0
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 53.0
       }
     ]
   },
@@ -9464,11 +9487,11 @@
   {
     "id": "00339",
     "nombre": "Te Taragui Fil.esp 100s",
-    "precio": 187.0,
+    "precio": 195.0,
     "rubro": "Desayuno > Mate",
     "url_imagen": "2020/01/TE-TARAGUI-FIL.ESP-100S.jpg",
     "url_producto": "te-taragui-fil-esp-100s/",
-    "precio_1": "3,163.77",
+    "precio_1": "3,170.78",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -9477,6 +9500,10 @@
       {
         "fecha": "11/08/2020",
         "precio": 187.0
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 195.0
       }
     ]
   },
@@ -9741,11 +9768,11 @@
   {
     "id": "00350",
     "nombre": "Vino Balbo Borges 1,125 Lts",
-    "precio": 125.0,
+    "precio": 142.0,
     "rubro": "Bebidas > Vinos",
     "url_imagen": "2020/01/VINO-BALBO-BORGX-1125.jpg",
     "url_producto": "vino-balbo-borgx-1125/",
-    "precio_1": "3,105.00",
+    "precio_1": "3,120.00",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -9766,6 +9793,10 @@
       {
         "fecha": "25/02/2021",
         "precio": 125.0
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 142.0
       }
     ]
   },
@@ -10444,11 +10475,11 @@
   {
     "id": "00379",
     "nombre": "Arroz Dos Hermanos lt . Fino x 500gr",
-    "precio": 57.0,
+    "precio": 60.0,
     "rubro": "Almacén > Arroz",
     "url_imagen": "2020/07/arroz-dos-hermanos-Lfino-500.jpg",
     "url_producto": "arroz-dos-hermanos-l-fino-x-500-grs/",
-    "precio_1": "3,49.35",
+    "precio_1": "3,51.95",
     "historia": [
       {
         "fecha": "31/07/2020",
@@ -10465,6 +10496,10 @@
       {
         "fecha": "01/02/2021",
         "precio": 57.0
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 60.0
       }
     ]
   },
@@ -11913,11 +11948,11 @@
   {
     "id": "00434",
     "nombre": "Rollo De Cocina Sussex x 3 Uds",
-    "precio": 82.0,
+    "precio": 77.0,
     "rubro": "Limpieza > Rollos de Cocina",
     "url_imagen": "2020/07/rollo-de-cocina-sussex.jpg",
     "url_producto": "rollo-de-cocina-sussex-x-3-uds/",
-    "precio_1": "3,70.85",
+    "precio_1": "3,66.30",
     "historia": [
       {
         "fecha": "18/08/2020",
@@ -11948,6 +11983,10 @@
       {
         "fecha": "03/03/2021",
         "precio": 82.0
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 77.0
       }
     ]
   },
@@ -12626,7 +12665,7 @@
     "rubro": "Almacén > Enlatados",
     "url_imagen": "2020/01/PICADILLO-CHANGUITO.jpg",
     "url_producto": "picadillo-changuito/",
-    "precio_1": "3,24.89",
+    "precio_1": "3,25.48",
     "historia": [
       {
         "fecha": "11/09/2020",
@@ -14032,11 +14071,11 @@
   {
     "id": "00522",
     "nombre": "Tomate Triturado Sabores Del Valle 1kg",
-    "precio": 114.0,
+    "precio": 135.0,
     "rubro": "Almacén > Salsas",
     "url_imagen": "2020/01/TOM-TRIT-SABORES-DEL-V-1KG.jpg",
     "url_producto": "tom-trit-sabores-del-v-1kg/",
-    "precio_1": "3,98.67",
+    "precio_1": "3,117.00",
     "historia": [
       {
         "fecha": "21/09/2020",
@@ -14053,6 +14092,10 @@
       {
         "fecha": "03/03/2021",
         "precio": 114.0
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 135.0
       }
     ]
   },
@@ -14460,7 +14503,7 @@
     "id": "00542",
     "nombre": "Budin Dale Con Frutas Tia Maruca x 170gr",
     "precio": 35.0,
-    "rubro": "Almacén > Gall. Dulces y Saladas",
+    "rubro": "Almacén > Varios",
     "url_imagen": "2020/10/budin-dale-frutas-170.jpg",
     "url_producto": "budin-dale-con-frutas-tia-maruca-x-170-grs/",
     "precio_1": "3,30.00",
@@ -16855,7 +16898,7 @@
     "id": "00659",
     "nombre": "Galletas Coquitas Bagley 170gr",
     "precio": 69.5,
-    "rubro": "Almacén > Gall. Dulces y Saladas",
+    "rubro": "Almacén > Varios",
     "url_imagen": "2020/10/galletas-coquitas-170.jpg",
     "url_producto": "galletas-coquitas-bagley-170-gr/",
     "precio_1": "3,62.15",
@@ -16874,7 +16917,7 @@
     "id": "00660",
     "nombre": "Galletas De Arroz Con Sal Risky Dit x 100gr",
     "precio": 60.0,
-    "rubro": "Almacén > Gall. Dulces y Saladas",
+    "rubro": "Almacén > Varios",
     "url_imagen": "2020/09/GALL-ARROZ-RISKYDIT-SAL.jpg",
     "url_producto": "galletas-de-arroz-risky-dit-x-100-grs/",
     "precio_1": "3,51.95",
@@ -18897,7 +18940,7 @@
     "id": "00751",
     "nombre": "Budin Con Frutas Bimbo 200gr",
     "precio": 115.0,
-    "rubro": "Almacén > Gall. Dulces y Saladas",
+    "rubro": "Almacén > Varios",
     "url_imagen": "2020/11/budin-bimbo-frutas-200g.jpg",
     "url_producto": "budin-con-frutas-bimbo-200-gr/",
     "precio_1": "3,99.00",
@@ -19238,11 +19281,11 @@
   {
     "id": "00769",
     "nombre": "Vinagre De Alcohol El Parrillero 1lt",
-    "precio": 48.9,
+    "precio": 55.0,
     "rubro": "Almacén > Vinagres",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "vinagre-el-parrillero-x-1l/",
-    "precio_1": "3,42.25",
+    "precio_1": "3,47.52",
     "historia": [
       {
         "fecha": "26/11/2020",
@@ -19255,6 +19298,10 @@
       {
         "fecha": "18/02/2021",
         "precio": 48.9
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 55.0
       }
     ]
   },
@@ -19390,7 +19437,7 @@
     "id": "00776",
     "nombre": "Pan Dulce Buon Natale Con Frutas 400gr",
     "precio": 115.0,
-    "rubro": "Almacén > Gall. Dulces y Saladas",
+    "rubro": "Almacén > Varios",
     "url_imagen": "2020/12/pan-dulce-buon-natale-400.jpg",
     "url_producto": "pan-dulce-buon-natale-con-frutas-400-gr/",
     "precio_1": "3,97.50",
@@ -20926,6 +20973,21 @@
       {
         "fecha": "03/03/2021",
         "precio": 67.0
+      }
+    ]
+  },
+  {
+    "id": "00864",
+    "nombre": "Paño Amarillo Sin Membrete",
+    "precio": 35.0,
+    "rubro": "Limpieza > Varios",
+    "url_imagen": "2020/01/PANO-AMARILLO-SIN-MEMBRETE.jpg",
+    "url_producto": "pano-amarillo-s-membrete/",
+    "precio_1": "3,30.19",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 35.0
       }
     ]
   }

@@ -65417,7 +65417,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65823,7 +65823,7 @@
     "id": "03148",
     "nombre": "Antitranspirante Femenino Dove Clásico 89gr",
     "precio": 175.5,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59401-1d3183784870bcc5ae15990738772133-480-0.jpg",
     "url_producto": "productos/ant-fem-dove-clasico-89-gr/",
     "historia": [
@@ -65879,7 +65879,7 @@
     "id": "03152",
     "nombre": "Antitranspirante Masculino Rexona Motion Sense Invisible 90gr",
     "precio": 169.9,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/172681-ba3a1c9253bcf28ee016025089275745-480-0.jpg",
     "url_producto": "productos/antitranspirante-masculino-rexona-motion-sense-invisible-90-gr/",
     "historia": [
@@ -68035,7 +68035,7 @@
     "id": "03306",
     "nombre": "Espumante Deseado Torrontés x 750ml",
     "precio": 459.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/espumante-deseado-torrontes-x-750-ml1-54fa55c75419e0e91316046927241575-480-0.jpg",
     "url_producto": "productos/espumante-deseado-torrontes-x-750-ml/",
     "historia": [
@@ -69169,7 +69169,7 @@
     "id": "03387",
     "nombre": "Jabón De Tocador Dove Karite y Vainilla 90gr",
     "precio": 85.7,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/234011-268f3b5530da9d27db15990689442139-480-0.jpg",
     "url_producto": "productos/jab-toc-dove-kar-y-vain-90-gr/",
     "historia": [
@@ -69183,7 +69183,7 @@
     "id": "03388",
     "nombre": "Jabón De Tocador Dove Revitalizante 90gr",
     "precio": 85.7,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/233381-87401b98e0c74afbd415990689047718-480-0.jpg",
     "url_producto": "productos/jab-toc-dove-revital-90-gr/",
     "historia": [
@@ -69197,7 +69197,7 @@
     "id": "03389",
     "nombre": "Jabón De Tocador Espadol Active Deo 90gr",
     "precio": 71.4,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/131441-176b7e58459baae17915990920652667-480-0.jpg",
     "url_producto": "productos/jab-toc-espadol-act-deo-90-gr/",
     "historia": [
@@ -69211,7 +69211,7 @@
     "id": "03390",
     "nombre": "Jabón De Tocador Nivea Creme Soft 100gr",
     "precio": 60.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/170251-d78643e1fdcbf4629d15990678722806-480-0.jpg",
     "url_producto": "productos/jab-toc-nivea-crem-125-gr/",
     "historia": [
@@ -69826,7 +69826,7 @@
   {
     "id": "03434",
     "nombre": "Leche Milkaut Larga Vida Descremada x lt",
-    "precio": 81.9,
+    "precio": 86.49,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7794820001943_0111-bd8ebe61c5d29be19b16093583513216-480-0.jpg",
     "url_producto": "productos/leche-milkaut-lv-descremada-litro/",
@@ -69834,13 +69834,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 81.9
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 86.49
       }
     ]
   },
   {
     "id": "03435",
     "nombre": "Leche Milkaut Larga Vida Entera x lt",
-    "precio": 81.9,
+    "precio": 86.49,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7794820001936_0111-0c33e3d0b043c8814416093582611238-480-0.jpg",
     "url_producto": "productos/leche-milkaut-lv-entera-litro/",
@@ -69848,6 +69852,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 81.9
+      },
+      {
+        "fecha": "05/03/2021",
+        "precio": 86.49
       }
     ]
   },
@@ -70205,7 +70213,7 @@
     "id": "03461",
     "nombre": "Mantequilla De Mani C/dulce De Leche 500gr",
     "precio": 299.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mantequilla-de-mani-con-dulce-de-leche-500-gr1-9ee9db0f0eec43651816116010205978-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-c-dulce-de-leche-500-gr/",
     "historia": [
@@ -70219,7 +70227,7 @@
     "id": "03462",
     "nombre": "Mantequilla De Mani Fitfruits 500gr",
     "precio": 275.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-25t155535-0511-a90958bee18a74825316116009496795-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-fitfruits-500-gr/",
     "historia": [
@@ -70513,7 +70521,7 @@
     "id": "03483",
     "nombre": "Medallones De Quinoa Bambu Con Batata Roja y Curry 360gr",
     "precio": 169.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/31-0d95a2d750cf46156016135887047402-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-batata-roja-y-curry-360-gr/",
     "historia": [
@@ -70527,7 +70535,7 @@
     "id": "03484",
     "nombre": "Medallones De Quinoa Bambu Con Brocoli 360gr",
     "precio": 169.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-28t133000-7341-9246fe4e03dc07a08d16118514633734-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-brocoli-360-gr/",
     "historia": [
@@ -70541,7 +70549,7 @@
     "id": "03485",
     "nombre": "Medallones De Quinoa Bambu Con Cebolla Caramelizada 360gr",
     "precio": 169.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-0ac7d05aa033abaf7416135887401078-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-cebolla-caramelizada-360-gr/",
     "historia": [
@@ -71171,7 +71179,7 @@
     "id": "03530",
     "nombre": "Pan De Campo La Panerita 360gr",
     "precio": 110.9,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705210_cgm1-8f978b8782b636012716130803607456-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-360-gr/",
     "historia": [
@@ -71185,7 +71193,7 @@
     "id": "03531",
     "nombre": "Pan De Campo La Panerita Con Semillas 340gr",
     "precio": 130.5,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705583_chm1-9697b42f2bf55399aa16130802662831-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-con-semillas-340-gr/",
     "historia": [
@@ -71199,7 +71207,7 @@
     "id": "03532",
     "nombre": "Pan De Hamburguesa La Panerita x 4un",
     "precio": 67.6,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/311-c0d1a72eb892048d8c16118693644227-480-0.jpg",
     "url_producto": "productos/pan-de-hamburguesa-la-panerita-x-4-unidades/",
     "historia": [
@@ -71213,7 +71221,7 @@
     "id": "03533",
     "nombre": "Pan De Viena La Panerita x 6un",
     "precio": 67.6,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211-be805d33b897e5219a16118693250617-480-0.jpg",
     "url_producto": "productos/pan-de-viena-la-panerita-x-6-unidades/",
     "historia": [
@@ -71283,7 +71291,7 @@
     "id": "03538",
     "nombre": "Pan Lactal La Panerita Blanco 400gr ,",
     "precio": 105.0,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-967720a304d43123a016118693910439-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-blanco-400-gr/",
     "historia": [
@@ -71297,7 +71305,7 @@
     "id": "03539",
     "nombre": "Pan Lactal La Panerita Salvado 400gr",
     "precio": 105.0,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/51-7eb96e352d872455a216118694168191-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-salvado-400-gr/",
     "historia": [
@@ -71353,7 +71361,7 @@
     "id": "03543",
     "nombre": "Pan Pebete La Panerita x 6un",
     "precio": 110.0,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pebete1-6f4d4cf5f8495b246116118692752394-480-0.jpg",
     "url_producto": "productos/pan-pebete-la-panerita-x-6-unidades/",
     "historia": [
@@ -72893,7 +72901,7 @@
     "id": "03653",
     "nombre": "Shampoo Tresemme Keratina 400ml",
     "precio": 285.88,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/161771-e8acb2da185d094b4d15988877301296-480-0.jpg",
     "url_producto": "productos/shamp-tresemme-keratina-400-ml/",
     "historia": [
@@ -73313,7 +73321,7 @@
     "id": "03683",
     "nombre": "Toallitas Femeninas Siempre Libre Con Alas 16un",
     "precio": 235.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/130591-537459551c249564c015988887529678-480-0.jpg",
     "url_producto": "productos/toallitas-femeninas-siempre-libre-con-alas-16-un/",
     "historia": [
@@ -73838,6 +73846,440 @@
       {
         "fecha": "04/03/2021",
         "precio": 115.0
+      }
+    ]
+  },
+  {
+    "id": "03721",
+    "nombre": "Ananá Fizz La Farruca 720cc",
+    "precio": 114.26,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/product_8fd8d3b304c24d1b9d61d94c19e5c918_637357897103216287_0_l1-ed06f1f4e4560a35cf16063956091879-480-0.jpg",
+    "url_producto": "productos/anana-fizz-la-farruca-720-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 114.26
+      }
+    ]
+  },
+  {
+    "id": "03722",
+    "nombre": "Azucar Hileret Light 500gr",
+    "precio": 123.0,
+    "rubro": "Productos > Azúcar y Edulcorantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/430971-f19b9e89a22390eeb416037392104758-480-0.jpg",
+    "url_producto": "productos/azucar-hileret-light-500-gr/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 123.0
+      }
+    ]
+  },
+  {
+    "id": "03723",
+    "nombre": "Conejo Bon O Bon Choc. Blanco 50gr",
+    "precio": 233.66,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/conejo-bon-o-bon-choc-50gr1-6dd5a76e0ba64e62f316148740275894-480-0.jpg",
+    "url_producto": "productos/conejo-bon-o-bon-choc-blanco-50gr/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 233.66
+      }
+    ]
+  },
+  {
+    "id": "03724",
+    "nombre": "Edulcorante Sucaryl Polvo 100 Sobres",
+    "precio": 117.0,
+    "rubro": "Productos > Azúcar y Edulcorantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/159911-2e8ab5c0c61d77dbd615990676195191-480-0.jpg",
+    "url_producto": "productos/edulc-sucaryl-pvo-100-so/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 117.0
+      }
+    ]
+  },
+  {
+    "id": "03725",
+    "nombre": "Energizante Gatorade Cool Blue 500cc",
+    "precio": 77.86,
+    "rubro": "Productos > Energizantes e Isotónicas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/152791-0d67772e15cba3dfd915988887428609-480-0.jpg",
+    "url_producto": "productos/energiz-gatorade-cool-bl-pet-500-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 77.86
+      }
+    ]
+  },
+  {
+    "id": "03726",
+    "nombre": "Energizante Gatorade Lima Limón 500cc",
+    "precio": 77.86,
+    "rubro": "Productos > Energizantes e Isotónicas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/149231-fca90f7c25149e487c15988888004310-480-0.jpg",
+    "url_producto": "productos/energiz-gatorade-l-limon-pet-500-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 77.86
+      }
+    ]
+  },
+  {
+    "id": "03727",
+    "nombre": "Energizante Gatorade Manzana 500cc",
+    "precio": 77.86,
+    "rubro": "Productos > Energizantes e Isotónicas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/149241-8ac71393737a2eb81315988888342598-480-0.jpg",
+    "url_producto": "productos/energiz-gatorade-mzna-pet-500-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 77.86
+      }
+    ]
+  },
+  {
+    "id": "03728",
+    "nombre": "Energizante Speed Lata 250cc",
+    "precio": 63.0,
+    "rubro": "Productos > Energizantes e Isotónicas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/111181-684bef8b79b17103c315988889028597-480-0.jpg",
+    "url_producto": "productos/energiz-speed-lata-250-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 63.0
+      }
+    ]
+  },
+  {
+    "id": "03729",
+    "nombre": "Espinaca Granja De Sol 500gr",
+    "precio": 258.7,
+    "rubro": "Productos > Congelados de Vegetales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/espinaca-granja-de-sol-500gr1-cf2fdb7fe8598f71b916148732708007-480-0.jpg",
+    "url_producto": "productos/espinaca-granja-de-sol-500gr/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 258.7
+      }
+    ]
+  },
+  {
+    "id": "03730",
+    "nombre": "Fresa Fizz La Farruca 710cc",
+    "precio": 114.26,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/la-farruca-fresas-fizz-ofertas-en-mendoza-casa-segal-mendoza1-fc600651e3492b312716063955348006-480-0.jpg",
+    "url_producto": "productos/fresa-fizz-la-farruca-710-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 114.26
+      }
+    ]
+  },
+  {
+    "id": "03731",
+    "nombre": "Huevo Tofi Choc. Leche 115gr",
+    "precio": 529.69,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-03-04t130323-73111-6caf11ed2781eb253316148738836091-480-0.jpg",
+    "url_producto": "productos/huevo-tofi-choc-leche-115-gr/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 529.69
+      }
+    ]
+  },
+  {
+    "id": "03732",
+    "nombre": "Isotónica Gatorade Cool Blue 1250cc",
+    "precio": 165.3,
+    "rubro": "Productos > Energizantes e Isotónicas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244321-9529c2fd145825a27916010471222316-480-0.jpg",
+    "url_producto": "productos/isotonica-gatorade-cool-blue-1250-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 165.3
+      }
+    ]
+  },
+  {
+    "id": "03733",
+    "nombre": "Isotónica Gatorade Cool Blue 750cc",
+    "precio": 87.0,
+    "rubro": "Productos > Energizantes e Isotónicas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/235351-04da669cb915653c7216010469505362-480-0.jpg",
+    "url_producto": "productos/isotonica-gatorade-cool-blue-750-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 87.0
+      }
+    ]
+  },
+  {
+    "id": "03734",
+    "nombre": "Isotónica Gatorade Frutas Tropicales 1250cc",
+    "precio": 165.3,
+    "rubro": "Productos > Energizantes e Isotónicas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/235361-3bfceedea5903dcd1f16010470052219-480-0.jpg",
+    "url_producto": "productos/isotonica-gatorade-frutas-tropicales-1250-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 165.3
+      }
+    ]
+  },
+  {
+    "id": "03735",
+    "nombre": "Isotónica Gatorade Frutas Tropicales 500cc",
+    "precio": 77.86,
+    "rubro": "Productos > Energizantes e Isotónicas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/152811-98eb7afd2fe715f51716010469175551-480-0.jpg",
+    "url_producto": "productos/isotonica-gatorade-frutas-tropicales-500-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 77.86
+      }
+    ]
+  },
+  {
+    "id": "03736",
+    "nombre": "Isotónica Gatorade Manzana 1250cc",
+    "precio": 165.3,
+    "rubro": "Productos > Energizantes e Isotónicas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/239241-d2553557b574b40f8416010470464509-480-0.jpg",
+    "url_producto": "productos/isotonica-gatorade-manzana-1250-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 165.3
+      }
+    ]
+  },
+  {
+    "id": "03737",
+    "nombre": "Isotónica Gatorade Manzana 750cc",
+    "precio": 87.0,
+    "rubro": "Productos > Energizantes e Isotónicas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/239911-5c861484653371514a16010470905368-480-0.jpg",
+    "url_producto": "productos/isotonica-gatorade-manzana-750-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 87.0
+      }
+    ]
+  },
+  {
+    "id": "03738",
+    "nombre": "Isotónica Gatorade Naranja 500cc",
+    "precio": 77.86,
+    "rubro": "Productos > Energizantes e Isotónicas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/149221-d5eae83ccb515cdb0916010468267463-480-0.jpg",
+    "url_producto": "productos/isotonica-gatorade-naranja-500-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 77.86
+      }
+    ]
+  },
+  {
+    "id": "03739",
+    "nombre": "Ketchup Danica 220gr",
+    "precio": 53.9,
+    "rubro": "Productos > Aderezos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ketchup-danica-220-gr1-79cd38084208c625a916082333713948-480-0.png",
+    "url_producto": "productos/ketchup-danica-220-gr/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 53.9
+      }
+    ]
+  },
+  {
+    "id": "03740",
+    "nombre": "Limpiador Cif Crema 375cc",
+    "precio": 115.0,
+    "rubro": "Productos > Limpieza de Cocina",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/limpiador-cif-crema-375-cc1-7d23b099b9918f034516101120701931-480-0.jpg",
+    "url_producto": "productos/limp-cif-crema-375-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 115.0
+      }
+    ]
+  },
+  {
+    "id": "03741",
+    "nombre": "Mostaza Danica 220gr",
+    "precio": 43.4,
+    "rubro": "Productos > Aderezos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mostaza-danica-220-gr1-bf3883efd8d95dd9d016082334483528-480-0.png",
+    "url_producto": "productos/mostaza-danica-220-gr/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 43.4
+      }
+    ]
+  },
+  {
+    "id": "03742",
+    "nombre": "Salsa Barbacoa Danica 220gr",
+    "precio": 65.0,
+    "rubro": "Productos > Aderezos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/salsa-barbacoa-danica-220-gr1-ef28446dcacf66068016110759892076-480-0.jpg",
+    "url_producto": "productos/salsa-barbacoa-danica-220-gr/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 65.0
+      }
+    ]
+  },
+  {
+    "id": "03743",
+    "nombre": "Sidra Del Valle 720cc",
+    "precio": 97.6,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sidra-del-valle-720-cc1-bbcf2c670f0bb60e0916057952559019-480-0.jpg",
+    "url_producto": "productos/sidra-del-valle-720-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 97.6
+      }
+    ]
+  },
+  {
+    "id": "03744",
+    "nombre": "Sidra La Victoria 720ml",
+    "precio": 101.89,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sidra-la-victoria-etiqueta-blanca-720-cc-1-252481-c9fac9f7ebeff123d716065941891342-480-0.jpg",
+    "url_producto": "productos/sidra-la-victoria-720-ml/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 101.89
+      }
+    ]
+  },
+  {
+    "id": "03745",
+    "nombre": "Sidra Real Et Bca 910cc",
+    "precio": 220.87,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sidra-real-et-bca-910-cc1-27999dca5425c9878816081384883468-480-0.jpg",
+    "url_producto": "productos/sidra-real-et-bca-910-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 220.87
+      }
+    ]
+  },
+  {
+    "id": "03746",
+    "nombre": "Vino 4000 Malbec 750cc",
+    "precio": 899.0,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-421-e9379365b33442f0b716050148038253-480-0.jpg",
+    "url_producto": "productos/vino-4000-budeguer-malbec-750-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 899.0
+      }
+    ]
+  },
+  {
+    "id": "03747",
+    "nombre": "Vino Alma Mora Cavernet S. 750ml",
+    "precio": 255.0,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-20t160454-0471-7a8fcdcc62ce718c4216111695085194-480-0.jpg",
+    "url_producto": "productos/vino-alma-mora-cavernet-s-750-ml/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 255.0
+      }
+    ]
+  },
+  {
+    "id": "03748",
+    "nombre": "Vino Blanco Cafayate Ttes. Tard 750cc",
+    "precio": 220.0,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/162231-9bfd068c2aac749d4915992492051805-480-0.jpg",
+    "url_producto": "productos/vino-blanco-cafayate-ttes-tard-750-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 220.0
+      }
+    ]
+  },
+  {
+    "id": "03749",
+    "nombre": "Vino Bodega Bianchi Borgoña 700cc",
+    "precio": 119.7,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790703002618_011-20e9deda3c19b38f8416065938790135-480-0.jpg",
+    "url_producto": "productos/vino-bodega-bianchi-borgona-700-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 119.7
+      }
+    ]
+  },
+  {
+    "id": "03750",
+    "nombre": "Vino San Felipe Blanco 750cc",
+    "precio": 335.0,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/50551-d530d757b75b694bd315988892812709-480-0.jpg",
+    "url_producto": "productos/vino-s-felipe-blanco-750-cc/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 335.0
+      }
+    ]
+  },
+  {
+    "id": "03751",
+    "nombre": "Vino Tinto Norton Cosecha Tardia 750ml",
+    "precio": 215.99,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/vino-tinto-norton-cosecha-tardia-750-ml1-6a0f930ed91280b50416099556720880-480-0.jpg",
+    "url_producto": "productos/vino-tinto-norton-cosecha-tardia-750-ml/",
+    "historia": [
+      {
+        "fecha": "05/03/2021",
+        "precio": 215.99
       }
     ]
   }
