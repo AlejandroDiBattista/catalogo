@@ -65823,7 +65823,7 @@
     "id": "03148",
     "nombre": "Antitranspirante Femenino Dove Clásico 89gr",
     "precio": 175.5,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59401-1d3183784870bcc5ae15990738772133-480-0.jpg",
     "url_producto": "productos/ant-fem-dove-clasico-89-gr/",
     "historia": [
@@ -65879,7 +65879,7 @@
     "id": "03152",
     "nombre": "Antitranspirante Masculino Rexona Motion Sense Invisible 90gr",
     "precio": 169.9,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/172681-ba3a1c9253bcf28ee016025089275745-480-0.jpg",
     "url_producto": "productos/antitranspirante-masculino-rexona-motion-sense-invisible-90-gr/",
     "historia": [
@@ -66033,7 +66033,7 @@
     "id": "03163",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 85.7,
-    "rubro": "Productos > Arroz y Legumbres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -66480,7 +66480,7 @@
   {
     "id": "03195",
     "nombre": "Brocoli x Unidad",
-    "precio": 110.0,
+    "precio": 117.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/brocoli1-a0f2832184752e1aa116139987353846-480-0.jpg",
     "url_producto": "productos/brocoli-x-unidad/",
@@ -66488,6 +66488,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 110.0
+      },
+      {
+        "fecha": "06/03/2021",
+        "precio": 117.0
       }
     ]
   },
@@ -66704,7 +66708,7 @@
   {
     "id": "03211",
     "nombre": "Cebolla Morada x kg",
-    "precio": 105.0,
+    "precio": 130.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cebolla-morada1-664871cb12a95dd27016139986215609-480-0.jpeg",
     "url_producto": "productos/cebolla-morada-x-kg/",
@@ -66712,6 +66716,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 105.0
+      },
+      {
+        "fecha": "06/03/2021",
+        "precio": 130.0
       }
     ]
   },
@@ -66984,7 +66992,7 @@
   {
     "id": "03231",
     "nombre": "Choclo x Unidad",
-    "precio": 35.0,
+    "precio": 45.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/choclo-americano-600x6001-a81dcb81c758f2975216146273101789-480-0.jpg",
     "url_producto": "productos/choclo-x-unidad/",
@@ -66992,6 +67000,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 35.0
+      },
+      {
+        "fecha": "06/03/2021",
+        "precio": 45.0
       }
     ]
   },
@@ -67124,7 +67136,7 @@
   {
     "id": "03241",
     "nombre": "Coca Cola Regular 1,5lt",
-    "precio": 109.0,
+    "precio": 115.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0981-9064a1c9d1c351622f16008047548131-480-0.jpg",
     "url_producto": "productos/coca-cola-regular-15-l/",
@@ -67132,6 +67144,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 109.0
+      },
+      {
+        "fecha": "06/03/2021",
+        "precio": 115.0
       }
     ]
   },
@@ -67321,7 +67337,7 @@
     "id": "03255",
     "nombre": "Crema Dental Colgate Triple Acción 180gr",
     "precio": 276.79,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/49201-a9ac16555da61d17ea15988990071112-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-trip-accion-180-gr/",
     "historia": [
@@ -67335,7 +67351,7 @@
     "id": "03256",
     "nombre": "Crema Dental Colgate Triple Acción Extra Blancura 90gr",
     "precio": 187.05,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/128361-32cf2b8a5126d20fdb15988991304092-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-t-ac-ex-bco-90-gr/",
     "historia": [
@@ -67377,7 +67393,7 @@
     "id": "03259",
     "nombre": "Crema Dental Oral B Anticaries 150gr",
     "precio": 163.25,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crema-dental-oral-b-anticaries-150-gr1-f60633b3ab7e18ec5a16001951343628-480-0.jpg",
     "url_producto": "productos/cr-dental-oral-b-anticaries-150-gr/",
     "historia": [
@@ -67587,7 +67603,7 @@
     "id": "03274",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
     "precio": 125.0,
-    "rubro": "Productos > Dulces y Mermeladas",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-400-gr/",
     "historia": [
@@ -67895,7 +67911,7 @@
     "id": "03296",
     "nombre": "Enjuague Bucal Colgate Luminous 250ml",
     "precio": 309.9,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/144891-1b9e7233fdb30e8d0315988890856943-480-0.jpg",
     "url_producto": "productos/enj-buc-colgate-luminous-250-ml/",
     "historia": [
@@ -68132,7 +68148,7 @@
   {
     "id": "03313",
     "nombre": "Fideos Lucchetti Moños 500gr",
-    "precio": 81.6,
+    "precio": 90.11,
     "rubro": "Productos > Pastas Secas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1221811-9e64dce88d9cdfb1ea15990014948421-480-0.jpg",
     "url_producto": "productos/fid-lucchetti-monos-500-gr/",
@@ -68140,6 +68156,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 81.6
+      },
+      {
+        "fecha": "06/03/2021",
+        "precio": 90.11
       }
     ]
   },
@@ -68552,7 +68572,7 @@
   {
     "id": "03343",
     "nombre": "Gaseosa Coca Cola Sin Azúcar 1,5lt",
-    "precio": 109.0,
+    "precio": 115.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/coca-sin-azucar1-2822cfc1470d446d2c15995734486317-480-0.jpg",
     "url_producto": "productos/coca-cola-sin-azucar-1500-cc/",
@@ -68560,6 +68580,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 109.0
+      },
+      {
+        "fecha": "06/03/2021",
+        "precio": 115.0
       }
     ]
   },
@@ -69169,7 +69193,7 @@
     "id": "03387",
     "nombre": "Jabón De Tocador Dove Karite y Vainilla 90gr",
     "precio": 85.7,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/234011-268f3b5530da9d27db15990689442139-480-0.jpg",
     "url_producto": "productos/jab-toc-dove-kar-y-vain-90-gr/",
     "historia": [
@@ -69183,7 +69207,7 @@
     "id": "03388",
     "nombre": "Jabón De Tocador Dove Revitalizante 90gr",
     "precio": 85.7,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/233381-87401b98e0c74afbd415990689047718-480-0.jpg",
     "url_producto": "productos/jab-toc-dove-revital-90-gr/",
     "historia": [
@@ -69197,7 +69221,7 @@
     "id": "03389",
     "nombre": "Jabón De Tocador Espadol Active Deo 90gr",
     "precio": 71.4,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/131441-176b7e58459baae17915990920652667-480-0.jpg",
     "url_producto": "productos/jab-toc-espadol-act-deo-90-gr/",
     "historia": [
@@ -69211,7 +69235,7 @@
     "id": "03390",
     "nombre": "Jabón De Tocador Nivea Creme Soft 100gr",
     "precio": 60.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/170251-d78643e1fdcbf4629d15990678722806-480-0.jpg",
     "url_producto": "productos/jab-toc-nivea-crem-125-gr/",
     "historia": [
@@ -69462,7 +69486,7 @@
   {
     "id": "03408",
     "nombre": "Jugo Minerva Limón 500cc",
-    "precio": 137.4,
+    "precio": 158.99,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/113111-6f045e8b2c177790cd15990030622137-480-0.jpg",
     "url_producto": "productos/jug-minerva-limon-500-cc/",
@@ -69470,6 +69494,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 137.4
+      },
+      {
+        "fecha": "06/03/2021",
+        "precio": 158.99
       }
     ]
   },
@@ -69826,7 +69854,7 @@
   {
     "id": "03434",
     "nombre": "Leche Milkaut Larga Vida Descremada x lt",
-    "precio": 86.49,
+    "precio": 81.99,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7794820001943_0111-bd8ebe61c5d29be19b16093583513216-480-0.jpg",
     "url_producto": "productos/leche-milkaut-lv-descremada-litro/",
@@ -69838,13 +69866,17 @@
       {
         "fecha": "05/03/2021",
         "precio": 86.49
+      },
+      {
+        "fecha": "06/03/2021",
+        "precio": 81.99
       }
     ]
   },
   {
     "id": "03435",
     "nombre": "Leche Milkaut Larga Vida Entera x lt",
-    "precio": 86.49,
+    "precio": 81.99,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7794820001936_0111-0c33e3d0b043c8814416093582611238-480-0.jpg",
     "url_producto": "productos/leche-milkaut-lv-entera-litro/",
@@ -69856,6 +69888,10 @@
       {
         "fecha": "05/03/2021",
         "precio": 86.49
+      },
+      {
+        "fecha": "06/03/2021",
+        "precio": 81.99
       }
     ]
   },
@@ -72089,7 +72125,7 @@
     "id": "03595",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 179.0,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -73321,7 +73357,7 @@
     "id": "03683",
     "nombre": "Toallitas Femeninas Siempre Libre Con Alas 16un",
     "precio": 235.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/130591-537459551c249564c015988887529678-480-0.jpg",
     "url_producto": "productos/toallitas-femeninas-siempre-libre-con-alas-16-un/",
     "historia": [
@@ -74280,6 +74316,76 @@
       {
         "fecha": "05/03/2021",
         "precio": 215.99
+      }
+    ]
+  },
+  {
+    "id": "03752",
+    "nombre": "Agua Tonica Cunnington S/azucar 2,25lt",
+    "precio": 87.0,
+    "rubro": "Productos > Gaseosas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/agua-tonica-cunnington-s-azucar-225lt/",
+    "historia": [
+      {
+        "fecha": "06/03/2021",
+        "precio": 87.0
+      }
+    ]
+  },
+  {
+    "id": "03753",
+    "nombre": "Conejo Bon O Bon Choc. Blanco 50gr",
+    "precio": 233.66,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-03-05t124446-0101-f4f07db274f5cd268d16149591130477-480-0.jpg",
+    "url_producto": "productos/conejo-bon-o-bon-choc-blanco-50gr/",
+    "historia": [
+      {
+        "fecha": "06/03/2021",
+        "precio": 233.66
+      }
+    ]
+  },
+  {
+    "id": "03754",
+    "nombre": "Granos De Choclo Amarillo Entero M& kg 300gr",
+    "precio": 89.33,
+    "rubro": "Productos > Conservas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-03-05t130738-0821-c018c9e63b4c2944a116149605024737-480-0.jpg",
+    "url_producto": "productos/granos-de-choclo-amarillo-entero-mk-300gr/",
+    "historia": [
+      {
+        "fecha": "06/03/2021",
+        "precio": 89.33
+      }
+    ]
+  },
+  {
+    "id": "03755",
+    "nombre": "Harina Favorita 0000 1kg",
+    "precio": 66.3,
+    "rubro": "Productos > Harinas, Grasas y Premezclas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/harina-favorita-0000-1kg/",
+    "historia": [
+      {
+        "fecha": "06/03/2021",
+        "precio": 66.3
+      }
+    ]
+  },
+  {
+    "id": "03756",
+    "nombre": "Sopa Familiar Knorr Vegetales Con Fideos Caracolitos Tricolor 107,5",
+    "precio": 101.77,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/sopa-familiar-knorr-vegetales-con-fideos-caracolitos-tricolor-1075/",
+    "historia": [
+      {
+        "fecha": "06/03/2021",
+        "precio": 101.77
       }
     ]
   }
