@@ -64870,7 +64870,7 @@
   {
     "id": "03080",
     "nombre": "Aceite Cocinero Girasol 1,5lt",
-    "precio": 245.0,
+    "precio": 270.0,
     "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-girasol-cocinero-1-5-l1-70562c7e06c6ba7e9b16057061476408-480-0.jpg",
     "url_producto": "productos/ac-cocinero-girasol-1-5-lt/",
@@ -64878,6 +64878,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 245.0
+      },
+      {
+        "fecha": "11/03/2021",
+        "precio": 270.0
       }
     ]
   },
@@ -65462,7 +65466,7 @@
   {
     "id": "03122",
     "nombre": "Agua Sin Gas Nestlé Pureza Vital 2,25 Lts",
-    "precio": 99.0,
+    "precio": 101.39,
     "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-sin-gas-nestle-pureza-vital-225-lts1-eeec029681545bd86216015826868064-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-225-lts/",
@@ -65470,6 +65474,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 99.0
+      },
+      {
+        "fecha": "10/03/2021",
+        "precio": 101.39
       }
     ]
   },
@@ -66121,7 +66129,7 @@
     "id": "03169",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Conservas",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -66447,7 +66455,7 @@
     "id": "03192",
     "nombre": "Bolsa Asurin Residuos 3,3x60 10un",
     "precio": 74.1,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg",
     "url_producto": "productos/bols-asurin-res-3-45x60-10-un/",
     "historia": [
@@ -67345,7 +67353,7 @@
     "id": "03255",
     "nombre": "Crema Dental Colgate Triple Acción 180gr",
     "precio": 276.79,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/49201-a9ac16555da61d17ea15988990071112-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-trip-accion-180-gr/",
     "historia": [
@@ -67359,7 +67367,7 @@
     "id": "03256",
     "nombre": "Crema Dental Colgate Triple Acción Extra Blancura 90gr",
     "precio": 187.05,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/128361-32cf2b8a5126d20fdb15988991304092-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-t-ac-ex-bco-90-gr/",
     "historia": [
@@ -67401,7 +67409,7 @@
     "id": "03259",
     "nombre": "Crema Dental Oral B Anticaries 150gr",
     "precio": 163.25,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crema-dental-oral-b-anticaries-150-gr1-f60633b3ab7e18ec5a16001951343628-480-0.jpg",
     "url_producto": "productos/cr-dental-oral-b-anticaries-150-gr/",
     "historia": [
@@ -67615,7 +67623,7 @@
     "id": "03274",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
     "precio": 125.0,
-    "rubro": "Productos > Dulces y Mermeladas",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-400-gr/",
     "historia": [
@@ -67923,7 +67931,7 @@
     "id": "03296",
     "nombre": "Enjuague Bucal Colgate Luminous 250ml",
     "precio": 309.9,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/144891-1b9e7233fdb30e8d0315988890856943-480-0.jpg",
     "url_producto": "productos/enj-buc-colgate-luminous-250-ml/",
     "historia": [
@@ -68049,7 +68057,7 @@
     "id": "03305",
     "nombre": "Espirales Fuyi Country Fresh 12un",
     "precio": 83.9,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/12581-0f3db92e7643253bda15988896776885-480-0.jpg",
     "url_producto": "productos/espiral-fuyi-count-fresh-12-un/",
     "historia": [
@@ -68248,7 +68256,7 @@
   {
     "id": "03319",
     "nombre": "Fideos Matarazzo Tirabuzón 500gr",
-    "precio": 75.4,
+    "precio": 76.4,
     "rubro": "Productos > Pastas Secas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1506211-9c69400f552ba709a315989644576721-480-0.jpg",
     "url_producto": "productos/fid-matarazzo-tirabuzon-500-gr/",
@@ -68256,6 +68264,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 75.4
+      },
+      {
+        "fecha": "10/03/2021",
+        "precio": 76.4
       }
     ]
   },
@@ -69998,7 +70010,7 @@
   {
     "id": "03440",
     "nombre": "Levadura Calsa 50gr",
-    "precio": 23.01,
+    "precio": 25.0,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/53971-ee3b1fb01a8873259b15990738018499-480-0.jpg",
     "url_producto": "productos/levadur-calsa-cubito-50-gr/",
@@ -70006,6 +70018,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 23.01
+      },
+      {
+        "fecha": "10/03/2021",
+        "precio": 25.0
       }
     ]
   },
@@ -70041,7 +70057,7 @@
     "id": "03443",
     "nombre": "Limpiador Cif Antigrasa 450ml",
     "precio": 89.0,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg",
     "url_producto": "productos/limp-cif-antig-d-p-450-ml/",
     "historia": [
@@ -70069,7 +70085,7 @@
     "id": "03445",
     "nombre": "Limpiador Cif Crema Limón 750gr",
     "precio": 143.5,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cif-crema-limon1-ace4b3e161ca9ce96f16101128144620-480-0.jpg",
     "url_producto": "productos/limp-cif-crem-limon-750-gr/",
     "historia": [
@@ -70083,7 +70099,7 @@
     "id": "03446",
     "nombre": "Limpiador Cif Pisos Antibacterial 750ml",
     "precio": 172.9,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209611-214abbe56f232f695115988902496909-480-0.jpg",
     "url_producto": "productos/limp-cif-pis-antibac-750-ml/",
     "historia": [
@@ -70915,7 +70931,7 @@
     "id": "03504",
     "nombre": "Mostaza Savora 250gr",
     "precio": 85.9,
-    "rubro": "Productos > Aderezos",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/115651-091ba485b56ce6138915989074478331-480-0.jpg",
     "url_producto": "productos/mostaza-savora-250-grs/",
     "historia": [
@@ -70988,7 +71004,7 @@
   {
     "id": "03509",
     "nombre": "Ñoquis La Salteña Papa 300gr",
-    "precio": 99.3,
+    "precio": 105.0,
     "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790070621115_021-0817ca0069c7247d5a16125542773141-480-0.jpg",
     "url_producto": "productos/noquis-la-saltena-papa-300-gr/",
@@ -70996,6 +71012,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 99.3
+      },
+      {
+        "fecha": "10/03/2021",
+        "precio": 105.0
       }
     ]
   },
@@ -71291,7 +71311,7 @@
     "id": "03530",
     "nombre": "Pan De Campo La Panerita 360gr",
     "precio": 110.9,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705210_cgm1-8f978b8782b636012716130803607456-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-360-gr/",
     "historia": [
@@ -71305,7 +71325,7 @@
     "id": "03531",
     "nombre": "Pan De Campo La Panerita Con Semillas 340gr",
     "precio": 130.5,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705583_chm1-9697b42f2bf55399aa16130802662831-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-con-semillas-340-gr/",
     "historia": [
@@ -71319,7 +71339,7 @@
     "id": "03532",
     "nombre": "Pan De Hamburguesa La Panerita x 4un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/311-c0d1a72eb892048d8c16118693644227-480-0.jpg",
     "url_producto": "productos/pan-de-hamburguesa-la-panerita-x-4-unidades/",
     "historia": [
@@ -71333,7 +71353,7 @@
     "id": "03533",
     "nombre": "Pan De Viena La Panerita x 6un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211-be805d33b897e5219a16118693250617-480-0.jpg",
     "url_producto": "productos/pan-de-viena-la-panerita-x-6-unidades/",
     "historia": [
@@ -71403,7 +71423,7 @@
     "id": "03538",
     "nombre": "Pan Lactal La Panerita Blanco 400gr ,",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-967720a304d43123a016118693910439-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-blanco-400-gr/",
     "historia": [
@@ -71417,7 +71437,7 @@
     "id": "03539",
     "nombre": "Pan Lactal La Panerita Salvado 400gr",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/51-7eb96e352d872455a216118694168191-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-salvado-400-gr/",
     "historia": [
@@ -71473,7 +71493,7 @@
     "id": "03543",
     "nombre": "Pan Pebete La Panerita x 6un",
     "precio": 110.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pebete1-6f4d4cf5f8495b246116118692752394-480-0.jpg",
     "url_producto": "productos/pan-pebete-la-panerita-x-6-unidades/",
     "historia": [
@@ -72201,7 +72221,7 @@
     "id": "03595",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 179.0,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -72481,7 +72501,7 @@
     "id": "03615",
     "nombre": "Repelente Off Extra Duración Aerosol 12 Hs 165cc",
     "precio": 275.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/25871-d267c5ef06209dd8bf16001967042975-480-0.jpg",
     "url_producto": "productos/repelente-off-extra-duracion-aerosol-12-hs-165-cc/",
     "historia": [
@@ -72495,7 +72515,7 @@
     "id": "03616",
     "nombre": "Repelente Off Family Aerosol 165ml",
     "precio": 187.3,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/12221-08f26ae4dd64851a5c15988935819506-480-0.jpg",
     "url_producto": "productos/repelente-off-family-aerosol-165-ml/",
     "historia": [
@@ -74258,7 +74278,7 @@
   {
     "id": "03742",
     "nombre": "Salsa Barbacoa Danica 220gr",
-    "precio": 65.0,
+    "precio": 69.5,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/salsa-barbacoa-danica-220-gr1-ef28446dcacf66068016110759892076-480-0.jpg",
     "url_producto": "productos/salsa-barbacoa-danica-220-gr/",
@@ -74266,6 +74286,10 @@
       {
         "fecha": "05/03/2021",
         "precio": 65.0
+      },
+      {
+        "fecha": "10/03/2021",
+        "precio": 69.5
       }
     ]
   },
@@ -74532,6 +74556,132 @@
       {
         "fecha": "09/03/2021",
         "precio": 101.77
+      }
+    ]
+  },
+  {
+    "id": "03762",
+    "nombre": "Arroz Gallo Integral 500gr",
+    "precio": 119.99,
+    "rubro": "Productos > Arroz y Legumbres",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/arroz-gallo-integral-500gr/",
+    "historia": [
+      {
+        "fecha": "10/03/2021",
+        "precio": 119.99
+      }
+    ]
+  },
+  {
+    "id": "03763",
+    "nombre": "Cerveza Andes Miel 473ml",
+    "precio": 99.0,
+    "rubro": "Productos > Cervezas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/cerveza-andes-miel-473-ml/",
+    "historia": [
+      {
+        "fecha": "10/03/2021",
+        "precio": 99.0
+      }
+    ]
+  },
+  {
+    "id": "03764",
+    "nombre": "Cerveza Stella Artois Noire x 473 Cm3",
+    "precio": 120.0,
+    "rubro": "Productos > Cervezas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/d_nq_np_624935-mla43554689072_092020-o1-239d71da66a009899816063952071180-480-0.jpg",
+    "url_producto": "productos/cerveza-stella-artois-noire-x-473-cm3/",
+    "historia": [
+      {
+        "fecha": "10/03/2021",
+        "precio": 120.0
+      }
+    ]
+  },
+  {
+    "id": "03765",
+    "nombre": "Ravioles La Salteña Jamón y Queso 450gr",
+    "precio": 160.0,
+    "rubro": "Productos > Pastas y Tapas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ravioles-jamon-y-queso-la-saltena-500-gr-1-355241-4542a160900961f11a16014823572577-480-0.jpg",
+    "url_producto": "productos/ravioles-la-saltena-jamon-y-queso-450-gr/",
+    "historia": [
+      {
+        "fecha": "10/03/2021",
+        "precio": 160.0
+      }
+    ]
+  },
+  {
+    "id": "03766",
+    "nombre": "Shampoo Suave Manzanilla Rubios 930ml",
+    "precio": 115.6,
+    "rubro": "Productos > Cuidado del Cabello",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/246181-76ed17f1ee3d61f38715990694108583-480-0.jpg",
+    "url_producto": "productos/shampoo-suave-manzanilla-rubios-930-ml/",
+    "historia": [
+      {
+        "fecha": "10/03/2021",
+        "precio": 115.6
+      }
+    ]
+  },
+  {
+    "id": "03767",
+    "nombre": "Aceite Natura Girasol 1,5lt",
+    "precio": 255.0,
+    "rubro": "Productos > Aceites y Vinagres",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1241-124ae2fb728b35be9415988859531149-480-0.jpg",
+    "url_producto": "productos/ac-natura-girasol-pvc-1-5-lt/",
+    "historia": [
+      {
+        "fecha": "11/03/2021",
+        "precio": 255.0
+      }
+    ]
+  },
+  {
+    "id": "03768",
+    "nombre": "Mayonesa Bc La Campagnola 250gr",
+    "precio": 74.5,
+    "rubro": "Productos > Aderezos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-591-ff75ef585bdb079f6916081388526724-480-0.jpg",
+    "url_producto": "productos/mayonesa-bc-la-campagnola-250-gr/",
+    "historia": [
+      {
+        "fecha": "11/03/2021",
+        "precio": 74.5
+      }
+    ]
+  },
+  {
+    "id": "03769",
+    "nombre": "Papas Fritas Lays 240gr",
+    "precio": 260.0,
+    "rubro": "Productos > Snacks",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-881-1706c2b34edc224c4f16100395604631-480-0.jpg",
+    "url_producto": "productos/papas-fritas-lays-240-gr/",
+    "historia": [
+      {
+        "fecha": "11/03/2021",
+        "precio": 260.0
+      }
+    ]
+  },
+  {
+    "id": "03770",
+    "nombre": "Sidra 1888 Saenz Briones 750ml",
+    "precio": 323.85,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sidra-1882-saenz-briones-750-ml1-4d0d623a4826e7e43616057117293366-480-0.jpg",
+    "url_producto": "productos/sidra-1888-saenz-briones-750-ml/",
+    "historia": [
+      {
+        "fecha": "11/03/2021",
+        "precio": 323.85
       }
     ]
   }
