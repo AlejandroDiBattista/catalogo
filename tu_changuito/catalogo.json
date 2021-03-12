@@ -66045,7 +66045,7 @@
     "id": "03163",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 85.7,
-    "rubro": "Productos > Arroz y Legumbres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -66129,7 +66129,7 @@
     "id": "03169",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -66598,7 +66598,7 @@
   {
     "id": "03202",
     "nombre": "Caldo Wilde Verdura 12un",
-    "precio": 65.9,
+    "precio": 75.9,
     "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/125461-7ade5d5c70721ad79815988364125576-480-0.jpg",
     "url_producto": "productos/caldo-wilde-verdura-12-un/",
@@ -66606,6 +66606,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 65.9
+      },
+      {
+        "fecha": "12/03/2021",
+        "precio": 75.9
       }
     ]
   },
@@ -67353,7 +67357,7 @@
     "id": "03255",
     "nombre": "Crema Dental Colgate Triple Acción 180gr",
     "precio": 276.79,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/49201-a9ac16555da61d17ea15988990071112-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-trip-accion-180-gr/",
     "historia": [
@@ -67367,7 +67371,7 @@
     "id": "03256",
     "nombre": "Crema Dental Colgate Triple Acción Extra Blancura 90gr",
     "precio": 187.05,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/128361-32cf2b8a5126d20fdb15988991304092-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-t-ac-ex-bco-90-gr/",
     "historia": [
@@ -67409,7 +67413,7 @@
     "id": "03259",
     "nombre": "Crema Dental Oral B Anticaries 150gr",
     "precio": 163.25,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crema-dental-oral-b-anticaries-150-gr1-f60633b3ab7e18ec5a16001951343628-480-0.jpg",
     "url_producto": "productos/cr-dental-oral-b-anticaries-150-gr/",
     "historia": [
@@ -67623,7 +67627,7 @@
     "id": "03274",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
     "precio": 125.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-400-gr/",
     "historia": [
@@ -67931,7 +67935,7 @@
     "id": "03296",
     "nombre": "Enjuague Bucal Colgate Luminous 250ml",
     "precio": 309.9,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/144891-1b9e7233fdb30e8d0315988890856943-480-0.jpg",
     "url_producto": "productos/enj-buc-colgate-luminous-250-ml/",
     "historia": [
@@ -69955,7 +69959,7 @@
     "id": "03436",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Postres y Repostería",
+    "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "historia": [
@@ -70154,7 +70158,7 @@
   {
     "id": "03450",
     "nombre": "Limpiador Mr. Musculo Baño Dp 450ml",
-    "precio": 64.55,
+    "precio": 66.82,
     "rubro": "Productos > Limpieza de Baño",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/unnamed-51-63b5efb44efd821aa916120132557831-480-0.jpg",
     "url_producto": "productos/limpiador-mr-musculo-bano-dp-450-ml/",
@@ -70162,6 +70166,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 64.55
+      },
+      {
+        "fecha": "12/03/2021",
+        "precio": 66.82
       }
     ]
   },
@@ -70931,7 +70939,7 @@
     "id": "03504",
     "nombre": "Mostaza Savora 250gr",
     "precio": 85.9,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/115651-091ba485b56ce6138915989074478331-480-0.jpg",
     "url_producto": "productos/mostaza-savora-250-grs/",
     "historia": [
@@ -72122,7 +72130,7 @@
   {
     "id": "03588",
     "nombre": "Puré De La Huerta 210gr",
-    "precio": 39.9,
+    "precio": 45.5,
     "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/183261-9122d3a4d55dd775fa15988934147219-480-0.jpg",
     "url_producto": "productos/pure-d-huerta-t-b-210-gr/",
@@ -72130,6 +72138,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 39.9
+      },
+      {
+        "fecha": "12/03/2021",
+        "precio": 45.5
       }
     ]
   },
@@ -74682,6 +74694,62 @@
       {
         "fecha": "11/03/2021",
         "precio": 323.85
+      }
+    ]
+  },
+  {
+    "id": "03771",
+    "nombre": "Aceite Natura Oliva Pet 500cc",
+    "precio": 377.0,
+    "rubro": "Productos > Aceites y Vinagres",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2513111-12423297cf4e1873d715990875760209-480-0.jpg",
+    "url_producto": "productos/ac-natura-oliva-pet-500-cc/",
+    "historia": [
+      {
+        "fecha": "12/03/2021",
+        "precio": 377.0
+      }
+    ]
+  },
+  {
+    "id": "03772",
+    "nombre": "Caldo Molto Verdura 12un",
+    "precio": 68.0,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/caldo-molto-verdura-12un/",
+    "historia": [
+      {
+        "fecha": "12/03/2021",
+        "precio": 68.0
+      }
+    ]
+  },
+  {
+    "id": "03773",
+    "nombre": "Leche Manfrey Entera 1lt",
+    "precio": 82.0,
+    "rubro": "Productos > Leches en Polvo y Larga Vida",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/121-f73bec6dffbfb6d02716068765835312-480-0.jpg",
+    "url_producto": "productos/leche-manfrey-entera-1-lt/",
+    "historia": [
+      {
+        "fecha": "12/03/2021",
+        "precio": 82.0
+      }
+    ]
+  },
+  {
+    "id": "03774",
+    "nombre": "Ojo De Bife x kg (*)",
+    "precio": 1.0,
+    "rubro": "Productos > La Vaca Club",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ojo-bife1-293925c83e7b91b85815988758961992-480-0.jpg",
+    "url_producto": "productos/lavacaclub-premium-ojodebife/",
+    "historia": [
+      {
+        "fecha": "12/03/2021",
+        "precio": 1.0
       }
     ]
   }
