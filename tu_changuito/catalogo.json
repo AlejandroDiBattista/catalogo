@@ -65932,7 +65932,7 @@
   {
     "id": "03155",
     "nombre": "Aperitivo Dr. Lemon Con Vodka 1lt",
-    "precio": 128.9,
+    "precio": 154.0,
     "rubro": "Productos > Aperitivos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/238121-3abbf435371720e81e15988194016922-480-0.jpg",
     "url_producto": "productos/aperit-dr-lemon-c-vodka-1-lt/",
@@ -65940,6 +65940,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 128.9
+      },
+      {
+        "fecha": "13/03/2021",
+        "precio": 154.0
       }
     ]
   },
@@ -66045,7 +66049,7 @@
     "id": "03163",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 85.7,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -66454,7 +66458,7 @@
   {
     "id": "03192",
     "nombre": "Bolsa Asurin Residuos 3,3x60 10un",
-    "precio": 74.1,
+    "precio": 78.9,
     "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg",
     "url_producto": "productos/bols-asurin-res-3-45x60-10-un/",
@@ -66462,6 +66466,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 74.1
+      },
+      {
+        "fecha": "13/03/2021",
+        "precio": 78.9
       }
     ]
   },
@@ -67412,7 +67420,7 @@
   {
     "id": "03259",
     "nombre": "Crema Dental Oral B Anticaries 150gr",
-    "precio": 163.25,
+    "precio": 189.0,
     "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crema-dental-oral-b-anticaries-150-gr1-f60633b3ab7e18ec5a16001951343628-480-0.jpg",
     "url_producto": "productos/cr-dental-oral-b-anticaries-150-gr/",
@@ -67420,6 +67428,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 163.25
+      },
+      {
+        "fecha": "13/03/2021",
+        "precio": 189.0
       }
     ]
   },
@@ -67627,7 +67639,7 @@
     "id": "03274",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
     "precio": 125.0,
-    "rubro": "Productos > Dulces y Mermeladas",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-400-gr/",
     "historia": [
@@ -69959,7 +69971,7 @@
     "id": "03436",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Leches en Polvo y Larga Vida",
+    "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "historia": [
@@ -70144,7 +70156,7 @@
   {
     "id": "03449",
     "nombre": "Limpiador Liquido Odex Baño Dp 450ml",
-    "precio": 60.9,
+    "precio": 75.0,
     "rubro": "Productos > Limpieza de Baño",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/limpiador-liquido-odex-bano-dp-450-ml1-cd19740e9a886fa18116119467957883-480-0.jpg",
     "url_producto": "productos/limpiador-liquido-odex-bano-dp-450-ml/",
@@ -70152,6 +70164,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 60.9
+      },
+      {
+        "fecha": "13/03/2021",
+        "precio": 75.0
       }
     ]
   },
@@ -72233,7 +72249,7 @@
     "id": "03595",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 179.0,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -73646,7 +73662,7 @@
   {
     "id": "03696",
     "nombre": "Vodka Absolut Ruby Red 750cc",
-    "precio": 1.43,
+    "precio": 1.86,
     "rubro": "Productos > Bebidas Blancas y Licores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/178971-2fcd611b18cc49bf4d15988894077377-480-0.jpg",
     "url_producto": "productos/vodka-absolut-ruby-red-750-cc/",
@@ -73654,13 +73670,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 1.43
+      },
+      {
+        "fecha": "13/03/2021",
+        "precio": 1.86
       }
     ]
   },
   {
     "id": "03697",
     "nombre": "Vodka Sky 750ml",
-    "precio": 516.9,
+    "precio": 629.99,
     "rubro": "Productos > Bebidas Blancas y Licores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/214131-73a3d19d3a8c469e4e15992487569302-480-0.jpg",
     "url_producto": "productos/vodka-sky-750-ml/",
@@ -73668,13 +73688,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 516.9
+      },
+      {
+        "fecha": "13/03/2021",
+        "precio": 629.99
       }
     ]
   },
   {
     "id": "03698",
     "nombre": "Vodka Smirnoff Bitter Citric 700cc",
-    "precio": 468.2,
+    "precio": 570.0,
     "rubro": "Productos > Bebidas Blancas y Licores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7791250002717_021-8dd73a9f9f8e02e37b16063954292783-480-0.jpg",
     "url_producto": "productos/vodka-smirnoff-bitter-citric-700-cc/",
@@ -73682,13 +73706,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 468.2
+      },
+      {
+        "fecha": "13/03/2021",
+        "precio": 570.0
       }
     ]
   },
   {
     "id": "03699",
     "nombre": "Vodka Smirnoff Green Apple 700cc",
-    "precio": 468.2,
+    "precio": 570.0,
     "rubro": "Productos > Bebidas Blancas y Licores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/235091-694f0255f89124502415988895570680-480-0.jpg",
     "url_producto": "productos/vodka-smirnoff-green-apple-700-cc/",
@@ -73696,13 +73724,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 468.2
+      },
+      {
+        "fecha": "13/03/2021",
+        "precio": 570.0
       }
     ]
   },
   {
     "id": "03700",
     "nombre": "Vodka Smirnoff Raspberry 700ml",
-    "precio": 468.2,
+    "precio": 570.0,
     "rubro": "Productos > Bebidas Blancas y Licores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/vodka-smirnoff-raspberry-700-ml1-02c4a493b084c8fca616140026329294-480-0.jpg",
     "url_producto": "productos/vodka-smirnoff-raspberry-700-ml/",
@@ -73710,6 +73742,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 468.2
+      },
+      {
+        "fecha": "13/03/2021",
+        "precio": 570.0
       }
     ]
   },
@@ -74750,6 +74786,20 @@
       {
         "fecha": "12/03/2021",
         "precio": 1.0
+      }
+    ]
+  },
+  {
+    "id": "03775",
+    "nombre": "Shampoo Sedal Rizos Definidos 340ml",
+    "precio": 188.0,
+    "rubro": "Productos > Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/22001-964ea0f7a768366f6615988876092327-480-0.jpg",
+    "url_producto": "productos/shampoo-sedal-rizos-definidos-340-ml/",
+    "historia": [
+      {
+        "fecha": "13/03/2021",
+        "precio": 188.0
       }
     ]
   }

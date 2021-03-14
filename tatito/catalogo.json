@@ -12299,7 +12299,7 @@
   },
   {
     "id": "00439",
-    "nombre": "Fideos Rivoli Mo?ito 500gr",
+    "nombre": "Fideos Rivoli Moñito 500gr",
     "precio": 74.0,
     "rubro": "Almacén > Fideos",
     "url_imagen": "2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg",
@@ -21407,6 +21407,36 @@
       {
         "fecha": "12/03/2021",
         "precio": 60.7
+      }
+    ]
+  },
+  {
+    "id": "00871",
+    "nombre": "Fideo Rivoli Cinta 500gr",
+    "precio": 68.0,
+    "rubro": "Almacén > Fideos",
+    "url_imagen": "2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg",
+    "url_producto": "fideo-rivoli-cinta-500-gr/",
+    "precio_1": "3,59.68",
+    "historia": [
+      {
+        "fecha": "13/03/2021",
+        "precio": 68.0
+      }
+    ]
+  },
+  {
+    "id": "00872",
+    "nombre": "Fideos Rivoli Especial 500gr",
+    "precio": 74.0,
+    "rubro": "Almacén > Fideos",
+    "url_imagen": "2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg",
+    "url_producto": "fideos-rivoli-especial-500g/",
+    "precio_1": "3,64.97",
+    "historia": [
+      {
+        "fecha": "13/03/2021",
+        "precio": 74.0
       }
     ]
   }
