@@ -269,10 +269,10 @@ class Web
 	end
 end
 
-require_relative './jumbo'
-require_relative './tatito'
-require_relative './tu_changuito'
-require_relative './maxiconsumo'
+require_relative './jumbo/jumbo'
+require_relative './tatito/tatito'
+require_relative './tu_changuito/tu_changuito'
+require_relative './maxiconsumo/maxiconsumo'
 
 def correr(accion, modulos: [:tatito, :tu_changuito, :jumbo, :maxiconsumo])
 	medir "Procesando datos [#{accion}] en #{modulos.count} modulos" do 
