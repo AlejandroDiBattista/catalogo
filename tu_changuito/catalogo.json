@@ -65485,7 +65485,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65498,14 +65498,18 @@
   {
     "id": "03120",
     "nombre": "Agua Sin Gas Kin 2lt",
-    "precio": 74.0,
-    "rubro": "Productos > Aguas sin Gas",
+    "precio": 69.9,
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-kin-sin-gas-2-lt1-758653d6a7aba3100016013973390850-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-kin-2-lt/",
     "historia": [
       {
         "fecha": "04/03/2021",
         "precio": 74.0
+      },
+      {
+        "fecha": "20/03/2021",
+        "precio": 69.9
       }
     ]
   },
@@ -66305,7 +66309,7 @@
     "id": "03169",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -67188,7 +67192,7 @@
   {
     "id": "03227",
     "nombre": "Cheetos Pepsico Queso 150gr",
-    "precio": 229.34,
+    "precio": 199.9,
     "rubro": "Productos > Snacks",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790310983188_011-4cbdbcd05e5d6e7d5016025222736625-480-0.jpg",
     "url_producto": "productos/cheetos-pepsico-queso-150-gr/",
@@ -67196,6 +67200,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 229.34
+      },
+      {
+        "fecha": "20/03/2021",
+        "precio": 199.9
       }
     ]
   },
@@ -67625,7 +67633,7 @@
     "id": "03255",
     "nombre": "Crema Dental Colgate Triple Acción 180gr",
     "precio": 318.5,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/49201-a9ac16555da61d17ea15988990071112-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-trip-accion-180-gr/",
     "historia": [
@@ -67643,7 +67651,7 @@
     "id": "03256",
     "nombre": "Crema Dental Colgate Triple Acción Extra Blancura 90gr",
     "precio": 187.06,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/128361-32cf2b8a5126d20fdb15988991304092-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-t-ac-ex-bco-90-gr/",
     "historia": [
@@ -67693,7 +67701,7 @@
     "id": "03259",
     "nombre": "Crema Dental Oral B Anticaries 150gr",
     "precio": 189.0,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crema-dental-oral-b-anticaries-150-gr1-f60633b3ab7e18ec5a16001951343628-480-0.jpg",
     "url_producto": "productos/cr-dental-oral-b-anticaries-150-gr/",
     "historia": [
@@ -68251,7 +68259,7 @@
     "id": "03296",
     "nombre": "Enjuague Bucal Colgate Luminous 250ml",
     "precio": 309.9,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/144891-1b9e7233fdb30e8d0315988890856943-480-0.jpg",
     "url_producto": "productos/enj-buc-colgate-luminous-250-ml/",
     "historia": [
@@ -69346,7 +69354,7 @@
   {
     "id": "03366",
     "nombre": "Hamburguesa Swift Carne 20un",
-    "precio": 1.276,
+    "precio": 1.4,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/236161-61c45c86ae4cfaa4ef15992499385568-480-0.jpg",
     "url_producto": "productos/hamburguesa-swift-carne-20-un/",
@@ -69358,6 +69366,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 1.276
+      },
+      {
+        "fecha": "20/03/2021",
+        "precio": 1.4
       }
     ]
   },
@@ -70479,7 +70491,7 @@
     "id": "03436",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Leches en Polvo y Larga Vida",
+    "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "historia": [
@@ -71412,7 +71424,7 @@
   {
     "id": "03495",
     "nombre": "Milanesa De Soja Swift Jamon y Queso 350gr",
-    "precio": 165.0,
+    "precio": 140.27,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/milanesa-de-soja-swift-jamon-y-queso-350-gr1-957efbf325889972b416105515625072-480-0.jpg",
     "url_producto": "productos/milanesa-de-soja-swift-jamon-y-queso-350-gr/",
@@ -71420,6 +71432,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 165.0
+      },
+      {
+        "fecha": "20/03/2021",
+        "precio": 140.27
       }
     ]
   },
@@ -71476,7 +71492,7 @@
   {
     "id": "03499",
     "nombre": "Milanesa Swift Soja 330gr",
-    "precio": 92.18,
+    "precio": 99.97,
     "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220891-ec0f2609a8a29abe8b15990685820783-480-0.jpg",
     "url_producto": "productos/milanes-swift-soja-290-gr/",
@@ -71488,6 +71504,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 92.18
+      },
+      {
+        "fecha": "20/03/2021",
+        "precio": 99.97
       }
     ]
   },
@@ -71555,7 +71575,7 @@
     "id": "03504",
     "nombre": "Mostaza Savora 250gr",
     "precio": 85.9,
-    "rubro": "Productos > Aderezos",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/115651-091ba485b56ce6138915989074478331-480-0.jpg",
     "url_producto": "productos/mostaza-savora-250-grs/",
     "historia": [
@@ -71971,7 +71991,7 @@
     "id": "03530",
     "nombre": "Pan De Campo La Panerita 360gr",
     "precio": 120.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705210_cgm1-8f978b8782b636012716130803607456-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-360-gr/",
     "historia": [
@@ -71989,7 +72009,7 @@
     "id": "03531",
     "nombre": "Pan De Campo La Panerita Con Semillas 340gr",
     "precio": 130.5,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705583_chm1-9697b42f2bf55399aa16130802662831-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-con-semillas-340-gr/",
     "historia": [
@@ -72003,7 +72023,7 @@
     "id": "03532",
     "nombre": "Pan De Hamburguesa La Panerita x 4un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/311-c0d1a72eb892048d8c16118693644227-480-0.jpg",
     "url_producto": "productos/pan-de-hamburguesa-la-panerita-x-4-unidades/",
     "historia": [
@@ -72017,7 +72037,7 @@
     "id": "03533",
     "nombre": "Pan De Viena La Panerita x 6un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211-be805d33b897e5219a16118693250617-480-0.jpg",
     "url_producto": "productos/pan-de-viena-la-panerita-x-6-unidades/",
     "historia": [
@@ -72044,7 +72064,7 @@
   {
     "id": "03535",
     "nombre": "Pan Fargo Hamburguesa 210gr",
-    "precio": 105.0,
+    "precio": 115.7,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2555411-bae61a30f2442126bb15990899603397-480-0.jpg",
     "url_producto": "productos/pan-fargo-hamburguesa-210-gr/",
@@ -72052,6 +72072,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 105.0
+      },
+      {
+        "fecha": "20/03/2021",
+        "precio": 115.7
       }
     ]
   },
@@ -72091,7 +72115,7 @@
     "id": "03538",
     "nombre": "Pan Lactal La Panerita Blanco 400gr ,",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-967720a304d43123a016118693910439-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-blanco-400-gr/",
     "historia": [
@@ -72105,7 +72129,7 @@
     "id": "03539",
     "nombre": "Pan Lactal La Panerita Salvado 400gr",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/51-7eb96e352d872455a216118694168191-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-salvado-400-gr/",
     "historia": [
@@ -72161,7 +72185,7 @@
     "id": "03543",
     "nombre": "Pan Pebete La Panerita x 6un",
     "precio": 110.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pebete1-6f4d4cf5f8495b246116118692752394-480-0.jpg",
     "url_producto": "productos/pan-pebete-la-panerita-x-6-unidades/",
     "historia": [
@@ -72533,7 +72557,7 @@
     "id": "03567",
     "nombre": "Patitas Granja De Sol Queso Jamón 400gr",
     "precio": 306.0,
-    "rubro": "Productos > Congelados de Pollo",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830711-dba545bed7ed42864715990035883853-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-que-jam-400-gr/",
     "historia": [
@@ -72974,7 +72998,7 @@
   {
     "id": "03596",
     "nombre": "Queso Ilolay Cream Light 300gr",
-    "precio": 155.4,
+    "precio": 167.7,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2366711-ff8614ee965c9b2c9e15990917915270-480-0.jpg",
     "url_producto": "productos/queso-ilolay-cream-light-300-gr/",
@@ -72982,6 +73006,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 155.4
+      },
+      {
+        "fecha": "20/03/2021",
+        "precio": 167.7
       }
     ]
   },
@@ -75188,7 +75216,7 @@
   {
     "id": "03741",
     "nombre": "Mostaza Danica 220gr",
-    "precio": 43.4,
+    "precio": 47.8,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mostaza-danica-220-gr1-bf3883efd8d95dd9d016082334483528-480-0.png",
     "url_producto": "productos/mostaza-danica-220-gr/",
@@ -75196,6 +75224,10 @@
       {
         "fecha": "05/03/2021",
         "precio": 43.4
+      },
+      {
+        "fecha": "20/03/2021",
+        "precio": 47.8
       }
     ]
   },
@@ -75518,7 +75550,7 @@
   {
     "id": "03764",
     "nombre": "Cerveza Stella Artois Noire x 473 Cm3",
-    "precio": 120.0,
+    "precio": 125.0,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/d_nq_np_624935-mla43554689072_092020-o1-239d71da66a009899816063952071180-480-0.jpg",
     "url_producto": "productos/cerveza-stella-artois-noire-x-473-cm3/",
@@ -75526,6 +75558,10 @@
       {
         "fecha": "10/03/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "20/03/2021",
+        "precio": 125.0
       }
     ]
   },
@@ -83373,7 +83409,7 @@
     "id": "04323",
     "nombre": "Suprema Granja De Sol Pollo 360gr",
     "precio": 370.7,
-    "rubro": "Productos > Congelados de Pollo",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830811-607b67364edc558d3415990038309902-480-0.jpg",
     "url_producto": "productos/suprema-granja-de-sol-pollo-360-gr/",
     "historia": [
@@ -83418,7 +83454,7 @@
   {
     "id": "04326",
     "nombre": "Cerveza Stella Artois 6un Sixpack x 473cc",
-    "precio": 680.0,
+    "precio": 695.0,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/stella1-dcc9224b8ff57c56a616007821913307-480-0.jpg",
     "url_producto": "productos/cerveza-stella-artois-6u-sixpack-x-473cc/",
@@ -83426,6 +83462,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 680.0
+      },
+      {
+        "fecha": "20/03/2021",
+        "precio": 695.0
       }
     ]
   },
@@ -83650,6 +83690,76 @@
       {
         "fecha": "19/03/2021",
         "precio": 270.0
+      }
+    ]
+  },
+  {
+    "id": "04343",
+    "nombre": "Bon O Bon Leche 15gr",
+    "precio": 19.9,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77919373-bombon-con-crema-cacahuete-arcor-16-gr-500x5001-84f6149c0e992d4c4116131327471634-480-0.jpg",
+    "url_producto": "productos/bon-o-bon-leche-15-gr/",
+    "historia": [
+      {
+        "fecha": "20/03/2021",
+        "precio": 19.9
+      }
+    ]
+  },
+  {
+    "id": "04344",
+    "nombre": "Crema Dental Colgate Herbal Blanqueadora 70gr",
+    "precio": 91.0,
+    "rubro": "Productos > Cuidado Bucal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/crema-dental-colgate-herbal-blanqueadora-70gr/",
+    "historia": [
+      {
+        "fecha": "20/03/2021",
+        "precio": 91.0
+      }
+    ]
+  },
+  {
+    "id": "04345",
+    "nombre": "Mermelada Arcor Durazno 454gr",
+    "precio": 137.99,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/32621-96e976024514da750315988912291049-480-0.jpg",
+    "url_producto": "productos/merm-arcor-durazno-454-gr/",
+    "historia": [
+      {
+        "fecha": "20/03/2021",
+        "precio": 137.99
+      }
+    ]
+  },
+  {
+    "id": "04346",
+    "nombre": "Pascualina La Salteña Hojaldradas 400gr",
+    "precio": 125.0,
+    "rubro": "Productos > Pastas y Tapas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tapas-pascualina-la-saltena-hojaldradas-400-gr1-88c13578846fd5e5c216111695723192-480-0.jpg",
+    "url_producto": "productos/pascualina-la-saltena-hojaldradas-400-gr/",
+    "historia": [
+      {
+        "fecha": "20/03/2021",
+        "precio": 125.0
+      }
+    ]
+  },
+  {
+    "id": "04347",
+    "nombre": "Tapa De Empanadas Sumasa Criolla 300gr",
+    "precio": 73.3,
+    "rubro": "Productos > Pastas y Tapas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/tapa-de-empanadas-sumasa-criolla-300-gr/",
+    "historia": [
+      {
+        "fecha": "20/03/2021",
+        "precio": 73.3
       }
     ]
   }
