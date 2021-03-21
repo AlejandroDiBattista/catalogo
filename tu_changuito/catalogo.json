@@ -65499,7 +65499,7 @@
     "id": "03120",
     "nombre": "Agua Sin Gas Kin 2lt",
     "precio": 69.9,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-kin-sin-gas-2-lt1-758653d6a7aba3100016013973390850-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-kin-2-lt/",
     "historia": [
@@ -66309,7 +66309,7 @@
     "id": "03169",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Conservas",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -66436,7 +66436,7 @@
   {
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
-    "precio": 420.0,
+    "precio": 450.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
@@ -66448,6 +66448,10 @@
       {
         "fecha": "09/03/2021",
         "precio": 420.0
+      },
+      {
+        "fecha": "21/03/2021",
+        "precio": 450.0
       }
     ]
   },
@@ -67718,7 +67722,7 @@
   {
     "id": "03260",
     "nombre": "Croquetas De Zapallo y Queso x 500gr Aprox.(*)",
-    "precio": 370.0,
+    "precio": 390.0,
     "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/70-croquetas-de-zapallo-11-378a1efd3309568de016026936445936-480-0.jpg",
     "url_producto": "productos/croquetas-de-zapallo-y-queso-x-500-gr-aprox/",
@@ -67730,6 +67734,10 @@
       {
         "fecha": "09/03/2021",
         "precio": 370.0
+      },
+      {
+        "fecha": "21/03/2021",
+        "precio": 390.0
       }
     ]
   },
@@ -68652,7 +68660,7 @@
   {
     "id": "03321",
     "nombre": "Filet De Merluza Rebozado Con Finas Hierbas x 500gr (*)",
-    "precio": 540.0,
+    "precio": 560.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/63-filet-de-merluza-con-finas-hierbas-11-1f9ef0c494ce58e4c616026929555754-480-0.jpg",
     "url_producto": "productos/filet-de-merluza-rebozado-con-finas-hierbas-x-500-gr/",
@@ -68664,13 +68672,17 @@
       {
         "fecha": "09/03/2021",
         "precio": 540.0
+      },
+      {
+        "fecha": "21/03/2021",
+        "precio": 560.0
       }
     ]
   },
   {
     "id": "03322",
     "nombre": "Filet De Merluza Rebozado x 500gr Aprox.(*)",
-    "precio": 510.0,
+    "precio": 540.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mila-merluza1-5b55a2043c61666d4616027209978321-480-0.jpg",
     "url_producto": "productos/filet-de-merluza-rebozado-x-500-gr-aprox/",
@@ -68682,6 +68694,10 @@
       {
         "fecha": "09/03/2021",
         "precio": 510.0
+      },
+      {
+        "fecha": "21/03/2021",
+        "precio": 540.0
       }
     ]
   },
@@ -68749,7 +68765,7 @@
     "id": "03327",
     "nombre": "Galletas De Arroz Integral Arrotuc Saladas 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-80ddd43e1a57a435d816116159267143-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-arrotuc-saladas-12-un-s-t-a-c-c/",
     "historia": [
@@ -68763,7 +68779,7 @@
     "id": "03328",
     "nombre": "Galletas De Arroz Integral Dulces Arrotuc 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/31-34d6a2caa7cf8c242816116158614983-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-dulces-arrotuc-12-un-s-t-a-c-c/",
     "historia": [
@@ -68777,7 +68793,7 @@
     "id": "03329",
     "nombre": "Galletas De Arroz Integral Sin Sal Arrotuc 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-28085d50db185491d516116158878935-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-sin-sal-arrotuc-12-un-s-t-a-c-c/",
     "historia": [
@@ -68872,7 +68888,7 @@
   {
     "id": "03335",
     "nombre": "Galletitas Rex Original Estuche 125gr",
-    "precio": 79.99,
+    "precio": 88.2,
     "rubro": "Productos > Snacks",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/galletitas-rex-original-estuche-125-gr1-600bbafd61584c009416099548355743-480-0.jpg",
     "url_producto": "productos/galletitas-rex-original-estuche-125-gr/",
@@ -68880,6 +68896,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 79.99
+      },
+      {
+        "fecha": "21/03/2021",
+        "precio": 88.2
       }
     ]
   },
@@ -69290,7 +69310,7 @@
   {
     "id": "03362",
     "nombre": "Hamburguesa Paty Finita 2un",
-    "precio": 96.85,
+    "precio": 52.9,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790670050728_021-adffdf86b098cb839515996126617731-480-0.jpg",
     "url_producto": "productos/hamb-paty-finita-2-un/",
@@ -69302,6 +69322,10 @@
       {
         "fecha": "19/03/2021",
         "precio": 96.85
+      },
+      {
+        "fecha": "21/03/2021",
+        "precio": 52.9
       }
     ]
   },
@@ -69463,7 +69487,7 @@
     "id": "03372",
     "nombre": "Harina Pureza Integral 1kg",
     "precio": 88.27,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59131-01a582d1c75c49900515989691653247-480-0.jpg",
     "url_producto": "productos/har-pureza-integral-1-kg/",
     "historia": [
@@ -69881,7 +69905,7 @@
     "id": "03399",
     "nombre": "Jugo Arcor Naranja S/t.a.c.c. 200ml",
     "precio": 26.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/jugo-arcor-naranja-sin-tacc-200-ml1-15e3f79a8468ad6b8716110759232509-480-0.jpg",
     "url_producto": "productos/jugo-arcor-naranja-s-t-a-c-c-200-ml/",
     "historia": [
@@ -70007,7 +70031,7 @@
     "id": "03408",
     "nombre": "Jugo Minerva Limón 500cc",
     "precio": 188.37,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/113111-6f045e8b2c177790cd15990030622137-480-0.jpg",
     "url_producto": "productos/jug-minerva-limon-500-cc/",
     "historia": [
@@ -70345,7 +70369,7 @@
     "id": "03429",
     "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana Pet 1lt",
     "precio": 99.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/botella-larga-vida1-be092cc5467eb617e115997437553116-480-0.jpg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-pet-1-l/",
     "historia": [
@@ -70491,7 +70515,7 @@
     "id": "03436",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Postres y Repostería",
+    "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "historia": [
@@ -70885,7 +70909,7 @@
     "id": "03461",
     "nombre": "Mantequilla De Mani C/dulce De Leche 500gr",
     "precio": 299.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mantequilla-de-mani-con-dulce-de-leche-500-gr1-9ee9db0f0eec43651816116010205978-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-c-dulce-de-leche-500-gr/",
     "historia": [
@@ -70899,7 +70923,7 @@
     "id": "03462",
     "nombre": "Mantequilla De Mani Fitfruits 500gr",
     "precio": 275.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-25t155535-0511-a90958bee18a74825316116009496795-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-fitfruits-500-gr/",
     "historia": [
@@ -71110,7 +71134,7 @@
   {
     "id": "03476",
     "nombre": "Medallón De Merluza Con Jamón y Queso x 500gr Aprox.(*)",
-    "precio": 380.0,
+    "precio": 399.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59-medallones-de-merluza-con-jamon-y-queso1-08e28cce7b23fff11716026923931898-480-0.jpg",
     "url_producto": "productos/medallon-de-merluza-con-jamon-y-queso-x-500-gr-aprox/",
@@ -71122,13 +71146,17 @@
       {
         "fecha": "09/03/2021",
         "precio": 380.0
+      },
+      {
+        "fecha": "21/03/2021",
+        "precio": 399.0
       }
     ]
   },
   {
     "id": "03477",
     "nombre": "Medallón De Merluza Tradicional x 500gr Aprox.(*)",
-    "precio": 320.0,
+    "precio": 330.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/58-medallones-de-merluza-tradicionales-11-419356a86263c75c6916026937216325-480-0.jpg",
     "url_producto": "productos/medallon-de-merluza-tradicional-x-500-gr-aprox/",
@@ -71140,13 +71168,17 @@
       {
         "fecha": "09/03/2021",
         "precio": 320.0
+      },
+      {
+        "fecha": "21/03/2021",
+        "precio": 330.0
       }
     ]
   },
   {
     "id": "03478",
     "nombre": "Medallón De Pollo Con Jamón y Queso x 500gr Aprox. (*)",
-    "precio": 390.0,
+    "precio": 420.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/66-medallones-de-pollo-con-jamon-y-queso-11-17e1c470a9b92911fb16026932854523-480-0.jpg",
     "url_producto": "productos/medallon-de-pollo-con-jamon-y-queso-x-500-gr-aprox/",
@@ -71158,13 +71190,17 @@
       {
         "fecha": "09/03/2021",
         "precio": 390.0
+      },
+      {
+        "fecha": "21/03/2021",
+        "precio": 420.0
       }
     ]
   },
   {
     "id": "03479",
     "nombre": "Medallón De Pollo Tradicional x 500gr Aprox.(*)",
-    "precio": 360.0,
+    "precio": 390.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/65-medallones-de-pollo-tradicionales-11-0948e0e3ffea01dfac16026931236580-480-0.jpg",
     "url_producto": "productos/medallon-de-pollo-tradicional-x-500-gr-aprox/",
@@ -71176,6 +71212,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 360.0
+      },
+      {
+        "fecha": "21/03/2021",
+        "precio": 390.0
       }
     ]
   },
@@ -71229,7 +71269,7 @@
     "id": "03483",
     "nombre": "Medallones De Quinoa Bambu Con Batata Roja y Curry 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/31-0d95a2d750cf46156016135887047402-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-batata-roja-y-curry-360-gr/",
     "historia": [
@@ -71247,7 +71287,7 @@
     "id": "03484",
     "nombre": "Medallones De Quinoa Bambu Con Brocoli 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-28t133000-7341-9246fe4e03dc07a08d16118514633734-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-brocoli-360-gr/",
     "historia": [
@@ -71265,7 +71305,7 @@
     "id": "03485",
     "nombre": "Medallones De Quinoa Bambu Con Cebolla Caramelizada 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-0ac7d05aa033abaf7416135887401078-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-cebolla-caramelizada-360-gr/",
     "historia": [
@@ -71616,7 +71656,7 @@
   {
     "id": "03507",
     "nombre": "Nugget De Merluza x 500gr Aprox.(*)",
-    "precio": 330.0,
+    "precio": 340.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/61-nuggets-de-merluza-11-63e6b8ca2d13a3cfb716026926163835-480-0.jpg",
     "url_producto": "productos/nugget-de-merluza-x-500-gr-aprox/",
@@ -71628,6 +71668,10 @@
       {
         "fecha": "09/03/2021",
         "precio": 330.0
+      },
+      {
+        "fecha": "21/03/2021",
+        "precio": 340.0
       }
     ]
   },
@@ -71900,7 +71944,7 @@
   {
     "id": "03525",
     "nombre": "Pampitos De Pollo Con Jamón y Queso x 500gr Aprox.(*)",
-    "precio": 400.0,
+    "precio": 430.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pampitos-de-pollo1-f053ff8445d83094e616026934595933-480-0.jpg",
     "url_producto": "productos/pampitos-de-pollo-con-jamon-y-queso-x-500-gr-aprox/",
@@ -71912,13 +71956,17 @@
       {
         "fecha": "09/03/2021",
         "precio": 400.0
+      },
+      {
+        "fecha": "21/03/2021",
+        "precio": 430.0
       }
     ]
   },
   {
     "id": "03526",
     "nombre": "Pampitos De Pollo x 500gr Aprox.(*)",
-    "precio": 370.0,
+    "precio": 400.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pampitos1-a92f5c47348991626c16026935447949-480-0.jpg",
     "url_producto": "productos/pampitos-de-pollo-x-500-gr-aprox/",
@@ -71930,6 +71978,10 @@
       {
         "fecha": "09/03/2021",
         "precio": 370.0
+      },
+      {
+        "fecha": "21/03/2021",
+        "precio": 400.0
       }
     ]
   },
@@ -72557,7 +72609,7 @@
     "id": "03567",
     "nombre": "Patitas Granja De Sol Queso Jamón 400gr",
     "precio": 306.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830711-dba545bed7ed42864715990035883853-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-que-jam-400-gr/",
     "historia": [
@@ -72981,7 +73033,7 @@
     "id": "03595",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 195.3,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -73849,7 +73901,7 @@
     "id": "03653",
     "nombre": "Shampoo Tresemme Keratina 400ml",
     "precio": 285.88,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/161771-e8acb2da185d094b4d15988877301296-480-0.jpg",
     "url_producto": "productos/shamp-tresemme-keratina-400-ml/",
     "historia": [
@@ -83409,7 +83461,7 @@
     "id": "04323",
     "nombre": "Suprema Granja De Sol Pollo 360gr",
     "precio": 370.7,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830811-607b67364edc558d3415990038309902-480-0.jpg",
     "url_producto": "productos/suprema-granja-de-sol-pollo-360-gr/",
     "historia": [
@@ -83760,6 +83812,132 @@
       {
         "fecha": "20/03/2021",
         "precio": 73.3
+      }
+    ]
+  },
+  {
+    "id": "04348",
+    "nombre": "Caballa En Aceite Puglisi 380gr",
+    "precio": 208.5,
+    "rubro": "Productos > Conservas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/caballa-en-aceite-puglisi-380-gr-1-22281-71b0611cd04d93672916122923844726-480-0.jpg",
+    "url_producto": "productos/caballa-en-aceite-puglisi-380gr/",
+    "historia": [
+      {
+        "fecha": "21/03/2021",
+        "precio": 208.5
+      }
+    ]
+  },
+  {
+    "id": "04349",
+    "nombre": "Crema Dental Colgate Herbal Blanqueadora 70gr",
+    "precio": 91.0,
+    "rubro": "Productos > Cuidado Bucal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crema-dental-colgate-herbal-blanqueadora-70gr1-aae2800d93bcba92c516162494905784-480-0.jpg",
+    "url_producto": "productos/crema-dental-colgate-herbal-blanqueadora-70gr/",
+    "historia": [
+      {
+        "fecha": "21/03/2021",
+        "precio": 91.0
+      }
+    ]
+  },
+  {
+    "id": "04350",
+    "nombre": "Humo Liquido Brasas Norteñas 100cc",
+    "precio": 250.0,
+    "rubro": "Productos > Brasas Norteñas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-03-20t110712-4821-a350a15e76dc8e927e16162492643991-480-0.jpg",
+    "url_producto": "productos/humo-liquido-brasas-nortenas-100-cc/",
+    "historia": [
+      {
+        "fecha": "21/03/2021",
+        "precio": 250.0
+      }
+    ]
+  },
+  {
+    "id": "04351",
+    "nombre": "Jabon Liquido Lysoform Refresh Repuesto 220cc",
+    "precio": 149.5,
+    "rubro": "Productos > Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/jabon-liquido-lysoform-refresh-repuesto-220-cc1-9916089409a7cb2c5116162479782687-480-0.jpg",
+    "url_producto": "productos/jabon-liquido-lysoform-refresh-repuesto-220-cc/",
+    "historia": [
+      {
+        "fecha": "21/03/2021",
+        "precio": 149.5
+      }
+    ]
+  },
+  {
+    "id": "04352",
+    "nombre": "Rollo De Cocina Felpita Texturado 3x40un",
+    "precio": 75.0,
+    "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/unnamed1-0c2c32f3e2c73ef81616126257034651-480-0.jpg",
+    "url_producto": "productos/rollo-de-cocina-felpita-texturado-3x40-un/",
+    "historia": [
+      {
+        "fecha": "21/03/2021",
+        "precio": 75.0
+      }
+    ]
+  },
+  {
+    "id": "04353",
+    "nombre": "Sal Gourmet Brasas Norteñas Etiqueta Negra 220gr",
+    "precio": 140.0,
+    "rubro": "Productos > Brasas Norteñas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-03-20t113313-1201-a9a233cf2919de1eb816162508439504-480-0.jpg",
+    "url_producto": "productos/sal-gourmet-brasas-nortenas-etiqueta-negra-220-gr/",
+    "historia": [
+      {
+        "fecha": "21/03/2021",
+        "precio": 140.0
+      }
+    ]
+  },
+  {
+    "id": "04354",
+    "nombre": "Sal Gourmet Brasas Norteñas Etiqueta Verde 220gr",
+    "precio": 140.0,
+    "rubro": "Productos > Brasas Norteñas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-03-20t113635-1941-54d4940bd9fce78e3516162510206201-480-0.jpg",
+    "url_producto": "productos/sal-gourmet-brasas-nortenas-etiqueta-verde-220-gr/",
+    "historia": [
+      {
+        "fecha": "21/03/2021",
+        "precio": 140.0
+      }
+    ]
+  },
+  {
+    "id": "04355",
+    "nombre": "Tapa De Empanadas Sumasa Criolla 300gr",
+    "precio": 73.3,
+    "rubro": "Productos > Pastas y Tapas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tapa-de-empanadas-sumasa-criolla-300-gr1-7d60ddd59a5e4deca816162493895474-480-0.jpg",
+    "url_producto": "productos/tapa-de-empanadas-sumasa-criolla-300-gr/",
+    "historia": [
+      {
+        "fecha": "21/03/2021",
+        "precio": 73.3
+      }
+    ]
+  },
+  {
+    "id": "04356",
+    "nombre": "Vino Dilema Blanco Dulce 750ml",
+    "precio": 270.0,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/vino-dilema-blanco-dulce-750ml1-1b639709e4292f0eca16162486163448-480-0.jpg",
+    "url_producto": "productos/vino-dilema-blanco-dulce-750ml/",
+    "historia": [
+      {
+        "fecha": "21/03/2021",
+        "precio": 270.0
       }
     ]
   }

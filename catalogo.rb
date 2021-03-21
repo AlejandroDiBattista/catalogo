@@ -252,9 +252,10 @@ class Catalogo
 			catalogo 
 		end
 
-		DestinoSitio = 'C:/Users/gogo/Documents/GitHub/mitienda/tienda'
+		DestinoSitio = "C:/Users/gogo/Documents/GitHub/mitienda/tienda"
 		def generar_sitio(base=:tatito)
-			 
+			p Dir.pwd 
+			return 
 			destino_seed = "#{DestinoSitio}/db/seeds.rb"
 			destino_img  = "#{DestinoSitio}/app/assets/images"
 
@@ -283,9 +284,9 @@ end
 
 if __FILE__ == $0
 	medir "Cargando TODO (full)" do 
-		bases = [ :tatito, :jumbo, :maxiconsumo, :tu_changuito]
-		bases.each{|base| Catalogo.actualizar(base)}
-		bases.each{|base| Catalogo.bajar_fotos(base)}
+		# bases = [ :tatito, :jumbo, :maxiconsumo, :tu_changuito]
+		# bases.each{|base| Catalogo.actualizar(base)}
+		# bases.each{|base| Catalogo.bajar_fotos(base)}
 		Catalogo.generar_sitio :tatito
 	end
 end
