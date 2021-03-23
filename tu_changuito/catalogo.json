@@ -65457,7 +65457,7 @@
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
     "precio": 133.5,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -65485,7 +65485,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65499,7 +65499,7 @@
     "id": "03120",
     "nombre": "Agua Sin Gas Kin 2lt",
     "precio": 69.9,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-kin-sin-gas-2-lt1-758653d6a7aba3100016013973390850-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-kin-2-lt/",
     "historia": [
@@ -66213,7 +66213,7 @@
     "id": "03163",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 88.28,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -66309,7 +66309,7 @@
     "id": "03169",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -66546,7 +66546,7 @@
   {
     "id": "03184",
     "nombre": "Bife Ancho (marucha) x kg (*)",
-    "precio": 620.0,
+    "precio": 690.0,
     "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-ancho1-046e8ec9180bc119ef15988756860268-480-0.jpg",
     "url_producto": "productos/bife-ancho-marucha-x-kg/",
@@ -66554,6 +66554,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 620.0
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 690.0
       }
     ]
   },
@@ -66574,7 +66578,7 @@
   {
     "id": "03186",
     "nombre": "Bife De Chorizo Cortado P/ Bife x kg (*)",
-    "precio": 770.0,
+    "precio": 870.0,
     "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-chorizo1-041d9d9fbaf770027115988756952195-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-bifedechorizo/",
@@ -66582,6 +66586,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 770.0
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 870.0
       }
     ]
   },
@@ -66616,7 +66624,7 @@
   {
     "id": "03189",
     "nombre": "Bola De Lomo Cortada P/ Milanesa x kg (*)",
-    "precio": 780.0,
+    "precio": 880.0,
     "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-de-lomo1-0432a199844759898f15988757082702-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-boladelomo/",
@@ -66624,6 +66632,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 780.0
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 880.0
       }
     ]
   },
@@ -67182,7 +67194,7 @@
   {
     "id": "03226",
     "nombre": "Chaucha x kg",
-    "precio": 195.0,
+    "precio": 260.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga-11-a0d21537a0d86951da16146269545619-480-0.jpg",
     "url_producto": "productos/chaucha-x-kg/",
@@ -67190,6 +67202,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 195.0
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 260.0
       }
     ]
   },
@@ -67600,7 +67616,7 @@
   {
     "id": "03253",
     "nombre": "Crema Dental Colgate Total 140gr",
-    "precio": 281.98,
+    "precio": 306.9,
     "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184231-8c96d67f991574552815988989118274-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-total-140-gr/",
@@ -67612,6 +67628,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 281.98
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 306.9
       }
     ]
   },
@@ -67744,7 +67764,7 @@
   {
     "id": "03261",
     "nombre": "Cuadrada Cortada P/ Milanesa x kg (*)",
-    "precio": 780.0,
+    "precio": 880.0,
     "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cuadrada1-7c547b439b086b2d6f15988758197929-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-cuadrada/",
@@ -67752,6 +67772,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 780.0
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 880.0
       }
     ]
   },
@@ -67935,7 +67959,7 @@
     "id": "03274",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
     "precio": 125.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-400-gr/",
     "historia": [
@@ -68432,7 +68456,7 @@
   {
     "id": "03307",
     "nombre": "Fósforos Tres Patitos 400un",
-    "precio": 89.57,
+    "precio": 97.5,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/172441-313fafd8aeebdeb5bd15995910592970-480-0.jpg",
     "url_producto": "productos/fosforos-tres-patitos-400-un/",
@@ -68444,13 +68468,17 @@
       {
         "fecha": "18/03/2021",
         "precio": 89.57
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 97.5
       }
     ]
   },
   {
     "id": "03308",
     "nombre": "Falda Parrillera x kg (*)",
-    "precio": 650.0,
+    "precio": 720.0,
     "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/falda-parrillera1-95785614f33fffbec215988758554507-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-faldaparrillera/",
@@ -68458,6 +68486,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 650.0
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 720.0
       }
     ]
   },
@@ -68546,7 +68578,7 @@
   {
     "id": "03314",
     "nombre": "Fideos Lucchetti Mostachol 500gr",
-    "precio": 55.9,
+    "precio": 59.9,
     "rubro": "Productos > Pastas Secas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3001511-4834202cb3766bb78115990013339784-480-0.jpg",
     "url_producto": "productos/fid-lucchetti-mostachol-500-gr/",
@@ -68554,13 +68586,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 55.9
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 59.9
       }
     ]
   },
   {
     "id": "03315",
     "nombre": "Fideos Lucchetti Spaghetti 500gr",
-    "precio": 55.9,
+    "precio": 59.9,
     "rubro": "Productos > Pastas Secas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3001711-45abd8bbecd17f282615990013078100-480-0.jpg",
     "url_producto": "productos/fid-lucchetti-spaghetti-500-gr/",
@@ -68568,13 +68604,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 55.9
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 59.9
       }
     ]
   },
   {
     "id": "03316",
     "nombre": "Fideos Lucchetti Tallarines 500gr",
-    "precio": 55.9,
+    "precio": 59.9,
     "rubro": "Productos > Pastas Secas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3001811-d2fcaf0831977afbc915990012830205-480-0.jpg",
     "url_producto": "productos/fid-lucchetti-tallar-500-gr/",
@@ -68582,13 +68622,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 55.9
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 59.9
       }
     ]
   },
   {
     "id": "03317",
     "nombre": "Fideos Lucchetti Tirabuzón 500gr",
-    "precio": 55.9,
+    "precio": 59.9,
     "rubro": "Productos > Pastas Secas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3001911-f2f1248a45540e37a915990012605300-480-0.jpg",
     "url_producto": "productos/fid-lucchetti-tirabuzon-500-gr/",
@@ -68596,6 +68640,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 55.9
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 59.9
       }
     ]
   },
@@ -68718,7 +68766,7 @@
   {
     "id": "03324",
     "nombre": "Filet x kg (*)",
-    "precio": 1.05,
+    "precio": 1.15,
     "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/filet1-b9cba792c2a2a00d4215988758554893-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-filet/",
@@ -68726,6 +68774,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 1.05
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 1.15
       }
     ]
   },
@@ -68765,7 +68817,7 @@
     "id": "03327",
     "nombre": "Galletas De Arroz Integral Arrotuc Saladas 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-80ddd43e1a57a435d816116159267143-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-arrotuc-saladas-12-un-s-t-a-c-c/",
     "historia": [
@@ -68779,7 +68831,7 @@
     "id": "03328",
     "nombre": "Galletas De Arroz Integral Dulces Arrotuc 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/31-34d6a2caa7cf8c242816116158614983-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-dulces-arrotuc-12-un-s-t-a-c-c/",
     "historia": [
@@ -68793,7 +68845,7 @@
     "id": "03329",
     "nombre": "Galletas De Arroz Integral Sin Sal Arrotuc 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-28085d50db185491d516116158878935-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-sin-sal-arrotuc-12-un-s-t-a-c-c/",
     "historia": [
@@ -68857,7 +68909,7 @@
     "id": "03333",
     "nombre": "Galletitas Pepitos 118gr",
     "precio": 94.22,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/75471-947736715d10244e2615988919945740-480-0.jpg",
     "url_producto": "productos/gal-pepitos-118-gr/",
     "historia": [
@@ -68953,7 +69005,7 @@
     "id": "03339",
     "nombre": "Galletitas Terrabusi Variedad 400gr",
     "precio": 133.55,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209851-0f2bd8eb8fc27fb6db15988923475671-480-0.jpg",
     "url_producto": "productos/gal-terrabusi-variedad-400-gr/",
     "historia": [
@@ -68971,7 +69023,7 @@
     "id": "03340",
     "nombre": "Galletitas Traviata 5x100gr",
     "precio": 172.87,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1681211-0f0aacfe4df74153ec15990865109777-480-0.jpg",
     "url_producto": "productos/gal-traviata-5x100-gr/",
     "historia": [
@@ -69487,7 +69539,7 @@
     "id": "03372",
     "nombre": "Harina Pureza Integral 1kg",
     "precio": 88.27,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59131-01a582d1c75c49900515989691653247-480-0.jpg",
     "url_producto": "productos/har-pureza-integral-1-kg/",
     "historia": [
@@ -69905,7 +69957,7 @@
     "id": "03399",
     "nombre": "Jugo Arcor Naranja S/t.a.c.c. 200ml",
     "precio": 26.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/jugo-arcor-naranja-sin-tacc-200-ml1-15e3f79a8468ad6b8716110759232509-480-0.jpg",
     "url_producto": "productos/jugo-arcor-naranja-s-t-a-c-c-200-ml/",
     "historia": [
@@ -70031,7 +70083,7 @@
     "id": "03408",
     "nombre": "Jugo Minerva Limón 500cc",
     "precio": 188.37,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/113111-6f045e8b2c177790cd15990030622137-480-0.jpg",
     "url_producto": "productos/jug-minerva-limon-500-cc/",
     "historia": [
@@ -70369,7 +70421,7 @@
     "id": "03429",
     "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana Pet 1lt",
     "precio": 99.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/botella-larga-vida1-be092cc5467eb617e115997437553116-480-0.jpg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-pet-1-l/",
     "historia": [
@@ -70515,7 +70567,7 @@
     "id": "03436",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Leches en Polvo y Larga Vida",
+    "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "historia": [
@@ -70909,7 +70961,7 @@
     "id": "03461",
     "nombre": "Mantequilla De Mani C/dulce De Leche 500gr",
     "precio": 299.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mantequilla-de-mani-con-dulce-de-leche-500-gr1-9ee9db0f0eec43651816116010205978-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-c-dulce-de-leche-500-gr/",
     "historia": [
@@ -70923,7 +70975,7 @@
     "id": "03462",
     "nombre": "Mantequilla De Mani Fitfruits 500gr",
     "precio": 275.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-25t155535-0511-a90958bee18a74825316116009496795-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-fitfruits-500-gr/",
     "historia": [
@@ -70964,7 +71016,7 @@
   {
     "id": "03465",
     "nombre": "Matambre x kg (*)",
-    "precio": 710.0,
+    "precio": 790.0,
     "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/matambre1-1ab90bd2123cd55bd115988758558654-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-matambre/",
@@ -70972,6 +71024,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 710.0
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 790.0
       }
     ]
   },
@@ -71269,7 +71325,7 @@
     "id": "03483",
     "nombre": "Medallones De Quinoa Bambu Con Batata Roja y Curry 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/31-0d95a2d750cf46156016135887047402-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-batata-roja-y-curry-360-gr/",
     "historia": [
@@ -71287,7 +71343,7 @@
     "id": "03484",
     "nombre": "Medallones De Quinoa Bambu Con Brocoli 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-28t133000-7341-9246fe4e03dc07a08d16118514633734-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-brocoli-360-gr/",
     "historia": [
@@ -71305,7 +71361,7 @@
     "id": "03485",
     "nombre": "Medallones De Quinoa Bambu Con Cebolla Caramelizada 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-0ac7d05aa033abaf7416135887401078-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-cebolla-caramelizada-360-gr/",
     "historia": [
@@ -71582,7 +71638,7 @@
   {
     "id": "03502",
     "nombre": "Morcilla Vasca x 500gr (*)",
-    "precio": 210.0,
+    "precio": 220.0,
     "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/morcilla-vasca1-62dc9c1bf793919ad015988758936814-480-0.jpg",
     "url_producto": "productos/morcilla-vasca-x-500gr/",
@@ -71590,6 +71646,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 210.0
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 220.0
       }
     ]
   },
@@ -71679,7 +71739,7 @@
     "id": "03508",
     "nombre": "Oblea Nugaton Leche 27gr",
     "precio": 48.5,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1221511-eeaca7ca177da77d9815989996596078-480-0.jpg",
     "url_producto": "productos/oblea-nugaton-leche-27-gr/",
     "historia": [
@@ -71884,7 +71944,7 @@
   {
     "id": "03521",
     "nombre": "Paleta (rolliza) Cortada P/ Bife x kg (*)",
-    "precio": 650.0,
+    "precio": 700.0,
     "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/paleta1-15697187b50ddc277b15988759318660-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-paleta/",
@@ -71892,6 +71952,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 650.0
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 700.0
       }
     ]
   },
@@ -72332,7 +72396,7 @@
   {
     "id": "03549",
     "nombre": "Papas Fritas Mc Cain Noisettes 1kg",
-    "precio": 427.7,
+    "precio": 499.0,
     "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1662011-fe9f1628371a1ed53315990864198062-480-0.jpg",
     "url_producto": "productos/pap-fr-mc-cain-noisettes-1-kg/",
@@ -72344,6 +72408,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 427.7
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 499.0
       }
     ]
   },
@@ -72696,7 +72764,7 @@
   {
     "id": "03573",
     "nombre": "Pila Duracell Aaa x 1 Ud",
-    "precio": 72.7,
+    "precio": 89.9,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pila-duracell-aaa-x-1-ud1-068be36391931d8aaa16052235002761-480-0.jpg",
     "url_producto": "productos/pila-duracell-aaa-x-1-ud/",
@@ -72704,6 +72772,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 72.7
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 89.9
       }
     ]
   },
@@ -73286,7 +73358,7 @@
   {
     "id": "03612",
     "nombre": "Rebozador Preferido 1kg",
-    "precio": 168.88,
+    "precio": 177.0,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/15811-d609f6654fdc3cce8d15990846469249-480-0.jpg",
     "url_producto": "productos/rebozad-preferido-1-kg/",
@@ -73298,6 +73370,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 168.88
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 177.0
       }
     ]
   },
@@ -73901,7 +73977,7 @@
     "id": "03653",
     "nombre": "Shampoo Tresemme Keratina 400ml",
     "precio": 285.88,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/161771-e8acb2da185d094b4d15988877301296-480-0.jpg",
     "url_producto": "productos/shamp-tresemme-keratina-400-ml/",
     "historia": [
@@ -74218,7 +74294,7 @@
   {
     "id": "03674",
     "nombre": "Tapa De Asado x kg (*)",
-    "precio": 650.0,
+    "precio": 720.0,
     "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tapa-asado1-6f57dbfd72a184d96415988759708443-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-tapadeasado/",
@@ -74226,6 +74302,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 650.0
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 720.0
       }
     ]
   },
@@ -74436,7 +74516,7 @@
   {
     "id": "03689",
     "nombre": "Tostadas Twistos Sabor Queso 150gr",
-    "precio": 137.0,
+    "precio": 174.9,
     "rubro": "Productos > Snacks",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tostadas-twistos-sabor-queso-150-gr1-cacc9d1389dc28275716094248823304-480-0.jpg",
     "url_producto": "productos/tostadas-twistos-sabor-queso-150-gr/",
@@ -74444,6 +74524,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 137.0
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 174.9
       }
     ]
   },
@@ -75766,7 +75850,7 @@
   {
     "id": "03774",
     "nombre": "Ojo De Bife x kg (*)",
-    "precio": 1.0,
+    "precio": 1.05,
     "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ojo-bife1-293925c83e7b91b85815988758961992-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-ojodebife/",
@@ -75774,13 +75858,17 @@
       {
         "fecha": "12/03/2021",
         "precio": 1.0
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 1.05
       }
     ]
   },
   {
     "id": "03775",
     "nombre": "Shampoo Sedal Rizos Definidos 340ml",
-    "precio": 188.0,
+    "precio": 189.9,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/22001-964ea0f7a768366f6615988876092327-480-0.jpg",
     "url_producto": "productos/shampoo-sedal-rizos-definidos-340-ml/",
@@ -75788,6 +75876,10 @@
       {
         "fecha": "13/03/2021",
         "precio": 188.0
+      },
+      {
+        "fecha": "23/03/2021",
+        "precio": 189.9
       }
     ]
   },
@@ -83938,6 +84030,34 @@
       {
         "fecha": "21/03/2021",
         "precio": 270.0
+      }
+    ]
+  },
+  {
+    "id": "04357",
+    "nombre": "Cacao Toddy 180gr",
+    "precio": 59.9,
+    "rubro": "Productos > Infusiones",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/6081-ed291c465b56e5bdd715988350250988-480-0.jpg",
+    "url_producto": "productos/cacao-toddy-180-gr/",
+    "historia": [
+      {
+        "fecha": "23/03/2021",
+        "precio": 59.9
+      }
+    ]
+  },
+  {
+    "id": "04358",
+    "nombre": "Servilleta Felpita 70un",
+    "precio": 70.0,
+    "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/servilleta-felpita-70-un1-b112a52fda42cff9a816119468893191-480-0.jpg",
+    "url_producto": "productos/servilleta-felpita-70-un/",
+    "historia": [
+      {
+        "fecha": "23/03/2021",
+        "precio": 70.0
       }
     ]
   }
