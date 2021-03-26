@@ -64870,7 +64870,7 @@
   {
     "id": "03080",
     "nombre": "Aceite Cocinero Girasol 1,5lt",
-    "precio": 270.0,
+    "precio": 265.0,
     "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-girasol-cocinero-1-5-l1-70562c7e06c6ba7e9b16057061476408-480-0.jpg",
     "url_producto": "productos/ac-cocinero-girasol-1-5-lt/",
@@ -64882,6 +64882,10 @@
       {
         "fecha": "11/03/2021",
         "precio": 270.0
+      },
+      {
+        "fecha": "26/03/2021",
+        "precio": 265.0
       }
     ]
   },
@@ -65465,7 +65469,7 @@
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
     "precio": 133.5,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -65507,7 +65511,7 @@
     "id": "03120",
     "nombre": "Agua Sin Gas Kin 2lt",
     "precio": 69.9,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-kin-sin-gas-2-lt1-758653d6a7aba3100016013973390850-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-kin-2-lt/",
     "historia": [
@@ -65560,7 +65564,7 @@
   {
     "id": "03123",
     "nombre": "Agua Sin Gas Nestlé Pureza Vital Bidón 6,3lt",
-    "precio": 176.66,
+    "precio": 210.9,
     "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/24111-ec1f792bddd04f223415988775601891-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-bidon-63-lt/",
@@ -65572,6 +65576,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 176.66
+      },
+      {
+        "fecha": "26/03/2021",
+        "precio": 210.9
       }
     ]
   },
@@ -66241,7 +66249,7 @@
     "id": "03163",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 88.28,
-    "rubro": "Productos > Arroz y Legumbres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -66337,7 +66345,7 @@
     "id": "03169",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Conservas",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -66699,7 +66707,7 @@
     "id": "03192",
     "nombre": "Bolsa Asurin Residuos 3,3x60 10un",
     "precio": 78.9,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg",
     "url_producto": "productos/bols-asurin-res-3-45x60-10-un/",
     "historia": [
@@ -67736,7 +67744,7 @@
   {
     "id": "03257",
     "nombre": "Crema Dental Kolynos Super Blanco 70gr",
-    "precio": 99.96,
+    "precio": 99.97,
     "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/49411-8675e82ff04aa0a2af15988991641156-480-0.jpg",
     "url_producto": "productos/cr-dent-kolynos-sup-bca-70-gr/",
@@ -67748,6 +67756,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 99.96
+      },
+      {
+        "fecha": "26/03/2021",
+        "precio": 99.97
       }
     ]
   },
@@ -68985,7 +68997,7 @@
     "id": "03333",
     "nombre": "Galletitas Pepitos 118gr",
     "precio": 94.22,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/75471-947736715d10244e2615988919945740-480-0.jpg",
     "url_producto": "productos/gal-pepitos-118-gr/",
     "historia": [
@@ -69081,7 +69093,7 @@
     "id": "03339",
     "nombre": "Galletitas Terrabusi Variedad 400gr",
     "precio": 133.55,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209851-0f2bd8eb8fc27fb6db15988923475671-480-0.jpg",
     "url_producto": "productos/gal-terrabusi-variedad-400-gr/",
     "historia": [
@@ -69099,7 +69111,7 @@
     "id": "03340",
     "nombre": "Galletitas Traviata 5x100gr",
     "precio": 172.87,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1681211-0f0aacfe4df74153ec15990865109777-480-0.jpg",
     "url_producto": "productos/gal-traviata-5x100-gr/",
     "historia": [
@@ -70675,7 +70687,7 @@
     "id": "03436",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Postres y Repostería",
+    "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "historia": [
@@ -70801,7 +70813,7 @@
     "id": "03443",
     "nombre": "Limpiador Cif Antigrasa 450ml",
     "precio": 89.0,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg",
     "url_producto": "productos/limp-cif-antig-d-p-450-ml/",
     "historia": [
@@ -70829,7 +70841,7 @@
     "id": "03445",
     "nombre": "Limpiador Cif Crema Limón 750gr",
     "precio": 154.56,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cif-crema-limon1-ace4b3e161ca9ce96f16101128144620-480-0.jpg",
     "url_producto": "productos/limp-cif-crem-limon-750-gr/",
     "historia": [
@@ -70847,7 +70859,7 @@
     "id": "03446",
     "nombre": "Limpiador Cif Pisos Antibacterial 750ml",
     "precio": 172.9,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209611-214abbe56f232f695115988902496909-480-0.jpg",
     "url_producto": "productos/limp-cif-pis-antibac-750-ml/",
     "historia": [
@@ -71791,7 +71803,7 @@
     "id": "03504",
     "nombre": "Mostaza Savora 250gr",
     "precio": 85.9,
-    "rubro": "Productos > Aderezos",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/115651-091ba485b56ce6138915989074478331-480-0.jpg",
     "url_producto": "productos/mostaza-savora-250-grs/",
     "historia": [
@@ -71855,7 +71867,7 @@
     "id": "03508",
     "nombre": "Oblea Nugaton Leche 27gr",
     "precio": 48.5,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1221511-eeaca7ca177da77d9815989996596078-480-0.jpg",
     "url_producto": "productos/oblea-nugaton-leche-27-gr/",
     "historia": [
@@ -72688,7 +72700,7 @@
   {
     "id": "03559",
     "nombre": "Papel Higienico Higienol Max 4x80 Mts",
-    "precio": 199.0,
+    "precio": 215.0,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/papel-higienico-higienol-max-4x80-mts1-cdcced26899474ae3116139983579423-480-0.jpg",
     "url_producto": "productos/papel-higienico-higienol-max-4x80-mts/",
@@ -72704,6 +72716,10 @@
       {
         "fecha": "25/03/2021",
         "precio": 199.0
+      },
+      {
+        "fecha": "26/03/2021",
+        "precio": 215.0
       }
     ]
   },
@@ -73257,7 +73273,7 @@
     "id": "03595",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 199.9,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -73676,7 +73692,7 @@
   {
     "id": "03621",
     "nombre": "Rollo De Cocina Sussex Clásico 3x50un",
-    "precio": 79.9,
+    "precio": 91.5,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/93341-b0cf40eb2cb4d238db15988934510811-480-0.jpg",
     "url_producto": "productos/rol-coc-sussex-clasico-3x50-un/",
@@ -73684,13 +73700,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 79.9
+      },
+      {
+        "fecha": "26/03/2021",
+        "precio": 91.5
       }
     ]
   },
   {
     "id": "03622",
     "nombre": "Rollo De Cocina Sussex Premium 3x60un",
-    "precio": 95.0,
+    "precio": 115.0,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/37681-598c814c9109428ecb15988934236551-480-0.jpg",
     "url_producto": "productos/rol-coc-sussex-premium-3x60-un/",
@@ -73698,6 +73718,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 95.0
+      },
+      {
+        "fecha": "26/03/2021",
+        "precio": 115.0
       }
     ]
   },
@@ -74726,7 +74750,7 @@
   {
     "id": "03690",
     "nombre": "Trapo De Piso Esencial Bco.consor. 60x70 Cm",
-    "precio": 166.27,
+    "precio": 179.27,
     "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/138731-e4e4fd6c3bd6c1186515988889979261-480-0.jpg",
     "url_producto": "productos/tr-piso-esencial-bco-consor-60x70-cm/",
@@ -74738,6 +74762,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 166.27
+      },
+      {
+        "fecha": "26/03/2021",
+        "precio": 179.27
       }
     ]
   },
@@ -84566,6 +84594,146 @@
       {
         "fecha": "25/03/2021",
         "precio": 225.0
+      }
+    ]
+  },
+  {
+    "id": "04379",
+    "nombre": "Cereal Kelloggs Froot Loops Pouch 195gr",
+    "precio": 139.5,
+    "rubro": "Productos > Galletas y Cereales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/238291-2baa60b061f8b3d02415988376193096-480-0.jpg",
+    "url_producto": "productos/cereal-kelloggs-f-loops-pou-195-gr/",
+    "historia": [
+      {
+        "fecha": "26/03/2021",
+        "precio": 139.5
+      }
+    ]
+  },
+  {
+    "id": "04380",
+    "nombre": "Cerveza Andes Ipa Andina 473cc",
+    "precio": 99.0,
+    "rubro": "Productos > Cervezas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cerveza-andes-origen-ipa-lata-473-ml-1-5010631-d06d8c75314936991916166783448177-480-0.jpg",
+    "url_producto": "productos/cerveza-andes-ipa-andina-473-cc/",
+    "historia": [
+      {
+        "fecha": "26/03/2021",
+        "precio": 99.0
+      }
+    ]
+  },
+  {
+    "id": "04381",
+    "nombre": "Cerveza Andes Ipa Andina 473cc Sixpack",
+    "precio": 580.0,
+    "rubro": "Productos > Cervezas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cerveza-andes-ipa-andina-473-cc11-f1261737031fb868c316166783047108-480-0.jpg",
+    "url_producto": "productos/cerveza-andes-ipa-andina-473-cc-sixpack/",
+    "historia": [
+      {
+        "fecha": "26/03/2021",
+        "precio": 580.0
+      }
+    ]
+  },
+  {
+    "id": "04382",
+    "nombre": "Cerveza Quilmes Stout 473cc Sixpack",
+    "precio": 519.0,
+    "rubro": "Productos > Cervezas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/quilmes1-aea994593dca2d0d4c16166766207217-480-0.png",
+    "url_producto": "productos/cerveza-quilmes-stout-473-cc-sixpack/",
+    "historia": [
+      {
+        "fecha": "26/03/2021",
+        "precio": 519.0
+      }
+    ]
+  },
+  {
+    "id": "04383",
+    "nombre": "Conejo Pascuas Bon O Bon Leche 110gr",
+    "precio": 480.0,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/conejo-pascuas-bon-o-bon-leche-110-gr1-0b31ca5c39cec68ebe16166781160885-480-0.png",
+    "url_producto": "productos/conejo-pascuas-bon-o-bon-leche-110-gr/",
+    "historia": [
+      {
+        "fecha": "26/03/2021",
+        "precio": 480.0
+      }
+    ]
+  },
+  {
+    "id": "04384",
+    "nombre": "Huevo De Pascuas Bon O Bon Leche 110gr",
+    "precio": 599.0,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/huevo-pascuas-bon-o-bon-leche-110-gr1-3d9b57a8bf746948d616166779884249-480-0.jpg",
+    "url_producto": "productos/huevo-de-pascuas-bon-o-bon-leche-110-gr/",
+    "historia": [
+      {
+        "fecha": "26/03/2021",
+        "precio": 599.0
+      }
+    ]
+  },
+  {
+    "id": "04385",
+    "nombre": "Huevo Pascuas Bon O Bon Blanco 110gr",
+    "precio": 599.0,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/huevo-pascuas-bon-o-bon-blanco-110-gr1-a3ffe0ab15a3a0a75116166779291874-480-0.png",
+    "url_producto": "productos/huevo-pascuas-bon-o-bon-blanco-110-gr/",
+    "historia": [
+      {
+        "fecha": "26/03/2021",
+        "precio": 599.0
+      }
+    ]
+  },
+  {
+    "id": "04386",
+    "nombre": "Jugo Tang Naranja Mango 18gr",
+    "precio": 18.18,
+    "rubro": "Productos > Jugos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/jugo-tang-naranja-mango-18-gr1-569df195b354128e8216118523123383-480-0.jpg",
+    "url_producto": "productos/jugo-tang-naranja-mango-18-gr/",
+    "historia": [
+      {
+        "fecha": "26/03/2021",
+        "precio": 18.18
+      }
+    ]
+  },
+  {
+    "id": "04387",
+    "nombre": "Porotos Alubia La Campagnola 300gr",
+    "precio": 95.0,
+    "rubro": "Productos > Conservas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/porotos-alubia-la-campagnola-300-gr1-6957c6d46d61464fe916113218015061-480-0.png",
+    "url_producto": "productos/porotos-alubia-la-campagnola-300-gr/",
+    "historia": [
+      {
+        "fecha": "26/03/2021",
+        "precio": 95.0
+      }
+    ]
+  },
+  {
+    "id": "04388",
+    "nombre": "Salsa Tahiti Caesar 265cc",
+    "precio": 110.9,
+    "rubro": "Productos > Aderezos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/salsa-tahiti-caesar-265-cc1-d9f72e9116518d13a316166773081182-480-0.jpg",
+    "url_producto": "productos/salsa-tahiti-caesar-265-cc/",
+    "historia": [
+      {
+        "fecha": "26/03/2021",
+        "precio": 110.9
       }
     ]
   }
