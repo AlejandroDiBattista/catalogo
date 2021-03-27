@@ -65280,7 +65280,7 @@
   {
     "id": "03105",
     "nombre": "Agua Baggio Fresh Mix Frutal 1,1lt ,",
-    "precio": 75.0,
+    "precio": 78.65,
     "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-22t102628-5021-17051cd572b00ea44616113220049225-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-mix-frutal-1-5-lt/",
@@ -65292,13 +65292,17 @@
       {
         "fecha": "19/03/2021",
         "precio": 75.0
+      },
+      {
+        "fecha": "27/03/2021",
+        "precio": 78.65
       }
     ]
   },
   {
     "id": "03106",
     "nombre": "Agua Baggio Fresh Naranja Dulce 1,5lt",
-    "precio": 75.0,
+    "precio": 78.65,
     "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/604611-5271f343145345b6e516028681925353-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-naranja-dulce-15-lt/",
@@ -65310,13 +65314,17 @@
       {
         "fecha": "19/03/2021",
         "precio": 75.0
+      },
+      {
+        "fecha": "27/03/2021",
+        "precio": 78.65
       }
     ]
   },
   {
     "id": "03107",
     "nombre": "Agua Baggio Fresh Pera 1,1lt",
-    "precio": 65.0,
+    "precio": 78.65,
     "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-baggio-fresh-pera-1-5-lt1-39e6b32abfedd2386c16113218756564-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-pera-1-5-lt/",
@@ -65324,6 +65332,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 65.0
+      },
+      {
+        "fecha": "27/03/2021",
+        "precio": 78.65
       }
     ]
   },
@@ -66249,7 +66261,7 @@
     "id": "03163",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 88.28,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -66284,7 +66296,7 @@
   {
     "id": "03165",
     "nombre": "Arroz Preparado Gallo Verdeo 240gr",
-    "precio": 115.68,
+    "precio": 105.0,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/arroz-preparado-gallo-sabor-verdeo-x-240-gr1-0e59360ef75b70453116037380840707-480-0.jpg",
     "url_producto": "productos/arroz-preparado-gallo-verdeo-240-gr/",
@@ -66292,6 +66304,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 115.68
+      },
+      {
+        "fecha": "27/03/2021",
+        "precio": 105.0
       }
     ]
   },
@@ -66583,7 +66599,7 @@
     "id": "03184",
     "nombre": "Bife Ancho (marucha) x kg (*)",
     "precio": 690.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-ancho1-046e8ec9180bc119ef15988756860268-480-0.jpg",
     "url_producto": "productos/bife-ancho-marucha-x-kg/",
     "historia": [
@@ -66615,7 +66631,7 @@
     "id": "03186",
     "nombre": "Bife De Chorizo Cortado P/ Bife x kg (*)",
     "precio": 870.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-chorizo1-041d9d9fbaf770027115988756952195-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-bifedechorizo/",
     "historia": [
@@ -66661,7 +66677,7 @@
     "id": "03189",
     "nombre": "Bola De Lomo Cortada P/ Milanesa x kg (*)",
     "precio": 880.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-de-lomo1-0432a199844759898f15988757082702-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-boladelomo/",
     "historia": [
@@ -66707,7 +66723,7 @@
     "id": "03192",
     "nombre": "Bolsa Asurin Residuos 3,3x60 10un",
     "precio": 78.9,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg",
     "url_producto": "productos/bols-asurin-res-3-45x60-10-un/",
     "historia": [
@@ -67821,7 +67837,7 @@
     "id": "03261",
     "nombre": "Cuadrada Cortada P/ Milanesa x kg (*)",
     "precio": 880.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cuadrada1-7c547b439b086b2d6f15988758197929-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-cuadrada/",
     "historia": [
@@ -68527,7 +68543,7 @@
     "id": "03306",
     "nombre": "Espumante Deseado Torrontés x 750ml",
     "precio": 459.0,
-    "rubro": "Productos > Vinos y Espumantes",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/espumante-deseado-torrontes-x-750-ml1-54fa55c75419e0e91316046927241575-480-0.jpg",
     "url_producto": "productos/espumante-deseado-torrontes-x-750-ml/",
     "historia": [
@@ -68563,7 +68579,7 @@
     "id": "03308",
     "nombre": "Falda Parrillera x kg (*)",
     "precio": 720.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/falda-parrillera1-95785614f33fffbec215988758554507-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-faldaparrillera/",
     "historia": [
@@ -68855,7 +68871,7 @@
     "id": "03324",
     "nombre": "Filet x kg (*)",
     "precio": 1.15,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/filet1-b9cba792c2a2a00d4215988758554893-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-filet/",
     "historia": [
@@ -69111,7 +69127,7 @@
     "id": "03340",
     "nombre": "Galletitas Traviata 5x100gr",
     "precio": 172.87,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1681211-0f0aacfe4df74153ec15990865109777-480-0.jpg",
     "url_producto": "productos/gal-traviata-5x100-gr/",
     "historia": [
@@ -69500,7 +69516,7 @@
   {
     "id": "03365",
     "nombre": "Hamburguesa Swift Carne 12un",
-    "precio": 752.57,
+    "precio": 829.9,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/233571-c7f77e34a978f50b1815992498931526-480-0.jpg",
     "url_producto": "productos/hamburguesa-swift-carne-12-un/",
@@ -69512,6 +69528,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 752.57
+      },
+      {
+        "fecha": "27/03/2021",
+        "precio": 829.9
       }
     ]
   },
@@ -70687,7 +70707,7 @@
     "id": "03436",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Leches en Polvo y Larga Vida",
+    "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "historia": [
@@ -70813,7 +70833,7 @@
     "id": "03443",
     "nombre": "Limpiador Cif Antigrasa 450ml",
     "precio": 89.0,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg",
     "url_producto": "productos/limp-cif-antig-d-p-450-ml/",
     "historia": [
@@ -70841,7 +70861,7 @@
     "id": "03445",
     "nombre": "Limpiador Cif Crema Limón 750gr",
     "precio": 154.56,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cif-crema-limon1-ace4b3e161ca9ce96f16101128144620-480-0.jpg",
     "url_producto": "productos/limp-cif-crem-limon-750-gr/",
     "historia": [
@@ -70859,7 +70879,7 @@
     "id": "03446",
     "nombre": "Limpiador Cif Pisos Antibacterial 750ml",
     "precio": 172.9,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209611-214abbe56f232f695115988902496909-480-0.jpg",
     "url_producto": "productos/limp-cif-pis-antibac-750-ml/",
     "historia": [
@@ -71145,7 +71165,7 @@
     "id": "03465",
     "nombre": "Matambre x kg (*)",
     "precio": 790.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/matambre1-1ab90bd2123cd55bd115988758558654-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-matambre/",
     "historia": [
@@ -71767,7 +71787,7 @@
     "id": "03502",
     "nombre": "Morcilla Vasca x 500gr (*)",
     "precio": 220.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/morcilla-vasca1-62dc9c1bf793919ad015988758936814-480-0.jpg",
     "url_producto": "productos/morcilla-vasca-x-500gr/",
     "historia": [
@@ -71803,7 +71823,7 @@
     "id": "03504",
     "nombre": "Mostaza Savora 250gr",
     "precio": 85.9,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/115651-091ba485b56ce6138915989074478331-480-0.jpg",
     "url_producto": "productos/mostaza-savora-250-grs/",
     "historia": [
@@ -72073,7 +72093,7 @@
     "id": "03521",
     "nombre": "Paleta (rolliza) Cortada P/ Bife x kg (*)",
     "precio": 700.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/paleta1-15697187b50ddc277b15988759318660-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-paleta/",
     "historia": [
@@ -72829,7 +72849,7 @@
     "id": "03567",
     "nombre": "Patitas Granja De Sol Queso Jamón 400gr",
     "precio": 306.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830711-dba545bed7ed42864715990035883853-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-que-jam-400-gr/",
     "historia": [
@@ -74340,7 +74360,7 @@
   {
     "id": "03663",
     "nombre": "Suprema Graja De Sol Crocantes 480gr",
-    "precio": 427.7,
+    "precio": 450.9,
     "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2552411-13ae0dfecf63a5ddb715990038034119-480-0.jpg",
     "url_producto": "productos/suprema-gja-sol-crocantes-480-gr/",
@@ -74348,6 +74368,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 427.7
+      },
+      {
+        "fecha": "27/03/2021",
+        "precio": 450.9
       }
     ]
   },
@@ -74511,7 +74535,7 @@
     "id": "03674",
     "nombre": "Tapa De Asado x kg (*)",
     "precio": 720.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tapa-asado1-6f57dbfd72a184d96415988759708443-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-tapadeasado/",
     "historia": [
@@ -75927,7 +75951,7 @@
     "id": "03764",
     "nombre": "Cerveza Stella Artois Noire x 473 Cm3",
     "precio": 125.0,
-    "rubro": "Productos > Cervezas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/d_nq_np_624935-mla43554689072_092020-o1-239d71da66a009899816063952071180-480-0.jpg",
     "url_producto": "productos/cerveza-stella-artois-noire-x-473-cm3/",
     "historia": [
@@ -76095,7 +76119,7 @@
     "id": "03774",
     "nombre": "Ojo De Bife x kg (*)",
     "precio": 1.05,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ojo-bife1-293925c83e7b91b85815988758961992-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-ojodebife/",
     "historia": [
@@ -83797,7 +83821,7 @@
     "id": "04323",
     "nombre": "Suprema Granja De Sol Pollo 360gr",
     "precio": 370.7,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830811-607b67364edc558d3415990038309902-480-0.jpg",
     "url_producto": "productos/suprema-granja-de-sol-pollo-360-gr/",
     "historia": [
@@ -83861,7 +83885,7 @@
     "id": "04327",
     "nombre": "Hamburguesas Super Estilo Casero Cheddar x 4un",
     "precio": 350.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/lvc-burgers-montaje-01c1-ae92681b91768b5f5d16125404934428-480-0.png",
     "url_producto": "productos/hamburguesas-super-estilo-casero-cheddar-x-4-unidades/",
     "historia": [
@@ -83967,7 +83991,7 @@
     "id": "04334",
     "nombre": "Vino Plan B 100% Malbec 750cc",
     "precio": 290.0,
-    "rubro": "Productos > Vinos y Espumantes",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/budeguer-foto1-520258365d04f73f5615992297403841-480-0.jpg",
     "url_producto": "productos/vino-plan-b-malbec-750-cc/",
     "historia": [
@@ -84734,6 +84758,90 @@
       {
         "fecha": "26/03/2021",
         "precio": 110.9
+      }
+    ]
+  },
+  {
+    "id": "04389",
+    "nombre": "Agua Mineral Eco De Los Andes 1,1lt",
+    "precio": 65.9,
+    "rubro": "Productos > Aguas sin Gas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/agua-mineral-eco-de-los-andes-1-5-lt/",
+    "historia": [
+      {
+        "fecha": "27/03/2021",
+        "precio": 65.9
+      }
+    ]
+  },
+  {
+    "id": "04390",
+    "nombre": "Gin Beefeater Pink Strawberry 700ml",
+    "precio": 2.2,
+    "rubro": "Productos > Bebidas Blancas y Licores",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/gin-beefeater-pink-strawberry-700-ml/",
+    "historia": [
+      {
+        "fecha": "27/03/2021",
+        "precio": 2.2
+      }
+    ]
+  },
+  {
+    "id": "04391",
+    "nombre": "Lámpara Osram Led Fria 9 Wt",
+    "precio": 170.17,
+    "rubro": "Productos > Fósforos, Lamparas y Pilas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/261491-04db987fe4a55dfc2315990701410088-480-0.jpg",
+    "url_producto": "productos/lampara-osram-led-fria-9-wt/",
+    "historia": [
+      {
+        "fecha": "27/03/2021",
+        "precio": 170.17
+      }
+    ]
+  },
+  {
+    "id": "04392",
+    "nombre": "Papel Hig. Large Felpita 4x80mts",
+    "precio": 199.0,
+    "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/papel-hig-large-felpita-4x80mts/",
+    "historia": [
+      {
+        "fecha": "27/03/2021",
+        "precio": 199.0
+      }
+    ]
+  },
+  {
+    "id": "04393",
+    "nombre": "Queso La Serenísima Rallado 35gr",
+    "precio": 85.3,
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/169881-4c11142be8be4af15015990678626850-480-0.jpg",
+    "url_producto": "productos/queso-la-serenisima-rallado-35-gr/",
+    "historia": [
+      {
+        "fecha": "27/03/2021",
+        "precio": 85.3
+      }
+    ]
+  },
+  {
+    "id": "04394",
+    "nombre": "Vino Blanco Dulce Fuego Negro 750ml",
+    "precio": 239.99,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/vino-blanco-dulce-fuego-negro-750ml/",
+    "historia": [
+      {
+        "fecha": "27/03/2021",
+        "precio": 239.99
       }
     ]
   }
