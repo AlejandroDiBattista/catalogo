@@ -65481,7 +65481,7 @@
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
     "precio": 133.5,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -65509,7 +65509,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65523,7 +65523,7 @@
     "id": "03120",
     "nombre": "Agua Sin Gas Kin 2lt",
     "precio": 69.9,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-kin-sin-gas-2-lt1-758653d6a7aba3100016013973390850-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-kin-2-lt/",
     "historia": [
@@ -66361,7 +66361,7 @@
     "id": "03169",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -66599,7 +66599,7 @@
     "id": "03184",
     "nombre": "Bife Ancho (marucha) x kg (*)",
     "precio": 690.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-ancho1-046e8ec9180bc119ef15988756860268-480-0.jpg",
     "url_producto": "productos/bife-ancho-marucha-x-kg/",
     "historia": [
@@ -66631,7 +66631,7 @@
     "id": "03186",
     "nombre": "Bife De Chorizo Cortado P/ Bife x kg (*)",
     "precio": 870.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-chorizo1-041d9d9fbaf770027115988756952195-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-bifedechorizo/",
     "historia": [
@@ -66677,7 +66677,7 @@
     "id": "03189",
     "nombre": "Bola De Lomo Cortada P/ Milanesa x kg (*)",
     "precio": 880.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-de-lomo1-0432a199844759898f15988757082702-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-boladelomo/",
     "historia": [
@@ -67536,7 +67536,7 @@
   {
     "id": "03243",
     "nombre": "Combo Pro-film 50mt x 30cm + Pro-luminio 10mt x 28cm",
-    "precio": 409.9,
+    "precio": 424.97,
     "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mod-21-05b68c969e1e88234016125260203956-480-0.jpg",
     "url_producto": "productos/combo-pro-film-50mt-x-30cm-pro-luminio-10mt-x-28cm/",
@@ -67544,6 +67544,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 409.9
+      },
+      {
+        "fecha": "28/03/2021",
+        "precio": 424.97
       }
     ]
   },
@@ -67837,7 +67841,7 @@
     "id": "03261",
     "nombre": "Cuadrada Cortada P/ Milanesa x kg (*)",
     "precio": 880.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cuadrada1-7c547b439b086b2d6f15988758197929-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-cuadrada/",
     "historia": [
@@ -68543,7 +68547,7 @@
     "id": "03306",
     "nombre": "Espumante Deseado Torrontés x 750ml",
     "precio": 459.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/espumante-deseado-torrontes-x-750-ml1-54fa55c75419e0e91316046927241575-480-0.jpg",
     "url_producto": "productos/espumante-deseado-torrontes-x-750-ml/",
     "historia": [
@@ -68579,7 +68583,7 @@
     "id": "03308",
     "nombre": "Falda Parrillera x kg (*)",
     "precio": 720.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/falda-parrillera1-95785614f33fffbec215988758554507-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-faldaparrillera/",
     "historia": [
@@ -68871,7 +68875,7 @@
     "id": "03324",
     "nombre": "Filet x kg (*)",
     "precio": 1.15,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/filet1-b9cba792c2a2a00d4215988758554893-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-filet/",
     "historia": [
@@ -69127,7 +69131,7 @@
     "id": "03340",
     "nombre": "Galletitas Traviata 5x100gr",
     "precio": 172.87,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1681211-0f0aacfe4df74153ec15990865109777-480-0.jpg",
     "url_producto": "productos/gal-traviata-5x100-gr/",
     "historia": [
@@ -71109,7 +71113,7 @@
     "id": "03461",
     "nombre": "Mantequilla De Mani C/dulce De Leche 500gr",
     "precio": 299.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mantequilla-de-mani-con-dulce-de-leche-500-gr1-9ee9db0f0eec43651816116010205978-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-c-dulce-de-leche-500-gr/",
     "historia": [
@@ -71123,7 +71127,7 @@
     "id": "03462",
     "nombre": "Mantequilla De Mani Fitfruits 500gr",
     "precio": 275.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-25t155535-0511-a90958bee18a74825316116009496795-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-fitfruits-500-gr/",
     "historia": [
@@ -71165,7 +71169,7 @@
     "id": "03465",
     "nombre": "Matambre x kg (*)",
     "precio": 790.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/matambre1-1ab90bd2123cd55bd115988758558654-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-matambre/",
     "historia": [
@@ -71473,7 +71477,7 @@
     "id": "03483",
     "nombre": "Medallones De Quinoa Bambu Con Batata Roja y Curry 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/31-0d95a2d750cf46156016135887047402-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-batata-roja-y-curry-360-gr/",
     "historia": [
@@ -71491,7 +71495,7 @@
     "id": "03484",
     "nombre": "Medallones De Quinoa Bambu Con Brocoli 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-28t133000-7341-9246fe4e03dc07a08d16118514633734-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-brocoli-360-gr/",
     "historia": [
@@ -71509,7 +71513,7 @@
     "id": "03485",
     "nombre": "Medallones De Quinoa Bambu Con Cebolla Caramelizada 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-0ac7d05aa033abaf7416135887401078-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-cebolla-caramelizada-360-gr/",
     "historia": [
@@ -71787,7 +71791,7 @@
     "id": "03502",
     "nombre": "Morcilla Vasca x 500gr (*)",
     "precio": 220.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/morcilla-vasca1-62dc9c1bf793919ad015988758936814-480-0.jpg",
     "url_producto": "productos/morcilla-vasca-x-500gr/",
     "historia": [
@@ -72093,7 +72097,7 @@
     "id": "03521",
     "nombre": "Paleta (rolliza) Cortada P/ Bife x kg (*)",
     "precio": 700.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/paleta1-15697187b50ddc277b15988759318660-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-paleta/",
     "historia": [
@@ -72255,7 +72259,7 @@
     "id": "03530",
     "nombre": "Pan De Campo La Panerita 360gr",
     "precio": 120.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705210_cgm1-8f978b8782b636012716130803607456-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-360-gr/",
     "historia": [
@@ -72273,7 +72277,7 @@
     "id": "03531",
     "nombre": "Pan De Campo La Panerita Con Semillas 340gr",
     "precio": 130.5,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705583_chm1-9697b42f2bf55399aa16130802662831-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-con-semillas-340-gr/",
     "historia": [
@@ -72287,7 +72291,7 @@
     "id": "03532",
     "nombre": "Pan De Hamburguesa La Panerita x 4un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/311-c0d1a72eb892048d8c16118693644227-480-0.jpg",
     "url_producto": "productos/pan-de-hamburguesa-la-panerita-x-4-unidades/",
     "historia": [
@@ -72301,7 +72305,7 @@
     "id": "03533",
     "nombre": "Pan De Viena La Panerita x 6un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211-be805d33b897e5219a16118693250617-480-0.jpg",
     "url_producto": "productos/pan-de-viena-la-panerita-x-6-unidades/",
     "historia": [
@@ -72379,7 +72383,7 @@
     "id": "03538",
     "nombre": "Pan Lactal La Panerita Blanco 400gr ,",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-967720a304d43123a016118693910439-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-blanco-400-gr/",
     "historia": [
@@ -73293,7 +73297,7 @@
     "id": "03595",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 199.9,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -74535,7 +74539,7 @@
     "id": "03674",
     "nombre": "Tapa De Asado x kg (*)",
     "precio": 720.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tapa-asado1-6f57dbfd72a184d96415988759708443-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-tapadeasado/",
     "historia": [
@@ -74852,7 +74856,7 @@
   {
     "id": "03695",
     "nombre": "Vinagre Marolio Vino 500cc",
-    "precio": 51.9,
+    "precio": 57.07,
     "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/48431-b8e267997c40b2be6115992489487199-480-0.jpg",
     "url_producto": "productos/vinagre-marolio-vino-500-cc/",
@@ -74860,6 +74864,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 51.9
+      },
+      {
+        "fecha": "28/03/2021",
+        "precio": 57.07
       }
     ]
   },
@@ -75951,7 +75959,7 @@
     "id": "03764",
     "nombre": "Cerveza Stella Artois Noire x 473 Cm3",
     "precio": 125.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/d_nq_np_624935-mla43554689072_092020-o1-239d71da66a009899816063952071180-480-0.jpg",
     "url_producto": "productos/cerveza-stella-artois-noire-x-473-cm3/",
     "historia": [
@@ -76119,7 +76127,7 @@
     "id": "03774",
     "nombre": "Ojo De Bife x kg (*)",
     "precio": 1.05,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ojo-bife1-293925c83e7b91b85815988758961992-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-ojodebife/",
     "historia": [
@@ -83885,7 +83893,7 @@
     "id": "04327",
     "nombre": "Hamburguesas Super Estilo Casero Cheddar x 4un",
     "precio": 350.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/lvc-burgers-montaje-01c1-ae92681b91768b5f5d16125404934428-480-0.png",
     "url_producto": "productos/hamburguesas-super-estilo-casero-cheddar-x-4-unidades/",
     "historia": [
@@ -83991,7 +83999,7 @@
     "id": "04334",
     "nombre": "Vino Plan B 100% Malbec 750cc",
     "precio": 290.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/budeguer-foto1-520258365d04f73f5615992297403841-480-0.jpg",
     "url_producto": "productos/vino-plan-b-malbec-750-cc/",
     "historia": [
@@ -84842,6 +84850,104 @@
       {
         "fecha": "27/03/2021",
         "precio": 239.99
+      }
+    ]
+  },
+  {
+    "id": "04395",
+    "nombre": "Bizcochos Gallo Snack De Arroz Dulces 100gr",
+    "precio": 85.5,
+    "rubro": "Productos > Snacks",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-681-ea4fd561f6c5722c4e16082344747505-480-0.jpg",
+    "url_producto": "productos/bizcochos-gallo-snack-de-arroz-dulces-100-gr/",
+    "historia": [
+      {
+        "fecha": "28/03/2021",
+        "precio": 85.5
+      }
+    ]
+  },
+  {
+    "id": "04396",
+    "nombre": "Chocolate Cofler Air Relleno Bon O Bon 67gr ,",
+    "precio": 105.0,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/chocolate-cofler-air-relleno-bon-o-bon-67-gr/",
+    "historia": [
+      {
+        "fecha": "28/03/2021",
+        "precio": 105.0
+      }
+    ]
+  },
+  {
+    "id": "04397",
+    "nombre": "Jamón Cocido Feteado Paladini 200gr",
+    "precio": 195.0,
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/204351-6593dfae1b24ee663016025191358628-480-0.jpg",
+    "url_producto": "productos/jamon-cocido-feteado-paladini-200-gr/",
+    "historia": [
+      {
+        "fecha": "28/03/2021",
+        "precio": 195.0
+      }
+    ]
+  },
+  {
+    "id": "04398",
+    "nombre": "Polenta Prestopronta Saborizada Espinaca y Crema 250gr",
+    "precio": 65.9,
+    "rubro": "Productos > Harinas, Grasas y Premezclas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/polenta-prestopronta-saborizada-espinaca-y-crema-250-gr/",
+    "historia": [
+      {
+        "fecha": "28/03/2021",
+        "precio": 65.9
+      }
+    ]
+  },
+  {
+    "id": "04399",
+    "nombre": "Polenta Prestopronta Saborizada Panceta y Queso 250gr",
+    "precio": 65.9,
+    "rubro": "Productos > Harinas, Grasas y Premezclas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/polenta-prestopronta-saborizada-panceta-y-queso-250-gr/",
+    "historia": [
+      {
+        "fecha": "28/03/2021",
+        "precio": 65.9
+      }
+    ]
+  },
+  {
+    "id": "04400",
+    "nombre": "Vino Blanco Dulce Santa Isabel 750cc",
+    "precio": 110.0,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/vino-blanco-dulce-santa-isabel-750-cc/",
+    "historia": [
+      {
+        "fecha": "28/03/2021",
+        "precio": 110.0
+      }
+    ]
+  },
+  {
+    "id": "04401",
+    "nombre": "Vino Tinto Santa Isabel 750cc",
+    "precio": 110.0,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/vino-tinto-santa-isabel-750-cc/",
+    "historia": [
+      {
+        "fecha": "28/03/2021",
+        "precio": 110.0
       }
     ]
   }
