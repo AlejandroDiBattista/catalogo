@@ -297,6 +297,3 @@ if __FILE__ == $0
 	correr :bajar_todo
 	# pull
 end
-
-expediente	folios	estado	asunto	observacion	adjuntos
-279-05	51	Recepcionado	Ref. usurpacion de calle, propiedad enclavada en calle publica		
