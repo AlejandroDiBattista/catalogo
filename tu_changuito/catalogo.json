@@ -65517,7 +65517,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -66317,7 +66317,7 @@
     "id": "03163",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 88.28,
-    "rubro": "Productos > Arroz y Legumbres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -66421,7 +66421,7 @@
     "id": "03169",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Conservas",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -66712,7 +66712,7 @@
   {
     "id": "03187",
     "nombre": "Bizcochos 9 De Oro Agridulces 200gr",
-    "precio": 46.3,
+    "precio": 51.86,
     "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/43401-aee427542ed4ba9e0a15989656577763-480-0.jpg",
     "url_producto": "productos/bizcoch-9-de-oro-agridulces-200-gr/",
@@ -66720,6 +66720,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 46.3
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 51.86
       }
     ]
   },
@@ -66787,7 +66791,7 @@
     "id": "03192",
     "nombre": "Bolsa Asurin Residuos 3,3x60 10un",
     "precio": 78.9,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg",
     "url_producto": "productos/bols-asurin-res-3-45x60-10-un/",
     "historia": [
@@ -69017,7 +69021,7 @@
     "id": "03327",
     "nombre": "Galletas De Arroz Integral Arrotuc Saladas 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-80ddd43e1a57a435d816116159267143-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-arrotuc-saladas-12-un-s-t-a-c-c/",
     "historia": [
@@ -69031,7 +69035,7 @@
     "id": "03328",
     "nombre": "Galletas De Arroz Integral Dulces Arrotuc 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/31-34d6a2caa7cf8c242816116158614983-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-dulces-arrotuc-12-un-s-t-a-c-c/",
     "historia": [
@@ -69045,7 +69049,7 @@
     "id": "03329",
     "nombre": "Galletas De Arroz Integral Sin Sal Arrotuc 12un. S/t.a.c.c",
     "precio": 48.75,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-28085d50db185491d516116158878935-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-sin-sal-arrotuc-12-un-s-t-a-c-c/",
     "historia": [
@@ -69109,7 +69113,7 @@
     "id": "03333",
     "nombre": "Galletitas Pepitos 118gr",
     "precio": 94.22,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/75471-947736715d10244e2615988919945740-480-0.jpg",
     "url_producto": "productos/gal-pepitos-118-gr/",
     "historia": [
@@ -69205,7 +69209,7 @@
     "id": "03339",
     "nombre": "Galletitas Terrabusi Variedad 400gr",
     "precio": 133.55,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209851-0f2bd8eb8fc27fb6db15988923475671-480-0.jpg",
     "url_producto": "productos/gal-terrabusi-variedad-400-gr/",
     "historia": [
@@ -69771,7 +69775,7 @@
     "id": "03372",
     "nombre": "Harina Pureza Integral 1kg",
     "precio": 88.27,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59131-01a582d1c75c49900515989691653247-480-0.jpg",
     "url_producto": "productos/har-pureza-integral-1-kg/",
     "historia": [
@@ -70115,7 +70119,7 @@
     "id": "03394",
     "nombre": "Jabón Liquido Skip D.p. 3lt",
     "precio": 627.0,
-    "rubro": "Productos > Lavado de Ropa",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215981-7b18d0c61234c65b5615988874442888-480-0.jpg",
     "url_producto": "productos/jab-liq-skip-d-p-3-lt/",
     "historia": [
@@ -70201,7 +70205,7 @@
     "id": "03399",
     "nombre": "Jugo Arcor Naranja S/t.a.c.c. 200ml",
     "precio": 26.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/jugo-arcor-naranja-sin-tacc-200-ml1-15e3f79a8468ad6b8716110759232509-480-0.jpg",
     "url_producto": "productos/jugo-arcor-naranja-s-t-a-c-c-200-ml/",
     "historia": [
@@ -70331,7 +70335,7 @@
     "id": "03408",
     "nombre": "Jugo Minerva Limón 500cc",
     "precio": 188.37,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/113111-6f045e8b2c177790cd15990030622137-480-0.jpg",
     "url_producto": "productos/jug-minerva-limon-500-cc/",
     "historia": [
@@ -70561,7 +70565,7 @@
     "id": "03421",
     "nombre": "Lavavajilla Esencial Colágeno 750cc",
     "precio": 39.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/39471-dd6af7f7cfca7b372e16001968486757-480-0.jpg",
     "url_producto": "productos/lavavaj-esencial-colageno-750-cc/",
     "historia": [
@@ -70674,7 +70678,7 @@
   {
     "id": "03428",
     "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana 1lt",
-    "precio": 92.3,
+    "precio": 95.0,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790742362100_01_nuevopack1-e6b51851f43cddfcbb16071715461968-480-0.jpg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-1-lt/",
@@ -70690,6 +70694,10 @@
       {
         "fecha": "31/03/2021",
         "precio": 92.3
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 95.0
       }
     ]
   },
@@ -70697,7 +70705,7 @@
     "id": "03429",
     "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana Pet 1lt",
     "precio": 99.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/botella-larga-vida1-be092cc5467eb617e115997437553116-480-0.jpg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-pet-1-l/",
     "historia": [
@@ -70855,7 +70863,7 @@
     "id": "03436",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Postres y Repostería",
+    "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "historia": [
@@ -70989,7 +70997,7 @@
     "id": "03443",
     "nombre": "Limpiador Cif Antigrasa 450ml",
     "precio": 89.0,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg",
     "url_producto": "productos/limp-cif-antig-d-p-450-ml/",
     "historia": [
@@ -71017,7 +71025,7 @@
     "id": "03445",
     "nombre": "Limpiador Cif Crema Limón 750gr",
     "precio": 154.56,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cif-crema-limon1-ace4b3e161ca9ce96f16101128144620-480-0.jpg",
     "url_producto": "productos/limp-cif-crem-limon-750-gr/",
     "historia": [
@@ -71035,7 +71043,7 @@
     "id": "03446",
     "nombre": "Limpiador Cif Pisos Antibacterial 750ml",
     "precio": 172.9,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209611-214abbe56f232f695115988902496909-480-0.jpg",
     "url_producto": "productos/limp-cif-pis-antibac-750-ml/",
     "historia": [
@@ -71453,7 +71461,7 @@
     "id": "03473",
     "nombre": "Mayonesa Natura Doypack 250gr",
     "precio": 61.2,
-    "rubro": "Productos > Aderezos",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/72741-5e8f5ab792cdb14ecc15988911309091-480-0.jpg",
     "url_producto": "productos/may-natura-d-p-250-gr/",
     "historia": [
@@ -72063,7 +72071,7 @@
     "id": "03508",
     "nombre": "Oblea Nugaton Leche 27gr",
     "precio": 48.5,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1221511-eeaca7ca177da77d9815989996596078-480-0.jpg",
     "url_producto": "productos/oblea-nugaton-leche-27-gr/",
     "historia": [
@@ -72435,7 +72443,7 @@
     "id": "03530",
     "nombre": "Pan De Campo La Panerita 360gr",
     "precio": 120.0,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705210_cgm1-8f978b8782b636012716130803607456-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-360-gr/",
     "historia": [
@@ -72453,7 +72461,7 @@
     "id": "03531",
     "nombre": "Pan De Campo La Panerita Con Semillas 340gr",
     "precio": 130.5,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705583_chm1-9697b42f2bf55399aa16130802662831-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-con-semillas-340-gr/",
     "historia": [
@@ -72467,7 +72475,7 @@
     "id": "03532",
     "nombre": "Pan De Hamburguesa La Panerita x 4un",
     "precio": 67.6,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/311-c0d1a72eb892048d8c16118693644227-480-0.jpg",
     "url_producto": "productos/pan-de-hamburguesa-la-panerita-x-4-unidades/",
     "historia": [
@@ -72481,7 +72489,7 @@
     "id": "03533",
     "nombre": "Pan De Viena La Panerita x 6un",
     "precio": 67.6,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211-be805d33b897e5219a16118693250617-480-0.jpg",
     "url_producto": "productos/pan-de-viena-la-panerita-x-6-unidades/",
     "historia": [
@@ -72559,7 +72567,7 @@
     "id": "03538",
     "nombre": "Pan Lactal La Panerita Blanco 400gr ,",
     "precio": 105.0,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-967720a304d43123a016118693910439-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-blanco-400-gr/",
     "historia": [
@@ -73029,7 +73037,7 @@
     "id": "03567",
     "nombre": "Patitas Granja De Sol Queso Jamón 400gr",
     "precio": 306.0,
-    "rubro": "Productos > Congelados de Pollo",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830711-dba545bed7ed42864715990035883853-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-que-jam-400-gr/",
     "historia": [
@@ -73477,7 +73485,7 @@
     "id": "03595",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 199.9,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -84057,7 +84065,7 @@
     "id": "04323",
     "nombre": "Suprema Granja De Sol Pollo 360gr",
     "precio": 370.7,
-    "rubro": "Productos > Congelados de Pollo",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830811-607b67364edc558d3415990038309902-480-0.jpg",
     "url_producto": "productos/suprema-granja-de-sol-pollo-360-gr/",
     "historia": [
@@ -84166,7 +84174,7 @@
   {
     "id": "04330",
     "nombre": "Lavandina X-5 2lt",
-    "precio": 120.0,
+    "precio": 125.0,
     "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/135331-e3e9bbacbace19339d15988897149431-480-0.jpg",
     "url_producto": "productos/lavand-x-5-2-lt/",
@@ -84178,6 +84186,10 @@
       {
         "fecha": "24/03/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 125.0
       }
     ]
   },
@@ -84248,7 +84260,7 @@
   {
     "id": "04335",
     "nombre": "Yogur Yogurísimo Cremix Vainilla 120gr",
-    "precio": 59.0,
+    "precio": 69.9,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7791337695719_02_11-e5c2f0590f422a2e8315995712684188-480-0.jpg",
     "url_producto": "productos/yogur-yogurisimo-cremix-vainilla-120-gr/",
@@ -84256,6 +84268,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 59.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 69.9
       }
     ]
   },
@@ -85406,6 +85422,62 @@
       {
         "fecha": "31/03/2021",
         "precio": 112.58
+      }
+    ]
+  },
+  {
+    "id": "04417",
+    "nombre": "Bizcochos Gallo Snack De Arroz Salados 100gr",
+    "precio": 85.5,
+    "rubro": "Productos > Snacks",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-671-7d5a649484c229248d16082342303639-480-0.jpg",
+    "url_producto": "productos/bizcochos-gallo-snack-de-arroz-salados-100-gr/",
+    "historia": [
+      {
+        "fecha": "01/04/2021",
+        "precio": 85.5
+      }
+    ]
+  },
+  {
+    "id": "04418",
+    "nombre": "Flan Exquisita Vainilla 60gr",
+    "precio": 45.6,
+    "rubro": "Productos > Postres y Repostería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/163311-0d28277e4ad4b207db15990011678267-480-0.jpg",
+    "url_producto": "productos/flan-exquisita-vainilla-60-gr/",
+    "historia": [
+      {
+        "fecha": "01/04/2021",
+        "precio": 45.6
+      }
+    ]
+  },
+  {
+    "id": "04419",
+    "nombre": "Garbanzo La Campagnola 300gr",
+    "precio": 85.0,
+    "rubro": "Productos > Conservas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/garbanzo-la-campagnola-300-gr1-8abc5879bb3e59ba0816113213010669-480-0.jpg",
+    "url_producto": "productos/garbanzo-la-campagnola-300-gr/",
+    "historia": [
+      {
+        "fecha": "01/04/2021",
+        "precio": 85.0
+      }
+    ]
+  },
+  {
+    "id": "04420",
+    "nombre": "Máquina Prestobar Ultragrip 3",
+    "precio": 99.0,
+    "rubro": "Productos > Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/maquina-prestobar-ultragrip-3/",
+    "historia": [
+      {
+        "fecha": "01/04/2021",
+        "precio": 99.0
       }
     ]
   }

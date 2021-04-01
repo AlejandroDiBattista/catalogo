@@ -110,11 +110,11 @@
   {
     "id": "00005",
     "nombre": "Aceite Vicentin Girasol 900cc",
-    "precio": 215.0,
+    "precio": 236.0,
     "rubro": "Almacén > Aceites",
     "url_imagen": "2020/01/ACEITE-VICENTIN-GIRASOL-900CC.jpg",
     "url_producto": "aceite-vicentin-girasol-900cc-s-iva/",
-    "precio_1": "3,190.23",
+    "precio_1": "3,208.81",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -151,6 +151,10 @@
       {
         "fecha": "05/03/2021",
         "precio": 215.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 236.0
       }
     ]
   },
@@ -796,7 +800,7 @@
   {
     "id": "00031",
     "nombre": "Bondiola Lario Feteada x 100gr",
-    "precio": 166.0,
+    "precio": 175.5,
     "rubro": "Fiambreria > Bondiola",
     "url_imagen": "2020/01/BONDIOLA-LARIO.jpg",
     "url_producto": "bondiola-lario/",
@@ -832,6 +836,10 @@
       {
         "fecha": "25/02/2021",
         "precio": 166.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 175.5
       }
     ]
   },
@@ -920,11 +928,11 @@
   {
     "id": "00035",
     "nombre": "Burgol La Espanola 500gr",
-    "precio": 89.5,
+    "precio": 85.0,
     "rubro": "Almacén > Legumbres",
     "url_imagen": "2020/04/burgol-la-española.jpg",
     "url_producto": "burgol-la-espanola-500gr/",
-    "precio_1": "3,77.34",
+    "precio_1": "3,73.47",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -957,6 +965,10 @@
       {
         "fecha": "03/03/2021",
         "precio": 89.5
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 85.0
       }
     ]
   },
@@ -3401,11 +3413,10 @@
   {
     "id": "00126",
     "nombre": "Galletas Bagley Salvado 3 x 214gr",
-    "precio": 185.0,
+    "precio": 141.4,
     "rubro": "Desayuno > Gall Dulces y Saladas",
     "url_imagen": "2020/01/GALL-BAGLEY-SALV-DE-3-X214GR.jpg",
     "url_producto": "gall-bagley-salv-de-3-x214gr/",
-    "precio_1": "3,160.89",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -3436,6 +3447,10 @@
       {
         "fecha": "11/02/2021",
         "precio": 185.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 141.4
       }
     ]
   },
@@ -3563,11 +3578,11 @@
   {
     "id": "00131",
     "nombre": "Galletas De Arroz All Rice Dulces x 100gr",
-    "precio": 78.75,
+    "precio": 85.0,
     "rubro": "Almacén > Varios",
     "url_imagen": "2020/05/galletas-all-rice-dulce.jpg",
     "url_producto": "galletas-all-rice-dulces-x-100-grs/",
-    "precio_1": "3,68.25",
+    "precio_1": "3,73.67",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -3594,6 +3609,10 @@
       {
         "fecha": "03/03/2021",
         "precio": 78.75
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 85.0
       }
     ]
   },
@@ -3621,11 +3640,11 @@
   {
     "id": "00133",
     "nombre": "Galletas De Arroz All Rice Naranja x 100gr",
-    "precio": 78.75,
+    "precio": 85.0,
     "rubro": "Almacén > Varios",
     "url_imagen": "2020/05/galletas-all-rice-naranja.jpg",
     "url_producto": "galletas-all-rice-naranja-x-100-grs/",
-    "precio_1": "3,68.25",
+    "precio_1": "3,73.67",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -3652,6 +3671,10 @@
       {
         "fecha": "03/03/2021",
         "precio": 78.75
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 85.0
       }
     ]
   },
@@ -3745,7 +3768,7 @@
     "rubro": "Desayuno > Gall Dulces y Saladas",
     "url_imagen": "2019/11/GALL-FORMIS-108GR.jpg",
     "url_producto": "gall-formis-108gr/",
-    "precio_1": "3,50.79",
+    "precio_1": "3,63.81",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -4775,7 +4798,7 @@
   {
     "id": "00172",
     "nombre": "Jamon Cocido Lario Feteado x 100gr",
-    "precio": 85.0,
+    "precio": 91.0,
     "rubro": "Fiambreria > Jamón",
     "url_imagen": "2020/01/FIAMBRE-COC-LARIO-COD-108.jpg",
     "url_producto": "jamon-cocido-lario/",
@@ -4809,6 +4832,10 @@
       {
         "fecha": "11/02/2021",
         "precio": 85.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 91.0
       }
     ]
   },
@@ -4999,11 +5026,11 @@
   {
     "id": "00179",
     "nombre": "Jugo Baggio Fresh Manzana Deliciosa 1,1lt",
-    "precio": 67.0,
+    "precio": 70.0,
     "rubro": "Bebidas > Jugos",
     "url_imagen": "2019/11/jugo-baggio-fresh-manzana.jpg",
     "url_producto": "jugo-baggio-fresh-manzana-deliciosa-1-5-lt/",
-    "precio_1": "3,60.00",
+    "precio_1": "3,63.00",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -5040,6 +5067,10 @@
       {
         "fecha": "25/02/2021",
         "precio": 67.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 70.0
       }
     ]
   },
@@ -5477,11 +5508,11 @@
   {
     "id": "00196",
     "nombre": "Lenteja Jose Lopez 500gr",
-    "precio": 130.0,
+    "precio": 144.0,
     "rubro": "Almacén > Legumbres",
     "url_imagen": "2019/11/lentejas-jose-lopez.jpg",
     "url_producto": "lenteja-jose-lopez-500gr/",
-    "precio_1": "3,112.89",
+    "precio_1": "3,125.05",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -5501,6 +5532,10 @@
       {
         "fecha": "27/10/2020",
         "precio": 130.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 144.0
       }
     ]
   },
@@ -5684,11 +5719,11 @@
   {
     "id": "00204",
     "nombre": "Malta El Pocillo x 125gr",
-    "precio": 135.0,
+    "precio": 170.0,
     "rubro": "Almacén > Café",
     "url_imagen": "2020/05/MALTA-ELPOCILLO-125-POCUH.jpg",
     "url_producto": "malta-el-pocillo-x-125-gr/",
-    "precio_1": "3,114.12",
+    "precio_1": "3,147.32",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -5700,17 +5735,21 @@
       {
         "fecha": "10/11/2020",
         "precio": 135.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 170.0
       }
     ]
   },
   {
     "id": "00205",
     "nombre": "Malta El Pocillo x 170gr",
-    "precio": 219.0,
+    "precio": 282.0,
     "rubro": "Almacén > Café",
     "url_imagen": "2020/05/MALTA-EL-POCILLO-170G.jpg",
     "url_producto": "malta-el-pocillo-x-170-gr/",
-    "precio_1": "3,189.00",
+    "precio_1": "3,244.07",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -5722,6 +5761,10 @@
       {
         "fecha": "03/03/2021",
         "precio": 219.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 282.0
       }
     ]
   },
@@ -5906,11 +5949,11 @@
   {
     "id": "00212",
     "nombre": "Masa Para Tacos Pandino",
-    "precio": 56.0,
+    "precio": 75.0,
     "rubro": "Frescos y Congelados > Masa para Tacos",
     "url_imagen": "2020/01/TACOS-PANDINO.jpg",
     "url_producto": "tacos-pandino/",
-    "precio_1": "3,49.20",
+    "precio_1": "3,65.00",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -5927,6 +5970,10 @@
       {
         "fecha": "12/03/2021",
         "precio": 56.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 75.0
       }
     ]
   },
@@ -6029,11 +6076,11 @@
   {
     "id": "00217",
     "nombre": "Mayonesa Danica F x 500gr",
-    "precio": 95.0,
+    "precio": 96.0,
     "rubro": "Aderezos > Mayonesas",
     "url_imagen": "2019/11/MAYONESA-DANICA-F-X-500GR.jpg",
     "url_producto": "mayonesa-danica-f-x-500gr/",
-    "precio_1": "3,82.16",
+    "precio_1": "3,83.00",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -6057,6 +6104,10 @@
       {
         "fecha": "01/02/2021",
         "precio": 95.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 96.0
       }
     ]
   },
@@ -6093,7 +6144,7 @@
   {
     "id": "00219",
     "nombre": "Mayonesa Fanacoa 2755kg",
-    "precio": 360.57,
+    "precio": 400.0,
     "rubro": "Aderezos > Mayonesas",
     "url_imagen": "2020/01/MAYONESA-FANACOA-2755KG.jpg",
     "url_producto": "mayonesa-fanacoa-2755kg/",
@@ -6120,6 +6171,10 @@
       {
         "fecha": "01/02/2021",
         "precio": 360.57
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 400.0
       }
     ]
   },
@@ -6172,11 +6227,11 @@
   {
     "id": "00221",
     "nombre": "Mayonesa Hellmanns 2755gr",
-    "precio": 540.0,
+    "precio": 600.0,
     "rubro": "Aderezos > Mayonesas",
     "url_imagen": "2020/01/MAYONESA-HELLMANNS-2755GR.jpg",
     "url_producto": "mayonesa-hellmanns-2755gr/",
-    "precio_1": "3,518.40",
+    "precio_1": "3,604.98",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -6207,6 +6262,10 @@
       {
         "fecha": "13/02/2021",
         "precio": 540.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 600.0
       }
     ]
   },
@@ -6609,7 +6668,7 @@
   {
     "id": "00237",
     "nombre": "Mortadela Lario Feteada x 100gr",
-    "precio": 50.0,
+    "precio": 55.5,
     "rubro": "Fiambreria > Mortadela",
     "url_imagen": "2020/01/MORT-LARIO.jpg",
     "url_producto": "mort-lario/",
@@ -6637,6 +6696,10 @@
       {
         "fecha": "11/02/2021",
         "precio": 50.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 55.5
       }
     ]
   },
@@ -6900,11 +6963,11 @@
   {
     "id": "00246",
     "nombre": "Pan De Hamburguesa Tatito 4 Uds. (albertus)",
-    "precio": 48.9,
+    "precio": 57.0,
     "rubro": "Panadería > Pan de Hamburguesa",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "pan-tatito-hamb-4ud/",
-    "precio_1": "3,42.05",
+    "precio_1": "3,49.02",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -6921,6 +6984,10 @@
       {
         "fecha": "18/02/2021",
         "precio": 48.9
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 57.0
       }
     ]
   },
@@ -6961,11 +7028,11 @@
   {
     "id": "00248",
     "nombre": "Pan De Viena Tatito 6 Uds. (albertus)",
-    "precio": 48.9,
+    "precio": 57.0,
     "rubro": "Panadería > Pan de Viena",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "pan-tatito-viena-6ud/",
-    "precio_1": "3,42.05",
+    "precio_1": "3,49.02",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -6982,17 +7049,21 @@
       {
         "fecha": "18/02/2021",
         "precio": 48.9
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 57.0
       }
     ]
   },
   {
     "id": "00249",
     "nombre": "Pan Hamburguesa x 4 Pandino",
-    "precio": 37.8,
+    "precio": 80.0,
     "rubro": "Panadería > Pan de Hamburguesa",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "pan-hamb-x4-pandino/",
-    "precio_1": "3,33.21",
+    "precio_1": "3,70.00",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -7009,17 +7080,21 @@
       {
         "fecha": "12/03/2021",
         "precio": 37.8
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 80.0
       }
     ]
   },
   {
     "id": "00250",
     "nombre": "Pan Lactal Blanco Don Francisco (albertus)",
-    "precio": 66.0,
+    "precio": 77.0,
     "rubro": "Panadería > Lactal",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "pan-don-franc-lactal-y-salv/",
-    "precio_1": "3,57.07",
+    "precio_1": "3,66.58",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -7032,17 +7107,21 @@
       {
         "fecha": "03/03/2021",
         "precio": 66.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 77.0
       }
     ]
   },
   {
     "id": "00251",
     "nombre": "Pan Lactal De Salvado Con Semillas 350gr",
-    "precio": 124.99,
+    "precio": 129.99,
     "rubro": "Panadería > Lactal",
     "url_imagen": "2019/11/pan-lactal-salvado-semillado.jpg",
     "url_producto": "pan-lactal-fargo-mix-cereal530/",
-    "precio_1": "3,106.84",
+    "precio_1": "3,116.99",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -7054,17 +7133,21 @@
       {
         "fecha": "11/02/2021",
         "precio": 124.99
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 129.99
       }
     ]
   },
   {
     "id": "00252",
     "nombre": "Pan Lactal Salvado Don Francisco (albertus)",
-    "precio": 66.0,
+    "precio": 77.0,
     "rubro": "Panadería > Lactal",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "pan-lactal-salvado-don-francisco-albertus/",
-    "precio_1": "3,57.07",
+    "precio_1": "3,66.58",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -7073,17 +7156,21 @@
       {
         "fecha": "03/03/2021",
         "precio": 66.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 77.0
       }
     ]
   },
   {
     "id": "00253",
     "nombre": "Pan Negro Bollitos Pandino",
-    "precio": 47.6,
+    "precio": 100.0,
     "rubro": "Panadería > Pan Negro",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "pan-negro-bollitos-pandino/",
-    "precio_1": "3,41.82",
+    "precio_1": "3,85.00",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -7096,6 +7183,10 @@
       {
         "fecha": "12/03/2021",
         "precio": 47.6
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 100.0
       }
     ]
   },
@@ -7328,12 +7419,11 @@
   {
     "id": "00261",
     "nombre": "Papel Higienico Family x 4 x 30 Mts",
-    "precio": 57.0,
+    "precio": 74.0,
     "rubro": "Limpieza > Papel Higiénico",
     "url_imagen": "2020/04/HIGIENICO-ECO-FAMILY-X4-30MT.jpg",
     "url_producto": "papel-higienico-family-x-4-x-30-mts/",
-    "precio_unitario": "$57,00",
-    "precio_1": "3,49.00",
+    "precio_1": "3,62.14",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -7352,6 +7442,10 @@
       },
       {
         "fecha": "02/02/2021"
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 74.0
       }
     ]
   },
@@ -7393,11 +7487,11 @@
   {
     "id": "00263",
     "nombre": "Pascualina Madomi",
-    "precio": 75.7,
+    "precio": 90.0,
     "rubro": "Frescos y Congelados > Pascualinas",
     "url_imagen": "2020/01/PASCUALINA-MADOMI-LIGHT.jpg",
     "url_producto": "pascualina-madomi/",
-    "precio_1": "3,64.39",
+    "precio_1": "3,77.93",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -7418,17 +7512,21 @@
       {
         "fecha": "05/02/2021",
         "precio": 75.7
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 90.0
       }
     ]
   },
   {
     "id": "00264",
     "nombre": "Pebete x 6 Pandino",
-    "precio": 63.0,
+    "precio": 105.0,
     "rubro": "Panadería > Pebete",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "pebete-x6-pandino/",
-    "precio_1": "3,55.35",
+    "precio_1": "3,95.00",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -7445,6 +7543,10 @@
       {
         "fecha": "12/03/2021",
         "precio": 63.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 105.0
       }
     ]
   },
@@ -7723,11 +7825,11 @@
   {
     "id": "00274",
     "nombre": "Prepizzas Tatito x 3 (albertus)",
-    "precio": 108.0,
+    "precio": 128.0,
     "rubro": "Panadería > Prepizzas",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "prepizas-tatito-x-3/",
-    "precio_1": "3,93.09",
+    "precio_1": "3,110.32",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -7748,6 +7850,10 @@
       {
         "fecha": "18/02/2021",
         "precio": 108.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 128.0
       }
     ]
   },
@@ -7946,11 +8052,11 @@
   {
     "id": "00282",
     "nombre": "Queso Crema Light La Paulina x 290gr",
-    "precio": 105.1,
+    "precio": 160.0,
     "rubro": "Lacteos > Quesos",
     "url_imagen": "2020/05/queso-crema-light-la-paulina-290.jpg",
     "url_producto": "queso-crema-light-la-paulina-x-290-grs/",
-    "precio_1": "3,96.09",
+    "precio_1": "3,140.00",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -7991,6 +8097,10 @@
       {
         "fecha": "12/03/2021",
         "precio": 105.1
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 160.0
       }
     ]
   },
@@ -8058,11 +8168,11 @@
   {
     "id": "00286",
     "nombre": "Queso Cremoso Noal x 100gr",
-    "precio": 57.0,
+    "precio": 55.0,
     "rubro": "Fiambreria > Cremosos",
     "url_imagen": "2020/01/CREMOSO-NOAL.jpg",
     "url_producto": "cremoso-noal/",
-    "precio_1": "20,49.40",
+    "precio_1": "20,45.00",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -8098,17 +8208,21 @@
       {
         "fecha": "20/03/2021",
         "precio": 57.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 55.0
       }
     ]
   },
   {
     "id": "00287",
     "nombre": "Queso Cremoso Santa Maria x 100gr",
-    "precio": 54.0,
+    "precio": 55.0,
     "rubro": "Fiambreria > Cremosos",
     "url_imagen": "2020/01/CREMOSO-SANTA-MARIA.jpg",
     "url_producto": "cremoso-santa-maria/",
-    "precio_1": "20,45.50",
+    "precio_1": "20,44.56",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -8156,13 +8270,17 @@
       {
         "fecha": "20/03/2021",
         "precio": 54.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 55.0
       }
     ]
   },
   {
     "id": "00288",
     "nombre": "Queso Danbo Noal (tybo) Feteado x 100gr",
-    "precio": 63.5,
+    "precio": 78.0,
     "rubro": "Fiambreria > Dambo",
     "url_imagen": "2020/01/DAMBO-NOAL.jpg",
     "url_producto": "dambo-noal/",
@@ -8190,17 +8308,21 @@
       {
         "fecha": "09/02/2021",
         "precio": 63.5
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 78.0
       }
     ]
   },
   {
     "id": "00289",
     "nombre": "Queso Magro Noal x 100gr",
-    "precio": 55.0,
+    "precio": 60.0,
     "rubro": "Fiambreria > Por Salut",
     "url_imagen": "2020/01/MAGRO-NOAL.jpg",
     "url_producto": "magro-noal/",
-    "precio_1": "20,46.00",
+    "precio_1": "20,49.40",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -8212,6 +8334,10 @@
       {
         "fecha": "09/02/2021",
         "precio": 55.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 60.0
       }
     ]
   },
@@ -8236,11 +8362,11 @@
   {
     "id": "00291",
     "nombre": "Queso Por Salut Noal x 100gr",
-    "precio": 55.0,
+    "precio": 58.0,
     "rubro": "Fiambreria > Por Salut",
     "url_imagen": "2020/01/POR-SALUT-NOAL.jpg",
     "url_producto": "por-salut-noal/",
-    "precio_1": "20,46.09",
+    "precio_1": "20,48.60",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -8260,6 +8386,10 @@
       {
         "fecha": "09/02/2021",
         "precio": 55.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 58.0
       }
     ]
   },
@@ -8383,7 +8513,7 @@
   {
     "id": "00296",
     "nombre": "Queso Tybo Santa Maria Feteado x 100gr",
-    "precio": 68.0,
+    "precio": 69.0,
     "rubro": "Fiambreria > Tybo",
     "url_imagen": "2020/01/TYBO-SANTA-MARIA-1.5.jpg",
     "url_producto": "tybo-santa-maria-1-5/",
@@ -8422,6 +8552,10 @@
       {
         "fecha": "09/03/2021",
         "precio": 68.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 69.0
       }
     ]
   },
@@ -8472,11 +8606,11 @@
   {
     "id": "00299",
     "nombre": "Ravioles Madomi x 500gr",
-    "precio": 77.0,
+    "precio": 92.0,
     "rubro": "Frescos y Congelados > Ravioles",
     "url_imagen": "2020/01/RAVIOLES-MADOMI-X500GR.jpg",
     "url_producto": "ravioles-madomi-x500gr/",
-    "precio_1": "3,65.59",
+    "precio_1": "3,79.37",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -8493,6 +8627,10 @@
       {
         "fecha": "05/02/2021",
         "precio": 77.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 92.0
       }
     ]
   },
@@ -8578,7 +8716,7 @@
   {
     "id": "00302",
     "nombre": "Romanito Santa Maria x 100gr",
-    "precio": 97.0,
+    "precio": 108.0,
     "rubro": "Fiambreria > Romanito / Sardo",
     "url_imagen": "2019/11/romanito-santa-maria.jpg",
     "url_producto": "romanito-santa-maria-1-5/",
@@ -8606,22 +8744,29 @@
       {
         "fecha": "09/03/2021",
         "precio": 97.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 108.0
       }
     ]
   },
   {
     "id": "00303",
     "nombre": "Sal Celusal Fina 500gr",
-    "precio": 39.99,
+    "precio": 42.0,
     "rubro": "Almacén > Sal",
     "url_imagen": "2020/01/SAL-CELUSAL-FINA-500GR.jpg",
     "url_producto": "sal-celusal-fina-500gr/",
-    "precio_unitario": "$39,99",
-    "precio_1": "3,33.32",
+    "precio_1": "3,35.10",
     "historia": [
       {
         "fecha": "24/07/2020",
         "precio": 39.99
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 42.0
       }
     ]
   },
@@ -8862,11 +9007,11 @@
   {
     "id": "00311",
     "nombre": "Salchicha 66 6un",
-    "precio": 55.5,
+    "precio": 62.0,
     "rubro": "Frescos y Congelados > Salchichas",
     "url_imagen": "2020/01/SALCHICHA-66-6UN.jpg",
     "url_producto": "salchicha-66-6un/",
-    "precio_1": "3,51.76",
+    "precio_1": "3,56.75",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -8928,6 +9073,10 @@
       {
         "fecha": "16/03/2021",
         "precio": 55.5
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 62.0
       }
     ]
   },
@@ -9306,11 +9455,11 @@
   {
     "id": "00325",
     "nombre": "Sorrentinos Madomi x 500gr",
-    "precio": 100.0,
+    "precio": 121.0,
     "rubro": "Frescos y Congelados > Sorrentinos",
     "url_imagen": "2020/01/SORRENTINOS-MADOMI-X-500G.jpg",
     "url_producto": "sorrentinos-madomi-x-500g/",
-    "precio_1": "3,86.45",
+    "precio_1": "3,104.59",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -9323,6 +9472,10 @@
       {
         "fecha": "05/02/2021",
         "precio": 100.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 121.0
       }
     ]
   },
@@ -9438,11 +9591,11 @@
   {
     "id": "00330",
     "nombre": "Tapa Para Empanadas Madomi x 12un",
-    "precio": 55.2,
+    "precio": 67.0,
     "rubro": "Frescos y Congelados > Tapas",
     "url_imagen": "2020/01/TAPA-MADOMI-P-EMP.jpg",
     "url_producto": "tapa-madomi-p-emp/",
-    "precio_1": "3,47.78",
+    "precio_1": "3,57.77",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -9459,6 +9612,10 @@
       {
         "fecha": "05/02/2021",
         "precio": 55.2
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 67.0
       }
     ]
   },
@@ -9791,11 +9948,11 @@
   {
     "id": "00341",
     "nombre": "Te Taragui Tilo 25 Uds",
-    "precio": 147.0,
+    "precio": 157.0,
     "rubro": "Desayuno > Mate",
     "url_imagen": "2020/01/TE-TARAGUI-TILO-25UN.jpg",
     "url_producto": "te-taragui-tilo-25un/",
-    "precio_1": "3,127.01",
+    "precio_1": "3,135.65",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -9808,6 +9965,10 @@
       {
         "fecha": "10/11/2020",
         "precio": 147.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 157.0
       }
     ]
   },
@@ -10396,11 +10557,11 @@
   {
     "id": "00365",
     "nombre": "Yerba Cachamate Con Hierbas 500gr . (amarilla)",
-    "precio": 150.0,
+    "precio": 165.0,
     "rubro": "Almacén > Mate",
     "url_imagen": "2020/05/yerba-cachamate-hierbas-amarilla-500.jpg",
     "url_producto": "yerba-cachamate-con-hierbas-500-grs-amarilla/",
-    "precio_1": "3,134.91",
+    "precio_1": "3,145.71",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -10421,17 +10582,21 @@
       {
         "fecha": "20/03/2021",
         "precio": 150.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 165.0
       }
     ]
   },
   {
     "id": "00366",
     "nombre": "Yerba Cachamate Con Hierbas 500gr . (rosa)",
-    "precio": 150.0,
+    "precio": 165.0,
     "rubro": "Almacén > Mate",
     "url_imagen": "2019/11/yerba-cachamate-hierbas-500.jpg",
     "url_producto": "yerba-cachamate-todas-500gr/",
-    "precio_1": "3,134.91",
+    "precio_1": "3,145.71",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -10455,6 +10620,10 @@
       {
         "fecha": "20/03/2021",
         "precio": 150.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 165.0
       }
     ]
   },
@@ -11671,11 +11840,11 @@
   {
     "id": "00411",
     "nombre": "Pan Viena x 6 Pandino",
-    "precio": 37.8,
+    "precio": 80.0,
     "rubro": "Panadería > Pan de Viena",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "pan-viena-x6-pandino/",
-    "precio_1": "3,33.21",
+    "precio_1": "3,70.00",
     "historia": [
       {
         "fecha": "31/07/2020",
@@ -11688,6 +11857,10 @@
       {
         "fecha": "12/03/2021",
         "precio": 37.8
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 80.0
       }
     ]
   },
@@ -11772,11 +11945,11 @@
   {
     "id": "00415",
     "nombre": "Queso Crema Tradicional La Paulina x 290gr",
-    "precio": 105.1,
+    "precio": 160.0,
     "rubro": "Lacteos > Quesos",
     "url_imagen": "2019/11/queso-crema-tradicional-la-paulina-290.jpg",
     "url_producto": "queso-crema-la-paulina-x-290/",
-    "precio_1": "3,96.09",
+    "precio_1": "3,140.00",
     "historia": [
       {
         "fecha": "31/07/2020",
@@ -11806,6 +11979,10 @@
       {
         "fecha": "12/03/2021",
         "precio": 105.1
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 160.0
       }
     ]
   },
@@ -13739,11 +13916,11 @@
   {
     "id": "00495",
     "nombre": "Cif Naranja Antigrasa Doypack 450",
-    "precio": 64.0,
+    "precio": 79.0,
     "rubro": "Limpieza > Varios",
-    "url_imagen": "/2020/01/CIF-NAR-ANTIGR-DPACK-450.jpg",
-    "url_producto": "/cif-nar-antigr-dpack-450/",
-    "precio_1": "3,55.77",
+    "url_imagen": "2020/01/CIF-NAR-ANTIGR-DPACK-450.jpg",
+    "url_producto": "cif-nar-antigr-dpack-450/",
+    "precio_1": "3,68.12",
     "historia": [
       {
         "fecha": "21/09/2020",
@@ -13755,17 +13932,21 @@
       },
       {
         "fecha": "06/11/2020"
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 79.0
       }
     ]
   },
   {
     "id": "00496",
     "nombre": "Crema De Leche Santa Maria 360gr",
-    "precio": 162.0,
+    "precio": 165.0,
     "rubro": "Lacteos > Crema de Leche",
     "url_imagen": "2020/01/CREMA-DE-LECHE-SANTA-MARIA-360GR.jpg",
     "url_producto": "crema-de-leche-santa-maria-360gr/",
-    "precio_1": "3,136.44",
+    "precio_1": "3,138.96",
     "historia": [
       {
         "fecha": "21/09/2020",
@@ -13784,6 +13965,10 @@
       {
         "fecha": "09/03/2021",
         "precio": 162.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 165.0
       }
     ]
   },
@@ -13990,11 +14175,11 @@
   {
     "id": "00505",
     "nombre": "Jugo Baggio Fresh Mix Frutal 1,1lt",
-    "precio": 67.0,
+    "precio": 70.0,
     "rubro": "Bebidas > Jugos",
     "url_imagen": "2020/05/jugo-baggio-fresh-mix-frutal.jpg",
     "url_producto": "jugo-baggio-fresh-mix-frutal-1-5-lt/",
-    "precio_1": "3,60.00",
+    "precio_1": "3,63.00",
     "historia": [
       {
         "fecha": "21/09/2020",
@@ -14027,17 +14212,21 @@
       {
         "fecha": "25/02/2021",
         "precio": 67.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 70.0
       }
     ]
   },
   {
     "id": "00506",
     "nombre": "Jugo Baggio Fresh Naranja Dulce 1,1lt",
-    "precio": 67.0,
+    "precio": 70.0,
     "rubro": "Bebidas > Jugos",
     "url_imagen": "2019/11/jugo-baggio-fresh-naranja-dulce.jpg",
     "url_producto": "jugo-baggio-fresh-vida1-5lt/",
-    "precio_1": "3,60.00",
+    "precio_1": "3,63.00",
     "historia": [
       {
         "fecha": "21/09/2020",
@@ -14070,6 +14259,10 @@
       {
         "fecha": "25/02/2021",
         "precio": 67.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 70.0
       }
     ]
   },
@@ -14180,11 +14373,11 @@
   {
     "id": "00510",
     "nombre": "Lenteja La Espanola x 400gr",
-    "precio": 108.5,
+    "precio": 130.0,
     "rubro": "Almacén > Legumbres",
     "url_imagen": "2020/01/LENTEJA-LA-ESPANOLA-X-400-GR.jpg",
     "url_producto": "lenteja-la-espanola-x-400-gr/",
-    "precio_1": "3,93.95",
+    "precio_1": "3,112.46",
     "historia": [
       {
         "fecha": "21/09/2020",
@@ -14197,6 +14390,10 @@
       {
         "fecha": "03/03/2021",
         "precio": 108.5
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 130.0
       }
     ]
   },
@@ -15573,11 +15770,11 @@
   {
     "id": "00571",
     "nombre": "Hamburguesa Paty Finita 2un",
-    "precio": 77.5,
+    "precio": 85.0,
     "rubro": "Frescos y Congelados > Hamburguesas",
     "url_imagen": "2020/01/HAMB-PATY-FINITA-2UN.jpg",
     "url_producto": "hamb-paty-finita-2un/",
-    "precio_1": "3,67.17",
+    "precio_1": "3,73.18",
     "historia": [
       {
         "fecha": "27/10/2020",
@@ -15598,6 +15795,10 @@
       {
         "fecha": "01/02/2021",
         "precio": 77.5
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 85.0
       }
     ]
   },
@@ -17123,7 +17324,7 @@
   {
     "id": "00646",
     "nombre": "Sardo Debaldo x 100gr",
-    "precio": 68.0,
+    "precio": 80.0,
     "rubro": "Fiambreria > Sardo",
     "url_imagen": "2020/01/SARDO-DEBALDO.jpg",
     "url_producto": "sardo-debaldo/",
@@ -17151,6 +17352,10 @@
       {
         "fecha": "03/03/2021",
         "precio": 68.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 80.0
       }
     ]
   },
@@ -17236,15 +17441,19 @@
   {
     "id": "00651",
     "nombre": "Cappuccino Bessone Doy Pack 150gr",
-    "precio": 149.0,
+    "precio": 208.0,
     "rubro": "Almacén > Café",
     "url_imagen": "2020/10/cappuccino-bessone-150.jpg",
     "url_producto": "cappuccino-bessone-doy-pack-150-gr/",
-    "precio_1": "3,128.91",
+    "precio_1": "3,179.94",
     "historia": [
       {
         "fecha": "30/10/2020",
         "precio": 149.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 208.0
       }
     ]
   },
@@ -18071,11 +18280,11 @@
   {
     "id": "00691",
     "nombre": "Queso Finlandia Clasico 200gr",
-    "precio": 135.0,
+    "precio": 158.0,
     "rubro": "Lacteos > Quesos",
     "url_imagen": "2019/11/QUESO-FINLANDIA-CLASICO-1.jpg",
     "url_producto": "queso-unt-ls-todos-x-200g/",
-    "precio_1": "3,121.24",
+    "precio_1": "3,141.46",
     "historia": [
       {
         "fecha": "30/10/2020",
@@ -18100,6 +18309,10 @@
       {
         "fecha": "20/03/2021",
         "precio": 135.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 158.0
       }
     ]
   },
@@ -18334,11 +18547,11 @@
   {
     "id": "00702",
     "nombre": "Dulce De Leche Cerros Tucumanos 400gr",
-    "precio": 73.69,
+    "precio": 75.0,
     "rubro": "Lacteos > Dulce de Leche",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "dulce-de-leche-cerros-tucumanos-400-gr/",
-    "precio_1": "3,61.22",
+    "precio_1": "3,65.27",
     "historia": [
       {
         "fecha": "31/10/2020",
@@ -18357,6 +18570,10 @@
       {
         "fecha": "20/02/2021",
         "precio": 73.69
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 75.0
       }
     ]
   },
@@ -18873,7 +19090,7 @@
     "rubro": "Almacén > Postres",
     "url_imagen": "2020/01/GELATINA-GODET-TODAS-X-100.jpg",
     "url_producto": "gelatina-godet-todas-x-100/",
-    "precio_1": "3,46.08",
+    "precio_1": "3,46.34",
     "historia": [
       {
         "fecha": "10/11/2020",
@@ -19192,7 +19409,7 @@
   {
     "id": "00738",
     "nombre": "Jamon Cocido Paladini x Pieza ( 6kg .)",
-    "precio": 3.96,
+    "precio": 4.14,
     "rubro": "Fiambreria > Jamón",
     "url_imagen": "2020/01/JAMON-COC-PALADINI.jpg",
     "url_producto": "jamon-cocido-paladini-x-pieza-6kg/",
@@ -19216,6 +19433,10 @@
       {
         "fecha": "11/02/2021",
         "precio": 3.96
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 4.14
       }
     ]
   },
@@ -19724,11 +19945,11 @@
   {
     "id": "00765",
     "nombre": "Poroto Inalpa 350gr",
-    "precio": 53.0,
+    "precio": 68.0,
     "rubro": "Almacén > Enlatados",
     "url_imagen": "2020/01/POROTO-INALPA-350GR.jpg",
     "url_producto": "poroto-inalpa-350gr-s-iva/",
-    "precio_1": "3,46.10",
+    "precio_1": "3,58.58",
     "historia": [
       {
         "fecha": "26/11/2020",
@@ -19737,17 +19958,21 @@
       {
         "fecha": "16/03/2021",
         "precio": 53.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 68.0
       }
     ]
   },
   {
     "id": "00766",
     "nombre": "Queso Finlandia Light 200gr",
-    "precio": 135.0,
+    "precio": 158.0,
     "rubro": "Lacteos > Quesos",
     "url_imagen": "2020/04/QUESO-FINLANDIA-LIGHT-1.jpg",
     "url_producto": "queso-finlandia-light-x-200g/",
-    "precio_1": "3,121.24",
+    "precio_1": "3,141.46",
     "historia": [
       {
         "fecha": "26/11/2020",
@@ -19768,6 +19993,10 @@
       {
         "fecha": "20/03/2021",
         "precio": 135.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 158.0
       }
     ]
   },
@@ -20004,7 +20233,7 @@
   {
     "id": "00777",
     "nombre": "Salchichon Primavera Lario x 100gr",
-    "precio": 40.0,
+    "precio": 45.5,
     "rubro": "Fiambreria > Salchichon",
     "url_imagen": "2020/12/salchichon-primavera-lario.jpg",
     "url_producto": "salchichon-primavera-paladini-x100-grs/",
@@ -20019,6 +20248,10 @@
       {
         "fecha": "01/02/2021",
         "precio": 40.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 45.5
       }
     ]
   },
@@ -20114,11 +20347,11 @@
   {
     "id": "00783",
     "nombre": "Leche Entera La Lacteo Larga Vida 1lt",
-    "precio": 65.0,
+    "precio": 80.0,
     "rubro": "Lacteos > Leche",
     "url_imagen": "2020/10/leche-lv-la-lacteo-1lt.jpg",
     "url_producto": "leche-la-lacteo-larga-vida-1lt/",
-    "precio_1": "3,57.20",
+    "precio_1": "3,76.70",
     "historia": [
       {
         "fecha": "16/12/2020",
@@ -20130,6 +20363,10 @@
       {
         "fecha": "20/03/2021",
         "precio": 65.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 80.0
       }
     ]
   },
@@ -20319,7 +20556,7 @@
   {
     "id": "00793",
     "nombre": "Jamon Cocido Lario x Pieza",
-    "precio": 3.726,
+    "precio": 4.32,
     "rubro": "Fiambreria > Jamón",
     "url_imagen": "2020/01/FIAMBRE-COC-LARIO-COD-108.jpg",
     "url_producto": "jamon-cocido-lario-x-pieza/",
@@ -20339,6 +20576,10 @@
       {
         "fecha": "11/02/2021",
         "precio": 3.726
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 4.32
       }
     ]
   },
@@ -20363,11 +20604,11 @@
   {
     "id": "00795",
     "nombre": "Mostaza Savora 3kg",
-    "precio": 438.0,
+    "precio": 500.0,
     "rubro": "Aderezos > Mostazas",
     "url_imagen": "2020/01/MOSTAZA-SAVORA-3KG.jpg",
     "url_producto": "mostaza-savora-3kg/",
-    "precio_1": "3,436.99",
+    "precio_1": "3,498.85",
     "historia": [
       {
         "fecha": "23/12/2020",
@@ -20376,6 +20617,10 @@
       {
         "fecha": "01/02/2021",
         "precio": 438.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 500.0
       }
     ]
   },
@@ -20627,11 +20872,11 @@
   {
     "id": "00809",
     "nombre": "Pan De Miga Delizioso (blanco Sin Corteza)",
-    "precio": 112.0,
+    "precio": 170.0,
     "rubro": "Panadería > Miga",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "miga-delizioso-10-fet/",
-    "precio_1": "3,100.21",
+    "precio_1": "3,150.00",
     "historia": [
       {
         "fecha": "07/01/2021",
@@ -20647,6 +20892,10 @@
       {
         "fecha": "12/03/2021",
         "precio": 112.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 170.0
       }
     ]
   },
@@ -20851,11 +21100,11 @@
   {
     "id": "00820",
     "nombre": "Cafe Dolca Clasico Pouch 170gr",
-    "precio": 124.33,
+    "precio": 390.0,
     "rubro": "Almacén > Café",
     "url_imagen": "2020/01/CAFE-DOLCA-POUCH-170G-CLAS.jpg",
     "url_producto": "cafe-dolca-pouch-170g-clas/",
-    "precio_1": "3,107.18",
+    "precio_1": "3,345.00",
     "historia": [
       {
         "fecha": "01/02/2021",
@@ -20868,17 +21117,21 @@
       {
         "fecha": "12/03/2021",
         "precio": 124.33
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 390.0
       }
     ]
   },
   {
     "id": "00821",
     "nombre": "Cafe Dolca Suave Pouch 170gr",
-    "precio": 285.0,
+    "precio": 390.0,
     "rubro": "Almacén > Café",
     "url_imagen": "2020/01/CAFE-DOLCA-POUCH-170G-SUAVE.jpg",
     "url_producto": "cafe-dolca-pouch-170g-suave/",
-    "precio_1": "3,245.70",
+    "precio_1": "3,345.00",
     "historia": [
       {
         "fecha": "01/02/2021",
@@ -20895,6 +21148,10 @@
       {
         "fecha": "12/03/2021",
         "precio": 285.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 390.0
       }
     ]
   },
@@ -21208,7 +21465,7 @@
     "rubro": "Desayuno > Gall Dulces y Saladas",
     "url_imagen": "2019/11/GALL-SONRISA-3-118GR.jpg",
     "url_producto": "gall-sonrisa-3-118gr/",
-    "precio_1": "3,49.54",
+    "precio_1": "3,50.78",
     "historia": [
       {
         "fecha": "09/02/2021",
@@ -21272,7 +21529,7 @@
   {
     "id": "00844",
     "nombre": "Mayonesa Wilde 2755gr",
-    "precio": 352.89,
+    "precio": 390.0,
     "rubro": "Aderezos > Mayonesas",
     "url_imagen": "2020/01/MAYONESA-WILDE-2755-GR.jpg",
     "url_producto": "mayonesa-wilde-2755-gr/",
@@ -21280,6 +21537,10 @@
       {
         "fecha": "13/02/2021",
         "precio": 352.89
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 390.0
       }
     ]
   },
@@ -21362,7 +21623,7 @@
     "rubro": "Desayuno > Cacao",
     "url_imagen": "2019/11/nesquik-360.jpg",
     "url_producto": "cacao-nesquik-polvo-360-optistar/",
-    "precio_1": "3,60.89",
+    "precio_1": "3,155.00",
     "historia": [
       {
         "fecha": "03/03/2021",
@@ -21470,30 +21731,38 @@
   {
     "id": "00856",
     "nombre": "Maiz Blanco Jose Lopez 500gr",
-    "precio": 63.5,
+    "precio": 118.0,
     "rubro": "Almacén > Legumbres",
     "url_imagen": "2021/03/MAIZ-BLANCO-JOSE-LOPEZ.jpg",
     "url_producto": "maiz-jose-lopez-bco-500gr/",
-    "precio_1": "3,55.02",
+    "precio_1": "3,102.24",
     "historia": [
       {
         "fecha": "03/03/2021",
         "precio": 63.5
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 118.0
       }
     ]
   },
   {
     "id": "00857",
     "nombre": "Maiz Blanco La Espanola 500gr",
-    "precio": 69.5,
+    "precio": 124.0,
     "rubro": "Almacén > Legumbres",
     "url_imagen": "2021/03/MAIZ-BLANCO-LA-ESPAÑOLA.jpg",
     "url_producto": "maiz-la-espanola-blanco-500gr/",
-    "precio_1": "3,60.11",
+    "precio_1": "3,106.91",
     "historia": [
       {
         "fecha": "03/03/2021",
         "precio": 69.5
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 124.0
       }
     ]
   },
@@ -21560,15 +21829,19 @@
   {
     "id": "00862",
     "nombre": "Trigo Jose Lopez 500gr",
-    "precio": 71.0,
+    "precio": 78.5,
     "rubro": "Almacén > Legumbres",
     "url_imagen": "2021/03/TRIGO-PELADO-JOSELOPEZ.jpg",
     "url_producto": "trigo-jose-lopez-500gr/",
-    "precio_1": "3,61.00",
+    "precio_1": "3,67.44",
     "historia": [
       {
         "fecha": "03/03/2021",
         "precio": 71.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 78.5
       }
     ]
   },
@@ -21683,7 +21956,7 @@
   {
     "id": "00870",
     "nombre": "Salame 66 Feteado x 100gr",
-    "precio": 59.5,
+    "precio": 67.0,
     "rubro": "Fiambreria > Salame",
     "url_imagen": "2020/01/SALAME-66.jpg",
     "url_producto": "salame-66/",
@@ -21695,6 +21968,10 @@
       {
         "fecha": "16/03/2021",
         "precio": 59.5
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 67.0
       }
     ]
   },
@@ -21955,30 +22232,38 @@
   {
     "id": "00888",
     "nombre": "Harina Canuelas 000 1kg",
-    "precio": 50.0,
+    "precio": 52.25,
     "rubro": "Almacén > Harinas",
     "url_imagen": "2020/01/HAR-CANUELAS-000-1KG.jpg",
     "url_producto": "har-canuelas-000-1kg-s-iva/",
-    "precio_1": "3,43.52",
+    "precio_1": "3,45.47",
     "historia": [
       {
         "fecha": "20/03/2021",
         "precio": 50.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 52.25
       }
     ]
   },
   {
     "id": "00889",
     "nombre": "Harina Pureza 0000 x 1kg",
-    "precio": 68.0,
+    "precio": 70.5,
     "rubro": "Almacén > Harinas",
     "url_imagen": "2020/01/HAR-PUREZA-0000-X-1-KG.jpg",
     "url_producto": "har-pureza-0000-x-1-kg-s-iva/",
-    "precio_1": "3,59.08",
+    "precio_1": "3,60.95",
     "historia": [
       {
         "fecha": "20/03/2021",
         "precio": 68.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 70.5
       }
     ]
   },
@@ -22015,15 +22300,19 @@
   {
     "id": "00892",
     "nombre": "Leche Descremada La Lacteo Larga Vida 1lt",
-    "precio": 65.0,
+    "precio": 80.0,
     "rubro": "Lacteos > Leche",
     "url_imagen": "2021/03/leche-descr-la-lacteo.jpg",
     "url_producto": "leche-descremada-la-lacteo-larga-vida-1lt/",
-    "precio_1": "3,57.20",
+    "precio_1": "3,76.70",
     "historia": [
       {
         "fecha": "20/03/2021",
         "precio": 65.0
+      },
+      {
+        "fecha": "01/04/2021",
+        "precio": 80.0
       }
     ]
   },
@@ -22064,7 +22353,7 @@
     "rubro": "Fiambreria > Cremosos",
     "url_imagen": "2021/03/cremoso-est-de-oro.jpg",
     "url_producto": "queso-cremoso-estancia-de-oro-x-100-grs/",
-    "precio_1": "20,41.25",
+    "precio_1": "20,43.13",
     "historia": [
       {
         "fecha": "20/03/2021",
@@ -22083,6 +22372,36 @@
       {
         "fecha": "23/03/2021",
         "precio": 68.0
+      }
+    ]
+  },
+  {
+    "id": "00897",
+    "nombre": "Queso Rallado La Paulina x 40gr",
+    "precio": 70.0,
+    "rubro": "Lacteos > Quesos",
+    "url_imagen": "2020/01/RALL-LA-PAULINA-X-40G.jpg",
+    "url_producto": "rall-la-paulina-x-40gr/",
+    "precio_1": "3,60.00",
+    "historia": [
+      {
+        "fecha": "01/04/2021",
+        "precio": 70.0
+      }
+    ]
+  },
+  {
+    "id": "00898",
+    "nombre": "Queso Untable La Paulina x 190gr . Vs. Sabores",
+    "precio": 130.0,
+    "rubro": "Lacteos > Quesos",
+    "url_imagen": "2019/11/QUESO-UNT-LA-PAULINA.jpg",
+    "url_producto": "queso-unt-la-paulina-x-200gr/",
+    "precio_1": "3,115.00",
+    "historia": [
+      {
+        "fecha": "01/04/2021",
+        "precio": 130.0
       }
     ]
   }
