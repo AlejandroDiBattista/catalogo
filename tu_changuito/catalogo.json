@@ -65014,7 +65014,7 @@
   {
     "id": "03088",
     "nombre": "Aceitunas Nucete Negras N°5 180gr",
-    "precio": 80.0,
+    "precio": 123.9,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceitunas-nucete-negras-n-5-180-gr1-4b7fff4c661cb55d5316037391771847-480-0.png",
     "url_producto": "productos/aceitunas-nucete-negras-n5-180-gr/",
@@ -65022,6 +65022,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 80.0
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 123.9
       }
     ]
   },
@@ -65174,7 +65178,7 @@
   {
     "id": "03098",
     "nombre": "Aceto Marolio Balsámico 250ml",
-    "precio": 90.0,
+    "precio": 90.87,
     "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc234231-559b6307ede3bf815016013991684584-480-0.png",
     "url_producto": "productos/aceto-marolio-balsamico-250-ml/",
@@ -65182,6 +65186,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 90.0
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 90.87
       }
     ]
   },
@@ -65534,7 +65542,7 @@
   {
     "id": "03120",
     "nombre": "Agua Sin Gas Kin 2lt",
-    "precio": 69.9,
+    "precio": 70.9,
     "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-kin-sin-gas-2-lt1-758653d6a7aba3100016013973390850-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-kin-2-lt/",
@@ -65546,6 +65554,10 @@
       {
         "fecha": "20/03/2021",
         "precio": 69.9
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 70.9
       }
     ]
   },
@@ -66321,7 +66333,7 @@
     "id": "03163",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 88.28,
-    "rubro": "Productos > Arroz y Legumbres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -66872,7 +66884,7 @@
   {
     "id": "03197",
     "nombre": "Cacao Nesquik Optistart 360gr",
-    "precio": 155.0,
+    "precio": 176.67,
     "rubro": "Productos > Infusiones",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/153911-7095732948dd6f8ba715988349884785-480-0.jpg",
     "url_producto": "productos/cacao-nesquik-optistart-360-gr/",
@@ -66880,6 +66892,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 155.0
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 176.67
       }
     ]
   },
@@ -68084,7 +68100,7 @@
   {
     "id": "03271",
     "nombre": "Dulce De Leche Ilolay Familiar 400gr",
-    "precio": 109.9,
+    "precio": 145.6,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5086011-26333af68cfaec4ccb15990877366678-480-0.jpg",
     "url_producto": "productos/d-leche-ilolay-familiar-400-gr/",
@@ -68100,6 +68116,10 @@
       {
         "fecha": "25/03/2021",
         "precio": 109.9
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 145.6
       }
     ]
   },
@@ -68124,7 +68144,7 @@
   {
     "id": "03273",
     "nombre": "Dulce De Leche Milkaut Clásico 250gr",
-    "precio": 89.0,
+    "precio": 105.3,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2518611-4dd58da9594ed9da2415990018986066-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-250-gr/",
@@ -68132,6 +68152,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 89.0
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 105.3
       }
     ]
   },
@@ -68139,7 +68163,7 @@
     "id": "03274",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
     "precio": 115.9,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-400-gr/",
     "historia": [
@@ -68156,7 +68180,7 @@
   {
     "id": "03275",
     "nombre": "Dulce De Leche Milkaut Repostero 400gr",
-    "precio": 115.9,
+    "precio": 145.0,
     "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2518811-da5dbfd688cca352ee15990877948759-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-repostero-400-gr/",
@@ -68168,6 +68192,10 @@
       {
         "fecha": "25/03/2021",
         "precio": 115.9
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 145.0
       }
     ]
   },
@@ -68500,7 +68528,7 @@
   {
     "id": "03297",
     "nombre": "Enjuague Comfort C.dp 450ml",
-    "precio": 235.8,
+    "precio": 274.3,
     "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/171711-a66c07456544a59bb515988891811478-480-0.jpg",
     "url_producto": "productos/enj-comfort-c-dp-450-ml/",
@@ -68508,6 +68536,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 235.8
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 274.3
       }
     ]
   },
@@ -69117,7 +69149,7 @@
     "id": "03333",
     "nombre": "Galletitas Pepitos 118gr",
     "precio": 94.22,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/75471-947736715d10244e2615988919945740-480-0.jpg",
     "url_producto": "productos/gal-pepitos-118-gr/",
     "historia": [
@@ -69213,7 +69245,7 @@
     "id": "03339",
     "nombre": "Galletitas Terrabusi Variedad 400gr",
     "precio": 133.55,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209851-0f2bd8eb8fc27fb6db15988923475671-480-0.jpg",
     "url_producto": "productos/gal-terrabusi-variedad-400-gr/",
     "historia": [
@@ -69231,7 +69263,7 @@
     "id": "03340",
     "nombre": "Galletitas Traviata 5x100gr",
     "precio": 172.87,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1681211-0f0aacfe4df74153ec15990865109777-480-0.jpg",
     "url_producto": "productos/gal-traviata-5x100-gr/",
     "historia": [
@@ -69340,7 +69372,7 @@
   {
     "id": "03347",
     "nombre": "Gaseosa Paso De Los Toros Pomelo 1,1lt",
-    "precio": 115.8,
+    "precio": 130.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/gaseosa-paso-de-los-toros-pomelo-botella-1-5-l1-61a3a2865b6afb217e16059094074063-480-0.jpg",
     "url_producto": "productos/gaseosa-paso-de-los-toros-pomelo-1-5-lt/",
@@ -69348,6 +69380,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 115.8
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 130.0
       }
     ]
   },
@@ -69684,7 +69720,7 @@
   {
     "id": "03367",
     "nombre": "Hamburguesa Swift Carne 4un",
-    "precio": 287.17,
+    "precio": 303.9,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/233561-d9545d9b648ee7d72a15992498511992-480-0.jpg",
     "url_producto": "productos/hamburguesa-swift-carne-4-un/",
@@ -69696,6 +69732,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 287.17
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 303.9
       }
     ]
   },
@@ -70665,7 +70705,7 @@
     "id": "03427",
     "nombre": "Leche La Serenísima Descremada Dha Sachet 1lt",
     "precio": 98.8,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/20721-11-5ebcd2913235a7d12915990891316362-480-0.jpg",
     "url_producto": "productos/leche-l-serenis-clas-sl-3-1-lt/",
     "historia": [
@@ -70712,7 +70752,7 @@
   {
     "id": "03429",
     "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana Pet 1lt",
-    "precio": 99.0,
+    "precio": 105.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/botella-larga-vida1-be092cc5467eb617e115997437553116-480-0.jpg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-pet-1-l/",
@@ -70728,6 +70768,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 99.0
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 105.0
       }
     ]
   },
@@ -70766,7 +70810,7 @@
   {
     "id": "03432",
     "nombre": "Leche La Serenisima Descremada 0% Tenor Graso 1lt",
-    "precio": 99.0,
+    "precio": 105.0,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790742335302-11-780cabdde1a6ed01e516109721178415-480-0.png",
     "url_producto": "productos/leche-la-serenisima-descremada-0-tenor-graso-1-lt/",
@@ -70778,13 +70822,17 @@
       {
         "fecha": "02/04/2021",
         "precio": 99.0
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 105.0
       }
     ]
   },
   {
     "id": "03433",
     "nombre": "Leche La Serenisima Larga Vida Clásica Botella 1lt",
-    "precio": 99.0,
+    "precio": 105.0,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/botella-clasica-serenisima1-5058c0d0463a798f8015997444856491-480-0.jpg",
     "url_producto": "productos/leche-entera-clasica-la-serenisima-botella-larga-vida-1l/",
@@ -70800,13 +70848,17 @@
       {
         "fecha": "31/03/2021",
         "precio": 99.0
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 105.0
       }
     ]
   },
   {
     "id": "03434",
     "nombre": "Leche Milkaut Larga Vida Descremada x lt",
-    "precio": 86.99,
+    "precio": 99.0,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7794820001943_0111-bd8ebe61c5d29be19b16093583513216-480-0.jpg",
     "url_producto": "productos/leche-milkaut-lv-descremada-litro/",
@@ -70834,13 +70886,17 @@
       {
         "fecha": "31/03/2021",
         "precio": 86.99
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 99.0
       }
     ]
   },
   {
     "id": "03435",
     "nombre": "Leche Milkaut Larga Vida Entera x lt",
-    "precio": 86.99,
+    "precio": 99.0,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7794820001936_0111-0c33e3d0b043c8814416093582611238-480-0.jpg",
     "url_producto": "productos/leche-milkaut-lv-entera-litro/",
@@ -70868,6 +70924,10 @@
       {
         "fecha": "31/03/2021",
         "precio": 86.99
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 99.0
       }
     ]
   },
@@ -71235,7 +71295,7 @@
     "id": "03458",
     "nombre": "Manteca La Paulina 200gr",
     "precio": 170.17,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/58391-120f95e2d69f1904b015988906329721-480-0.jpg",
     "url_producto": "productos/manteca-l-paulina-200-gr/",
     "historia": [
@@ -71289,7 +71349,7 @@
     "id": "03461",
     "nombre": "Mantequilla De Mani C/dulce De Leche 500gr",
     "precio": 299.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mantequilla-de-mani-con-dulce-de-leche-500-gr1-9ee9db0f0eec43651816116010205978-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-c-dulce-de-leche-500-gr/",
     "historia": [
@@ -71303,7 +71363,7 @@
     "id": "03462",
     "nombre": "Mantequilla De Mani Fitfruits 500gr",
     "precio": 275.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-25t155535-0511-a90958bee18a74825316116009496795-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-fitfruits-500-gr/",
     "historia": [
@@ -71473,7 +71533,7 @@
     "id": "03473",
     "nombre": "Mayonesa Natura Doypack 250gr",
     "precio": 61.2,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/72741-5e8f5ab792cdb14ecc15988911309091-480-0.jpg",
     "url_producto": "productos/may-natura-d-p-250-gr/",
     "historia": [
@@ -71661,7 +71721,7 @@
     "id": "03483",
     "nombre": "Medallones De Quinoa Bambu Con Batata Roja y Curry 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/31-0d95a2d750cf46156016135887047402-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-batata-roja-y-curry-360-gr/",
     "historia": [
@@ -71679,7 +71739,7 @@
     "id": "03484",
     "nombre": "Medallones De Quinoa Bambu Con Brocoli 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-28t133000-7341-9246fe4e03dc07a08d16118514633734-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-brocoli-360-gr/",
     "historia": [
@@ -71697,7 +71757,7 @@
     "id": "03485",
     "nombre": "Medallones De Quinoa Bambu Con Cebolla Caramelizada 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-0ac7d05aa033abaf7416135887401078-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-cebolla-caramelizada-360-gr/",
     "historia": [
@@ -72083,7 +72143,7 @@
     "id": "03508",
     "nombre": "Oblea Nugaton Leche 27gr",
     "precio": 48.5,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1221511-eeaca7ca177da77d9815989996596078-480-0.jpg",
     "url_producto": "productos/oblea-nugaton-leche-27-gr/",
     "historia": [
@@ -72436,7 +72496,7 @@
   {
     "id": "03529",
     "nombre": "Pan Bimbo Hamburgesa Artesano 240gr",
-    "precio": 141.7,
+    "precio": 149.9,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/236521-a0f6348266530c63fe15990689958780-480-0.jpg",
     "url_producto": "productos/pan-bimbo-hamb-artes-240-gr/",
@@ -72448,6 +72508,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 141.7
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 149.9
       }
     ]
   },
@@ -72642,7 +72706,7 @@
   {
     "id": "03542",
     "nombre": "Pan Lactal Salvado 350gr",
-    "precio": 98.7,
+    "precio": 139.9,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/208661-de909d7dceb329da6c15990684427666-480-0.jpg",
     "url_producto": "productos/pan-lactal-salvado-350-gr/",
@@ -72650,6 +72714,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 98.7
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 139.9
       }
     ]
   },
@@ -72670,7 +72738,7 @@
   {
     "id": "03544",
     "nombre": "Pan Veneziana Lacteado 400gr",
-    "precio": 105.0,
+    "precio": 120.0,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2249011-659b8362eb51b6176215990900946835-480-0.jpg",
     "url_producto": "productos/pan-veneziana-lacteado-400-gr/",
@@ -72678,6 +72746,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 105.0
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 120.0
       }
     ]
   },
@@ -72914,7 +72986,7 @@
   {
     "id": "03558",
     "nombre": "Papel Higiénico Higienol Premium 4x30 Mt",
-    "precio": 135.3,
+    "precio": 136.36,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/153161-ab342f624052e6fd6c15988873524584-480-0.jpg",
     "url_producto": "productos/pap-hig-higienol-premium-4x30-mt/",
@@ -72922,6 +72994,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 135.3
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 136.36
       }
     ]
   },
@@ -73057,7 +73133,7 @@
     "id": "03567",
     "nombre": "Patitas Granja De Sol Queso Jamón 400gr",
     "precio": 306.0,
-    "rubro": "Productos > Congelados de Pollo",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830711-dba545bed7ed42864715990035883853-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-que-jam-400-gr/",
     "historia": [
@@ -73505,7 +73581,7 @@
     "id": "03595",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -73530,8 +73606,8 @@
   {
     "id": "03596",
     "nombre": "Queso Ilolay Cream Light 300gr",
-    "precio": 167.7,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "precio": 175.0,
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2366711-ff8614ee965c9b2c9e15990917915270-480-0.jpg",
     "url_producto": "productos/queso-ilolay-cream-light-300-gr/",
     "historia": [
@@ -73542,6 +73618,10 @@
       {
         "fecha": "20/03/2021",
         "precio": 167.7
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 175.0
       }
     ]
   },
@@ -73549,7 +73629,7 @@
     "id": "03597",
     "nombre": "Queso La Quesera Rallado 100gr",
     "precio": 119.9,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/229311-1a28533f984a941a0c15990848837259-480-0.jpg",
     "url_producto": "productos/queso-l-quesera-rall-100-gr/",
     "historia": [
@@ -73973,7 +74053,7 @@
     "id": "03623",
     "nombre": "Rollo Film Adeherente M& kg 30 Mts",
     "precio": 135.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/rollo-film-adeherente-mk-30-mts1-95c9e3409a5b97d28516088230838940-480-0.jpg",
     "url_producto": "productos/rollo-film-adeherente-mk-30-mts/",
     "historia": [
@@ -74334,7 +74414,7 @@
   {
     "id": "03646",
     "nombre": "Shampoo Pantene Clásico 2 En 1 200cc",
-    "precio": 199.0,
+    "precio": 215.0,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/65611-5d8c7b926a00a534b715990741656062-480-0.jpg",
     "url_producto": "productos/shamp-pantene-clas-2-en-1-200-cc/",
@@ -74342,13 +74422,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 199.0
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 215.0
       }
     ]
   },
   {
     "id": "03647",
     "nombre": "Shampoo Pantene Hidratación Intensa 400cc",
-    "precio": 299.0,
+    "precio": 319.66,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/122251-64ae28d0c60c6e204e15988870886076-480-0.jpg",
     "url_producto": "productos/shamp-pantene-hid-int-400-cc/",
@@ -74356,13 +74440,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 299.0
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 319.66
       }
     ]
   },
   {
     "id": "03648",
     "nombre": "Shampoo Pantene Max Liso Extremo 200cc",
-    "precio": 199.0,
+    "precio": 215.0,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/65031-14c6231a78731455f615988872726303-480-0.jpg",
     "url_producto": "productos/shamp-pantene-max-lis-ext-200-cc/",
@@ -74370,13 +74458,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 199.0
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 215.0
       }
     ]
   },
   {
     "id": "03649",
     "nombre": "Shampoo Plusbelle Frescura 1lt",
-    "precio": 149.37,
+    "precio": 175.9,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/465011-5de95bea3e2e306e6315990046809342-480-0.jpg",
     "url_producto": "productos/shamp-plusbelle-frescura-1-lt/",
@@ -74392,13 +74484,17 @@
       {
         "fecha": "19/03/2021",
         "precio": 149.37
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 175.9
       }
     ]
   },
   {
     "id": "03650",
     "nombre": "Shampoo Plusbelle Lacio 1lt",
-    "precio": 149.37,
+    "precio": 175.9,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/464811-b3eebc537920b6af9215990047189593-480-0.jpg",
     "url_producto": "productos/shamp-plusbelle-lacio-docil-1-lt/",
@@ -74414,6 +74510,10 @@
       {
         "fecha": "19/03/2021",
         "precio": 149.37
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 175.9
       }
     ]
   },
@@ -84093,7 +84193,7 @@
     "id": "04323",
     "nombre": "Suprema Granja De Sol Pollo 360gr",
     "precio": 370.7,
-    "rubro": "Productos > Congelados de Pollo",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830811-607b67364edc558d3415990038309902-480-0.jpg",
     "url_producto": "productos/suprema-granja-de-sol-pollo-360-gr/",
     "historia": [
@@ -84253,7 +84353,7 @@
     "id": "04333",
     "nombre": "Queso La Serenísima Cremón Desayuno 300gr",
     "precio": 169.9,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/257381-afcb7187f677c7875e15990697625481-480-0.jpg",
     "url_producto": "productos/queso-la-serenisima-cremon-desayuno-300-gr/",
     "historia": [
@@ -84307,7 +84407,7 @@
     "id": "04336",
     "nombre": "Yogur Yogurísimo Vainilla Firme Ent 120gr",
     "precio": 69.9,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7791337001855_011-25c864ad955fbf0bce15995715319958-480-0.jpg",
     "url_producto": "productos/yogur-yogurisimo-vainilla-firme-ent-120-gr/",
     "historia": [
@@ -84805,7 +84905,7 @@
     "id": "04371",
     "nombre": "Manteca La Serenísima Calidad Extra Paquete 100gr",
     "precio": 82.4,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls521-6aaa4daeff5a49bdd916010398014133-480-0.jpg",
     "url_producto": "productos/manteca-la-serenisima-calidad-extra-paquete-100-gr/",
     "historia": [
@@ -85172,8 +85272,8 @@
   {
     "id": "04397",
     "nombre": "Jamón Cocido Feteado Paladini 200gr",
-    "precio": 210.0,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "precio": 219.9,
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/204351-6593dfae1b24ee663016025191358628-480-0.jpg",
     "url_producto": "productos/jamon-cocido-feteado-paladini-200-gr/",
     "historia": [
@@ -85184,6 +85284,10 @@
       {
         "fecha": "30/03/2021",
         "precio": 210.0
+      },
+      {
+        "fecha": "03/04/2021",
+        "precio": 219.9
       }
     ]
   },
@@ -85443,7 +85547,7 @@
     "id": "04416",
     "nombre": "Crema De Leche La Serenísima 200gr",
     "precio": 112.58,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164211-87fdb4f6713999034415990676754429-480-0.jpg",
     "url_producto": "productos/crema-l-serenis-200-gr/",
     "historia": [
@@ -85534,6 +85638,90 @@
       {
         "fecha": "02/04/2021",
         "precio": 141.5
+      }
+    ]
+  },
+  {
+    "id": "04423",
+    "nombre": "Alimento De Animales Dogui Carn.veg 8kg",
+    "precio": 1.156,
+    "rubro": "Productos > Mascotas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-04-02t190636-2711-00cb4859f67cf911c516174014050771-480-0.jpg",
+    "url_producto": "productos/alimento-de-animales-dogui-carn-veg-75-kg/",
+    "historia": [
+      {
+        "fecha": "03/04/2021",
+        "precio": 1.156
+      }
+    ]
+  },
+  {
+    "id": "04424",
+    "nombre": "Cerveza Andes Origen Roja 473cc",
+    "precio": 109.3,
+    "rubro": "Productos > Cervezas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/259001-1e066b381f3ee2bd9315988788888575-480-0.jpg",
+    "url_producto": "productos/cerv-andes-o-roja-473-cc/",
+    "historia": [
+      {
+        "fecha": "03/04/2021",
+        "precio": 109.3
+      }
+    ]
+  },
+  {
+    "id": "04425",
+    "nombre": "Chimichurri Tahiti 270gr",
+    "precio": 110.9,
+    "rubro": "Productos > Aderezos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2440194_f1-c2e5b249abba28fbca16173989255550-480-0.jpg",
+    "url_producto": "productos/chimichurri-tahiti-270-gr/",
+    "historia": [
+      {
+        "fecha": "03/04/2021",
+        "precio": 110.9
+      }
+    ]
+  },
+  {
+    "id": "04426",
+    "nombre": "Máquina Prestobar Ultragrip 3",
+    "precio": 99.0,
+    "rubro": "Productos > Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/product_cd2e365e31b140a3b696bb22a38fb8a8_637342907815733184_0_m1-b9d2512c46d3365f6c16174026959553-480-0.jpg",
+    "url_producto": "productos/maquina-prestobar-ultragrip-3/",
+    "historia": [
+      {
+        "fecha": "03/04/2021",
+        "precio": 99.0
+      }
+    ]
+  },
+  {
+    "id": "04427",
+    "nombre": "Snacks Conitos 3-d 95gr",
+    "precio": 141.5,
+    "rubro": "Productos > Snacks",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/snacks-conitos-3-d-95-gr1-0f7c8950099b4214b816173999480876-480-0.png",
+    "url_producto": "productos/snacks-conitos-3-d-95-gr/",
+    "historia": [
+      {
+        "fecha": "03/04/2021",
+        "precio": 141.5
+      }
+    ]
+  },
+  {
+    "id": "04428",
+    "nombre": "Toallitas Humedas Johnsons Baby Suaves y Resistentes 50un",
+    "precio": 150.9,
+    "rubro": "Productos > Pañales y Bebés",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/jb-toalla-toque-de-sueno-x501-5ad89878f29be3536e16173987604020-480-0.jpg",
+    "url_producto": "productos/toallitas-humedas-johnsons-baby-suaves-y-resistentes-50-un/",
+    "historia": [
+      {
+        "fecha": "03/04/2021",
+        "precio": 150.9
       }
     ]
   }
