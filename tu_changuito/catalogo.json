@@ -66333,7 +66333,7 @@
     "id": "03163",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 88.28,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -66437,7 +66437,7 @@
     "id": "03169",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -67837,7 +67837,7 @@
     "id": "03255",
     "nombre": "Crema Dental Colgate Triple Acción 180gr",
     "precio": 318.5,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/49201-a9ac16555da61d17ea15988990071112-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-trip-accion-180-gr/",
     "historia": [
@@ -67855,7 +67855,7 @@
     "id": "03256",
     "nombre": "Crema Dental Colgate Triple Acción Extra Blancura 90gr",
     "precio": 187.06,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/128361-32cf2b8a5126d20fdb15988991304092-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-t-ac-ex-bco-90-gr/",
     "historia": [
@@ -67909,7 +67909,7 @@
     "id": "03259",
     "nombre": "Crema Dental Oral B Anticaries 150gr",
     "precio": 189.0,
-    "rubro": "Productos > Cuidado Bucal",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crema-dental-oral-b-anticaries-150-gr1-f60633b3ab7e18ec5a16001951343628-480-0.jpg",
     "url_producto": "productos/cr-dental-oral-b-anticaries-150-gr/",
     "historia": [
@@ -69056,7 +69056,7 @@
   {
     "id": "03327",
     "nombre": "Galletas De Arroz Integral Arrotuc Saladas 12un. S/t.a.c.c",
-    "precio": 48.75,
+    "precio": 55.25,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-80ddd43e1a57a435d816116159267143-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-arrotuc-saladas-12-un-s-t-a-c-c/",
@@ -69064,13 +69064,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 48.75
+      },
+      {
+        "fecha": "04/04/2021",
+        "precio": 55.25
       }
     ]
   },
   {
     "id": "03328",
     "nombre": "Galletas De Arroz Integral Dulces Arrotuc 12un. S/t.a.c.c",
-    "precio": 48.75,
+    "precio": 55.25,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/31-34d6a2caa7cf8c242816116158614983-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-dulces-arrotuc-12-un-s-t-a-c-c/",
@@ -69078,13 +69082,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 48.75
+      },
+      {
+        "fecha": "04/04/2021",
+        "precio": 55.25
       }
     ]
   },
   {
     "id": "03329",
     "nombre": "Galletas De Arroz Integral Sin Sal Arrotuc 12un. S/t.a.c.c",
-    "precio": 48.75,
+    "precio": 55.25,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-28085d50db185491d516116158878935-480-0.jpg",
     "url_producto": "productos/galletas-de-arroz-integral-sin-sal-arrotuc-12-un-s-t-a-c-c/",
@@ -69092,6 +69100,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 48.75
+      },
+      {
+        "fecha": "04/04/2021",
+        "precio": 55.25
       }
     ]
   },
@@ -70184,7 +70196,7 @@
   {
     "id": "03395",
     "nombre": "Jabón Liquido Zorro Clásico Bot 800ml",
-    "precio": 120.76,
+    "precio": 129.87,
     "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/210191-b7e5febf12bff52f7a15988874782316-480-0.jpg",
     "url_producto": "productos/jab-liq-zorro-clasico-bot-800-ml/",
@@ -70196,6 +70208,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 120.76
+      },
+      {
+        "fecha": "04/04/2021",
+        "precio": 129.87
       }
     ]
   },
@@ -70705,7 +70721,7 @@
     "id": "03427",
     "nombre": "Leche La Serenísima Descremada Dha Sachet 1lt",
     "precio": 98.8,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/20721-11-5ebcd2913235a7d12915990891316362-480-0.jpg",
     "url_producto": "productos/leche-l-serenis-clas-sl-3-1-lt/",
     "historia": [
@@ -70726,7 +70742,7 @@
   {
     "id": "03428",
     "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana 1lt",
-    "precio": 95.0,
+    "precio": 97.9,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790742362100_01_nuevopack1-e6b51851f43cddfcbb16071715461968-480-0.jpg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-1-lt/",
@@ -70746,6 +70762,10 @@
       {
         "fecha": "01/04/2021",
         "precio": 95.0
+      },
+      {
+        "fecha": "04/04/2021",
+        "precio": 97.9
       }
     ]
   },
@@ -71295,7 +71315,7 @@
     "id": "03458",
     "nombre": "Manteca La Paulina 200gr",
     "precio": 170.17,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/58391-120f95e2d69f1904b015988906329721-480-0.jpg",
     "url_producto": "productos/manteca-l-paulina-200-gr/",
     "historia": [
@@ -72519,7 +72539,7 @@
     "id": "03530",
     "nombre": "Pan De Campo La Panerita 360gr",
     "precio": 120.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705210_cgm1-8f978b8782b636012716130803607456-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-360-gr/",
     "historia": [
@@ -72537,7 +72557,7 @@
     "id": "03531",
     "nombre": "Pan De Campo La Panerita Con Semillas 340gr",
     "precio": 130.5,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705583_chm1-9697b42f2bf55399aa16130802662831-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-con-semillas-340-gr/",
     "historia": [
@@ -72551,7 +72571,7 @@
     "id": "03532",
     "nombre": "Pan De Hamburguesa La Panerita x 4un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/311-c0d1a72eb892048d8c16118693644227-480-0.jpg",
     "url_producto": "productos/pan-de-hamburguesa-la-panerita-x-4-unidades/",
     "historia": [
@@ -72565,7 +72585,7 @@
     "id": "03533",
     "nombre": "Pan De Viena La Panerita x 6un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211-be805d33b897e5219a16118693250617-480-0.jpg",
     "url_producto": "productos/pan-de-viena-la-panerita-x-6-unidades/",
     "historia": [
@@ -72643,7 +72663,7 @@
     "id": "03538",
     "nombre": "Pan Lactal La Panerita Blanco 400gr ,",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-967720a304d43123a016118693910439-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-blanco-400-gr/",
     "historia": [
@@ -72657,7 +72677,7 @@
     "id": "03539",
     "nombre": "Pan Lactal La Panerita Salvado 400gr",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/51-7eb96e352d872455a216118694168191-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-salvado-400-gr/",
     "historia": [
@@ -72725,7 +72745,7 @@
     "id": "03543",
     "nombre": "Pan Pebete La Panerita x 6un",
     "precio": 110.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pebete1-6f4d4cf5f8495b246116118692752394-480-0.jpg",
     "url_producto": "productos/pan-pebete-la-panerita-x-6-unidades/",
     "historia": [
@@ -73133,7 +73153,7 @@
     "id": "03567",
     "nombre": "Patitas Granja De Sol Queso Jamón 400gr",
     "precio": 306.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830711-dba545bed7ed42864715990035883853-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-que-jam-400-gr/",
     "historia": [
@@ -73581,7 +73601,7 @@
     "id": "03595",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -73607,7 +73627,7 @@
     "id": "03596",
     "nombre": "Queso Ilolay Cream Light 300gr",
     "precio": 175.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2366711-ff8614ee965c9b2c9e15990917915270-480-0.jpg",
     "url_producto": "productos/queso-ilolay-cream-light-300-gr/",
     "historia": [
@@ -73629,7 +73649,7 @@
     "id": "03597",
     "nombre": "Queso La Quesera Rallado 100gr",
     "precio": 119.9,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/229311-1a28533f984a941a0c15990848837259-480-0.jpg",
     "url_producto": "productos/queso-l-quesera-rall-100-gr/",
     "historia": [
@@ -74220,7 +74240,7 @@
   {
     "id": "03635",
     "nombre": "Salsa Molto Filet.t.rec 340gr",
-    "precio": 60.97,
+    "precio": 65.0,
     "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184031-6292637869bda616a015992493874105-480-0.jpg",
     "url_producto": "productos/salsa-molto-filet-t-rec-340-gr/",
@@ -74236,13 +74256,17 @@
       {
         "fecha": "31/03/2021",
         "precio": 60.97
+      },
+      {
+        "fecha": "04/04/2021",
+        "precio": 65.0
       }
     ]
   },
   {
     "id": "03636",
     "nombre": "Salsa Molto Pizza.t.rec 340gr",
-    "precio": 60.97,
+    "precio": 65.0,
     "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184041-b37e8e6c3b8bdd219615992494094718-480-0.jpg",
     "url_producto": "productos/salsa-molto-pizza-t-rec-340-gr/",
@@ -74258,13 +74282,17 @@
       {
         "fecha": "31/03/2021",
         "precio": 60.97
+      },
+      {
+        "fecha": "04/04/2021",
+        "precio": 65.0
       }
     ]
   },
   {
     "id": "03637",
     "nombre": "Salsa Molto Port.t.rec 340gr",
-    "precio": 60.9,
+    "precio": 65.0,
     "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184021-5d61853e99e7a2bde815992493686485-480-0.jpg",
     "url_producto": "productos/salsa-molto-port-t-rec-340-gr/",
@@ -74276,6 +74304,10 @@
       {
         "fecha": "25/03/2021",
         "precio": 60.9
+      },
+      {
+        "fecha": "04/04/2021",
+        "precio": 65.0
       }
     ]
   },
@@ -84193,7 +84225,7 @@
     "id": "04323",
     "nombre": "Suprema Granja De Sol Pollo 360gr",
     "precio": 370.7,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830811-607b67364edc558d3415990038309902-480-0.jpg",
     "url_producto": "productos/suprema-granja-de-sol-pollo-360-gr/",
     "historia": [
@@ -84353,7 +84385,7 @@
     "id": "04333",
     "nombre": "Queso La Serenísima Cremón Desayuno 300gr",
     "precio": 169.9,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/257381-afcb7187f677c7875e15990697625481-480-0.jpg",
     "url_producto": "productos/queso-la-serenisima-cremon-desayuno-300-gr/",
     "historia": [
@@ -84407,7 +84439,7 @@
     "id": "04336",
     "nombre": "Yogur Yogurísimo Vainilla Firme Ent 120gr",
     "precio": 69.9,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7791337001855_011-25c864ad955fbf0bce15995715319958-480-0.jpg",
     "url_producto": "productos/yogur-yogurisimo-vainilla-firme-ent-120-gr/",
     "historia": [
@@ -84905,7 +84937,7 @@
     "id": "04371",
     "nombre": "Manteca La Serenísima Calidad Extra Paquete 100gr",
     "precio": 82.4,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls521-6aaa4daeff5a49bdd916010398014133-480-0.jpg",
     "url_producto": "productos/manteca-la-serenisima-calidad-extra-paquete-100-gr/",
     "historia": [
@@ -85273,7 +85305,7 @@
     "id": "04397",
     "nombre": "Jamón Cocido Feteado Paladini 200gr",
     "precio": 219.9,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/204351-6593dfae1b24ee663016025191358628-480-0.jpg",
     "url_producto": "productos/jamon-cocido-feteado-paladini-200-gr/",
     "historia": [
@@ -85547,7 +85579,7 @@
     "id": "04416",
     "nombre": "Crema De Leche La Serenísima 200gr",
     "precio": 112.58,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164211-87fdb4f6713999034415990676754429-480-0.jpg",
     "url_producto": "productos/crema-l-serenis-200-gr/",
     "historia": [
@@ -85722,6 +85754,146 @@
       {
         "fecha": "03/04/2021",
         "precio": 150.9
+      }
+    ]
+  },
+  {
+    "id": "04429",
+    "nombre": "Avena Quaker Instantánea Fortificada 400gr",
+    "precio": 154.3,
+    "rubro": "Productos > Galletas y Cereales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21841-a7b4656e2d9aae229e15988326505631-480-0.jpg",
+    "url_producto": "productos/avena-quaker-inst-fortif-400-gr/",
+    "historia": [
+      {
+        "fecha": "04/04/2021",
+        "precio": 154.3
+      }
+    ]
+  },
+  {
+    "id": "04430",
+    "nombre": "Condimento Alicante Milán-supr 25gr",
+    "precio": 51.88,
+    "rubro": "Productos > Sal y Condimentos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1869411-bb8b251bf84df76b8b15990872237996-480-0.jpg",
+    "url_producto": "productos/condim-alicante-milan-supr-25-gr/",
+    "historia": [
+      {
+        "fecha": "04/04/2021",
+        "precio": 51.88
+      }
+    ]
+  },
+  {
+    "id": "04431",
+    "nombre": "Dulce De Leche Ilolay Repostero 400gr",
+    "precio": 145.6,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5086111-a270ea337a6a5793e415990877671779-480-0.jpg",
+    "url_producto": "productos/d-leche-ilolay-rep-400-gr/",
+    "historia": [
+      {
+        "fecha": "04/04/2021",
+        "precio": 145.6
+      }
+    ]
+  },
+  {
+    "id": "04432",
+    "nombre": "Espinaca Green Life Congelada 500gr",
+    "precio": 210.0,
+    "rubro": "Productos > Congelados de Vegetales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550511-b4a9a8ad6823f6e8ad15990911913960-480-0.jpg",
+    "url_producto": "productos/espinac-green-life-congelada-500-gr/",
+    "historia": [
+      {
+        "fecha": "04/04/2021",
+        "precio": 210.0
+      }
+    ]
+  },
+  {
+    "id": "04433",
+    "nombre": "Galletitas Mana Vain.livian 393gr",
+    "precio": 157.14,
+    "rubro": "Productos > Galletas y Cereales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1696311-40440b8c5bdb5e19a915990869728943-480-0.jpg",
+    "url_producto": "productos/gal-mana-vain-livian-393-gr/",
+    "historia": [
+      {
+        "fecha": "04/04/2021",
+        "precio": 157.14
+      }
+    ]
+  },
+  {
+    "id": "04434",
+    "nombre": "Gaseosa Crush Pomelo 3 Lts",
+    "precio": 79.0,
+    "rubro": "Productos > Gaseosas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3080427_f1-dd426411cdebd2ed7c16032991921988-480-0.jpg",
+    "url_producto": "productos/gaseosa-crush-pomelo-3-lts/",
+    "historia": [
+      {
+        "fecha": "04/04/2021",
+        "precio": 79.0
+      }
+    ]
+  },
+  {
+    "id": "04435",
+    "nombre": "Máquina Prestobar Ultragrip 3 x Unidad",
+    "precio": 99.0,
+    "rubro": "Productos > Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/product_cd2e365e31b140a3b696bb22a38fb8a8_637342907815733184_0_m1-b9d2512c46d3365f6c16174026959553-480-0.jpg",
+    "url_producto": "productos/maquina-prestobar-ultragrip-3-x-unidad/",
+    "historia": [
+      {
+        "fecha": "04/04/2021",
+        "precio": 99.0
+      }
+    ]
+  },
+  {
+    "id": "04436",
+    "nombre": "Sopa Knorr Quick Arvejas 5 Sobres",
+    "precio": 155.87,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8031-d508c6f69df14605db15988879493472-480-0.jpg",
+    "url_producto": "productos/sopa-knorr-quick-arvejas-5-sobres/",
+    "historia": [
+      {
+        "fecha": "04/04/2021",
+        "precio": 155.87
+      }
+    ]
+  },
+  {
+    "id": "04437",
+    "nombre": "Sopa Knorr Quick Light Choclo 5 Sobres",
+    "precio": 155.87,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/sopa-knorr-quick-light-choclo-5-sobres/",
+    "historia": [
+      {
+        "fecha": "04/04/2021",
+        "precio": 155.87
+      }
+    ]
+  },
+  {
+    "id": "04438",
+    "nombre": "Sopa Knorr Quick Light Zapallo 5 Sobres",
+    "precio": 155.87,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8111-5b94eb3161d4ec0a6115988879982329-480-0.jpg",
+    "url_producto": "productos/sopa-knorr-quick-light-zapallo-5-sobres/",
+    "historia": [
+      {
+        "fecha": "04/04/2021",
+        "precio": 155.87
       }
     ]
   }
