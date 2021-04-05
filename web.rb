@@ -289,11 +289,13 @@ def pull
 end
 
 if __FILE__ == $0
-	# limpiar_errores
-	# completar_id
-	# correr :limpiar_errores
-	# correr :completar_id
-	# correr :limpiar_fotos
-	correr :bajar_todo
+	Dir.chdir "C:/Users/gogo/Documents/GitHub/catalogo" do 
+		# limpiar_errores
+		# completar_id
+		# correr :limpiar_errores
+		# correr :completar_id
+		# correr :limpiar_fotos
+		correr :bajar_todo
+	end
 	# pull
 end
