@@ -64842,7 +64842,7 @@
   {
     "id": "03078",
     "nombre": "Aceite Cañuelas Oliva Intenso 500cc",
-    "precio": 376.88,
+    "precio": 349.9,
     "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220311-58116916046af9b3e315988111926122-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-in-pet-500-cc/",
@@ -64854,13 +64854,17 @@
       {
         "fecha": "31/03/2021",
         "precio": 376.88
+      },
+      {
+        "fecha": "07/04/2021",
+        "precio": 349.9
       }
     ]
   },
   {
     "id": "03079",
     "nombre": "Aceite Cañuelas Oliva Suave 500cc",
-    "precio": 339.0,
+    "precio": 349.9,
     "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220301-333f3a18318b80229215988119589449-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-su-pet-500-cc/",
@@ -64868,6 +64872,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 339.0
+      },
+      {
+        "fecha": "07/04/2021",
+        "precio": 349.9
       }
     ]
   },
@@ -66095,7 +66103,7 @@
     "id": "03148",
     "nombre": "Antitranspirante Femenino Dove Clásico 89gr",
     "precio": 201.38,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59401-1d3183784870bcc5ae15990738772133-480-0.jpg",
     "url_producto": "productos/ant-fem-dove-clasico-89-gr/",
     "historia": [
@@ -66159,7 +66167,7 @@
     "id": "03152",
     "nombre": "Antitranspirante Masculino Rexona Motion Sense Invisible 90gr",
     "precio": 175.36,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/172681-ba3a1c9253bcf28ee016025089275745-480-0.jpg",
     "url_producto": "productos/antitranspirante-masculino-rexona-motion-sense-invisible-90-gr/",
     "historia": [
@@ -66449,7 +66457,7 @@
     "id": "03169",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -66616,7 +66624,7 @@
   {
     "id": "03179",
     "nombre": "Bebible La Serenisima Multivitaminas S/azucar Frutilla 900ml",
-    "precio": 119.9,
+    "precio": 127.3,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/9568571-18a64b837943e2d88116111751446607-480-0.jpg",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-s-azucar-frutilla-900-ml/",
@@ -66628,6 +66636,10 @@
       {
         "fecha": "06/04/2021",
         "precio": 119.9
+      },
+      {
+        "fecha": "07/04/2021",
+        "precio": 127.3
       }
     ]
   },
@@ -67212,7 +67224,7 @@
   {
     "id": "03215",
     "nombre": "Cerveza Corona 330cc",
-    "precio": 135.0,
+    "precio": 142.88,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cerveza-corona-330-cc1-d0ddb214c6a36dcf7c16003524185419-640-01-0020e8650e2dc35bb616005434767590-480-0.png",
     "url_producto": "productos/cerveza-corona-330-cc/",
@@ -67220,6 +67232,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 135.0
+      },
+      {
+        "fecha": "07/04/2021",
+        "precio": 142.88
       }
     ]
   },
@@ -70093,7 +70109,7 @@
     "id": "03387",
     "nombre": "Jabón De Tocador Dove Karite y Vainilla 90gr",
     "precio": 85.7,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/234011-268f3b5530da9d27db15990689442139-480-0.jpg",
     "url_producto": "productos/jab-toc-dove-kar-y-vain-90-gr/",
     "historia": [
@@ -70107,7 +70123,7 @@
     "id": "03388",
     "nombre": "Jabón De Tocador Dove Revitalizante 90gr",
     "precio": 98.66,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/233381-87401b98e0c74afbd415990689047718-480-0.jpg",
     "url_producto": "productos/jab-toc-dove-revital-90-gr/",
     "historia": [
@@ -70129,7 +70145,7 @@
     "id": "03389",
     "nombre": "Jabón De Tocador Espadol Active Deo 90gr",
     "precio": 85.67,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/131441-176b7e58459baae17915990920652667-480-0.jpg",
     "url_producto": "productos/jab-toc-espadol-act-deo-90-gr/",
     "historia": [
@@ -70151,7 +70167,7 @@
     "id": "03390",
     "nombre": "Jabón De Tocador Nivea Creme Soft 100gr",
     "precio": 60.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/170251-d78643e1fdcbf4629d15990678722806-480-0.jpg",
     "url_producto": "productos/jab-toc-nivea-crem-125-gr/",
     "historia": [
@@ -70426,7 +70442,7 @@
   {
     "id": "03406",
     "nombre": "Jugo En Base A Soja Ades Manzana 1lt",
-    "precio": 99.0,
+    "precio": 114.0,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0201-e22cb6177ebda07e7215988830743145-480-0.jpg",
     "url_producto": "productos/ades-manzana-1l/",
@@ -70434,6 +70450,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 99.0
+      },
+      {
+        "fecha": "07/04/2021",
+        "precio": 114.0
       }
     ]
   },
@@ -71023,7 +71043,7 @@
     "id": "03436",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Leches en Polvo y Larga Vida",
+    "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "historia": [
@@ -71094,7 +71114,7 @@
   {
     "id": "03440",
     "nombre": "Levadura Calsa 50gr",
-    "precio": 25.0,
+    "precio": 27.3,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/53971-ee3b1fb01a8873259b15990738018499-480-0.jpg",
     "url_producto": "productos/levadur-calsa-cubito-50-gr/",
@@ -71106,6 +71126,10 @@
       {
         "fecha": "10/03/2021",
         "precio": 25.0
+      },
+      {
+        "fecha": "07/04/2021",
+        "precio": 27.3
       }
     ]
   },
@@ -71641,7 +71665,7 @@
     "id": "03473",
     "nombre": "Mayonesa Natura Doypack 250gr",
     "precio": 61.2,
-    "rubro": "Productos > Aderezos",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/72741-5e8f5ab792cdb14ecc15988911309091-480-0.jpg",
     "url_producto": "productos/may-natura-d-p-250-gr/",
     "historia": [
@@ -71829,7 +71853,7 @@
     "id": "03483",
     "nombre": "Medallones De Quinoa Bambu Con Batata Roja y Curry 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/31-0d95a2d750cf46156016135887047402-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-batata-roja-y-curry-360-gr/",
     "historia": [
@@ -71847,7 +71871,7 @@
     "id": "03484",
     "nombre": "Medallones De Quinoa Bambu Con Brocoli 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-28t133000-7341-9246fe4e03dc07a08d16118514633734-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-brocoli-360-gr/",
     "historia": [
@@ -71865,7 +71889,7 @@
     "id": "03485",
     "nombre": "Medallones De Quinoa Bambu Con Cebolla Caramelizada 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-0ac7d05aa033abaf7416135887401078-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-cebolla-caramelizada-360-gr/",
     "historia": [
@@ -72183,7 +72207,7 @@
     "id": "03504",
     "nombre": "Mostaza Savora 250gr",
     "precio": 85.9,
-    "rubro": "Productos > Aderezos",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/115651-091ba485b56ce6138915989074478331-480-0.jpg",
     "url_producto": "productos/mostaza-savora-250-grs/",
     "historia": [
@@ -72627,7 +72651,7 @@
     "id": "03530",
     "nombre": "Pan De Campo La Panerita 360gr",
     "precio": 120.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705210_cgm1-8f978b8782b636012716130803607456-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-360-gr/",
     "historia": [
@@ -72645,7 +72669,7 @@
     "id": "03531",
     "nombre": "Pan De Campo La Panerita Con Semillas 340gr",
     "precio": 130.5,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705583_chm1-9697b42f2bf55399aa16130802662831-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-con-semillas-340-gr/",
     "historia": [
@@ -72659,7 +72683,7 @@
     "id": "03532",
     "nombre": "Pan De Hamburguesa La Panerita x 4un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/311-c0d1a72eb892048d8c16118693644227-480-0.jpg",
     "url_producto": "productos/pan-de-hamburguesa-la-panerita-x-4-unidades/",
     "historia": [
@@ -72673,7 +72697,7 @@
     "id": "03533",
     "nombre": "Pan De Viena La Panerita x 6un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211-be805d33b897e5219a16118693250617-480-0.jpg",
     "url_producto": "productos/pan-de-viena-la-panerita-x-6-unidades/",
     "historia": [
@@ -72751,7 +72775,7 @@
     "id": "03538",
     "nombre": "Pan Lactal La Panerita Blanco 400gr ,",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-967720a304d43123a016118693910439-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-blanco-400-gr/",
     "historia": [
@@ -72765,7 +72789,7 @@
     "id": "03539",
     "nombre": "Pan Lactal La Panerita Salvado 400gr",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/51-7eb96e352d872455a216118694168191-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-salvado-400-gr/",
     "historia": [
@@ -72833,7 +72857,7 @@
     "id": "03543",
     "nombre": "Pan Pebete La Panerita x 6un",
     "precio": 110.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pebete1-6f4d4cf5f8495b246116118692752394-480-0.jpg",
     "url_producto": "productos/pan-pebete-la-panerita-x-6-unidades/",
     "historia": [
@@ -73238,7 +73262,7 @@
   {
     "id": "03566",
     "nombre": "Patitas Granja De Sol Pollo 400gr",
-    "precio": 249.0,
+    "precio": 349.69,
     "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/872111-7b53014f1eef98441a15990035503427-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-pollo-400-gr/",
@@ -73246,6 +73270,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 249.0
+      },
+      {
+        "fecha": "07/04/2021",
+        "precio": 349.69
       }
     ]
   },
@@ -73705,7 +73733,7 @@
     "id": "03595",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -74701,7 +74729,7 @@
     "id": "03653",
     "nombre": "Shampoo Tresemme Keratina 400ml",
     "precio": 285.88,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/161771-e8acb2da185d094b4d15988877301296-480-0.jpg",
     "url_producto": "productos/shamp-tresemme-keratina-400-ml/",
     "historia": [
@@ -75165,7 +75193,7 @@
     "id": "03683",
     "nombre": "Toallitas Femeninas Siempre Libre Con Alas 16un",
     "precio": 235.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/130591-537459551c249564c015988887529678-480-0.jpg",
     "url_producto": "productos/toallitas-femeninas-siempre-libre-con-alas-16-un/",
     "historia": [
@@ -85713,7 +85741,7 @@
     "id": "04415",
     "nombre": "Antitranspirante Femenino Rexona Bambú Aloe Vera 90gr",
     "precio": 167.57,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/241841-8e8d710dc4b0a9c0b915988185627728-480-0.jpg",
     "url_producto": "productos/ant-fem-rexona-bamb-alver-90-gr/",
     "historia": [
@@ -86070,7 +86098,7 @@
   {
     "id": "04440",
     "nombre": "Bebible La Serenisima Multivitaminas 0% Grasa S/azucar Vainilla 900ml",
-    "precio": 119.9,
+    "precio": 127.3,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77907426620191-533a98bb0957360d4816176344694679-480-0.png",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-0-grasa-s-azucar-vainilla-900-ml/",
@@ -86078,13 +86106,17 @@
       {
         "fecha": "06/04/2021",
         "precio": 119.9
+      },
+      {
+        "fecha": "07/04/2021",
+        "precio": 127.3
       }
     ]
   },
   {
     "id": "04441",
     "nombre": "Bebible La Serenisima Multivitaminas S/azucar Vainilla 900ml",
-    "precio": 119.9,
+    "precio": 127.3,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga-41-ed15637226d9f3d7ac16176683992919-480-0.jpg",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-s-azucar-vainilla-900-ml/",
@@ -86092,6 +86124,10 @@
       {
         "fecha": "06/04/2021",
         "precio": 119.9
+      },
+      {
+        "fecha": "07/04/2021",
+        "precio": 127.3
       }
     ]
   },
@@ -86120,6 +86156,48 @@
       {
         "fecha": "06/04/2021",
         "precio": 155.87
+      }
+    ]
+  },
+  {
+    "id": "04444",
+    "nombre": "Bebible La Serenisima Multivitaminas 0% Grasa S/azucar Frutilla 900ml",
+    "precio": 127.3,
+    "rubro": "Productos > Libres de Glúten",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77907426620261-a8a776dd8cb3d0701c16177108420596-480-0.png",
+    "url_producto": "productos/bebible-la-serenisima-multivitaminas-0-grasa-s-azucar-frutilla-900-ml/",
+    "historia": [
+      {
+        "fecha": "07/04/2021",
+        "precio": 127.3
+      }
+    ]
+  },
+  {
+    "id": "04445",
+    "nombre": "Hamburguesas Super Estilo Casera Criolla x 4un",
+    "precio": 360.0,
+    "rubro": "Productos > La Vaca Club",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/lvc-burgers-montaje-01d1-987babf9f06bf7b6ef16125321330874-480-0.png",
+    "url_producto": "productos/hamburguesas-super-estilo-casera-criolla-x-4-unidades/",
+    "historia": [
+      {
+        "fecha": "07/04/2021",
+        "precio": 360.0
+      }
+    ]
+  },
+  {
+    "id": "04446",
+    "nombre": "Jugo Baggio Naranja 1lt",
+    "precio": 125.0,
+    "rubro": "Productos > Jugos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/unnamed-41-6eda17d6f0409392b116177363966738-480-0.jpg",
+    "url_producto": "productos/jugo-baggio-naranja-1lt/",
+    "historia": [
+      {
+        "fecha": "07/04/2021",
+        "precio": 125.0
       }
     ]
   }
