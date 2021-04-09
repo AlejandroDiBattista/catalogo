@@ -65235,7 +65235,7 @@
     "id": "03100",
     "nombre": "Aceto Molto Balsámico 500ml",
     "precio": 129.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/230951-36b6c8d0f87f19955615992495363204-480-0.jpg",
     "url_producto": "productos/aceto-molto-balsamico-500-ml/",
     "historia": [
@@ -66664,7 +66664,7 @@
   {
     "id": "03181",
     "nombre": "Berengena x Unidad",
-    "precio": 32.0,
+    "precio": 55.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/berenjena1-b95421431fde7a27c516139986875117-480-0.png",
     "url_producto": "productos/berengena-x-unidad/",
@@ -66672,6 +66672,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 32.0
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 55.0
       }
     ]
   },
@@ -66715,7 +66719,7 @@
     "id": "03184",
     "nombre": "Bife Ancho (marucha) x kg (*)",
     "precio": 690.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-ancho1-046e8ec9180bc119ef15988756860268-480-0.jpg",
     "url_producto": "productos/bife-ancho-marucha-x-kg/",
     "historia": [
@@ -66732,7 +66736,7 @@
   {
     "id": "03185",
     "nombre": "Bife Angosto x kg",
-    "precio": 730.0,
+    "precio": 850.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
@@ -66740,6 +66744,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 730.0
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 850.0
       }
     ]
   },
@@ -66747,7 +66755,7 @@
     "id": "03186",
     "nombre": "Bife De Chorizo Cortado P/ Bife x kg (*)",
     "precio": 870.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-chorizo1-041d9d9fbaf770027115988756952195-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-bifedechorizo/",
     "historia": [
@@ -66764,7 +66772,7 @@
   {
     "id": "03187",
     "nombre": "Bizcochos 9 De Oro Agridulces 200gr",
-    "precio": 51.86,
+    "precio": 59.67,
     "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/43401-aee427542ed4ba9e0a15989656577763-480-0.jpg",
     "url_producto": "productos/bizcoch-9-de-oro-agridulces-200-gr/",
@@ -66776,6 +66784,10 @@
       {
         "fecha": "01/04/2021",
         "precio": 51.86
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 59.67
       }
     ]
   },
@@ -66797,7 +66809,7 @@
     "id": "03189",
     "nombre": "Bola De Lomo Cortada P/ Milanesa x kg (*)",
     "precio": 880.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-de-lomo1-0432a199844759898f15988757082702-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-boladelomo/",
     "historia": [
@@ -66814,7 +66826,7 @@
   {
     "id": "03190",
     "nombre": "Bola De Lomo Feteada Para Milanesa x kg",
-    "precio": 660.0,
+    "precio": 792.9,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-lomo-fet1-44e054598c02eecd9816027207901849-480-0.jpg",
     "url_producto": "productos/bola-de-lomo-feteada-para-milanesa-x-kg/",
@@ -66822,6 +66834,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 660.0
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 792.9
       }
     ]
   },
@@ -66843,7 +66859,7 @@
     "id": "03192",
     "nombre": "Bolsa Asurin Residuos 3,3x60 10un",
     "precio": 78.9,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg",
     "url_producto": "productos/bols-asurin-res-3-45x60-10-un/",
     "historia": [
@@ -67020,7 +67036,7 @@
   {
     "id": "03203",
     "nombre": "Canasta Liquida Glade Campo De Lavanda Aparato 50ml",
-    "precio": 199.0,
+    "precio": 230.0,
     "rubro": "Productos > Limpieza de Baño",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/lavender_liquid_cages1-4f757e8f70a90bf80a16143442669028-480-0.jpg",
     "url_producto": "productos/canasta-liquida-glade-campo-de-lavanda-aparato-50-ml/",
@@ -67028,13 +67044,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 199.0
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 230.0
       }
     ]
   },
   {
     "id": "03204",
     "nombre": "Canasta Liquida Glade I Love You Aparato 50ml",
-    "precio": 199.0,
+    "precio": 230.0,
     "rubro": "Productos > Limpieza de Baño",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790520010230-11-223695bed068f7b04316120159058661-480-0.jpg",
     "url_producto": "productos/canasta-liquida-glade-i-love-you-aparato-50-ml/",
@@ -67042,6 +67062,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 199.0
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 230.0
       }
     ]
   },
@@ -67118,7 +67142,7 @@
   {
     "id": "03208",
     "nombre": "Carré Con Hueso Cortado x kg",
-    "precio": 411.0,
+    "precio": 433.14,
     "rubro": "Productos > Carnes de Cerdo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/151-06f2b6621da97fece816022707596009-480-0.jpg",
     "url_producto": "productos/carre-con-hueso-cortado-x-kg/",
@@ -67126,6 +67150,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 411.0
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 433.14
       }
     ]
   },
@@ -67438,7 +67466,7 @@
   {
     "id": "03228",
     "nombre": "Chinchulín x kg",
-    "precio": 199.0,
+    "precio": 299.0,
     "rubro": "Productos > Achuras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-ancho-31-22cf7850bd039ffd5d16022712193660-480-0.jpg",
     "url_producto": "productos/chinchulin-x-kg/",
@@ -67446,6 +67474,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 199.0
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 299.0
       }
     ]
   },
@@ -67480,7 +67512,7 @@
   {
     "id": "03231",
     "nombre": "Choclo x Unidad",
-    "precio": 45.0,
+    "precio": 47.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/choclo-americano-600x6001-a81dcb81c758f2975216146273101789-480-0.jpg",
     "url_producto": "productos/choclo-x-unidad/",
@@ -67492,6 +67524,10 @@
       {
         "fecha": "06/03/2021",
         "precio": 45.0
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 47.0
       }
     ]
   },
@@ -67780,7 +67816,7 @@
   {
     "id": "03249",
     "nombre": "Costilla De Novillo x kg",
-    "precio": 578.9,
+    "precio": 675.87,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/costilla1-5aa1363e9728dcd1bb16027208333800-480-0.png",
     "url_producto": "productos/costilla-de-novillo-x-kg/",
@@ -67788,6 +67824,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 578.9
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 675.87
       }
     ]
   },
@@ -68001,7 +68041,7 @@
     "id": "03261",
     "nombre": "Cuadrada Cortada P/ Milanesa x kg (*)",
     "precio": 880.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cuadrada1-7c547b439b086b2d6f15988758197929-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-cuadrada/",
     "historia": [
@@ -68215,7 +68255,7 @@
     "id": "03274",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
     "precio": 115.9,
-    "rubro": "Productos > Dulces y Mermeladas",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-400-gr/",
     "historia": [
@@ -68362,7 +68402,7 @@
   {
     "id": "03282",
     "nombre": "Edulcorante Si Diet 500ml",
-    "precio": 181.85,
+    "precio": 181.87,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/22561-52f34550c05fa972e515988885695640-480-0.jpg",
     "url_producto": "productos/edulcorante-si-diet-500-ml/",
@@ -68378,6 +68418,10 @@
       {
         "fecha": "24/03/2021",
         "precio": 181.85
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 181.87
       }
     ]
   },
@@ -68775,7 +68819,7 @@
     "id": "03308",
     "nombre": "Falda Parrillera x kg (*)",
     "precio": 720.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/falda-parrillera1-95785614f33fffbec215988758554507-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-faldaparrillera/",
     "historia": [
@@ -69071,7 +69115,7 @@
     "id": "03324",
     "nombre": "Filet x kg (*)",
     "precio": 1.15,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/filet1-b9cba792c2a2a00d4215988758554893-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-filet/",
     "historia": [
@@ -69770,7 +69814,7 @@
   {
     "id": "03366",
     "nombre": "Hamburguesa Swift Carne 20un",
-    "precio": 1.546,
+    "precio": 1.676,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/236161-61c45c86ae4cfaa4ef15992499385568-480-0.jpg",
     "url_producto": "productos/hamburguesa-swift-carne-20-un/",
@@ -69794,6 +69838,10 @@
       {
         "fecha": "31/03/2021",
         "precio": 1.546
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 1.676
       }
     ]
   },
@@ -70846,7 +70894,7 @@
   {
     "id": "03428",
     "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana 1lt",
-    "precio": 99.0,
+    "precio": 108.0,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790742362100_01_nuevopack1-e6b51851f43cddfcbb16071715461968-480-0.jpg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-1-lt/",
@@ -70878,13 +70926,17 @@
       {
         "fecha": "08/04/2021",
         "precio": 99.0
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 108.0
       }
     ]
   },
   {
     "id": "03429",
     "nombre": "Leche La Serenísima Uat Parc. Descremada 1% Tenor Graso Liviana Pet 1lt",
-    "precio": 97.6,
+    "precio": 99.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/botella-larga-vida1-be092cc5467eb617e115997437553116-480-0.jpg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-1-tenor-graso-liviana-pet-1-l/",
@@ -70912,13 +70964,17 @@
       {
         "fecha": "08/04/2021",
         "precio": 97.6
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 99.0
       }
     ]
   },
   {
     "id": "03430",
     "nombre": "Leche La Serenísima Uat Parc. Descremada Zero Lactosa Pet 1lt",
-    "precio": 110.0,
+    "precio": 99.0,
     "rubro": "Productos > Deslactosados",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/leche-deslactosada-la-serenisima1-494dd151e419dca6a716001943543601-480-0.jpeg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-zero-lactosa-pet-1-l/",
@@ -70930,13 +70986,17 @@
       {
         "fecha": "18/03/2021",
         "precio": 110.0
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 99.0
       }
     ]
   },
   {
     "id": "03431",
     "nombre": "Leche La Serenísima Ultra Entera 3% Sachet 1lt",
-    "precio": 89.9,
+    "precio": 98.8,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2072011-21f651610f08c9151e15990891552724-480-0.jpg",
     "url_producto": "productos/leche-la-serenisima-ultra-entera-3-sachet-1-l/",
@@ -70944,6 +71004,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 89.9
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 98.8
       }
     ]
   },
@@ -71217,7 +71281,7 @@
     "id": "03443",
     "nombre": "Limpiador Cif Antigrasa 450ml",
     "precio": 89.0,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/145061-ad86ed1bdcb8e099af15990672627449-480-0.jpg",
     "url_producto": "productos/limp-cif-antig-d-p-450-ml/",
     "historia": [
@@ -71245,7 +71309,7 @@
     "id": "03445",
     "nombre": "Limpiador Cif Crema Limón 750gr",
     "precio": 155.87,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cif-crema-limon1-ace4b3e161ca9ce96f16101128144620-480-0.jpg",
     "url_producto": "productos/limp-cif-crem-limon-750-gr/",
     "historia": [
@@ -71267,7 +71331,7 @@
     "id": "03446",
     "nombre": "Limpiador Cif Pisos Antibacterial 750ml",
     "precio": 172.9,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209611-214abbe56f232f695115988902496909-480-0.jpg",
     "url_producto": "productos/limp-cif-pis-antibac-750-ml/",
     "historia": [
@@ -71565,7 +71629,7 @@
     "id": "03465",
     "nombre": "Matambre x kg (*)",
     "precio": 790.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/matambre1-1ab90bd2123cd55bd115988758558654-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-matambre/",
     "historia": [
@@ -72192,7 +72256,7 @@
   {
     "id": "03501",
     "nombre": "Mollejas x kg",
-    "precio": 599.0,
+    "precio": 766.87,
     "rubro": "Productos > Achuras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/71-d916418cb1bec6337716022712668922-480-0.jpg",
     "url_producto": "productos/mollejas-x-kg/",
@@ -72200,6 +72264,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 599.0
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 766.87
       }
     ]
   },
@@ -72207,7 +72275,7 @@
     "id": "03502",
     "nombre": "Morcilla Vasca x 500gr (*)",
     "precio": 220.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/morcilla-vasca1-62dc9c1bf793919ad015988758936814-480-0.jpg",
     "url_producto": "productos/morcilla-vasca-x-500gr/",
     "historia": [
@@ -72256,7 +72324,7 @@
   {
     "id": "03505",
     "nombre": "Nalga Feteada P/milanesa x kg (*)",
-    "precio": 800.0,
+    "precio": 960.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-25t154426-9541-0cd627a3b587a7b82a16116002888744-480-0.jpg",
     "url_producto": "productos/nalga-feteada-p-milanesa-x-kg/",
@@ -72264,6 +72332,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 800.0
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 960.0
       }
     ]
   },
@@ -72521,7 +72593,7 @@
     "id": "03521",
     "nombre": "Paleta (rolliza) Cortada P/ Bife x kg (*)",
     "precio": 700.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/paleta1-15697187b50ddc277b15988759318660-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-paleta/",
     "historia": [
@@ -72687,7 +72759,7 @@
     "id": "03530",
     "nombre": "Pan De Campo La Panerita 360gr",
     "precio": 120.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705210_cgm1-8f978b8782b636012716130803607456-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-360-gr/",
     "historia": [
@@ -72705,7 +72777,7 @@
     "id": "03531",
     "nombre": "Pan De Campo La Panerita Con Semillas 340gr",
     "precio": 130.5,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705583_chm1-9697b42f2bf55399aa16130802662831-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-con-semillas-340-gr/",
     "historia": [
@@ -72719,7 +72791,7 @@
     "id": "03532",
     "nombre": "Pan De Hamburguesa La Panerita x 4un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/311-c0d1a72eb892048d8c16118693644227-480-0.jpg",
     "url_producto": "productos/pan-de-hamburguesa-la-panerita-x-4-unidades/",
     "historia": [
@@ -72733,7 +72805,7 @@
     "id": "03533",
     "nombre": "Pan De Viena La Panerita x 6un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211-be805d33b897e5219a16118693250617-480-0.jpg",
     "url_producto": "productos/pan-de-viena-la-panerita-x-6-unidades/",
     "historia": [
@@ -72811,7 +72883,7 @@
     "id": "03538",
     "nombre": "Pan Lactal La Panerita Blanco 400gr ,",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-967720a304d43123a016118693910439-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-blanco-400-gr/",
     "historia": [
@@ -72825,7 +72897,7 @@
     "id": "03539",
     "nombre": "Pan Lactal La Panerita Salvado 400gr",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/51-7eb96e352d872455a216118694168191-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-salvado-400-gr/",
     "historia": [
@@ -72893,7 +72965,7 @@
     "id": "03543",
     "nombre": "Pan Pebete La Panerita x 6un",
     "precio": 110.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pebete1-6f4d4cf5f8495b246116118692752394-480-0.jpg",
     "url_producto": "productos/pan-pebete-la-panerita-x-6-unidades/",
     "historia": [
@@ -73348,7 +73420,7 @@
   {
     "id": "03569",
     "nombre": "Peceto x kg (*)",
-    "precio": 910.0,
+    "precio": 935.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/peceto1-0b98eb97f933c07f0416088225317002-480-0.jpg",
     "url_producto": "productos/peceto-x-kg/",
@@ -73356,6 +73428,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 910.0
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 935.0
       }
     ]
   },
@@ -73514,7 +73590,7 @@
   {
     "id": "03580",
     "nombre": "Pollo Entero x kg",
-    "precio": 167.9,
+    "precio": 195.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/61-5324062f677e56957b16022716274307-480-0.jpg",
     "url_producto": "productos/pollo-entero-x-kg/",
@@ -73522,6 +73598,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 167.9
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 195.0
       }
     ]
   },
@@ -73773,7 +73853,7 @@
     "id": "03595",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -75111,7 +75191,7 @@
     "id": "03674",
     "nombre": "Tapa De Asado x kg (*)",
     "precio": 720.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tapa-asado1-6f57dbfd72a184d96415988759708443-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-tapadeasado/",
     "historia": [
@@ -75319,7 +75399,7 @@
     "id": "03688",
     "nombre": "Tostada Riera Arroz Sin T 150gr",
     "precio": 96.0,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2545711-0ad717d3c157a5e2eb15990904923486-480-0.jpg",
     "url_producto": "productos/tostada-riera-arroz-sin-t-150-gr/",
     "historia": [
@@ -75373,7 +75453,7 @@
     "id": "03691",
     "nombre": "Vacío x kg (*)",
     "precio": 770.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/vacio1-452065eddeb5cb7d7a15988759969775-480-0.jpg",
     "url_producto": "productos/lavacaclub-asado-vacio/",
     "historia": [
@@ -76739,7 +76819,7 @@
     "id": "03774",
     "nombre": "Ojo De Bife x kg (*)",
     "precio": 1.05,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ojo-bife1-293925c83e7b91b85815988758961992-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-ojodebife/",
     "historia": [
@@ -85188,7 +85268,7 @@
   {
     "id": "04373",
     "nombre": "Miga Negro x kg",
-    "precio": 321.05,
+    "precio": 335.52,
     "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/eu0201-c12d1230e1c1e4e78816022449576791-480-0.jpg",
     "url_producto": "productos/miga-negro-x-kilo/",
@@ -85196,6 +85276,10 @@
       {
         "fecha": "25/03/2021",
         "precio": 321.05
+      },
+      {
+        "fecha": "09/04/2021",
+        "precio": 335.52
       }
     ]
   },
@@ -86464,6 +86548,90 @@
       {
         "fecha": "08/04/2021",
         "precio": 207.87
+      }
+    ]
+  },
+  {
+    "id": "04462",
+    "nombre": "Aceitunas Nucete Negra N 7 200gr",
+    "precio": 103.9,
+    "rubro": "Productos > Aceitunas, Pickles y Ajies",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/185151-c40276aba31671133615988860309574-480-0.jpg",
+    "url_producto": "productos/aceit-nucete-negra-n7-200-gr/",
+    "historia": [
+      {
+        "fecha": "09/04/2021",
+        "precio": 103.9
+      }
+    ]
+  },
+  {
+    "id": "04463",
+    "nombre": "Bolsa Asurin Cierre Fácil 50x70 20un",
+    "precio": 303.5,
+    "rubro": "Productos > Limpieza de Cocina",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2472011-dc3a7485a19fd95c6615989748235025-480-0.jpg",
+    "url_producto": "productos/bolsa-asurin-cierre-facil-50x70-20-un/",
+    "historia": [
+      {
+        "fecha": "09/04/2021",
+        "precio": 303.5
+      }
+    ]
+  },
+  {
+    "id": "04464",
+    "nombre": "Ketchup Molto Doypack 500gr",
+    "precio": 149.9,
+    "rubro": "Productos > Aderezos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/ketchup-molto-doypack-500-gr/",
+    "historia": [
+      {
+        "fecha": "09/04/2021",
+        "precio": 149.9
+      }
+    ]
+  },
+  {
+    "id": "04465",
+    "nombre": "Lámpara Osram Led Calida 9 Wt",
+    "precio": 170.17,
+    "rubro": "Productos > Fósforos, Lamparas y Pilas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/261481-8d6b85c15048ffe95015990925835705-480-0.jpg",
+    "url_producto": "productos/lampara-osram-led-calida-9-wt/",
+    "historia": [
+      {
+        "fecha": "09/04/2021",
+        "precio": 170.17
+      }
+    ]
+  },
+  {
+    "id": "04466",
+    "nombre": "Pickles Nucete 220gr",
+    "precio": 95.0,
+    "rubro": "Productos > Aceitunas, Pickles y Ajies",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59851-3379286b6c28760a9a15996711787420-480-0.jpg",
+    "url_producto": "productos/pickles-nucete-220-grs/",
+    "historia": [
+      {
+        "fecha": "09/04/2021",
+        "precio": 95.0
+      }
+    ]
+  },
+  {
+    "id": "04467",
+    "nombre": "Salsa De Soja Marolio 280gr",
+    "precio": 85.0,
+    "rubro": "Productos > Salsas y Puré de Tomates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/salsa-de-soja-marolio-280-gr/",
+    "historia": [
+      {
+        "fecha": "09/04/2021",
+        "precio": 85.0
       }
     ]
   }
