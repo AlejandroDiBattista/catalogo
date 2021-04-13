@@ -65521,7 +65521,7 @@
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
     "precio": 133.5,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -65563,7 +65563,7 @@
     "id": "03120",
     "nombre": "Agua Sin Gas Kin 2lt",
     "precio": 70.9,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-kin-sin-gas-2-lt1-758653d6a7aba3100016013973390850-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-kin-2-lt/",
     "historia": [
@@ -66357,7 +66357,7 @@
     "id": "03163",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 88.28,
-    "rubro": "Productos > Arroz y Legumbres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -66596,7 +66596,7 @@
   {
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
-    "precio": 450.0,
+    "precio": 490.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
@@ -66612,6 +66612,10 @@
       {
         "fecha": "21/03/2021",
         "precio": 450.0
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 490.0
       }
     ]
   },
@@ -68022,7 +68026,7 @@
   {
     "id": "03260",
     "nombre": "Croquetas De Zapallo y Queso x 500gr Aprox.(*)",
-    "precio": 390.0,
+    "precio": 410.0,
     "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/70-croquetas-de-zapallo-11-378a1efd3309568de016026936445936-480-0.jpg",
     "url_producto": "productos/croquetas-de-zapallo-y-queso-x-500-gr-aprox/",
@@ -68038,6 +68042,10 @@
       {
         "fecha": "21/03/2021",
         "precio": 390.0
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 410.0
       }
     ]
   },
@@ -69060,7 +69068,7 @@
   {
     "id": "03321",
     "nombre": "Filet De Merluza Rebozado Con Finas Hierbas x 500gr (*)",
-    "precio": 560.0,
+    "precio": 630.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/63-filet-de-merluza-con-finas-hierbas-11-1f9ef0c494ce58e4c616026929555754-480-0.jpg",
     "url_producto": "productos/filet-de-merluza-rebozado-con-finas-hierbas-x-500-gr/",
@@ -69076,13 +69084,17 @@
       {
         "fecha": "21/03/2021",
         "precio": 560.0
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 630.0
       }
     ]
   },
   {
     "id": "03322",
     "nombre": "Filet De Merluza Rebozado x 500gr Aprox.(*)",
-    "precio": 540.0,
+    "precio": 590.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mila-merluza1-5b55a2043c61666d4616027209978321-480-0.jpg",
     "url_producto": "productos/filet-de-merluza-rebozado-x-500-gr-aprox/",
@@ -69098,6 +69110,10 @@
       {
         "fecha": "21/03/2021",
         "precio": 540.0
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 590.0
       }
     ]
   },
@@ -69373,7 +69389,7 @@
     "id": "03339",
     "nombre": "Galletitas Terrabusi Variedad 400gr",
     "precio": 133.55,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209851-0f2bd8eb8fc27fb6db15988923475671-480-0.jpg",
     "url_producto": "productos/gal-terrabusi-variedad-400-gr/",
     "historia": [
@@ -70421,7 +70437,7 @@
     "id": "03399",
     "nombre": "Jugo Arcor Naranja S/t.a.c.c. 200ml",
     "precio": 26.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/jugo-arcor-naranja-sin-tacc-200-ml1-15e3f79a8468ad6b8716110759232509-480-0.jpg",
     "url_producto": "productos/jugo-arcor-naranja-s-t-a-c-c-200-ml/",
     "historia": [
@@ -70734,7 +70750,7 @@
   {
     "id": "03418",
     "nombre": "Langostinos Rebozados x 500gr (*)",
-    "precio": 1.42,
+    "precio": 1.53,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/53-langostinos-rebozados-11-3b726d7298b2f907c316026912615584-480-0.jpg",
     "url_producto": "productos/langostinos-rebozados-x-500-gr/",
@@ -70746,6 +70762,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 1.42
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 1.53
       }
     ]
   },
@@ -71151,7 +71171,7 @@
     "id": "03436",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Postres y Repostería",
+    "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "historia": [
@@ -71808,7 +71828,7 @@
   {
     "id": "03475",
     "nombre": "Medallón De Merluza Con Espinaca y Queso x 500gr Aprox.(*)",
-    "precio": 380.0,
+    "precio": 420.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/60-medallones-de-merluza-con-espinaca-y-queso1-5b7429f100158a63ea16026924513813-480-0.jpg",
     "url_producto": "productos/medallon-de-merluza-con-espinaca-y-queso-x-500-gr-aprox/",
@@ -71820,13 +71840,17 @@
       {
         "fecha": "09/03/2021",
         "precio": 380.0
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 420.0
       }
     ]
   },
   {
     "id": "03476",
     "nombre": "Medallón De Merluza Con Jamón y Queso x 500gr Aprox.(*)",
-    "precio": 399.0,
+    "precio": 420.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59-medallones-de-merluza-con-jamon-y-queso1-08e28cce7b23fff11716026923931898-480-0.jpg",
     "url_producto": "productos/medallon-de-merluza-con-jamon-y-queso-x-500-gr-aprox/",
@@ -71842,13 +71866,17 @@
       {
         "fecha": "21/03/2021",
         "precio": 399.0
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 420.0
       }
     ]
   },
   {
     "id": "03477",
     "nombre": "Medallón De Merluza Tradicional x 500gr Aprox.(*)",
-    "precio": 330.0,
+    "precio": 380.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/58-medallones-de-merluza-tradicionales-11-419356a86263c75c6916026937216325-480-0.jpg",
     "url_producto": "productos/medallon-de-merluza-tradicional-x-500-gr-aprox/",
@@ -71864,13 +71892,17 @@
       {
         "fecha": "21/03/2021",
         "precio": 330.0
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 380.0
       }
     ]
   },
   {
     "id": "03478",
     "nombre": "Medallón De Pollo Con Jamón y Queso x 500gr Aprox. (*)",
-    "precio": 420.0,
+    "precio": 450.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/66-medallones-de-pollo-con-jamon-y-queso-11-17e1c470a9b92911fb16026932854523-480-0.jpg",
     "url_producto": "productos/medallon-de-pollo-con-jamon-y-queso-x-500-gr-aprox/",
@@ -71886,13 +71918,17 @@
       {
         "fecha": "21/03/2021",
         "precio": 420.0
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 450.0
       }
     ]
   },
   {
     "id": "03479",
     "nombre": "Medallón De Pollo Tradicional x 500gr Aprox.(*)",
-    "precio": 390.0,
+    "precio": 420.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/65-medallones-de-pollo-tradicionales-11-0948e0e3ffea01dfac16026931236580-480-0.jpg",
     "url_producto": "productos/medallon-de-pollo-tradicional-x-500-gr-aprox/",
@@ -71908,6 +71944,10 @@
       {
         "fecha": "21/03/2021",
         "precio": 390.0
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 420.0
       }
     ]
   },
@@ -72372,7 +72412,7 @@
   {
     "id": "03507",
     "nombre": "Nugget De Merluza x 500gr Aprox.(*)",
-    "precio": 340.0,
+    "precio": 390.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/61-nuggets-de-merluza-11-63e6b8ca2d13a3cfb716026926163835-480-0.jpg",
     "url_producto": "productos/nugget-de-merluza-x-500-gr-aprox/",
@@ -72388,6 +72428,10 @@
       {
         "fecha": "21/03/2021",
         "precio": 340.0
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 390.0
       }
     ]
   },
@@ -72395,7 +72439,7 @@
     "id": "03508",
     "nombre": "Oblea Nugaton Leche 27gr",
     "precio": 48.5,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1221511-eeaca7ca177da77d9815989996596078-480-0.jpg",
     "url_producto": "productos/oblea-nugaton-leche-27-gr/",
     "historia": [
@@ -72668,7 +72712,7 @@
   {
     "id": "03525",
     "nombre": "Pampitos De Pollo Con Jamón y Queso x 500gr Aprox.(*)",
-    "precio": 430.0,
+    "precio": 460.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pampitos-de-pollo1-f053ff8445d83094e616026934595933-480-0.jpg",
     "url_producto": "productos/pampitos-de-pollo-con-jamon-y-queso-x-500-gr-aprox/",
@@ -72684,13 +72728,17 @@
       {
         "fecha": "21/03/2021",
         "precio": 430.0
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 460.0
       }
     ]
   },
   {
     "id": "03526",
     "nombre": "Pampitos De Pollo x 500gr Aprox.(*)",
-    "precio": 400.0,
+    "precio": 430.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pampitos1-a92f5c47348991626c16026935447949-480-0.jpg",
     "url_producto": "productos/pampitos-de-pollo-x-500-gr-aprox/",
@@ -72706,6 +72754,10 @@
       {
         "fecha": "21/03/2021",
         "precio": 400.0
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 430.0
       }
     ]
   },
@@ -72771,7 +72823,7 @@
     "id": "03530",
     "nombre": "Pan De Campo La Panerita 360gr",
     "precio": 120.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705210_cgm1-8f978b8782b636012716130803607456-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-360-gr/",
     "historia": [
@@ -72789,7 +72841,7 @@
     "id": "03531",
     "nombre": "Pan De Campo La Panerita Con Semillas 340gr",
     "precio": 130.5,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705583_chm1-9697b42f2bf55399aa16130802662831-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-con-semillas-340-gr/",
     "historia": [
@@ -72803,7 +72855,7 @@
     "id": "03532",
     "nombre": "Pan De Hamburguesa La Panerita x 4un",
     "precio": 67.6,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/311-c0d1a72eb892048d8c16118693644227-480-0.jpg",
     "url_producto": "productos/pan-de-hamburguesa-la-panerita-x-4-unidades/",
     "historia": [
@@ -72895,7 +72947,7 @@
     "id": "03538",
     "nombre": "Pan Lactal La Panerita Blanco 400gr ,",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-967720a304d43123a016118693910439-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-blanco-400-gr/",
     "historia": [
@@ -72909,7 +72961,7 @@
     "id": "03539",
     "nombre": "Pan Lactal La Panerita Salvado 400gr",
     "precio": 105.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/51-7eb96e352d872455a216118694168191-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-salvado-400-gr/",
     "historia": [
@@ -73232,7 +73284,7 @@
   {
     "id": "03557",
     "nombre": "Papel Higiénico Higienol Export Plus 4x30 Mt",
-    "precio": 81.3,
+    "precio": 105.3,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/158331-6bef1ae52f4efb15ae15988872978672-480-0.jpg",
     "url_producto": "productos/pap-hig-higienol-export-plus-4x30-mt/",
@@ -73240,13 +73292,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 81.3
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 105.3
       }
     ]
   },
   {
     "id": "03558",
     "nombre": "Papel Higiénico Higienol Premium 4x30 Mt",
-    "precio": 136.36,
+    "precio": 152.21,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/153161-ab342f624052e6fd6c15988873524584-480-0.jpg",
     "url_producto": "productos/pap-hig-higienol-premium-4x30-mt/",
@@ -73258,13 +73314,17 @@
       {
         "fecha": "03/04/2021",
         "precio": 136.36
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 152.21
       }
     ]
   },
   {
     "id": "03559",
     "nombre": "Papel Higienico Higienol Max 4x80 Mts",
-    "precio": 215.0,
+    "precio": 235.0,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/papel-higienico-higienol-max-4x80-mts1-cdcced26899474ae3116139983579423-480-0.jpg",
     "url_producto": "productos/papel-higienico-higienol-max-4x80-mts/",
@@ -73284,6 +73344,10 @@
       {
         "fecha": "26/03/2021",
         "precio": 215.0
+      },
+      {
+        "fecha": "13/04/2021",
+        "precio": 235.0
       }
     ]
   },
@@ -73401,7 +73465,7 @@
     "id": "03567",
     "nombre": "Patitas Granja De Sol Queso Jamón 400gr",
     "precio": 306.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830711-dba545bed7ed42864715990035883853-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-que-jam-400-gr/",
     "historia": [
@@ -74869,7 +74933,7 @@
     "id": "03653",
     "nombre": "Shampoo Tresemme Keratina 400ml",
     "precio": 285.88,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/161771-e8acb2da185d094b4d15988877301296-480-0.jpg",
     "url_producto": "productos/shamp-tresemme-keratina-400-ml/",
     "historia": [
@@ -86759,7 +86823,7 @@
     "id": "04474",
     "nombre": "Galletitas Pepitos 119gr",
     "precio": 94.22,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/75471-947736715d10244e2615988919945740-480-0.jpg",
     "url_producto": "productos/galletitas-pepitos-119-gr/",
     "historia": [
@@ -86976,6 +87040,230 @@
       {
         "fecha": "11/04/2021",
         "precio": 95.3
+      }
+    ]
+  },
+  {
+    "id": "04490",
+    "nombre": "Berenjena x Unidad",
+    "precio": 55.0,
+    "rubro": "Productos > Frutas y Verduras",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/berenjena1-b95421431fde7a27c516139986875117-480-0.png",
+    "url_producto": "productos/berenjena-x-unidad/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 55.0
+      }
+    ]
+  },
+  {
+    "id": "04491",
+    "nombre": "Choclo Noel Amarrilo Cremoso 300gr",
+    "precio": 95.3,
+    "rubro": "Productos > Conservas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/choclo-noel-cremoso-300gr1-2e287bbe56dc64e09f16182631477962-480-0.png",
+    "url_producto": "productos/choclo-noel-amarrilo-cremoso-300-gr/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 95.3
+      }
+    ]
+  },
+  {
+    "id": "04492",
+    "nombre": "Chocolate Cofler Air Mixto 100gr",
+    "precio": 182.55,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/chocolate-cofler-air-mixto-100-gr1-1d7e7b2580c0e4482216182633643480-480-0.jpg",
+    "url_producto": "productos/chocolate-cofler-air-mixto-100-gr/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 182.55
+      }
+    ]
+  },
+  {
+    "id": "04493",
+    "nombre": "Chorizo \"la Angelita\" Al Champán x kg",
+    "precio": 790.0,
+    "rubro": "Productos > Embutidos La Angelita",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/la-angelita1-bd5cab671185fcccd316182421750995-480-0.jpg",
+    "url_producto": "productos/chorizo-la-angelita-al-champan-x-kg/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 790.0
+      }
+    ]
+  },
+  {
+    "id": "04494",
+    "nombre": "Chorizo \"la Angelita\" Al Vino x kg",
+    "precio": 790.0,
+    "rubro": "Productos > Embutidos La Angelita",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/la-angelita11-bd5cab671185fcccd316182422131618-480-0.jpg",
+    "url_producto": "productos/chorizo-la-angelita-al-vino-x-kg/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 790.0
+      }
+    ]
+  },
+  {
+    "id": "04495",
+    "nombre": "Chorizo \"la Angelita\" Español x kg",
+    "precio": 790.0,
+    "rubro": "Productos > Embutidos La Angelita",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/la-angelita-11-1ff9dfee7bfa6f6ee516182425426135-480-0.jpg",
+    "url_producto": "productos/chorizo-la-angelita-espanol-x-kg/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 790.0
+      }
+    ]
+  },
+  {
+    "id": "04496",
+    "nombre": "Chorizo \"la Angelita\" Italiano x kg",
+    "precio": 790.0,
+    "rubro": "Productos > Embutidos La Angelita",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/chorizo-italiano1-4d1db13aecb557a77b16182637874897-480-0.jpg",
+    "url_producto": "productos/chorizo-la-angelita-italiano-x-kg/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 790.0
+      }
+    ]
+  },
+  {
+    "id": "04497",
+    "nombre": "Chorizo \"la Angelita\" Roquefort x kg",
+    "precio": 790.0,
+    "rubro": "Productos > Embutidos La Angelita",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/la-angelita21-bd5cab671185fcccd316182423395754-480-0.jpg",
+    "url_producto": "productos/chorizo-la-angelita-roquefort-x-kg/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 790.0
+      }
+    ]
+  },
+  {
+    "id": "04498",
+    "nombre": "Enjuague Vivere Violeta D-p 3lt",
+    "precio": 454.86,
+    "rubro": "Productos > Lavado de Ropa",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2405011-5cd47b2b878d059bfe15989643412940-480-0.jpg",
+    "url_producto": "productos/enj-vivere-violeta-d-p-3-lt/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 454.86
+      }
+    ]
+  },
+  {
+    "id": "04499",
+    "nombre": "Mignón x kg",
+    "precio": 240.0,
+    "rubro": "Productos > Panadería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/eu0121-7a6917b49c276b6c7516022450296917-480-0.jpg",
+    "url_producto": "productos/mignon-x-kilo/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 240.0
+      }
+    ]
+  },
+  {
+    "id": "04500",
+    "nombre": "Morcilla \"la Angelita\" Criolla x 500gr",
+    "precio": 650.0,
+    "rubro": "Productos > Embutidos La Angelita",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/morsilla1-10758386ced34cddfa16182428909590-480-0.jpg",
+    "url_producto": "productos/morcilla-la-angelita-criolla-x-500gr/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 650.0
+      }
+    ]
+  },
+  {
+    "id": "04501",
+    "nombre": "Morcilla \"la Angelita\" Vasca x 500gr",
+    "precio": 650.0,
+    "rubro": "Productos > Embutidos La Angelita",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/morsilla11-10758386ced34cddfa16182429196956-480-0.jpg",
+    "url_producto": "productos/morcilla-la-angelita-vasca-x-500gr/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 650.0
+      }
+    ]
+  },
+  {
+    "id": "04502",
+    "nombre": "Oblea Bon O Bon Blanco 30gr",
+    "precio": 62.8,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/oblea-bon-o-bon-blanco-30-gr1-4de6e59bc1af75daa416182636413557-480-0.jpg",
+    "url_producto": "productos/oblea-bon-o-bon-blanco-30-gr/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 62.8
+      }
+    ]
+  },
+  {
+    "id": "04503",
+    "nombre": "Pasta De Mani Bon O Bon 290gr",
+    "precio": 251.6,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pasta-de-mani-bon-o-bon-290-gr1-c2e29bf6b3e71ded6216182635347323-480-0.jpg",
+    "url_producto": "productos/pasta-de-mani-bon-o-bon-290-gr/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 251.6
+      }
+    ]
+  },
+  {
+    "id": "04504",
+    "nombre": "Queso Tybo/danbo Noal Feteado x 800gr (*)",
+    "precio": 728.83,
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/queso-noal1-b7346bd194d57c7ba615995211415615-480-0.jpg",
+    "url_producto": "productos/alem500-quesotybo-danbonoalfeteadox800grs/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 728.83
+      }
+    ]
+  },
+  {
+    "id": "04505",
+    "nombre": "Toallitas Desinfectantes Ayudin Limon 35un",
+    "precio": 377.99,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/toallitas-desinfectantes-ayudin-limon-35-un1-e075ff8b0ca170a93a16182632040850-480-0.png",
+    "url_producto": "productos/toallitas-desinfectantes-ayudin-limon-35-un/",
+    "historia": [
+      {
+        "fecha": "13/04/2021",
+        "precio": 377.99
       }
     ]
   }
