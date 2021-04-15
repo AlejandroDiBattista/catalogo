@@ -65203,7 +65203,7 @@
     "id": "03098",
     "nombre": "Aceto Marolio Balsámico 250ml",
     "precio": 90.87,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc234231-559b6307ede3bf815016013991684584-480-0.png",
     "url_producto": "productos/aceto-marolio-balsamico-250-ml/",
     "historia": [
@@ -65243,7 +65243,7 @@
     "id": "03100",
     "nombre": "Aceto Molto Balsámico 500ml",
     "precio": 129.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/230951-36b6c8d0f87f19955615992495363204-480-0.jpg",
     "url_producto": "productos/aceto-molto-balsamico-500-ml/",
     "historia": [
@@ -65704,7 +65704,7 @@
   {
     "id": "03127",
     "nombre": "Alcohol Etilico Porta 70% Bidon 5lt",
-    "precio": 999.0,
+    "precio": 1.1,
     "rubro": "Productos > Desinfectantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/whatsapp-image-2021-02-23-at-13-45-361-ded82d1bad363ba3ba16141956597804-480-0.jpeg",
     "url_producto": "productos/alcohol-etilico-porta-70-bidon-5-lt/",
@@ -65712,6 +65712,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 999.0
+      },
+      {
+        "fecha": "15/04/2021",
+        "precio": 1.1
       }
     ]
   },
@@ -66517,7 +66521,7 @@
     "id": "03169",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Conservas",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -68013,7 +68017,7 @@
     "id": "03255",
     "nombre": "Crema Dental Colgate Triple Acción 180gr",
     "precio": 337.86,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/49201-a9ac16555da61d17ea15988990071112-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-trip-accion-180-gr/",
     "historia": [
@@ -68035,7 +68039,7 @@
     "id": "03256",
     "nombre": "Crema Dental Colgate Triple Acción Extra Blancura 90gr",
     "precio": 187.06,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/128361-32cf2b8a5126d20fdb15988991304092-480-0.jpg",
     "url_producto": "productos/cr-dent-colgate-t-ac-ex-bco-90-gr/",
     "historia": [
@@ -68731,7 +68735,7 @@
     "id": "03296",
     "nombre": "Enjuague Bucal Colgate Luminous 250ml",
     "precio": 309.9,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/144891-1b9e7233fdb30e8d0315988890856943-480-0.jpg",
     "url_producto": "productos/enj-buc-colgate-luminous-250-ml/",
     "historia": [
@@ -69513,7 +69517,7 @@
     "id": "03339",
     "nombre": "Galletitas Terrabusi Variedad 400gr",
     "precio": 133.55,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209851-0f2bd8eb8fc27fb6db15988923475671-480-0.jpg",
     "url_producto": "productos/gal-terrabusi-variedad-400-gr/",
     "historia": [
@@ -72631,7 +72635,7 @@
     "id": "03508",
     "nombre": "Oblea Nugaton Leche 27gr",
     "precio": 48.5,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1221511-eeaca7ca177da77d9815989996596078-480-0.jpg",
     "url_producto": "productos/oblea-nugaton-leche-27-gr/",
     "historia": [
@@ -73047,7 +73051,7 @@
     "id": "03530",
     "nombre": "Pan De Campo La Panerita 360gr",
     "precio": 120.0,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705210_cgm1-8f978b8782b636012716130803607456-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-360-gr/",
     "historia": [
@@ -73065,7 +73069,7 @@
     "id": "03531",
     "nombre": "Pan De Campo La Panerita Con Semillas 340gr",
     "precio": 130.5,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705583_chm1-9697b42f2bf55399aa16130802662831-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-con-semillas-340-gr/",
     "historia": [
@@ -73079,7 +73083,7 @@
     "id": "03532",
     "nombre": "Pan De Hamburguesa La Panerita x 4un",
     "precio": 67.6,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/311-c0d1a72eb892048d8c16118693644227-480-0.jpg",
     "url_producto": "productos/pan-de-hamburguesa-la-panerita-x-4-unidades/",
     "historia": [
@@ -73171,7 +73175,7 @@
     "id": "03538",
     "nombre": "Pan Lactal La Panerita Blanco 400gr ,",
     "precio": 105.0,
-    "rubro": "Productos > Panificados La Panerita",
+    "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-967720a304d43123a016118693910439-480-0.jpg",
     "url_producto": "productos/pan-lactal-la-panerita-blanco-400-gr/",
     "historia": [
@@ -73938,14 +73942,18 @@
   {
     "id": "03582",
     "nombre": "Premezcla Arcor Ñoquis De Papa S/t.a.c.c. 400gr",
-    "precio": 173.15,
-    "rubro": "Productos > Harinas, Grasas y Premezclas",
+    "precio": 190.0,
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/premezcla-arcor-noquis-de-papa-sin-t-a-c-c-400-gr1-87fc5294074f41822816099543440731-480-0.jpg",
     "url_producto": "productos/premezcla-arcor-noquis-de-papa-s-t-a-c-c-400-gr/",
     "historia": [
       {
         "fecha": "04/03/2021",
         "precio": 173.15
+      },
+      {
+        "fecha": "15/04/2021",
+        "precio": 190.0
       }
     ]
   },
@@ -74165,7 +74173,7 @@
     "id": "03595",
     "nombre": "Queso Finlandia Light Pote 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219111-c7878942be3f3b7c6515988937797593-480-0.jpg",
     "url_producto": "productos/queso-finlandia-light-pote-300-gr/",
     "historia": [
@@ -75715,7 +75723,7 @@
     "id": "03688",
     "nombre": "Tostada Riera Arroz Sin T 150gr",
     "precio": 96.0,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2545711-0ad717d3c157a5e2eb15990904923486-480-0.jpg",
     "url_producto": "productos/tostada-riera-arroz-sin-t-150-gr/",
     "historia": [
@@ -85640,7 +85648,7 @@
   {
     "id": "04371",
     "nombre": "Manteca La Serenísima Calidad Extra Paquete 100gr",
-    "precio": 82.4,
+    "precio": 96.9,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls521-6aaa4daeff5a49bdd916010398014133-480-0.jpg",
     "url_producto": "productos/manteca-la-serenisima-calidad-extra-paquete-100-gr/",
@@ -85648,6 +85656,10 @@
       {
         "fecha": "25/03/2021",
         "precio": 82.4
+      },
+      {
+        "fecha": "15/04/2021",
+        "precio": 96.9
       }
     ]
   },
@@ -87159,7 +87171,7 @@
     "id": "04474",
     "nombre": "Galletitas Pepitos 119gr",
     "precio": 94.22,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/75471-947736715d10244e2615988919945740-480-0.jpg",
     "url_producto": "productos/galletitas-pepitos-119-gr/",
     "historia": [
@@ -87729,6 +87741,48 @@
     "historia": [
       {
         "fecha": "14/04/2021",
+        "precio": 205.0
+      }
+    ]
+  },
+  {
+    "id": "04515",
+    "nombre": "Jamón Crudo Paladini Feteado x 300gr (*)",
+    "precio": 891.55,
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/jamon-crudo-paladini1-d7f37a9a10d79580d015995209955970-480-0.jpg",
+    "url_producto": "productos/jamon-crudo-paladini-feteado-x-300-grs/",
+    "historia": [
+      {
+        "fecha": "15/04/2021",
+        "precio": 891.55
+      }
+    ]
+  },
+  {
+    "id": "04516",
+    "nombre": "Tofu Bambu Proteina De Soja 330gr",
+    "precio": 205.0,
+    "rubro": "Productos > Saludable & Fit",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tofu-bambu-330-grs_93120641-1aa22d4307795aaad016184019205526-480-0.jpg",
+    "url_producto": "productos/tofu-bambu-proteina-de-soja-330-gr/",
+    "historia": [
+      {
+        "fecha": "15/04/2021",
+        "precio": 205.0
+      }
+    ]
+  },
+  {
+    "id": "04517",
+    "nombre": "Tofu Bambu Proteina De Soja 330gr",
+    "precio": 205.0,
+    "rubro": "Productos > Bajas Calorías",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tofu-bambu-330-grs_931206411-1aa22d4307795aaad016184119980297-480-0.jpg",
+    "url_producto": "productos/tofu-bambu-proteina-de-soja-330-gr1/",
+    "historia": [
+      {
+        "fecha": "15/04/2021",
         "precio": 205.0
       }
     ]
