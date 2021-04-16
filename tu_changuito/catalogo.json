@@ -65203,7 +65203,7 @@
     "id": "03098",
     "nombre": "Aceto Marolio Balsámico 250ml",
     "precio": 90.87,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc234231-559b6307ede3bf815016013991684584-480-0.png",
     "url_producto": "productos/aceto-marolio-balsamico-250-ml/",
     "historia": [
@@ -65243,7 +65243,7 @@
     "id": "03100",
     "nombre": "Aceto Molto Balsámico 500ml",
     "precio": 129.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/230951-36b6c8d0f87f19955615992495363204-480-0.jpg",
     "url_producto": "productos/aceto-molto-balsamico-500-ml/",
     "historia": [
@@ -65704,7 +65704,7 @@
   {
     "id": "03127",
     "nombre": "Alcohol Etilico Porta 70% Bidon 5lt",
-    "precio": 1.1,
+    "precio": 1.25,
     "rubro": "Productos > Desinfectantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/whatsapp-image-2021-02-23-at-13-45-361-ded82d1bad363ba3ba16141956597804-480-0.jpeg",
     "url_producto": "productos/alcohol-etilico-porta-70-bidon-5-lt/",
@@ -65716,6 +65716,10 @@
       {
         "fecha": "15/04/2021",
         "precio": 1.1
+      },
+      {
+        "fecha": "16/04/2021",
+        "precio": 1.25
       }
     ]
   },
@@ -66413,7 +66417,7 @@
     "id": "03163",
     "nombre": "Arroz Gallo Oro 500gr",
     "precio": 88.28,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
     "historia": [
@@ -66521,7 +66525,7 @@
     "id": "03169",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
     "precio": 199.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
     "historia": [
@@ -69517,7 +69521,7 @@
     "id": "03339",
     "nombre": "Galletitas Terrabusi Variedad 400gr",
     "precio": 133.55,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209851-0f2bd8eb8fc27fb6db15988923475671-480-0.jpg",
     "url_producto": "productos/gal-terrabusi-variedad-400-gr/",
     "historia": [
@@ -69602,7 +69606,7 @@
   {
     "id": "03344",
     "nombre": "Gaseosa Crush Manzana 3lt",
-    "precio": 95.0,
+    "precio": 99.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/gaseosa-crush-manzana-3-lt1-e8d1f89ba956954ba716057954774967-480-0.jpg",
     "url_producto": "productos/gaseosa-crush-manzana-3-lt/",
@@ -69614,13 +69618,17 @@
       {
         "fecha": "19/03/2021",
         "precio": 95.0
+      },
+      {
+        "fecha": "16/04/2021",
+        "precio": 99.0
       }
     ]
   },
   {
     "id": "03345",
     "nombre": "Gaseosa Crush Naranja 3lt",
-    "precio": 95.0,
+    "precio": 99.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/gaseosa-crush-naranja-3l1-ef67dd9193f3622ff216039944058352-480-0.jpg",
     "url_producto": "productos/gaseosa-crush-naranja-3l/",
@@ -69632,6 +69640,10 @@
       {
         "fecha": "10/04/2021",
         "precio": 95.0
+      },
+      {
+        "fecha": "16/04/2021",
+        "precio": 99.0
       }
     ]
   },
@@ -69728,7 +69740,7 @@
   {
     "id": "03351",
     "nombre": "Gaseosa Sprite 1,5lt",
-    "precio": 105.0,
+    "precio": 125.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/gaseosa-sprite-botella-1-5-l1-9fcd87ca20d06a3a4c16073692162653-480-0.jpg",
     "url_producto": "productos/gaseosa-sprite-15-lt/",
@@ -69736,6 +69748,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 105.0
+      },
+      {
+        "fecha": "16/04/2021",
+        "precio": 125.0
       }
     ]
   },
@@ -69960,7 +69976,7 @@
   {
     "id": "03365",
     "nombre": "Hamburguesa Swift Carne 12un",
-    "precio": 829.9,
+    "precio": 835.9,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/233571-c7f77e34a978f50b1815992498931526-480-0.jpg",
     "url_producto": "productos/hamburguesa-swift-carne-12-un/",
@@ -69976,6 +69992,10 @@
       {
         "fecha": "27/03/2021",
         "precio": 829.9
+      },
+      {
+        "fecha": "16/04/2021",
+        "precio": 835.9
       }
     ]
   },
@@ -71343,7 +71363,7 @@
     "id": "03436",
     "nombre": "Leche Nestlé Condensada 395gr",
     "precio": 155.9,
-    "rubro": "Productos > Leches en Polvo y Larga Vida",
+    "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244231-54a748fdedbcc1f7da15990693513669-480-0.jpg",
     "url_producto": "productos/leche-nestle-condensada-395-gr/",
     "historia": [
@@ -71773,7 +71793,7 @@
     "id": "03461",
     "nombre": "Mantequilla De Mani C/dulce De Leche 500gr",
     "precio": 325.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mantequilla-de-mani-con-dulce-de-leche-500-gr1-9ee9db0f0eec43651816116010205978-480-0.jpg",
     "url_producto": "productos/mantequilla-de-mani-c-dulce-de-leche-500-gr/",
     "historia": [
@@ -72193,7 +72213,7 @@
     "id": "03483",
     "nombre": "Medallones De Quinoa Bambu Con Batata Roja y Curry 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/31-0d95a2d750cf46156016135887047402-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-batata-roja-y-curry-360-gr/",
     "historia": [
@@ -72211,7 +72231,7 @@
     "id": "03484",
     "nombre": "Medallones De Quinoa Bambu Con Brocoli 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-28t133000-7341-9246fe4e03dc07a08d16118514633734-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-brocoli-360-gr/",
     "historia": [
@@ -72229,7 +72249,7 @@
     "id": "03485",
     "nombre": "Medallones De Quinoa Bambu Con Cebolla Caramelizada 360gr",
     "precio": 195.0,
-    "rubro": "Productos > Bajas Calorías",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41-0ac7d05aa033abaf7416135887401078-480-0.jpg",
     "url_producto": "productos/medallones-de-quinoa-bambu-con-cebolla-caramelizada-360-gr/",
     "historia": [
@@ -72559,7 +72579,7 @@
     "id": "03504",
     "nombre": "Mostaza Savora 250gr",
     "precio": 85.9,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/115651-091ba485b56ce6138915989074478331-480-0.jpg",
     "url_producto": "productos/mostaza-savora-250-grs/",
     "historia": [
@@ -72635,7 +72655,7 @@
     "id": "03508",
     "nombre": "Oblea Nugaton Leche 27gr",
     "precio": 48.5,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1221511-eeaca7ca177da77d9815989996596078-480-0.jpg",
     "url_producto": "productos/oblea-nugaton-leche-27-gr/",
     "historia": [
@@ -73679,7 +73699,7 @@
     "id": "03566",
     "nombre": "Patitas Granja De Sol Pollo 400gr",
     "precio": 349.69,
-    "rubro": "Productos > Congelados de Pollo",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/872111-7b53014f1eef98441a15990035503427-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-pollo-400-gr/",
     "historia": [
@@ -73697,7 +73717,7 @@
     "id": "03567",
     "nombre": "Patitas Granja De Sol Queso Jamón 400gr",
     "precio": 306.0,
-    "rubro": "Productos > Congelados de Pollo",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830711-dba545bed7ed42864715990035883853-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-que-jam-400-gr/",
     "historia": [
@@ -75723,7 +75743,7 @@
     "id": "03688",
     "nombre": "Tostada Riera Arroz Sin T 150gr",
     "precio": 96.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2545711-0ad717d3c157a5e2eb15990904923486-480-0.jpg",
     "url_producto": "productos/tostada-riera-arroz-sin-t-150-gr/",
     "historia": [
@@ -75826,7 +75846,7 @@
   {
     "id": "03694",
     "nombre": "Vinagre Marolio Blanco Pvc 1lt",
-    "precio": 75.3,
+    "precio": 95.0,
     "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/48311-a7bb180ea9b89df8ec15992514423747-480-0.jpg",
     "url_producto": "productos/vinagre-marolio-blanco-pvc-1-lt/",
@@ -75834,13 +75854,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 75.3
+      },
+      {
+        "fecha": "16/04/2021",
+        "precio": 95.0
       }
     ]
   },
   {
     "id": "03695",
     "nombre": "Vinagre Marolio Vino 500cc",
-    "precio": 57.07,
+    "precio": 70.06,
     "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/48431-b8e267997c40b2be6115992489487199-480-0.jpg",
     "url_producto": "productos/vinagre-marolio-vino-500-cc/",
@@ -75852,6 +75876,10 @@
       {
         "fecha": "28/03/2021",
         "precio": 57.07
+      },
+      {
+        "fecha": "16/04/2021",
+        "precio": 70.06
       }
     ]
   },
@@ -84921,7 +84949,7 @@
     "id": "04323",
     "nombre": "Suprema Granja De Sol Pollo 360gr",
     "precio": 370.7,
-    "rubro": "Productos > Congelados de Pollo",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830811-607b67364edc558d3415990038309902-480-0.jpg",
     "url_producto": "productos/suprema-granja-de-sol-pollo-360-gr/",
     "historia": [
@@ -86246,7 +86274,7 @@
   {
     "id": "04410",
     "nombre": "Vinagre Marolio De Alcohol 500cc",
-    "precio": 50.9,
+    "precio": 65.0,
     "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/48301-9ce6838aba11903b8515992485669577-480-0.jpg",
     "url_producto": "productos/vinagre-marolio-de-alcohol-500-cc/",
@@ -86254,6 +86282,10 @@
       {
         "fecha": "30/03/2021",
         "precio": 50.9
+      },
+      {
+        "fecha": "16/04/2021",
+        "precio": 65.0
       }
     ]
   },
@@ -86594,7 +86626,7 @@
   {
     "id": "04434",
     "nombre": "Gaseosa Crush Pomelo 3 Lts",
-    "precio": 79.0,
+    "precio": 99.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3080427_f1-dd426411cdebd2ed7c16032991921988-480-0.jpg",
     "url_producto": "productos/gaseosa-crush-pomelo-3-lts/",
@@ -86602,6 +86634,10 @@
       {
         "fecha": "04/04/2021",
         "precio": 79.0
+      },
+      {
+        "fecha": "16/04/2021",
+        "precio": 99.0
       }
     ]
   },
@@ -87171,7 +87207,7 @@
     "id": "04474",
     "nombre": "Galletitas Pepitos 119gr",
     "precio": 94.22,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/75471-947736715d10244e2615988919945740-480-0.jpg",
     "url_producto": "productos/galletitas-pepitos-119-gr/",
     "historia": [
@@ -87678,7 +87714,7 @@
   {
     "id": "04510",
     "nombre": "Gaseosa Crush Lima Limón 3lt",
-    "precio": 95.0,
+    "precio": 99.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crush-lima-limon-3lt-600x6001-fa5f81e81fd2e549b616032993374146-480-0.jpg",
     "url_producto": "productos/gaseosa-crush-lima-limon-3l/",
@@ -87686,6 +87722,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 95.0
+      },
+      {
+        "fecha": "16/04/2021",
+        "precio": 99.0
       }
     ]
   },
@@ -87784,6 +87824,48 @@
       {
         "fecha": "15/04/2021",
         "precio": 205.0
+      }
+    ]
+  },
+  {
+    "id": "04518",
+    "nombre": "Gaseosa Seven Up 3lt",
+    "precio": 177.59,
+    "rubro": "Productos > Gaseosas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244301-fdb3a4821d1271d74916010453332130-480-0.jpg",
+    "url_producto": "productos/gaseosa-seven-up-3-lt/",
+    "historia": [
+      {
+        "fecha": "16/04/2021",
+        "precio": 177.59
+      }
+    ]
+  },
+  {
+    "id": "04519",
+    "nombre": "Insecticida Raid Mata Moscas y Mosquitos Bonus 420cc",
+    "precio": 215.0,
+    "rubro": "Productos > Insecticidas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/whatsapp-image-2021-04-15-at-10-02-461-886e323db11c8e5a4316184942508499-480-0.jpeg",
+    "url_producto": "productos/insecticida-raid-mata-moscas-y-mosquitos-bonus-420-cc/",
+    "historia": [
+      {
+        "fecha": "16/04/2021",
+        "precio": 215.0
+      }
+    ]
+  },
+  {
+    "id": "04520",
+    "nombre": "Pan De Campo La Panerita Mix Cereal 340gr",
+    "precio": 130.5,
+    "rubro": "Productos > Panadería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/pan-de-campo-la-panerita-mix-cereal-340-gr/",
+    "historia": [
+      {
+        "fecha": "16/04/2021",
+        "precio": 130.5
       }
     ]
   }
