@@ -290,4 +290,3 @@ if __FILE__ == $0
 		Catalogo.generar_sitio :tatito
 	end
 end
-
