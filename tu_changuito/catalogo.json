@@ -65403,7 +65403,7 @@
     "id": "03108",
     "nombre": "Agua Glaciar Sin Gas 2lt",
     "precio": 99.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc24241-65917abfdcc656c1b616010430756981-480-0.jpg",
     "url_producto": "productos/agua-glaciar-sin-gas-2-lt/",
     "historia": [
@@ -65573,7 +65573,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65729,7 +65729,7 @@
     "id": "03127",
     "nombre": "Alcohol Etilico Porta 70% Bidon 5lt",
     "precio": 1.25,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Desinfectantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/whatsapp-image-2021-02-23-at-13-45-361-ded82d1bad363ba3ba16141956597804-480-0.jpeg",
     "url_producto": "productos/alcohol-etilico-porta-70-bidon-5-lt/",
     "historia": [
@@ -65841,7 +65841,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 365.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Frutos Secos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -66454,7 +66454,7 @@
   {
     "id": "03162",
     "nombre": "Arroz Gallo Oro 1kg",
-    "precio": 163.67,
+    "precio": 177.0,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2071-6107be70bb5d9322ab15988781620142-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-estuch-1-kg/",
@@ -66466,6 +66466,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 163.67
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 177.0
       }
     ]
   },
@@ -66598,7 +66602,7 @@
   {
     "id": "03170",
     "nombre": "Atún La Campagnola Aceite 170gr",
-    "precio": 282.98,
+    "precio": 275.0,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2971-a72eaaaa94de931ff515988320272044-480-0.jpg",
     "url_producto": "productos/atun-campagn-ac-170-gr/",
@@ -66610,13 +66614,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 282.98
+      },
+      {
+        "fecha": "25/04/2021",
+        "precio": 275.0
       }
     ]
   },
   {
     "id": "03171",
     "nombre": "Atún La Campagnola Natural 170gr",
-    "precio": 282.98,
+    "precio": 275.0,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2941-58de7f0208bbedfa1215988322147360-480-0.jpg",
     "url_producto": "productos/atun-campagn-nat-170-gr/",
@@ -66628,6 +66636,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 282.98
+      },
+      {
+        "fecha": "25/04/2021",
+        "precio": 275.0
       }
     ]
   },
@@ -69064,7 +69076,7 @@
   {
     "id": "03309",
     "nombre": "Fernet Branca 450cc",
-    "precio": 430.0,
+    "precio": 415.0,
     "rubro": "Productos > Aperitivos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5241-1b4916584f47cfd60815988900156433-480-0.jpg",
     "url_producto": "productos/fernet-branca-450-cc/",
@@ -69080,13 +69092,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 430.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 415.0
       }
     ]
   },
   {
     "id": "03310",
     "nombre": "Fernet Branca 750cc",
-    "precio": 730.0,
+    "precio": 650.0,
     "rubro": "Productos > Aperitivos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5231-c794eacb026384ef9215988900457553-480-0.jpg",
     "url_producto": "productos/fernet-branca-750-cc/",
@@ -69110,6 +69126,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 730.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 650.0
       }
     ]
   },
@@ -71728,7 +71748,7 @@
   {
     "id": "03449",
     "nombre": "Limpiador Liquido Odex Baño Dp 450ml",
-    "precio": 75.0,
+    "precio": 85.0,
     "rubro": "Productos > Limpieza de Baño",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/limpiador-liquido-odex-bano-dp-450-ml1-cd19740e9a886fa18116119467957883-480-0.jpg",
     "url_producto": "productos/limpiador-liquido-odex-bano-dp-450-ml/",
@@ -71740,6 +71760,10 @@
       {
         "fecha": "13/03/2021",
         "precio": 75.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 85.0
       }
     ]
   },
@@ -73203,7 +73227,7 @@
     "id": "03530",
     "nombre": "Pan De Campo La Panerita 360gr",
     "precio": 120.0,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1588705210_cgm1-8f978b8782b636012716130803607456-480-0.jpg",
     "url_producto": "productos/pan-de-campo-la-panerita-360-gr/",
     "historia": [
@@ -77232,7 +77256,7 @@
   {
     "id": "03765",
     "nombre": "Ravioles La Salteña Jamón y Queso 450gr",
-    "precio": 180.71,
+    "precio": 184.0,
     "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ravioles-jamon-y-queso-la-saltena-500-gr-1-355241-4542a160900961f11a16014823572577-480-0.jpg",
     "url_producto": "productos/ravioles-la-saltena-jamon-y-queso-450-gr/",
@@ -77248,6 +77272,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 180.71
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 184.0
       }
     ]
   },
@@ -86208,7 +86236,7 @@
   {
     "id": "04395",
     "nombre": "Bizcochos Gallo Snack De Arroz Dulces 100gr",
-    "precio": 85.5,
+    "precio": 95.3,
     "rubro": "Productos > Snacks",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-681-ea4fd561f6c5722c4e16082344747505-480-0.jpg",
     "url_producto": "productos/bizcochos-gallo-snack-de-arroz-dulces-100-gr/",
@@ -86216,6 +86244,10 @@
       {
         "fecha": "28/03/2021",
         "precio": 85.5
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 95.3
       }
     ]
   },
@@ -86315,7 +86347,7 @@
     "id": "04402",
     "nombre": "Agua Mineral Eco De Los Andes 1,1lt",
     "precio": 69.9,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-eco-de-los-andes-1-5-lt1-42377148c5137b2d8516170256593525-480-0.jpg",
     "url_producto": "productos/agua-mineral-eco-de-los-andes-1-5-lt/",
     "historia": [
@@ -86540,7 +86572,7 @@
   {
     "id": "04417",
     "nombre": "Bizcochos Gallo Snack De Arroz Salados 100gr",
-    "precio": 85.5,
+    "precio": 95.3,
     "rubro": "Productos > Snacks",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-671-7d5a649484c229248d16082342303639-480-0.jpg",
     "url_producto": "productos/bizcochos-gallo-snack-de-arroz-salados-100-gr/",
@@ -86548,6 +86580,10 @@
       {
         "fecha": "01/04/2021",
         "precio": 85.5
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 95.3
       }
     ]
   },
@@ -87258,7 +87294,7 @@
   {
     "id": "04466",
     "nombre": "Pickles Nucete 220gr",
-    "precio": 95.0,
+    "precio": 117.82,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59851-3379286b6c28760a9a15996711787420-480-0.jpg",
     "url_producto": "productos/pickles-nucete-220-grs/",
@@ -87266,6 +87302,10 @@
       {
         "fecha": "09/04/2021",
         "precio": 95.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 117.82
       }
     ]
   },
@@ -88068,7 +88108,7 @@
   {
     "id": "04523",
     "nombre": "Aceite Cocinero Girasol Plus 900ml ,",
-    "precio": 215.0,
+    "precio": 225.0,
     "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-cocinero-plus-girasol-900-cc-aceite-cocinero-plus-girasol-900-cc-1-103591-7528dceaf14701133616122925497462-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-plus-900-ml/",
@@ -88076,6 +88116,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 215.0
+      },
+      {
+        "fecha": "25/04/2021",
+        "precio": 225.0
       }
     ]
   },
@@ -88251,7 +88295,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 206.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -88265,7 +88309,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 201.38,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -88363,7 +88407,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 175.9,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -88992,7 +89036,7 @@
   {
     "id": "04589",
     "nombre": "Arroz Gallo Doble 500gr",
-    "precio": 150.66,
+    "precio": 160.75,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/23111-4acc957dac64be00a915990022023694-480-0.jpg",
     "url_producto": "productos/arr-gallo-doble-500-gr/",
@@ -89000,6 +89044,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 150.66
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 160.75
       }
     ]
   },
@@ -89076,7 +89124,7 @@
   {
     "id": "04595",
     "nombre": "Atún La Campagnola Aceite 300gr",
-    "precio": 493.88,
+    "precio": 410.0,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2961-c3af070ec8cf1f1de115988321672752-480-0.jpg",
     "url_producto": "productos/atun-campagn-ac-300-gr/",
@@ -89084,6 +89132,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 493.88
+      },
+      {
+        "fecha": "25/04/2021",
+        "precio": 410.0
       }
     ]
   },
@@ -89440,7 +89492,7 @@
   {
     "id": "04621",
     "nombre": "Bizcochuelo Exquisita Chocolate 540gr",
-    "precio": 331.37,
+    "precio": 180.0,
     "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/55611-c1da057abb8b9ce36715990026115725-480-0.jpg",
     "url_producto": "productos/bizc-exquisita-chocolate-540-gr/",
@@ -89448,6 +89500,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 331.37
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 180.0
       }
     ]
   },
@@ -90476,7 +90532,7 @@
   {
     "id": "04695",
     "nombre": "Crema De Leche La Serenísima Pasteurizada Tetra Top 330cc",
-    "precio": 188.12,
+    "precio": 165.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8732531-b4bd906c369499835116020051408840-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-pasteurizada-tetra-top-330-cc/",
@@ -90484,13 +90540,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 188.12
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 165.0
       }
     ]
   },
   {
     "id": "04696",
     "nombre": "Crema De Leche La Serenísima Uat Culinaria 20% Tenor Graso Tetra Top 200 Cm3",
-    "precio": 109.0,
+    "precio": 120.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls14161-c1cde548f2025d6edd16010476164530-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-uat-culinaria-20-tenor-graso-tetra-top-200-cm3/",
@@ -90498,13 +90558,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 109.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 120.0
       }
     ]
   },
   {
     "id": "04697",
     "nombre": "Crema De Leche La Serenísima Uat Culinaria 20% Tenor Graso Tetra Top 330 Cm3",
-    "precio": 145.0,
+    "precio": 165.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls14171-d21e5d49939c2b246d16010477103849-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-uat-culinaria-20-tenor-graso-tetra-top-330-cm3/",
@@ -90512,13 +90576,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 145.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 165.0
       }
     ]
   },
   {
     "id": "04698",
     "nombre": "Crema De Leche La Serenisima Uat Liviana 200 Cm3",
-    "precio": 103.3,
+    "precio": 120.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790742141903_011-d41caa5c86b70ad6d816065938202460-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-uat-liviana-200-cm3/",
@@ -90526,6 +90594,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 103.3
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 120.0
       }
     ]
   },
@@ -90588,7 +90660,7 @@
   {
     "id": "04703",
     "nombre": "Detergente Woolite Bebe Dp 900ml",
-    "precio": 215.89,
+    "precio": 271.56,
     "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/detergente-woolite-bebe-dp-900-ml1-f31cf4ecf0ff0ed93516119277059315-480-0.jpg",
     "url_producto": "productos/detergente-woolite-bebe-dp-900-ml/",
@@ -90596,13 +90668,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 215.89
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 271.56
       }
     ]
   },
   {
     "id": "04704",
     "nombre": "Detergente Woolite Bebe Handwash 450ml",
-    "precio": 133.0,
+    "precio": 145.9,
     "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/detergente-woolite-bebe-handwash-450-ml1-fce5c5d6667a750ab816119268494556-480-0.jpg",
     "url_producto": "productos/detergente-woolite-bebe-handwash-450-ml/",
@@ -90610,6 +90686,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 133.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 145.9
       }
     ]
   },
@@ -90994,7 +91074,7 @@
   {
     "id": "04732",
     "nombre": "Galletitas Gallo Snack De Arroz Sabor Pizza 100gr",
-    "precio": 108.0,
+    "precio": 125.0,
     "rubro": "Productos > Snacks",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/galletitas-gallo-snack-de-arroz-sabor-pizza-100-gr1-ebf273d1b1b539e94716082335588317-480-0.jpeg",
     "url_producto": "productos/galletitas-gallo-snack-de-arroz-sabor-pizza-100-gr/",
@@ -91002,13 +91082,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 108.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 125.0
       }
     ]
   },
   {
     "id": "04733",
     "nombre": "Galletitas Gallo Snack De Arroz Sabor Queso 100gr",
-    "precio": 108.0,
+    "precio": 125.0,
     "rubro": "Productos > Snacks",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/galletitas-gallo-snack-de-arroz-sabor-queso-100-gr1-986dab4b43b429042116082339053444-480-0.jpg",
     "url_producto": "productos/galletitas-gallo-snack-de-arroz-sabor-queso-100-gr/",
@@ -91016,6 +91100,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 108.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 125.0
       }
     ]
   },
@@ -91891,7 +91979,7 @@
     "id": "04796",
     "nombre": "Pan De Campo La Panerita Mix Cereal 340gr",
     "precio": 130.5,
-    "rubro": "Productos > Panadería",
+    "rubro": "Productos > Panificados La Panerita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/whatsapp-image-2021-04-16-at-14-15-361-1b70266fa80644605216185934797406-480-0.jpeg",
     "url_producto": "productos/pan-de-campo-la-panerita-mix-cereal-340-gr/",
     "historia": [
@@ -91988,7 +92076,7 @@
   {
     "id": "04803",
     "nombre": "Papel Higienico Felpita Hoja Simple 4x30mts",
-    "precio": 75.5,
+    "precio": 95.9,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77918280000461-29e3d1bd6370807eeb15991393822536-640-01-1781212957271f01a016189481961938-480-0.png",
     "url_producto": "productos/papel-higienico-felpita-hoja-simple-4x30mts/",
@@ -91996,6 +92084,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 75.5
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 95.9
       }
     ]
   },
@@ -92100,7 +92192,7 @@
   {
     "id": "04811",
     "nombre": "Ravioles La Salteña 4 Quesos 450gr",
-    "precio": 180.71,
+    "precio": 184.0,
     "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/221391-0aa8a232288e222e1015988941298247-480-0.jpg",
     "url_producto": "productos/ravioles-la-saltena-4-quesos-450gr/",
@@ -92108,13 +92200,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 180.71
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 184.0
       }
     ]
   },
   {
     "id": "04812",
     "nombre": "Ravioles La Salteña Pollo y Verduras 450gr",
-    "precio": 180.71,
+    "precio": 184.0,
     "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ravioles-la-saltena-pollo-y-verduras-500-gr1-2de7d902828cfb457216052147139703-480-0.jpg",
     "url_producto": "productos/ravioles-la-saltena-pollo-y-verduras-450-gr/",
@@ -92122,6 +92218,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 180.71
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 184.0
       }
     ]
   },
@@ -92248,6 +92348,174 @@
       {
         "fecha": "23/04/2021",
         "precio": 376.86
+      }
+    ]
+  },
+  {
+    "id": "04822",
+    "nombre": "Agua Micelar Garnier Skin Active 400ml",
+    "precio": 620.0,
+    "rubro": "Productos > Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7509552455557-11-1d1bd83eb3de5ae6a016192058912721-480-0.png",
+    "url_producto": "productos/agua-micelar-garnier-skin-active-400ml/",
+    "historia": [
+      {
+        "fecha": "24/04/2021",
+        "precio": 620.0
+      }
+    ]
+  },
+  {
+    "id": "04823",
+    "nombre": "Alcohol Aktiol En Aerosol 143ml",
+    "precio": 200.0,
+    "rubro": "Productos > Limpieza en General",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77919050236231-a6e5d400555f35e6f516192062297842-480-0.jpg",
+    "url_producto": "productos/alcohol-aktiol-en-aerosol-143ml/",
+    "historia": [
+      {
+        "fecha": "24/04/2021",
+        "precio": 200.0
+      }
+    ]
+  },
+  {
+    "id": "04824",
+    "nombre": "Alcohol En Gel Espadol 150ml",
+    "precio": 230.0,
+    "rubro": "Productos > Limpieza en General",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77983391902041-b93294cca975b13c1f16192061374355-480-0.jpg",
+    "url_producto": "productos/alcohol-en-gel-espadol-150ml/",
+    "historia": [
+      {
+        "fecha": "24/04/2021",
+        "precio": 230.0
+      }
+    ]
+  },
+  {
+    "id": "04825",
+    "nombre": "Antitranspirante Fem. Rexona Active Emotion Roll On. 50ml",
+    "precio": 155.0,
+    "rubro": "Productos > Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/789265231-96aea8bd1f402f57b216191862401770-480-0.jpg",
+    "url_producto": "productos/antitranspirante-fem-rexona-active-emotion-roll-on-50-ml/",
+    "historia": [
+      {
+        "fecha": "24/04/2021",
+        "precio": 155.0
+      }
+    ]
+  },
+  {
+    "id": "04826",
+    "nombre": "Crema Dental Colgate Kids 75gr",
+    "precio": 199.0,
+    "rubro": "Productos > Cuidado Bucal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crema-dental-colgate-kids-75-gr1-f1d11b16adc9331e1d16033928052918-480-0.jpg",
+    "url_producto": "productos/crema-dental-colgate-kids-75-gr/",
+    "historia": [
+      {
+        "fecha": "24/04/2021",
+        "precio": 199.0
+      }
+    ]
+  },
+  {
+    "id": "04827",
+    "nombre": "Dulce Esnaola Batata Con Vainilla 5kg",
+    "precio": 739.15,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/239791-befc30cec91fb0812d15997507046757-480-0.jpg",
+    "url_producto": "productos/dul-esnaola-bat-vain-5-kg/",
+    "historia": [
+      {
+        "fecha": "24/04/2021",
+        "precio": 739.15
+      }
+    ]
+  },
+  {
+    "id": "04828",
+    "nombre": "Jugo Arcor S/t.a.c.c. Multifruta 200ml",
+    "precio": 26.0,
+    "rubro": "Productos > Jugos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/jugo-arcor-s-t-a-c-c-multifruta-200-ml/",
+    "historia": [
+      {
+        "fecha": "24/04/2021",
+        "precio": 26.0
+      }
+    ]
+  },
+  {
+    "id": "04829",
+    "nombre": "Limpiador Harpic Gel Power Plus Quita Sarro 500ml",
+    "precio": 215.0,
+    "rubro": "Productos > Limpieza de Baño",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77911306813911-0fbfa0f13f6581ac9616191849106586-480-0.jpg",
+    "url_producto": "productos/limpiador-harpic-gel-power-plus-quita-sarro-500-ml/",
+    "historia": [
+      {
+        "fecha": "24/04/2021",
+        "precio": 215.0
+      }
+    ]
+  },
+  {
+    "id": "04830",
+    "nombre": "Salsa Arcor Pomarola 340gr",
+    "precio": 65.09,
+    "rubro": "Productos > Salsas y Puré de Tomates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tc000291-fc98cab954e4d12b5616013961996669-480-0.jpg",
+    "url_producto": "productos/salsa-arcor-pomarola-340-gr/",
+    "historia": [
+      {
+        "fecha": "24/04/2021",
+        "precio": 65.09
+      }
+    ]
+  },
+  {
+    "id": "04831",
+    "nombre": "Aceite Natura Aerosol Oliva 120cc",
+    "precio": 225.0,
+    "rubro": "Productos > Almacén",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2226811-b95a4d51d255e5b71015988859030275-480-0.jpg",
+    "url_producto": "productos/ac-natura-aero-oliva-120-cc/",
+    "historia": [
+      {
+        "fecha": "25/04/2021",
+        "precio": 225.0
+      }
+    ]
+  },
+  {
+    "id": "04832",
+    "nombre": "Alimento De Animales Dogui Carn.veg 1,200gr",
+    "precio": 299.9,
+    "rubro": "Productos > Mascotas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3911-9ca9d4bfc8072299e415988180083868-480-0.jpg",
+    "url_producto": "productos/alimento-de-animales-dogui-carn-veg-1200-gr/",
+    "historia": [
+      {
+        "fecha": "25/04/2021",
+        "precio": 299.9
+      }
+    ]
+  },
+  {
+    "id": "04833",
+    "nombre": "Toallitas Desinfectantes Ayudin Limon Dp 35un",
+    "precio": 250.0,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/toallitas-desinfectantes-ayudin-limon-dp-35-un/",
+    "historia": [
+      {
+        "fecha": "25/04/2021",
+        "precio": 250.0
       }
     ]
   }

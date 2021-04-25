@@ -8967,11 +8967,11 @@
   {
     "id": "00301",
     "nombre": "Rollo De Cocina Sol Mayor x 3un",
-    "precio": 58.0,
+    "precio": 60.0,
     "rubro": "Limpieza > Rollos de Cocina",
     "url_imagen": "2020/01/ROLL-COC-SOL-MAYOR-X-3UN.jpg",
     "url_producto": "roll-coc-sol-mayor-x-3un/",
-    "precio_1": "3,49.96",
+    "precio_1": "3,52.04",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -9002,6 +9002,10 @@
       {
         "fecha": "25/02/2021",
         "precio": 58.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 60.0
       }
     ]
   },
@@ -11493,11 +11497,11 @@
   {
     "id": "00386",
     "nombre": "Crema De Leche Santa Maria 200gr",
-    "precio": 95.0,
+    "precio": 102.0,
     "rubro": "Lacteos > Crema de Leche",
     "url_imagen": "2020/01/CREMA-DE-LECHE-SANTA-MARIA-200GR-e1587147275291.jpg",
     "url_producto": "crema-de-leche-santa-maria-200gr/",
-    "precio_1": "3,79.59",
+    "precio_1": "3,85.46",
     "historia": [
       {
         "fecha": "31/07/2020",
@@ -11533,6 +11537,10 @@
       {
         "fecha": "09/03/2021",
         "precio": 95.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 102.0
       }
     ]
   },
@@ -11989,11 +11997,11 @@
   {
     "id": "00404",
     "nombre": "Jabon Dove x 90gr",
-    "precio": 64.5,
+    "precio": 105.0,
     "rubro": "Limpieza > Shampoo",
     "url_imagen": "2020/07/jabon-dove-90.jpg",
     "url_producto": "jabon-dove-x-90-grs/",
-    "precio_1": "3,55.90",
+    "precio_1": "3,90.57",
     "historia": [
       {
         "fecha": "31/07/2020",
@@ -12005,6 +12013,10 @@
       },
       {
         "fecha": "27/11/2020"
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 105.0
       }
     ]
   },
@@ -12991,7 +13003,7 @@
   },
   {
     "id": "00439",
-    "nombre": "Fideos Rivoli Moñito 500gr",
+    "nombre": "Fideos Rivoli Mo?ito 500gr",
     "precio": 74.0,
     "rubro": "Almacén > Fideos",
     "url_imagen": "2020/01/FIDEO-RIVOLI-TALLARIN-NODO-S-IVA.jpg",
@@ -14354,11 +14366,11 @@
   {
     "id": "00496",
     "nombre": "Crema De Leche Santa Maria 360gr",
-    "precio": 165.0,
+    "precio": 174.0,
     "rubro": "Lacteos > Crema de Leche",
     "url_imagen": "2020/01/CREMA-DE-LECHE-SANTA-MARIA-360GR.jpg",
     "url_producto": "crema-de-leche-santa-maria-360gr/",
-    "precio_1": "3,138.96",
+    "precio_1": "3,146.54",
     "historia": [
       {
         "fecha": "21/09/2020",
@@ -14381,6 +14393,10 @@
       {
         "fecha": "01/04/2021",
         "precio": 165.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 174.0
       }
     ]
   },
@@ -14436,11 +14452,11 @@
   {
     "id": "00499",
     "nombre": "Fideos Verizzia Spaguetti",
-    "precio": 45.0,
+    "precio": 39.0,
     "rubro": "Almacén > Fideos",
     "url_imagen": "2020/01/FIDEOS-VERIZZIA-SPAG-S-IVA.jpg",
     "url_producto": "fideos-verizzia-spag-s-iva/",
-    "precio_1": "3,37.78",
+    "precio_1": "3,33.00",
     "historia": [
       {
         "fecha": "21/09/2020",
@@ -14456,17 +14472,21 @@
       {
         "fecha": "03/03/2021",
         "precio": 45.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 39.0
       }
     ]
   },
   {
     "id": "00500",
     "nombre": "Galletas La Providencia Crackers 303gr",
-    "precio": 65.0,
+    "precio": 70.0,
     "rubro": "Almacén > Gall. Dulces y Saladas",
     "url_imagen": "2020/04/GALLETAS-LA-PROVIDENCIA-303.jpg",
     "url_producto": "galletas-la-providencia-crackers-303-gr/",
-    "precio_1": "3,55.90",
+    "precio_1": "3,60.72",
     "historia": [
       {
         "fecha": "21/09/2020",
@@ -14486,6 +14506,10 @@
       {
         "fecha": "25/02/2021",
         "precio": 65.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 70.0
       }
     ]
   },
@@ -17518,12 +17542,11 @@
   {
     "id": "00626",
     "nombre": "Vainilla Mauri 80gr",
-    "precio": 25.0,
+    "precio": 32.0,
     "rubro": "Almacén > Gall. Dulces y Saladas",
     "url_imagen": "2020/01/VAINILLA-MAURI-80GR.jpg",
     "url_producto": "vainilla-mauri-80gr/",
-    "precio_unitario": "$25,00",
-    "precio_1": "3,21.74",
+    "precio_1": "3,27.77",
     "historia": [
       {
         "fecha": "27/10/2020",
@@ -17535,6 +17558,10 @@
       },
       {
         "fecha": "07/01/2021"
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 32.0
       }
     ]
   },
@@ -21522,11 +21549,11 @@
   {
     "id": "00809",
     "nombre": "Pan De Miga Delizioso (blanco Sin Corteza)",
-    "precio": 170.0,
+    "precio": 200.0,
     "rubro": "Panadería > Miga",
     "url_imagen": "2020/01/default.jpg",
     "url_producto": "miga-delizioso-10-fet/",
-    "precio_1": "3,150.00",
+    "precio_1": "3,170.00",
     "historia": [
       {
         "fecha": "07/01/2021",
@@ -21546,6 +21573,10 @@
       {
         "fecha": "01/04/2021",
         "precio": 170.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 200.0
       }
     ]
   },
@@ -21897,7 +21928,7 @@
   },
   {
     "id": "00826",
-    "nombre": "Dulce De Leche Ñulac1kg",
+    "nombre": "Dulce De Leche ?ulac1kg",
     "precio": 236.0,
     "rubro": "Lacteos > Dulce de Leche",
     "url_imagen": "2021/01/dulce-ñulac-1k.jpg",
@@ -22017,15 +22048,19 @@
   {
     "id": "00832",
     "nombre": "Pulverizador Make 750cc",
-    "precio": 129.0,
+    "precio": 161.0,
     "rubro": "Limpieza > Varios",
     "url_imagen": "2021/01/pulverizador-make.jpg",
     "url_producto": "pulverizador-make-750-cc/",
-    "precio_1": "3,111.40",
+    "precio_1": "3,139.10",
     "historia": [
       {
         "fecha": "01/02/2021",
         "precio": 129.0
+      },
+      {
+        "fecha": "24/04/2021",
+        "precio": 161.0
       }
     ]
   },
@@ -22355,7 +22390,7 @@
   },
   {
     "id": "00851",
-    "nombre": "Cif Baño Doypack Verde 500cc",
+    "nombre": "Cif Ba?o Doypack Verde 500cc",
     "precio": 79.0,
     "rubro": "Limpieza > Varios",
     "url_imagen": "2020/01/CIF-BANO-DPACK-VERD-500CC.jpg",
@@ -22824,7 +22859,7 @@
   },
   {
     "id": "00878",
-    "nombre": "Fideos Que Rico Moño Color 500gr",
+    "nombre": "Fideos Que Rico Mo?o Color 500gr",
     "precio": 74.5,
     "rubro": "Almacén > Fideos",
     "url_imagen": "2021/03/fideos-querico-moño-color-500gr.jpg",
@@ -23479,6 +23514,36 @@
       {
         "fecha": "23/04/2021",
         "precio": 3.428
+      }
+    ]
+  },
+  {
+    "id": "00919",
+    "nombre": "Cafe La Virginia Equil x 250gr",
+    "precio": 186.0,
+    "rubro": "Almacén > Café",
+    "url_imagen": "2020/01/CAFE-LA-VIRG-EQUIL-X-250GR.jpg",
+    "url_producto": "cafe-la-virg-equil-x-250gr/",
+    "precio_1": "3,161.45",
+    "historia": [
+      {
+        "fecha": "24/04/2021",
+        "precio": 186.0
+      }
+    ]
+  },
+  {
+    "id": "00920",
+    "nombre": "Cafe La Virginia Equil x 500gr",
+    "precio": 372.0,
+    "rubro": "Almacén > Café",
+    "url_imagen": "2020/01/CAFE-LA-VIRG-EQUIL-X-500GR.jpg",
+    "url_producto": "cafe-la-virg-equil-x-500gr/",
+    "precio_1": "3,322.64",
+    "historia": [
+      {
+        "fecha": "24/04/2021",
+        "precio": 372.0
       }
     ]
   }
