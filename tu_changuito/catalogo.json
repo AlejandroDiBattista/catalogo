@@ -65573,7 +65573,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -66578,7 +66578,7 @@
   {
     "id": "03168",
     "nombre": "Atún Gomes Da Costa Aceite Desmenuzado 170gr",
-    "precio": 199.0,
+    "precio": 215.0,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/239071-a74ef0e2348184395b16006148914465-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-ac-desm-170-gr/",
@@ -66586,6 +66586,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 199.0
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 215.0
       }
     ]
   },
@@ -66654,7 +66658,7 @@
   {
     "id": "03172",
     "nombre": "Atún La Campagnola Natural 300gr",
-    "precio": 493.88,
+    "precio": 410.0,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2891-990dcc78d8301dc16215988871111638-480-0.jpg",
     "url_producto": "productos/atun-campagn-nat-300-gr/",
@@ -66666,6 +66670,10 @@
       {
         "fecha": "06/04/2021",
         "precio": 493.88
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 410.0
       }
     ]
   },
@@ -66889,7 +66897,7 @@
     "id": "03185",
     "nombre": "Bife Angosto x kg",
     "precio": 910.0,
-    "rubro": "Productos > Carnes de Novillo",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
     "historia": [
@@ -74252,7 +74260,7 @@
   {
     "id": "03587",
     "nombre": "Puré Conciencia 520gr",
-    "precio": 58.09,
+    "precio": 59.0,
     "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/243671-e50cfe028aebb5e04615990692894047-480-0.jpg",
     "url_producto": "productos/pure-conciencia-t-b-520-gr/",
@@ -74260,6 +74268,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 58.09
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 59.0
       }
     ]
   },
@@ -74360,7 +74372,7 @@
   {
     "id": "03593",
     "nombre": "Queso Cremoso Ñulac x 1kg Aprox",
-    "precio": 420.0,
+    "precio": 481.0,
     "rubro": "Productos > Lácteos Ñulac",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/whatsapp-image-2020-10-22-at-21-30-23-11-75db87c93042e5444116034622006714-480-0.jpeg",
     "url_producto": "productos/queso-cremoso-nulac-x-1-kg-aprox/",
@@ -74372,6 +74384,10 @@
       {
         "fecha": "25/03/2021",
         "precio": 420.0
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 481.0
       }
     ]
   },
@@ -74544,7 +74560,7 @@
   {
     "id": "03603",
     "nombre": "Queso Muzzarela Ñulac x 1kg Peso Aprox",
-    "precio": 430.0,
+    "precio": 455.0,
     "rubro": "Productos > Lácteos Ñulac",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-71-1a449861a198a5ecb616034618718370-480-0.jpg",
     "url_producto": "productos/queso-muzzarela-nulac-x-1-kg-peso-aprox/",
@@ -74556,6 +74572,10 @@
       {
         "fecha": "25/03/2021",
         "precio": 430.0
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 455.0
       }
     ]
   },
@@ -76688,7 +76708,7 @@
   {
     "id": "03727",
     "nombre": "Energizante Gatorade Manzana 500cc",
-    "precio": 90.76,
+    "precio": 67.9,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/149241-8ac71393737a2eb81315988888342598-480-0.jpg",
     "url_producto": "productos/energiz-gatorade-mzna-pet-500-cc/",
@@ -76704,6 +76724,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 90.76
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 67.9
       }
     ]
   },
@@ -76778,7 +76802,7 @@
   {
     "id": "03732",
     "nombre": "Isotónica Gatorade Cool Blue 1250cc",
-    "precio": 165.3,
+    "precio": 139.0,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244321-9529c2fd145825a27916010471222316-480-0.jpg",
     "url_producto": "productos/isotonica-gatorade-cool-blue-1250-cc/",
@@ -76786,13 +76810,17 @@
       {
         "fecha": "05/03/2021",
         "precio": 165.3
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 139.0
       }
     ]
   },
   {
     "id": "03733",
     "nombre": "Isotónica Gatorade Cool Blue 750cc",
-    "precio": 109.07,
+    "precio": 81.9,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/235351-04da669cb915653c7216010469505362-480-0.jpg",
     "url_producto": "productos/isotonica-gatorade-cool-blue-750-cc/",
@@ -76812,13 +76840,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 109.07
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 81.9
       }
     ]
   },
   {
     "id": "03734",
     "nombre": "Isotónica Gatorade Frutas Tropicales 1250cc",
-    "precio": 165.3,
+    "precio": 139.0,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/235361-3bfceedea5903dcd1f16010470052219-480-0.jpg",
     "url_producto": "productos/isotonica-gatorade-frutas-tropicales-1250-cc/",
@@ -76826,13 +76858,17 @@
       {
         "fecha": "05/03/2021",
         "precio": 165.3
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 139.0
       }
     ]
   },
   {
     "id": "03735",
     "nombre": "Isotónica Gatorade Frutas Tropicales 500cc",
-    "precio": 90.76,
+    "precio": 67.9,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/152811-98eb7afd2fe715f51716010469175551-480-0.jpg",
     "url_producto": "productos/isotonica-gatorade-frutas-tropicales-500-cc/",
@@ -76848,13 +76884,17 @@
       {
         "fecha": "14/04/2021",
         "precio": 90.76
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 67.9
       }
     ]
   },
   {
     "id": "03736",
     "nombre": "Isotónica Gatorade Manzana 1250cc",
-    "precio": 165.3,
+    "precio": 139.0,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/239241-d2553557b574b40f8416010470464509-480-0.jpg",
     "url_producto": "productos/isotonica-gatorade-manzana-1250-cc/",
@@ -76862,13 +76902,17 @@
       {
         "fecha": "05/03/2021",
         "precio": 165.3
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 139.0
       }
     ]
   },
   {
     "id": "03737",
     "nombre": "Isotónica Gatorade Manzana 750cc",
-    "precio": 109.07,
+    "precio": 81.9,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/239911-5c861484653371514a16010470905368-480-0.jpg",
     "url_producto": "productos/isotonica-gatorade-manzana-750-cc/",
@@ -76888,6 +76932,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 109.07
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 81.9
       }
     ]
   },
@@ -85618,7 +85666,7 @@
   {
     "id": "04350",
     "nombre": "Humo Liquido Brasas Norteñas 100cc",
-    "precio": 250.0,
+    "precio": 270.0,
     "rubro": "Productos > Brasas Norteñas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-03-20t110712-4821-a350a15e76dc8e927e16162492643991-480-0.jpg",
     "url_producto": "productos/humo-liquido-brasas-nortenas-100-cc/",
@@ -85626,6 +85674,10 @@
       {
         "fecha": "21/03/2021",
         "precio": 250.0
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 270.0
       }
     ]
   },
@@ -85660,7 +85712,7 @@
   {
     "id": "04353",
     "nombre": "Sal Gourmet Brasas Norteñas Etiqueta Negra 220gr",
-    "precio": 140.0,
+    "precio": 150.0,
     "rubro": "Productos > Brasas Norteñas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-03-20t113313-1201-a9a233cf2919de1eb816162508439504-480-0.jpg",
     "url_producto": "productos/sal-gourmet-brasas-nortenas-etiqueta-negra-220-gr/",
@@ -85668,13 +85720,17 @@
       {
         "fecha": "21/03/2021",
         "precio": 140.0
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 150.0
       }
     ]
   },
   {
     "id": "04354",
     "nombre": "Sal Gourmet Brasas Norteñas Etiqueta Verde 220gr",
-    "precio": 140.0,
+    "precio": 150.0,
     "rubro": "Productos > Brasas Norteñas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-03-20t113635-1941-54d4940bd9fce78e3516162510206201-480-0.jpg",
     "url_producto": "productos/sal-gourmet-brasas-nortenas-etiqueta-verde-220-gr/",
@@ -85682,6 +85738,10 @@
       {
         "fecha": "21/03/2021",
         "precio": 140.0
+      },
+      {
+        "fecha": "01/05/2021",
+        "precio": 150.0
       }
     ]
   },
@@ -87443,7 +87503,7 @@
     "id": "04472",
     "nombre": "Edulcorante Chuker Con Stevia 400ml",
     "precio": 227.38,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/edulcorante-chuker-con-stevia-500-ml1-786b35671be3bb323d16110797078465-480-0.jpg",
     "url_producto": "productos/edulcorante-chuker-con-stevia-400-ml/",
     "historia": [
@@ -88367,7 +88427,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 206.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -88381,7 +88441,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 201.38,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -88479,7 +88539,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 175.9,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -92730,6 +92790,146 @@
       {
         "fecha": "27/04/2021",
         "precio": 250.0
+      }
+    ]
+  },
+  {
+    "id": "04837",
+    "nombre": "Alfajor Block Triple 60gr",
+    "precio": 59.9,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/alfajor-block-triple-60-gr/",
+    "historia": [
+      {
+        "fecha": "01/05/2021",
+        "precio": 59.9
+      }
+    ]
+  },
+  {
+    "id": "04838",
+    "nombre": "Alfajor Bon O Bon Triple 60gr",
+    "precio": 59.9,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/alfajor-bon-o-bon-triple-60-gr/",
+    "historia": [
+      {
+        "fecha": "01/05/2021",
+        "precio": 59.9
+      }
+    ]
+  },
+  {
+    "id": "04839",
+    "nombre": "Alfajor Tatin Triple Blanco 60gr",
+    "precio": 31.9,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/alfajor-tatin-triple-blanco-60-gr/",
+    "historia": [
+      {
+        "fecha": "01/05/2021",
+        "precio": 31.9
+      }
+    ]
+  },
+  {
+    "id": "04840",
+    "nombre": "Alfajor Tatin Triple Negro 60gr",
+    "precio": 31.9,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/alfajor-tatin-triple-negro-60-gr/",
+    "historia": [
+      {
+        "fecha": "01/05/2021",
+        "precio": 31.9
+      }
+    ]
+  },
+  {
+    "id": "04841",
+    "nombre": "Café Dolce Gusto Au Lait 160gr",
+    "precio": 560.0,
+    "rubro": "Productos > Libres de Glúten",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/254781-946c38475780a1991c16001833444073-480-0.jpg",
+    "url_producto": "productos/cafe-dolce-gusto-au-lait-160-gr/",
+    "historia": [
+      {
+        "fecha": "01/05/2021",
+        "precio": 560.0
+      }
+    ]
+  },
+  {
+    "id": "04842",
+    "nombre": "Cafe Dolce Gusto Cortado 100gr",
+    "precio": 560.0,
+    "rubro": "Productos > Libres de Glúten",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7613032396350_011-7fe3edf8e6efe58aea16070854409637-480-0.jpg",
+    "url_producto": "productos/cafe-dolce-gusto-cortado-100-gr/",
+    "historia": [
+      {
+        "fecha": "01/05/2021",
+        "precio": 560.0
+      }
+    ]
+  },
+  {
+    "id": "04843",
+    "nombre": "Dulce De Leche Tonadita Clásico 400gr",
+    "precio": 109.0,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-04-29t140556-0561-c51cbd23c6eff061b816197160326266-480-0.jpg",
+    "url_producto": "productos/dulce-de-leche-tonadita-clasico-400gr/",
+    "historia": [
+      {
+        "fecha": "01/05/2021",
+        "precio": 109.0
+      }
+    ]
+  },
+  {
+    "id": "04844",
+    "nombre": "Gaseosa Mirinda Manzana 2,2 Lts",
+    "precio": 170.0,
+    "rubro": "Productos > Gaseosas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/gaseosa-mirinda-manzana-2-25-lts1-328df2f665de50abfe16037397195615-480-0.jpg",
+    "url_producto": "productos/gaseosa-mirinda-manzana-2-25-lts/",
+    "historia": [
+      {
+        "fecha": "01/05/2021",
+        "precio": 170.0
+      }
+    ]
+  },
+  {
+    "id": "04845",
+    "nombre": "Grasa Porcina Esani Refinada 500gr",
+    "precio": 165.9,
+    "rubro": "Productos > Harinas, Grasas y Premezclas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7798001880211_021-798a8392491723ccd516197975690790-480-0.jpg",
+    "url_producto": "productos/grasa-porcina-esani-refinada-500-gr/",
+    "historia": [
+      {
+        "fecha": "01/05/2021",
+        "precio": 165.9
+      }
+    ]
+  },
+  {
+    "id": "04846",
+    "nombre": "Lomo De Cerdo Paladini Feteado 120gr",
+    "precio": 199.0,
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/217621-adf869f63aa0863a5016025182784508-480-0.jpg",
+    "url_producto": "productos/lomo-de-cerdo-paladini-feteado-120-gr/",
+    "historia": [
+      {
+        "fecha": "01/05/2021",
+        "precio": 199.0
       }
     ]
   }
