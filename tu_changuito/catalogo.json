@@ -64898,7 +64898,7 @@
   {
     "id": "03080",
     "nombre": "Aceite Cocinero Girasol 1,5lt",
-    "precio": 275.0,
+    "precio": 299.0,
     "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-girasol-cocinero-1-5-l1-70562c7e06c6ba7e9b16057061476408-480-0.jpg",
     "url_producto": "productos/ac-cocinero-girasol-1-5-lt/",
@@ -64918,6 +64918,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 275.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 299.0
       }
     ]
   },
@@ -65573,7 +65577,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -66306,7 +66310,7 @@
   {
     "id": "03154",
     "nombre": "Aperitivo Campari 750cc",
-    "precio": 467.86,
+    "precio": 480.87,
     "rubro": "Productos > Aperitivos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5111-bc697f89a18ff9597015988191956842-480-0.jpg",
     "url_producto": "productos/aperit-campari-750-cc/",
@@ -66318,6 +66322,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 467.86
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 480.87
       }
     ]
   },
@@ -66358,7 +66366,7 @@
   {
     "id": "03156",
     "nombre": "Aperitivo Dr. Lemon Limón 473cc",
-    "precio": 98.66,
+    "precio": 98.67,
     "rubro": "Productos > Aperitivos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219471-4e4042f7b04646331215988194588134-480-0.jpg",
     "url_producto": "productos/aperit-dr-lemon-limon-473-cc/",
@@ -66374,6 +66382,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 98.66
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 98.67
       }
     ]
   },
@@ -66458,7 +66470,7 @@
   {
     "id": "03162",
     "nombre": "Arroz Gallo Oro 1kg",
-    "precio": 177.0,
+    "precio": 194.86,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2071-6107be70bb5d9322ab15988781620142-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-estuch-1-kg/",
@@ -66474,6 +66486,10 @@
       {
         "fecha": "24/04/2021",
         "precio": 177.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 194.86
       }
     ]
   },
@@ -66543,7 +66559,7 @@
     "id": "03166",
     "nombre": "Arvejas Green Life Congelada 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550211-a666675e62010c5a7515990911554480-480-0.jpg",
     "url_producto": "productos/arvejas-green-life-congelada-300-gr/",
     "historia": [
@@ -66610,7 +66626,7 @@
   {
     "id": "03170",
     "nombre": "Atún La Campagnola Aceite 170gr",
-    "precio": 275.12,
+    "precio": 311.0,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2971-a72eaaaa94de931ff515988320272044-480-0.jpg",
     "url_producto": "productos/atun-campagn-ac-170-gr/",
@@ -66630,13 +66646,17 @@
       {
         "fecha": "27/04/2021",
         "precio": 275.12
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 311.0
       }
     ]
   },
   {
     "id": "03171",
     "nombre": "Atún La Campagnola Natural 170gr",
-    "precio": 275.0,
+    "precio": 311.0,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2941-58de7f0208bbedfa1215988322147360-480-0.jpg",
     "url_producto": "productos/atun-campagn-nat-170-gr/",
@@ -66652,13 +66672,17 @@
       {
         "fecha": "25/04/2021",
         "precio": 275.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 311.0
       }
     ]
   },
   {
     "id": "03172",
     "nombre": "Atún La Campagnola Natural 300gr",
-    "precio": 410.0,
+    "precio": 471.74,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2891-990dcc78d8301dc16215988871111638-480-0.jpg",
     "url_producto": "productos/atun-campagn-nat-300-gr/",
@@ -66674,6 +66698,10 @@
       {
         "fecha": "01/05/2021",
         "precio": 410.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 471.74
       }
     ]
   },
@@ -66698,7 +66726,7 @@
   {
     "id": "03174",
     "nombre": "Azúcar Chango Organica 1kg",
-    "precio": 171.46,
+    "precio": 181.87,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/240791-d6de2568191d21ca1015990692101572-480-0.jpg",
     "url_producto": "productos/azucar-chango-organica-1-kg/",
@@ -66710,6 +66738,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 171.46
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 181.87
       }
     ]
   },
@@ -66897,7 +66929,7 @@
     "id": "03185",
     "nombre": "Bife Angosto x kg",
     "precio": 910.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
     "historia": [
@@ -66958,7 +66990,7 @@
   {
     "id": "03188",
     "nombre": "Bizcochuelo Exquisita Vainilla 540gr",
-    "precio": 163.31,
+    "precio": 163.67,
     "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/55411-bfd959ec6f9007ea9c15989995347366-480-0.jpg",
     "url_producto": "productos/bizc-exquisita-vainilla-540-grs/",
@@ -66966,6 +66998,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 163.31
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 163.67
       }
     ]
   },
@@ -67274,7 +67310,7 @@
   {
     "id": "03206",
     "nombre": "Capelletis Giacomo Jamón Queso 500gr",
-    "precio": 220.0,
+    "precio": 246.87,
     "rubro": "Productos > Pastas Secas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/302521-b65e0940316a80fa6115988370534551-480-0.jpg",
     "url_producto": "productos/capell-giacomo-jamon-queso-500-gr/",
@@ -67294,6 +67330,10 @@
       {
         "fecha": "25/03/2021",
         "precio": 220.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 246.87
       }
     ]
   },
@@ -67691,7 +67731,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -67726,7 +67766,7 @@
   {
     "id": "03232",
     "nombre": "Chocolate Cofler Air Almendras 55gr",
-    "precio": 120.0,
+    "precio": 135.0,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8f8e1c1230269bccb3f8343d1b5770f01-100a3dc7d8935895b016124678619015-480-0.jpg",
     "url_producto": "productos/chocolate-cofler-air-almendras-55-gr/",
@@ -67742,13 +67782,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 135.0
       }
     ]
   },
   {
     "id": "03233",
     "nombre": "Chocolate Cofler Air Blanco 55gr",
-    "precio": 120.0,
+    "precio": 135.0,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77905801034151-1d7d3651eaf920f05315991089612034-640-01-2e6e709a321abb21d816124674693380-480-0.png",
     "url_producto": "productos/chocolate-cofler-air-blanco-55-gr/",
@@ -67760,13 +67804,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 135.0
       }
     ]
   },
   {
     "id": "03234",
     "nombre": "Chocolate Cofler Air Leche 55gr",
-    "precio": 120.0,
+    "precio": 135.0,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77905800334081-26911517853ea0b43115991088147257-640-01-0f2da637a68728755a16124672955948-480-0.png",
     "url_producto": "productos/chocolate-cofler-air-leche-55-gr/",
@@ -67778,6 +67826,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 135.0
       }
     ]
   },
@@ -68340,7 +68392,7 @@
   {
     "id": "03265",
     "nombre": "Desinfectante Lysoform Aire De Montaña 360cc",
-    "precio": 172.76,
+    "precio": 172.78,
     "rubro": "Productos > Desinfectantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/lysoform1-0d0cf4c5241f88cab516013806768036-480-0.jpg",
     "url_producto": "productos/desinfectante-lysoform-aire-de-montana-360-cc/",
@@ -68352,13 +68404,17 @@
       {
         "fecha": "14/04/2021",
         "precio": 172.76
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 172.78
       }
     ]
   },
   {
     "id": "03266",
     "nombre": "Desinfectante Lysoform Bebé 360cc",
-    "precio": 172.76,
+    "precio": 172.78,
     "rubro": "Productos > Desinfectantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790520014191_011-a1f9f1e232ba87e0f216067749370997-480-0.jpg",
     "url_producto": "productos/desinfectante-lysoform-bebe-360-cc/",
@@ -68370,13 +68426,17 @@
       {
         "fecha": "14/04/2021",
         "precio": 172.76
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 172.78
       }
     ]
   },
   {
     "id": "03267",
     "nombre": "Desinfectante Lysoform Floral 360cc",
-    "precio": 172.76,
+    "precio": 172.78,
     "rubro": "Productos > Desinfectantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/216471-cb87a1fc3fba0cee0f15989755538422-480-0.jpg",
     "url_producto": "productos/desinf-lysoform-flor-frut-360-cc/",
@@ -68388,6 +68448,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 172.76
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 172.78
       }
     ]
   },
@@ -68448,7 +68512,7 @@
   {
     "id": "03271",
     "nombre": "Dulce De Leche Ilolay Familiar 400gr",
-    "precio": 145.6,
+    "precio": 167.7,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5086011-26333af68cfaec4ccb15990877366678-480-0.jpg",
     "url_producto": "productos/d-leche-ilolay-familiar-400-gr/",
@@ -68468,6 +68532,10 @@
       {
         "fecha": "03/04/2021",
         "precio": 145.6
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 167.7
       }
     ]
   },
@@ -70492,7 +70560,7 @@
   {
     "id": "03383",
     "nombre": "Insecticida Raid Doble Acción Moscas y Mosquitos 360cc",
-    "precio": 220.86,
+    "precio": 249.48,
     "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/12301-c8048a294e16bab8aa15988940536995-480-0.jpg",
     "url_producto": "productos/insect-raid-d-a-max-mmm-360-cc/",
@@ -70504,6 +70572,10 @@
       {
         "fecha": "24/03/2021",
         "precio": 220.86
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 249.48
       }
     ]
   },
@@ -71678,7 +71750,7 @@
   {
     "id": "03442",
     "nombre": "Licor Tía María 690ml",
-    "precio": 558.86,
+    "precio": 584.87,
     "rubro": "Productos > Bebidas Blancas y Licores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5071-04a3a9e7a02c91ec8d15988905361030-480-0.jpg",
     "url_producto": "productos/licor-tia-maria-690-ml/",
@@ -71698,6 +71770,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 558.86
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 584.87
       }
     ]
   },
@@ -72538,7 +72614,7 @@
   {
     "id": "03490",
     "nombre": "Mermelada La Campagnola Bc Frutilla 390gr",
-    "precio": 210.0,
+    "precio": 238.0,
     "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7793360812101_011-62a8a685b99a0ebc0e16014750945921-480-0.jpg",
     "url_producto": "productos/mermelada-la-campagnola-bc-frutilla-390-gr/",
@@ -72546,6 +72622,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 210.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 238.0
       }
     ]
   },
@@ -73516,7 +73596,7 @@
   {
     "id": "03545",
     "nombre": "Papas Fritas Lays 380gr",
-    "precio": 337.86,
+    "precio": 357.37,
     "rubro": "Productos > Snacks",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/205781-16722aa876435833f215988854686386-480-0.jpg",
     "url_producto": "productos/papas-fritas-lays-380-gr/",
@@ -73532,6 +73612,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 337.86
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 357.37
       }
     ]
   },
@@ -73682,7 +73766,7 @@
   {
     "id": "03554",
     "nombre": "Papel Higiénico Esencial Blanco 4x30 Mt",
-    "precio": 73.96,
+    "precio": 79.17,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/136891-0203fdef791d885a2f15988868303571-480-0.jpg",
     "url_producto": "productos/pap-hig-esencial-bco-4x30-mt/",
@@ -73698,13 +73782,17 @@
       {
         "fecha": "24/03/2021",
         "precio": 73.96
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 79.17
       }
     ]
   },
   {
     "id": "03555",
     "nombre": "Papel Higiénico Esencial Blanco 6x30 Mt",
-    "precio": 119.47,
+    "precio": 127.26,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/136681-fe24a4dad5ececd83f15988868822849-480-0.jpg",
     "url_producto": "productos/pap-hig-esencial-bco-6x30-mt/",
@@ -73720,6 +73808,10 @@
       {
         "fecha": "24/03/2021",
         "precio": 119.47
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 127.26
       }
     ]
   },
@@ -73888,7 +73980,7 @@
   {
     "id": "03565",
     "nombre": "Patitas Granja De Sol Pack Familiar 1kg",
-    "precio": 830.7,
+    "precio": 908.71,
     "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/158901-4dd797c879a3bc44c415989758374848-480-0.jpg",
     "url_producto": "productos/patitas-granja-de-sol-pack-familiar-1-kg/",
@@ -73900,6 +73992,10 @@
       {
         "fecha": "06/04/2021",
         "precio": 830.7
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 908.71
       }
     ]
   },
@@ -74278,7 +74374,7 @@
   {
     "id": "03588",
     "nombre": "Puré De La Huerta 210gr",
-    "precio": 46.66,
+    "precio": 51.86,
     "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/183261-9122d3a4d55dd775fa15988934147219-480-0.jpg",
     "url_producto": "productos/pure-d-huerta-t-b-210-gr/",
@@ -74294,13 +74390,17 @@
       {
         "fecha": "24/03/2021",
         "precio": 46.66
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 51.86
       }
     ]
   },
   {
     "id": "03589",
     "nombre": "Puré De La Huerta 530gr",
-    "precio": 77.86,
+    "precio": 88.26,
     "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/20981-5c5f679260bc2edbfc15988934309161-480-0.jpg",
     "url_producto": "productos/pure-d-huerta-530-gr/",
@@ -74316,6 +74416,10 @@
       {
         "fecha": "24/03/2021",
         "precio": 77.86
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 88.26
       }
     ]
   },
@@ -77430,7 +77534,7 @@
   {
     "id": "03768",
     "nombre": "Mayonesa Bc La Campagnola 250gr",
-    "precio": 74.5,
+    "precio": 85.0,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-591-ff75ef585bdb079f6916081388526724-480-0.jpg",
     "url_producto": "productos/mayonesa-bc-la-campagnola-250-gr/",
@@ -77438,6 +77542,10 @@
       {
         "fecha": "11/03/2021",
         "precio": 74.5
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 85.0
       }
     ]
   },
@@ -85776,7 +85884,7 @@
   {
     "id": "04357",
     "nombre": "Cacao Toddy 180gr",
-    "precio": 62.76,
+    "precio": 64.87,
     "rubro": "Productos > Infusiones",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/6081-ed291c465b56e5bdd715988350250988-480-0.jpg",
     "url_producto": "productos/cacao-toddy-180-gr/",
@@ -85788,6 +85896,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 62.76
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 64.87
       }
     ]
   },
@@ -86674,7 +86786,7 @@
   {
     "id": "04416",
     "nombre": "Crema De Leche La Serenísima 200gr",
-    "precio": 122.21,
+    "precio": 167.7,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164211-87fdb4f6713999034415990676754429-480-0.jpg",
     "url_producto": "productos/crema-l-serenis-200-gr/",
@@ -86686,6 +86798,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 122.21
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 167.7
       }
     ]
   },
@@ -86904,7 +87020,7 @@
   {
     "id": "04431",
     "nombre": "Dulce De Leche Ilolay Repostero 400gr",
-    "precio": 145.6,
+    "precio": 167.7,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5086111-a270ea337a6a5793e415990877671779-480-0.jpg",
     "url_producto": "productos/d-leche-ilolay-rep-400-gr/",
@@ -86912,6 +87028,10 @@
       {
         "fecha": "04/04/2021",
         "precio": 145.6
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 167.7
       }
     ]
   },
@@ -87447,7 +87567,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 199.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -87670,7 +87790,7 @@
   {
     "id": "04484",
     "nombre": "Mayonesa Bc La Campagnola 500gr",
-    "precio": 109.5,
+    "precio": 124.0,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mayonesa-bc-la-campagnola-500-gr1-70789c74e747a3240d16081385706033-480-0.jpg",
     "url_producto": "productos/mayonesa-bc-la-campagnola-500-gr/",
@@ -87678,6 +87798,10 @@
       {
         "fecha": "11/04/2021",
         "precio": 109.5
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 124.0
       }
     ]
   },
@@ -87782,7 +87906,7 @@
   {
     "id": "04492",
     "nombre": "Chocolate Cofler Air Mixto 100gr",
-    "precio": 182.55,
+    "precio": 205.0,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/chocolate-cofler-air-mixto-100-gr1-1d7e7b2580c0e4482216182633643480-480-0.jpg",
     "url_producto": "productos/chocolate-cofler-air-mixto-100-gr/",
@@ -87790,6 +87914,10 @@
       {
         "fecha": "13/04/2021",
         "precio": 182.55
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 205.0
       }
     ]
   },
@@ -88014,7 +88142,7 @@
   {
     "id": "04508",
     "nombre": "Crema De Leche La Serenísima Larga Vida 200cc",
-    "precio": 141.7,
+    "precio": 167.7,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/243191-5abe4cfcd7c7ec2e5015990692606366-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-larga-vida-200-cc/",
@@ -88022,6 +88150,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 141.7
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 167.7
       }
     ]
   },
@@ -88172,7 +88304,7 @@
   {
     "id": "04519",
     "nombre": "Insecticida Raid Mata Moscas y Mosquitos Bonus 420cc",
-    "precio": 215.0,
+    "precio": 220.86,
     "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/whatsapp-image-2021-04-15-at-10-02-461-886e323db11c8e5a4316184942508499-480-0.jpeg",
     "url_producto": "productos/insecticida-raid-mata-moscas-y-mosquitos-bonus-420-cc/",
@@ -88180,6 +88312,10 @@
       {
         "fecha": "16/04/2021",
         "precio": 215.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 220.86
       }
     ]
   },
@@ -88228,7 +88364,7 @@
   {
     "id": "04523",
     "nombre": "Aceite Cocinero Girasol Plus 900ml ,",
-    "precio": 225.0,
+    "precio": 235.0,
     "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-cocinero-plus-girasol-900-cc-aceite-cocinero-plus-girasol-900-cc-1-103591-7528dceaf14701133616122925497462-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-plus-900-ml/",
@@ -88240,6 +88376,10 @@
       {
         "fecha": "25/04/2021",
         "precio": 225.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 235.0
       }
     ]
   },
@@ -88427,7 +88567,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 206.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -88441,7 +88581,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 201.38,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -88496,7 +88636,7 @@
   {
     "id": "04541",
     "nombre": "Acondicionador Liso Extremo Pantene 400ml",
-    "precio": 329.3,
+    "precio": 350.87,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-pro-v-liso-extremo-pantene-400-ml-1-295471-2c5ccadccd91df618616020047813024-480-0.jpg",
     "url_producto": "productos/acondicionador-liso-extremo-pantene-400-ml/",
@@ -88504,6 +88644,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 329.3
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 350.87
       }
     ]
   },
@@ -88539,7 +88683,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 175.9,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -88916,7 +89060,7 @@
   {
     "id": "04571",
     "nombre": "Algodón Estrella Clásico 75gr",
-    "precio": 63.56,
+    "precio": 70.0,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3631-a6f0d2f9d0093a060515988177662545-480-0.jpg",
     "url_producto": "productos/algodon-estrella-clasico-75-gr/",
@@ -88924,6 +89068,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 63.56
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 70.0
       }
     ]
   },
@@ -89214,7 +89362,7 @@
   {
     "id": "04592",
     "nombre": "Arveja Seca Arcor 300gr",
-    "precio": 59.08,
+    "precio": 65.0,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/arveja-seca-arcor-300-gr1-ce4da6b3fa76d8beec16044990526795-480-0.jpg",
     "url_producto": "productos/arveja-seca-arcor-300-gr/",
@@ -89222,13 +89370,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 59.08
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 65.0
       }
     ]
   },
   {
     "id": "04593",
     "nombre": "Arveja Seca Arcor Vitalidad Sin Sal Agregada 300gr",
-    "precio": 57.31,
+    "precio": 65.0,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tc000121-2ca9ab5edfb86f8b2816008019746166-480-0.jpg",
     "url_producto": "productos/arveja-seca-arcor-vitalidad-sin-sal-agregada-300-gr/",
@@ -89236,13 +89388,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 57.31
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 65.0
       }
     ]
   },
   {
     "id": "04594",
     "nombre": "Arvejas La Campagnola 300gr",
-    "precio": 63.5,
+    "precio": 70.0,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/arvejas-la-campagnola-300-gr1-c4fba9024103b5ba0116099539073934-480-0.jpg",
     "url_producto": "productos/arvejas-la-campagnola-300-gr/",
@@ -89250,13 +89406,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 63.5
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 70.0
       }
     ]
   },
   {
     "id": "04595",
     "nombre": "Atún La Campagnola Aceite 300gr",
-    "precio": 410.0,
+    "precio": 471.74,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2961-c3af070ec8cf1f1de115988321672752-480-0.jpg",
     "url_producto": "productos/atun-campagn-ac-300-gr/",
@@ -89268,6 +89428,10 @@
       {
         "fecha": "25/04/2021",
         "precio": 410.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 471.74
       }
     ]
   },
@@ -89470,7 +89634,7 @@
   {
     "id": "04610",
     "nombre": "Banana x kg",
-    "precio": 208.0,
+    "precio": 230.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/banana1-39d62a544fc16a2b8016025979095295-480-0.jpg",
     "url_producto": "productos/banana-x-kg/",
@@ -89478,6 +89642,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 208.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 230.0
       }
     ]
   },
@@ -89600,7 +89768,7 @@
   {
     "id": "04619",
     "nombre": "Bizcochuelo Arcor S/t.a.c.c. Sabor Chocolate 500gr",
-    "precio": 159.0,
+    "precio": 175.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bizcochuelo-arcor-sin-t-a-c-c-sabor-chocolate-500-gr1-f474d428f0389c930916099544462211-480-0.jpg",
     "url_producto": "productos/bizcochuelo-arcor-s-t-a-c-c-sabor-chocolate-500-gr/",
@@ -89608,6 +89776,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 159.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 175.0
       }
     ]
   },
@@ -89628,7 +89800,7 @@
   {
     "id": "04621",
     "nombre": "Bizcochuelo Exquisita Chocolate 540gr",
-    "precio": 180.0,
+    "precio": 196.17,
     "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/55611-c1da057abb8b9ce36715990026115725-480-0.jpg",
     "url_producto": "productos/bizc-exquisita-chocolate-540-gr/",
@@ -89640,13 +89812,17 @@
       {
         "fecha": "24/04/2021",
         "precio": 180.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 196.17
       }
     ]
   },
   {
     "id": "04622",
     "nombre": "Bizcochuelo Exquisita Limón 540gr",
-    "precio": 163.31,
+    "precio": 163.67,
     "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/50411-8d69f35432191395ae15990026465340-480-0.jpg",
     "url_producto": "productos/bizc-exquisita-limon-540-gr/",
@@ -89654,13 +89830,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 163.31
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 163.67
       }
     ]
   },
   {
     "id": "04623",
     "nombre": "Bizcochuelo Exquisita Naranja 540gr",
-    "precio": 163.31,
+    "precio": 163.67,
     "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/56411-d22be476966faa5c2915990026820665-480-0.jpg",
     "url_producto": "productos/bizc-exquisita-naranja-540-gr/",
@@ -89668,6 +89848,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 163.31
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 163.67
       }
     ]
   },
@@ -89870,7 +90054,7 @@
   {
     "id": "04638",
     "nombre": "Cacao Chocolino Fort Plus 180gr",
-    "precio": 79.17,
+    "precio": 83.07,
     "rubro": "Productos > Infusiones",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/60711-a9f3d41c1ddcc4b3c815989663421712-480-0.jpg",
     "url_producto": "productos/cacao-chocolino-fort-plus-180-gr/",
@@ -89878,6 +90062,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 79.17
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 83.07
       }
     ]
   },
@@ -89948,7 +90136,7 @@
   {
     "id": "04643",
     "nombre": "Café Arlistan Suave 100gr",
-    "precio": 248.17,
+    "precio": 259.88,
     "rubro": "Productos > Infusiones",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/6021-2f55e72b5b6af3b0ce15988351441826-480-0.jpg",
     "url_producto": "productos/cafe-arlistan-suave-100-gr/",
@@ -89956,13 +90144,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 248.17
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 259.88
       }
     ]
   },
   {
     "id": "04644",
     "nombre": "Café Arlistan Suave 170gr",
-    "precio": 319.74,
+    "precio": 324.87,
     "rubro": "Productos > Infusiones",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5021-52e0b43408b442e4aa15988351860421-480-0.jpg",
     "url_producto": "productos/cafe-arlistan-suave-170-gr/",
@@ -89970,13 +90162,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 319.74
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 324.87
       }
     ]
   },
   {
     "id": "04645",
     "nombre": "Café Arlistan Suave 50gr",
-    "precio": 137.67,
+    "precio": 142.88,
     "rubro": "Productos > Infusiones",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/6001-0709341c92d7f3b30b15988352366971-480-0.jpg",
     "url_producto": "productos/cafe-arlistan-suave-50-gr/",
@@ -89984,6 +90180,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 137.67
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 142.88
       }
     ]
   },
@@ -90200,7 +90400,7 @@
   {
     "id": "04661",
     "nombre": "Capelettini Giacomo Tridicci 500gr",
-    "precio": 220.0,
+    "precio": 246.87,
     "rubro": "Productos > Pastas Secas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/302551-b2bf0ada17999a366d15988369207647-480-0.jpg",
     "url_producto": "productos/capell-giacomo-tridicci-500-gr/",
@@ -90208,6 +90408,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 220.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 246.87
       }
     ]
   },
@@ -90460,7 +90664,7 @@
   {
     "id": "04679",
     "nombre": "Cerveza Miller Lata 473cc",
-    "precio": 122.06,
+    "precio": 145.41,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/225671-59d617b9941bbea1c715988791119377-480-0.jpg",
     "url_producto": "productos/cerv-miller-lata-473-cc/",
@@ -90468,6 +90672,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 122.06
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 145.41
       }
     ]
   },
@@ -90563,7 +90771,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 131.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -90604,7 +90812,7 @@
   {
     "id": "04689",
     "nombre": "Chocolate Cofler Block 170gr",
-    "precio": 298.87,
+    "precio": 330.0,
     "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/chocolate-cofler-block-170-gr1-3ee4d61d1c489c083716094243833537-480-0.jpg",
     "url_producto": "productos/chocolate-cofler-block-170-gr/",
@@ -90612,6 +90820,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 298.87
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 330.0
       }
     ]
   },
@@ -90688,7 +90900,7 @@
   {
     "id": "04695",
     "nombre": "Crema De Leche La Serenísima Pasteurizada Tetra Top 330cc",
-    "precio": 197.6,
+    "precio": 271.7,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8732531-b4bd906c369499835116020051408840-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-pasteurizada-tetra-top-330-cc/",
@@ -90704,6 +90916,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 197.6
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 271.7
       }
     ]
   },
@@ -90902,7 +91118,7 @@
   {
     "id": "04708",
     "nombre": "Dulce Arcor Batata 500gr",
-    "precio": 109.95,
+    "precio": 120.95,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/6801-c7d9ea31b69c7d1ae515998461023237-480-0.jpg",
     "url_producto": "productos/dulce-arcor-batata-500-gr/",
@@ -90910,13 +91126,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 109.95
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 120.95
       }
     ]
   },
   {
     "id": "04709",
     "nombre": "Dulce Arcor Membrillo 500gr",
-    "precio": 125.68,
+    "precio": 138.24,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/6841-e07fa3d9785a9298ef15998464074728-480-0.jpg",
     "url_producto": "productos/dulce-arcor-membrillo-500-gr/",
@@ -90924,6 +91144,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 125.68
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 138.24
       }
     ]
   },
@@ -91074,7 +91298,7 @@
   {
     "id": "04720",
     "nombre": "Enjuague Bucal Listerine Cool Mint 500ml",
-    "precio": 420.9,
+    "precio": 448.37,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1972923-800-auto1-ce0270a6d3e692cc8216080621729758-480-0.jpg",
     "url_producto": "productos/enjuague-bucal-listerine-cool-mint-500ml/",
@@ -91082,13 +91306,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 420.9
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 448.37
       }
     ]
   },
   {
     "id": "04721",
     "nombre": "Espiral Fuyi Doble Acción 12un",
-    "precio": 88.28,
+    "precio": 90.87,
     "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/10611-784b3e6f92a50b4a3016010586379629-480-0.jpg",
     "url_producto": "productos/espiral-fuyi-doble-accion-12-u/",
@@ -91096,13 +91324,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 88.28
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 90.87
       }
     ]
   },
   {
     "id": "04722",
     "nombre": "Espiral Raid 12un",
-    "precio": 86.97,
+    "precio": 90.87,
     "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/12621-69a44d8bbc68d3850416013998917535-480-0.jpg",
     "url_producto": "productos/espiral-raid-12-un/",
@@ -91114,6 +91346,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 86.97
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 90.87
       }
     ]
   },
@@ -91396,7 +91632,7 @@
   {
     "id": "04741",
     "nombre": "Insecticida Fuyi Mata Moscas y Mosquitos 360cc",
-    "precio": 177.97,
+    "precio": 185.77,
     "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/12101-02c29626e2f21e3b4516008656178880-480-0.jpg",
     "url_producto": "productos/insecticida-fuyi-mata-moscas-y-mosquitos-360-cc/",
@@ -91408,6 +91644,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 177.97
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 185.77
       }
     ]
   },
@@ -91484,7 +91724,7 @@
   {
     "id": "04747",
     "nombre": "Jugo Arcor Anana 20gr",
-    "precio": 18.0,
+    "precio": 20.0,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/202211-316ba4a0cf066c4b5415998473001158-480-0.jpg",
     "url_producto": "productos/jugo-arcor-anana-20-gr/",
@@ -91492,13 +91732,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 18.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 20.0
       }
     ]
   },
   {
     "id": "04748",
     "nombre": "Jugo Arcor Limonada 20gr",
-    "precio": 18.0,
+    "precio": 20.0,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/202201-8c59db70356dd94d4715998472128769-480-0.jpg",
     "url_producto": "productos/jugo-arcor-limonada-20-gr/",
@@ -91506,13 +91750,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 18.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 20.0
       }
     ]
   },
   {
     "id": "04749",
     "nombre": "Jugo Arcor Manzana 20gr",
-    "precio": 19.36,
+    "precio": 20.0,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/201651-e5bb63ec1a6b0c597415998470241336-480-0.jpg",
     "url_producto": "productos/jugo-arcor-manzana-20-gr/",
@@ -91520,13 +91768,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 19.36
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 20.0
       }
     ]
   },
   {
     "id": "04750",
     "nombre": "Jugo Arcor Multifruta 20gr",
-    "precio": 18.07,
+    "precio": 20.0,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/201681-a964fc4d9c373009ac15998471709126-480-0.jpg",
     "url_producto": "productos/jugo-arcor-multifruta-20-gr/",
@@ -91538,13 +91790,17 @@
       {
         "fecha": "27/04/2021",
         "precio": 18.07
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 20.0
       }
     ]
   },
   {
     "id": "04751",
     "nombre": "Jugo Arcor Naranja 20gr",
-    "precio": 18.07,
+    "precio": 20.0,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/201671-451fdd2773c87a25f315998471304052-480-0.jpg",
     "url_producto": "productos/jugo-arcor-naranja-20-gr/",
@@ -91556,13 +91812,17 @@
       {
         "fecha": "27/04/2021",
         "precio": 18.07
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 20.0
       }
     ]
   },
   {
     "id": "04752",
     "nombre": "Jugo Arcor Naranja Banana 20gr",
-    "precio": 18.07,
+    "precio": 20.0,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219001-3e619ea83206ea54e015998473512399-480-0.jpg",
     "url_producto": "productos/jugo-arcor-naranja-banana-20-gr/",
@@ -91574,13 +91834,17 @@
       {
         "fecha": "27/04/2021",
         "precio": 18.07
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 20.0
       }
     ]
   },
   {
     "id": "04753",
     "nombre": "Jugo Arcor Naranja Durazno 20gr",
-    "precio": 18.0,
+    "precio": 20.0,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/201661-989875ca7d7bc5cf9b15998470967854-480-0.jpg",
     "url_producto": "productos/jugo-arcor-naranja-durazno-20-gr/",
@@ -91588,13 +91852,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 18.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 20.0
       }
     ]
   },
   {
     "id": "04754",
     "nombre": "Jugo Arcor Naranja Mango 20gr",
-    "precio": 18.25,
+    "precio": 20.0,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/235641-e15019f173c534d5a916059092855784-480-0.jpg",
     "url_producto": "productos/jugo-arcor-naranja-mango-20-gr/",
@@ -91602,6 +91870,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 18.25
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 20.0
       }
     ]
   },
@@ -91890,7 +92162,7 @@
   {
     "id": "04774",
     "nombre": "Leche Ilolay Chocolatada 1lt",
-    "precio": 149.37,
+    "precio": 154.7,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2338921-8440bbcaf8aa6d228815989647372856-480-0.jpg",
     "url_producto": "productos/leche-ilolay-chocolatada-1-lt/",
@@ -91898,6 +92170,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 149.37
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 154.7
       }
     ]
   },
@@ -92086,7 +92362,7 @@
   {
     "id": "04788",
     "nombre": "Pañal Babysec Pr.hip.m 52un",
-    "precio": 818.87,
+    "precio": 825.37,
     "rubro": "Productos > Pañales y Bebés",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/123581-1c8d1075531bc556f615988914896374-480-0.jpg",
     "url_producto": "productos/panal-babysec-pr-hip-m-52-un/",
@@ -92094,6 +92370,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 818.87
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 825.37
       }
     ]
   },
@@ -92268,7 +92548,7 @@
   {
     "id": "04801",
     "nombre": "Papel Higiénico Elite Dob. Hoja Ult. 4x30 Mt",
-    "precio": 142.5,
+    "precio": 150.68,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/91771-4999f7f8430fb1574415995896213851-480-0.jpg",
     "url_producto": "productos/pap-hig-elite-dh-ult-4x30-mt/",
@@ -92276,6 +92556,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 142.5
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 150.68
       }
     ]
   },
@@ -92356,7 +92640,7 @@
   {
     "id": "04807",
     "nombre": "Puré De Tomate Baggio De La Huerta 1030cc",
-    "precio": 136.36,
+    "precio": 157.16,
     "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/261811-913ee1f670e25b353216014772882397-480-0.jpg",
     "url_producto": "productos/pure-de-tomate-baggio-de-la-huerta-1030-cc/",
@@ -92364,13 +92648,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 136.36
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 157.16
       }
     ]
   },
   {
     "id": "04808",
     "nombre": "Pure De Tomate Arcor 520gr",
-    "precio": 65.0,
+    "precio": 71.5,
     "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tom-pure-arcor-x520g1-d69c4f565b9d3ef78b16123046913032-480-0.jpg",
     "url_producto": "productos/pure-de-tomate-arcor-520-gr/",
@@ -92378,6 +92666,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 65.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 71.5
       }
     ]
   },
@@ -92448,7 +92740,7 @@
   {
     "id": "04813",
     "nombre": "Rollo De Cocina Esencial 3un x 40 Paños",
-    "precio": 67.47,
+    "precio": 70.08,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/133371-da4ebb4e3cd5c5fa7016025237626904-480-0.jpg",
     "url_producto": "productos/rollo-de-cocina-esencial-3-un-x-40-panos/",
@@ -92456,13 +92748,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 67.47
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 70.08
       }
     ]
   },
   {
     "id": "04814",
     "nombre": "Salsa Arcor Pizza 340gr",
-    "precio": 65.09,
+    "precio": 72.0,
     "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/salsa-de-tomate-pizza-arcor-340-gr-1-143521-2cfe3d1eccb37a30f916014766985606-480-0.jpg",
     "url_producto": "productos/salsa-arcor-pizza-340-gr/",
@@ -92470,6 +92766,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 65.09
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 72.0
       }
     ]
   },
@@ -92698,7 +92998,7 @@
   {
     "id": "04830",
     "nombre": "Salsa Arcor Pomarola 340gr",
-    "precio": 65.09,
+    "precio": 72.0,
     "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tc000291-fc98cab954e4d12b5616013961996669-480-0.jpg",
     "url_producto": "productos/salsa-arcor-pomarola-340-gr/",
@@ -92706,6 +93006,10 @@
       {
         "fecha": "24/04/2021",
         "precio": 65.09
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 72.0
       }
     ]
   },
@@ -92768,7 +93072,7 @@
   {
     "id": "04835",
     "nombre": "Jugo Arcor S/t.a.c.c. Multifruta 200ml",
-    "precio": 26.0,
+    "precio": 29.0,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/613-510x5101-1f65702214bdfdeeff16194451406961-480-0.jpg",
     "url_producto": "productos/jugo-arcor-s-t-a-c-c-multifruta-200-ml/",
@@ -92776,6 +93080,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 26.0
+      },
+      {
+        "fecha": "04/05/2021",
+        "precio": 29.0
       }
     ]
   },
@@ -92930,6 +93238,146 @@
       {
         "fecha": "01/05/2021",
         "precio": 199.0
+      }
+    ]
+  },
+  {
+    "id": "04847",
+    "nombre": "Alfajor Block Triple 60gr",
+    "precio": 59.9,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77900406596051-c6acdf75c8e798b9e816200469181517-480-0.jpg",
+    "url_producto": "productos/alfajor-block-triple-60-gr/",
+    "historia": [
+      {
+        "fecha": "04/05/2021",
+        "precio": 59.9
+      }
+    ]
+  },
+  {
+    "id": "04848",
+    "nombre": "Alfajor Bon O Bon Triple 60gr",
+    "precio": 59.9,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-03t100031-0101-dc5bebc29eba8d94e216200468589523-480-0.jpg",
+    "url_producto": "productos/alfajor-bon-o-bon-triple-60-gr/",
+    "historia": [
+      {
+        "fecha": "04/05/2021",
+        "precio": 59.9
+      }
+    ]
+  },
+  {
+    "id": "04849",
+    "nombre": "Alfajor Tatin Triple Blanco 60gr",
+    "precio": 31.9,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/01785511-5734114feefb8c7d9316200466672029-480-0.jpeg",
+    "url_producto": "productos/alfajor-tatin-triple-blanco-60-gr/",
+    "historia": [
+      {
+        "fecha": "04/05/2021",
+        "precio": 31.9
+      }
+    ]
+  },
+  {
+    "id": "04850",
+    "nombre": "Alfajor Tatin Triple Negro 60gr",
+    "precio": 31.9,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tatintriplenegro60g-416x4161-8af14fd5f49772b22816200467458711-480-0.jpg",
+    "url_producto": "productos/alfajor-tatin-triple-negro-60-gr/",
+    "historia": [
+      {
+        "fecha": "04/05/2021",
+        "precio": 31.9
+      }
+    ]
+  },
+  {
+    "id": "04851",
+    "nombre": "Canela En Rama Ancestral 50gr",
+    "precio": 150.0,
+    "rubro": "Productos > Sal y Condimentos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/canela1-ad77ac12e3e5ec974216079837267619-480-0.jpg",
+    "url_producto": "productos/canela-en-rama-ancestral-50-gr/",
+    "historia": [
+      {
+        "fecha": "04/05/2021",
+        "precio": 150.0
+      }
+    ]
+  },
+  {
+    "id": "04852",
+    "nombre": "Chocolate Nutella 140gr",
+    "precio": 204.33,
+    "rubro": "Productos > Postres y Repostería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pasta-de-avellana-nutella-140-gr-1-649521-1f38982c6a445d864416177364617686-480-0.jpg",
+    "url_producto": "productos/chocolate-nutella-140gr/",
+    "historia": [
+      {
+        "fecha": "04/05/2021",
+        "precio": 204.33
+      }
+    ]
+  },
+  {
+    "id": "04853",
+    "nombre": "Sorrentinos Pastasya Calabaza y Muzzarella x Doc",
+    "precio": 300.0,
+    "rubro": "Productos > PASTAS YA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01721-46c426273cb7abbfd116201376957363-480-0.jpg",
+    "url_producto": "productos/sorrentinos-pastasya-calabaza-y-muzzarella-x-doc/",
+    "historia": [
+      {
+        "fecha": "04/05/2021",
+        "precio": 300.0
+      }
+    ]
+  },
+  {
+    "id": "04854",
+    "nombre": "Sorrentinos Pastasya Espinaca y Ricota x Doc",
+    "precio": 300.0,
+    "rubro": "Productos > PASTAS YA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01711-46c426273cb7abbfd116201376748052-480-0.jpg",
+    "url_producto": "productos/sorrentinos-pastasya-espinaca-y-ricota-x-doc/",
+    "historia": [
+      {
+        "fecha": "04/05/2021",
+        "precio": 300.0
+      }
+    ]
+  },
+  {
+    "id": "04855",
+    "nombre": "Sorrentinos Pastasya Jamon y Queso x Doc",
+    "precio": 350.0,
+    "rubro": "Productos > PASTAS YA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-0171-46c426273cb7abbfd116201376441746-480-0.jpg",
+    "url_producto": "productos/sorrentinos-pastasya-jamon-y-queso-x-doc/",
+    "historia": [
+      {
+        "fecha": "04/05/2021",
+        "precio": 350.0
+      }
+    ]
+  },
+  {
+    "id": "04856",
+    "nombre": "Sorrentinos Pastasya Ternera y Muzzarella x Doc",
+    "precio": 350.0,
+    "rubro": "Productos > PASTAS YA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01731-46c426273cb7abbfd116201377295966-480-0.jpg",
+    "url_producto": "productos/sorrentinos-pastasya-ternera-y-muzzarella-x-doc/",
+    "historia": [
+      {
+        "fecha": "04/05/2021",
+        "precio": 350.0
       }
     ]
   }
