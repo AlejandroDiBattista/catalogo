@@ -65577,7 +65577,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65845,7 +65845,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 365.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Frutos Secos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -67744,7 +67744,7 @@
   {
     "id": "03231",
     "nombre": "Choclo x Unidad",
-    "precio": 47.0,
+    "precio": 50.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/choclo-americano-600x6001-a81dcb81c758f2975216146273101789-480-0.jpg",
     "url_producto": "productos/choclo-x-unidad/",
@@ -67760,6 +67760,10 @@
       {
         "fecha": "09/04/2021",
         "precio": 47.0
+      },
+      {
+        "fecha": "07/05/2021",
+        "precio": 50.0
       }
     ]
   },
@@ -77552,7 +77556,7 @@
   {
     "id": "03769",
     "nombre": "Papas Fritas Lays 240gr",
-    "precio": 311.86,
+    "precio": 265.0,
     "rubro": "Productos > Snacks",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-881-1706c2b34edc224c4f16100395604631-480-0.jpg",
     "url_producto": "productos/papas-fritas-lays-240-gr/",
@@ -77568,13 +77572,17 @@
       {
         "fecha": "24/03/2021",
         "precio": 311.86
+      },
+      {
+        "fecha": "07/05/2021",
+        "precio": 265.0
       }
     ]
   },
   {
     "id": "03770",
     "nombre": "Sidra 1888 Saenz Briones 750ml",
-    "precio": 323.85,
+    "precio": 385.0,
     "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sidra-1882-saenz-briones-750-ml1-4d0d623a4826e7e43616057117293366-480-0.jpg",
     "url_producto": "productos/sidra-1888-saenz-briones-750-ml/",
@@ -77582,6 +77590,10 @@
       {
         "fecha": "11/03/2021",
         "precio": 323.85
+      },
+      {
+        "fecha": "07/05/2021",
+        "precio": 385.0
       }
     ]
   },
@@ -86496,7 +86508,7 @@
   {
     "id": "04397",
     "nombre": "Jamón Cocido Feteado Paladini 200gr",
-    "precio": 219.9,
+    "precio": 214.0,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/204351-6593dfae1b24ee663016025191358628-480-0.jpg",
     "url_producto": "productos/jamon-cocido-feteado-paladini-200-gr/",
@@ -86512,6 +86524,10 @@
       {
         "fecha": "03/04/2021",
         "precio": 219.9
+      },
+      {
+        "fecha": "07/05/2021",
+        "precio": 214.0
       }
     ]
   },
@@ -87260,7 +87276,7 @@
   {
     "id": "04447",
     "nombre": "Arroz Ala Integral 500gr",
-    "precio": 60.0,
+    "precio": 76.55,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/240961-1f7612a5de2d5c323216033929063948-480-0.jpg",
     "url_producto": "productos/arroz-ala-integral-500-gr/",
@@ -87268,6 +87284,10 @@
       {
         "fecha": "08/04/2021",
         "precio": 60.0
+      },
+      {
+        "fecha": "07/05/2021",
+        "precio": 76.55
       }
     ]
   },
@@ -88567,7 +88587,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 206.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -88581,7 +88601,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 201.38,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -88683,7 +88703,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 175.9,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -90622,7 +90642,7 @@
   {
     "id": "04676",
     "nombre": "Cerveza Brahma Lata 473cc",
-    "precio": 103.66,
+    "precio": 70.0,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/23751-35d50071343f4ee85815988789302675-480-0.jpg",
     "url_producto": "productos/cerv-brahma-lata-473-cc/",
@@ -90630,6 +90650,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 103.66
+      },
+      {
+        "fecha": "07/05/2021",
+        "precio": 70.0
       }
     ]
   },
@@ -93230,7 +93254,7 @@
   {
     "id": "04846",
     "nombre": "Lomo De Cerdo Paladini Feteado 120gr",
-    "precio": 199.0,
+    "precio": 188.0,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/217621-adf869f63aa0863a5016025182784508-480-0.jpg",
     "url_producto": "productos/lomo-de-cerdo-paladini-feteado-120-gr/",
@@ -93238,6 +93262,10 @@
       {
         "fecha": "01/05/2021",
         "precio": 199.0
+      },
+      {
+        "fecha": "07/05/2021",
+        "precio": 188.0
       }
     ]
   },
@@ -93329,7 +93357,7 @@
     "id": "04853",
     "nombre": "Sorrentinos Pastasya Calabaza y Muzzarella x Doc",
     "precio": 300.0,
-    "rubro": "Productos > PASTAS YA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01721-46c426273cb7abbfd116201376957363-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-calabaza-y-muzzarella-x-doc/",
     "historia": [
@@ -93343,7 +93371,7 @@
     "id": "04854",
     "nombre": "Sorrentinos Pastasya Espinaca y Ricota x Doc",
     "precio": 300.0,
-    "rubro": "Productos > PASTAS YA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01711-46c426273cb7abbfd116201376748052-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-espinaca-y-ricota-x-doc/",
     "historia": [
@@ -93357,7 +93385,7 @@
     "id": "04855",
     "nombre": "Sorrentinos Pastasya Jamon y Queso x Doc",
     "precio": 350.0,
-    "rubro": "Productos > PASTAS YA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-0171-46c426273cb7abbfd116201376441746-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-jamon-y-queso-x-doc/",
     "historia": [
@@ -93371,13 +93399,167 @@
     "id": "04856",
     "nombre": "Sorrentinos Pastasya Ternera y Muzzarella x Doc",
     "precio": 350.0,
-    "rubro": "Productos > PASTAS YA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01731-46c426273cb7abbfd116201377295966-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-ternera-y-muzzarella-x-doc/",
     "historia": [
       {
         "fecha": "04/05/2021",
         "precio": 350.0
+      }
+    ]
+  },
+  {
+    "id": "04857",
+    "nombre": "Barra De Cereal Flow Cereal Frutos Del Bosque 27gr",
+    "precio": 39.9,
+    "rubro": "Productos > Galletas y Cereales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8c4a88ffd5a41382b3de573e99bf99661-a0d744fe105667de8116202412387992-480-0.jpg",
+    "url_producto": "productos/barra-de-cereal-flow-cereal-frutos-del-bosque-27-gr/",
+    "historia": [
+      {
+        "fecha": "07/05/2021",
+        "precio": 39.9
+      }
+    ]
+  },
+  {
+    "id": "04858",
+    "nombre": "Caldo Knorr Carne 12un",
+    "precio": 116.9,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2460013_f1-88b7face33faeef16a16122921964062-480-0.jpg",
+    "url_producto": "productos/caldo-knorr-carne-12-un/",
+    "historia": [
+      {
+        "fecha": "07/05/2021",
+        "precio": 116.9
+      }
+    ]
+  },
+  {
+    "id": "04859",
+    "nombre": "Cerveza Andes Miel Six Pack 473ml",
+    "precio": 599.0,
+    "rubro": "Productos > Cervezas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cerveza-andes-miel-six-pack-473ml1-724a16351ba2aad11516158130859841-480-0.jpg",
+    "url_producto": "productos/cerveza-andes-miel-six-pack-473ml/",
+    "historia": [
+      {
+        "fecha": "07/05/2021",
+        "precio": 599.0
+      }
+    ]
+  },
+  {
+    "id": "04860",
+    "nombre": "Cerveza Imperial Golden 473ml",
+    "precio": 100.0,
+    "rubro": "Productos > Cervezas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cerveza-imperial-golden-473ml1-789fccbd9986b4a5c916116001329057-480-0.jpg",
+    "url_producto": "productos/cerveza-imperial-golden-473ml/",
+    "historia": [
+      {
+        "fecha": "07/05/2021",
+        "precio": 100.0
+      }
+    ]
+  },
+  {
+    "id": "04861",
+    "nombre": "Crema Dental Colgate Total 12 Whitening 140gr",
+    "precio": 324.87,
+    "rubro": "Productos > Cuidado Bucal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/141261-229f07cb655933f58815988988774683-480-0.jpg",
+    "url_producto": "productos/cr-dent-colgate-tot-12-whit-140-gr/",
+    "historia": [
+      {
+        "fecha": "07/05/2021",
+        "precio": 324.87
+      }
+    ]
+  },
+  {
+    "id": "04862",
+    "nombre": "Dulce Esnaola Membrillo 500gr",
+    "precio": 155.87,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/262501-3928beda527169877815997507919422-480-0.jpg",
+    "url_producto": "productos/dul-esnaola-membrillo-500-gr/",
+    "historia": [
+      {
+        "fecha": "07/05/2021",
+        "precio": 155.87
+      }
+    ]
+  },
+  {
+    "id": "04863",
+    "nombre": "Dulce Esnaola Membrillo 5kg",
+    "precio": 1.078,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/239801-51f411de8b4a18cd7015997508136154-480-0.jpg",
+    "url_producto": "productos/dul-esnaola-membrillo-5-kg/",
+    "historia": [
+      {
+        "fecha": "07/05/2021",
+        "precio": 1.078
+      }
+    ]
+  },
+  {
+    "id": "04864",
+    "nombre": "Milanesa De Soja Granja De Sol Con Espinaca 330gr",
+    "precio": 232.69,
+    "rubro": "Productos > Congelados de Vegetales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/milanesa-de-soja-granja-de-sol-con-espinaca1-066461ba32799aeb5f16103991812531-480-0.jpg",
+    "url_producto": "productos/milanesa-de-soja-granja-de-sol-con-espinaca-330gr/",
+    "historia": [
+      {
+        "fecha": "07/05/2021",
+        "precio": 232.69
+      }
+    ]
+  },
+  {
+    "id": "04865",
+    "nombre": "Purina Cat Chow Gatitos 1kg",
+    "precio": 371.13,
+    "rubro": "Productos > Mascotas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7613034873361-11-a9d4a62459de33ca0a16123894465731-480-0.jpg",
+    "url_producto": "productos/purina-cat-chow-gatitos-1kg/",
+    "historia": [
+      {
+        "fecha": "07/05/2021",
+        "precio": 371.13
+      }
+    ]
+  },
+  {
+    "id": "04866",
+    "nombre": "Salsa Caesar Tau Delta 330gr",
+    "precio": 208.4,
+    "rubro": "Productos > Salsas y Puré de Tomates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/salsa-caesar-tau-delta-330gr1-c4ad8605b18c9a9f5d16111711935309-480-0.jpg",
+    "url_producto": "productos/salsa-caesar-tau-delta-330gr/",
+    "historia": [
+      {
+        "fecha": "07/05/2021",
+        "precio": 208.4
+      }
+    ]
+  },
+  {
+    "id": "04867",
+    "nombre": "Shampoo Head & Shoulders Old Spice 180ml",
+    "precio": 201.38,
+    "rubro": "Productos > Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52231-cb822ba202f7f794c815988868274052-480-0.jpg",
+    "url_producto": "productos/shamp-h-y-s-old-spice-180-ml/",
+    "historia": [
+      {
+        "fecha": "07/05/2021",
+        "precio": 201.38
       }
     ]
   }
