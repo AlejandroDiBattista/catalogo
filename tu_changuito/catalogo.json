@@ -65407,7 +65407,7 @@
     "id": "03108",
     "nombre": "Agua Glaciar Sin Gas 2lt",
     "precio": 99.0,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc24241-65917abfdcc656c1b616010430756981-480-0.jpg",
     "url_producto": "productos/agua-glaciar-sin-gas-2-lt/",
     "historia": [
@@ -65535,7 +65535,7 @@
     "id": "03116",
     "nombre": "Agua Mineral Sierra De Los Padres 2lt",
     "precio": 71.3,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sierra-de-los-padres-2-lt1-ab6f3d796f1482e66616001948616487-480-0.jpg",
     "url_producto": "productos/agua-mineral-sierra-de-los-padres-2-l/",
     "historia": [
@@ -65581,7 +65581,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65849,7 +65849,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 365.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Frutos Secos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -66508,7 +66508,7 @@
   {
     "id": "03163",
     "nombre": "Arroz Gallo Oro 500gr",
-    "precio": 93.47,
+    "precio": 98.67,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2411-60543d41464f3ddd5515988782714569-480-0.jpg",
     "url_producto": "productos/arr-gallo-oro-500-gr/",
@@ -66524,6 +66524,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 93.47
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 98.67
       }
     ]
   },
@@ -66571,7 +66575,7 @@
     "id": "03166",
     "nombre": "Arvejas Green Life Congelada 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550211-a666675e62010c5a7515990911554480-480-0.jpg",
     "url_producto": "productos/arvejas-green-life-congelada-300-gr/",
     "historia": [
@@ -66793,7 +66797,7 @@
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
     "precio": 490.0,
-    "rubro": "Productos > Carnes de Pollo",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
     "historia": [
@@ -67047,7 +67051,7 @@
     "id": "03190",
     "nombre": "Bola De Lomo Feteada Para Milanesa x kg",
     "precio": 792.9,
-    "rubro": "Productos > Carnes de Novillo",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-lomo-fet1-44e054598c02eecd9816027207901849-480-0.jpg",
     "url_producto": "productos/bola-de-lomo-feteada-para-milanesa-x-kg/",
     "historia": [
@@ -67747,7 +67751,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -70230,7 +70234,7 @@
   {
     "id": "03364",
     "nombre": "Hamburguesa Paty Super 125gr x 2un",
-    "precio": 219.9,
+    "precio": 219.0,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/800029514_2_1400x1-982e7742abba2be32116025113141152-480-0.jpg",
     "url_producto": "productos/hamburguesa-paty-super-125-gr-x-2-un/",
@@ -70242,6 +70246,10 @@
       {
         "fecha": "02/04/2021",
         "precio": 219.9
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 219.0
       }
     ]
   },
@@ -70334,7 +70342,7 @@
   {
     "id": "03368",
     "nombre": "Harina Blancaflor Leudante 1kg",
-    "precio": 88.27,
+    "precio": 89.57,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/116311-2fabf3bb480dbef47c15989646767461-480-0.jpg",
     "url_producto": "productos/har-blancaflor-leudante-1-kg/",
@@ -70354,6 +70362,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 88.27
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 89.57
       }
     ]
   },
@@ -72746,7 +72758,7 @@
   {
     "id": "03496",
     "nombre": "Milanesa Granja De Sol Arroz Veg 330gr",
-    "precio": 253.51,
+    "precio": 258.7,
     "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/255261-8af8e5119542912b3e15990915652275-480-0.jpg",
     "url_producto": "productos/milanes-gja-sol-arroz-veg-330-gr/",
@@ -72766,6 +72778,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 253.51
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 258.7
       }
     ]
   },
@@ -74062,7 +74078,7 @@
   {
     "id": "03566",
     "nombre": "Patitas Granja De Sol Pollo 400gr",
-    "precio": 362.7,
+    "precio": 388.7,
     "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/872111-7b53014f1eef98441a15990035503427-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-pollo-400-gr/",
@@ -74078,13 +74094,17 @@
       {
         "fecha": "27/04/2021",
         "precio": 362.7
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 388.7
       }
     ]
   },
   {
     "id": "03567",
     "nombre": "Patitas Granja De Sol Queso Jamón 400gr",
-    "precio": 375.69,
+    "precio": 388.7,
     "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830711-dba545bed7ed42864715990035883853-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-que-jam-400-gr/",
@@ -74100,6 +74120,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 375.69
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 388.7
       }
     ]
   },
@@ -75744,7 +75768,7 @@
   {
     "id": "03663",
     "nombre": "Suprema Graja De Sol Crocantes 480gr",
-    "precio": 479.7,
+    "precio": 492.69,
     "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2552411-13ae0dfecf63a5ddb715990038034119-480-0.jpg",
     "url_producto": "productos/suprema-gja-sol-crocantes-480-gr/",
@@ -75764,6 +75788,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 479.7
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 492.69
       }
     ]
   },
@@ -76322,7 +76350,7 @@
   {
     "id": "03698",
     "nombre": "Vodka Smirnoff Bitter Citric 700cc",
-    "precio": 570.0,
+    "precio": 591.39,
     "rubro": "Productos > Bebidas Blancas y Licores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7791250002717_021-8dd73a9f9f8e02e37b16063954292783-480-0.jpg",
     "url_producto": "productos/vodka-smirnoff-bitter-citric-700-cc/",
@@ -76334,6 +76362,10 @@
       {
         "fecha": "13/03/2021",
         "precio": 570.0
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 591.39
       }
     ]
   },
@@ -76916,7 +76948,7 @@
   {
     "id": "03729",
     "nombre": "Espinaca Granja De Sol 500gr",
-    "precio": 299.9,
+    "precio": 307.48,
     "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/espinaca-granja-de-sol-500gr1-cf2fdb7fe8598f71b916148732708007-480-0.jpg",
     "url_producto": "productos/espinaca-granja-de-sol-500gr/",
@@ -76932,6 +76964,10 @@
       {
         "fecha": "24/03/2021",
         "precio": 299.9
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 307.48
       }
     ]
   },
@@ -85412,7 +85448,7 @@
   {
     "id": "04323",
     "nombre": "Suprema Granja De Sol Pollo 360gr",
-    "precio": 399.9,
+    "precio": 414.71,
     "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830811-607b67364edc558d3415990038309902-480-0.jpg",
     "url_producto": "productos/suprema-granja-de-sol-pollo-360-gr/",
@@ -85424,6 +85460,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 399.9
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 414.71
       }
     ]
   },
@@ -86647,7 +86687,7 @@
     "id": "04402",
     "nombre": "Agua Mineral Eco De Los Andes 1,1lt",
     "precio": 69.9,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-eco-de-los-andes-1-5-lt1-42377148c5137b2d8516170256593525-480-0.jpg",
     "url_producto": "productos/agua-mineral-eco-de-los-andes-1-5-lt/",
     "historia": [
@@ -87651,7 +87691,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 199.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -88991,7 +89031,7 @@
     "id": "04560",
     "nombre": "Alcohol Frau Gel 1lt",
     "precio": 458.76,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2603511-69c2bc15ab88af0e2415990048145773-480-0.jpg",
     "url_producto": "productos/alcohol-frau-gel-1lt/",
     "historia": [
@@ -89005,7 +89045,7 @@
     "id": "04561",
     "nombre": "Alcohol Frau Gel 250cc",
     "precio": 161.08,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2603711-3ff1595e9d128cbcbc15990048419753-480-0.jpg",
     "url_producto": "productos/alcohol-frau-gel-250cc/",
     "historia": [
@@ -89019,7 +89059,7 @@
     "id": "04562",
     "nombre": "Alcohol Frau Gel 500cc",
     "precio": 248.17,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/260361-68cca5576d4846c89b15989747510169-480-0.jpg",
     "url_producto": "productos/alcohol-frau-gel-500cc/",
     "historia": [
@@ -89033,7 +89073,7 @@
     "id": "04563",
     "nombre": "Alcohol Marolio En Gel x 500ml",
     "precio": 84.44,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/alcohol-en-gel-marolio-500cc1-177cd3459d2a4935f616056566747632-480-0.jpg",
     "url_producto": "productos/alcohol-marolio-en-gel-x-500-ml/",
     "historia": [
@@ -89047,7 +89087,7 @@
     "id": "04564",
     "nombre": "Alcohol Patricia Allen 250cc",
     "precio": 70.85,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/120661-7d4444c61a3c455adf15989747689232-480-0.jpg",
     "url_producto": "productos/alcohol-pat-allen-250-cc/",
     "historia": [
@@ -89061,7 +89101,7 @@
     "id": "04565",
     "nombre": "Alcohol Patricia Allen 500cc",
     "precio": 119.47,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/120671-615b56499d52c4da4815989747882385-480-0.jpg",
     "url_producto": "productos/alcohol-pat-allen-500-cc/",
     "historia": [
@@ -89628,7 +89668,7 @@
   {
     "id": "04603",
     "nombre": "Avena Quaker Tradicional Fortificada 500gr",
-    "precio": 177.59,
+    "precio": 181.87,
     "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/quaker1-02ba2183109ac2937716013815942390-480-0.jpg",
     "url_producto": "productos/avena-quaker-trad-fortif-500-gr/",
@@ -89636,6 +89676,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 177.59
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 181.87
       }
     ]
   },
@@ -89828,7 +89872,7 @@
   {
     "id": "04617",
     "nombre": "Bizcochos Don Satur Azucarados 200gr",
-    "precio": 49.3,
+    "precio": 64.87,
     "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/d_nq_np_684827-mla41756310503_052020-o1-09513f1fe65fb6028416067729549136-480-0.jpg",
     "url_producto": "productos/bizcochos-don-satur-azucarados-200-gr/",
@@ -89836,6 +89880,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 49.3
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 64.87
       }
     ]
   },
@@ -90063,7 +90111,7 @@
     "id": "04632",
     "nombre": "Bondiola Bierzo Feteado x 300gr (*)",
     "precio": 463.07,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bondiola-bierzo1-4b252673dca09e412715995208987950-480-0.jpg",
     "url_producto": "productos/alem500-bondiolabierzofeteadox300grs/",
     "historia": [
@@ -90077,7 +90125,7 @@
     "id": "04633",
     "nombre": "Bondiola La Francisca Feteada x 300gr (*)",
     "precio": 360.45,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-551-5f368f83521fef737a16080424251082-480-0.jpg",
     "url_producto": "productos/bondiola-la-francisca-feteada-x-300-grs/",
     "historia": [
@@ -90091,7 +90139,7 @@
     "id": "04634",
     "nombre": "Bondiola Paladini Feteado x 300gr (*)",
     "precio": 585.17,
-    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bondiola-paladini1-4285d11b8d419a17a415995209132153-480-0.jpg",
     "url_producto": "productos/alem500-bondiolapaladinifeteadox300grs/",
     "historia": [
@@ -90192,7 +90240,7 @@
   {
     "id": "04641",
     "nombre": "Cacao Nesquik Optistart 180gr",
-    "precio": 105.17,
+    "precio": 107.77,
     "rubro": "Productos > Infusiones",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/133391-daad385a871b34b3a115988349498812-480-0.jpg",
     "url_producto": "productos/cacao-nesquik-optistart-180-gr/",
@@ -90204,6 +90252,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 105.17
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 107.77
       }
     ]
   },
@@ -90282,7 +90334,7 @@
   {
     "id": "04646",
     "nombre": "Café Capsula La Virginia Sutil N°5",
-    "precio": 522.11,
+    "precio": 400.0,
     "rubro": "Productos > Infusiones",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cafe-capsula-la-virginia-sutil-n51-38514da1f6fa9c7e5416057949871912-480-0.jpeg",
     "url_producto": "productos/cafe-capsula-la-virginia-sutil-n5/",
@@ -90290,6 +90342,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 522.11
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 400.0
       }
     ]
   },
@@ -90867,7 +90923,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 131.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -91108,7 +91164,7 @@
   {
     "id": "04701",
     "nombre": "Detergente Ala Alta Espuma Camellito Ropa Fina 450ml",
-    "precio": 146.13,
+    "precio": 164.98,
     "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1867111-24c531a02db2f52c8b16010425394899-480-0.jpg",
     "url_producto": "productos/detergente-ala-alta-espuma-camellito-ropa-fina-450-ml/",
@@ -91116,6 +91172,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 146.13
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 164.98
       }
     ]
   },
@@ -91868,7 +91928,7 @@
   {
     "id": "04749",
     "nombre": "Jugo Arcor Manzana 20gr",
-    "precio": 20.0,
+    "precio": 20.15,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/201651-e5bb63ec1a6b0c597415998470241336-480-0.jpg",
     "url_producto": "productos/jugo-arcor-manzana-20-gr/",
@@ -91880,6 +91940,10 @@
       {
         "fecha": "04/05/2021",
         "precio": 20.0
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 20.15
       }
     ]
   },
@@ -92062,7 +92126,7 @@
   {
     "id": "04760",
     "nombre": "Lámpara Osram Led Calid. 14 Wt",
-    "precio": 216.97,
+    "precio": 219.51,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/258921-bfaf4c9394f259deb115990925099895-480-0.jpg",
     "url_producto": "productos/lampara-osram-led-calid-14-wt/",
@@ -92070,6 +92134,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 216.97
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 219.51
       }
     ]
   },
@@ -92108,7 +92176,7 @@
   {
     "id": "04763",
     "nombre": "Lámpara Osram Led Fria 14 Wt",
-    "precio": 216.97,
+    "precio": 219.51,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2589221-bfaf4c9394f259deb115990926302752-480-0.jpg",
     "url_producto": "productos/lampara-osram-led-fria-14-wt/",
@@ -92116,13 +92184,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 216.97
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 219.51
       }
     ]
   },
   {
     "id": "04764",
     "nombre": "Lámpara Osram Led Fria 7 Wt",
-    "precio": 115.57,
+    "precio": 118.6,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/227081-e4c46c3dc2767debf115989749648553-480-0.jpg",
     "url_producto": "productos/lampara-osram-led-fria-7-wt/",
@@ -92130,6 +92202,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 115.57
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 118.6
       }
     ]
   },
@@ -92442,7 +92518,7 @@
   {
     "id": "04786",
     "nombre": "Milanesa Granja De Sol Soja Tipo Caseras 330gr",
-    "precio": 232.69,
+    "precio": 280.0,
     "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1596811-53ec2a8f6e3c925fc815990862854063-480-0.jpg",
     "url_producto": "productos/milanes-gja-sol-soja-t-c-330-gr/",
@@ -92450,6 +92526,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 232.69
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 280.0
       }
     ]
   },
@@ -92948,7 +93028,7 @@
   {
     "id": "04819",
     "nombre": "Sorrentinos La Salteña Jamón y Mozzarella 300gr",
-    "precio": 180.71,
+    "precio": 193.7,
     "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/236111-2fa694a4f2303a7f0815988880768631-480-0.jpg",
     "url_producto": "productos/sorrent-la-saltena-jam-y-mozz-300-gr/",
@@ -92960,6 +93040,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 180.71
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 193.7
       }
     ]
   },
@@ -93009,7 +93093,7 @@
     "id": "04823",
     "nombre": "Alcohol Aktiol En Aerosol 143ml",
     "precio": 219.58,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77919050236231-a6e5d400555f35e6f516192062297842-480-0.jpg",
     "url_producto": "productos/alcohol-aktiol-en-aerosol-143ml/",
     "historia": [
@@ -93027,7 +93111,7 @@
     "id": "04824",
     "nombre": "Alcohol En Gel Espadol 150ml",
     "precio": 230.0,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77983391902041-b93294cca975b13c1f16192061374355-480-0.jpg",
     "url_producto": "productos/alcohol-en-gel-espadol-150ml/",
     "historia": [
@@ -93040,7 +93124,7 @@
   {
     "id": "04825",
     "nombre": "Antitranspirante Fem. Rexona Active Emotion Roll On. 50ml",
-    "precio": 155.0,
+    "precio": 193.57,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/789265231-96aea8bd1f402f57b216191862401770-480-0.jpg",
     "url_producto": "productos/antitranspirante-fem-rexona-active-emotion-roll-on-50-ml/",
@@ -93048,6 +93132,10 @@
       {
         "fecha": "24/04/2021",
         "precio": 155.0
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 193.57
       }
     ]
   },
@@ -93336,7 +93424,7 @@
   {
     "id": "04845",
     "nombre": "Grasa Porcina Esani Refinada 500gr",
-    "precio": 165.9,
+    "precio": 194.86,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7798001880211_021-798a8392491723ccd516197975690790-480-0.jpg",
     "url_producto": "productos/grasa-porcina-esani-refinada-500-gr/",
@@ -93344,6 +93432,10 @@
       {
         "fecha": "01/05/2021",
         "precio": 165.9
+      },
+      {
+        "fecha": "12/05/2021",
+        "precio": 194.86
       }
     ]
   },
@@ -93796,6 +93888,104 @@
       {
         "fecha": "10/05/2021",
         "precio": 185.0
+      }
+    ]
+  },
+  {
+    "id": "04878",
+    "nombre": "Aceite De Maiz Arcor 900ml",
+    "precio": 282.3,
+    "rubro": "Productos > Almacén",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-de-maiz-arcor-900-ml-_11-38e425b50a69a1275e16207401714293-480-0.jpg",
+    "url_producto": "productos/aceite-de-maiz-arcor-900-ml/",
+    "historia": [
+      {
+        "fecha": "12/05/2021",
+        "precio": 282.3
+      }
+    ]
+  },
+  {
+    "id": "04879",
+    "nombre": "Arroz Molino Ala Integral 1kg",
+    "precio": 119.9,
+    "rubro": "Productos > Libres de Glúten",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/molinosala-9675-11-92dae58957156d4de316207400742704-480-0.png",
+    "url_producto": "productos/arroz-molino-ala-integral-1-kg/",
+    "historia": [
+      {
+        "fecha": "12/05/2021",
+        "precio": 119.9
+      }
+    ]
+  },
+  {
+    "id": "04880",
+    "nombre": "Azafran Molido Alicante x 2un",
+    "precio": 237.9,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/azafran-alicante-2un-x-2-gr1-fc68c5c1709231f62d16207404951753-480-0.jpg",
+    "url_producto": "productos/azafran-molido-alicante-x-2-un/",
+    "historia": [
+      {
+        "fecha": "12/05/2021",
+        "precio": 237.9
+      }
+    ]
+  },
+  {
+    "id": "04881",
+    "nombre": "Crema Dental Colgate Minions 100gr",
+    "precio": 206.53,
+    "rubro": "Productos > Cuidado Bucal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/minions1-89327ba661003a947a16123899471918-480-0.jpg",
+    "url_producto": "productos/crema-dental-colgate-minions-100gr/",
+    "historia": [
+      {
+        "fecha": "12/05/2021",
+        "precio": 206.53
+      }
+    ]
+  },
+  {
+    "id": "04882",
+    "nombre": "Grasa Vacuna Recreo 500gr",
+    "precio": 103.19,
+    "rubro": "Productos > Harinas, Grasas y Premezclas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/grasa-vacuna-500-dsc_2204-11-b2d9deb951bbb351e616061633381916-480-0.jpg",
+    "url_producto": "productos/grasa-vacuna-recreo-500-gr/",
+    "historia": [
+      {
+        "fecha": "12/05/2021",
+        "precio": 103.19
+      }
+    ]
+  },
+  {
+    "id": "04883",
+    "nombre": "Harina Molto 000 1kg",
+    "precio": 55.9,
+    "rubro": "Productos > Harinas, Grasas y Premezclas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-31-9718a0f68640a660b516207413503467-480-0.png",
+    "url_producto": "productos/harina-molto-000-1-kg/",
+    "historia": [
+      {
+        "fecha": "12/05/2021",
+        "precio": 55.9
+      }
+    ]
+  },
+  {
+    "id": "04884",
+    "nombre": "Sacramentos x Docena",
+    "precio": 420.0,
+    "rubro": "Productos > Panadería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/eu0061-5977b292aca65b4d3316022451127168-480-0.jpg",
+    "url_producto": "productos/sacramentos-x-docena/",
+    "historia": [
+      {
+        "fecha": "12/05/2021",
+        "precio": 420.0
       }
     ]
   }

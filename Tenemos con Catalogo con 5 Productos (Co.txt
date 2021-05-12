@@ -1,0 +1,10 @@
+Tenemos con Catalogo con 5 Productos (Codigo, Descripcion, Precio)
+En cada Punto de Venta podemos Facturar estos productos.
+
+Si se realza dos o mas ventas de un mismo productos solo debe 
+aparece en una Linea de la Factura.
+
+Para anular un producto producto vasta con ingresar una cantidad negativa.
+
+
+.SIN UI

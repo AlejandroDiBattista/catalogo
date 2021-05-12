@@ -1,0 +1,49 @@
+
+class Producto {
+    int Codigo;
+    string Descripcion;
+    double Precio;
+
+    public Producto(int Codigo, string Descripcion, double Precio);
+}
+
+class Catalogo {
+    List<Producto> productos;
+    void Agregar(Producto producto);
+    Producto Buscar(int codigo);
+}
+
+class Factura{
+
+    class Item {
+        Producto producto;
+        int Cantidad;
+        double Importe {get;}
+    }
+
+    int Numero;
+    Catalogo Catalogo;
+    List<Item> items;
+
+    Punto Factura(Catalogo catalogo);
+    void Vender(int codigo, int cantidad);
+    int Articulos {get;};
+    double Total {get;};
+}
+
+class PuntoVenta {
+    List<Factura> facturas;
+
+    Factura Abrir();
+}
+
+void Main(){
+    var pv = new PuntoVenta();
+    var f = pv.Abrir();
+    f.Vender(1, 3);
+    f.Vender(2, 2);
+    f.Vender(1, 3);
+    f.Vender(2,-1);
+
+    WriteLine($"Vendí {f.Articulos} por {f.Total}");
+}
