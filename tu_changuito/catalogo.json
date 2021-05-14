@@ -65407,7 +65407,7 @@
     "id": "03108",
     "nombre": "Agua Glaciar Sin Gas 2lt",
     "precio": 99.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc24241-65917abfdcc656c1b616010430756981-480-0.jpg",
     "url_producto": "productos/agua-glaciar-sin-gas-2-lt/",
     "historia": [
@@ -65535,7 +65535,7 @@
     "id": "03116",
     "nombre": "Agua Mineral Sierra De Los Padres 2lt",
     "precio": 71.3,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sierra-de-los-padres-2-lt1-ab6f3d796f1482e66616001948616487-480-0.jpg",
     "url_producto": "productos/agua-mineral-sierra-de-los-padres-2-l/",
     "historia": [
@@ -66552,7 +66552,7 @@
   {
     "id": "03165",
     "nombre": "Arroz Preparado Gallo Verdeo 240gr",
-    "precio": 145.0,
+    "precio": 150.0,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/arroz-preparado-gallo-sabor-verdeo-x-240-gr1-0e59360ef75b70453116037380840707-480-0.jpg",
     "url_producto": "productos/arroz-preparado-gallo-verdeo-240-gr/",
@@ -66568,6 +66568,10 @@
       {
         "fecha": "08/04/2021",
         "precio": 145.0
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 150.0
       }
     ]
   },
@@ -66797,7 +66801,7 @@
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
     "precio": 490.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
     "historia": [
@@ -66931,7 +66935,7 @@
     "id": "03184",
     "nombre": "Bife Ancho (marucha) x kg (*)",
     "precio": 690.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-ancho1-046e8ec9180bc119ef15988756860268-480-0.jpg",
     "url_producto": "productos/bife-ancho-marucha-x-kg/",
     "historia": [
@@ -66971,7 +66975,7 @@
     "id": "03186",
     "nombre": "Bife De Chorizo Cortado P/ Bife x kg (*)",
     "precio": 870.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-chorizo1-041d9d9fbaf770027115988756952195-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-bifedechorizo/",
     "historia": [
@@ -67029,7 +67033,7 @@
     "id": "03189",
     "nombre": "Bola De Lomo Cortada P/ Milanesa x kg (*)",
     "precio": 910.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-de-lomo1-0432a199844759898f15988757082702-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-boladelomo/",
     "historia": [
@@ -67051,7 +67055,7 @@
     "id": "03190",
     "nombre": "Bola De Lomo Feteada Para Milanesa x kg",
     "precio": 792.9,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-lomo-fet1-44e054598c02eecd9816027207901849-480-0.jpg",
     "url_producto": "productos/bola-de-lomo-feteada-para-milanesa-x-kg/",
     "historia": [
@@ -68820,7 +68824,7 @@
   {
     "id": "03283",
     "nombre": "Empanadas Capresse x 12un",
-    "precio": 440.0,
+    "precio": 600.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-1111-15467ecf4d4b39d61e16034698684247-480-0.jpg",
     "url_producto": "productos/empanadas-capresse-x-12-unidades/",
@@ -68828,6 +68832,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 440.0
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 600.0
       }
     ]
   },
@@ -68848,7 +68856,7 @@
   {
     "id": "03285",
     "nombre": "Empanadas Capresse x 6un",
-    "precio": 220.0,
+    "precio": 310.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-1121-15467ecf4d4b39d61e16034698980636-480-0.jpg",
     "url_producto": "productos/empanadas-capresse-x-6-unidades/",
@@ -68856,13 +68864,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 220.0
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 310.0
       }
     ]
   },
   {
     "id": "03286",
     "nombre": "Empanadas De Carne Picante x 12un",
-    "precio": 440.0,
+    "precio": 600.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-1211-b24f33229cc0c7d4c916034745536965-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-picante-x-12-unidades/",
@@ -68870,6 +68882,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 440.0
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 600.0
       }
     ]
   },
@@ -68890,7 +68906,7 @@
   {
     "id": "03288",
     "nombre": "Empanadas De Carne Picante x 6un",
-    "precio": 220.0,
+    "precio": 310.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-1221-b24f33229cc0c7d4c916034745974293-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-picante-x-6-unidades/",
@@ -68898,13 +68914,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 220.0
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 310.0
       }
     ]
   },
   {
     "id": "03289",
     "nombre": "Empanadas De Carne Suave x 12un",
-    "precio": 440.0,
+    "precio": 600.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-1311-d1ea17d8916eba948416034759752893-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-suave-x-12-unidades/",
@@ -68912,6 +68932,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 440.0
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 600.0
       }
     ]
   },
@@ -68932,7 +68956,7 @@
   {
     "id": "03291",
     "nombre": "Empanadas De Carne Suave x 6un",
-    "precio": 220.0,
+    "precio": 310.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-1321-d1ea17d8916eba948416034760729503-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-suave-x-6-unidades/",
@@ -68940,6 +68964,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 220.0
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 310.0
       }
     ]
   },
@@ -85424,7 +85452,7 @@
   {
     "id": "04319",
     "nombre": "Arroz Gallo Integral 500gr",
-    "precio": 119.99,
+    "precio": 130.0,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/arroz-gallo-integral-500gr1-1652990946a7cbb46216158129045630-480-0.jpg",
     "url_producto": "productos/arroz-gallo-integral-500gr/",
@@ -85432,6 +85460,10 @@
       {
         "fecha": "16/03/2021",
         "precio": 119.99
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 130.0
       }
     ]
   },
@@ -86731,7 +86763,7 @@
     "id": "04402",
     "nombre": "Agua Mineral Eco De Los Andes 1,1lt",
     "precio": 69.9,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-eco-de-los-andes-1-5-lt1-42377148c5137b2d8516170256593525-480-0.jpg",
     "url_producto": "productos/agua-mineral-eco-de-los-andes-1-5-lt/",
     "historia": [
@@ -86784,7 +86816,7 @@
   {
     "id": "04405",
     "nombre": "Papel Hig. Large Felpita 4x80mts",
-    "precio": 299.0,
+    "precio": 235.3,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/papel-hig-large-felpita-4x80mts1-0cbb7f1819e1a2063016170262662511-480-0.jpg",
     "url_producto": "productos/papel-hig-large-felpita-4x80mts/",
@@ -86796,6 +86828,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 299.0
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 235.3
       }
     ]
   },
@@ -88739,7 +88775,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 206.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -88753,7 +88789,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 201.38,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -88826,7 +88862,7 @@
   {
     "id": "04542",
     "nombre": "Acondicionador Pantene Hidratacion Extrema 400ml",
-    "precio": 329.3,
+    "precio": 350.0,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aji-triturado-alicante-50-gr1-be3981b2590c5e392716135694764777-480-0.jpg",
     "url_producto": "productos/acondicionador-pantene-hidratacion-extrema-400-ml/",
@@ -88834,6 +88870,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 329.3
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 350.0
       }
     ]
   },
@@ -88855,7 +88895,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 175.9,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -89514,7 +89554,7 @@
   {
     "id": "04590",
     "nombre": "Arroz Preparado Gallo Queso x 240gr",
-    "precio": 145.0,
+    "precio": 150.0,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/9171671-dbae2d975a8860869b16010437996505-480-0.jpg",
     "url_producto": "productos/arroz-preparado-gallo-queso-x-240-gr/",
@@ -89522,13 +89562,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 145.0
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 150.0
       }
     ]
   },
   {
     "id": "04591",
     "nombre": "Arroz Preparado Gallo Vegetales x 240gr",
-    "precio": 145.0,
+    "precio": 150.0,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/arroz-preparado-gallo-vegetales-x-240-gr-1-4701151-062ccc5f2d2802353b16025233241231-480-0.jpg",
     "url_producto": "productos/arroz-preparado-gallo-vegetales-x-240-gr/",
@@ -89536,6 +89580,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 145.0
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 150.0
       }
     ]
   },
@@ -91490,7 +91538,7 @@
   {
     "id": "04718",
     "nombre": "Empanadas De Pollo x 12un",
-    "precio": 440.0,
+    "precio": 600.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pollo11-1a806d2c3da6685b8616034761937738-480-0.jpg",
     "url_producto": "productos/empanadas-de-pollo-x-12-unidades/",
@@ -91498,13 +91546,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 440.0
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 600.0
       }
     ]
   },
   {
     "id": "04719",
     "nombre": "Empanadas De Pollo x 6un",
-    "precio": 220.0,
+    "precio": 310.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pollo21-1a806d2c3da6685b8616034762203281-480-0.jpg",
     "url_producto": "productos/empanadas-de-pollo-x-6-unidades/",
@@ -91512,6 +91564,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 220.0
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 310.0
       }
     ]
   },
@@ -92228,7 +92284,7 @@
   {
     "id": "04763",
     "nombre": "Lámpara Osram Led Fria 14 Wt",
-    "precio": 219.51,
+    "precio": 219.55,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2589221-bfaf4c9394f259deb115990926302752-480-0.jpg",
     "url_producto": "productos/lampara-osram-led-fria-14-wt/",
@@ -92240,6 +92296,10 @@
       {
         "fecha": "12/05/2021",
         "precio": 219.51
+      },
+      {
+        "fecha": "14/05/2021",
+        "precio": 219.55
       }
     ]
   },
@@ -93273,7 +93333,7 @@
     "id": "04831",
     "nombre": "Aceite Natura Aerosol Oliva 120cc",
     "precio": 225.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2226811-b95a4d51d255e5b71015988859030275-480-0.jpg",
     "url_producto": "productos/ac-natura-aero-oliva-120-cc/",
     "historia": [
@@ -94164,6 +94224,328 @@
       {
         "fecha": "13/05/2021",
         "precio": 52.5
+      }
+    ]
+  },
+  {
+    "id": "04894",
+    "nombre": "Alcohol En Gel San Inginio 250cc",
+    "precio": 150.0,
+    "rubro": "Productos > Limpieza en General",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/alcohol-en-gel-san-inginio-250cc/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 150.0
+      }
+    ]
+  },
+  {
+    "id": "04895",
+    "nombre": "Alcohol Etilico San Inginio 96% 500ml",
+    "precio": 110.0,
+    "rubro": "Productos > Limpieza en General",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/alcohol-etilico-san-inginio-96-500ml/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 110.0
+      }
+    ]
+  },
+  {
+    "id": "04896",
+    "nombre": "Alcohol Etilico San Inginio 96% Bidon 5lt",
+    "precio": 1.0,
+    "rubro": "Productos > Limpieza en General",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/alcohol-etilico-san-inginio-96-bidon-5lt/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 1.0
+      }
+    ]
+  },
+  {
+    "id": "04897",
+    "nombre": "Antitranspirante Femenino Nivea Black & White Clear 150ml",
+    "precio": 165.9,
+    "rubro": "Productos > Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/189681-522b582abca8d6e32f15990681441892-480-0.jpg",
+    "url_producto": "productos/ant-fem-nivea-inv-byw-cle-150-ml/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 165.9
+      }
+    ]
+  },
+  {
+    "id": "04898",
+    "nombre": "Bowl Corona",
+    "precio": 540.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/bowl-corona/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 540.0
+      }
+    ]
+  },
+  {
+    "id": "04899",
+    "nombre": "Cucharita Carol De Te 6un",
+    "precio": 250.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/cucharita-carol-de-te-6-un/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 250.0
+      }
+    ]
+  },
+  {
+    "id": "04900",
+    "nombre": "Cuchillo Carol Skin 12un",
+    "precio": 790.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/cuchillo-carol-skin-12un/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 790.0
+      }
+    ]
+  },
+  {
+    "id": "04901",
+    "nombre": "Edulcorante Hileret 1 A 10 500 Sobres",
+    "precio": 566.28,
+    "rubro": "Productos > Azúcar y Edulcorantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/162931-70a071efe76892b4f415990676623460-480-0.jpg",
+    "url_producto": "productos/edulc-hileret-1-a-10-500-so/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 566.28
+      }
+    ]
+  },
+  {
+    "id": "04902",
+    "nombre": "Empanadas De Humita x 12un",
+    "precio": 600.0,
+    "rubro": "Productos > Empanadas Tucumanas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/empanadas-de-humita-x-12-unidades/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 600.0
+      }
+    ]
+  },
+  {
+    "id": "04903",
+    "nombre": "Empanadas De Humita x 6un",
+    "precio": 310.0,
+    "rubro": "Productos > Empanadas Tucumanas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/empanadas-de-humita-x-6-unidades/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 310.0
+      }
+    ]
+  },
+  {
+    "id": "04904",
+    "nombre": "Empanadas De Jamon y Queso x 12un",
+    "precio": 600.0,
+    "rubro": "Productos > Empanadas Tucumanas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/empanadas-de-jamon-y-queso-x-12-unidades/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 600.0
+      }
+    ]
+  },
+  {
+    "id": "04905",
+    "nombre": "Empanadas De Jamon y Queso x 6un",
+    "precio": 310.0,
+    "rubro": "Productos > Empanadas Tucumanas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/empanadas-de-jamon-y-queso-x-6-unidades/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 310.0
+      }
+    ]
+  },
+  {
+    "id": "04906",
+    "nombre": "Fideos La Tucumanita Tallarin Clásicos 500gr",
+    "precio": 77.9,
+    "rubro": "Productos > LA TUCUMANITA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico1-0c781d88162a97e7af16209183187781-480-0.jpg",
+    "url_producto": "productos/fideos-la-tucumanita-tallarin-clasicos-500-gr/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 77.9
+      }
+    ]
+  },
+  {
+    "id": "04907",
+    "nombre": "Fideos La Tucumanita Tallarin Verdura 500gr",
+    "precio": 77.9,
+    "rubro": "Productos > LA TUCUMANITA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-11-6ab1096d4afe93399a16209183527029-480-0.jpg",
+    "url_producto": "productos/fideos-la-tucumanita-tallarin-verdura-500-gr/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 77.9
+      }
+    ]
+  },
+  {
+    "id": "04908",
+    "nombre": "Hamburguesas Paladini Clasicas 160gr . 2un",
+    "precio": 159.9,
+    "rubro": "Productos > Hamburguesas y Milanesas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/hamburguesas-paladini-clasicas-160-gr-2-un/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 159.9
+      }
+    ]
+  },
+  {
+    "id": "04909",
+    "nombre": "Mate Hudson Vidrio",
+    "precio": 510.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/mate-hudson-vidrio/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 510.0
+      }
+    ]
+  },
+  {
+    "id": "04910",
+    "nombre": "Mayonesa Hellmann's Suave Doypack 242gr",
+    "precio": 58.1,
+    "rubro": "Productos > Aderezos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/197861-0f7a1914ca6011e82116001848225900-480-0.jpg",
+    "url_producto": "productos/may-hellmanns-suave-d-p-242-gr/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 58.1
+      }
+    ]
+  },
+  {
+    "id": "04911",
+    "nombre": "Mortadela Lario 320gr",
+    "precio": 175.0,
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mortadelalario1-625a1eebfbcc361a8a16198110432966-480-0.jpg",
+    "url_producto": "productos/mortadela-lario-320-gr/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 175.0
+      }
+    ]
+  },
+  {
+    "id": "04912",
+    "nombre": "Noquis La Tucumanita 500gr",
+    "precio": 85.9,
+    "rubro": "Productos > LA TUCUMANITA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-13t115037-3221-c09dd4a88eb616857716209174632905-480-0.jpg",
+    "url_producto": "productos/noquis-la-tucumanita-500-gr/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 85.9
+      }
+    ]
+  },
+  {
+    "id": "04913",
+    "nombre": "Ravioles La Tucumanita Pollo y Verdura 500gr",
+    "precio": 75.9,
+    "rubro": "Productos > LA TUCUMANITA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-13t114635-6951-2244f56ce0fb2bdac316209172155504-480-0.jpg",
+    "url_producto": "productos/ravioles-la-tucumanita-pollo-y-verdura-500-gr/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 75.9
+      }
+    ]
+  },
+  {
+    "id": "04914",
+    "nombre": "Tenedor Carol Skin 12un",
+    "precio": 700.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/tenedor-carol-skin-12un/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 700.0
+      }
+    ]
+  },
+  {
+    "id": "04915",
+    "nombre": "Tupper Colombraro Rectangular 3lt",
+    "precio": 590.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/tupper-colombraro-rectangular-3lt/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 590.0
+      }
+    ]
+  },
+  {
+    "id": "04916",
+    "nombre": "Tupper Colombraro Redondo",
+    "precio": 200.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/tupper-colombraro-redondo/",
+    "historia": [
+      {
+        "fecha": "14/05/2021",
+        "precio": 200.0
       }
     ]
   }
