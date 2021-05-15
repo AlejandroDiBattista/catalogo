@@ -282,6 +282,10 @@ class Catalogo
 	end
 end
 
+puts `git add .`
+puts `git commit -m "Automatico"`
+puts `git push`
+return 
 if __FILE__ == $0
 	medir "Cargando TODO (full)" do 
 		bases = [ :tatito, :jumbo, :maxiconsumo, :tu_changuito]
