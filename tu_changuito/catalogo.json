@@ -64842,8 +64842,8 @@
   {
     "id": "03078",
     "nombre": "Aceite Cañuelas Oliva Intenso 500cc",
-    "precio": 413.26,
-    "rubro": "Productos > Aceites y Vinagres",
+    "precio": 415.0,
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220311-58116916046af9b3e315988111926122-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-in-pet-500-cc/",
     "historia": [
@@ -64866,14 +64866,18 @@
       {
         "fecha": "23/04/2021",
         "precio": 413.26
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 415.0
       }
     ]
   },
   {
     "id": "03079",
     "nombre": "Aceite Cañuelas Oliva Suave 500cc",
-    "precio": 413.26,
-    "rubro": "Productos > Aceites y Vinagres",
+    "precio": 415.0,
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220301-333f3a18318b80229215988119589449-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-su-pet-500-cc/",
     "historia": [
@@ -64892,6 +64896,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 413.26
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 415.0
       }
     ]
   },
@@ -64899,7 +64907,7 @@
     "id": "03080",
     "nombre": "Aceite Cocinero Girasol 1,5lt",
     "precio": 299.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-girasol-cocinero-1-5-l1-70562c7e06c6ba7e9b16057061476408-480-0.jpg",
     "url_producto": "productos/ac-cocinero-girasol-1-5-lt/",
     "historia": [
@@ -64957,7 +64965,7 @@
     "id": "03083",
     "nombre": "Aceite Natura Aerosol 120cc",
     "precio": 199.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1871-8683f744226524a40215988124512148-480-0.jpg",
     "url_producto": "productos/ac-natura-aero-120-cc/",
     "historia": [
@@ -65136,7 +65144,7 @@
   {
     "id": "03093",
     "nombre": "Aceitunas Nucete Verde Rellenas Frasco 200gr",
-    "precio": 111.9,
+    "precio": 125.0,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/432441-70fc9290193200014215988137509715-480-0.jpg",
     "url_producto": "productos/aceit-nucete-vde-rel-fco-200-gr/",
@@ -65144,6 +65152,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 111.9
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 125.0
       }
     ]
   },
@@ -67104,7 +67116,7 @@
   {
     "id": "03193",
     "nombre": "Bon O Bon Blanco 15gr",
-    "precio": 19.9,
+    "precio": 20.6,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77961815-500x5001-f6e7bf2657a75010bb16131325297304-480-0.jpg",
     "url_producto": "productos/bon-o-bon-blanco-15-gr/",
@@ -67112,6 +67124,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 19.9
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 20.6
       }
     ]
   },
@@ -68598,7 +68614,7 @@
   {
     "id": "03272",
     "nombre": "Dulce De Leche La Serenísima Estilo Colonial 400gr",
-    "precio": 214.49,
+    "precio": 171.6,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164351-5307375b6657829ebb15989689751328-480-0.jpg",
     "url_producto": "productos/d-leche-l-serenis-est-col-cal-400-gr/",
@@ -68614,6 +68630,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 214.49
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 171.6
       }
     ]
   },
@@ -71990,7 +72010,7 @@
   {
     "id": "03450",
     "nombre": "Limpiador Mr. Musculo Baño Dp 450ml",
-    "precio": 79.89,
+    "precio": 85.0,
     "rubro": "Productos > Limpieza de Baño",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/unnamed-51-63b5efb44efd821aa916120132557831-480-0.jpg",
     "url_producto": "productos/limpiador-mr-musculo-bano-dp-450-ml/",
@@ -72006,6 +72026,10 @@
       {
         "fecha": "13/05/2021",
         "precio": 79.89
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 85.0
       }
     ]
   },
@@ -77677,7 +77701,7 @@
     "id": "03767",
     "nombre": "Aceite Natura Girasol 1,5lt",
     "precio": 309.27,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1241-124ae2fb728b35be9415988859531149-480-0.jpg",
     "url_producto": "productos/ac-natura-girasol-pvc-1-5-lt/",
     "historia": [
@@ -86548,7 +86572,7 @@
   {
     "id": "04343",
     "nombre": "Bon O Bon Leche 15gr",
-    "precio": 19.9,
+    "precio": 20.6,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77919373-bombon-con-crema-cacahuete-arcor-16-gr-500x5001-84f6149c0e992d4c4116131327471634-480-0.jpg",
     "url_producto": "productos/bon-o-bon-leche-15-gr/",
@@ -86556,6 +86580,10 @@
       {
         "fecha": "20/03/2021",
         "precio": 19.9
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 20.6
       }
     ]
   },
@@ -86672,7 +86700,7 @@
   {
     "id": "04351",
     "nombre": "Jabon Liquido Lysoform Refresh Repuesto 220cc",
-    "precio": 149.5,
+    "precio": 160.0,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/jabon-liquido-lysoform-refresh-repuesto-220-cc1-9916089409a7cb2c5116162479782687-480-0.jpg",
     "url_producto": "productos/jabon-liquido-lysoform-refresh-repuesto-220-cc/",
@@ -86680,6 +86708,10 @@
       {
         "fecha": "21/03/2021",
         "precio": 149.5
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 160.0
       }
     ]
   },
@@ -89255,7 +89287,7 @@
     "id": "04522",
     "nombre": "Aceite Cocinero Girasol Aerosol Fritolim 120gr",
     "precio": 162.5,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-fritolim-clasico-aero-x-120-gr1-f5e8fe909d0153ff1a16173998650258-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-aerosol-fritolim-120-gr/",
     "historia": [
@@ -89269,7 +89301,7 @@
     "id": "04523",
     "nombre": "Aceite Cocinero Girasol Plus 900ml ,",
     "precio": 235.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-cocinero-plus-girasol-900-cc-aceite-cocinero-plus-girasol-900-cc-1-103591-7528dceaf14701133616122925497462-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-plus-900-ml/",
     "historia": [
@@ -89347,7 +89379,7 @@
     "id": "04528",
     "nombre": "Aceite Marolio Oliva Extra Vigen 250ml",
     "precio": 214.37,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-marolio-oliva-extra-vigen-250-ml1-3038186d714e3b961d16166770821623-480-0.jpg",
     "url_producto": "productos/aceite-marolio-oliva-extra-vigen-250-ml/",
     "historia": [
@@ -89365,7 +89397,7 @@
     "id": "04529",
     "nombre": "Aceite Molto Aerosol Girasol 120gr",
     "precio": 181.9,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-girasol-120-gr1-0f4f22f12ab2f8c4f616107361697969-480-0.png",
     "url_producto": "productos/aceite-molto-aerosol-girasol-120-gr/",
     "historia": [
@@ -89379,7 +89411,7 @@
     "id": "04530",
     "nombre": "Aceite Molto Aerosol Oliva 120gr",
     "precio": 226.07,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-oliva-120-gr1-f32df6961224a0228316088226786698-480-0.jpg",
     "url_producto": "productos/aceite-molto-aerosol-oliva-120-gr/",
     "historia": [
@@ -89456,7 +89488,7 @@
   {
     "id": "04535",
     "nombre": "Acondicionador Elvive Kera Liso 400ml",
-    "precio": 386.09,
+    "precio": 460.0,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/210721-ac9ddab487a4ae562516043400249425-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-kera-liso-400-ml/",
@@ -89464,6 +89496,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 386.09
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 460.0
       }
     ]
   },
@@ -89471,7 +89507,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 206.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -89485,7 +89521,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 201.38,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -89591,7 +89627,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 175.9,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -91162,7 +91198,7 @@
   {
     "id": "04648",
     "nombre": "Café Dolce Gusto Cappuccino 188gr",
-    "precio": 599.0,
+    "precio": 650.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/221321-b45397230e2afaf84b16001830983243-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-cappuccino-188-gr/",
@@ -91170,13 +91206,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 599.0
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 650.0
       }
     ]
   },
   {
     "id": "04649",
     "nombre": "Café Dolce Gusto Espresso 96gr",
-    "precio": 639.0,
+    "precio": 650.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/221361-274e852debe3c4546816001831478827-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-espresso-96-gr/",
@@ -91184,6 +91224,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 639.0
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 650.0
       }
     ]
   },
@@ -92132,7 +92176,7 @@
   {
     "id": "04711",
     "nombre": "Dulce De Leche La Serenísima Clásico Pote 400gr",
-    "precio": 135.0,
+    "precio": 140.0,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8733701-9e7d5c994df2c0340716010380180646-480-0.jpg",
     "url_producto": "productos/dulce-de-leche-la-serenisima-clasico-pote-400-gr/",
@@ -92140,6 +92184,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 135.0
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 140.0
       }
     ]
   },
@@ -92604,7 +92652,7 @@
   {
     "id": "04741",
     "nombre": "Insecticida Fuyi Mata Moscas y Mosquitos 360cc",
-    "precio": 185.77,
+    "precio": 190.0,
     "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/12101-02c29626e2f21e3b4516008656178880-480-0.jpg",
     "url_producto": "productos/insecticida-fuyi-mata-moscas-y-mosquitos-360-cc/",
@@ -92620,6 +92668,10 @@
       {
         "fecha": "04/05/2021",
         "precio": 185.77
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 190.0
       }
     ]
   },
@@ -94029,7 +94081,7 @@
     "id": "04831",
     "nombre": "Aceite Natura Aerosol Oliva 120cc",
     "precio": 225.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2226811-b95a4d51d255e5b71015988859030275-480-0.jpg",
     "url_producto": "productos/ac-natura-aero-oliva-120-cc/",
     "historia": [
@@ -94190,7 +94242,7 @@
   {
     "id": "04842",
     "nombre": "Cafe Dolce Gusto Cortado 100gr",
-    "precio": 560.0,
+    "precio": 645.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7613032396350_011-7fe3edf8e6efe58aea16070854409637-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-cortado-100-gr/",
@@ -94198,6 +94250,10 @@
       {
         "fecha": "01/05/2021",
         "precio": 560.0
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 645.0
       }
     ]
   },
@@ -94296,7 +94352,7 @@
   {
     "id": "04849",
     "nombre": "Alfajor Tatin Triple Blanco 60gr",
-    "precio": 31.9,
+    "precio": 38.0,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/01785511-5734114feefb8c7d9316200466672029-480-0.jpeg",
     "url_producto": "productos/alfajor-tatin-triple-blanco-60-gr/",
@@ -94304,13 +94360,17 @@
       {
         "fecha": "04/05/2021",
         "precio": 31.9
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 38.0
       }
     ]
   },
   {
     "id": "04850",
     "nombre": "Alfajor Tatin Triple Negro 60gr",
-    "precio": 31.9,
+    "precio": 38.0,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tatintriplenegro60g-416x4161-8af14fd5f49772b22816200467458711-480-0.jpg",
     "url_producto": "productos/alfajor-tatin-triple-negro-60-gr/",
@@ -94318,6 +94378,10 @@
       {
         "fecha": "04/05/2021",
         "precio": 31.9
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 38.0
       }
     ]
   },
@@ -94703,7 +94767,7 @@
     "id": "04878",
     "nombre": "Aceite De Maiz Arcor 900ml",
     "precio": 282.3,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-de-maiz-arcor-900-ml-_11-38e425b50a69a1275e16207401714293-480-0.jpg",
     "url_producto": "productos/aceite-de-maiz-arcor-900-ml/",
     "historia": [
@@ -95192,7 +95256,7 @@
   {
     "id": "04913",
     "nombre": "Ravioles La Tucumanita Pollo y Verdura 500gr",
-    "precio": 75.9,
+    "precio": 80.0,
     "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-13t114635-6951-2244f56ce0fb2bdac316209172155504-480-0.jpg",
     "url_producto": "productos/ravioles-la-tucumanita-pollo-y-verdura-500-gr/",
@@ -95200,6 +95264,10 @@
       {
         "fecha": "14/05/2021",
         "precio": 75.9
+      },
+      {
+        "fecha": "16/05/2021",
+        "precio": 80.0
       }
     ]
   },
@@ -101752,6 +101820,328 @@
       {
         "fecha": "15/05/2021",
         "precio": 376.86
+      }
+    ]
+  },
+  {
+    "id": "05382",
+    "nombre": "Alcohol En Gel San Inginio 250cc",
+    "precio": 150.0,
+    "rubro": "Productos > Limpieza en General",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-121-210a67bc314a1bd1b416210186363721-480-0.jpg",
+    "url_producto": "productos/alcohol-en-gel-san-inginio-250cc/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 150.0
+      }
+    ]
+  },
+  {
+    "id": "05383",
+    "nombre": "Alcohol Etilico San Inginio 96% 500ml",
+    "precio": 110.0,
+    "rubro": "Productos > Limpieza en General",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/113451-d20e7508627c70064f16045946566300-1024-10241-5aa8b5d354e6778afa16210185171760-480-0.jpg",
+    "url_producto": "productos/alcohol-etilico-san-inginio-96-500ml/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 110.0
+      }
+    ]
+  },
+  {
+    "id": "05384",
+    "nombre": "Alcohol Etilico San Inginio 96% Bidon 5lt",
+    "precio": 1.0,
+    "rubro": "Productos > Limpieza en General",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-111-41a60dca3e8cb766cc16210184568062-480-0.jpg",
+    "url_producto": "productos/alcohol-etilico-san-inginio-96-bidon-5lt/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 1.0
+      }
+    ]
+  },
+  {
+    "id": "05385",
+    "nombre": "Alfajor Bon O Bon Blanco 40gr",
+    "precio": 50.0,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/alfajor-bon-o-bon-blanco-40gr/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 50.0
+      }
+    ]
+  },
+  {
+    "id": "05386",
+    "nombre": "Biscuits Tia Maruca 140gr",
+    "precio": 89.9,
+    "rubro": "Productos > Galletas y Cereales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-131-490d82e290ff4f96bb16210188517869-480-0.jpg",
+    "url_producto": "productos/biscuits-tia-maruca-140-gr/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 89.9
+      }
+    ]
+  },
+  {
+    "id": "05387",
+    "nombre": "Bolsas Ziploc Cierre Deslizable 20un",
+    "precio": 199.0,
+    "rubro": "Productos > Limpieza de Cocina",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-141-1046657f901b8319a316210191235977-480-0.jpg",
+    "url_producto": "productos/bolsas-ziploc-cierre-deslizable-20-un/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 199.0
+      }
+    ]
+  },
+  {
+    "id": "05388",
+    "nombre": "Bombón Garoto 250gr",
+    "precio": 300.0,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/31001-98c2ee16bc05092a5215988346070697-480-0.jpg",
+    "url_producto": "productos/bombon-garoto-250-gr/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 300.0
+      }
+    ]
+  },
+  {
+    "id": "05389",
+    "nombre": "Bowl Corona",
+    "precio": 540.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-101-74e546c99e05fcd63e16210182597040-480-0.jpg",
+    "url_producto": "productos/bowl-corona/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 540.0
+      }
+    ]
+  },
+  {
+    "id": "05390",
+    "nombre": "Chocolate Nutella 350gr",
+    "precio": 408.82,
+    "rubro": "Productos > Postres y Repostería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/239031-50a6c8f6f8da4942b416008053594172-480-0.jpg",
+    "url_producto": "productos/chocolate-nutella-350-gr/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 408.82
+      }
+    ]
+  },
+  {
+    "id": "05391",
+    "nombre": "Cucharita Carol De Te 6un",
+    "precio": 250.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-81-4a80eeb2bfca6739fc16210132111401-480-0.jpg",
+    "url_producto": "productos/cucharita-carol-de-te-6-un/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 250.0
+      }
+    ]
+  },
+  {
+    "id": "05392",
+    "nombre": "Cuchillo Carol Skin 12un",
+    "precio": 790.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-41-29ef2218f62dcbbe2216210108371937-480-0.jpg",
+    "url_producto": "productos/cuchillo-carol-skin-12un/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 790.0
+      }
+    ]
+  },
+  {
+    "id": "05393",
+    "nombre": "Desinfectante Lysoform Flutal 360cc",
+    "precio": 175.0,
+    "rubro": "Productos > Desinfectantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/216471-cb87a1fc3fba0cee0f15989755538422-480-0.jpg",
+    "url_producto": "productos/desinfectante-lysoform-flutal-360-cc/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 175.0
+      }
+    ]
+  },
+  {
+    "id": "05394",
+    "nombre": "Empanadas De Humita x 12un",
+    "precio": 600.0,
+    "rubro": "Productos > Empanadas Tucumanas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sin-titulo11-a4212e2757f031c92716210097056064-480-0.jpg",
+    "url_producto": "productos/empanadas-de-humita-x-12-unidades/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 600.0
+      }
+    ]
+  },
+  {
+    "id": "05395",
+    "nombre": "Empanadas De Humita x 6un",
+    "precio": 310.0,
+    "rubro": "Productos > Empanadas Tucumanas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sin-titulo21-a4212e2757f031c92716210097579663-480-0.jpg",
+    "url_producto": "productos/empanadas-de-humita-x-6-unidades/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 310.0
+      }
+    ]
+  },
+  {
+    "id": "05396",
+    "nombre": "Empanadas De Jamon y Queso x 12un",
+    "precio": 600.0,
+    "rubro": "Productos > Empanadas Tucumanas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sin-titulo1-cb86f19b1f128d04ea16210078843779-480-0.jpg",
+    "url_producto": "productos/empanadas-de-jamon-y-queso-x-12-unidades/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 600.0
+      }
+    ]
+  },
+  {
+    "id": "05397",
+    "nombre": "Empanadas De Jamon y Queso x 6un",
+    "precio": 310.0,
+    "rubro": "Productos > Empanadas Tucumanas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-311-d88afeb00fc6efb23416210095290606-480-0.jpg",
+    "url_producto": "productos/empanadas-de-jamon-y-queso-x-6-unidades/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 310.0
+      }
+    ]
+  },
+  {
+    "id": "05398",
+    "nombre": "Hamburguesas Paladini Clasicas 160gr . 2un",
+    "precio": 159.9,
+    "rubro": "Productos > Hamburguesas y Milanesas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3361407_f1-bdc0a22fd001ed95d816210072392693-480-0.jpg",
+    "url_producto": "productos/hamburguesas-paladini-clasicas-160-gr-2-un/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 159.9
+      }
+    ]
+  },
+  {
+    "id": "05399",
+    "nombre": "Mate Hudson Vidrio",
+    "precio": 510.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-91-77922bde65f8f829f016210181462825-480-0.jpg",
+    "url_producto": "productos/mate-hudson-vidrio/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 510.0
+      }
+    ]
+  },
+  {
+    "id": "05400",
+    "nombre": "Pascualinas La Tucumanita Criolla 300gr",
+    "precio": 70.0,
+    "rubro": "Productos > LA TUCUMANITA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-21-a038196102af88b0d516210067568338-480-0.jpg",
+    "url_producto": "productos/pascualinas-la-tucumanita-criolla-300-gr/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 70.0
+      }
+    ]
+  },
+  {
+    "id": "05401",
+    "nombre": "Tapas Empanadas La Tucumanita Criolla x 12un",
+    "precio": 55.0,
+    "rubro": "Productos > LA TUCUMANITA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-31-d88afeb00fc6efb23416210094328645-480-0.jpg",
+    "url_producto": "productos/tapas-empanadas-la-tucumanita-criolla-x-12-un/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 55.0
+      }
+    ]
+  },
+  {
+    "id": "05402",
+    "nombre": "Tenedor Carol Skin 12un",
+    "precio": 700.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-71-7a0e59038c43f1d2a716210119165718-480-0.jpg",
+    "url_producto": "productos/tenedor-carol-skin-12un/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 700.0
+      }
+    ]
+  },
+  {
+    "id": "05403",
+    "nombre": "Tupper Colombraro Rectangular 3lt",
+    "precio": 590.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-61-0ebaaf83624521ed2d16210111229183-480-0.jpg",
+    "url_producto": "productos/tupper-colombraro-rectangular-3lt/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 590.0
+      }
+    ]
+  },
+  {
+    "id": "05404",
+    "nombre": "Tupper Colombraro Redondo",
+    "precio": 200.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-51-dcddce748f7e49035416210109741388-480-0.jpg",
+    "url_producto": "productos/tupper-colombraro-redondo/",
+    "historia": [
+      {
+        "fecha": "16/05/2021",
+        "precio": 200.0
       }
     ]
   }
