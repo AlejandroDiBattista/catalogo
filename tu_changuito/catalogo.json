@@ -64951,7 +64951,7 @@
     "id": "03082",
     "nombre": "Aceite Johnsons Normal 200cc",
     "precio": 332.9,
-    "rubro": "Productos > Pañales y Bebés",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/431671-fa546b27adfb75192315988123852783-480-0.jpg",
     "url_producto": "productos/ac-j-y-j-normal-200-cc/",
     "historia": [
@@ -65285,7 +65285,7 @@
     "id": "03101",
     "nombre": "Acondicionador Dove Hidratación Intensa 400ml",
     "precio": 376.86,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134081-617c0210c3c9ec52d915989073595026-480-0.jpg",
     "url_producto": "productos/acond-dove-hidrat-int-400-ml/",
     "historia": [
@@ -65307,7 +65307,7 @@
     "id": "03102",
     "nombre": "Acondicionador Dove Reconstrución Completa 400ml",
     "precio": 376.86,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134091-e88b3763692fc3fd0415989073970501-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-400-ml/",
     "historia": [
@@ -65419,7 +65419,7 @@
     "id": "03108",
     "nombre": "Agua Glaciar Sin Gas 2lt",
     "precio": 99.0,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc24241-65917abfdcc656c1b616010430756981-480-0.jpg",
     "url_producto": "productos/agua-glaciar-sin-gas-2-lt/",
     "historia": [
@@ -65547,7 +65547,7 @@
     "id": "03116",
     "nombre": "Agua Mineral Sierra De Los Padres 2lt",
     "precio": 71.3,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sierra-de-los-padres-2-lt1-ab6f3d796f1482e66616001948616487-480-0.jpg",
     "url_producto": "productos/agua-mineral-sierra-de-los-padres-2-l/",
     "historia": [
@@ -65561,7 +65561,7 @@
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
     "precio": 155.9,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -66964,7 +66964,7 @@
   {
     "id": "03185",
     "nombre": "Bife Angosto x kg",
-    "precio": 910.0,
+    "precio": 945.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
@@ -66980,6 +66980,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 910.0
+      },
+      {
+        "fecha": "18/05/2021",
+        "precio": 945.0
       }
     ]
   },
@@ -67968,7 +67972,7 @@
   {
     "id": "03239",
     "nombre": "Churrasquito De Cerdo x kg",
-    "precio": 570.0,
+    "precio": 600.0,
     "rubro": "Productos > Carnes de Cerdo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/131-d094f040c89765e46c16022708719512-480-0.jpg",
     "url_producto": "productos/churrasquito-de-cerdo-x-kg/",
@@ -67980,6 +67984,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 570.0
+      },
+      {
+        "fecha": "18/05/2021",
+        "precio": 600.0
       }
     ]
   },
@@ -68132,7 +68140,7 @@
   {
     "id": "03249",
     "nombre": "Costilla De Novillo x kg",
-    "precio": 695.37,
+    "precio": 750.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/costilla1-5aa1363e9728dcd1bb16027208333800-480-0.png",
     "url_producto": "productos/costilla-de-novillo-x-kg/",
@@ -68148,6 +68156,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 695.37
+      },
+      {
+        "fecha": "18/05/2021",
+        "precio": 750.0
       }
     ]
   },
@@ -69132,7 +69144,7 @@
   {
     "id": "03301",
     "nombre": "Entraña x kg",
-    "precio": 1.05,
+    "precio": 1.1,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/entrana1-63782353e1918bb94216027208807855-480-0.jpg",
     "url_producto": "productos/entrana-x-kg/",
@@ -69148,6 +69160,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 1.05
+      },
+      {
+        "fecha": "18/05/2021",
+        "precio": 1.1
       }
     ]
   },
@@ -69572,7 +69588,7 @@
   {
     "id": "03323",
     "nombre": "Filet x kg",
-    "precio": 1.02,
+    "precio": 1.11,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/jrb1-a50223f72a8c46831416023459185263-480-0.jpg",
     "url_producto": "productos/filet-x-kg/",
@@ -69584,6 +69600,10 @@
       {
         "fecha": "08/04/2021",
         "precio": 1.02
+      },
+      {
+        "fecha": "18/05/2021",
+        "precio": 1.11
       }
     ]
   },
@@ -72290,7 +72310,7 @@
   {
     "id": "03466",
     "nombre": "Matambre x kg",
-    "precio": 780.0,
+    "precio": 790.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/matambre1-f3ebb76d5a9f5751bf16027223150982-480-0.jpg",
     "url_producto": "productos/matambre-x-kg/",
@@ -72302,6 +72322,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 780.0
+      },
+      {
+        "fecha": "18/05/2021",
+        "precio": 790.0
       }
     ]
   },
@@ -72948,7 +72972,7 @@
   {
     "id": "03501",
     "nombre": "Mollejas x kg",
-    "precio": 780.0,
+    "precio": 810.0,
     "rubro": "Productos > Achuras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/71-d916418cb1bec6337716022712668922-480-0.jpg",
     "url_producto": "productos/mollejas-x-kg/",
@@ -72964,6 +72988,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 780.0
+      },
+      {
+        "fecha": "18/05/2021",
+        "precio": 810.0
       }
     ]
   },
@@ -74631,7 +74659,7 @@
     "id": "03592",
     "nombre": "Pure Molto Tetrapack Recart. 340gr",
     "precio": 51.88,
-    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184051-1b45c91f24db6cd4e115992494299462-480-0.jpg",
     "url_producto": "productos/pure-molto-tetrapack-recart-340-gr/",
     "historia": [
@@ -87408,7 +87436,7 @@
   {
     "id": "04397",
     "nombre": "Jamón Cocido Feteado Paladini 200gr",
-    "precio": 214.0,
+    "precio": 220.0,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/204351-6593dfae1b24ee663016025191358628-480-0.jpg",
     "url_producto": "productos/jamon-cocido-feteado-paladini-200-gr/",
@@ -87428,6 +87456,10 @@
       {
         "fecha": "07/05/2021",
         "precio": 214.0
+      },
+      {
+        "fecha": "18/05/2021",
+        "precio": 220.0
       }
     ]
   },
@@ -88962,7 +88994,7 @@
   {
     "id": "04500",
     "nombre": "Morcilla \"la Angelita\" Criolla x 500gr",
-    "precio": 650.0,
+    "precio": 325.0,
     "rubro": "Productos > Embutidos La Angelita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/morsilla1-10758386ced34cddfa16182428909590-480-0.jpg",
     "url_producto": "productos/morcilla-la-angelita-criolla-x-500gr/",
@@ -88970,13 +89002,17 @@
       {
         "fecha": "13/04/2021",
         "precio": 650.0
+      },
+      {
+        "fecha": "18/05/2021",
+        "precio": 325.0
       }
     ]
   },
   {
     "id": "04501",
     "nombre": "Morcilla \"la Angelita\" Vasca x 500gr",
-    "precio": 650.0,
+    "precio": 325.0,
     "rubro": "Productos > Embutidos La Angelita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/morsilla11-10758386ced34cddfa16182429196956-480-0.jpg",
     "url_producto": "productos/morcilla-la-angelita-vasca-x-500gr/",
@@ -88984,6 +89020,10 @@
       {
         "fecha": "13/04/2021",
         "precio": 650.0
+      },
+      {
+        "fecha": "18/05/2021",
+        "precio": 325.0
       }
     ]
   },
@@ -89351,7 +89391,7 @@
     "id": "04526",
     "nombre": "Aceite Johnsons Aloe 100cc",
     "precio": 198.91,
-    "rubro": "Productos > Pañales y Bebés",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/431661-54cb8053c8e26f8f1215988121013699-480-0.jpg",
     "url_producto": "productos/ac-j-y-j-aloe-100-cc/",
     "historia": [
@@ -89365,7 +89405,7 @@
     "id": "04527",
     "nombre": "Aceite Johnsons Normal 100cc",
     "precio": 198.91,
-    "rubro": "Productos > Pañales y Bebés",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/4316511-2b63c817738d30fad415989741905143-480-0.jpg",
     "url_producto": "productos/ac-j-y-j-normal-100-cc/",
     "historia": [
@@ -89453,7 +89493,7 @@
     "id": "04533",
     "nombre": "Acondiciónador Dove Oleo Nutrición 750ml",
     "precio": 675.87,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237691-584193fa5c876aef5015990691178020-480-0.jpg",
     "url_producto": "productos/acond-dove-oleo-nutric-750-ml/",
     "historia": [
@@ -89471,7 +89511,7 @@
     "id": "04534",
     "nombre": "Acondiciónador Dove Reconstrución Completa 750ml",
     "precio": 675.87,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237681-a13f3137e67435676715990691033096-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-750-ml/",
     "historia": [
@@ -89489,7 +89529,7 @@
     "id": "04535",
     "nombre": "Acondicionador Elvive Kera Liso 400ml",
     "precio": 460.0,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/210721-ac9ddab487a4ae562516043400249425-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-kera-liso-400-ml/",
     "historia": [
@@ -89535,7 +89575,7 @@
     "id": "04538",
     "nombre": "Acondicionador Head & Shoulders Refrescante 180ml",
     "precio": 182.2,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52361-d612b82bf46eb1cbe715988138704164-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-relief-180-ml/",
     "historia": [
@@ -89549,7 +89589,7 @@
     "id": "04539",
     "nombre": "Acondicionador Head & Shoulders Rejuvecedora 375ml",
     "precio": 356.77,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52531-f5f5c627f982c2ba8715988139254367-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-rejuvec-375-ml/",
     "historia": [
@@ -89563,7 +89603,7 @@
     "id": "04540",
     "nombre": "Acondicionador Head & Shoulders Suave y Manejable 375ml",
     "precio": 356.77,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-suave-y-manejable-375-ml1-0f0ae27bc21a4760ea16049398598488-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-suave-y-manejable-375-ml/",
     "historia": [
@@ -91892,7 +91932,7 @@
   {
     "id": "04695",
     "nombre": "Crema De Leche La Serenísima Pasteurizada Tetra Top 330cc",
-    "precio": 271.7,
+    "precio": 210.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8732531-b4bd906c369499835116020051408840-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-pasteurizada-tetra-top-330-cc/",
@@ -91912,13 +91952,17 @@
       {
         "fecha": "04/05/2021",
         "precio": 271.7
+      },
+      {
+        "fecha": "18/05/2021",
+        "precio": 210.0
       }
     ]
   },
   {
     "id": "04696",
     "nombre": "Crema De Leche La Serenísima Uat Culinaria 20% Tenor Graso Tetra Top 200 Cm3",
-    "precio": 120.0,
+    "precio": 122.5,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls14161-c1cde548f2025d6edd16010476164530-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-uat-culinaria-20-tenor-graso-tetra-top-200-cm3/",
@@ -91930,13 +91974,17 @@
       {
         "fecha": "24/04/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "18/05/2021",
+        "precio": 122.5
       }
     ]
   },
   {
     "id": "04697",
     "nombre": "Crema De Leche La Serenísima Uat Culinaria 20% Tenor Graso Tetra Top 330 Cm3",
-    "precio": 165.0,
+    "precio": 199.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls14171-d21e5d49939c2b246d16010477103849-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-uat-culinaria-20-tenor-graso-tetra-top-330-cm3/",
@@ -91948,6 +91996,10 @@
       {
         "fecha": "24/04/2021",
         "precio": 165.0
+      },
+      {
+        "fecha": "18/05/2021",
+        "precio": 199.0
       }
     ]
   },
@@ -102142,6 +102194,160 @@
       {
         "fecha": "16/05/2021",
         "precio": 200.0
+      }
+    ]
+  },
+  {
+    "id": "05405",
+    "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 400ml",
+    "precio": 460.0,
+    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-400ml/",
+    "historia": [
+      {
+        "fecha": "18/05/2021",
+        "precio": 460.0
+      }
+    ]
+  },
+  {
+    "id": "05406",
+    "nombre": "Alfajor Bon O Bon Blanco 40gr",
+    "precio": 50.0,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/20200722-10043051-9d137c9051bc5faac716212599439972-480-0.png",
+    "url_producto": "productos/alfajor-bon-o-bon-blanco-40gr/",
+    "historia": [
+      {
+        "fecha": "18/05/2021",
+        "precio": 50.0
+      }
+    ]
+  },
+  {
+    "id": "05407",
+    "nombre": "Avena Quaker Extra Fina 470gr",
+    "precio": 207.87,
+    "rubro": "Productos > Galletas y Cereales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/16721-cb2083723b871b5ad715988325854846-480-0.jpg",
+    "url_producto": "productos/avena-quaker-extra-fina-470-gr/",
+    "historia": [
+      {
+        "fecha": "18/05/2021",
+        "precio": 207.87
+      }
+    ]
+  },
+  {
+    "id": "05408",
+    "nombre": "Caballa Aceite/agua La Campagnola 300gr",
+    "precio": 265.0,
+    "rubro": "Productos > Conservas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/caballa-aceite-agua-la-campagnola-300-gr1-74846bc5464e189f2616099541560993-480-0.jpg",
+    "url_producto": "productos/caballa-aceite-agua-la-campagnola-300-gr/",
+    "historia": [
+      {
+        "fecha": "18/05/2021",
+        "precio": 265.0
+      }
+    ]
+  },
+  {
+    "id": "05409",
+    "nombre": "Café Dolca 170gr",
+    "precio": 415.0,
+    "rubro": "Productos > Infusiones",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/193621-92f50b5c1ae536f25815988353603672-480-0.jpg",
+    "url_producto": "productos/cafe-dolca-renov-trad-170-gr/",
+    "historia": [
+      {
+        "fecha": "18/05/2021",
+        "precio": 415.0
+      }
+    ]
+  },
+  {
+    "id": "05410",
+    "nombre": "Champignones Marolio Enteros 400gr",
+    "precio": 214.37,
+    "rubro": "Productos > Conservas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/194761-d11eb6021f2fe7569516027173816818-480-0.jpg",
+    "url_producto": "productos/champignones-marolio-enteros-400-gr/",
+    "historia": [
+      {
+        "fecha": "18/05/2021",
+        "precio": 214.37
+      }
+    ]
+  },
+  {
+    "id": "05411",
+    "nombre": "Cocina En Bolsa Alicante Sabor Albahaca y Ajo 30gr",
+    "precio": 79.9,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga-61-c18e4b58478d53786116207409354329-480-0.jpg",
+    "url_producto": "productos/cocina-en-bolsa-alicante-sabor-albahaca-y-ajo-30-gr/",
+    "historia": [
+      {
+        "fecha": "18/05/2021",
+        "precio": 79.9
+      }
+    ]
+  },
+  {
+    "id": "05412",
+    "nombre": "Cocina En Bolsa Alicante Sabor Barbacoa 27gr",
+    "precio": 79.9,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-11t104607-0741-45996f7226196363c916207408162836-480-0.jpg",
+    "url_producto": "productos/cocina-en-bolsa-alicante-sabor-barbacoa-27-gr/",
+    "historia": [
+      {
+        "fecha": "18/05/2021",
+        "precio": 79.9
+      }
+    ]
+  },
+  {
+    "id": "05413",
+    "nombre": "Cocina En Bolsa Alicante Sabor Pimenton 30gr",
+    "precio": 79.9,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/44218-11-ecd06c403daf463a6816207410657198-480-0.jpg",
+    "url_producto": "productos/cocina-en-bolsa-alicante-sabor-pimenton-30-gr/",
+    "historia": [
+      {
+        "fecha": "18/05/2021",
+        "precio": 79.9
+      }
+    ]
+  },
+  {
+    "id": "05414",
+    "nombre": "Papas Fritas Pringles Original 124 - 137gr",
+    "precio": 287.15,
+    "rubro": "Productos > Snacks",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/120461-e92363a43c536c081d16006146810636-480-0.jpg",
+    "url_producto": "productos/pap-fr-pringles-orig-124-137-gr/",
+    "historia": [
+      {
+        "fecha": "18/05/2021",
+        "precio": 287.15
+      }
+    ]
+  },
+  {
+    "id": "05415",
+    "nombre": "Vino Benjamín Malbec 750cc",
+    "precio": 246.87,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/111531-3af7eb65c1e0f8bcd315988892095408-480-0.jpg",
+    "url_producto": "productos/vino-benjamin-malbec-750-cc/",
+    "historia": [
+      {
+        "fecha": "18/05/2021",
+        "precio": 246.87
       }
     ]
   }
