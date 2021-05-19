@@ -64951,7 +64951,7 @@
     "id": "03082",
     "nombre": "Aceite Johnsons Normal 200cc",
     "precio": 332.9,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Pañales y Bebés",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/431671-fa546b27adfb75192315988123852783-480-0.jpg",
     "url_producto": "productos/ac-j-y-j-normal-200-cc/",
     "historia": [
@@ -65285,7 +65285,7 @@
     "id": "03101",
     "nombre": "Acondicionador Dove Hidratación Intensa 400ml",
     "precio": 376.86,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134081-617c0210c3c9ec52d915989073595026-480-0.jpg",
     "url_producto": "productos/acond-dove-hidrat-int-400-ml/",
     "historia": [
@@ -65307,7 +65307,7 @@
     "id": "03102",
     "nombre": "Acondicionador Dove Reconstrución Completa 400ml",
     "precio": 376.86,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134091-e88b3763692fc3fd0415989073970501-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-400-ml/",
     "historia": [
@@ -65357,7 +65357,7 @@
     "id": "03105",
     "nombre": "Agua Baggio Fresh Mix Frutal 1,1lt ,",
     "precio": 78.65,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-22t102628-5021-17051cd572b00ea44616113220049225-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-mix-frutal-1-5-lt/",
     "historia": [
@@ -65379,7 +65379,7 @@
     "id": "03106",
     "nombre": "Agua Baggio Fresh Naranja Dulce 1,5lt",
     "precio": 78.65,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/604611-5271f343145345b6e516028681925353-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-naranja-dulce-15-lt/",
     "historia": [
@@ -65401,7 +65401,7 @@
     "id": "03107",
     "nombre": "Agua Baggio Fresh Pera 1,1lt",
     "precio": 78.65,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-baggio-fresh-pera-1-5-lt1-39e6b32abfedd2386c16113218756564-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-pera-1-5-lt/",
     "historia": [
@@ -65451,7 +65451,7 @@
     "id": "03110",
     "nombre": "Agua Levite Manzana 2,5lt",
     "precio": 135.07,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-saborizada-levite-manzana-2-5lts-1-8567591-8325478d3b17527c5616128034143481-480-0.jpg",
     "url_producto": "productos/agua-levite-manzana-25-lt/",
     "historia": [
@@ -65473,7 +65473,7 @@
     "id": "03111",
     "nombre": "Agua Levite Naranja 1,1 Lts",
     "precio": 99.0,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-levite-naranja-1-5-lts1-95b6f2b64f6ad67b7916046854733037-480-0.png",
     "url_producto": "productos/agua-levite-naranja-1-5-lts/",
     "historia": [
@@ -65593,7 +65593,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -66218,7 +66218,7 @@
   {
     "id": "03148",
     "nombre": "Antitranspirante Femenino Dove Clásico 89gr",
-    "precio": 220.86,
+    "precio": 228.67,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59401-1d3183784870bcc5ae15990738772133-480-0.jpg",
     "url_producto": "productos/ant-fem-dove-clasico-89-gr/",
@@ -66234,13 +66234,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 220.86
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 228.67
       }
     ]
   },
   {
     "id": "03149",
     "nombre": "Antitranspirante Femenino Dove Pomelo Limón 89gr",
-    "precio": 220.86,
+    "precio": 228.67,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/172671-2bfde3b3eedf3be4c815990679065127-480-0.jpg",
     "url_producto": "productos/ant-fem-dove-pom-limon-89-gr/",
@@ -66256,6 +66260,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 220.86
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 228.67
       }
     ]
   },
@@ -66608,7 +66616,7 @@
   {
     "id": "03167",
     "nombre": "Arvejas Molto Recart. 340gr",
-    "precio": 40.94,
+    "precio": 41.46,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/216381-5d9ae1d72c20e1d76715989652695507-480-0.jpg",
     "url_producto": "productos/arvejas-molto-recart-340-gr/",
@@ -66620,6 +66628,10 @@
       {
         "fecha": "31/03/2021",
         "precio": 40.94
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 41.46
       }
     ]
   },
@@ -66853,7 +66865,7 @@
     "id": "03179",
     "nombre": "Bebible La Serenisima Multivitaminas S/azucar Frutilla 900ml",
     "precio": 120.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/9568571-18a64b837943e2d88116111751446607-480-0.jpg",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-s-azucar-frutilla-900-ml/",
     "historia": [
@@ -66965,7 +66977,7 @@
     "id": "03185",
     "nombre": "Bife Angosto x kg",
     "precio": 945.0,
-    "rubro": "Productos > Carnes de Novillo",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
     "historia": [
@@ -68626,7 +68638,7 @@
   {
     "id": "03272",
     "nombre": "Dulce De Leche La Serenísima Estilo Colonial 400gr",
-    "precio": 171.6,
+    "precio": 214.49,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164351-5307375b6657829ebb15989689751328-480-0.jpg",
     "url_producto": "productos/d-leche-l-serenis-est-col-cal-400-gr/",
@@ -68646,6 +68658,10 @@
       {
         "fecha": "16/05/2021",
         "precio": 171.6
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 214.49
       }
     ]
   },
@@ -70508,7 +70524,7 @@
   {
     "id": "03371",
     "nombre": "Harina Morixe Leudante 1kg",
-    "precio": 77.87,
+    "precio": 80.47,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/4414911-aacb1e66eee52d2cf415990881781491-480-0.jpg",
     "url_producto": "productos/har-morixe-leudante-1-kg/",
@@ -70524,6 +70540,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 77.87
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 80.47
       }
     ]
   },
@@ -73960,7 +73980,7 @@
   {
     "id": "03555",
     "nombre": "Papel Higiénico Esencial Blanco 6x30 Mt",
-    "precio": 127.26,
+    "precio": 128.58,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/136681-fe24a4dad5ececd83f15988868822849-480-0.jpg",
     "url_producto": "productos/pap-hig-esencial-bco-6x30-mt/",
@@ -73980,6 +74000,10 @@
       {
         "fecha": "04/05/2021",
         "precio": 127.26
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 128.58
       }
     ]
   },
@@ -76492,7 +76516,7 @@
   {
     "id": "03699",
     "nombre": "Vodka Smirnoff Green Apple 700cc",
-    "precio": 591.37,
+    "precio": 591.39,
     "rubro": "Productos > Bebidas Blancas y Licores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/235091-694f0255f89124502415988895570680-480-0.jpg",
     "url_producto": "productos/vodka-smirnoff-green-apple-700-cc/",
@@ -76512,13 +76536,17 @@
       {
         "fecha": "14/04/2021",
         "precio": 591.37
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 591.39
       }
     ]
   },
   {
     "id": "03700",
     "nombre": "Vodka Smirnoff Raspberry 700ml",
-    "precio": 591.37,
+    "precio": 591.39,
     "rubro": "Productos > Bebidas Blancas y Licores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/vodka-smirnoff-raspberry-700-ml1-02c4a493b084c8fca616140026329294-480-0.jpg",
     "url_producto": "productos/vodka-smirnoff-raspberry-700-ml/",
@@ -76538,6 +76566,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 591.37
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 591.39
       }
     ]
   },
@@ -77050,7 +77082,7 @@
   {
     "id": "03728",
     "nombre": "Energizante Speed Lata 250cc",
-    "precio": 65.64,
+    "precio": 71.37,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/111181-684bef8b79b17103c315988889028597-480-0.jpg",
     "url_producto": "productos/energiz-speed-lata-250-cc/",
@@ -77062,6 +77094,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 65.64
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 71.37
       }
     ]
   },
@@ -86218,7 +86254,7 @@
   {
     "id": "04320",
     "nombre": "Caldo Molto Verdura 12un",
-    "precio": 71.37,
+    "precio": 73.96,
     "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/caldo-molto-carne-12un11-0975b749e8b6461f1d16158184526260-480-0.png",
     "url_producto": "productos/caldo-molto-verdura-12un/",
@@ -86230,6 +86266,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 71.37
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 73.96
       }
     ]
   },
@@ -86861,7 +86901,7 @@
     "id": "04359",
     "nombre": "Agua Baggio Fresh Pomelo 1,5lt",
     "precio": 78.65,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215551-70616cd842619ee27515988158196946-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-pome-1-5-lt/",
     "historia": [
@@ -87828,7 +87868,7 @@
   {
     "id": "04421",
     "nombre": "Caldo Molto Carne 12un",
-    "precio": 71.37,
+    "precio": 73.96,
     "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/caldo-molto-carne-12un1-2bb02194ac7c0e72f716158183314715-480-0.png",
     "url_producto": "productos/caldo-molto-carne-12un/",
@@ -87836,6 +87876,10 @@
       {
         "fecha": "02/04/2021",
         "precio": 71.37
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 73.96
       }
     ]
   },
@@ -88115,7 +88159,7 @@
     "id": "04440",
     "nombre": "Bebible La Serenisima Multivitaminas 0% Grasa S/azucar Vainilla 900ml",
     "precio": 127.3,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77907426620191-533a98bb0957360d4816176344694679-480-0.png",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-0-grasa-s-azucar-vainilla-900-ml/",
     "historia": [
@@ -88133,7 +88177,7 @@
     "id": "04441",
     "nombre": "Bebible La Serenisima Multivitaminas S/azucar Vainilla 900ml",
     "precio": 120.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga-41-ed15637226d9f3d7ac16176683992919-480-0.jpg",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-s-azucar-vainilla-900-ml/",
     "historia": [
@@ -88183,7 +88227,7 @@
     "id": "04444",
     "nombre": "Bebible La Serenisima Multivitaminas 0% Grasa S/azucar Frutilla 900ml",
     "precio": 127.3,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77907426620261-a8a776dd8cb3d0701c16177108420596-480-0.png",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-0-grasa-s-azucar-frutilla-900-ml/",
     "historia": [
@@ -88488,7 +88532,7 @@
   {
     "id": "04465",
     "nombre": "Lámpara Osram Led Calida 9 Wt",
-    "precio": 170.17,
+    "precio": 172.02,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/261481-8d6b85c15048ffe95015990925835705-480-0.jpg",
     "url_producto": "productos/lampara-osram-led-calida-9-wt/",
@@ -88496,6 +88540,10 @@
       {
         "fecha": "09/04/2021",
         "precio": 170.17
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 172.02
       }
     ]
   },
@@ -89391,7 +89439,7 @@
     "id": "04526",
     "nombre": "Aceite Johnsons Aloe 100cc",
     "precio": 198.91,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Pañales y Bebés",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/431661-54cb8053c8e26f8f1215988121013699-480-0.jpg",
     "url_producto": "productos/ac-j-y-j-aloe-100-cc/",
     "historia": [
@@ -89405,7 +89453,7 @@
     "id": "04527",
     "nombre": "Aceite Johnsons Normal 100cc",
     "precio": 198.91,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Pañales y Bebés",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/4316511-2b63c817738d30fad415989741905143-480-0.jpg",
     "url_producto": "productos/ac-j-y-j-normal-100-cc/",
     "historia": [
@@ -89493,7 +89541,7 @@
     "id": "04533",
     "nombre": "Acondiciónador Dove Oleo Nutrición 750ml",
     "precio": 675.87,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237691-584193fa5c876aef5015990691178020-480-0.jpg",
     "url_producto": "productos/acond-dove-oleo-nutric-750-ml/",
     "historia": [
@@ -89511,7 +89559,7 @@
     "id": "04534",
     "nombre": "Acondiciónador Dove Reconstrución Completa 750ml",
     "precio": 675.87,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237681-a13f3137e67435676715990691033096-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-750-ml/",
     "historia": [
@@ -89529,7 +89577,7 @@
     "id": "04535",
     "nombre": "Acondicionador Elvive Kera Liso 400ml",
     "precio": 460.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/210721-ac9ddab487a4ae562516043400249425-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-kera-liso-400-ml/",
     "historia": [
@@ -89575,7 +89623,7 @@
     "id": "04538",
     "nombre": "Acondicionador Head & Shoulders Refrescante 180ml",
     "precio": 182.2,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52361-d612b82bf46eb1cbe715988138704164-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-relief-180-ml/",
     "historia": [
@@ -89589,7 +89637,7 @@
     "id": "04539",
     "nombre": "Acondicionador Head & Shoulders Rejuvecedora 375ml",
     "precio": 356.77,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52531-f5f5c627f982c2ba8715988139254367-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-rejuvec-375-ml/",
     "historia": [
@@ -89603,7 +89651,7 @@
     "id": "04540",
     "nombre": "Acondicionador Head & Shoulders Suave y Manejable 375ml",
     "precio": 356.77,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-suave-y-manejable-375-ml1-0f0ae27bc21a4760ea16049398598488-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-suave-y-manejable-375-ml/",
     "historia": [
@@ -89695,7 +89743,7 @@
     "id": "04546",
     "nombre": "Agua Baggio Fresh Manzana 1,5lt",
     "precio": 78.65,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215531-0b69b3a450e7bd84a215988149742587-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-man-1-5-lt/",
     "historia": [
@@ -89709,7 +89757,7 @@
     "id": "04547",
     "nombre": "Agua Levite Naranja 2,5lt",
     "precio": 135.07,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184271-5522a22584046bac9015988160205939-480-0.jpg",
     "url_producto": "productos/agua-levite-naranja-25-lt/",
     "historia": [
@@ -90586,7 +90634,7 @@
   {
     "id": "04606",
     "nombre": "Azúcar Independencia x kg",
-    "precio": 55.0,
+    "precio": 44.9,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga1-1f55aa3b50acbb204016109729690992-480-0.jpg",
     "url_producto": "productos/azucar-independencia-x-kg/",
@@ -90594,6 +90642,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 55.0
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 44.9
       }
     ]
   },
@@ -90674,7 +90726,7 @@
   {
     "id": "04612",
     "nombre": "Batería Energizer 522 9 Vo",
-    "precio": 233.87,
+    "precio": 246.87,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52471-d4f0d812ebec8f5b7b15988330660548-480-0.jpg",
     "url_producto": "productos/bateria-energizer-522-9-vo/",
@@ -90682,6 +90734,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 233.87
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 246.87
       }
     ]
   },
@@ -90781,7 +90837,7 @@
     "id": "04619",
     "nombre": "Bizcochuelo Arcor S/t.a.c.c. Sabor Chocolate 500gr",
     "precio": 175.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bizcochuelo-arcor-sin-t-a-c-c-sabor-chocolate-500-gr1-f474d428f0389c930916099544462211-480-0.jpg",
     "url_producto": "productos/bizcochuelo-arcor-s-t-a-c-c-sabor-chocolate-500-gr/",
     "historia": [
@@ -90799,7 +90855,7 @@
     "id": "04620",
     "nombre": "Bizcochuelo Arcor S/t.a.c.c Sabor Vainilla 500gr",
     "precio": 175.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bizcochuelo-arcor-sin-t-a-c-c-sabor-vainilla-500-gr1-7741d4db7089e7d64516099547535677-480-0.jpg",
     "url_producto": "productos/bizcochuelo-arcor-s-t-a-c-c-sabor-vainilla-500-gr/",
     "historia": [
@@ -91239,7 +91295,7 @@
     "id": "04648",
     "nombre": "Café Dolce Gusto Cappuccino 188gr",
     "precio": 650.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/221321-b45397230e2afaf84b16001830983243-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-cappuccino-188-gr/",
     "historia": [
@@ -91257,7 +91313,7 @@
     "id": "04649",
     "nombre": "Café Dolce Gusto Espresso 96gr",
     "precio": 650.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/221361-274e852debe3c4546816001831478827-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-espresso-96-gr/",
     "historia": [
@@ -91275,7 +91331,7 @@
     "id": "04650",
     "nombre": "Café Dolce Gusto Latte Macciato 100,100gr",
     "precio": 685.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cafe-dolce-gusto-latte-macciato-100-8-gr1-1f420eb29f24b5b3a116182503540316-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-latte-macciato-110-gr/",
     "historia": [
@@ -91728,7 +91784,7 @@
   {
     "id": "04681",
     "nombre": "Champagne Chandon Extra Brut 750cc",
-    "precio": 727.86,
+    "precio": 896.86,
     "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/55201-9a48c93e406970a41015988793558243-480-0.jpg",
     "url_producto": "productos/champ-chandon-ext-brut-750-cc/",
@@ -91736,6 +91792,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 727.86
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 896.86
       }
     ]
   },
@@ -92492,7 +92552,7 @@
   {
     "id": "04727",
     "nombre": "Espumante Norton Cosecha Especial Brut Nature 750cc",
-    "precio": 545.86,
+    "precio": 662.86,
     "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-431-71b6a2f0c3b1aa3afb16050152670682-480-0.jpg",
     "url_producto": "productos/espumante-norton-cosecha-especial-brut-nature-750-cc/",
@@ -92500,6 +92560,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 545.86
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 662.86
       }
     ]
   },
@@ -93002,7 +93066,7 @@
   {
     "id": "04758",
     "nombre": "Lámpara Osram Led Cálida 12 Wt",
-    "precio": 193.57,
+    "precio": 196.96,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/227051-9c4b630ed79938722d15989749236662-480-0.jpg",
     "url_producto": "productos/lampara-osram-led-calid-12-wt/",
@@ -93014,6 +93078,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 193.57
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 196.96
       }
     ]
   },
@@ -93066,7 +93134,7 @@
   {
     "id": "04762",
     "nombre": "Lámpara Osram Led Fria 12 Wt",
-    "precio": 193.57,
+    "precio": 196.96,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/227061-e4c46c3dc2767debf115988893755195-480-0.jpg",
     "url_producto": "productos/lampara-osram-led-fria-12-wt/",
@@ -93078,6 +93146,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 193.57
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 196.96
       }
     ]
   },
@@ -93124,7 +93196,7 @@
   {
     "id": "04765",
     "nombre": "Leche Cindor Chocolatada 1lt",
-    "precio": 232.7,
+    "precio": 258.7,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/165361-908e858ecb58a2a17e15989709252179-480-0.jpg",
     "url_producto": "productos/leche-cindor-chocolatada-1-lt/",
@@ -93132,6 +93204,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 232.7
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 258.7
       }
     ]
   },
@@ -93848,7 +93924,7 @@
   {
     "id": "04813",
     "nombre": "Rollo De Cocina Esencial 3un x 40 Paños",
-    "precio": 70.08,
+    "precio": 53.91,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/133371-da4ebb4e3cd5c5fa7016025237626904-480-0.jpg",
     "url_producto": "productos/rollo-de-cocina-esencial-3-un-x-40-panos/",
@@ -93860,6 +93936,10 @@
       {
         "fecha": "04/05/2021",
         "precio": 70.08
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 53.91
       }
     ]
   },
@@ -94281,7 +94361,7 @@
     "id": "04841",
     "nombre": "Café Dolce Gusto Au Lait 160gr",
     "precio": 560.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/254781-946c38475780a1991c16001833444073-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-au-lait-160-gr/",
     "historia": [
@@ -94706,7 +94786,7 @@
   {
     "id": "04870",
     "nombre": "Avena Quaker Instantánea Fortificada 380gr",
-    "precio": 172.87,
+    "precio": 181.87,
     "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21841-a7b4656e2d9aae229e15988326505631-480-0.jpg",
     "url_producto": "productos/avena-quaker-instantanea-fortificada-380-gr/",
@@ -94714,6 +94794,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 172.87
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 181.87
       }
     ]
   },
@@ -94833,7 +94917,7 @@
     "id": "04879",
     "nombre": "Arroz Molino Ala Integral 1kg",
     "precio": 119.9,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/molinosala-9675-11-92dae58957156d4de316207400742704-480-0.png",
     "url_producto": "productos/arroz-molino-ala-integral-1-kg/",
     "historia": [
@@ -94888,7 +94972,7 @@
   {
     "id": "04883",
     "nombre": "Harina Molto 000 1kg",
-    "precio": 55.9,
+    "precio": 29.99,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-31-9718a0f68640a660b516207413503467-480-0.png",
     "url_producto": "productos/harina-molto-000-1-kg/",
@@ -94896,6 +94980,10 @@
       {
         "fecha": "12/05/2021",
         "precio": 55.9
+      },
+      {
+        "fecha": "19/05/2021",
+        "precio": 29.99
       }
     ]
   },
@@ -102348,6 +102436,76 @@
       {
         "fecha": "18/05/2021",
         "precio": 246.87
+      }
+    ]
+  },
+  {
+    "id": "05416",
+    "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 400ml",
+    "precio": 460.0,
+    "rubro": "Productos > Cuidado del Cabello",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7898587761949-1_1_1-ef2cb24811224c211716213573046943-480-0.jpg",
+    "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-400ml/",
+    "historia": [
+      {
+        "fecha": "19/05/2021",
+        "precio": 460.0
+      }
+    ]
+  },
+  {
+    "id": "05417",
+    "nombre": "Arroz Molino Ala Integral 500gr",
+    "precio": 76.55,
+    "rubro": "Productos > Arroz y Legumbres",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/240961-1f7612a5de2d5c323216033929063948-480-0.jpg",
+    "url_producto": "productos/arroz-molino-ala-integral-500-gr/",
+    "historia": [
+      {
+        "fecha": "19/05/2021",
+        "precio": 76.55
+      }
+    ]
+  },
+  {
+    "id": "05418",
+    "nombre": "Avena Quaker Tradicional Fortificada 470gr",
+    "precio": 181.87,
+    "rubro": "Productos > Galletas y Cereales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/quaker1-02ba2183109ac2937716013815942390-480-0.jpg",
+    "url_producto": "productos/avena-quaker-tradicional-fortificada-470-gr/",
+    "historia": [
+      {
+        "fecha": "19/05/2021",
+        "precio": 181.87
+      }
+    ]
+  },
+  {
+    "id": "05419",
+    "nombre": "Empanadas De Jamon y Queso x 6un",
+    "precio": 310.0,
+    "rubro": "Productos > Empanadas Tucumanas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sin-titulo1-a4212e2757f031c92716213889120678-480-0.jpg",
+    "url_producto": "productos/empanadas-de-jamon-y-queso-x-6-unidades/",
+    "historia": [
+      {
+        "fecha": "19/05/2021",
+        "precio": 310.0
+      }
+    ]
+  },
+  {
+    "id": "05420",
+    "nombre": "Papas Fritas Lays Clásicas 94gr",
+    "precio": 155.0,
+    "rubro": "Productos > Snacks",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8834941-8fc31a01f0ea5624e716022501184730-480-0.jpg",
+    "url_producto": "productos/papas-fritas-lays-clasicas-94-gr/",
+    "historia": [
+      {
+        "fecha": "19/05/2021",
+        "precio": 155.0
       }
     ]
   }
