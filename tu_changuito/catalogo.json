@@ -64951,7 +64951,7 @@
     "id": "03082",
     "nombre": "Aceite Johnsons Normal 200cc",
     "precio": 332.9,
-    "rubro": "Productos > Pañales y Bebés",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/431671-fa546b27adfb75192315988123852783-480-0.jpg",
     "url_producto": "productos/ac-j-y-j-normal-200-cc/",
     "historia": [
@@ -65593,7 +65593,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -66599,7 +66599,7 @@
     "id": "03166",
     "nombre": "Arvejas Green Life Congelada 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550211-a666675e62010c5a7515990911554480-480-0.jpg",
     "url_producto": "productos/arvejas-green-life-congelada-300-gr/",
     "historia": [
@@ -66865,7 +66865,7 @@
     "id": "03179",
     "nombre": "Bebible La Serenisima Multivitaminas S/azucar Frutilla 900ml",
     "precio": 120.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/9568571-18a64b837943e2d88116111751446607-480-0.jpg",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-s-azucar-frutilla-900-ml/",
     "historia": [
@@ -66977,7 +66977,7 @@
     "id": "03185",
     "nombre": "Bife Angosto x kg",
     "precio": 945.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
     "historia": [
@@ -67787,7 +67787,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -71066,7 +71066,7 @@
   {
     "id": "03402",
     "nombre": "Jugo Citric Naranja Valencia Tardia 1,5lt",
-    "precio": 278.27,
+    "precio": 280.0,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7798085681278_021-712d88609dd5e6a4a816141109680390-480-0.jpg",
     "url_producto": "productos/jugo-citric-naranja-valencia-tardia-15-lt/",
@@ -71074,6 +71074,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 278.27
+      },
+      {
+        "fecha": "20/05/2021",
+        "precio": 280.0
       }
     ]
   },
@@ -73484,7 +73488,7 @@
   {
     "id": "03527",
     "nombre": "Pan Bimbo Artesano 500gr",
-    "precio": 258.7,
+    "precio": 320.0,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/230131-407fb5200650265a4215992494324843-480-0.jpg",
     "url_producto": "productos/pan-bimbo-artesano-500-gr/",
@@ -73496,6 +73500,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 258.7
+      },
+      {
+        "fecha": "20/05/2021",
+        "precio": 320.0
       }
     ]
   },
@@ -88159,7 +88167,7 @@
     "id": "04440",
     "nombre": "Bebible La Serenisima Multivitaminas 0% Grasa S/azucar Vainilla 900ml",
     "precio": 127.3,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77907426620191-533a98bb0957360d4816176344694679-480-0.png",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-0-grasa-s-azucar-vainilla-900-ml/",
     "historia": [
@@ -88177,7 +88185,7 @@
     "id": "04441",
     "nombre": "Bebible La Serenisima Multivitaminas S/azucar Vainilla 900ml",
     "precio": 120.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga-41-ed15637226d9f3d7ac16176683992919-480-0.jpg",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-s-azucar-vainilla-900-ml/",
     "historia": [
@@ -88227,7 +88235,7 @@
     "id": "04444",
     "nombre": "Bebible La Serenisima Multivitaminas 0% Grasa S/azucar Frutilla 900ml",
     "precio": 127.3,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77907426620261-a8a776dd8cb3d0701c16177108420596-480-0.png",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-0-grasa-s-azucar-frutilla-900-ml/",
     "historia": [
@@ -88583,7 +88591,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 199.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -89439,7 +89447,7 @@
     "id": "04526",
     "nombre": "Aceite Johnsons Aloe 100cc",
     "precio": 198.91,
-    "rubro": "Productos > Pañales y Bebés",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/431661-54cb8053c8e26f8f1215988121013699-480-0.jpg",
     "url_producto": "productos/ac-j-y-j-aloe-100-cc/",
     "historia": [
@@ -89453,7 +89461,7 @@
     "id": "04527",
     "nombre": "Aceite Johnsons Normal 100cc",
     "precio": 198.91,
-    "rubro": "Productos > Pañales y Bebés",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/4316511-2b63c817738d30fad415989741905143-480-0.jpg",
     "url_producto": "productos/ac-j-y-j-normal-100-cc/",
     "historia": [
@@ -89595,7 +89603,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 206.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -89609,7 +89617,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 201.38,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -89715,7 +89723,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 175.9,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -90208,7 +90216,7 @@
   {
     "id": "04579",
     "nombre": "Anillas De Calamar x kg (*)",
-    "precio": 850.0,
+    "precio": 895.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/anillas-de-calamar1-bb2e192da88671f7a316026000395828-480-0.jpg",
     "url_producto": "productos/anillas-de-calamar-x-kg/",
@@ -90216,6 +90224,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 850.0
+      },
+      {
+        "fecha": "20/05/2021",
+        "precio": 895.0
       }
     ]
   },
@@ -90634,7 +90646,7 @@
   {
     "id": "04606",
     "nombre": "Azúcar Independencia x kg",
-    "precio": 44.9,
+    "precio": 55.0,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga1-1f55aa3b50acbb204016109729690992-480-0.jpg",
     "url_producto": "productos/azucar-independencia-x-kg/",
@@ -90646,6 +90658,10 @@
       {
         "fecha": "19/05/2021",
         "precio": 44.9
+      },
+      {
+        "fecha": "20/05/2021",
+        "precio": 55.0
       }
     ]
   },
@@ -90744,7 +90760,7 @@
   {
     "id": "04613",
     "nombre": "Berberechos x kg (*)",
-    "precio": 1.59,
+    "precio": 1.85,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/berberechos1-14457b0f013385fcaa16026038578953-480-0.jpg",
     "url_producto": "productos/berberechos-x-kg/",
@@ -90752,6 +90768,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 1.59
+      },
+      {
+        "fecha": "20/05/2021",
+        "precio": 1.85
       }
     ]
   },
@@ -90837,7 +90857,7 @@
     "id": "04619",
     "nombre": "Bizcochuelo Arcor S/t.a.c.c. Sabor Chocolate 500gr",
     "precio": 175.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bizcochuelo-arcor-sin-t-a-c-c-sabor-chocolate-500-gr1-f474d428f0389c930916099544462211-480-0.jpg",
     "url_producto": "productos/bizcochuelo-arcor-s-t-a-c-c-sabor-chocolate-500-gr/",
     "historia": [
@@ -90855,7 +90875,7 @@
     "id": "04620",
     "nombre": "Bizcochuelo Arcor S/t.a.c.c Sabor Vainilla 500gr",
     "precio": 175.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bizcochuelo-arcor-sin-t-a-c-c-sabor-vainilla-500-gr1-7741d4db7089e7d64516099547535677-480-0.jpg",
     "url_producto": "productos/bizcochuelo-arcor-s-t-a-c-c-sabor-vainilla-500-gr/",
     "historia": [
@@ -91295,7 +91315,7 @@
     "id": "04648",
     "nombre": "Café Dolce Gusto Cappuccino 188gr",
     "precio": 650.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/221321-b45397230e2afaf84b16001830983243-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-cappuccino-188-gr/",
     "historia": [
@@ -91313,7 +91333,7 @@
     "id": "04649",
     "nombre": "Café Dolce Gusto Espresso 96gr",
     "precio": 650.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/221361-274e852debe3c4546816001831478827-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-espresso-96-gr/",
     "historia": [
@@ -91331,7 +91351,7 @@
     "id": "04650",
     "nombre": "Café Dolce Gusto Latte Macciato 100,100gr",
     "precio": 685.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cafe-dolce-gusto-latte-macciato-100-8-gr1-1f420eb29f24b5b3a116182503540316-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-latte-macciato-110-gr/",
     "historia": [
@@ -91456,7 +91476,7 @@
   {
     "id": "04659",
     "nombre": "Camarones Crudos Grandes x kg (*)",
-    "precio": 1.76,
+    "precio": 1.899,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo1-b950abc76f53fa99a916026061481784-480-0.png",
     "url_producto": "productos/camarones-crudos-grandes-x-kg/",
@@ -91464,6 +91484,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 1.76
+      },
+      {
+        "fecha": "20/05/2021",
+        "precio": 1.899
       }
     ]
   },
@@ -91863,7 +91887,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 131.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -93668,7 +93692,7 @@
   {
     "id": "04797",
     "nombre": "Pan Fargo Doble Salvado 690gr",
-    "precio": 297.71,
+    "precio": 350.0,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/261911-659f00cd9b260e63ff15992506482143-480-0.jpg",
     "url_producto": "productos/pan-fargo-doble-salvado-690-gr/",
@@ -93676,6 +93700,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 297.71
+      },
+      {
+        "fecha": "20/05/2021",
+        "precio": 350.0
       }
     ]
   },
@@ -93924,7 +93952,7 @@
   {
     "id": "04813",
     "nombre": "Rollo De Cocina Esencial 3un x 40 Paños",
-    "precio": 53.91,
+    "precio": 76.57,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/133371-da4ebb4e3cd5c5fa7016025237626904-480-0.jpg",
     "url_producto": "productos/rollo-de-cocina-esencial-3-un-x-40-panos/",
@@ -93940,6 +93968,10 @@
       {
         "fecha": "19/05/2021",
         "precio": 53.91
+      },
+      {
+        "fecha": "20/05/2021",
+        "precio": 76.57
       }
     ]
   },
@@ -94361,7 +94393,7 @@
     "id": "04841",
     "nombre": "Café Dolce Gusto Au Lait 160gr",
     "precio": 560.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/254781-946c38475780a1991c16001833444073-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-au-lait-160-gr/",
     "historia": [
@@ -94392,7 +94424,7 @@
   {
     "id": "04843",
     "nombre": "Dulce De Leche Tonadita Clásico 400gr",
-    "precio": 109.0,
+    "precio": 117.0,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-04-29t140556-0561-c51cbd23c6eff061b816197160326266-480-0.jpg",
     "url_producto": "productos/dulce-de-leche-tonadita-clasico-400gr/",
@@ -94400,6 +94432,10 @@
       {
         "fecha": "01/05/2021",
         "precio": 109.0
+      },
+      {
+        "fecha": "20/05/2021",
+        "precio": 117.0
       }
     ]
   },
@@ -94917,7 +94953,7 @@
     "id": "04879",
     "nombre": "Arroz Molino Ala Integral 1kg",
     "precio": 119.9,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/molinosala-9675-11-92dae58957156d4de316207400742704-480-0.png",
     "url_producto": "productos/arroz-molino-ala-integral-1-kg/",
     "historia": [
@@ -94972,7 +95008,7 @@
   {
     "id": "04883",
     "nombre": "Harina Molto 000 1kg",
-    "precio": 29.99,
+    "precio": 55.9,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-31-9718a0f68640a660b516207413503467-480-0.png",
     "url_producto": "productos/harina-molto-000-1-kg/",
@@ -94984,6 +95020,10 @@
       {
         "fecha": "19/05/2021",
         "precio": 29.99
+      },
+      {
+        "fecha": "20/05/2021",
+        "precio": 55.9
       }
     ]
   },
@@ -102190,7 +102230,7 @@
   {
     "id": "05398",
     "nombre": "Hamburguesas Paladini Clasicas 160gr . 2un",
-    "precio": 159.9,
+    "precio": 163.0,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3361407_f1-bdc0a22fd001ed95d816210072392693-480-0.jpg",
     "url_producto": "productos/hamburguesas-paladini-clasicas-160-gr-2-un/",
@@ -102198,6 +102238,10 @@
       {
         "fecha": "16/05/2021",
         "precio": 159.9
+      },
+      {
+        "fecha": "20/05/2021",
+        "precio": 163.0
       }
     ]
   },
@@ -102506,6 +102550,48 @@
       {
         "fecha": "19/05/2021",
         "precio": 155.0
+      }
+    ]
+  },
+  {
+    "id": "05421",
+    "nombre": "Cornalitos x 500gr (*)",
+    "precio": 620.0,
+    "rubro": "Productos > Pescados y Mariscos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/35-cornalitos1-9ae56d5f4b2b970df916026347856702-480-0.jpg",
+    "url_producto": "productos/cornalitos-x-500-gr/",
+    "historia": [
+      {
+        "fecha": "20/05/2021",
+        "precio": 620.0
+      }
+    ]
+  },
+  {
+    "id": "05422",
+    "nombre": "Dorado Entero x kg (*)",
+    "precio": 520.0,
+    "rubro": "Productos > Pescados y Mariscos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/dorado-entero-x-kg/",
+    "historia": [
+      {
+        "fecha": "20/05/2021",
+        "precio": 520.0
+      }
+    ]
+  },
+  {
+    "id": "05423",
+    "nombre": "Leche De Arroz La Serenisima 100% Vegetal 1lt",
+    "precio": 140.0,
+    "rubro": "Productos > Lácteos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-691-c6d32527f2353b30f916085665634804-480-0.jpg",
+    "url_producto": "productos/leche-de-arroz-la-serenisima-100-vegetal-1-lt/",
+    "historia": [
+      {
+        "fecha": "20/05/2021",
+        "precio": 140.0
       }
     ]
   }
