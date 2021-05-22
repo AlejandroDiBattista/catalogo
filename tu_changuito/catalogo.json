@@ -78217,7 +78217,7 @@
     "id": "03793",
     "nombre": "Agua Glaciar Sin Gas 2lt",
     "precio": 99.0,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc24241-65917abfdcc656c1b616010430756981-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/agua-glaciar-sin-gas-2-lt/",
     "historia": [
@@ -78337,7 +78337,7 @@
     "id": "03801",
     "nombre": "Agua Mineral Sierra De Los Padres 2lt",
     "precio": 71.3,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sierra-de-los-padres-2-lt1-ab6f3d796f1482e66616001948616487-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/agua-mineral-sierra-de-los-padres-2-l/",
     "historia": [
@@ -78351,7 +78351,7 @@
     "id": "03802",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
     "precio": 155.9,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -78810,7 +78810,7 @@
   {
     "id": "03830",
     "nombre": "Antitranspirante Femenino Dove Clásico 89gr",
-    "precio": 220.86,
+    "precio": 228.67,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59401-1d3183784870bcc5ae15990738772133-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/ant-fem-dove-clasico-89-gr/",
@@ -78822,6 +78822,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 220.86
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 228.67
       }
     ]
   },
@@ -78992,7 +78996,7 @@
   {
     "id": "03841",
     "nombre": "Arvejas Molto Recart. 340gr",
-    "precio": 40.94,
+    "precio": 41.46,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/216381-5d9ae1d72c20e1d76715989652695507-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/arvejas-molto-recart-340-gr/",
@@ -79004,6 +79008,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 40.94
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 41.46
       }
     ]
   },
@@ -79296,7 +79304,7 @@
   {
     "id": "03859",
     "nombre": "Bife Angosto x kg",
-    "precio": 730.0,
+    "precio": 945.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/bife-angosto-x-kg/",
@@ -79304,6 +79312,10 @@
       {
         "fecha": "15/03/2021",
         "precio": 730.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 945.0
       }
     ]
   },
@@ -79396,7 +79408,7 @@
   {
     "id": "03865",
     "nombre": "Bon O Bon Blanco 15gr",
-    "precio": 19.9,
+    "precio": 20.6,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77961815-500x5001-f6e7bf2657a75010bb16131325297304-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/bon-o-bon-blanco-15-gr/",
@@ -79404,6 +79416,10 @@
       {
         "fecha": "15/03/2021",
         "precio": 19.9
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 20.6
       }
     ]
   },
@@ -80044,7 +80060,7 @@
   {
     "id": "03907",
     "nombre": "Churrasquito De Cerdo x kg",
-    "precio": 570.0,
+    "precio": 600.0,
     "rubro": "Productos > Carnes de Cerdo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/131-d094f040c89765e46c16022708719512-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/churrasquito-de-cerdo-x-kg/",
@@ -80056,6 +80072,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 570.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 600.0
       }
     ]
   },
@@ -80182,7 +80202,7 @@
   {
     "id": "03916",
     "nombre": "Costilla De Novillo x kg",
-    "precio": 695.37,
+    "precio": 750.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/costilla1-5aa1363e9728dcd1bb16027208333800-480-0.png",
     "url_producto": "http://www.tuchanguito.com.ar/productos/costilla-de-novillo-x-kg/",
@@ -80194,6 +80214,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 695.37
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 750.0
       }
     ]
   },
@@ -80512,7 +80536,7 @@
   {
     "id": "03937",
     "nombre": "Dulce De Leche La Serenísima Estilo Colonial 400gr",
-    "precio": 171.6,
+    "precio": 214.49,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164351-5307375b6657829ebb15989689751328-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/d-leche-l-serenis-est-col-cal-400-gr/",
@@ -80524,6 +80548,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 171.6
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 214.49
       }
     ]
   },
@@ -80544,7 +80572,7 @@
   {
     "id": "03939",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
-    "precio": 155.0,
+    "precio": 170.0,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/d-leche-milkaut-clasico-400-gr/",
@@ -80556,6 +80584,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 155.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 170.0
       }
     ]
   },
@@ -80920,7 +80952,7 @@
   {
     "id": "03963",
     "nombre": "Energizante Gatorade Manzana 500cc",
-    "precio": 67.9,
+    "precio": 90.76,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/149241-8ac71393737a2eb81315988888342598-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/energiz-gatorade-mzna-pet-500-cc/",
@@ -80932,13 +80964,17 @@
       {
         "fecha": "15/05/2021",
         "precio": 67.9
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 90.76
       }
     ]
   },
   {
     "id": "03964",
     "nombre": "Energizante Speed Lata 250cc",
-    "precio": 65.64,
+    "precio": 71.37,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/111181-684bef8b79b17103c315988889028597-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/energiz-speed-lata-250-cc/",
@@ -80950,6 +80986,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 65.64
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 71.37
       }
     ]
   },
@@ -81428,7 +81468,7 @@
   {
     "id": "03997",
     "nombre": "Gaseosa Crush Manzana 3lt",
-    "precio": 99.0,
+    "precio": 120.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/gaseosa-crush-manzana-3-lt1-e8d1f89ba956954ba716057954774967-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/gaseosa-crush-manzana-3-lt/",
@@ -81440,6 +81480,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 99.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 120.0
       }
     ]
   },
@@ -81718,7 +81762,7 @@
   {
     "id": "04016",
     "nombre": "Hamburguesa Paty Super 125gr x 2un",
-    "precio": 219.0,
+    "precio": 220.0,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/800029514_2_1400x1-982e7742abba2be32116025113141152-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/hamburguesa-paty-super-125-gr-x-2-un/",
@@ -81730,6 +81774,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 219.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 220.0
       }
     ]
   },
@@ -81858,7 +81906,7 @@
   {
     "id": "04024",
     "nombre": "Harina Morixe Leudante 1kg",
-    "precio": 77.87,
+    "precio": 80.47,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/4414911-aacb1e66eee52d2cf415990881781491-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/har-morixe-leudante-1-kg/",
@@ -81870,6 +81918,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 77.87
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 80.47
       }
     ]
   },
@@ -82016,7 +82068,7 @@
   {
     "id": "04035",
     "nombre": "Isotónica Gatorade Cool Blue 1250cc",
-    "precio": 139.0,
+    "precio": 120.0,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/244321-9529c2fd145825a27916010471222316-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/isotonica-gatorade-cool-blue-1250-cc/",
@@ -82028,13 +82080,17 @@
       {
         "fecha": "15/05/2021",
         "precio": 139.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 120.0
       }
     ]
   },
   {
     "id": "04036",
     "nombre": "Isotónica Gatorade Cool Blue 750cc",
-    "precio": 81.9,
+    "precio": 85.0,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/235351-04da669cb915653c7216010469505362-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/isotonica-gatorade-cool-blue-750-cc/",
@@ -82046,13 +82102,17 @@
       {
         "fecha": "15/05/2021",
         "precio": 81.9
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 85.0
       }
     ]
   },
   {
     "id": "04037",
     "nombre": "Isotónica Gatorade Frutas Tropicales 1250cc",
-    "precio": 139.0,
+    "precio": 164.0,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/235361-3bfceedea5903dcd1f16010470052219-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/isotonica-gatorade-frutas-tropicales-1250-cc/",
@@ -82064,6 +82124,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 139.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 164.0
       }
     ]
   },
@@ -82088,7 +82152,7 @@
   {
     "id": "04039",
     "nombre": "Isotónica Gatorade Manzana 1250cc",
-    "precio": 139.0,
+    "precio": 164.0,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/239241-d2553557b574b40f8416010470464509-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/isotonica-gatorade-manzana-1250-cc/",
@@ -82100,6 +82164,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 139.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 164.0
       }
     ]
   },
@@ -82352,7 +82420,7 @@
   {
     "id": "04057",
     "nombre": "Jugo Citric Naranja Valencia Tardia 1,5lt",
-    "precio": 278.27,
+    "precio": 280.0,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7798085681278_021-712d88609dd5e6a4a816141109680390-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/jugo-citric-naranja-valencia-tardia-15-lt/",
@@ -82360,6 +82428,10 @@
       {
         "fecha": "15/03/2021",
         "precio": 278.27
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 280.0
       }
     ]
   },
@@ -82548,7 +82620,7 @@
   {
     "id": "04071",
     "nombre": "Leche En Polvo La Lechera 800gr",
-    "precio": 499.0,
+    "precio": 560.0,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/leche-en-polvo-la-lechera-800-gr1-9e75f993b1cadcda2216113223941916-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/leche-en-polvo-la-lechera-800-gr/",
@@ -82556,6 +82628,10 @@
       {
         "fecha": "15/03/2021",
         "precio": 499.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 560.0
       }
     ]
   },
@@ -82618,7 +82694,7 @@
   {
     "id": "04076",
     "nombre": "Leche La Serenísima Uat Parc. Descremada Zero Lactosa Pet 1lt",
-    "precio": 121.0,
+    "precio": 122.0,
     "rubro": "Productos > Deslactosados",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/leche-deslactosada-la-serenisima1-494dd151e419dca6a716001943543601-480-0.jpeg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/leche-la-serenisima-uat-parc-descremada-zero-lactosa-pet-1-l/",
@@ -82630,13 +82706,17 @@
       {
         "fecha": "15/05/2021",
         "precio": 121.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 122.0
       }
     ]
   },
   {
     "id": "04077",
     "nombre": "Leche La Serenísima Ultra Entera 3% Sachet 1lt",
-    "precio": 89.9,
+    "precio": 98.8,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2072011-21f651610f08c9151e15990891552724-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/leche-la-serenisima-ultra-entera-3-sachet-1-l/",
@@ -82644,6 +82724,10 @@
       {
         "fecha": "15/03/2021",
         "precio": 89.9
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 98.8
       }
     ]
   },
@@ -83130,7 +83214,7 @@
   {
     "id": "04110",
     "nombre": "Matambre x kg",
-    "precio": 780.0,
+    "precio": 790.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/matambre1-f3ebb76d5a9f5751bf16027223150982-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/matambre-x-kg/",
@@ -83142,6 +83226,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 780.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 790.0
       }
     ]
   },
@@ -83560,7 +83648,7 @@
   {
     "id": "04139",
     "nombre": "Mollejas x kg",
-    "precio": 780.0,
+    "precio": 810.0,
     "rubro": "Productos > Achuras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/71-d916418cb1bec6337716022712668922-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/mollejas-x-kg/",
@@ -83572,6 +83660,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 780.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 810.0
       }
     ]
   },
@@ -83868,7 +83960,7 @@
   {
     "id": "04159",
     "nombre": "Pan Bimbo Artesano 500gr",
-    "precio": 258.7,
+    "precio": 320.0,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/230131-407fb5200650265a4215992494324843-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/pan-bimbo-artesano-500-gr/",
@@ -83880,6 +83972,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 258.7
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 320.0
       }
     ]
   },
@@ -84292,7 +84388,7 @@
   {
     "id": "04187",
     "nombre": "Papel Higiénico Esencial Blanco 6x30 Mt",
-    "precio": 127.26,
+    "precio": 128.58,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/136681-fe24a4dad5ececd83f15988868822849-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/pap-hig-esencial-bco-6x30-mt/",
@@ -84304,6 +84400,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 127.26
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 128.58
       }
     ]
   },
@@ -84754,14 +84854,18 @@
   {
     "id": "04216",
     "nombre": "Pure Molto Tetrapack Recart. 340gr",
-    "precio": 46.2,
-    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "precio": 51.88,
+    "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184051-1b45c91f24db6cd4e115992494299462-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/pure-molto-tetrapack-recart-340-gr/",
     "historia": [
       {
         "fecha": "15/03/2021",
         "precio": 46.2
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 51.88
       }
     ]
   },
@@ -85898,7 +86002,7 @@
   {
     "id": "04296",
     "nombre": "Vodka Smirnoff Green Apple 700cc",
-    "precio": 591.37,
+    "precio": 591.39,
     "rubro": "Productos > Bebidas Blancas y Licores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/235091-694f0255f89124502415988895570680-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/vodka-smirnoff-green-apple-700-cc/",
@@ -85910,13 +86014,17 @@
       {
         "fecha": "15/05/2021",
         "precio": 591.37
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 591.39
       }
     ]
   },
   {
     "id": "04297",
     "nombre": "Vodka Smirnoff Raspberry 700ml",
-    "precio": 591.37,
+    "precio": 591.39,
     "rubro": "Productos > Bebidas Blancas y Licores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/vodka-smirnoff-raspberry-700-ml1-02c4a493b084c8fca616140026329294-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/vodka-smirnoff-raspberry-700-ml/",
@@ -85928,6 +86036,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 591.37
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 591.39
       }
     ]
   },
@@ -96238,7 +96350,7 @@
   {
     "id": "04970",
     "nombre": "Alcohol Marolio En Gel x 500ml",
-    "precio": 84.44,
+    "precio": 120.0,
     "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/alcohol-en-gel-marolio-500cc1-177cd3459d2a4935f616056566747632-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/alcohol-marolio-en-gel-x-500-ml/",
@@ -96246,6 +96358,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 84.44
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 120.0
       }
     ]
   },
@@ -96546,7 +96662,7 @@
   {
     "id": "04992",
     "nombre": "Anillas De Calamar x kg (*)",
-    "precio": 850.0,
+    "precio": 895.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/anillas-de-calamar1-bb2e192da88671f7a316026000395828-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/anillas-de-calamar-x-kg/",
@@ -96554,6 +96670,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 850.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 895.0
       }
     ]
   },
@@ -96588,7 +96708,7 @@
   {
     "id": "04995",
     "nombre": "Antitranspirante Femenino Dove Pomelo Limón 89gr",
-    "precio": 220.86,
+    "precio": 228.67,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/172671-2bfde3b3eedf3be4c815990679065127-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/ant-fem-dove-pom-limon-89-gr/",
@@ -96596,6 +96716,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 220.86
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 228.67
       }
     ]
   },
@@ -97022,7 +97146,7 @@
   {
     "id": "05026",
     "nombre": "Avena Quaker Instantánea Fortificada 380gr",
-    "precio": 172.87,
+    "precio": 181.87,
     "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21841-a7b4656e2d9aae229e15988326505631-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/avena-quaker-instantanea-fortificada-380-gr/",
@@ -97030,6 +97154,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 172.87
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 181.87
       }
     ]
   },
@@ -97190,7 +97318,7 @@
   {
     "id": "05038",
     "nombre": "Batería Energizer 522 9 Vo",
-    "precio": 233.87,
+    "precio": 246.87,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52471-d4f0d812ebec8f5b7b15988330660548-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/bateria-energizer-522-9-vo/",
@@ -97198,6 +97326,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 233.87
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 246.87
       }
     ]
   },
@@ -97246,7 +97378,7 @@
   {
     "id": "05042",
     "nombre": "Berberechos x kg (*)",
-    "precio": 1.59,
+    "precio": 1.85,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/berberechos1-14457b0f013385fcaa16026038578953-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/berberechos-x-kg/",
@@ -97254,6 +97386,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 1.59
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 1.85
       }
     ]
   },
@@ -97540,7 +97676,7 @@
   {
     "id": "05063",
     "nombre": "Bon O Bon Leche 15gr",
-    "precio": 19.9,
+    "precio": 20.6,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77919373-bombon-con-crema-cacahuete-arcor-16-gr-500x5001-84f6149c0e992d4c4116131327471634-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/bon-o-bon-leche-15-gr/",
@@ -97548,6 +97684,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 19.9
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 20.6
       }
     ]
   },
@@ -97792,7 +97932,7 @@
   {
     "id": "05081",
     "nombre": "Café Dolca 100gr",
-    "precio": 299.9,
+    "precio": 332.0,
     "rubro": "Productos > Infusiones",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/194291-23f64ee67496fd93f715988353048618-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/cafe-dolca-renov-trad-100-gr/",
@@ -97800,6 +97940,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 299.9
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 332.0
       }
     ]
   },
@@ -97820,7 +97964,7 @@
   {
     "id": "05083",
     "nombre": "Café Dolce Gusto Cappuccino 188gr",
-    "precio": 599.0,
+    "precio": 650.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/221321-b45397230e2afaf84b16001830983243-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/cafe-dolce-gusto-cappuccino-188-gr/",
@@ -97828,13 +97972,17 @@
       {
         "fecha": "15/05/2021",
         "precio": 599.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 650.0
       }
     ]
   },
   {
     "id": "05084",
     "nombre": "Café Dolce Gusto Espresso 96gr",
-    "precio": 639.0,
+    "precio": 650.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/221361-274e852debe3c4546816001831478827-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/cafe-dolce-gusto-espresso-96-gr/",
@@ -97842,6 +97990,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 639.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 650.0
       }
     ]
   },
@@ -97960,7 +98112,7 @@
   {
     "id": "05093",
     "nombre": "Caldo Molto Carne 12un",
-    "precio": 71.37,
+    "precio": 73.96,
     "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/caldo-molto-carne-12un1-2bb02194ac7c0e72f716158183314715-480-0.png",
     "url_producto": "http://www.tuchanguito.com.ar/productos/caldo-molto-carne-12un/",
@@ -97968,13 +98120,17 @@
       {
         "fecha": "15/05/2021",
         "precio": 71.37
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 73.96
       }
     ]
   },
   {
     "id": "05094",
     "nombre": "Caldo Molto Verdura 12un",
-    "precio": 71.37,
+    "precio": 73.96,
     "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/caldo-molto-carne-12un11-0975b749e8b6461f1d16158184526260-480-0.png",
     "url_producto": "http://www.tuchanguito.com.ar/productos/caldo-molto-verdura-12un/",
@@ -97982,6 +98138,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 71.37
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 73.96
       }
     ]
   },
@@ -98030,7 +98190,7 @@
   {
     "id": "05098",
     "nombre": "Camarones Crudos Grandes x kg (*)",
-    "precio": 1.76,
+    "precio": 1.899,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo1-b950abc76f53fa99a916026061481784-480-0.png",
     "url_producto": "http://www.tuchanguito.com.ar/productos/camarones-crudos-grandes-x-kg/",
@@ -98038,6 +98198,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 1.76
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 1.899
       }
     ]
   },
@@ -98436,7 +98600,7 @@
   {
     "id": "05127",
     "nombre": "Champagne Chandon Extra Brut 750cc",
-    "precio": 727.86,
+    "precio": 896.86,
     "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/55201-9a48c93e406970a41015988793558243-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/champ-chandon-ext-brut-750-cc/",
@@ -98444,6 +98608,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 727.86
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 896.86
       }
     ]
   },
@@ -98829,7 +98997,7 @@
     "id": "05155",
     "nombre": "Crema De Leche La Serenísima 200gr",
     "precio": 167.7,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164211-87fdb4f6713999034415990676754429-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/crema-l-serenis-200-gr/",
     "historia": [
@@ -98856,7 +99024,7 @@
   {
     "id": "05157",
     "nombre": "Crema De Leche La Serenísima Pasteurizada Tetra Top 330cc",
-    "precio": 271.7,
+    "precio": 210.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8732531-b4bd906c369499835116020051408840-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/crema-de-leche-la-serenisima-pasteurizada-tetra-top-330-cc/",
@@ -98864,13 +99032,17 @@
       {
         "fecha": "15/05/2021",
         "precio": 271.7
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 210.0
       }
     ]
   },
   {
     "id": "05158",
     "nombre": "Crema De Leche La Serenísima Uat Culinaria 20% Tenor Graso Tetra Top 200 Cm3",
-    "precio": 120.0,
+    "precio": 122.5,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls14161-c1cde548f2025d6edd16010476164530-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/crema-de-leche-la-serenisima-uat-culinaria-20-tenor-graso-tetra-top-200-cm3/",
@@ -98878,13 +99050,17 @@
       {
         "fecha": "15/05/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 122.5
       }
     ]
   },
   {
     "id": "05159",
     "nombre": "Crema De Leche La Serenísima Uat Culinaria 20% Tenor Graso Tetra Top 330 Cm3",
-    "precio": 165.0,
+    "precio": 199.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls14171-d21e5d49939c2b246d16010477103849-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/crema-de-leche-la-serenisima-uat-culinaria-20-tenor-graso-tetra-top-330-cm3/",
@@ -98892,6 +99068,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 165.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 199.0
       }
     ]
   },
@@ -99164,7 +99344,7 @@
   {
     "id": "05179",
     "nombre": "Dulce De Leche Tonadita Clásico 400gr",
-    "precio": 109.0,
+    "precio": 125.0,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-04-29t140556-0561-c51cbd23c6eff061b816197160326266-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/dulce-de-leche-tonadita-clasico-400gr/",
@@ -99172,6 +99352,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 109.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 125.0
       }
     ]
   },
@@ -99388,7 +99572,7 @@
   {
     "id": "05195",
     "nombre": "Entraña x kg",
-    "precio": 1.05,
+    "precio": 1.1,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/entrana1-63782353e1918bb94216027208807855-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/entrana-x-kg/",
@@ -99396,6 +99580,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 1.05
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 1.1
       }
     ]
   },
@@ -99514,7 +99702,7 @@
   {
     "id": "05204",
     "nombre": "Espumante Norton Cosecha Especial Brut Nature 750cc",
-    "precio": 545.86,
+    "precio": 662.86,
     "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-431-71b6a2f0c3b1aa3afb16050152670682-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/espumante-norton-cosecha-especial-brut-nature-750-cc/",
@@ -99522,6 +99710,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 545.86
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 662.86
       }
     ]
   },
@@ -99627,7 +99819,7 @@
     "id": "05212",
     "nombre": "Fideos La Tucumanita Tallarin Clásicos 500gr",
     "precio": 77.9,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico1-0c781d88162a97e7af16209183187781-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/fideos-la-tucumanita-tallarin-clasicos-500-gr/",
     "historia": [
@@ -99641,7 +99833,7 @@
     "id": "05213",
     "nombre": "Fideos La Tucumanita Tallarin Verdura 500gr",
     "precio": 77.9,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-11-6ab1096d4afe93399a16209183527029-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/fideos-la-tucumanita-tallarin-verdura-500-gr/",
     "historia": [
@@ -99654,7 +99846,7 @@
   {
     "id": "05214",
     "nombre": "Filet x kg",
-    "precio": 1.02,
+    "precio": 1.11,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/jrb1-a50223f72a8c46831416023459185263-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/filet-x-kg/",
@@ -99662,6 +99854,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 1.02
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 1.11
       }
     ]
   },
@@ -99752,7 +99948,7 @@
   {
     "id": "05221",
     "nombre": "Gaseosa Crush Lima Limón 3lt",
-    "precio": 99.0,
+    "precio": 120.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crush-lima-limon-3lt-600x6001-fa5f81e81fd2e549b616032993374146-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/gaseosa-crush-lima-limon-3l/",
@@ -99760,13 +99956,17 @@
       {
         "fecha": "15/05/2021",
         "precio": 99.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 120.0
       }
     ]
   },
   {
     "id": "05222",
     "nombre": "Gaseosa Crush Naranja 3lt",
-    "precio": 99.0,
+    "precio": 120.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/gaseosa-crush-naranja-3l1-ef67dd9193f3622ff216039944058352-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/gaseosa-crush-naranja-3l/",
@@ -99774,13 +99974,17 @@
       {
         "fecha": "15/05/2021",
         "precio": 99.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 120.0
       }
     ]
   },
   {
     "id": "05223",
     "nombre": "Gaseosa Crush Pomelo 3 Lts",
-    "precio": 99.0,
+    "precio": 120.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3080427_f1-dd426411cdebd2ed7c16032991921988-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/gaseosa-crush-pomelo-3-lts/",
@@ -99788,6 +99992,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 99.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 120.0
       }
     ]
   },
@@ -99892,7 +100100,7 @@
   {
     "id": "05231",
     "nombre": "Hamburguesas Paladini Clasicas 160gr . 2un",
-    "precio": 159.9,
+    "precio": 163.0,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3361407_f1-bdc0a22fd001ed95d816210072392693-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/hamburguesas-paladini-clasicas-160-gr-2-un/",
@@ -99900,6 +100108,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 159.9
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 163.0
       }
     ]
   },
@@ -100354,7 +100566,7 @@
   {
     "id": "05264",
     "nombre": "Lámpara Osram Led Cálida 12 Wt",
-    "precio": 193.57,
+    "precio": 196.96,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/227051-9c4b630ed79938722d15989749236662-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/lampara-osram-led-calid-12-wt/",
@@ -100362,6 +100574,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 193.57
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 196.96
       }
     ]
   },
@@ -100396,7 +100612,7 @@
   {
     "id": "05267",
     "nombre": "Lámpara Osram Led Calida 9 Wt",
-    "precio": 170.17,
+    "precio": 172.02,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/261481-8d6b85c15048ffe95015990925835705-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/lampara-osram-led-calida-9-wt/",
@@ -100404,6 +100620,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 170.17
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 172.02
       }
     ]
   },
@@ -100424,7 +100644,7 @@
   {
     "id": "05269",
     "nombre": "Lámpara Osram Led Fria 12 Wt",
-    "precio": 193.57,
+    "precio": 196.96,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/227061-e4c46c3dc2767debf115988893755195-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/lampara-osram-led-fria-12-wt/",
@@ -100432,6 +100652,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 193.57
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 196.96
       }
     ]
   },
@@ -100494,7 +100718,7 @@
   {
     "id": "05274",
     "nombre": "Leche Cindor Chocolatada 1lt",
-    "precio": 232.7,
+    "precio": 258.7,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/165361-908e858ecb58a2a17e15989709252179-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/leche-cindor-chocolatada-1-lt/",
@@ -100502,6 +100726,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 232.7
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 258.7
       }
     ]
   },
@@ -100690,7 +100918,7 @@
   {
     "id": "05288",
     "nombre": "Lomo De Cerdo Paladini Feteado 120gr",
-    "precio": 188.0,
+    "precio": 150.0,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/217621-adf869f63aa0863a5016025182784508-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/lomo-de-cerdo-paladini-feteado-120-gr/",
@@ -100698,6 +100926,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 188.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 150.0
       }
     ]
   },
@@ -101012,7 +101244,7 @@
   {
     "id": "05311",
     "nombre": "Morcilla \"la Angelita\" Criolla x 500gr",
-    "precio": 650.0,
+    "precio": 325.0,
     "rubro": "Productos > Embutidos La Angelita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/morsilla1-10758386ced34cddfa16182428909590-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/morcilla-la-angelita-criolla-x-500gr/",
@@ -101020,13 +101252,17 @@
       {
         "fecha": "15/05/2021",
         "precio": 650.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 325.0
       }
     ]
   },
   {
     "id": "05312",
     "nombre": "Morcilla \"la Angelita\" Vasca x 500gr",
-    "precio": 650.0,
+    "precio": 325.0,
     "rubro": "Productos > Embutidos La Angelita",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/morsilla11-10758386ced34cddfa16182429196956-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/morcilla-la-angelita-vasca-x-500gr/",
@@ -101034,6 +101270,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 650.0
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 325.0
       }
     ]
   },
@@ -101068,14 +101308,18 @@
   {
     "id": "05315",
     "nombre": "Noquis La Tucumanita 500gr",
-    "precio": 85.9,
-    "rubro": "Productos > LA TUCUMANITA",
+    "precio": 90.0,
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-13t115037-3221-c09dd4a88eb616857716209174632905-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/noquis-la-tucumanita-500-gr/",
     "historia": [
       {
         "fecha": "15/05/2021",
         "precio": 85.9
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 90.0
       }
     ]
   },
@@ -101236,7 +101480,7 @@
   {
     "id": "05327",
     "nombre": "Pan Fargo Doble Salvado 690gr",
-    "precio": 297.71,
+    "precio": 350.0,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/261911-659f00cd9b260e63ff15992506482143-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/pan-fargo-doble-salvado-690-gr/",
@@ -101244,6 +101488,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 297.71
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 350.0
       }
     ]
   },
@@ -101432,14 +101680,18 @@
   {
     "id": "05341",
     "nombre": "Pascualinas La Tucumanita Criolla 300gr",
-    "precio": 66.9,
-    "rubro": "Productos > LA TUCUMANITA",
+    "precio": 70.0,
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-21-a038196102af88b0d516210067568338-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/pascualinas-la-tucumanita-criolla-300-gr/",
     "historia": [
       {
         "fecha": "15/05/2021",
         "precio": 66.9
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 70.0
       }
     ]
   },
@@ -101572,21 +101824,25 @@
   {
     "id": "05351",
     "nombre": "Ravioles La Tucumanita Pollo y Verdura 500gr",
-    "precio": 75.9,
-    "rubro": "Productos > LA TUCUMANITA",
+    "precio": 80.0,
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-13t114635-6951-2244f56ce0fb2bdac316209172155504-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/ravioles-la-tucumanita-pollo-y-verdura-500-gr/",
     "historia": [
       {
         "fecha": "15/05/2021",
         "precio": 75.9
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 80.0
       }
     ]
   },
   {
     "id": "05352",
     "nombre": "Rollo De Cocina Esencial 3un x 40 Paños",
-    "precio": 70.08,
+    "precio": 76.57,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/133371-da4ebb4e3cd5c5fa7016025237626904-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/rollo-de-cocina-esencial-3-un-x-40-panos/",
@@ -101594,6 +101850,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 70.08
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 76.57
       }
     ]
   },
@@ -101880,7 +102140,7 @@
   {
     "id": "05373",
     "nombre": "Tapas Empanadas La Tucumanita Criolla x 12un",
-    "precio": 52.5,
+    "precio": 55.0,
     "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-31-d88afeb00fc6efb23416210094328645-480-0.jpg",
     "url_producto": "http://www.tuchanguito.com.ar/productos/tapas-empanadas-la-tucumanita-criolla-x-12-un/",
@@ -101888,6 +102148,10 @@
       {
         "fecha": "15/05/2021",
         "precio": 52.5
+      },
+      {
+        "fecha": "22/05/2021",
+        "precio": 55.0
       }
     ]
   },
@@ -102592,6 +102856,538 @@
       {
         "fecha": "20/05/2021",
         "precio": 140.0
+      }
+    ]
+  },
+  {
+    "id": "05424",
+    "nombre": "Aceite Natura Girasol 1,5lt",
+    "precio": 309.27,
+    "rubro": "Productos > Almacén",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1241-124ae2fb728b35be9415988859531149-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/ac-natura-girasol-pvc-1-5-lt/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 309.27
+      }
+    ]
+  },
+  {
+    "id": "05425",
+    "nombre": "Aceitunas La Riojanita Verdes 130gr",
+    "precio": 75.9,
+    "rubro": "Productos > Aceitunas, Pickles y Ajies",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/unnamed-51-90de0ae0c73bf3332416216213856701-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/aceitunas-la-riojanita-verdes-130-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 75.9
+      }
+    ]
+  },
+  {
+    "id": "05426",
+    "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 400ml",
+    "precio": 460.0,
+    "rubro": "Productos > Cuidado del Cabello",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7898587761949-1_1_1-ef2cb24811224c211716213573046943-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/acondicionador-elvive-nutricion-y-proteccion-color-400ml/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 460.0
+      }
+    ]
+  },
+  {
+    "id": "05427",
+    "nombre": "Acondicionador Pantene 3 Minutos Liso 170ml",
+    "precio": 331.37,
+    "rubro": "Productos > Cuidado del Cabello",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/233231-ab752a5f1b1b88a1bc15988991984017-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/acondicionador-pantene-3-minutos-liso-170-ml/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 331.37
+      }
+    ]
+  },
+  {
+    "id": "05428",
+    "nombre": "Acondicionador Pantene 3 Minutos Rizos 170ml",
+    "precio": 331.37,
+    "rubro": "Productos > Cuidado del Cabello",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/233241-5b5972a46394da44a115988992395246-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/acondicionador-pantene-3-minutos-rizos-170-ml/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 331.37
+      }
+    ]
+  },
+  {
+    "id": "05429",
+    "nombre": "Alcohol Etílico Porta 96% 500ml",
+    "precio": 149.21,
+    "rubro": "Productos > Limpieza en General",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/alcohol1-688e648cebb903820616027229922038-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/alcohol-etilico-porta-96-500-ml/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 149.21
+      }
+    ]
+  },
+  {
+    "id": "05430",
+    "nombre": "Alfajor Bon O Bon Blanco 40gr",
+    "precio": 50.0,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/20200722-10043051-9d137c9051bc5faac716212599439972-480-0.png",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/alfajor-bon-o-bon-blanco-40gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 50.0
+      }
+    ]
+  },
+  {
+    "id": "05431",
+    "nombre": "Alfajor Tatin Triple Blanco 60gr",
+    "precio": 38.0,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/01785511-5734114feefb8c7d9316200466672029-480-0.jpeg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/alfajor-tatin-triple-blanco-60-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 38.0
+      }
+    ]
+  },
+  {
+    "id": "05432",
+    "nombre": "Alfajor Tatin Triple Negro 60gr",
+    "precio": 38.0,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tatintriplenegro60g-416x4161-8af14fd5f49772b22816200467458711-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/alfajor-tatin-triple-negro-60-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 38.0
+      }
+    ]
+  },
+  {
+    "id": "05433",
+    "nombre": "Antitranspirante Femenino Rexona Antibacterial 90gr",
+    "precio": 181.87,
+    "rubro": "Productos > Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/217721-d1fdc6f278fdb9fce215990685092087-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/ant-fem-rexona-antibact-90-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 181.87
+      }
+    ]
+  },
+  {
+    "id": "05434",
+    "nombre": "Arroz Molino Ala Integral 500gr",
+    "precio": 76.55,
+    "rubro": "Productos > Arroz y Legumbres",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/240961-1f7612a5de2d5c323216033929063948-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/arroz-molino-ala-integral-500-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 76.55
+      }
+    ]
+  },
+  {
+    "id": "05435",
+    "nombre": "Avena Quaker Extra Fina 470gr",
+    "precio": 207.87,
+    "rubro": "Productos > Galletas y Cereales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/16721-cb2083723b871b5ad715988325854846-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/avena-quaker-extra-fina-470-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 207.87
+      }
+    ]
+  },
+  {
+    "id": "05436",
+    "nombre": "Avena Quaker Tradicional Fortificada 470gr",
+    "precio": 181.87,
+    "rubro": "Productos > Galletas y Cereales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/quaker1-02ba2183109ac2937716013815942390-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/avena-quaker-tradicional-fortificada-470-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 181.87
+      }
+    ]
+  },
+  {
+    "id": "05437",
+    "nombre": "Bizcochuelo Marolio Chocolate 540gr",
+    "precio": 129.75,
+    "rubro": "Productos > Postres y Repostería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/23454-35d4ff7bba894fb25d16216267115294-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/bizcochuelo-marolio-chocolate-540-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 129.75
+      }
+    ]
+  },
+  {
+    "id": "05438",
+    "nombre": "Bizcochuelo Marolio Limon 540gr",
+    "precio": 110.8,
+    "rubro": "Productos > Postres y Repostería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/24995-89e2908c905b9f0f9716216267076366-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/bizcochuelo-marolio-limon-540-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 110.8
+      }
+    ]
+  },
+  {
+    "id": "05439",
+    "nombre": "Bizcochuelo Marolio Vainilla 540gr",
+    "precio": 110.8,
+    "rubro": "Productos > Postres y Repostería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/23453-c048c5a2cb7c5d015116216267155798-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/bizcochuelo-marolio-vainilla-540-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 110.8
+      }
+    ]
+  },
+  {
+    "id": "05440",
+    "nombre": "Bombón Garoto 250gr",
+    "precio": 428.0,
+    "rubro": "Productos > Chocolates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/31001-98c2ee16bc05092a5215988346070697-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/bombon-garoto-250-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 428.0
+      }
+    ]
+  },
+  {
+    "id": "05441",
+    "nombre": "Brownie Marolio Chocolate 425gr",
+    "precio": 139.9,
+    "rubro": "Productos > Postres y Repostería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/226571-ef8504a329bf189e4016216216957863-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/brownie-marolio-chocolate-425-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 139.9
+      }
+    ]
+  },
+  {
+    "id": "05442",
+    "nombre": "Caballa Aceite/agua La Campagnola 300gr",
+    "precio": 265.0,
+    "rubro": "Productos > Conservas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/caballa-aceite-agua-la-campagnola-300-gr1-74846bc5464e189f2616099541560993-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/caballa-aceite-agua-la-campagnola-300-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 265.0
+      }
+    ]
+  },
+  {
+    "id": "05443",
+    "nombre": "Café Dolca 170gr",
+    "precio": 415.0,
+    "rubro": "Productos > Infusiones",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/193621-92f50b5c1ae536f25815988353603672-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/cafe-dolca-renov-trad-170-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 415.0
+      }
+    ]
+  },
+  {
+    "id": "05444",
+    "nombre": "Café Dolce Gusto Lungo 112gr",
+    "precio": 660.0,
+    "rubro": "Productos > Libres de Glúten",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/254761-a5dd7dd686eb428efe16001832179518-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/cafe-dolce-gusto-lungo-112-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 660.0
+      }
+    ]
+  },
+  {
+    "id": "05445",
+    "nombre": "Champignones Marolio Enteros 400gr",
+    "precio": 214.37,
+    "rubro": "Productos > Conservas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/194761-d11eb6021f2fe7569516027173816818-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/champignones-marolio-enteros-400-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 214.37
+      }
+    ]
+  },
+  {
+    "id": "05446",
+    "nombre": "Cocina En Bolsa Alicante Sabor Albahaca y Ajo 30gr",
+    "precio": 79.9,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga-61-c18e4b58478d53786116207409354329-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/cocina-en-bolsa-alicante-sabor-albahaca-y-ajo-30-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 79.9
+      }
+    ]
+  },
+  {
+    "id": "05447",
+    "nombre": "Cocina En Bolsa Alicante Sabor Barbacoa 27gr",
+    "precio": 79.9,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-11t104607-0741-45996f7226196363c916207408162836-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/cocina-en-bolsa-alicante-sabor-barbacoa-27-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 79.9
+      }
+    ]
+  },
+  {
+    "id": "05448",
+    "nombre": "Cocina En Bolsa Alicante Sabor Pimenton 30gr",
+    "precio": 79.9,
+    "rubro": "Productos > Caldos, Sopas, Pures y Saborizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/44218-11-ecd06c403daf463a6816207410657198-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/cocina-en-bolsa-alicante-sabor-pimenton-30-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 79.9
+      }
+    ]
+  },
+  {
+    "id": "05449",
+    "nombre": "Cornalitos x 500gr (*)",
+    "precio": 620.0,
+    "rubro": "Productos > Pescados y Mariscos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/35-cornalitos1-9ae56d5f4b2b970df916026347856702-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/cornalitos-x-500-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 620.0
+      }
+    ]
+  },
+  {
+    "id": "05450",
+    "nombre": "Dorado Entero x kg (*)",
+    "precio": 520.0,
+    "rubro": "Productos > Pescados y Mariscos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/dorado-entero-x-kg/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 520.0
+      }
+    ]
+  },
+  {
+    "id": "05451",
+    "nombre": "Dulce Arcor Batata 500gr",
+    "precio": 120.95,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/6801-c7d9ea31b69c7d1ae515998461023237-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/dulce-arcor-batata-500-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 120.95
+      }
+    ]
+  },
+  {
+    "id": "05452",
+    "nombre": "Dulce Dulcor Batata Sachet 500gr",
+    "precio": 126.6,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/dulce-dulcor-batata-sachet-500-gr11-c7fe694f9bd36dbcee16010510947318-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/dulce-dulcor-batata-sachet-500-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 126.6
+      }
+    ]
+  },
+  {
+    "id": "05453",
+    "nombre": "Empanadas De Jamon y Queso x 6un",
+    "precio": 310.0,
+    "rubro": "Productos > Empanadas Tucumanas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sin-titulo1-a4212e2757f031c92716213889120678-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/empanadas-de-jamon-y-queso-x-6-unidades/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 310.0
+      }
+    ]
+  },
+  {
+    "id": "05454",
+    "nombre": "Jamón Cocido Feteado Paladini 200gr",
+    "precio": 220.0,
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/204351-6593dfae1b24ee663016025191358628-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/jamon-cocido-feteado-paladini-200-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 220.0
+      }
+    ]
+  },
+  {
+    "id": "05455",
+    "nombre": "Leche De Arroz La Serenisima 100% Vegetal 1lt",
+    "precio": 140.0,
+    "rubro": "Productos > Lácteos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-691-c6d32527f2353b30f916085665634804-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/leche-de-arroz-la-serenisima-100-vegetal-1-lt/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 140.0
+      }
+    ]
+  },
+  {
+    "id": "05456",
+    "nombre": "Papas Fritas Lays Clásicas 94gr",
+    "precio": 155.0,
+    "rubro": "Productos > Snacks",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8834941-8fc31a01f0ea5624e716022501184730-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/papas-fritas-lays-clasicas-94-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 155.0
+      }
+    ]
+  },
+  {
+    "id": "05457",
+    "nombre": "Papas Fritas Pringles Original 124 - 137gr",
+    "precio": 287.15,
+    "rubro": "Productos > Snacks",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/120461-e92363a43c536c081d16006146810636-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/pap-fr-pringles-orig-124-137-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 287.15
+      }
+    ]
+  },
+  {
+    "id": "05458",
+    "nombre": "Pure De Tomate Arcor 520gr",
+    "precio": 71.5,
+    "rubro": "Productos > Salsas y Puré de Tomates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tom-pure-arcor-x520g1-d69c4f565b9d3ef78b16123046913032-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/pure-de-tomate-arcor-520-gr/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 71.5
+      }
+    ]
+  },
+  {
+    "id": "05459",
+    "nombre": "Vino Alma Mora Cavernet S. 750ml",
+    "precio": 255.0,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-20t160454-0471-7a8fcdcc62ce718c4216111695085194-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/vino-alma-mora-cavernet-s-750-ml/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 255.0
+      }
+    ]
+  },
+  {
+    "id": "05460",
+    "nombre": "Vino Benjamín Malbec 750cc",
+    "precio": 246.87,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/111531-3af7eb65c1e0f8bcd315988892095408-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/vino-benjamin-malbec-750-cc/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 246.87
+      }
+    ]
+  },
+  {
+    "id": "05461",
+    "nombre": "Yerbinks x Unidad",
+    "precio": 350.0,
+    "rubro": "Productos > BAZAR",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/yerbix1-1b55ecb37bd1ac6a3516208319581298-480-0.jpg",
+    "url_producto": "http://www.tuchanguito.com.ar/productos/yerbinks-x-unidad/",
+    "historia": [
+      {
+        "fecha": "22/05/2021",
+        "precio": 350.0
       }
     ]
   }
