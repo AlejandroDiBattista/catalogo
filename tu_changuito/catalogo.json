@@ -66599,7 +66599,7 @@
     "id": "03166",
     "nombre": "Arvejas Green Life Congelada 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550211-a666675e62010c5a7515990911554480-480-0.jpg",
     "url_producto": "productos/arvejas-green-life-congelada-300-gr/",
     "historia": [
@@ -67799,7 +67799,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -69060,7 +69060,7 @@
   {
     "id": "03293",
     "nombre": "Empanadas De Ternera y Queso x 12un",
-    "precio": 440.0,
+    "precio": 600.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/119884523_2674272619459675_5460709936343647419_n11-8179601ba2fb67f07e16034700811861-480-0.png",
     "url_producto": "productos/empanadas-de-ternera-y-queso-x-12-unidades/",
@@ -69068,6 +69068,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 440.0
+      },
+      {
+        "fecha": "25/05/2021",
+        "precio": 600.0
       }
     ]
   },
@@ -69088,7 +69092,7 @@
   {
     "id": "03295",
     "nombre": "Empanadas De Ternera y Queso x 6un",
-    "precio": 220.0,
+    "precio": 310.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/119884523_2674272619459675_5460709936343647419_n21-72feaa4b28485192a216034701095215-480-0.png",
     "url_producto": "productos/empanadas-de-ternera-y-queso-x-6-unidades/",
@@ -69096,6 +69100,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 220.0
+      },
+      {
+        "fecha": "25/05/2021",
+        "precio": 310.0
       }
     ]
   },
@@ -71918,7 +71926,7 @@
   {
     "id": "03440",
     "nombre": "Levadura Calsa 50gr",
-    "precio": 27.3,
+    "precio": 25.0,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/53971-ee3b1fb01a8873259b15990738018499-480-0.jpg",
     "url_producto": "productos/levadur-calsa-cubito-50-gr/",
@@ -71934,6 +71942,10 @@
       {
         "fecha": "07/04/2021",
         "precio": 27.3
+      },
+      {
+        "fecha": "25/05/2021",
+        "precio": 25.0
       }
     ]
   },
@@ -87999,7 +88011,7 @@
     "id": "04416",
     "nombre": "Crema De Leche La Serenísima 200gr",
     "precio": 167.7,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164211-87fdb4f6713999034415990676754429-480-0.jpg",
     "url_producto": "productos/crema-l-serenis-200-gr/",
     "historia": [
@@ -88803,7 +88815,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 199.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -89831,7 +89843,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 206.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -89845,7 +89857,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 201.38,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -89951,7 +89963,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 175.9,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -91291,7 +91303,7 @@
     "id": "04632",
     "nombre": "Bondiola Bierzo Feteado x 300gr (*)",
     "precio": 463.07,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bondiola-bierzo1-4b252673dca09e412715995208987950-480-0.jpg",
     "url_producto": "productos/alem500-bondiolabierzofeteadox300grs/",
     "historia": [
@@ -91305,7 +91317,7 @@
     "id": "04633",
     "nombre": "Bondiola La Francisca Feteada x 300gr (*)",
     "precio": 360.45,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-551-5f368f83521fef737a16080424251082-480-0.jpg",
     "url_producto": "productos/bondiola-la-francisca-feteada-x-300-grs/",
     "historia": [
@@ -91319,7 +91331,7 @@
     "id": "04634",
     "nombre": "Bondiola Paladini Feteado x 300gr (*)",
     "precio": 585.17,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bondiola-paladini1-4285d11b8d419a17a415995209132153-480-0.jpg",
     "url_producto": "productos/alem500-bondiolapaladinifeteadox300grs/",
     "historia": [
@@ -92123,7 +92135,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 131.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -94853,7 +94865,7 @@
     "id": "04853",
     "nombre": "Sorrentinos Pastasya Calabaza y Muzzarella x Doc",
     "precio": 300.0,
-    "rubro": "Productos > PASTAS YA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01721-46c426273cb7abbfd116201376957363-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-calabaza-y-muzzarella-x-doc/",
     "historia": [
@@ -103818,6 +103830,20 @@
       {
         "fecha": "24/05/2021",
         "precio": 285.0
+      }
+    ]
+  },
+  {
+    "id": "05481",
+    "nombre": "Detergente Magistral Aloe 300ml",
+    "precio": 129.0,
+    "rubro": "Productos > Limpieza de Cocina",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/28021-afb6115184266b756e15988997506064-480-0.jpg",
+    "url_producto": "productos/deterg-magistral-aloe-300-ml/",
+    "historia": [
+      {
+        "fecha": "25/05/2021",
+        "precio": 129.0
       }
     ]
   }
