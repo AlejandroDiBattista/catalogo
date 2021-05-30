@@ -90909,7 +90909,7 @@
     "id": "04597",
     "nombre": "Autobrillo Echo Clásico 900ml",
     "precio": 320.97,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7691-c82732b1c9cc6b752f15988324228884-480-0.jpg",
     "url_producto": "productos/autobr-echo-clasico-900-ml/",
     "historia": [
@@ -90927,7 +90927,7 @@
     "id": "04598",
     "nombre": "Autobrillo Echo Clásico Dp 450ml",
     "precio": 150.0,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7591-64de7ee7946cedd7aa15988323532062-480-0.jpg",
     "url_producto": "productos/autobrillo-echo-clasico-dp-450-ml/",
     "historia": [
@@ -104320,6 +104320,20 @@
       {
         "fecha": "29/05/2021",
         "precio": 312.0
+      }
+    ]
+  },
+  {
+    "id": "05496",
+    "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 200ml",
+    "precio": 231.0,
+    "rubro": "Productos > Cuidado del Cabello",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-200ml/",
+    "historia": [
+      {
+        "fecha": "30/05/2021",
+        "precio": 231.0
       }
     ]
   }
