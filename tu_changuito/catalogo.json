@@ -65621,7 +65621,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65718,7 +65718,7 @@
   {
     "id": "03124",
     "nombre": "Agua Villa Del Sur Bidón 6,6lt",
-    "precio": 202.66,
+    "precio": 195.0,
     "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/4311-bdfe572f509b61787f15988169911350-480-0.jpg",
     "url_producto": "productos/agua-vill-d-sur-bidon-6-25-lt/",
@@ -65738,6 +65738,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 202.66
+      },
+      {
+        "fecha": "03/06/2021",
+        "precio": 195.0
       }
     ]
   },
@@ -65893,7 +65897,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 380.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Frutos Secos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -66949,7 +66953,7 @@
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
     "precio": 490.0,
-    "rubro": "Productos > Carnes de Pollo",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
     "historia": [
@@ -73772,7 +73776,7 @@
   {
     "id": "03529",
     "nombre": "Pan Bimbo Hamburgesa Artesano 240gr",
-    "precio": 165.0,
+    "precio": 160.0,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/236521-a0f6348266530c63fe15990689958780-480-0.jpg",
     "url_producto": "productos/pan-bimbo-hamb-artes-240-gr/",
@@ -73792,6 +73796,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 165.0
+      },
+      {
+        "fecha": "03/06/2021",
+        "precio": 160.0
       }
     ]
   },
@@ -77556,7 +77564,7 @@
   {
     "id": "03735",
     "nombre": "Isotónica Gatorade Frutas Tropicales 500cc",
-    "precio": 67.9,
+    "precio": 90.76,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/152811-98eb7afd2fe715f51716010469175551-480-0.jpg",
     "url_producto": "productos/isotonica-gatorade-frutas-tropicales-500-cc/",
@@ -77576,6 +77584,10 @@
       {
         "fecha": "01/05/2021",
         "precio": 67.9
+      },
+      {
+        "fecha": "03/06/2021",
+        "precio": 90.76
       }
     ]
   },
@@ -90232,7 +90244,7 @@
   {
     "id": "04541",
     "nombre": "Acondicionador Liso Extremo Pantene 400ml",
-    "precio": 350.87,
+    "precio": 399.0,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-pro-v-liso-extremo-pantene-400-ml-1-295471-2c5ccadccd91df618616020047813024-480-0.jpg",
     "url_producto": "productos/acondicionador-liso-extremo-pantene-400-ml/",
@@ -90244,6 +90256,10 @@
       {
         "fecha": "04/05/2021",
         "precio": 350.87
+      },
+      {
+        "fecha": "03/06/2021",
+        "precio": 399.0
       }
     ]
   },
@@ -92386,7 +92402,7 @@
   {
     "id": "04676",
     "nombre": "Cerveza Brahma Lata 473cc",
-    "precio": 70.0,
+    "precio": 85.46,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/23751-35d50071343f4ee85815988789302675-480-0.jpg",
     "url_producto": "productos/cerv-brahma-lata-473-cc/",
@@ -92398,6 +92414,10 @@
       {
         "fecha": "07/05/2021",
         "precio": 70.0
+      },
+      {
+        "fecha": "03/06/2021",
+        "precio": 85.46
       }
     ]
   },
@@ -93982,7 +94002,7 @@
   {
     "id": "04766",
     "nombre": "Leche De Almendras La Serenisima 100% Vegetal 1lt",
-    "precio": 249.0,
+    "precio": 228.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/whatsapp-image-2020-12-08-at-12-40-07-pm1-c225a39f34865b4d2a16074420347739-480-0.jpeg",
     "url_producto": "productos/leche-de-almendras-la-serenisima-100-vegetal-1-lt/",
@@ -93990,13 +94010,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 249.0
+      },
+      {
+        "fecha": "03/06/2021",
+        "precio": 228.0
       }
     ]
   },
   {
     "id": "04767",
     "nombre": "Leche De Almendras Sin Azucar La Serenisima 100% Vegetal 1lt ,",
-    "precio": 249.0,
+    "precio": 228.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-701-bc8f129e8628f9566016085667538224-480-0.jpg",
     "url_producto": "productos/leche-de-almendras-sin-azucar-la-serenisima-100-vegetal-1-lt/",
@@ -94004,6 +94028,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 249.0
+      },
+      {
+        "fecha": "03/06/2021",
+        "precio": 228.0
       }
     ]
   },
@@ -104172,7 +104200,7 @@
   {
     "id": "05463",
     "nombre": "Acondicionador Pantene 3 Minutos Liso 170ml",
-    "precio": 331.37,
+    "precio": 350.0,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/233231-ab752a5f1b1b88a1bc15988991984017-480-0.jpg",
     "url_producto": "productos/acondicionador-pantene-3-minutos-liso-170-ml/",
@@ -104180,6 +104208,10 @@
       {
         "fecha": "23/05/2021",
         "precio": 331.37
+      },
+      {
+        "fecha": "03/06/2021",
+        "precio": 350.0
       }
     ]
   },
@@ -104812,6 +104844,48 @@
       {
         "fecha": "02/06/2021",
         "precio": 170.0
+      }
+    ]
+  },
+  {
+    "id": "05508",
+    "nombre": "Pan Bimbo Artesano Pancho 240gr",
+    "precio": 160.0,
+    "rubro": "Productos > Panificados y Rebozadores",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/343501-ada75400cc868cd87415992507336915-480-0.jpg",
+    "url_producto": "productos/pan-bimbo-artesano-pancho-240-gr/",
+    "historia": [
+      {
+        "fecha": "03/06/2021",
+        "precio": 160.0
+      }
+    ]
+  },
+  {
+    "id": "05509",
+    "nombre": "Ravioles La Tucumanita Con Carne y Verdura 650gr",
+    "precio": 140.0,
+    "rubro": "Productos > LA TUCUMANITA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/ravioles-la-tucumanita-con-carne-y-verdura-650gr/",
+    "historia": [
+      {
+        "fecha": "03/06/2021",
+        "precio": 140.0
+      }
+    ]
+  },
+  {
+    "id": "05510",
+    "nombre": "Ravioles La Tucumanita Con Verdura 650gr",
+    "precio": 140.0,
+    "rubro": "Productos > LA TUCUMANITA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/ravioles-la-tucumanita-con-verdura-650gr/",
+    "historia": [
+      {
+        "fecha": "03/06/2021",
+        "precio": 140.0
       }
     ]
   }
