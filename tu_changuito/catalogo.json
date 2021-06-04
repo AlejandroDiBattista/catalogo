@@ -64843,7 +64843,7 @@
     "id": "03078",
     "nombre": "Aceite Cañuelas Oliva Intenso 500cc",
     "precio": 415.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220311-58116916046af9b3e315988111926122-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-in-pet-500-cc/",
     "historia": [
@@ -64877,7 +64877,7 @@
     "id": "03079",
     "nombre": "Aceite Cañuelas Oliva Suave 500cc",
     "precio": 415.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220301-333f3a18318b80229215988119589449-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-su-pet-500-cc/",
     "historia": [
@@ -64907,7 +64907,7 @@
     "id": "03080",
     "nombre": "Aceite Cocinero Girasol 1,5lt",
     "precio": 299.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-girasol-cocinero-1-5-l1-70562c7e06c6ba7e9b16057061476408-480-0.jpg",
     "url_producto": "productos/ac-cocinero-girasol-1-5-lt/",
     "historia": [
@@ -65384,8 +65384,8 @@
   {
     "id": "03105",
     "nombre": "Agua Baggio Fresh Mix Frutal 1,1lt ,",
-    "precio": 78.65,
-    "rubro": "Productos > Aguas Saborizadas",
+    "precio": 88.0,
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-22t102628-5021-17051cd572b00ea44616113220049225-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-mix-frutal-1-5-lt/",
     "historia": [
@@ -65400,14 +65400,18 @@
       {
         "fecha": "27/03/2021",
         "precio": 78.65
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 88.0
       }
     ]
   },
   {
     "id": "03106",
     "nombre": "Agua Baggio Fresh Naranja Dulce 1,5lt",
-    "precio": 78.65,
-    "rubro": "Productos > Aguas Saborizadas",
+    "precio": 88.0,
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/604611-5271f343145345b6e516028681925353-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-naranja-dulce-15-lt/",
     "historia": [
@@ -65422,14 +65426,18 @@
       {
         "fecha": "27/03/2021",
         "precio": 78.65
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 88.0
       }
     ]
   },
   {
     "id": "03107",
     "nombre": "Agua Baggio Fresh Pera 1,1lt",
-    "precio": 78.65,
-    "rubro": "Productos > Aguas Saborizadas",
+    "precio": 88.0,
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-baggio-fresh-pera-1-5-lt1-39e6b32abfedd2386c16113218756564-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-pera-1-5-lt/",
     "historia": [
@@ -65440,6 +65448,10 @@
       {
         "fecha": "27/03/2021",
         "precio": 78.65
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 88.0
       }
     ]
   },
@@ -65479,7 +65491,7 @@
     "id": "03110",
     "nombre": "Agua Levite Manzana 2,5lt",
     "precio": 135.07,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-saborizada-levite-manzana-2-5lts-1-8567591-8325478d3b17527c5616128034143481-480-0.jpg",
     "url_producto": "productos/agua-levite-manzana-25-lt/",
     "historia": [
@@ -65501,7 +65513,7 @@
     "id": "03111",
     "nombre": "Agua Levite Naranja 1,1 Lts",
     "precio": 99.0,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-levite-naranja-1-5-lts1-95b6f2b64f6ad67b7916046854733037-480-0.png",
     "url_producto": "productos/agua-levite-naranja-1-5-lts/",
     "historia": [
@@ -65621,7 +65633,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -66680,7 +66692,7 @@
   {
     "id": "03165",
     "nombre": "Arroz Preparado Gallo Verdeo 240gr",
-    "precio": 150.0,
+    "precio": 152.0,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/arroz-preparado-gallo-sabor-verdeo-x-240-gr1-0e59360ef75b70453116037380840707-480-0.jpg",
     "url_producto": "productos/arroz-preparado-gallo-verdeo-240-gr/",
@@ -66700,6 +66712,10 @@
       {
         "fecha": "14/05/2021",
         "precio": 150.0
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 152.0
       }
     ]
   },
@@ -66707,7 +66723,7 @@
     "id": "03166",
     "nombre": "Arvejas Green Life Congelada 300gr",
     "precio": 190.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550211-a666675e62010c5a7515990911554480-480-0.jpg",
     "url_producto": "productos/arvejas-green-life-congelada-300-gr/",
     "historia": [
@@ -66953,7 +66969,7 @@
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
     "precio": 490.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
     "historia": [
@@ -67931,7 +67947,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -72272,7 +72288,7 @@
   {
     "id": "03449",
     "nombre": "Limpiador Liquido Odex Baño Dp 450ml",
-    "precio": 85.0,
+    "precio": 100.0,
     "rubro": "Productos > Limpieza de Baño",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/limpiador-liquido-odex-bano-dp-450-ml1-cd19740e9a886fa18116119467957883-480-0.jpg",
     "url_producto": "productos/limpiador-liquido-odex-bano-dp-450-ml/",
@@ -72288,6 +72304,10 @@
       {
         "fecha": "24/04/2021",
         "precio": 85.0
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 100.0
       }
     ]
   },
@@ -74448,7 +74468,7 @@
   {
     "id": "03563",
     "nombre": "Pastilla Adhesiva Para Inodoro Harpic Lavanda 27gr",
-    "precio": 79.9,
+    "precio": 85.0,
     "rubro": "Productos > Limpieza de Baño",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-29t152526-3151-f40514422775e4278c16119447508462-480-0.jpg",
     "url_producto": "productos/pastilla-adhesiva-para-inodoro-harpic-lavanda-27-gr/",
@@ -74456,13 +74476,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 79.9
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 85.0
       }
     ]
   },
   {
     "id": "03564",
     "nombre": "Pastilla Para Inodoro Harpic Lavanda 20gr",
-    "precio": 79.9,
+    "precio": 85.0,
     "rubro": "Productos > Limpieza de Baño",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pastilla-para-inodoro-harpic-lavanda-20-gr1-837bdac0598329b67116119445395104-480-0.jpg",
     "url_producto": "productos/pastilla-para-inodoro-harpic-lavanda-20-gr/",
@@ -74474,6 +74498,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 79.9
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 85.0
       }
     ]
   },
@@ -77672,7 +77700,7 @@
   {
     "id": "03739",
     "nombre": "Ketchup Danica 220gr",
-    "precio": 66.52,
+    "precio": 78.0,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ketchup-danica-220-gr1-79cd38084208c625a916082333713948-480-0.png",
     "url_producto": "productos/ketchup-danica-220-gr/",
@@ -77684,6 +77712,10 @@
       {
         "fecha": "10/04/2021",
         "precio": 66.52
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 78.0
       }
     ]
   },
@@ -87400,14 +87432,18 @@
   {
     "id": "04359",
     "nombre": "Agua Baggio Fresh Pomelo 1,5lt",
-    "precio": 78.65,
-    "rubro": "Productos > Aguas Saborizadas",
+    "precio": 88.0,
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215551-70616cd842619ee27515988158196946-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-pome-1-5-lt/",
     "historia": [
       {
         "fecha": "24/03/2021",
         "precio": 78.65
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 88.0
       }
     ]
   },
@@ -87884,7 +87920,7 @@
   {
     "id": "04391",
     "nombre": "Lámpara Osram Led Fria 9 Wt",
-    "precio": 170.17,
+    "precio": 172.02,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/261491-04db987fe4a55dfc2315990701410088-480-0.jpg",
     "url_producto": "productos/lampara-osram-led-fria-9-wt/",
@@ -87892,6 +87928,10 @@
       {
         "fecha": "27/03/2021",
         "precio": 170.17
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 172.02
       }
     ]
   },
@@ -88116,7 +88156,7 @@
   {
     "id": "04405",
     "nombre": "Papel Hig. Large Felpita 4x80mts",
-    "precio": 235.3,
+    "precio": 340.0,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/papel-hig-large-felpita-4x80mts1-0cbb7f1819e1a2063016170262662511-480-0.jpg",
     "url_producto": "productos/papel-hig-large-felpita-4x80mts/",
@@ -88132,6 +88172,10 @@
       {
         "fecha": "14/05/2021",
         "precio": 235.3
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 340.0
       }
     ]
   },
@@ -89115,7 +89159,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 223.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -89931,7 +89975,7 @@
     "id": "04522",
     "nombre": "Aceite Cocinero Girasol Aerosol Fritolim 120gr",
     "precio": 162.5,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-fritolim-clasico-aero-x-120-gr1-f5e8fe909d0153ff1a16173998650258-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-aerosol-fritolim-120-gr/",
     "historia": [
@@ -89945,7 +89989,7 @@
     "id": "04523",
     "nombre": "Aceite Cocinero Girasol Plus 900ml ,",
     "precio": 250.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-cocinero-plus-girasol-900-cc-aceite-cocinero-plus-girasol-900-cc-1-103591-7528dceaf14701133616122925497462-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-plus-900-ml/",
     "historia": [
@@ -90027,7 +90071,7 @@
     "id": "04528",
     "nombre": "Aceite Marolio Oliva Extra Vigen 250ml",
     "precio": 214.37,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-marolio-oliva-extra-vigen-250-ml1-3038186d714e3b961d16166770821623-480-0.jpg",
     "url_producto": "productos/aceite-marolio-oliva-extra-vigen-250-ml/",
     "historia": [
@@ -90045,7 +90089,7 @@
     "id": "04529",
     "nombre": "Aceite Molto Aerosol Girasol 120gr",
     "precio": 181.9,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-girasol-120-gr1-0f4f22f12ab2f8c4f616107361697969-480-0.png",
     "url_producto": "productos/aceite-molto-aerosol-girasol-120-gr/",
     "historia": [
@@ -90059,7 +90103,7 @@
     "id": "04530",
     "nombre": "Aceite Molto Aerosol Oliva 120gr",
     "precio": 226.07,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-oliva-120-gr1-f32df6961224a0228316088226786698-480-0.jpg",
     "url_producto": "productos/aceite-molto-aerosol-oliva-120-gr/",
     "historia": [
@@ -90326,14 +90370,18 @@
   {
     "id": "04546",
     "nombre": "Agua Baggio Fresh Manzana 1,5lt",
-    "precio": 78.65,
-    "rubro": "Productos > Aguas Saborizadas",
+    "precio": 88.0,
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215531-0b69b3a450e7bd84a215988149742587-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-man-1-5-lt/",
     "historia": [
       {
         "fecha": "23/04/2021",
         "precio": 78.65
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 88.0
       }
     ]
   },
@@ -90341,7 +90389,7 @@
     "id": "04547",
     "nombre": "Agua Levite Naranja 2,5lt",
     "precio": 135.07,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184271-5522a22584046bac9015988160205939-480-0.jpg",
     "url_producto": "productos/agua-levite-naranja-25-lt/",
     "historia": [
@@ -90990,7 +91038,7 @@
   {
     "id": "04590",
     "nombre": "Arroz Preparado Gallo Queso x 240gr",
-    "precio": 150.0,
+    "precio": 152.0,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/9171671-dbae2d975a8860869b16010437996505-480-0.jpg",
     "url_producto": "productos/arroz-preparado-gallo-queso-x-240-gr/",
@@ -91002,13 +91050,17 @@
       {
         "fecha": "14/05/2021",
         "precio": 150.0
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 152.0
       }
     ]
   },
   {
     "id": "04591",
     "nombre": "Arroz Preparado Gallo Vegetales x 240gr",
-    "precio": 150.0,
+    "precio": 152.0,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/arroz-preparado-gallo-vegetales-x-240-gr-1-4701151-062ccc5f2d2802353b16025233241231-480-0.jpg",
     "url_producto": "productos/arroz-preparado-gallo-vegetales-x-240-gr/",
@@ -91020,6 +91072,10 @@
       {
         "fecha": "14/05/2021",
         "precio": 150.0
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 152.0
       }
     ]
   },
@@ -91620,7 +91676,7 @@
   {
     "id": "04627",
     "nombre": "Bolsa Asurin 60x95 10un",
-    "precio": 323.8,
+    "precio": 469.0,
     "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/247211-c7ce5ccedc92db0ed815988337156659-480-0.jpg",
     "url_producto": "productos/bolsa-asurin-60x95-10-un/",
@@ -91628,6 +91684,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 323.8
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 469.0
       }
     ]
   },
@@ -92567,7 +92627,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -92876,7 +92936,7 @@
   {
     "id": "04703",
     "nombre": "Detergente Woolite Bebe Dp 900ml",
-    "precio": 271.56,
+    "precio": 280.0,
     "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/detergente-woolite-bebe-dp-900-ml1-f31cf4ecf0ff0ed93516119277059315-480-0.jpg",
     "url_producto": "productos/detergente-woolite-bebe-dp-900-ml/",
@@ -92888,13 +92948,17 @@
       {
         "fecha": "24/04/2021",
         "precio": 271.56
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 280.0
       }
     ]
   },
   {
     "id": "04704",
     "nombre": "Detergente Woolite Bebe Handwash 450ml",
-    "precio": 210.0,
+    "precio": 220.0,
     "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/detergente-woolite-bebe-handwash-450-ml1-fce5c5d6667a750ab816119268494556-480-0.jpg",
     "url_producto": "productos/detergente-woolite-bebe-handwash-450-ml/",
@@ -92910,13 +92974,17 @@
       {
         "fecha": "10/05/2021",
         "precio": 210.0
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 220.0
       }
     ]
   },
   {
     "id": "04705",
     "nombre": "Detergente Woolite Bebe M D/p 450cc",
-    "precio": 210.0,
+    "precio": 220.0,
     "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184161-f3b27c49322d43279b15990680633668-480-0.jpg",
     "url_producto": "productos/deterg-woolite-bebe-m-d-p-450-cc/",
@@ -92928,13 +92996,17 @@
       {
         "fecha": "10/05/2021",
         "precio": 210.0
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 220.0
       }
     ]
   },
   {
     "id": "04706",
     "nombre": "Detergente Woolite Máquina Doy Pack 900ml",
-    "precio": 271.56,
+    "precio": 280.0,
     "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/204001-c1a3d5b236cb8d83e116016675352404-480-0.jpg",
     "url_producto": "productos/detergente-woolite-maquina-doy-pack-900-ml/",
@@ -92942,13 +93014,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 271.56
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 280.0
       }
     ]
   },
   {
     "id": "04707",
     "nombre": "Detergente Woolite Máquina Doypack 450cc",
-    "precio": 210.0,
+    "precio": 220.0,
     "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/170531-94d5379b24193c262b16010432403292-480-0.jpg",
     "url_producto": "productos/detergente-woolite-maquina-doypack-450-cc/",
@@ -92960,6 +93036,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 210.0
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 220.0
       }
     ]
   },
@@ -94562,7 +94642,7 @@
   {
     "id": "04802",
     "nombre": "Papel Higienico Felpita 6x30mt",
-    "precio": 199.0,
+    "precio": 210.0,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-28t134811-0651-7d13995fa2b9087c7616118525704040-480-0.jpg",
     "url_producto": "productos/papel-higienico-felpita-6x30mt/",
@@ -94574,13 +94654,17 @@
       {
         "fecha": "10/05/2021",
         "precio": 199.0
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 210.0
       }
     ]
   },
   {
     "id": "04803",
     "nombre": "Papel Higienico Felpita Hoja Simple 4x30mts",
-    "precio": 139.8,
+    "precio": 145.0,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77918280000461-29e3d1bd6370807eeb15991393822536-640-01-1781212957271f01a016189481961938-480-0.png",
     "url_producto": "productos/papel-higienico-felpita-hoja-simple-4x30mts/",
@@ -94596,6 +94680,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 139.8
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 145.0
       }
     ]
   },
@@ -94914,7 +95002,7 @@
   {
     "id": "04822",
     "nombre": "Agua Micelar Garnier Skin Active 400ml",
-    "precio": 620.0,
+    "precio": 700.0,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7509552455557-11-1d1bd83eb3de5ae6a016192058912721-480-0.png",
     "url_producto": "productos/agua-micelar-garnier-skin-active-400ml/",
@@ -94922,6 +95010,10 @@
       {
         "fecha": "24/04/2021",
         "precio": 620.0
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 700.0
       }
     ]
   },
@@ -94946,7 +95038,7 @@
   {
     "id": "04824",
     "nombre": "Alcohol En Gel Espadol 150ml",
-    "precio": 230.0,
+    "precio": 235.0,
     "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77983391902041-b93294cca975b13c1f16192061374355-480-0.jpg",
     "url_producto": "productos/alcohol-en-gel-espadol-150ml/",
@@ -94954,6 +95046,10 @@
       {
         "fecha": "24/04/2021",
         "precio": 230.0
+      },
+      {
+        "fecha": "04/06/2021",
+        "precio": 235.0
       }
     ]
   },
@@ -95783,7 +95879,7 @@
     "id": "04878",
     "nombre": "Aceite De Maiz Arcor 900ml",
     "precio": 282.3,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-de-maiz-arcor-900-ml-_11-38e425b50a69a1275e16207401714293-480-0.jpg",
     "url_producto": "productos/aceite-de-maiz-arcor-900-ml/",
     "historia": [
@@ -104525,7 +104621,7 @@
     "id": "05485",
     "nombre": "Aceite De Oliva Marolio 500ml",
     "precio": 410.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/138051-b960f38113241a526316221274642490-480-0.jpg",
     "url_producto": "productos/aceite-de-oliva-marolio-500ml/",
     "historia": [
@@ -104781,7 +104877,7 @@
     "id": "05503",
     "nombre": "Aceite Molto De Oliva Extra Virgen 250ml",
     "precio": 250.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-oliva-molto-250ml1-04aca7088cd9f1a50916225749740737-480-0.png",
     "url_producto": "productos/aceite-molto-de-oliva-extra-virgen-250ml/",
     "historia": [
@@ -104795,7 +104891,7 @@
     "id": "05504",
     "nombre": "Aceite Molto De Oliva Extra Virgen 500ml",
     "precio": 459.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5111-f7b1a5be5e71a7fdc316225749462895-480-0.jpg",
     "url_producto": "productos/aceite-molto-de-oliva-extra-virgen-500ml/",
     "historia": [
@@ -104886,6 +104982,146 @@
       {
         "fecha": "03/06/2021",
         "precio": 140.0
+      }
+    ]
+  },
+  {
+    "id": "05511",
+    "nombre": "Alcohol En Gel San Iginio 250cc",
+    "precio": 150.0,
+    "rubro": "Productos > Barbijos y Sanitizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-121-210a67bc314a1bd1b416210186363721-480-0.jpg",
+    "url_producto": "productos/alcohol-en-gel-san-iginio-250cc/",
+    "historia": [
+      {
+        "fecha": "04/06/2021",
+        "precio": 150.0
+      }
+    ]
+  },
+  {
+    "id": "05512",
+    "nombre": "Alcohol Etilico San Iginio 96% 500ml",
+    "precio": 99.0,
+    "rubro": "Productos > Barbijos y Sanitizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/113451-d20e7508627c70064f16045946566300-1024-10241-5aa8b5d354e6778afa16210185171760-480-0.jpg",
+    "url_producto": "productos/alcohol-etilico-san-iginio-96-500ml/",
+    "historia": [
+      {
+        "fecha": "04/06/2021",
+        "precio": 99.0
+      }
+    ]
+  },
+  {
+    "id": "05513",
+    "nombre": "Alcohol Etilico San Iginio 96% Bidon 5lt",
+    "precio": 1.0,
+    "rubro": "Productos > Barbijos y Sanitizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-111-41a60dca3e8cb766cc16210184568062-480-0.jpg",
+    "url_producto": "productos/alcohol-etilico-san-iginio-96-bidon-5lt/",
+    "historia": [
+      {
+        "fecha": "04/06/2021",
+        "precio": 1.0
+      }
+    ]
+  },
+  {
+    "id": "05514",
+    "nombre": "Barbijo Atom Protect x 1 Unidad",
+    "precio": 563.0,
+    "rubro": "Productos > Barbijos y Sanitizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/atom-protect_x11-b84a2c287e3c01f39c16227298495473-480-0.jpg",
+    "url_producto": "productos/barbijo-atom-protect-x-1-unidad/",
+    "historia": [
+      {
+        "fecha": "04/06/2021",
+        "precio": 563.0
+      }
+    ]
+  },
+  {
+    "id": "05515",
+    "nombre": "Crema De Leche La Serenísima 330cc",
+    "precio": 210.0,
+    "rubro": "Productos > Lácteos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8732531-b4bd906c369499835116020051408840-480-0.jpg",
+    "url_producto": "productos/crema-de-leche-la-serenisima-330-cc/",
+    "historia": [
+      {
+        "fecha": "04/06/2021",
+        "precio": 210.0
+      }
+    ]
+  },
+  {
+    "id": "05516",
+    "nombre": "Crema De Leche La Serenísima Uat Culinaria 20% Tenor Graso 200 Cm3",
+    "precio": 122.5,
+    "rubro": "Productos > Lácteos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls14161-c1cde548f2025d6edd16010476164530-480-0.jpg",
+    "url_producto": "productos/crema-de-leche-la-serenisima-uat-culinaria-20-tenor-graso-200-cm3/",
+    "historia": [
+      {
+        "fecha": "04/06/2021",
+        "precio": 122.5
+      }
+    ]
+  },
+  {
+    "id": "05517",
+    "nombre": "Crema De Leche La Serenísima Uat Culinaria 20% Tenor Graso 330 Cm3",
+    "precio": 199.0,
+    "rubro": "Productos > Lácteos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls14171-d21e5d49939c2b246d16010477103849-480-0.jpg",
+    "url_producto": "productos/crema-de-leche-la-serenisima-uat-culinaria-20-tenor-graso-330-cm3/",
+    "historia": [
+      {
+        "fecha": "04/06/2021",
+        "precio": 199.0
+      }
+    ]
+  },
+  {
+    "id": "05518",
+    "nombre": "Detergente Ala Camellito Ropa Fina 450ml",
+    "precio": 164.98,
+    "rubro": "Productos > Lavado de Ropa",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1867111-24c531a02db2f52c8b16010425394899-480-0.jpg",
+    "url_producto": "productos/detergente-ala-camellito-ropa-fina-450-ml/",
+    "historia": [
+      {
+        "fecha": "04/06/2021",
+        "precio": 164.98
+      }
+    ]
+  },
+  {
+    "id": "05519",
+    "nombre": "Fideos Lucchetti Ave María 500gr",
+    "precio": 65.0,
+    "rubro": "Productos > Pastas Secas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3001211-2a60d5feb516ba7cef15990013653624-480-0.jpg",
+    "url_producto": "productos/fid-lucchetti-ave-maria-500-gr/",
+    "historia": [
+      {
+        "fecha": "04/06/2021",
+        "precio": 65.0
+      }
+    ]
+  },
+  {
+    "id": "05520",
+    "nombre": "Mortadela Paladini 300gr",
+    "precio": 220.0,
+    "rubro": "Productos > Quesos, Fiambres y Embutidos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mortadela-fliar-mini-paladini-x-300-gr-1-123471-67366139084f39021a16221268259211-480-0.jpg",
+    "url_producto": "productos/mortadela-paladini-300gr/",
+    "historia": [
+      {
+        "fecha": "04/06/2021",
+        "precio": 220.0
       }
     ]
   }
