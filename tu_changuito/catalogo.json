@@ -64843,7 +64843,7 @@
     "id": "03078",
     "nombre": "Aceite Cañuelas Oliva Intenso 500cc",
     "precio": 415.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220311-58116916046af9b3e315988111926122-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-in-pet-500-cc/",
     "historia": [
@@ -64877,7 +64877,7 @@
     "id": "03079",
     "nombre": "Aceite Cañuelas Oliva Suave 500cc",
     "precio": 415.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220301-333f3a18318b80229215988119589449-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-su-pet-500-cc/",
     "historia": [
@@ -64907,7 +64907,7 @@
     "id": "03080",
     "nombre": "Aceite Cocinero Girasol 1,5lt",
     "precio": 299.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-girasol-cocinero-1-5-l1-70562c7e06c6ba7e9b16057061476408-480-0.jpg",
     "url_producto": "productos/ac-cocinero-girasol-1-5-lt/",
     "historia": [
@@ -65385,7 +65385,7 @@
     "id": "03105",
     "nombre": "Agua Baggio Fresh Mix Frutal 1,1lt ,",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-22t102628-5021-17051cd572b00ea44616113220049225-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-mix-frutal-1-5-lt/",
     "historia": [
@@ -65411,7 +65411,7 @@
     "id": "03106",
     "nombre": "Agua Baggio Fresh Naranja Dulce 1,5lt",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/604611-5271f343145345b6e516028681925353-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-naranja-dulce-15-lt/",
     "historia": [
@@ -65437,7 +65437,7 @@
     "id": "03107",
     "nombre": "Agua Baggio Fresh Pera 1,1lt",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-baggio-fresh-pera-1-5-lt1-39e6b32abfedd2386c16113218756564-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-pera-1-5-lt/",
     "historia": [
@@ -65491,7 +65491,7 @@
     "id": "03110",
     "nombre": "Agua Levite Manzana 2,5lt",
     "precio": 135.07,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-saborizada-levite-manzana-2-5lts-1-8567591-8325478d3b17527c5616128034143481-480-0.jpg",
     "url_producto": "productos/agua-levite-manzana-25-lt/",
     "historia": [
@@ -65513,7 +65513,7 @@
     "id": "03111",
     "nombre": "Agua Levite Naranja 1,1 Lts",
     "precio": 99.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-levite-naranja-1-5-lts1-95b6f2b64f6ad67b7916046854733037-480-0.png",
     "url_producto": "productos/agua-levite-naranja-1-5-lts/",
     "historia": [
@@ -65600,7 +65600,7 @@
   {
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
-    "precio": 155.9,
+    "precio": 134.0,
     "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
@@ -65612,6 +65612,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 155.9
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 134.0
       }
     ]
   },
@@ -65682,7 +65686,7 @@
   {
     "id": "03122",
     "nombre": "Agua Sin Gas Nestlé Pureza Vital 2,25 Lts",
-    "precio": 61.0,
+    "precio": 101.5,
     "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-sin-gas-nestle-pureza-vital-225-lts1-eeec029681545bd86216015826868064-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-225-lts/",
@@ -65702,6 +65706,10 @@
       {
         "fecha": "29/05/2021",
         "precio": 61.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 101.5
       }
     ]
   },
@@ -65909,7 +65917,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 380.0,
-    "rubro": "Productos > Frutos Secos",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -66892,7 +66900,7 @@
   {
     "id": "03173",
     "nombre": "Azúcar Chango 1kg",
-    "precio": 76.5,
+    "precio": 69.55,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2691-c35131e65a120add2515988328157594-480-0.jpg",
     "url_producto": "productos/azucar-chango-1-kg/",
@@ -66904,6 +66912,10 @@
       {
         "fecha": "16/03/2021",
         "precio": 76.5
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 69.55
       }
     ]
   },
@@ -66932,7 +66944,7 @@
   {
     "id": "03175",
     "nombre": "Azúcar Ledesma 1kg",
-    "precio": 68.0,
+    "precio": 76.56,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2631-9bf28d750e13433f9a15988329984523-480-0.jpg",
     "url_producto": "productos/azucar-ledesma-1-kg/",
@@ -66948,6 +66960,10 @@
       {
         "fecha": "29/05/2021",
         "precio": 68.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 76.56
       }
     ]
   },
@@ -67120,7 +67136,7 @@
   {
     "id": "03185",
     "nombre": "Bife Angosto x kg",
-    "precio": 945.0,
+    "precio": 958.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
@@ -67140,6 +67156,10 @@
       {
         "fecha": "18/05/2021",
         "precio": 945.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 958.0
       }
     ]
   },
@@ -67238,7 +67258,7 @@
   {
     "id": "03190",
     "nombre": "Bola De Lomo Feteada Para Milanesa x kg",
-    "precio": 792.9,
+    "precio": 800.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-lomo-fet1-44e054598c02eecd9816027207901849-480-0.jpg",
     "url_producto": "productos/bola-de-lomo-feteada-para-milanesa-x-kg/",
@@ -67250,6 +67270,10 @@
       {
         "fecha": "09/04/2021",
         "precio": 792.9
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 800.0
       }
     ]
   },
@@ -67320,7 +67344,7 @@
   {
     "id": "03195",
     "nombre": "Brocoli x Unidad",
-    "precio": 117.0,
+    "precio": 125.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/brocoli1-a0f2832184752e1aa116139987353846-480-0.jpg",
     "url_producto": "productos/brocoli-x-unidad/",
@@ -67332,6 +67356,10 @@
       {
         "fecha": "06/03/2021",
         "precio": 117.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 125.0
       }
     ]
   },
@@ -67596,7 +67624,7 @@
   {
     "id": "03209",
     "nombre": "Carré Con Hueso x kg",
-    "precio": 402.0,
+    "precio": 433.14,
     "rubro": "Productos > Carnes de Cerdo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-ancho-21-bd928dfb248df5c0cf16022707049774-480-0.jpg",
     "url_producto": "productos/carre-con-hueso-x-kg/",
@@ -67604,6 +67632,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 402.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 433.14
       }
     ]
   },
@@ -67906,7 +67938,7 @@
   {
     "id": "03228",
     "nombre": "Chinchulín x kg",
-    "precio": 200.0,
+    "precio": 300.0,
     "rubro": "Productos > Achuras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-ancho-31-22cf7850bd039ffd5d16022712193660-480-0.jpg",
     "url_producto": "productos/chinchulin-x-kg/",
@@ -67926,6 +67958,10 @@
       {
         "fecha": "23/05/2021",
         "precio": 200.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 300.0
       }
     ]
   },
@@ -68316,7 +68352,7 @@
   {
     "id": "03249",
     "nombre": "Costilla De Novillo x kg",
-    "precio": 750.0,
+    "precio": 780.0,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/costilla1-5aa1363e9728dcd1bb16027208333800-480-0.png",
     "url_producto": "productos/costilla-de-novillo-x-kg/",
@@ -68336,6 +68372,10 @@
       {
         "fecha": "18/05/2021",
         "precio": 750.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 780.0
       }
     ]
   },
@@ -68822,7 +68862,7 @@
   {
     "id": "03272",
     "nombre": "Dulce De Leche La Serenísima Estilo Colonial 400gr",
-    "precio": 214.49,
+    "precio": 214.5,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164351-5307375b6657829ebb15989689751328-480-0.jpg",
     "url_producto": "productos/d-leche-l-serenis-est-col-cal-400-gr/",
@@ -68846,6 +68886,10 @@
       {
         "fecha": "19/05/2021",
         "precio": 214.49
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 214.5
       }
     ]
   },
@@ -69458,7 +69502,7 @@
   {
     "id": "03306",
     "nombre": "Espumante Deseado Torrontés x 750ml",
-    "precio": 459.0,
+    "precio": 615.0,
     "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/espumante-deseado-torrontes-x-750-ml1-54fa55c75419e0e91316046927241575-480-0.jpg",
     "url_producto": "productos/espumante-deseado-torrontes-x-750-ml/",
@@ -69466,6 +69510,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 459.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 615.0
       }
     ]
   },
@@ -70730,7 +70778,7 @@
   {
     "id": "03370",
     "nombre": "Harina Favorita 000 1kg",
-    "precio": 59.67,
+    "precio": 43.0,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/harina-de-trigo-000-favorita-1-kg-1-134441-3fa79e3de3aad2820316109730458896-480-0.jpg",
     "url_producto": "productos/har-favorita-000-1-kg/",
@@ -70754,6 +70802,10 @@
       {
         "fecha": "27/05/2021",
         "precio": 59.67
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 43.0
       }
     ]
   },
@@ -72554,7 +72606,7 @@
   {
     "id": "03464",
     "nombre": "Matambre De Cerdo x kg",
-    "precio": 990.0,
+    "precio": 1.1,
     "rubro": "Productos > Carnes de Cerdo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/121-3fc647e66eae5f4da816022709164449-480-0.jpg",
     "url_producto": "productos/matambre-de-cerdo-x-kg/",
@@ -72570,6 +72622,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 990.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 1.1
       }
     ]
   },
@@ -74654,7 +74710,7 @@
   {
     "id": "03572",
     "nombre": "Picana x kg",
-    "precio": 749.0,
+    "precio": 1.16,
     "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/picanha1-4e7d1c954064900ac816027223151161-480-0.jpg",
     "url_producto": "productos/picana-x-kg/",
@@ -74662,6 +74718,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 749.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 1.16
       }
     ]
   },
@@ -74782,7 +74842,7 @@
   {
     "id": "03580",
     "nombre": "Pollo Entero x kg",
-    "precio": 215.0,
+    "precio": 220.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/61-5324062f677e56957b16022716274307-480-0.jpg",
     "url_producto": "productos/pollo-entero-x-kg/",
@@ -74798,6 +74858,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 215.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 220.0
       }
     ]
   },
@@ -87433,7 +87497,7 @@
     "id": "04359",
     "nombre": "Agua Baggio Fresh Pomelo 1,5lt",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215551-70616cd842619ee27515988158196946-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-pome-1-5-lt/",
     "historia": [
@@ -89362,7 +89426,7 @@
   {
     "id": "04482",
     "nombre": "Galletitas Criollitas Sin Sal 507gr",
-    "precio": 174.3,
+    "precio": 200.0,
     "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-761-65a4e38a96b88ab2fb16088230046460-480-0.jpg",
     "url_producto": "productos/galletitas-criollitas-sin-sal-507-gr/",
@@ -89370,6 +89434,10 @@
       {
         "fecha": "11/04/2021",
         "precio": 174.3
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 200.0
       }
     ]
   },
@@ -89482,7 +89550,7 @@
   {
     "id": "04490",
     "nombre": "Berenjena x Unidad",
-    "precio": 55.0,
+    "precio": 65.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/berenjena1-b95421431fde7a27c516139986875117-480-0.png",
     "url_producto": "productos/berenjena-x-unidad/",
@@ -89490,6 +89558,10 @@
       {
         "fecha": "13/04/2021",
         "precio": 55.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 65.0
       }
     ]
   },
@@ -89975,7 +90047,7 @@
     "id": "04522",
     "nombre": "Aceite Cocinero Girasol Aerosol Fritolim 120gr",
     "precio": 162.5,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-fritolim-clasico-aero-x-120-gr1-f5e8fe909d0153ff1a16173998650258-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-aerosol-fritolim-120-gr/",
     "historia": [
@@ -89989,7 +90061,7 @@
     "id": "04523",
     "nombre": "Aceite Cocinero Girasol Plus 900ml ,",
     "precio": 250.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-cocinero-plus-girasol-900-cc-aceite-cocinero-plus-girasol-900-cc-1-103591-7528dceaf14701133616122925497462-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-plus-900-ml/",
     "historia": [
@@ -90071,7 +90143,7 @@
     "id": "04528",
     "nombre": "Aceite Marolio Oliva Extra Vigen 250ml",
     "precio": 214.37,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-marolio-oliva-extra-vigen-250-ml1-3038186d714e3b961d16166770821623-480-0.jpg",
     "url_producto": "productos/aceite-marolio-oliva-extra-vigen-250-ml/",
     "historia": [
@@ -90089,7 +90161,7 @@
     "id": "04529",
     "nombre": "Aceite Molto Aerosol Girasol 120gr",
     "precio": 181.9,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-girasol-120-gr1-0f4f22f12ab2f8c4f616107361697969-480-0.png",
     "url_producto": "productos/aceite-molto-aerosol-girasol-120-gr/",
     "historia": [
@@ -90103,7 +90175,7 @@
     "id": "04530",
     "nombre": "Aceite Molto Aerosol Oliva 120gr",
     "precio": 226.07,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-oliva-120-gr1-f32df6961224a0228316088226786698-480-0.jpg",
     "url_producto": "productos/aceite-molto-aerosol-oliva-120-gr/",
     "historia": [
@@ -90203,7 +90275,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -90221,7 +90293,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -90343,7 +90415,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 175.9,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -90371,7 +90443,7 @@
     "id": "04546",
     "nombre": "Agua Baggio Fresh Manzana 1,5lt",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215531-0b69b3a450e7bd84a215988149742587-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-man-1-5-lt/",
     "historia": [
@@ -90389,7 +90461,7 @@
     "id": "04547",
     "nombre": "Agua Levite Naranja 2,5lt",
     "precio": 135.07,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184271-5522a22584046bac9015988160205939-480-0.jpg",
     "url_producto": "productos/agua-levite-naranja-25-lt/",
     "historia": [
@@ -91354,7 +91426,7 @@
   {
     "id": "04608",
     "nombre": "Baño De Reposteria Aguila Semiamargo 150gr",
-    "precio": 177.3,
+    "precio": 182.0,
     "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bano-de-reposteria-aguila-semiamargo-150-gr1-3a1cf7c9191fef953516113217445181-480-0.jpg",
     "url_producto": "productos/bano-de-reposteria-aguila-semiamargo-150-gr/",
@@ -91362,6 +91434,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 177.3
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 182.0
       }
     ]
   },
@@ -91400,7 +91476,7 @@
   {
     "id": "04611",
     "nombre": "Barra Cereal Mix Yogurt Frutilla 26gr",
-    "precio": 39.9,
+    "precio": 45.0,
     "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/img_81651-bf785848e856b8bd4216059641547415-480-0.jpg",
     "url_producto": "productos/barra-cereal-mix-yogurt-frutilla-26-gr/",
@@ -91408,6 +91484,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 39.9
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 45.0
       }
     ]
   },
@@ -91532,7 +91612,7 @@
   {
     "id": "04619",
     "nombre": "Bizcochuelo Arcor S/t.a.c.c. Sabor Chocolate 500gr",
-    "precio": 175.0,
+    "precio": 209.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bizcochuelo-arcor-sin-t-a-c-c-sabor-chocolate-500-gr1-f474d428f0389c930916099544462211-480-0.jpg",
     "url_producto": "productos/bizcochuelo-arcor-s-t-a-c-c-sabor-chocolate-500-gr/",
@@ -91544,13 +91624,17 @@
       {
         "fecha": "04/05/2021",
         "precio": 175.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 209.0
       }
     ]
   },
   {
     "id": "04620",
     "nombre": "Bizcochuelo Arcor S/t.a.c.c Sabor Vainilla 500gr",
-    "precio": 175.0,
+    "precio": 209.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bizcochuelo-arcor-sin-t-a-c-c-sabor-vainilla-500-gr1-7741d4db7089e7d64516099547535677-480-0.jpg",
     "url_producto": "productos/bizcochuelo-arcor-s-t-a-c-c-sabor-vainilla-500-gr/",
@@ -91558,6 +91642,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 175.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 209.0
       }
     ]
   },
@@ -92484,7 +92572,7 @@
   {
     "id": "04677",
     "nombre": "Cerveza Budweiser Lata 473cc",
-    "precio": 75.0,
+    "precio": 81.7,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/239741-b652e332077f6750a815988789656584-480-0.jpg",
     "url_producto": "productos/cerv-budweiser-lata-473-cc/",
@@ -92496,6 +92584,10 @@
       {
         "fecha": "29/05/2021",
         "precio": 75.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 81.7
       }
     ]
   },
@@ -92648,7 +92740,7 @@
   {
     "id": "04687",
     "nombre": "Chocolate Aguila P/taza 70% Cacao 150gr",
-    "precio": 299.0,
+    "precio": 340.0,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-04-20t150606-5031-6620411f876b940ba816189420772162-480-0.jpg",
     "url_producto": "productos/chocolate-aguila-p-taza-70-cacao-150-gr/",
@@ -92656,6 +92748,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 299.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 340.0
       }
     ]
   },
@@ -92850,7 +92946,7 @@
   {
     "id": "04698",
     "nombre": "Crema De Leche La Serenisima Uat Liviana 200 Cm3",
-    "precio": 120.0,
+    "precio": 135.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790742141903_011-d41caa5c86b70ad6d816065938202460-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-uat-liviana-200-cm3/",
@@ -92862,6 +92958,10 @@
       {
         "fecha": "24/04/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 135.0
       }
     ]
   },
@@ -93100,7 +93200,7 @@
   {
     "id": "04711",
     "nombre": "Dulce De Leche La Serenísima Clásico Pote 400gr",
-    "precio": 153.0,
+    "precio": 153.5,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8733701-9e7d5c994df2c0340716010380180646-480-0.jpg",
     "url_producto": "productos/dulce-de-leche-la-serenisima-clasico-pote-400-gr/",
@@ -93116,13 +93216,17 @@
       {
         "fecha": "29/05/2021",
         "precio": 153.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 153.5
       }
     ]
   },
   {
     "id": "04712",
     "nombre": "Dulce De Leche La Serenísima Tradición Argentina 400gr (libre De Tacc)",
-    "precio": 175.0,
+    "precio": 175.5,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8930011-2a33031454e5aef23b16019063599042-480-0.jpg",
     "url_producto": "productos/dulce-de-leche-la-serenisima-tradicion-argentina-400-gr-libre-de-tacc/",
@@ -93134,6 +93238,10 @@
       {
         "fecha": "29/05/2021",
         "precio": 175.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 175.5
       }
     ]
   },
@@ -94836,7 +94944,7 @@
   {
     "id": "04813",
     "nombre": "Rollo De Cocina Esencial 3un x 40 Paños",
-    "precio": 53.0,
+    "precio": 88.26,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/133371-da4ebb4e3cd5c5fa7016025237626904-480-0.jpg",
     "url_producto": "productos/rollo-de-cocina-esencial-3-un-x-40-panos/",
@@ -94864,6 +94972,10 @@
       {
         "fecha": "29/05/2021",
         "precio": 53.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 88.26
       }
     ]
   },
@@ -95712,7 +95824,7 @@
   {
     "id": "04867",
     "nombre": "Shampoo Head & Shoulders Old Spice 180ml",
-    "precio": 255.0,
+    "precio": 280.0,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52231-cb822ba202f7f794c815988868274052-480-0.jpg",
     "url_producto": "productos/shamp-h-y-s-old-spice-180-ml/",
@@ -95728,6 +95840,10 @@
       {
         "fecha": "02/06/2021",
         "precio": 255.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 280.0
       }
     ]
   },
@@ -95879,7 +95995,7 @@
     "id": "04878",
     "nombre": "Aceite De Maiz Arcor 900ml",
     "precio": 282.3,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-de-maiz-arcor-900-ml-_11-38e425b50a69a1275e16207401714293-480-0.jpg",
     "url_producto": "productos/aceite-de-maiz-arcor-900-ml/",
     "historia": [
@@ -95952,7 +96068,7 @@
   {
     "id": "04883",
     "nombre": "Harina Molto 000 1kg",
-    "precio": 42.9,
+    "precio": 55.9,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-31-9718a0f68640a660b516207413503467-480-0.png",
     "url_producto": "productos/harina-molto-000-1-kg/",
@@ -95972,6 +96088,10 @@
       {
         "fecha": "29/05/2021",
         "precio": 42.9
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 55.9
       }
     ]
   },
@@ -104621,7 +104741,7 @@
     "id": "05485",
     "nombre": "Aceite De Oliva Marolio 500ml",
     "precio": 410.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/138051-b960f38113241a526316221274642490-480-0.jpg",
     "url_producto": "productos/aceite-de-oliva-marolio-500ml/",
     "historia": [
@@ -104877,7 +104997,7 @@
     "id": "05503",
     "nombre": "Aceite Molto De Oliva Extra Virgen 250ml",
     "precio": 250.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-oliva-molto-250ml1-04aca7088cd9f1a50916225749740737-480-0.png",
     "url_producto": "productos/aceite-molto-de-oliva-extra-virgen-250ml/",
     "historia": [
@@ -104891,7 +105011,7 @@
     "id": "05504",
     "nombre": "Aceite Molto De Oliva Extra Virgen 500ml",
     "precio": 459.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5111-f7b1a5be5e71a7fdc316225749462895-480-0.jpg",
     "url_producto": "productos/aceite-molto-de-oliva-extra-virgen-500ml/",
     "historia": [
@@ -105044,7 +105164,7 @@
   {
     "id": "05515",
     "nombre": "Crema De Leche La Serenísima 330cc",
-    "precio": 210.0,
+    "precio": 215.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8732531-b4bd906c369499835116020051408840-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-330-cc/",
@@ -105052,13 +105172,17 @@
       {
         "fecha": "04/06/2021",
         "precio": 210.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 215.0
       }
     ]
   },
   {
     "id": "05516",
     "nombre": "Crema De Leche La Serenísima Uat Culinaria 20% Tenor Graso 200 Cm3",
-    "precio": 122.5,
+    "precio": 135.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls14161-c1cde548f2025d6edd16010476164530-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-uat-culinaria-20-tenor-graso-200-cm3/",
@@ -105066,13 +105190,17 @@
       {
         "fecha": "04/06/2021",
         "precio": 122.5
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 135.0
       }
     ]
   },
   {
     "id": "05517",
     "nombre": "Crema De Leche La Serenísima Uat Culinaria 20% Tenor Graso 330 Cm3",
-    "precio": 199.0,
+    "precio": 215.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls14171-d21e5d49939c2b246d16010477103849-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-uat-culinaria-20-tenor-graso-330-cm3/",
@@ -105080,6 +105208,10 @@
       {
         "fecha": "04/06/2021",
         "precio": 199.0
+      },
+      {
+        "fecha": "06/06/2021",
+        "precio": 215.0
       }
     ]
   },
@@ -105122,6 +105254,146 @@
       {
         "fecha": "04/06/2021",
         "precio": 220.0
+      }
+    ]
+  },
+  {
+    "id": "05521",
+    "nombre": "Ajo Granulado Ancestral 50gr",
+    "precio": 120.0,
+    "rubro": "Productos > Sal y Condimentos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cebolla-seca-ancestral-61-ba3cd051e2ce3a346116201587259170-480-0.jpg",
+    "url_producto": "productos/ajo-granulado-ancestral-50-gr/",
+    "historia": [
+      {
+        "fecha": "06/06/2021",
+        "precio": 120.0
+      }
+    ]
+  },
+  {
+    "id": "05522",
+    "nombre": "Baño De Repostería Aguila Blanco 150gr",
+    "precio": 182.0,
+    "rubro": "Productos > Postres y Repostería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790407031471_011-75c7bc22500b574cce16059644357603-480-0.jpg",
+    "url_producto": "productos/bano-de-reposteria-aguila-blanco-150-gr/",
+    "historia": [
+      {
+        "fecha": "06/06/2021",
+        "precio": 182.0
+      }
+    ]
+  },
+  {
+    "id": "05523",
+    "nombre": "Baño De Repostería Aguila Con Leche 150gr",
+    "precio": 182.0,
+    "rubro": "Productos > Postres y Repostería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/bano-de-reposteria-aguila-con-leche-150-gr/",
+    "historia": [
+      {
+        "fecha": "06/06/2021",
+        "precio": 182.0
+      }
+    ]
+  },
+  {
+    "id": "05524",
+    "nombre": "Bizcochuelo Aguila Brownie 425gr",
+    "precio": 200.0,
+    "rubro": "Productos > Postres y Repostería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/bizcochuelo-aguila-brownie-425gr/",
+    "historia": [
+      {
+        "fecha": "06/06/2021",
+        "precio": 200.0
+      }
+    ]
+  },
+  {
+    "id": "05525",
+    "nombre": "Bizcochuelo Godet Marmolado 500gr",
+    "precio": 250.0,
+    "rubro": "Productos > Postres y Repostería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/bizcochuelo-godet-marmolado-500gr/",
+    "historia": [
+      {
+        "fecha": "06/06/2021",
+        "precio": 250.0
+      }
+    ]
+  },
+  {
+    "id": "05526",
+    "nombre": "Dulce Arcor Batata Cajon 5kg",
+    "precio": 800.0,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/dulce-arcor-batata-cajon-5kg/",
+    "historia": [
+      {
+        "fecha": "06/06/2021",
+        "precio": 800.0
+      }
+    ]
+  },
+  {
+    "id": "05527",
+    "nombre": "Dulce Arcor Batata Con Choc. Cajon 5kg",
+    "precio": 800.0,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/dulce-arcor-batata-con-choc-cajon-5kg/",
+    "historia": [
+      {
+        "fecha": "06/06/2021",
+        "precio": 800.0
+      }
+    ]
+  },
+  {
+    "id": "05528",
+    "nombre": "Dulce Arcor De Membrillo Cajon 5kg",
+    "precio": 970.0,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/dulce-arcor-de-membrillo-cajon-5kg/",
+    "historia": [
+      {
+        "fecha": "06/06/2021",
+        "precio": 970.0
+      }
+    ]
+  },
+  {
+    "id": "05529",
+    "nombre": "Ravioles La Tucumanita Con Carne y Verdura 650gr",
+    "precio": 140.0,
+    "rubro": "Productos > LA TUCUMANITA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/800504-la-tucumanita-logo1-43d3e017939a7dff6416228182739236-480-0.png",
+    "url_producto": "productos/ravioles-la-tucumanita-con-carne-y-verdura-650gr/",
+    "historia": [
+      {
+        "fecha": "06/06/2021",
+        "precio": 140.0
+      }
+    ]
+  },
+  {
+    "id": "05530",
+    "nombre": "Ravioles La Tucumanita Con Verdura 650gr",
+    "precio": 140.0,
+    "rubro": "Productos > LA TUCUMANITA",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/800504-la-tucumanita-logo11-e784a4f65bcf90b3dc16228183016575-480-0.png",
+    "url_producto": "productos/ravioles-la-tucumanita-con-verdura-650gr/",
+    "historia": [
+      {
+        "fecha": "06/06/2021",
+        "precio": 140.0
       }
     ]
   }
