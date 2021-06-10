@@ -6773,12 +6773,11 @@
   {
     "id": "00222",
     "nombre": "Mayonesa Hellmanns 475gr",
-    "precio": 120.0,
+    "precio": 142.0,
     "rubro": "Aderezos > Mayonesas",
     "url_imagen": "2019/11/MAYONESA-HELLMANNS-475GR.jpg",
     "url_producto": "mayonesa-hellmanns-475gr/",
-    "precio_unitario": "$120,00",
-    "precio_1": "3,100.00",
+    "precio_1": "3,123.01",
     "historia": [
       {
         "fecha": "24/07/2020",
@@ -6809,6 +6808,10 @@
       },
       {
         "fecha": "05/02/2021"
+      },
+      {
+        "fecha": "09/06/2021",
+        "precio": 142.0
       }
     ]
   },
@@ -25051,6 +25054,36 @@
       {
         "fecha": "08/06/2021",
         "precio": 83.2
+      }
+    ]
+  },
+  {
+    "id": "00957",
+    "nombre": "Mayonesa Hellmanns Burger House 940gr",
+    "precio": 287.0,
+    "rubro": "Aderezos > Mayonesas",
+    "url_imagen": "2021/06/MAYONESA-HELLMANNS-BURGER-HOUSE-1000CM3.jpg",
+    "url_producto": "mayonesa-hellmanns-burger-house-1000-cm3/",
+    "precio_1": "3,248.94",
+    "historia": [
+      {
+        "fecha": "09/06/2021",
+        "precio": 287.0
+      }
+    ]
+  },
+  {
+    "id": "00958",
+    "nombre": "Tomate Triturado Campo Solco 980gr",
+    "precio": 125.0,
+    "rubro": "Almacén > Salsas",
+    "url_imagen": "2021/06/TOM-TRIT-SINMARCA.jpg",
+    "url_producto": "tomate-triturado-campo-solco-980-grs/",
+    "precio_1": "3,110.00",
+    "historia": [
+      {
+        "fecha": "09/06/2021",
+        "precio": 125.0
       }
     ]
   }

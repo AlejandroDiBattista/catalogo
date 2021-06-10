@@ -65072,7 +65072,7 @@
   {
     "id": "03089",
     "nombre": "Aceitunas Nucete Verde Descarozadas Doy Pack 150gr",
-    "precio": 109.2,
+    "precio": 115.0,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59331-471a9cbb738f37861e15988135578965-480-0.jpg",
     "url_producto": "productos/aceit-nucete-vde-des-dpa-150-gr/",
@@ -65088,6 +65088,10 @@
       {
         "fecha": "27/05/2021",
         "precio": 109.2
+      },
+      {
+        "fecha": "10/06/2021",
+        "precio": 115.0
       }
     ]
   },
@@ -65313,7 +65317,7 @@
     "id": "03101",
     "nombre": "Acondicionador Dove Hidratación Intensa 400ml",
     "precio": 376.88,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134081-617c0210c3c9ec52d915989073595026-480-0.jpg",
     "url_producto": "productos/acond-dove-hidrat-int-400-ml/",
     "historia": [
@@ -65339,7 +65343,7 @@
     "id": "03102",
     "nombre": "Acondicionador Dove Reconstrución Completa 400ml",
     "precio": 376.88,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134091-e88b3763692fc3fd0415989073970501-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-400-ml/",
     "historia": [
@@ -65393,7 +65397,7 @@
     "id": "03105",
     "nombre": "Agua Baggio Fresh Mix Frutal 1,1lt ,",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-22t102628-5021-17051cd572b00ea44616113220049225-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-mix-frutal-1-5-lt/",
     "historia": [
@@ -65419,7 +65423,7 @@
     "id": "03106",
     "nombre": "Agua Baggio Fresh Naranja Dulce 1,5lt",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/604611-5271f343145345b6e516028681925353-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-naranja-dulce-15-lt/",
     "historia": [
@@ -65445,7 +65449,7 @@
     "id": "03107",
     "nombre": "Agua Baggio Fresh Pera 1,1lt",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-baggio-fresh-pera-1-5-lt1-39e6b32abfedd2386c16113218756564-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-pera-1-5-lt/",
     "historia": [
@@ -65499,7 +65503,7 @@
     "id": "03110",
     "nombre": "Agua Levite Manzana 2,5lt",
     "precio": 135.07,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-saborizada-levite-manzana-2-5lts-1-8567591-8325478d3b17527c5616128034143481-480-0.jpg",
     "url_producto": "productos/agua-levite-manzana-25-lt/",
     "historia": [
@@ -65521,7 +65525,7 @@
     "id": "03111",
     "nombre": "Agua Levite Naranja 1,1 Lts",
     "precio": 99.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-levite-naranja-1-5-lts1-95b6f2b64f6ad67b7916046854733037-480-0.png",
     "url_producto": "productos/agua-levite-naranja-1-5-lts/",
     "historia": [
@@ -66556,7 +66560,7 @@
   {
     "id": "03157",
     "nombre": "Aquarius Saborizada Manzana 2,2lt",
-    "precio": 135.0,
+    "precio": 210.0,
     "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790895640483_01_nuevopack1-a04355f3c959bce67e16010476860210-480-0.jpg",
     "url_producto": "productos/aquarius-saborizada-manzana-2-25-l/",
@@ -66564,6 +66568,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 135.0
+      },
+      {
+        "fecha": "10/06/2021",
+        "precio": 210.0
       }
     ]
   },
@@ -66751,7 +66759,7 @@
     "id": "03166",
     "nombre": "Arvejas Green Life Congelada 300gr",
     "precio": 190.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550211-a666675e62010c5a7515990911554480-480-0.jpg",
     "url_producto": "productos/arvejas-green-life-congelada-300-gr/",
     "historia": [
@@ -67005,7 +67013,7 @@
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
     "precio": 490.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
     "historia": [
@@ -67161,7 +67169,7 @@
     "id": "03185",
     "nombre": "Bife Angosto x kg",
     "precio": 958.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
     "historia": [
@@ -67283,7 +67291,7 @@
     "id": "03190",
     "nombre": "Bola De Lomo Feteada Para Milanesa x kg",
     "precio": 800.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-lomo-fet1-44e054598c02eecd9816027207901849-480-0.jpg",
     "url_producto": "productos/bola-de-lomo-feteada-para-milanesa-x-kg/",
     "historia": [
@@ -68007,7 +68015,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -69060,7 +69068,7 @@
   {
     "id": "03279",
     "nombre": "Edulcorante Hileret 1a10 Liq. 500cc",
-    "precio": 168.86,
+    "precio": 220.06,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/441591-fce7ee6d3c2539062b15990703089137-480-0.jpg",
     "url_producto": "productos/edulc-hileret-1a10-liq-500-cc/",
@@ -69080,6 +69088,10 @@
       {
         "fecha": "31/03/2021",
         "precio": 168.86
+      },
+      {
+        "fecha": "10/06/2021",
+        "precio": 220.06
       }
     ]
   },
@@ -70766,7 +70778,7 @@
   {
     "id": "03368",
     "nombre": "Harina Blancaflor Leudante 1kg",
-    "precio": 90.87,
+    "precio": 64.9,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/116311-2fabf3bb480dbef47c15989646767461-480-0.jpg",
     "url_producto": "productos/har-blancaflor-leudante-1-kg/",
@@ -70794,6 +70806,10 @@
       {
         "fecha": "27/05/2021",
         "precio": 90.87
+      },
+      {
+        "fecha": "10/06/2021",
+        "precio": 64.9
       }
     ]
   },
@@ -74458,7 +74474,7 @@
   {
     "id": "03558",
     "nombre": "Papel Higiénico Higienol Premium 4x30 Mt",
-    "precio": 162.0,
+    "precio": 165.0,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/153161-ab342f624052e6fd6c15988873524584-480-0.jpg",
     "url_producto": "productos/pap-hig-higienol-premium-4x30-mt/",
@@ -74478,6 +74494,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 162.0
+      },
+      {
+        "fecha": "10/06/2021",
+        "precio": 165.0
       }
     ]
   },
@@ -87565,7 +87585,7 @@
     "id": "04359",
     "nombre": "Agua Baggio Fresh Pomelo 1,5lt",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215551-70616cd842619ee27515988158196946-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-pome-1-5-lt/",
     "historia": [
@@ -88474,7 +88494,7 @@
   {
     "id": "04416",
     "nombre": "Crema De Leche La Serenísima 200gr",
-    "precio": 167.7,
+    "precio": 175.5,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164211-87fdb4f6713999034415990676754429-480-0.jpg",
     "url_producto": "productos/crema-l-serenis-200-gr/",
@@ -88490,6 +88510,10 @@
       {
         "fecha": "04/05/2021",
         "precio": 167.7
+      },
+      {
+        "fecha": "10/06/2021",
+        "precio": 175.5
       }
     ]
   },
@@ -89295,7 +89319,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 223.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -90297,7 +90321,7 @@
     "id": "04533",
     "nombre": "Acondiciónador Dove Oleo Nutrición 750ml",
     "precio": 675.87,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237691-584193fa5c876aef5015990691178020-480-0.jpg",
     "url_producto": "productos/acond-dove-oleo-nutric-750-ml/",
     "historia": [
@@ -90315,7 +90339,7 @@
     "id": "04534",
     "nombre": "Acondiciónador Dove Reconstrución Completa 750ml",
     "precio": 675.87,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237681-a13f3137e67435676715990691033096-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-750-ml/",
     "historia": [
@@ -90333,7 +90357,7 @@
     "id": "04535",
     "nombre": "Acondicionador Elvive Kera Liso 400ml",
     "precio": 460.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/210721-ac9ddab487a4ae562516043400249425-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-kera-liso-400-ml/",
     "historia": [
@@ -90391,7 +90415,7 @@
     "id": "04538",
     "nombre": "Acondicionador Head & Shoulders Refrescante 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52361-d612b82bf46eb1cbe715988138704164-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-relief-180-ml/",
     "historia": [
@@ -90409,7 +90433,7 @@
     "id": "04539",
     "nombre": "Acondicionador Head & Shoulders Rejuvecedora 375ml",
     "precio": 356.77,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52531-f5f5c627f982c2ba8715988139254367-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-rejuvec-375-ml/",
     "historia": [
@@ -90519,7 +90543,7 @@
     "id": "04546",
     "nombre": "Agua Baggio Fresh Manzana 1,5lt",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215531-0b69b3a450e7bd84a215988149742587-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-man-1-5-lt/",
     "historia": [
@@ -90537,7 +90561,7 @@
     "id": "04547",
     "nombre": "Agua Levite Naranja 2,5lt",
     "precio": 135.07,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184271-5522a22584046bac9015988160205939-480-0.jpg",
     "url_producto": "productos/agua-levite-naranja-25-lt/",
     "historia": [
@@ -91474,7 +91498,7 @@
   {
     "id": "04606",
     "nombre": "Azúcar Independencia x kg",
-    "precio": 55.0,
+    "precio": 39.89,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga1-1f55aa3b50acbb204016109729690992-480-0.jpg",
     "url_producto": "productos/azucar-independencia-x-kg/",
@@ -91490,6 +91514,10 @@
       {
         "fecha": "20/05/2021",
         "precio": 55.0
+      },
+      {
+        "fecha": "10/06/2021",
+        "precio": 39.89
       }
     ]
   },
@@ -92823,7 +92851,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -103883,7 +103911,7 @@
     "id": "05416",
     "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 400ml",
     "precio": 460.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7898587761949-1_1_1-ef2cb24811224c211716213573046943-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-400ml/",
     "historia": [
@@ -105041,7 +105069,7 @@
     "id": "05497",
     "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 200ml",
     "precio": 231.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/elvive-ac-color-vive-x-200ml1-b5d82d5d9f6a2a6f5416224760728512-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-200ml/",
     "historia": [
@@ -105606,6 +105634,34 @@
       {
         "fecha": "08/06/2021",
         "precio": 1.195
+      }
+    ]
+  },
+  {
+    "id": "05537",
+    "nombre": "Crema De Leche Armonia Para Batir 200ml",
+    "precio": 126.75,
+    "rubro": "Productos > Lácteos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/crema-de-leche-armonia-para-batir-200ml/",
+    "historia": [
+      {
+        "fecha": "10/06/2021",
+        "precio": 126.75
+      }
+    ]
+  },
+  {
+    "id": "05538",
+    "nombre": "Pure De Tomate Molto 340gr",
+    "precio": 51.88,
+    "rubro": "Productos > Salsas y Puré de Tomates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184051-1b45c91f24db6cd4e115992494299462-480-0.jpg",
+    "url_producto": "productos/pure-de-tomate-molto-340-gr/",
+    "historia": [
+      {
+        "fecha": "10/06/2021",
+        "precio": 51.88
       }
     ]
   }
