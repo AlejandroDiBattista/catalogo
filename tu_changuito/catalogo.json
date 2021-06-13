@@ -65612,7 +65612,7 @@
   {
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
-    "precio": 134.0,
+    "precio": 129.99,
     "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
@@ -65628,6 +65628,10 @@
       {
         "fecha": "06/06/2021",
         "precio": 134.0
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 129.99
       }
     ]
   },
@@ -65698,7 +65702,7 @@
   {
     "id": "03122",
     "nombre": "Agua Sin Gas Nestlé Pureza Vital 2,25 Lts",
-    "precio": 101.5,
+    "precio": 110.0,
     "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-sin-gas-nestle-pureza-vital-225-lts1-eeec029681545bd86216015826868064-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-225-lts/",
@@ -65722,13 +65726,17 @@
       {
         "fecha": "06/06/2021",
         "precio": 101.5
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 110.0
       }
     ]
   },
   {
     "id": "03123",
     "nombre": "Agua Sin Gas Nestlé Pureza Vital Bidón 6,3lt",
-    "precio": 210.9,
+    "precio": 216.35,
     "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/24111-ec1f792bddd04f223415988775601891-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-bidon-63-lt/",
@@ -65744,6 +65752,10 @@
       {
         "fecha": "26/03/2021",
         "precio": 210.9
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 216.35
       }
     ]
   },
@@ -65933,7 +65945,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 380.0,
-    "rubro": "Productos > Frutos Secos",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -66560,7 +66572,7 @@
   {
     "id": "03157",
     "nombre": "Aquarius Saborizada Manzana 2,2lt",
-    "precio": 210.0,
+    "precio": 145.0,
     "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790895640483_01_nuevopack1-a04355f3c959bce67e16010476860210-480-0.jpg",
     "url_producto": "productos/aquarius-saborizada-manzana-2-25-l/",
@@ -66572,13 +66584,17 @@
       {
         "fecha": "10/06/2021",
         "precio": 210.0
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 145.0
       }
     ]
   },
   {
     "id": "03158",
     "nombre": "Aquarius Saborizada Pera 2,2lt",
-    "precio": 135.0,
+    "precio": 145.0,
     "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8744501-b3a7dd5353a42f55c916009500623439-480-0.jpg",
     "url_producto": "productos/aquarius-saborizada-pera-2-25-l/",
@@ -66586,6 +66602,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 135.0
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 145.0
       }
     ]
   },
@@ -66928,7 +66948,7 @@
   {
     "id": "03173",
     "nombre": "Azúcar Chango 1kg",
-    "precio": 69.55,
+    "precio": 59.99,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2691-c35131e65a120add2515988328157594-480-0.jpg",
     "url_producto": "productos/azucar-chango-1-kg/",
@@ -66944,6 +66964,10 @@
       {
         "fecha": "06/06/2021",
         "precio": 69.55
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 59.99
       }
     ]
   },
@@ -67013,7 +67037,7 @@
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
     "precio": 490.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
     "historia": [
@@ -67151,7 +67175,7 @@
     "id": "03184",
     "nombre": "Bife Ancho (marucha) x kg (*)",
     "precio": 690.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-ancho1-046e8ec9180bc119ef15988756860268-480-0.jpg",
     "url_producto": "productos/bife-ancho-marucha-x-kg/",
     "historia": [
@@ -67169,7 +67193,7 @@
     "id": "03185",
     "nombre": "Bife Angosto x kg",
     "precio": 958.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
     "historia": [
@@ -67199,7 +67223,7 @@
     "id": "03186",
     "nombre": "Bife De Chorizo Cortado P/ Bife x kg (*)",
     "precio": 920.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-chorizo1-041d9d9fbaf770027115988756952195-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-bifedechorizo/",
     "historia": [
@@ -67265,7 +67289,7 @@
     "id": "03189",
     "nombre": "Bola De Lomo Cortada P/ Milanesa x kg (*)",
     "precio": 940.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-de-lomo1-0432a199844759898f15988757082702-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-boladelomo/",
     "historia": [
@@ -67291,7 +67315,7 @@
     "id": "03190",
     "nombre": "Bola De Lomo Feteada Para Milanesa x kg",
     "precio": 800.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-lomo-fet1-44e054598c02eecd9816027207901849-480-0.jpg",
     "url_producto": "productos/bola-de-lomo-feteada-para-milanesa-x-kg/",
     "historia": [
@@ -67742,7 +67766,7 @@
   {
     "id": "03214",
     "nombre": "Cerveza Andes Origen Rubia 473cc",
-    "precio": 116.87,
+    "precio": 133.55,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/258601-23c88ee19a970e2ab215988789087953-480-0.jpg",
     "url_producto": "productos/cerv-andes-o-rubia-473-cc/",
@@ -67754,6 +67778,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 116.87
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 133.55
       }
     ]
   },
@@ -67834,7 +67862,7 @@
   {
     "id": "03220",
     "nombre": "Cerveza Patagonia Amber Leger 730cc",
-    "precio": 243.66,
+    "precio": 252.35,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/259871-b09ef1466c974b77c215988791484645-480-0.jpg",
     "url_producto": "productos/cerv-patagonia-amber-leger-730-cc/",
@@ -67854,6 +67882,10 @@
       {
         "fecha": "27/04/2021",
         "precio": 243.66
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 252.35
       }
     ]
   },
@@ -70368,7 +70400,7 @@
   {
     "id": "03347",
     "nombre": "Gaseosa Paso De Los Toros Pomelo 1,1lt",
-    "precio": 130.0,
+    "precio": 199.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/gaseosa-paso-de-los-toros-pomelo-botella-1-5-l1-61a3a2865b6afb217e16059094074063-480-0.jpg",
     "url_producto": "productos/gaseosa-paso-de-los-toros-pomelo-1-5-lt/",
@@ -70380,6 +70412,10 @@
       {
         "fecha": "03/04/2021",
         "precio": 130.0
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 199.0
       }
     ]
   },
@@ -70666,7 +70702,7 @@
   {
     "id": "03364",
     "nombre": "Hamburguesa Paty Super 125gr x 2un",
-    "precio": 220.0,
+    "precio": 310.0,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/800029514_2_1400x1-982e7742abba2be32116025113141152-480-0.jpg",
     "url_producto": "productos/hamburguesa-paty-super-125-gr-x-2-un/",
@@ -70686,6 +70722,10 @@
       {
         "fecha": "23/05/2021",
         "precio": 220.0
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 310.0
       }
     ]
   },
@@ -70834,7 +70874,7 @@
   {
     "id": "03370",
     "nombre": "Harina Favorita 000 1kg",
-    "precio": 43.0,
+    "precio": 59.67,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/harina-de-trigo-000-favorita-1-kg-1-134441-3fa79e3de3aad2820316109730458896-480-0.jpg",
     "url_producto": "productos/har-favorita-000-1-kg/",
@@ -70862,6 +70902,10 @@
       {
         "fecha": "06/06/2021",
         "precio": 43.0
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 59.67
       }
     ]
   },
@@ -71830,7 +71874,7 @@
   {
     "id": "03424",
     "nombre": "Leche En Polvo La Lechera 800gr",
-    "precio": 560.0,
+    "precio": 580.0,
     "rubro": "Productos > Leches en Polvo y Larga Vida",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/leche-en-polvo-la-lechera-800-gr1-9e75f993b1cadcda2216113223941916-480-0.jpg",
     "url_producto": "productos/leche-en-polvo-la-lechera-800-gr/",
@@ -71842,6 +71886,10 @@
       {
         "fecha": "23/05/2021",
         "precio": 560.0
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 580.0
       }
     ]
   },
@@ -86944,7 +86992,7 @@
   {
     "id": "04321",
     "nombre": "Cerveza Andes Miel 473ml",
-    "precio": 110.0,
+    "precio": 133.55,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cerveza-andes-miel-473-ml1-9fc82c1e5e23b3cf3716158130309593-480-0.png",
     "url_producto": "productos/cerveza-andes-miel-473-ml/",
@@ -86956,6 +87004,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 110.0
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 133.55
       }
     ]
   },
@@ -90399,7 +90451,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -90417,7 +90469,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -90538,14 +90590,18 @@
   {
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
-    "precio": 175.9,
-    "rubro": "Productos > Cuidado Personal",
+    "precio": 203.97,
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
       {
         "fecha": "23/04/2021",
         "precio": 175.9
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 203.97
       }
     ]
   },
@@ -90695,7 +90751,7 @@
     "id": "04554",
     "nombre": "Albóndigas De Río x 500gr Aprox.(*)",
     "precio": 260.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/50-albondigas-de-rio-11-bd5b80fb4b3c89594c16026907870590-480-0.jpg",
     "url_producto": "productos/albondigas-de-rio-x-500-gr-aprox/",
     "historia": [
@@ -90921,7 +90977,7 @@
     "id": "04569",
     "nombre": "Aletas De Calamar x kg (*)",
     "precio": 420.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-11-37c0b6f055380f2efa16025996428926-480-0.jpg",
     "url_producto": "productos/aletas-de-calamar-x-kg/",
     "historia": [
@@ -90981,7 +91037,7 @@
     "id": "04573",
     "nombre": "Almejas Taquilla Peladas x kg (*)",
     "precio": 1.69,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5-almejas-taquilla1-ce4e8c28b113cfdec716025996852822-480-0.jpg",
     "url_producto": "productos/almejas-taquilla-peladas-x-kg/",
     "historia": [
@@ -90995,7 +91051,7 @@
     "id": "04574",
     "nombre": "Almejas Tumbao Peladas x kg (*)",
     "precio": 1.69,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/6-almejas-tumbao1-ce4e8c28b113cfdec716025997616754-480-0.jpg",
     "url_producto": "productos/almejas-tumbao-peladas-x-kg/",
     "historia": [
@@ -91069,7 +91125,7 @@
     "id": "04579",
     "nombre": "Anillas De Calamar x kg (*)",
     "precio": 895.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/anillas-de-calamar1-bb2e192da88671f7a316026000395828-480-0.jpg",
     "url_producto": "productos/anillas-de-calamar-x-kg/",
     "historia": [
@@ -91657,7 +91713,7 @@
     "id": "04613",
     "nombre": "Berberechos x kg (*)",
     "precio": 1.85,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/berberechos1-14457b0f013385fcaa16026038578953-480-0.jpg",
     "url_producto": "productos/berberechos-x-kg/",
     "historia": [
@@ -92736,7 +92792,7 @@
   {
     "id": "04677",
     "nombre": "Cerveza Budweiser Lata 473cc",
-    "precio": 81.7,
+    "precio": 104.0,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/239741-b652e332077f6750a815988789656584-480-0.jpg",
     "url_producto": "productos/cerv-budweiser-lata-473-cc/",
@@ -92752,6 +92808,10 @@
       {
         "fecha": "06/06/2021",
         "precio": 81.7
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 104.0
       }
     ]
   },
@@ -93796,7 +93856,7 @@
   {
     "id": "04735",
     "nombre": "Gaseosa Fanta Naranja 1,5lt",
-    "precio": 165.65,
+    "precio": 195.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc178931-88b50b3acaf6f51f7d16010451391213-480-0.jpg",
     "url_producto": "productos/gaseosa-fanta-naranja-15-lt/",
@@ -93804,6 +93864,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 165.65
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 195.0
       }
     ]
   },
@@ -95498,7 +95562,7 @@
   {
     "id": "04834",
     "nombre": "Detergente Woolite Ropa Blanca Dp 450ml",
-    "precio": 210.0,
+    "precio": 220.0,
     "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/woolite-ropa-fina-extra-blanco-450-ml1-2bac96b1d822a175eb16126338818203-480-0.jpg",
     "url_producto": "productos/detergente-woolite-ropa-blanca-dp-450-ml/",
@@ -95510,6 +95574,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 210.0
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 220.0
       }
     ]
   },
@@ -95900,7 +95968,7 @@
   {
     "id": "04859",
     "nombre": "Cerveza Andes Miel Six Pack 473ml",
-    "precio": 599.0,
+    "precio": 682.5,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cerveza-andes-miel-six-pack-473ml1-724a16351ba2aad11516158130859841-480-0.jpg",
     "url_producto": "productos/cerveza-andes-miel-six-pack-473ml/",
@@ -95908,6 +95976,10 @@
       {
         "fecha": "07/05/2021",
         "precio": 599.0
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 682.5
       }
     ]
   },
@@ -96607,7 +96679,7 @@
     "id": "04906",
     "nombre": "Fideos La Tucumanita Tallarin Clásicos 500gr",
     "precio": 80.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico1-0c781d88162a97e7af16209183187781-480-0.jpg",
     "url_producto": "productos/fideos-la-tucumanita-tallarin-clasicos-500-gr/",
     "historia": [
@@ -96625,7 +96697,7 @@
     "id": "04907",
     "nombre": "Fideos La Tucumanita Tallarin Verdura 500gr",
     "precio": 80.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-11-6ab1096d4afe93399a16209183527029-480-0.jpg",
     "url_producto": "productos/fideos-la-tucumanita-tallarin-verdura-500-gr/",
     "historia": [
@@ -96699,7 +96771,7 @@
     "id": "04912",
     "nombre": "Noquis La Tucumanita 500gr",
     "precio": 90.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-13t115037-3221-c09dd4a88eb616857716209174632905-480-0.jpg",
     "url_producto": "productos/noquis-la-tucumanita-500-gr/",
     "historia": [
@@ -103711,7 +103783,7 @@
     "id": "05400",
     "nombre": "Pascualinas La Tucumanita Criolla 300gr",
     "precio": 70.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-21-a038196102af88b0d516210067568338-480-0.jpg",
     "url_producto": "productos/pascualinas-la-tucumanita-criolla-300-gr/",
     "historia": [
@@ -105256,7 +105328,7 @@
   {
     "id": "05507",
     "nombre": "Mani Pehuamar Pelado 150gr",
-    "precio": 170.0,
+    "precio": 147.99,
     "rubro": "Productos > Snacks",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mani-pelado-pehuamar-150-gr-1-166501-4bf51ed071e53c0e7316225750356686-480-0.jpg",
     "url_producto": "productos/mani-pehuamar-pelado-150gr/",
@@ -105264,6 +105336,10 @@
       {
         "fecha": "02/06/2021",
         "precio": 170.0
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 147.99
       }
     ]
   },
@@ -105326,7 +105402,7 @@
   {
     "id": "05512",
     "nombre": "Alcohol Etilico San Iginio 96% 500ml",
-    "precio": 99.0,
+    "precio": 110.0,
     "rubro": "Productos > Barbijos y Sanitizantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/113451-d20e7508627c70064f16045946566300-1024-10241-5aa8b5d354e6778afa16210185171760-480-0.jpg",
     "url_producto": "productos/alcohol-etilico-san-iginio-96-500ml/",
@@ -105334,6 +105410,10 @@
       {
         "fecha": "04/06/2021",
         "precio": 99.0
+      },
+      {
+        "fecha": "12/06/2021",
+        "precio": 110.0
       }
     ]
   },
@@ -105577,7 +105657,7 @@
     "id": "05529",
     "nombre": "Ravioles La Tucumanita Con Carne y Verdura 650gr",
     "precio": 140.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/800504-la-tucumanita-logo1-43d3e017939a7dff6416228182739236-480-0.png",
     "url_producto": "productos/ravioles-la-tucumanita-con-carne-y-verdura-650gr/",
     "historia": [
@@ -105591,7 +105671,7 @@
     "id": "05530",
     "nombre": "Ravioles La Tucumanita Con Verdura 650gr",
     "precio": 140.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/800504-la-tucumanita-logo11-e784a4f65bcf90b3dc16228183016575-480-0.png",
     "url_producto": "productos/ravioles-la-tucumanita-con-verdura-650gr/",
     "historia": [
@@ -105808,6 +105888,104 @@
       {
         "fecha": "11/06/2021",
         "precio": 85.0
+      }
+    ]
+  },
+  {
+    "id": "05546",
+    "nombre": "Antitranspirante Femenino Dove Go Fresh 89gr",
+    "precio": 228.67,
+    "rubro": "Productos > Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/a888641281-78a2c9f74a5ecf2d1016234277084655-480-0.jpg",
+    "url_producto": "productos/antitranspirante-femenino-dove-go-fresh-89-gr/",
+    "historia": [
+      {
+        "fecha": "12/06/2021",
+        "precio": 228.67
+      }
+    ]
+  },
+  {
+    "id": "05547",
+    "nombre": "Crema De Leche Armonia Para Batir 200ml",
+    "precio": 126.75,
+    "rubro": "Productos > Lácteos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crema-de-leche-armonia-x-200-ml-1-8438961-cd4603d9e1a01a9a9416234223647901-480-0.jpg",
+    "url_producto": "productos/crema-de-leche-armonia-para-batir-200ml/",
+    "historia": [
+      {
+        "fecha": "12/06/2021",
+        "precio": 126.75
+      }
+    ]
+  },
+  {
+    "id": "05548",
+    "nombre": "Gaseosa Mirinda Manzana 2lt",
+    "precio": 155.0,
+    "rubro": "Productos > Gaseosas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/gaseosa-mirinda-manzana-2lt/",
+    "historia": [
+      {
+        "fecha": "12/06/2021",
+        "precio": 155.0
+      }
+    ]
+  },
+  {
+    "id": "05549",
+    "nombre": "Jabon Espadol Antibacterial Original 80gr",
+    "precio": 90.87,
+    "rubro": "Productos > Barbijos y Sanitizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77983391900511-d3d9245ba6e1c5e8ae16234241396912-480-0.jpg",
+    "url_producto": "productos/jabon-espadol-antibacterial-original-80gr/",
+    "historia": [
+      {
+        "fecha": "12/06/2021",
+        "precio": 90.87
+      }
+    ]
+  },
+  {
+    "id": "05550",
+    "nombre": "Jabon Espadol Skincare 80gr",
+    "precio": 90.87,
+    "rubro": "Productos > Barbijos y Sanitizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/jab-n-espadol-skincare-x-80gr-1-185261-9628de2a3abb95738f16234242100868-480-0.jpg",
+    "url_producto": "productos/jabon-espadol-skincare-80gr/",
+    "historia": [
+      {
+        "fecha": "12/06/2021",
+        "precio": 90.87
+      }
+    ]
+  },
+  {
+    "id": "05551",
+    "nombre": "Toallas Humedas Espadol Antibacterial 10un",
+    "precio": 75.99,
+    "rubro": "Productos > Barbijos y Sanitizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/127721_toallas-humedas-antibacteriales-x-10-un-127721_imagen-11-2f5deb017627da055816234231062622-480-0.jpg",
+    "url_producto": "productos/toallas-humedas-espadol-antibacterial-10un/",
+    "historia": [
+      {
+        "fecha": "12/06/2021",
+        "precio": 75.99
+      }
+    ]
+  },
+  {
+    "id": "05552",
+    "nombre": "Vino Aime Malbec 750ml",
+    "precio": 270.0,
+    "rubro": "Productos > Vinos y Espumantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/010827002441-5cc27f1445379086f116234251936350-480-0.jpg",
+    "url_producto": "productos/vino-aime-malbec-750ml/",
+    "historia": [
+      {
+        "fecha": "12/06/2021",
+        "precio": 270.0
       }
     ]
   }
