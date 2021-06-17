@@ -65345,7 +65345,7 @@
     "id": "03101",
     "nombre": "Acondicionador Dove Hidratación Intensa 400ml",
     "precio": 398.87,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134081-617c0210c3c9ec52d915989073595026-480-0.jpg",
     "url_producto": "productos/acond-dove-hidrat-int-400-ml/",
     "historia": [
@@ -65375,7 +65375,7 @@
     "id": "03102",
     "nombre": "Acondicionador Dove Reconstrución Completa 400ml",
     "precio": 398.87,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134091-e88b3763692fc3fd0415989073970501-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-400-ml/",
     "historia": [
@@ -65433,7 +65433,7 @@
     "id": "03105",
     "nombre": "Agua Baggio Fresh Mix Frutal 1,1lt ,",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-22t102628-5021-17051cd572b00ea44616113220049225-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-mix-frutal-1-5-lt/",
     "historia": [
@@ -65459,7 +65459,7 @@
     "id": "03106",
     "nombre": "Agua Baggio Fresh Naranja Dulce 1,5lt",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/604611-5271f343145345b6e516028681925353-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-naranja-dulce-15-lt/",
     "historia": [
@@ -65485,7 +65485,7 @@
     "id": "03107",
     "nombre": "Agua Baggio Fresh Pera 1,1lt",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-baggio-fresh-pera-1-5-lt1-39e6b32abfedd2386c16113218756564-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-pera-1-5-lt/",
     "historia": [
@@ -65507,7 +65507,7 @@
     "id": "03108",
     "nombre": "Agua Glaciar Sin Gas 2lt",
     "precio": 99.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc24241-65917abfdcc656c1b616010430756981-480-0.jpg",
     "url_producto": "productos/agua-glaciar-sin-gas-2-lt/",
     "historia": [
@@ -65539,7 +65539,7 @@
     "id": "03110",
     "nombre": "Agua Levite Manzana 2,5lt",
     "precio": 138.19,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-saborizada-levite-manzana-2-5lts-1-8567591-8325478d3b17527c5616128034143481-480-0.jpg",
     "url_producto": "productos/agua-levite-manzana-25-lt/",
     "historia": [
@@ -65639,7 +65639,7 @@
     "id": "03116",
     "nombre": "Agua Mineral Sierra De Los Padres 2lt",
     "precio": 71.3,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sierra-de-los-padres-2-lt1-ab6f3d796f1482e66616001948616487-480-0.jpg",
     "url_producto": "productos/agua-mineral-sierra-de-los-padres-2-l/",
     "historia": [
@@ -65652,8 +65652,8 @@
   {
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
-    "precio": 155.9,
-    "rubro": "Productos > Bebidas",
+    "precio": 82.0,
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -65676,6 +65676,10 @@
       {
         "fecha": "15/06/2021",
         "precio": 155.9
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 82.0
       }
     ]
   },
@@ -66005,7 +66009,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 380.0,
-    "rubro": "Productos > Frutos Secos",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -66872,7 +66876,7 @@
   {
     "id": "03165",
     "nombre": "Arroz Preparado Gallo Verdeo 240gr",
-    "precio": 152.0,
+    "precio": 169.99,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/arroz-preparado-gallo-sabor-verdeo-x-240-gr1-0e59360ef75b70453116037380840707-480-0.jpg",
     "url_producto": "productos/arroz-preparado-gallo-verdeo-240-gr/",
@@ -66896,6 +66900,10 @@
       {
         "fecha": "04/06/2021",
         "precio": 152.0
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 169.99
       }
     ]
   },
@@ -66903,7 +66911,7 @@
     "id": "03166",
     "nombre": "Arvejas Green Life Congelada 300gr",
     "precio": 190.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550211-a666675e62010c5a7515990911554480-480-0.jpg",
     "url_producto": "productos/arvejas-green-life-congelada-300-gr/",
     "historia": [
@@ -68215,7 +68223,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -69174,7 +69182,7 @@
   {
     "id": "03274",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
-    "precio": 170.0,
+    "precio": 175.0,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-400-gr/",
@@ -69198,6 +69206,10 @@
       {
         "fecha": "23/05/2021",
         "precio": 170.0
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 175.0
       }
     ]
   },
@@ -70874,7 +70886,7 @@
   {
     "id": "03362",
     "nombre": "Hamburguesa Paty Finita 2un",
-    "precio": 108.13,
+    "precio": 110.0,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790670050728_021-adffdf86b098cb839515996126617731-480-0.jpg",
     "url_producto": "productos/hamb-paty-finita-2-un/",
@@ -70902,13 +70914,17 @@
       {
         "fecha": "16/06/2021",
         "precio": 108.13
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 110.0
       }
     ]
   },
   {
     "id": "03363",
     "nombre": "Hamburguesa Paty Light 80gr x 4un",
-    "precio": 319.0,
+    "precio": 418.82,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/225121-f0b36589a90011329a15990686988928-480-0.jpg",
     "url_producto": "productos/hamburguesa-paty-light-80-gr-x-4-un/",
@@ -70916,13 +70932,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 319.0
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 418.82
       }
     ]
   },
   {
     "id": "03364",
     "nombre": "Hamburguesa Paty Super 125gr x 2un",
-    "precio": 310.0,
+    "precio": 320.0,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/800029514_2_1400x1-982e7742abba2be32116025113141152-480-0.jpg",
     "url_producto": "productos/hamburguesa-paty-super-125-gr-x-2-un/",
@@ -70946,6 +70966,10 @@
       {
         "fecha": "12/06/2021",
         "precio": 310.0
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 320.0
       }
     ]
   },
@@ -75570,7 +75594,7 @@
   {
     "id": "03594",
     "nombre": "Queso Finlandia Clásico Pote 300gr",
-    "precio": 271.7,
+    "precio": 268.0,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219101-cc03a793460f2e4fc315988937378110-480-0.jpg",
     "url_producto": "productos/queso-finlandia-clasico-pote-300-gr/",
@@ -75590,6 +75614,10 @@
       {
         "fecha": "06/04/2021",
         "precio": 271.7
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 268.0
       }
     ]
   },
@@ -88017,7 +88045,7 @@
     "id": "04359",
     "nombre": "Agua Baggio Fresh Pomelo 1,5lt",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215551-70616cd842619ee27515988158196946-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-pome-1-5-lt/",
     "historia": [
@@ -88352,7 +88380,7 @@
   {
     "id": "04381",
     "nombre": "Cerveza Andes Ipa Andina 473cc Sixpack",
-    "precio": 599.0,
+    "precio": 682.5,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cerveza-andes-ipa-andina-473-cc11-f1261737031fb868c316166783047108-480-0.jpg",
     "url_producto": "productos/cerveza-andes-ipa-andina-473-cc-sixpack/",
@@ -88364,6 +88392,10 @@
       {
         "fecha": "10/04/2021",
         "precio": 599.0
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 682.5
       }
     ]
   },
@@ -89787,7 +89819,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 223.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -90378,7 +90410,7 @@
   {
     "id": "04506",
     "nombre": "Aparato Raid S/cable + 4 Tabletas",
-    "precio": 310.0,
+    "precio": 345.0,
     "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aparato-raid-sin-cable-4-tabletas1-1c5ecd174da0a5f65a16183639331089-480-0.jpeg",
     "url_producto": "productos/aparato-raid-s-cable-4-tabletas/",
@@ -90386,6 +90418,10 @@
       {
         "fecha": "14/04/2021",
         "precio": 310.0
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 345.0
       }
     ]
   },
@@ -90825,7 +90861,7 @@
     "id": "04533",
     "nombre": "Acondiciónador Dove Oleo Nutrición 750ml",
     "precio": 691.47,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237691-584193fa5c876aef5015990691178020-480-0.jpg",
     "url_producto": "productos/acond-dove-oleo-nutric-750-ml/",
     "historia": [
@@ -90847,7 +90883,7 @@
     "id": "04534",
     "nombre": "Acondiciónador Dove Reconstrución Completa 750ml",
     "precio": 691.47,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237681-a13f3137e67435676715990691033096-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-750-ml/",
     "historia": [
@@ -90869,7 +90905,7 @@
     "id": "04535",
     "nombre": "Acondicionador Elvive Kera Liso 400ml",
     "precio": 460.0,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/210721-ac9ddab487a4ae562516043400249425-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-kera-liso-400-ml/",
     "historia": [
@@ -90887,7 +90923,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -90905,7 +90941,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -90927,7 +90963,7 @@
     "id": "04538",
     "nombre": "Acondicionador Head & Shoulders Refrescante 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52361-d612b82bf46eb1cbe715988138704164-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-relief-180-ml/",
     "historia": [
@@ -90945,7 +90981,7 @@
     "id": "04539",
     "nombre": "Acondicionador Head & Shoulders Rejuvecedora 375ml",
     "precio": 356.77,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52531-f5f5c627f982c2ba8715988139254367-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-rejuvec-375-ml/",
     "historia": [
@@ -91027,7 +91063,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 203.97,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -91059,7 +91095,7 @@
     "id": "04546",
     "nombre": "Agua Baggio Fresh Manzana 1,5lt",
     "precio": 88.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215531-0b69b3a450e7bd84a215988149742587-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-man-1-5-lt/",
     "historia": [
@@ -91077,7 +91113,7 @@
     "id": "04547",
     "nombre": "Agua Levite Naranja 2,5lt",
     "precio": 135.07,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184271-5522a22584046bac9015988160205939-480-0.jpg",
     "url_producto": "productos/agua-levite-naranja-25-lt/",
     "historia": [
@@ -91758,7 +91794,7 @@
   {
     "id": "04590",
     "nombre": "Arroz Preparado Gallo Queso x 240gr",
-    "precio": 152.0,
+    "precio": 169.99,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/9171671-dbae2d975a8860869b16010437996505-480-0.jpg",
     "url_producto": "productos/arroz-preparado-gallo-queso-x-240-gr/",
@@ -91774,13 +91810,17 @@
       {
         "fecha": "04/06/2021",
         "precio": 152.0
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 169.99
       }
     ]
   },
   {
     "id": "04591",
     "nombre": "Arroz Preparado Gallo Vegetales x 240gr",
-    "precio": 152.0,
+    "precio": 169.99,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/arroz-preparado-gallo-vegetales-x-240-gr-1-4701151-062ccc5f2d2802353b16025233241231-480-0.jpg",
     "url_producto": "productos/arroz-preparado-gallo-vegetales-x-240-gr/",
@@ -91796,6 +91836,10 @@
       {
         "fecha": "04/06/2021",
         "precio": 152.0
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 169.99
       }
     ]
   },
@@ -92062,7 +92106,7 @@
   {
     "id": "04606",
     "nombre": "Azúcar Independencia x kg",
-    "precio": 60.0,
+    "precio": 39.88,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga1-1f55aa3b50acbb204016109729690992-480-0.jpg",
     "url_producto": "productos/azucar-independencia-x-kg/",
@@ -92090,6 +92134,10 @@
       {
         "fecha": "16/06/2021",
         "precio": 60.0
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 39.88
       }
     ]
   },
@@ -93326,7 +93374,7 @@
   {
     "id": "04676",
     "nombre": "Cerveza Brahma Lata 473cc",
-    "precio": 102.83,
+    "precio": 110.0,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/23751-35d50071343f4ee85815988789302675-480-0.jpg",
     "url_producto": "productos/cerv-brahma-lata-473-cc/",
@@ -93350,6 +93398,10 @@
       {
         "fecha": "16/06/2021",
         "precio": 102.83
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 110.0
       }
     ]
   },
@@ -93535,7 +93587,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -94674,7 +94726,7 @@
   {
     "id": "04744",
     "nombre": "Insecticida Raid Exterminador Cucarachas 390cc",
-    "precio": 210.0,
+    "precio": 245.0,
     "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/12261-6e7f2022fabbbfbe7216013998191330-480-0.jpg",
     "url_producto": "productos/insecticida-raid-exterminador-cucarachas-390-cc/",
@@ -94682,6 +94734,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 210.0
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 245.0
       }
     ]
   },
@@ -96268,7 +96324,7 @@
   {
     "id": "04829",
     "nombre": "Limpiador Harpic Gel Power Plus Quita Sarro 500ml",
-    "precio": 215.0,
+    "precio": 220.0,
     "rubro": "Productos > Limpieza de Baño",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77911306813911-0fbfa0f13f6581ac9616191849106586-480-0.jpg",
     "url_producto": "productos/limpiador-harpic-gel-power-plus-quita-sarro-500-ml/",
@@ -96276,6 +96332,10 @@
       {
         "fecha": "24/04/2021",
         "precio": 215.0
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 220.0
       }
     ]
   },
@@ -96484,7 +96544,7 @@
   {
     "id": "04843",
     "nombre": "Dulce De Leche Tonadita Clásico 400gr",
-    "precio": 125.0,
+    "precio": 135.0,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-04-29t140556-0561-c51cbd23c6eff061b816197160326266-480-0.jpg",
     "url_producto": "productos/dulce-de-leche-tonadita-clasico-400gr/",
@@ -96500,6 +96560,10 @@
       {
         "fecha": "23/05/2021",
         "precio": 125.0
+      },
+      {
+        "fecha": "17/06/2021",
+        "precio": 135.0
       }
     ]
   },
@@ -104875,7 +104939,7 @@
     "id": "05416",
     "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 400ml",
     "precio": 460.0,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7898587761949-1_1_1-ef2cb24811224c211716213573046943-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-400ml/",
     "historia": [
@@ -106081,7 +106145,7 @@
     "id": "05497",
     "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 200ml",
     "precio": 231.0,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/elvive-ac-color-vive-x-200ml1-b5d82d5d9f6a2a6f5416224760728512-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-200ml/",
     "historia": [
@@ -106974,6 +107038,76 @@
       {
         "fecha": "16/06/2021",
         "precio": 268.0
+      }
+    ]
+  },
+  {
+    "id": "05557",
+    "nombre": "Capelletis Lucchettinis Carne 500gr",
+    "precio": 265.87,
+    "rubro": "Productos > Pastas Secas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/fideos-lucchettinis-x500g-carne1-586368374b7cd2b60b16132215221212-480-0.jpg",
+    "url_producto": "productos/capelletis-lucchettinis-carne-500gr/",
+    "historia": [
+      {
+        "fecha": "17/06/2021",
+        "precio": 265.87
+      }
+    ]
+  },
+  {
+    "id": "05558",
+    "nombre": "Capelletis Lucchettinis Espinaca y Queso 500gr",
+    "precio": 265.87,
+    "rubro": "Productos > Pastas Secas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/136941-56f9c70433004639b815988371417060-480-0.jpg",
+    "url_producto": "productos/capelletis-lucchettinis-espinaca-y-queso-500-gr/",
+    "historia": [
+      {
+        "fecha": "17/06/2021",
+        "precio": 265.87
+      }
+    ]
+  },
+  {
+    "id": "05559",
+    "nombre": "Capelletis Lucchettinis Multisabor 500gr",
+    "precio": 265.87,
+    "rubro": "Productos > Pastas Secas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/fideos-lucchettinis-x500g-multicolor11-18c25bfabf89b57f0b16131668490822-480-0.jpg",
+    "url_producto": "productos/capelletis-lucchettinis-multisabor-500-gr/",
+    "historia": [
+      {
+        "fecha": "17/06/2021",
+        "precio": 265.87
+      }
+    ]
+  },
+  {
+    "id": "05560",
+    "nombre": "Fideos Lucchetti Codito 500gr",
+    "precio": 66.37,
+    "rubro": "Productos > Pastas Secas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3001111-cc8bf7144a1d059f0615990013920042-480-0.jpg",
+    "url_producto": "productos/fid-lucchetti-codito-500-gr/",
+    "historia": [
+      {
+        "fecha": "17/06/2021",
+        "precio": 66.37
+      }
+    ]
+  },
+  {
+    "id": "05561",
+    "nombre": "Kit Vino Sacacorcho Automatico + Vertedor Bomba Vacio Usb",
+    "precio": 3.5,
+    "rubro": "Productos > Bazar",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-06-16t105337-0791-79d5a18416e8e3e37516238516331781-480-0.jpg",
+    "url_producto": "productos/kit-vino-sacacorcho-automatico-vertedor-bomba-vacio-usb/",
+    "historia": [
+      {
+        "fecha": "17/06/2021",
+        "precio": 3.5
       }
     ]
   }
