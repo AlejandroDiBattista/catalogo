@@ -65084,7 +65084,7 @@
   {
     "id": "03089",
     "nombre": "Aceitunas Nucete Verde Descarozadas Doy Pack 150gr",
-    "precio": 115.0,
+    "precio": 135.0,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59331-471a9cbb738f37861e15988135578965-480-0.jpg",
     "url_producto": "productos/aceit-nucete-vde-des-dpa-150-gr/",
@@ -65104,6 +65104,10 @@
       {
         "fecha": "10/06/2021",
         "precio": 115.0
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 135.0
       }
     ]
   },
@@ -65345,7 +65349,7 @@
     "id": "03101",
     "nombre": "Acondicionador Dove Hidratación Intensa 400ml",
     "precio": 398.87,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134081-617c0210c3c9ec52d915989073595026-480-0.jpg",
     "url_producto": "productos/acond-dove-hidrat-int-400-ml/",
     "historia": [
@@ -65375,7 +65379,7 @@
     "id": "03102",
     "nombre": "Acondicionador Dove Reconstrución Completa 400ml",
     "precio": 398.87,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134091-e88b3763692fc3fd0415989073970501-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-400-ml/",
     "historia": [
@@ -65432,7 +65436,7 @@
   {
     "id": "03105",
     "nombre": "Agua Baggio Fresh Mix Frutal 1,1lt ,",
-    "precio": 88.0,
+    "precio": 89.0,
     "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-22t102628-5021-17051cd572b00ea44616113220049225-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-mix-frutal-1-5-lt/",
@@ -65452,13 +65456,17 @@
       {
         "fecha": "04/06/2021",
         "precio": 88.0
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 89.0
       }
     ]
   },
   {
     "id": "03106",
     "nombre": "Agua Baggio Fresh Naranja Dulce 1,5lt",
-    "precio": 88.0,
+    "precio": 89.0,
     "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/604611-5271f343145345b6e516028681925353-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-naranja-dulce-15-lt/",
@@ -65478,13 +65486,17 @@
       {
         "fecha": "04/06/2021",
         "precio": 88.0
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 89.0
       }
     ]
   },
   {
     "id": "03107",
     "nombre": "Agua Baggio Fresh Pera 1,1lt",
-    "precio": 88.0,
+    "precio": 89.0,
     "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-baggio-fresh-pera-1-5-lt1-39e6b32abfedd2386c16113218756564-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-pera-1-5-lt/",
@@ -65500,6 +65512,10 @@
       {
         "fecha": "04/06/2021",
         "precio": 88.0
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 89.0
       }
     ]
   },
@@ -65507,7 +65523,7 @@
     "id": "03108",
     "nombre": "Agua Glaciar Sin Gas 2lt",
     "precio": 99.0,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc24241-65917abfdcc656c1b616010430756981-480-0.jpg",
     "url_producto": "productos/agua-glaciar-sin-gas-2-lt/",
     "historia": [
@@ -65639,7 +65655,7 @@
     "id": "03116",
     "nombre": "Agua Mineral Sierra De Los Padres 2lt",
     "precio": 71.3,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sierra-de-los-padres-2-lt1-ab6f3d796f1482e66616001948616487-480-0.jpg",
     "url_producto": "productos/agua-mineral-sierra-de-los-padres-2-l/",
     "historia": [
@@ -65652,8 +65668,8 @@
   {
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
-    "precio": 82.0,
-    "rubro": "Productos > Aguas sin Gas",
+    "precio": 155.9,
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -65680,6 +65696,10 @@
       {
         "fecha": "17/06/2021",
         "precio": 82.0
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 155.9
       }
     ]
   },
@@ -65701,7 +65721,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65751,7 +65771,7 @@
     "id": "03122",
     "nombre": "Agua Sin Gas Nestlé Pureza Vital 2,25 Lts",
     "precio": 110.0,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-sin-gas-nestle-pureza-vital-225-lts1-eeec029681545bd86216015826868064-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-225-lts/",
     "historia": [
@@ -67177,7 +67197,7 @@
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
     "precio": 490.0,
-    "rubro": "Productos > Carnes de Pollo",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
     "historia": [
@@ -67216,7 +67236,7 @@
   {
     "id": "03179",
     "nombre": "Bebible La Serenisima Multivitaminas S/azucar Frutilla 900ml",
-    "precio": 120.0,
+    "precio": 140.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/9568571-18a64b837943e2d88116111751446607-480-0.jpg",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-s-azucar-frutilla-900-ml/",
@@ -67236,6 +67256,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 140.0
       }
     ]
   },
@@ -67341,7 +67365,7 @@
     "id": "03185",
     "nombre": "Bife Angosto x kg",
     "precio": 958.0,
-    "rubro": "Productos > Carnes de Novillo",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
     "historia": [
@@ -67467,7 +67491,7 @@
     "id": "03190",
     "nombre": "Bola De Lomo Feteada Para Milanesa x kg",
     "precio": 800.0,
-    "rubro": "Productos > Carnes de Novillo",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-lomo-fet1-44e054598c02eecd9816027207901849-480-0.jpg",
     "url_producto": "productos/bola-de-lomo-feteada-para-milanesa-x-kg/",
     "historia": [
@@ -71070,7 +71094,7 @@
   {
     "id": "03368",
     "nombre": "Harina Blancaflor Leudante 1kg",
-    "precio": 90.87,
+    "precio": 95.0,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/116311-2fabf3bb480dbef47c15989646767461-480-0.jpg",
     "url_producto": "productos/har-blancaflor-leudante-1-kg/",
@@ -71106,6 +71130,10 @@
       {
         "fecha": "11/06/2021",
         "precio": 90.87
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 95.0
       }
     ]
   },
@@ -88044,7 +88072,7 @@
   {
     "id": "04359",
     "nombre": "Agua Baggio Fresh Pomelo 1,5lt",
-    "precio": 88.0,
+    "precio": 89.0,
     "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215551-70616cd842619ee27515988158196946-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-pome-1-5-lt/",
@@ -88056,6 +88084,10 @@
       {
         "fecha": "04/06/2021",
         "precio": 88.0
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 89.0
       }
     ]
   },
@@ -88971,7 +89003,7 @@
     "id": "04416",
     "nombre": "Crema De Leche La Serenísima 200gr",
     "precio": 179.55,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164211-87fdb4f6713999034415990676754429-480-0.jpg",
     "url_producto": "productos/crema-l-serenis-200-gr/",
     "historia": [
@@ -89370,7 +89402,7 @@
   {
     "id": "04440",
     "nombre": "Bebible La Serenisima Multivitaminas 0% Grasa S/azucar Vainilla 900ml",
-    "precio": 127.3,
+    "precio": 151.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77907426620191-533a98bb0957360d4816176344694679-480-0.png",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-0-grasa-s-azucar-vainilla-900-ml/",
@@ -89382,13 +89414,17 @@
       {
         "fecha": "07/04/2021",
         "precio": 127.3
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 151.0
       }
     ]
   },
   {
     "id": "04441",
     "nombre": "Bebible La Serenisima Multivitaminas S/azucar Vainilla 900ml",
-    "precio": 120.0,
+    "precio": 140.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga-41-ed15637226d9f3d7ac16176683992919-480-0.jpg",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-s-azucar-vainilla-900-ml/",
@@ -89404,6 +89440,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 140.0
       }
     ]
   },
@@ -89438,7 +89478,7 @@
   {
     "id": "04444",
     "nombre": "Bebible La Serenisima Multivitaminas 0% Grasa S/azucar Frutilla 900ml",
-    "precio": 127.3,
+    "precio": 151.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77907426620261-a8a776dd8cb3d0701c16177108420596-480-0.png",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-0-grasa-s-azucar-frutilla-900-ml/",
@@ -89446,6 +89486,10 @@
       {
         "fecha": "07/04/2021",
         "precio": 127.3
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 151.0
       }
     ]
   },
@@ -90670,7 +90714,7 @@
   {
     "id": "04522",
     "nombre": "Aceite Cocinero Girasol Aerosol Fritolim 120gr",
-    "precio": 162.5,
+    "precio": 168.99,
     "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-fritolim-clasico-aero-x-120-gr1-f5e8fe909d0153ff1a16173998650258-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-aerosol-fritolim-120-gr/",
@@ -90678,6 +90722,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 162.5
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 168.99
       }
     ]
   },
@@ -90861,7 +90909,7 @@
     "id": "04533",
     "nombre": "Acondiciónador Dove Oleo Nutrición 750ml",
     "precio": 691.47,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237691-584193fa5c876aef5015990691178020-480-0.jpg",
     "url_producto": "productos/acond-dove-oleo-nutric-750-ml/",
     "historia": [
@@ -90883,7 +90931,7 @@
     "id": "04534",
     "nombre": "Acondiciónador Dove Reconstrución Completa 750ml",
     "precio": 691.47,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237681-a13f3137e67435676715990691033096-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-750-ml/",
     "historia": [
@@ -90905,7 +90953,7 @@
     "id": "04535",
     "nombre": "Acondicionador Elvive Kera Liso 400ml",
     "precio": 460.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/210721-ac9ddab487a4ae562516043400249425-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-kera-liso-400-ml/",
     "historia": [
@@ -90963,7 +91011,7 @@
     "id": "04538",
     "nombre": "Acondicionador Head & Shoulders Refrescante 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52361-d612b82bf46eb1cbe715988138704164-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-relief-180-ml/",
     "historia": [
@@ -90981,7 +91029,7 @@
     "id": "04539",
     "nombre": "Acondicionador Head & Shoulders Rejuvecedora 375ml",
     "precio": 356.77,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52531-f5f5c627f982c2ba8715988139254367-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-rejuvec-375-ml/",
     "historia": [
@@ -91094,7 +91142,7 @@
   {
     "id": "04546",
     "nombre": "Agua Baggio Fresh Manzana 1,5lt",
-    "precio": 88.0,
+    "precio": 89.0,
     "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215531-0b69b3a450e7bd84a215988149742587-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-man-1-5-lt/",
@@ -91106,6 +91154,10 @@
       {
         "fecha": "04/06/2021",
         "precio": 88.0
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 89.0
       }
     ]
   },
@@ -91971,7 +92023,7 @@
     "id": "04598",
     "nombre": "Autobrillo Echo Clásico Dp 450ml",
     "precio": 169.0,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7591-64de7ee7946cedd7aa15988323532062-480-0.jpg",
     "url_producto": "productos/autobrillo-echo-clasico-dp-450-ml/",
     "historia": [
@@ -92106,7 +92158,7 @@
   {
     "id": "04606",
     "nombre": "Azúcar Independencia x kg",
-    "precio": 39.88,
+    "precio": 60.0,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga1-1f55aa3b50acbb204016109729690992-480-0.jpg",
     "url_producto": "productos/azucar-independencia-x-kg/",
@@ -92138,6 +92190,10 @@
       {
         "fecha": "17/06/2021",
         "precio": 39.88
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 60.0
       }
     ]
   },
@@ -96998,7 +97054,7 @@
   {
     "id": "04870",
     "nombre": "Avena Quaker Instantánea Fortificada 380gr",
-    "precio": 186.07,
+    "precio": 249.0,
     "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21841-a7b4656e2d9aae229e15988326505631-480-0.jpg",
     "url_producto": "productos/avena-quaker-instantanea-fortificada-380-gr/",
@@ -97014,6 +97070,10 @@
       {
         "fecha": "16/06/2021",
         "precio": 186.07
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 249.0
       }
     ]
   },
@@ -104788,7 +104848,7 @@
   {
     "id": "05407",
     "nombre": "Avena Quaker Extra Fina 470gr",
-    "precio": 220.31,
+    "precio": 249.0,
     "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/16721-cb2083723b871b5ad715988325854846-480-0.jpg",
     "url_producto": "productos/avena-quaker-extra-fina-470-gr/",
@@ -104804,6 +104864,10 @@
       {
         "fecha": "16/06/2021",
         "precio": 220.31
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 249.0
       }
     ]
   },
@@ -104939,7 +105003,7 @@
     "id": "05416",
     "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 400ml",
     "precio": 460.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7898587761949-1_1_1-ef2cb24811224c211716213573046943-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-400ml/",
     "historia": [
@@ -104974,7 +105038,7 @@
   {
     "id": "05418",
     "nombre": "Avena Quaker Tradicional Fortificada 470gr",
-    "precio": 186.07,
+    "precio": 249.0,
     "rubro": "Productos > Galletas y Cereales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/quaker1-02ba2183109ac2937716013815942390-480-0.jpg",
     "url_producto": "productos/avena-quaker-tradicional-fortificada-470-gr/",
@@ -104986,6 +105050,10 @@
       {
         "fecha": "16/06/2021",
         "precio": 186.07
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 249.0
       }
     ]
   },
@@ -105598,7 +105666,7 @@
   {
     "id": "05462",
     "nombre": "Aceitunas La Riojanita Verdes 130gr",
-    "precio": 75.9,
+    "precio": 80.0,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/unnamed-51-90de0ae0c73bf3332416216213856701-480-0.jpg",
     "url_producto": "productos/aceitunas-la-riojanita-verdes-130-gr/",
@@ -105606,6 +105674,10 @@
       {
         "fecha": "23/05/2021",
         "precio": 75.9
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 80.0
       }
     ]
   },
@@ -106145,7 +106217,7 @@
     "id": "05497",
     "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 200ml",
     "precio": 231.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/elvive-ac-color-vive-x-200ml1-b5d82d5d9f6a2a6f5416224760728512-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-200ml/",
     "historia": [
@@ -106158,7 +106230,7 @@
   {
     "id": "05498",
     "nombre": "Barbijos Kn95 x 10un",
-    "precio": 855.0,
+    "precio": 900.0,
     "rubro": "Productos > Barbijos y Sanitizantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo1-47f8f8b9bf23cbb86716222210906694-480-0.jpg",
     "url_producto": "productos/barbijos-kn95-x-10-unidades/",
@@ -106166,6 +106238,10 @@
       {
         "fecha": "01/06/2021",
         "precio": 855.0
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 900.0
       }
     ]
   },
@@ -106214,7 +106290,7 @@
   {
     "id": "05502",
     "nombre": "Shampoo Head & Shoulders Old Spice 375ml",
-    "precio": 356.77,
+    "precio": 358.97,
     "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52251-21077c0c7b26dc01a415988868458279-480-0.jpg",
     "url_producto": "productos/shamp-h-y-s-old-spice-375-ml/",
@@ -106222,6 +106298,10 @@
       {
         "fecha": "01/06/2021",
         "precio": 356.77
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 358.97
       }
     ]
   },
@@ -106390,7 +106470,7 @@
   {
     "id": "05514",
     "nombre": "Barbijo Atom Protect x 1 Unidad",
-    "precio": 563.0,
+    "precio": 575.0,
     "rubro": "Productos > Barbijos y Sanitizantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/atom-protect_x11-b84a2c287e3c01f39c16227298495473-480-0.jpg",
     "url_producto": "productos/barbijo-atom-protect-x-1-unidad/",
@@ -106398,6 +106478,10 @@
       {
         "fecha": "04/06/2021",
         "precio": 563.0
+      },
+      {
+        "fecha": "18/06/2021",
+        "precio": 575.0
       }
     ]
   },
@@ -106405,7 +106489,7 @@
     "id": "05515",
     "nombre": "Crema De Leche La Serenísima 330cc",
     "precio": 215.0,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8732531-b4bd906c369499835116020051408840-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-330-cc/",
     "historia": [
@@ -106901,7 +106985,7 @@
     "id": "05547",
     "nombre": "Crema De Leche Armonia Para Batir 200ml",
     "precio": 126.75,
-    "rubro": "Productos > Lácteos",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crema-de-leche-armonia-x-200-ml-1-8438961-cd4603d9e1a01a9a9416234223647901-480-0.jpg",
     "url_producto": "productos/crema-de-leche-armonia-para-batir-200ml/",
     "historia": [
@@ -107108,6 +107192,48 @@
       {
         "fecha": "17/06/2021",
         "precio": 3.5
+      }
+    ]
+  },
+  {
+    "id": "05562",
+    "nombre": "Autobrillo Blem Rojo 800ml",
+    "precio": 380.25,
+    "rubro": "Productos > Limpieza en General",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2890332_f1-fc1528379fd44d354116210088169491-480-0.jpg",
+    "url_producto": "productos/autobrillo-blem-rojo-800-ml/",
+    "historia": [
+      {
+        "fecha": "18/06/2021",
+        "precio": 380.25
+      }
+    ]
+  },
+  {
+    "id": "05563",
+    "nombre": "Film Rolopaper Papel Manteca x 5 Mts",
+    "precio": 225.0,
+    "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/film-rolopaper-papel-manteca-x-5-mts1-4e7fdb9cf484ba97e816057947217524-480-0.jpg",
+    "url_producto": "productos/film-rolopaper-papel-manteca-x-5-mts/",
+    "historia": [
+      {
+        "fecha": "18/06/2021",
+        "precio": 225.0
+      }
+    ]
+  },
+  {
+    "id": "05564",
+    "nombre": "Manteca La Paulina 100gr",
+    "precio": 100.95,
+    "rubro": "Productos > Lácteos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/58411-b40da5e8d67df0edc015988905690180-480-0.jpg",
+    "url_producto": "productos/manteca-l-paulina-100-gr/",
+    "historia": [
+      {
+        "fecha": "18/06/2021",
+        "precio": 100.95
       }
     ]
   }
