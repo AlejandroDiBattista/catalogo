@@ -65721,7 +65721,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65771,7 +65771,7 @@
     "id": "03122",
     "nombre": "Agua Sin Gas Nestlé Pureza Vital 2,25 Lts",
     "precio": 110.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-sin-gas-nestle-pureza-vital-225-lts1-eeec029681545bd86216015826868064-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-225-lts/",
     "historia": [
@@ -66029,7 +66029,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 380.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Frutos Secos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -66931,7 +66931,7 @@
     "id": "03166",
     "nombre": "Arvejas Green Life Congelada 300gr",
     "precio": 190.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550211-a666675e62010c5a7515990911554480-480-0.jpg",
     "url_producto": "productos/arvejas-green-life-congelada-300-gr/",
     "historia": [
@@ -67010,7 +67010,7 @@
   {
     "id": "03170",
     "nombre": "Atún La Campagnola Aceite 170gr",
-    "precio": 324.87,
+    "precio": 325.5,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2971-a72eaaaa94de931ff515988320272044-480-0.jpg",
     "url_producto": "productos/atun-campagn-ac-170-gr/",
@@ -67038,13 +67038,17 @@
       {
         "fecha": "02/06/2021",
         "precio": 324.87
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 325.5
       }
     ]
   },
   {
     "id": "03171",
     "nombre": "Atún La Campagnola Natural 170gr",
-    "precio": 324.87,
+    "precio": 325.5,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2941-58de7f0208bbedfa1215988322147360-480-0.jpg",
     "url_producto": "productos/atun-campagn-nat-170-gr/",
@@ -67068,13 +67072,17 @@
       {
         "fecha": "02/06/2021",
         "precio": 324.87
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 325.5
       }
     ]
   },
   {
     "id": "03172",
     "nombre": "Atún La Campagnola Natural 300gr",
-    "precio": 579.19,
+    "precio": 582.19,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2891-990dcc78d8301dc16215988871111638-480-0.jpg",
     "url_producto": "productos/atun-campagn-nat-300-gr/",
@@ -67102,6 +67110,10 @@
       {
         "fecha": "16/06/2021",
         "precio": 579.19
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 582.19
       }
     ]
   },
@@ -67197,7 +67209,7 @@
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
     "precio": 490.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
     "historia": [
@@ -67365,7 +67377,7 @@
     "id": "03185",
     "nombre": "Bife Angosto x kg",
     "precio": 958.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
     "historia": [
@@ -67491,7 +67503,7 @@
     "id": "03190",
     "nombre": "Bola De Lomo Feteada Para Milanesa x kg",
     "precio": 800.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-lomo-fet1-44e054598c02eecd9816027207901849-480-0.jpg",
     "url_producto": "productos/bola-de-lomo-feteada-para-milanesa-x-kg/",
     "historia": [
@@ -67977,7 +67989,7 @@
     "id": "03215",
     "nombre": "Cerveza Corona 330cc",
     "precio": 145.0,
-    "rubro": "Productos > Cervezas",
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cerveza-corona-330-cc1-d0ddb214c6a36dcf7c16003524185419-640-01-0020e8650e2dc35bb616005434767590-480-0.png",
     "url_producto": "productos/cerveza-corona-330-cc/",
     "historia": [
@@ -68247,7 +68259,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -69832,7 +69844,7 @@
   {
     "id": "03307",
     "nombre": "Fósforos Tres Patitos 400un",
-    "precio": 97.5,
+    "precio": 122.5,
     "rubro": "Productos > Fósforos, Lamparas y Pilas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/172441-313fafd8aeebdeb5bd15995910592970-480-0.jpg",
     "url_producto": "productos/fosforos-tres-patitos-400-un/",
@@ -69848,6 +69860,10 @@
       {
         "fecha": "23/03/2021",
         "precio": 97.5
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 122.5
       }
     ]
   },
@@ -70473,7 +70489,7 @@
     "id": "03339",
     "nombre": "Galletitas Terrabusi Variedad 400gr",
     "precio": 133.55,
-    "rubro": "Productos > Galletas y Cereales",
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209851-0f2bd8eb8fc27fb6db15988923475671-480-0.jpg",
     "url_producto": "productos/gal-terrabusi-variedad-400-gr/",
     "historia": [
@@ -71796,22 +71812,26 @@
   {
     "id": "03405",
     "nombre": "Jugo Clight Naranja Dulce 7,7gr",
-    "precio": 22.86,
-    "rubro": "Productos > Jugos",
+    "precio": 25.88,
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/63471-ffc748653528d42b0e15988876792967-480-0.jpg",
     "url_producto": "productos/jugo-clight-naranja-dulce-7-5-gr/",
     "historia": [
       {
         "fecha": "04/03/2021",
         "precio": 22.86
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 25.88
       }
     ]
   },
   {
     "id": "03406",
     "nombre": "Jugo En Base A Soja Ades Manzana 1lt",
-    "precio": 114.0,
-    "rubro": "Productos > Jugos",
+    "precio": 122.0,
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0201-e22cb6177ebda07e7215988830743145-480-0.jpg",
     "url_producto": "productos/ades-manzana-1l/",
     "historia": [
@@ -71822,6 +71842,10 @@
       {
         "fecha": "07/04/2021",
         "precio": 114.0
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 122.0
       }
     ]
   },
@@ -72910,7 +72934,7 @@
   {
     "id": "03458",
     "nombre": "Manteca La Paulina 200gr",
-    "precio": 170.17,
+    "precio": 194.05,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/58391-120f95e2d69f1904b015988906329721-480-0.jpg",
     "url_producto": "productos/manteca-l-paulina-200-gr/",
@@ -72926,6 +72950,10 @@
       {
         "fecha": "31/03/2021",
         "precio": 170.17
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 194.05
       }
     ]
   },
@@ -74912,7 +74940,7 @@
   {
     "id": "03559",
     "nombre": "Papel Higienico Higienol Max 4x80 Mts",
-    "precio": 299.0,
+    "precio": 305.0,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/papel-higienico-higienol-max-4x80-mts1-cdcced26899474ae3116139983579423-480-0.jpg",
     "url_producto": "productos/papel-higienico-higienol-max-4x80-mts/",
@@ -74944,6 +74972,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 299.0
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 305.0
       }
     ]
   },
@@ -76030,8 +76062,8 @@
   {
     "id": "03616",
     "nombre": "Repelente Off Family Aerosol 165ml",
-    "precio": 199.0,
-    "rubro": "Productos > Insecticidas",
+    "precio": 208.68,
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/12221-08f26ae4dd64851a5c15988935819506-480-0.jpg",
     "url_producto": "productos/repelente-off-family-aerosol-165-ml/",
     "historia": [
@@ -76046,6 +76078,10 @@
       {
         "fecha": "18/03/2021",
         "precio": 199.0
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 208.68
       }
     ]
   },
@@ -76112,8 +76148,8 @@
   {
     "id": "03621",
     "nombre": "Rollo De Cocina Sussex Clásico 3x50un",
-    "precio": 91.5,
-    "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
+    "precio": 121.0,
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/93341-b0cf40eb2cb4d238db15988934510811-480-0.jpg",
     "url_producto": "productos/rol-coc-sussex-clasico-3x50-un/",
     "historia": [
@@ -76124,6 +76160,10 @@
       {
         "fecha": "26/03/2021",
         "precio": 91.5
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 121.0
       }
     ]
   },
@@ -78698,8 +78738,8 @@
   {
     "id": "03764",
     "nombre": "Cerveza Stella Artois Noire x 473 Cm3",
-    "precio": 125.0,
-    "rubro": "Productos > Cervezas",
+    "precio": 135.0,
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/d_nq_np_624935-mla43554689072_092020-o1-239d71da66a009899816063952071180-480-0.jpg",
     "url_producto": "productos/cerveza-stella-artois-noire-x-473-cm3/",
     "historia": [
@@ -78710,6 +78750,10 @@
       {
         "fecha": "20/03/2021",
         "precio": 125.0
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 135.0
       }
     ]
   },
@@ -87441,7 +87485,7 @@
     "id": "04323",
     "nombre": "Suprema Granja De Sol Pollo 360gr",
     "precio": 424.28,
-    "rubro": "Productos > Congelados de Pollo",
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830811-607b67364edc558d3415990038309902-480-0.jpg",
     "url_producto": "productos/suprema-granja-de-sol-pollo-360-gr/",
     "historia": [
@@ -87646,14 +87690,18 @@
   {
     "id": "04334",
     "nombre": "Vino Plan B 100% Malbec 750cc",
-    "precio": 290.0,
-    "rubro": "Productos > Vinos y Espumantes",
+    "precio": 390.0,
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/budeguer-foto1-520258365d04f73f5615992297403841-480-0.jpg",
     "url_producto": "productos/vino-plan-b-malbec-750-cc/",
     "historia": [
       {
         "fecha": "18/03/2021",
         "precio": 290.0
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 390.0
       }
     ]
   },
@@ -89003,7 +89051,7 @@
     "id": "04416",
     "nombre": "Crema De Leche La Serenísima 200gr",
     "precio": 179.55,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164211-87fdb4f6713999034415990676754429-480-0.jpg",
     "url_producto": "productos/crema-l-serenis-200-gr/",
     "historia": [
@@ -89649,7 +89697,7 @@
     "id": "04455",
     "nombre": "Esponja De Fibra Mortimer Cuadriculada Antibacterial x Un",
     "precio": 54.99,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/158751-9ecd6f0b2aa3494a7816016542557534-480-0.jpg",
     "url_producto": "productos/esponja-de-fibra-mortimer-cuadriculada-antibacterial-x-un/",
     "historia": [
@@ -89863,7 +89911,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 223.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -91952,7 +92000,7 @@
   {
     "id": "04595",
     "nombre": "Atún La Campagnola Aceite 300gr",
-    "precio": 579.19,
+    "precio": 582.19,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2961-c3af070ec8cf1f1de115988321672752-480-0.jpg",
     "url_producto": "productos/atun-campagn-ac-300-gr/",
@@ -91980,6 +92028,10 @@
       {
         "fecha": "16/06/2021",
         "precio": 579.19
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 582.19
       }
     ]
   },
@@ -92932,7 +92984,7 @@
   {
     "id": "04647",
     "nombre": "Café Dolca 100gr",
-    "precio": 247.0,
+    "precio": 330.0,
     "rubro": "Productos > Infusiones",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/194291-23f64ee67496fd93f715988353048618-480-0.jpg",
     "url_producto": "productos/cafe-dolca-renov-trad-100-gr/",
@@ -92948,6 +93000,10 @@
       {
         "fecha": "28/05/2021",
         "precio": 247.0
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 330.0
       }
     ]
   },
@@ -93464,7 +93520,7 @@
   {
     "id": "04677",
     "nombre": "Cerveza Budweiser Lata 473cc",
-    "precio": 120.0,
+    "precio": 80.0,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/239741-b652e332077f6750a815988789656584-480-0.jpg",
     "url_producto": "productos/cerv-budweiser-lata-473-cc/",
@@ -93488,6 +93544,10 @@
       {
         "fecha": "16/06/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 80.0
       }
     ]
   },
@@ -93643,7 +93703,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -94128,7 +94188,7 @@
   {
     "id": "04711",
     "nombre": "Dulce De Leche La Serenísima Clásico Pote 400gr",
-    "precio": 153.5,
+    "precio": 129.99,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8733701-9e7d5c994df2c0340716010380180646-480-0.jpg",
     "url_producto": "productos/dulce-de-leche-la-serenisima-clasico-pote-400-gr/",
@@ -94148,6 +94208,10 @@
       {
         "fecha": "06/06/2021",
         "precio": 153.5
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 129.99
       }
     ]
   },
@@ -97623,7 +97687,7 @@
     "id": "04906",
     "nombre": "Fideos La Tucumanita Tallarin Clásicos 500gr",
     "precio": 80.0,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico1-0c781d88162a97e7af16209183187781-480-0.jpg",
     "url_producto": "productos/fideos-la-tucumanita-tallarin-clasicos-500-gr/",
     "historia": [
@@ -97641,7 +97705,7 @@
     "id": "04907",
     "nombre": "Fideos La Tucumanita Tallarin Verdura 500gr",
     "precio": 80.0,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-11-6ab1096d4afe93399a16209183527029-480-0.jpg",
     "url_producto": "productos/fideos-la-tucumanita-tallarin-verdura-500-gr/",
     "historia": [
@@ -97715,7 +97779,7 @@
     "id": "04912",
     "nombre": "Noquis La Tucumanita 500gr",
     "precio": 90.0,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-13t115037-3221-c09dd4a88eb616857716209174632905-480-0.jpg",
     "url_producto": "productos/noquis-la-tucumanita-500-gr/",
     "historia": [
@@ -104739,7 +104803,7 @@
     "id": "05400",
     "nombre": "Pascualinas La Tucumanita Criolla 300gr",
     "precio": 70.0,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-21-a038196102af88b0d516210067568338-480-0.jpg",
     "url_producto": "productos/pascualinas-la-tucumanita-criolla-300-gr/",
     "historia": [
@@ -104888,7 +104952,7 @@
   {
     "id": "05409",
     "nombre": "Café Dolca 170gr",
-    "precio": 420.0,
+    "precio": 421.0,
     "rubro": "Productos > Infusiones",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/193621-92f50b5c1ae536f25815988353603672-480-0.jpg",
     "url_producto": "productos/cafe-dolca-renov-trad-170-gr/",
@@ -104900,6 +104964,10 @@
       {
         "fecha": "28/05/2021",
         "precio": 420.0
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 421.0
       }
     ]
   },
@@ -106364,7 +106432,7 @@
   {
     "id": "05507",
     "nombre": "Mani Pehuamar Pelado 150gr",
-    "precio": 147.99,
+    "precio": 170.0,
     "rubro": "Productos > Snacks",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mani-pelado-pehuamar-150-gr-1-166501-4bf51ed071e53c0e7316225750356686-480-0.jpg",
     "url_producto": "productos/mani-pehuamar-pelado-150gr/",
@@ -106376,6 +106444,10 @@
       {
         "fecha": "12/06/2021",
         "precio": 147.99
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 170.0
       }
     ]
   },
@@ -106489,7 +106561,7 @@
     "id": "05515",
     "nombre": "Crema De Leche La Serenísima 330cc",
     "precio": 215.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8732531-b4bd906c369499835116020051408840-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-330-cc/",
     "historia": [
@@ -106709,7 +106781,7 @@
     "id": "05529",
     "nombre": "Ravioles La Tucumanita Con Carne y Verdura 650gr",
     "precio": 140.0,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/800504-la-tucumanita-logo1-43d3e017939a7dff6416228182739236-480-0.png",
     "url_producto": "productos/ravioles-la-tucumanita-con-carne-y-verdura-650gr/",
     "historia": [
@@ -106920,7 +106992,7 @@
   {
     "id": "05543",
     "nombre": "Mozzarella La Paulina Fetas 180gr",
-    "precio": 235.28,
+    "precio": 250.0,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2562611-fa5d318f17857e169416025186916290-480-0.jpg",
     "url_producto": "productos/mozzarella-la-paulina-fetas-180-gr/",
@@ -106932,6 +107004,10 @@
       {
         "fecha": "16/06/2021",
         "precio": 235.28
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 250.0
       }
     ]
   },
@@ -106985,7 +107061,7 @@
     "id": "05547",
     "nombre": "Crema De Leche Armonia Para Batir 200ml",
     "precio": 126.75,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crema-de-leche-armonia-x-200-ml-1-8438961-cd4603d9e1a01a9a9416234223647901-480-0.jpg",
     "url_producto": "productos/crema-de-leche-armonia-para-batir-200ml/",
     "historia": [
@@ -107044,7 +107120,7 @@
   {
     "id": "05551",
     "nombre": "Toallas Humedas Espadol Antibacterial 10un",
-    "precio": 75.99,
+    "precio": 85.0,
     "rubro": "Productos > Barbijos y Sanitizantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/127721_toallas-humedas-antibacteriales-x-10-un-127721_imagen-11-2f5deb017627da055816234231062622-480-0.jpg",
     "url_producto": "productos/toallas-humedas-espadol-antibacterial-10un/",
@@ -107052,6 +107128,10 @@
       {
         "fecha": "12/06/2021",
         "precio": 75.99
+      },
+      {
+        "fecha": "19/06/2021",
+        "precio": 85.0
       }
     ]
   },
@@ -107234,6 +107314,48 @@
       {
         "fecha": "18/06/2021",
         "precio": 100.95
+      }
+    ]
+  },
+  {
+    "id": "05565",
+    "nombre": "Cafe La Virginia Clasico Doy Pack 170gr",
+    "precio": 305.0,
+    "rubro": "Productos > Libres de Glúten",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790150100387_011-55e198f39734bd337716213579880239-480-0.jpg",
+    "url_producto": "productos/cafe-la-virginia-clasico-doy-pack-170gr/",
+    "historia": [
+      {
+        "fecha": "19/06/2021",
+        "precio": 305.0
+      }
+    ]
+  },
+  {
+    "id": "05566",
+    "nombre": "Dulce Dulcor Membrillo 500gr",
+    "precio": 125.0,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/dulce-dulcor-membrillo-500gr1-8876fca16690c77bd016230732116035-480-0.jpg",
+    "url_producto": "productos/dulce-dulcor-membrillo-500gr/",
+    "historia": [
+      {
+        "fecha": "19/06/2021",
+        "precio": 125.0
+      }
+    ]
+  },
+  {
+    "id": "05567",
+    "nombre": "Repasador Mr Trapo x Unidad",
+    "precio": 130.0,
+    "rubro": "Productos > Bazar",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-61-b593d25d9f4fa7262b16234228892592-480-0.png",
+    "url_producto": "productos/repasador-mr-trapo-x-unidad/",
+    "historia": [
+      {
+        "fecha": "19/06/2021",
+        "precio": 130.0
       }
     ]
   }
