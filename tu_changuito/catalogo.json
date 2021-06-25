@@ -64843,7 +64843,7 @@
     "id": "03078",
     "nombre": "Aceite Cañuelas Oliva Intenso 500cc",
     "precio": 422.8,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220311-58116916046af9b3e315988111926122-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-in-pet-500-cc/",
     "historia": [
@@ -64881,7 +64881,7 @@
     "id": "03079",
     "nombre": "Aceite Cañuelas Oliva Suave 500cc",
     "precio": 422.8,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220301-333f3a18318b80229215988119589449-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-su-pet-500-cc/",
     "historia": [
@@ -64977,7 +64977,7 @@
     "id": "03083",
     "nombre": "Aceite Natura Aerosol 120cc",
     "precio": 199.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1871-8683f744226524a40215988124512148-480-0.jpg",
     "url_producto": "productos/ac-natura-aero-120-cc/",
     "historia": [
@@ -65523,7 +65523,7 @@
     "id": "03108",
     "nombre": "Agua Glaciar Sin Gas 2lt",
     "precio": 99.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc24241-65917abfdcc656c1b616010430756981-480-0.jpg",
     "url_producto": "productos/agua-glaciar-sin-gas-2-lt/",
     "historia": [
@@ -65655,7 +65655,7 @@
     "id": "03116",
     "nombre": "Agua Mineral Sierra De Los Padres 2lt",
     "precio": 71.3,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sierra-de-los-padres-2-lt1-ab6f3d796f1482e66616001948616487-480-0.jpg",
     "url_producto": "productos/agua-mineral-sierra-de-los-padres-2-l/",
     "historia": [
@@ -65669,7 +65669,7 @@
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
     "precio": 155.9,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -66029,7 +66029,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 380.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Frutos Secos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -66894,7 +66894,7 @@
   {
     "id": "03164",
     "nombre": "Arroz Lucchetti Largo Fino 500gr",
-    "precio": 65.0,
+    "precio": 67.0,
     "rubro": "Productos > Arroz y Legumbres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211181-13607670d841a7136215989652419615-480-0.jpg",
     "url_producto": "productos/arr-lucchetti-l-fino-500-gr/",
@@ -66906,6 +66906,10 @@
       {
         "fecha": "16/03/2021",
         "precio": 65.0
+      },
+      {
+        "fecha": "25/06/2021",
+        "precio": 67.0
       }
     ]
   },
@@ -70598,7 +70602,7 @@
   {
     "id": "03342",
     "nombre": "Gaseosa Coca Cola 2,25 Lts Sin Azúcar",
-    "precio": 141.0,
+    "precio": 143.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/gaseosa-coca-cola-225-lts-sin-azucar1-c055c4c65c5420a60216008046013491-480-0.jpg",
     "url_producto": "productos/gaseosa-coca-cola-225-lts-sin-azucar/",
@@ -70606,13 +70610,17 @@
       {
         "fecha": "04/03/2021",
         "precio": 141.0
+      },
+      {
+        "fecha": "25/06/2021",
+        "precio": 143.0
       }
     ]
   },
   {
     "id": "03343",
     "nombre": "Gaseosa Coca Cola Sin Azúcar 1,5lt",
-    "precio": 131.66,
+    "precio": 131.76,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/coca-sin-azucar1-2822cfc1470d446d2c15995734486317-480-0.jpg",
     "url_producto": "productos/coca-cola-sin-azucar-1500-cc/",
@@ -70636,6 +70644,10 @@
       {
         "fecha": "23/05/2021",
         "precio": 131.66
+      },
+      {
+        "fecha": "25/06/2021",
+        "precio": 131.76
       }
     ]
   },
@@ -70990,7 +71002,7 @@
   {
     "id": "03362",
     "nombre": "Hamburguesa Paty Finita 2un",
-    "precio": 220.0,
+    "precio": 120.0,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790670050728_021-adffdf86b098cb839515996126617731-480-0.jpg",
     "url_producto": "productos/hamb-paty-finita-2-un/",
@@ -71026,6 +71038,10 @@
       {
         "fecha": "23/06/2021",
         "precio": 220.0
+      },
+      {
+        "fecha": "25/06/2021",
+        "precio": 120.0
       }
     ]
   },
@@ -76220,7 +76236,7 @@
   {
     "id": "03619",
     "nombre": "Ricota Ñulac x 1kg Peso Aprox",
-    "precio": 130.0,
+    "precio": 140.0,
     "rubro": "Productos > Lácteos Ñulac",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-611-c69c341036b6ec8e5c16037401690415-480-0.jpg",
     "url_producto": "productos/ricota-nulac-x-1-kg-peso-aprox/",
@@ -76232,6 +76248,10 @@
       {
         "fecha": "25/03/2021",
         "precio": 130.0
+      },
+      {
+        "fecha": "25/06/2021",
+        "precio": 140.0
       }
     ]
   },
@@ -88876,7 +88896,7 @@
   {
     "id": "04397",
     "nombre": "Jamón Cocido Feteado Paladini 200gr",
-    "precio": 220.0,
+    "precio": 225.0,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/204351-6593dfae1b24ee663016025191358628-480-0.jpg",
     "url_producto": "productos/jamon-cocido-feteado-paladini-200-gr/",
@@ -88900,6 +88920,10 @@
       {
         "fecha": "18/05/2021",
         "precio": 220.0
+      },
+      {
+        "fecha": "25/06/2021",
+        "precio": 225.0
       }
     ]
   },
@@ -90703,7 +90727,7 @@
     "id": "04506",
     "nombre": "Aparato Raid S/cable + 4 Tabletas",
     "precio": 345.0,
-    "rubro": "Productos > Insecticidas",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aparato-raid-sin-cable-4-tabletas1-1c5ecd174da0a5f65a16183639331089-480-0.jpeg",
     "url_producto": "productos/aparato-raid-s-cable-4-tabletas/",
     "historia": [
@@ -90967,7 +90991,7 @@
     "id": "04522",
     "nombre": "Aceite Cocinero Girasol Aerosol Fritolim 120gr",
     "precio": 176.75,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-fritolim-clasico-aero-x-120-gr1-f5e8fe909d0153ff1a16173998650258-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-aerosol-fritolim-120-gr/",
     "historia": [
@@ -90989,7 +91013,7 @@
     "id": "04523",
     "nombre": "Aceite Cocinero Girasol Plus 900ml ,",
     "precio": 250.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-cocinero-plus-girasol-900-cc-aceite-cocinero-plus-girasol-900-cc-1-103591-7528dceaf14701133616122925497462-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-plus-900-ml/",
     "historia": [
@@ -91075,7 +91099,7 @@
     "id": "04528",
     "nombre": "Aceite Marolio Oliva Extra Vigen 250ml",
     "precio": 219.32,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-marolio-oliva-extra-vigen-250-ml1-3038186d714e3b961d16166770821623-480-0.jpg",
     "url_producto": "productos/aceite-marolio-oliva-extra-vigen-250-ml/",
     "historia": [
@@ -91097,7 +91121,7 @@
     "id": "04529",
     "nombre": "Aceite Molto Aerosol Girasol 120gr",
     "precio": 181.9,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-girasol-120-gr1-0f4f22f12ab2f8c4f616107361697969-480-0.png",
     "url_producto": "productos/aceite-molto-aerosol-girasol-120-gr/",
     "historia": [
@@ -91111,7 +91135,7 @@
     "id": "04530",
     "nombre": "Aceite Molto Aerosol Oliva 120gr",
     "precio": 231.29,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-oliva-120-gr1-f32df6961224a0228316088226786698-480-0.jpg",
     "url_producto": "productos/aceite-molto-aerosol-oliva-120-gr/",
     "historia": [
@@ -92023,7 +92047,7 @@
     "id": "04586",
     "nombre": "Apresto Klaro 360cc",
     "precio": 223.31,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/4101-725e38608fcceda22b15988874755889-480-0.jpg",
     "url_producto": "productos/apresto-klaro-360-cc/",
     "historia": [
@@ -92045,7 +92069,7 @@
     "id": "04587",
     "nombre": "Apresto Robin Doypack 500cc",
     "precio": 168.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7351-08544546904e9ebe9715988196268033-480-0.jpg",
     "url_producto": "productos/apresto-robin-d-pack-500-cc/",
     "historia": [
@@ -92067,7 +92091,7 @@
     "id": "04588",
     "nombre": "Apresto Robin Doypack 900cc",
     "precio": 208.92,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Lavado de Ropa",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/149491-70b4a93f1b6882728615988196854795-480-0.jpg",
     "url_producto": "productos/apresto-robin-d-pack-900-cc/",
     "historia": [
@@ -92418,7 +92442,7 @@
   {
     "id": "04606",
     "nombre": "Azúcar Independencia x kg",
-    "precio": 39.9,
+    "precio": 60.0,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga1-1f55aa3b50acbb204016109729690992-480-0.jpg",
     "url_producto": "productos/azucar-independencia-x-kg/",
@@ -92458,6 +92482,10 @@
       {
         "fecha": "23/06/2021",
         "precio": 39.9
+      },
+      {
+        "fecha": "25/06/2021",
+        "precio": 60.0
       }
     ]
   },
@@ -94874,7 +94902,7 @@
   {
     "id": "04734",
     "nombre": "Gaseosa Coca Cola 2,25lt",
-    "precio": 169.02,
+    "precio": 161.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/gaseosa-coca-cola-225-lt1-10d99de7cfdfdcac3c15997541641611-480-0.jpg",
     "url_producto": "productos/gaseosa-coca-cola-225-lt/",
@@ -94894,6 +94922,10 @@
       {
         "fecha": "16/06/2021",
         "precio": 169.02
+      },
+      {
+        "fecha": "25/06/2021",
+        "precio": 161.0
       }
     ]
   },
@@ -94972,7 +95004,7 @@
   {
     "id": "04739",
     "nombre": "Harina Morixe \"000\" 1kg",
-    "precio": 42.9,
+    "precio": 57.05,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/4414711-2e396e146b3aa5762c15990881544487-480-0.jpg",
     "url_producto": "productos/har-morixe-000-1-kg/",
@@ -94992,6 +95024,10 @@
       {
         "fecha": "23/06/2021",
         "precio": 42.9
+      },
+      {
+        "fecha": "25/06/2021",
+        "precio": 57.05
       }
     ]
   },
@@ -97531,7 +97567,7 @@
     "id": "04878",
     "nombre": "Aceite De Maiz Arcor 900ml",
     "precio": 300.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-de-maiz-arcor-900-ml-_11-38e425b50a69a1275e16207401714293-480-0.jpg",
     "url_producto": "productos/aceite-de-maiz-arcor-900-ml/",
     "historia": [
@@ -97967,7 +98003,7 @@
     "id": "04906",
     "nombre": "Fideos La Tucumanita Tallarin Clásicos 500gr",
     "precio": 80.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico1-0c781d88162a97e7af16209183187781-480-0.jpg",
     "url_producto": "productos/fideos-la-tucumanita-tallarin-clasicos-500-gr/",
     "historia": [
@@ -97985,7 +98021,7 @@
     "id": "04907",
     "nombre": "Fideos La Tucumanita Tallarin Verdura 500gr",
     "precio": 80.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-11-6ab1096d4afe93399a16209183527029-480-0.jpg",
     "url_producto": "productos/fideos-la-tucumanita-tallarin-verdura-500-gr/",
     "historia": [
@@ -98059,7 +98095,7 @@
     "id": "04912",
     "nombre": "Noquis La Tucumanita 500gr",
     "precio": 90.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-13t115037-3221-c09dd4a88eb616857716209174632905-480-0.jpg",
     "url_producto": "productos/noquis-la-tucumanita-500-gr/",
     "historia": [
@@ -105091,7 +105127,7 @@
     "id": "05400",
     "nombre": "Pascualinas La Tucumanita Criolla 300gr",
     "precio": 70.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-21-a038196102af88b0d516210067568338-480-0.jpg",
     "url_producto": "productos/pascualinas-la-tucumanita-criolla-300-gr/",
     "historia": [
@@ -106393,7 +106429,7 @@
     "id": "05485",
     "nombre": "Aceite De Oliva Marolio 500ml",
     "precio": 410.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/138051-b960f38113241a526316221274642490-480-0.jpg",
     "url_producto": "productos/aceite-de-oliva-marolio-500ml/",
     "historia": [
@@ -106673,7 +106709,7 @@
     "id": "05503",
     "nombre": "Aceite Molto De Oliva Extra Virgen 250ml",
     "precio": 250.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-oliva-molto-250ml1-04aca7088cd9f1a50916225749740737-480-0.png",
     "url_producto": "productos/aceite-molto-de-oliva-extra-virgen-250ml/",
     "historia": [
@@ -106687,7 +106723,7 @@
     "id": "05504",
     "nombre": "Aceite Molto De Oliva Extra Virgen 500ml",
     "precio": 459.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5111-f7b1a5be5e71a7fdc316225749462895-480-0.jpg",
     "url_producto": "productos/aceite-molto-de-oliva-extra-virgen-500ml/",
     "historia": [
@@ -107085,7 +107121,7 @@
     "id": "05529",
     "nombre": "Ravioles La Tucumanita Con Carne y Verdura 650gr",
     "precio": 140.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/800504-la-tucumanita-logo1-43d3e017939a7dff6416228182739236-480-0.png",
     "url_producto": "productos/ravioles-la-tucumanita-con-carne-y-verdura-650gr/",
     "historia": [
@@ -107880,6 +107916,76 @@
       {
         "fecha": "24/06/2021",
         "precio": 150.0
+      }
+    ]
+  },
+  {
+    "id": "05582",
+    "nombre": "Arroz Noble Largo Fino 500gr",
+    "precio": 69.0,
+    "rubro": "Productos > Arroz y Legumbres",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/arroz-noble-largo-fino-500gr/",
+    "historia": [
+      {
+        "fecha": "25/06/2021",
+        "precio": 69.0
+      }
+    ]
+  },
+  {
+    "id": "05583",
+    "nombre": "Avena Nestum Multicereales S/azucar Pouch 200gr",
+    "precio": 220.0,
+    "rubro": "Productos > Galletas y Cereales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21591-d276bfc12c6020211515988325152748-640-01-db85ee231519729d3816245412792858-480-0.jpg",
+    "url_producto": "productos/avena-nestum-multicereales-s-azucar-pouch-200-gr/",
+    "historia": [
+      {
+        "fecha": "25/06/2021",
+        "precio": 220.0
+      }
+    ]
+  },
+  {
+    "id": "05584",
+    "nombre": "Fideo Matarazzo Spaghetti Libre De Gluten 500gr",
+    "precio": 181.0,
+    "rubro": "Productos > Pastas Secas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/fideo-matarazzo-spaghetti-libre-de-gluten-500gr/",
+    "historia": [
+      {
+        "fecha": "25/06/2021",
+        "precio": 181.0
+      }
+    ]
+  },
+  {
+    "id": "05585",
+    "nombre": "Fideo Terrabusi Tirabuzon 500gr",
+    "precio": 65.0,
+    "rubro": "Productos > Pastas Secas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/fideo-terrabusi-tirabuzon-500gr/",
+    "historia": [
+      {
+        "fecha": "25/06/2021",
+        "precio": 65.0
+      }
+    ]
+  },
+  {
+    "id": "05586",
+    "nombre": "Grasa Porcina Halcon 500gr",
+    "precio": 195.99,
+    "rubro": "Productos > Harinas, Grasas y Premezclas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/grasa-porcina-halcon-500gr/",
+    "historia": [
+      {
+        "fecha": "25/06/2021",
+        "precio": 195.99
       }
     ]
   }
