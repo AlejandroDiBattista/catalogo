@@ -66951,7 +66951,7 @@
     "id": "03166",
     "nombre": "Arvejas Green Life Congelada 300gr",
     "precio": 190.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550211-a666675e62010c5a7515990911554480-480-0.jpg",
     "url_producto": "productos/arvejas-green-life-congelada-300-gr/",
     "historia": [
@@ -67245,7 +67245,7 @@
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
     "precio": 490.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
     "historia": [
@@ -67395,7 +67395,7 @@
     "id": "03184",
     "nombre": "Bife Ancho (marucha) x kg (*)",
     "precio": 690.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-ancho1-046e8ec9180bc119ef15988756860268-480-0.jpg",
     "url_producto": "productos/bife-ancho-marucha-x-kg/",
     "historia": [
@@ -67413,7 +67413,7 @@
     "id": "03185",
     "nombre": "Bife Angosto x kg",
     "precio": 958.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
     "historia": [
@@ -67443,7 +67443,7 @@
     "id": "03186",
     "nombre": "Bife De Chorizo Cortado P/ Bife x kg (*)",
     "precio": 920.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-chorizo1-041d9d9fbaf770027115988756952195-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-bifedechorizo/",
     "historia": [
@@ -67513,7 +67513,7 @@
     "id": "03189",
     "nombre": "Bola De Lomo Cortada P/ Milanesa x kg (*)",
     "precio": 940.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > La Vaca Club",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-de-lomo1-0432a199844759898f15988757082702-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-boladelomo/",
     "historia": [
@@ -67539,7 +67539,7 @@
     "id": "03190",
     "nombre": "Bola De Lomo Feteada Para Milanesa x kg",
     "precio": 800.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-lomo-fet1-44e054598c02eecd9816027207901849-480-0.jpg",
     "url_producto": "productos/bola-de-lomo-feteada-para-milanesa-x-kg/",
     "historia": [
@@ -68303,7 +68303,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -68316,7 +68316,7 @@
   {
     "id": "03231",
     "nombre": "Choclo x Unidad",
-    "precio": 50.0,
+    "precio": 75.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/choclo-americano-600x6001-a81dcb81c758f2975216146273101789-480-0.jpg",
     "url_producto": "productos/choclo-x-unidad/",
@@ -68336,6 +68336,10 @@
       {
         "fecha": "07/05/2021",
         "precio": 50.0
+      },
+      {
+        "fecha": "29/06/2021",
+        "precio": 75.0
       }
     ]
   },
@@ -70654,7 +70658,7 @@
   {
     "id": "03344",
     "nombre": "Gaseosa Crush Manzana 3lt",
-    "precio": 120.0,
+    "precio": 132.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/gaseosa-crush-manzana-3-lt1-e8d1f89ba956954ba716057954774967-480-0.jpg",
     "url_producto": "productos/gaseosa-crush-manzana-3-lt/",
@@ -70674,13 +70678,17 @@
       {
         "fecha": "23/05/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "29/06/2021",
+        "precio": 132.0
       }
     ]
   },
   {
     "id": "03345",
     "nombre": "Gaseosa Crush Naranja 3lt",
-    "precio": 120.0,
+    "precio": 132.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/gaseosa-crush-naranja-3l1-ef67dd9193f3622ff216039944058352-480-0.jpg",
     "url_producto": "productos/gaseosa-crush-naranja-3l/",
@@ -70700,6 +70708,10 @@
       {
         "fecha": "23/05/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "29/06/2021",
+        "precio": 132.0
       }
     ]
   },
@@ -89554,7 +89566,7 @@
   {
     "id": "04434",
     "nombre": "Gaseosa Crush Pomelo 3 Lts",
-    "precio": 120.0,
+    "precio": 132.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3080427_f1-dd426411cdebd2ed7c16032991921988-480-0.jpg",
     "url_producto": "productos/gaseosa-crush-pomelo-3-lts/",
@@ -89570,6 +89582,10 @@
       {
         "fecha": "23/05/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "29/06/2021",
+        "precio": 132.0
       }
     ]
   },
@@ -90111,7 +90127,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 223.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -90462,7 +90478,7 @@
   {
     "id": "04490",
     "nombre": "Berenjena x Unidad",
-    "precio": 65.0,
+    "precio": 90.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/berenjena1-b95421431fde7a27c516139986875117-480-0.png",
     "url_producto": "productos/berenjena-x-unidad/",
@@ -90474,6 +90490,10 @@
       {
         "fecha": "06/06/2021",
         "precio": 65.0
+      },
+      {
+        "fecha": "29/06/2021",
+        "precio": 90.0
       }
     ]
   },
@@ -90814,7 +90834,7 @@
   {
     "id": "04510",
     "nombre": "Gaseosa Crush Lima Limón 3lt",
-    "precio": 120.0,
+    "precio": 132.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/crush-lima-limon-3lt-600x6001-fa5f81e81fd2e549b616032993374146-480-0.jpg",
     "url_producto": "productos/gaseosa-crush-lima-limon-3l/",
@@ -90830,6 +90850,10 @@
       {
         "fecha": "23/05/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "29/06/2021",
+        "precio": 132.0
       }
     ]
   },
@@ -91267,7 +91291,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -91285,7 +91309,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -91407,7 +91431,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 203.97,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -93979,7 +94003,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -108058,6 +108082,62 @@
       {
         "fecha": "26/06/2021",
         "precio": 195.99
+      }
+    ]
+  },
+  {
+    "id": "05591",
+    "nombre": "Leche La Serenísima Baby Etap.3 200ml",
+    "precio": 59.66,
+    "rubro": "Productos > Leches en Polvo y Larga Vida",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2371811-45bef52de3f7a25db415989997106993-480-0.jpg",
+    "url_producto": "productos/leche-l-serenis-baby-etap-3-200-ml/",
+    "historia": [
+      {
+        "fecha": "29/06/2021",
+        "precio": 59.66
+      }
+    ]
+  },
+  {
+    "id": "05592",
+    "nombre": "Leche La Serenísima Baby Etap.3 800gr",
+    "precio": 768.46,
+    "rubro": "Productos > Leches en Polvo y Larga Vida",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237211-d32f1a1aa911ba397315989717088330-480-0.jpg",
+    "url_producto": "productos/leche-l-serenis-baby-etap-3-800-gr/",
+    "historia": [
+      {
+        "fecha": "29/06/2021",
+        "precio": 768.46
+      }
+    ]
+  },
+  {
+    "id": "05593",
+    "nombre": "Salsa Alicante 4 Quesos 37gr",
+    "precio": 99.0,
+    "rubro": "Productos > Salsas y Puré de Tomates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/salsa-alicante-4-quesos-37gr/",
+    "historia": [
+      {
+        "fecha": "29/06/2021",
+        "precio": 99.0
+      }
+    ]
+  },
+  {
+    "id": "05594",
+    "nombre": "Salsa Alicante Blanca 40gr",
+    "precio": 61.0,
+    "rubro": "Productos > Salsas y Puré de Tomates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/salsa-alicante-blanca-40gr/",
+    "historia": [
+      {
+        "fecha": "29/06/2021",
+        "precio": 61.0
       }
     ]
   }
