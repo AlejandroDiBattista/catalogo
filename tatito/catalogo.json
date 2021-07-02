@@ -16569,12 +16569,11 @@
   {
     "id": "00539",
     "nombre": "Atun Cumana Al Natural Desmenuzado 170gr",
-    "precio": 78.0,
+    "precio": 90.0,
     "rubro": "Almacén > Enlatados",
     "url_imagen": "2020/01/ATUN-CUMANA-DESMENUZ-170GR.jpg",
     "url_producto": "atun-cumana-desmenuz-170gr/",
-    "precio_unitario": "$78,00",
-    "precio_1": "3,67.04",
+    "precio_1": "3,77.39",
     "historia": [
       {
         "fecha": "27/10/2020",
@@ -16582,6 +16581,10 @@
       },
       {
         "fecha": "07/01/2021"
+      },
+      {
+        "fecha": "01/07/2021",
+        "precio": 90.0
       }
     ]
   },
@@ -22567,7 +22570,7 @@
     "id": "00791",
     "nombre": "Dr. Lemon Con Vodka Pomelo 1lt",
     "precio": 162.9,
-    "rubro": "Bebidas > Vodkas",
+    "rubro": "Bebidas > Isotonicos y energizantes",
     "url_imagen": "2020/12/drlemon-vodka-pomelo1l.jpg",
     "url_producto": "dr-lemon-con-vodka-pomelo-1-lt/",
     "precio_1": "3,143.74",
@@ -25718,6 +25721,21 @@
       {
         "fecha": "30/06/2021",
         "precio": 57.5
+      }
+    ]
+  },
+  {
+    "id": "00960",
+    "nombre": "Guantes Xg Make",
+    "precio": 146.0,
+    "rubro": "Limpieza > Varios",
+    "url_imagen": "2021/06/GUANTES-MAKE-XG.jpg",
+    "url_producto": "guantes-xg-make/",
+    "precio_1": "3,126.76",
+    "historia": [
+      {
+        "fecha": "01/07/2021",
+        "precio": 146.0
       }
     ]
   }
