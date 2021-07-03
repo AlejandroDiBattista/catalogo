@@ -65116,7 +65116,7 @@
   {
     "id": "03089",
     "nombre": "Aceitunas Nucete Verde Descarozadas Doy Pack 150gr",
-    "precio": 179.55,
+    "precio": 135.0,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59331-471a9cbb738f37861e15988135578965-480-0.jpg",
     "url_producto": "productos/aceit-nucete-vde-des-dpa-150-gr/",
@@ -65144,6 +65144,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 179.55
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 135.0
       }
     ]
   },
@@ -65172,7 +65176,7 @@
   {
     "id": "03091",
     "nombre": "Aceitunas Nucete Verde N 4 Sachet 100gr",
-    "precio": 88.27,
+    "precio": 66.37,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59881-fcf44d4a84c2df2eb015988136084301-480-0.jpg",
     "url_producto": "productos/aceit-nucete-vde-n4-sac-100-gr/",
@@ -65200,13 +65204,17 @@
       {
         "fecha": "30/06/2021",
         "precio": 88.27
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 66.37
       }
     ]
   },
   {
     "id": "03092",
     "nombre": "Aceitunas Nucete Verde N 7 Frasco 220gr",
-    "precio": 215.62,
+    "precio": 162.12,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134561-3661a4b5c66512b54515988137062835-480-0.jpg",
     "url_producto": "productos/aceit-nucete-vde-n7-fco-220-gr/",
@@ -65230,13 +65238,17 @@
       {
         "fecha": "30/06/2021",
         "precio": 215.62
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 162.12
       }
     ]
   },
   {
     "id": "03093",
     "nombre": "Aceitunas Nucete Verde Rellenas Frasco 200gr",
-    "precio": 200.98,
+    "precio": 151.11,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/432441-70fc9290193200014215988137509715-480-0.jpg",
     "url_producto": "productos/aceit-nucete-vde-rel-fco-200-gr/",
@@ -65260,13 +65272,17 @@
       {
         "fecha": "30/06/2021",
         "precio": 200.98
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 151.11
       }
     ]
   },
   {
     "id": "03094",
     "nombre": "Aceitunas Nucete Verdes Descarozadas Sachet 80gr",
-    "precio": 98.89,
+    "precio": 74.35,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59891-bbca2cbd475864c58f16059088214506-480-0.jpg",
     "url_producto": "productos/aceitunas-nucete-verdes-descarozadas-sachet-80-gr/",
@@ -65294,6 +65310,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 98.89
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 74.35
       }
     ]
   },
@@ -65599,7 +65619,7 @@
     "id": "03108",
     "nombre": "Agua Glaciar Sin Gas 2lt",
     "precio": 99.0,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc24241-65917abfdcc656c1b616010430756981-480-0.jpg",
     "url_producto": "productos/agua-glaciar-sin-gas-2-lt/",
     "historia": [
@@ -65739,7 +65759,7 @@
     "id": "03116",
     "nombre": "Agua Mineral Sierra De Los Padres 2lt",
     "precio": 71.3,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sierra-de-los-padres-2-lt1-ab6f3d796f1482e66616001948616487-480-0.jpg",
     "url_producto": "productos/agua-mineral-sierra-de-los-padres-2-l/",
     "historia": [
@@ -65753,7 +65773,7 @@
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
     "precio": 99.0,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -65813,7 +65833,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65871,7 +65891,7 @@
     "id": "03122",
     "nombre": "Agua Sin Gas Nestlé Pureza Vital 2,25 Lts",
     "precio": 73.5,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-sin-gas-nestle-pureza-vital-225-lts1-eeec029681545bd86216015826868064-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-225-lts/",
     "historia": [
@@ -66173,7 +66193,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 380.0,
-    "rubro": "Productos > Frutos Secos",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -68541,7 +68561,7 @@
     "id": "03215",
     "nombre": "Cerveza Corona 330cc",
     "precio": 145.0,
-    "rubro": "Productos > Cervezas",
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cerveza-corona-330-cc1-d0ddb214c6a36dcf7c16003524185419-640-01-0020e8650e2dc35bb616005434767590-480-0.png",
     "url_producto": "productos/cerveza-corona-330-cc/",
     "historia": [
@@ -69724,7 +69744,7 @@
   {
     "id": "03271",
     "nombre": "Dulce De Leche Ilolay Familiar 400gr",
-    "precio": 228.19,
+    "precio": 171.57,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5086011-26333af68cfaec4ccb15990877366678-480-0.jpg",
     "url_producto": "productos/d-leche-ilolay-familiar-400-gr/",
@@ -69756,13 +69776,17 @@
       {
         "fecha": "30/06/2021",
         "precio": 228.19
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 171.57
       }
     ]
   },
   {
     "id": "03272",
     "nombre": "Dulce De Leche La Serenísima Estilo Colonial 400gr",
-    "precio": 316.62,
+    "precio": 238.06,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164351-5307375b6657829ebb15989689751328-480-0.jpg",
     "url_producto": "productos/d-leche-l-serenis-est-col-cal-400-gr/",
@@ -69802,6 +69826,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 316.62
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 238.06
       }
     ]
   },
@@ -69826,7 +69854,7 @@
   {
     "id": "03274",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
-    "precio": 232.75,
+    "precio": 150.0,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-400-gr/",
@@ -69858,6 +69886,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 232.75
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 150.0
       }
     ]
   },
@@ -70528,7 +70560,7 @@
   {
     "id": "03309",
     "nombre": "Fernet Branca 450cc",
-    "precio": 475.0,
+    "precio": 398.0,
     "rubro": "Productos > Aperitivos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5241-1b4916584f47cfd60815988900156433-480-0.jpg",
     "url_producto": "productos/fernet-branca-450-cc/",
@@ -70560,13 +70592,17 @@
       {
         "fecha": "02/07/2021",
         "precio": 475.0
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 398.0
       }
     ]
   },
   {
     "id": "03310",
     "nombre": "Fernet Branca 750cc",
-    "precio": 744.66,
+    "precio": 661.0,
     "rubro": "Productos > Aperitivos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5231-c794eacb026384ef9215988900457553-480-0.jpg",
     "url_producto": "productos/fernet-branca-750-cc/",
@@ -70614,6 +70650,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 744.66
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 661.0
       }
     ]
   },
@@ -71164,7 +71204,7 @@
   {
     "id": "03339",
     "nombre": "Galletitas Terrabusi Variedad 400gr",
-    "precio": 177.62,
+    "precio": 133.55,
     "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209851-0f2bd8eb8fc27fb6db15988923475671-480-0.jpg",
     "url_producto": "productos/gal-terrabusi-variedad-400-gr/",
@@ -71180,6 +71220,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 177.62
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 133.55
       }
     ]
   },
@@ -72640,7 +72684,7 @@
   {
     "id": "03405",
     "nombre": "Jugo Clight Naranja Dulce 7,7gr",
-    "precio": 25.0,
+    "precio": 26.47,
     "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/63471-ffc748653528d42b0e15988876792967-480-0.jpg",
     "url_producto": "productos/jugo-clight-naranja-dulce-7-5-gr/",
@@ -72660,13 +72704,17 @@
       {
         "fecha": "30/06/2021",
         "precio": 25.0
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 26.47
       }
     ]
   },
   {
     "id": "03406",
     "nombre": "Jugo En Base A Soja Ades Manzana 1lt",
-    "precio": 115.0,
+    "precio": 122.0,
     "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0201-e22cb6177ebda07e7215988830743145-480-0.jpg",
     "url_producto": "productos/ades-manzana-1l/",
@@ -72686,6 +72734,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 115.0
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 122.0
       }
     ]
   },
@@ -74072,7 +74124,7 @@
   {
     "id": "03469",
     "nombre": "Mayonesa Hellmann's Doypack 237gr",
-    "precio": 116.56,
+    "precio": 87.64,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/14981-4ed755d6bfbf02b8f615989735589658-480-0.jpg",
     "url_producto": "productos/mayonesa-hellmanns-doypack-237-gr/",
@@ -74092,6 +74144,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 116.56
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 87.64
       }
     ]
   },
@@ -76159,7 +76215,7 @@
     "id": "03566",
     "nombre": "Patitas Granja De Sol Pollo 400gr",
     "precio": 397.67,
-    "rubro": "Productos > Congelados de Pollo",
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/872111-7b53014f1eef98441a15990035503427-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-pollo-400-gr/",
     "historia": [
@@ -77146,7 +77202,7 @@
   {
     "id": "03616",
     "nombre": "Repelente Off Family Aerosol 165ml",
-    "precio": 277.54,
+    "precio": 208.68,
     "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/12221-08f26ae4dd64851a5c15988935819506-480-0.jpg",
     "url_producto": "productos/repelente-off-family-aerosol-165-ml/",
@@ -77170,6 +77226,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 277.54
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 208.68
       }
     ]
   },
@@ -88797,7 +88857,7 @@
     "id": "04323",
     "nombre": "Suprema Granja De Sol Pollo 360gr",
     "precio": 425.99,
-    "rubro": "Productos > Congelados de Pollo",
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830811-607b67364edc558d3415990038309902-480-0.jpg",
     "url_producto": "productos/suprema-granja-de-sol-pollo-360-gr/",
     "historia": [
@@ -90394,7 +90454,7 @@
   {
     "id": "04414",
     "nombre": "Aceituna Nucete Negra N4 Sac 100gr",
-    "precio": 96.11,
+    "precio": 72.26,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1841-726bf529894efd7c4615997492435579-480-0.jpg",
     "url_producto": "productos/aceituna-nucete-negra-n4-sac-100-gr/",
@@ -90414,6 +90474,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 96.11
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 72.26
       }
     ]
   },
@@ -90648,7 +90712,7 @@
   {
     "id": "04425",
     "nombre": "Chimichurri Tahiti 270gr",
-    "precio": 160.93,
+    "precio": 121.0,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2440194_f1-c2e5b249abba28fbca16173989255550-480-0.jpg",
     "url_producto": "productos/chimichurri-tahiti-270-gr/",
@@ -90664,6 +90728,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 160.93
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 121.0
       }
     ]
   },
@@ -91266,7 +91334,7 @@
   {
     "id": "04462",
     "nombre": "Aceitunas Nucete Negra N 7 200gr",
-    "precio": 200.98,
+    "precio": 151.11,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/185151-c40276aba31671133615988860309574-480-0.jpg",
     "url_producto": "productos/aceit-nucete-negra-n7-200-gr/",
@@ -91286,6 +91354,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 200.98
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 151.11
       }
     ]
   },
@@ -91350,7 +91422,7 @@
   {
     "id": "04466",
     "nombre": "Pickles Nucete 220gr",
-    "precio": 196.69,
+    "precio": 180.0,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/59851-3379286b6c28760a9a15996711787420-480-0.jpg",
     "url_producto": "productos/pickles-nucete-220-grs/",
@@ -91374,6 +91446,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 196.69
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 180.0
       }
     ]
   },
@@ -91524,7 +91600,7 @@
   {
     "id": "04475",
     "nombre": "Ketchup Molto Doypack 500gr",
-    "precio": 212.1,
+    "precio": 159.47,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ketchup-molto-d-p-500-cc-1-126471-bd14fec324fb79f12d16179806826743-480-0.jpg",
     "url_producto": "productos/ketchup-molto-doypack-500-gr/",
@@ -91544,6 +91620,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 212.1
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 159.47
       }
     ]
   },
@@ -92067,7 +92147,7 @@
     "id": "04506",
     "nombre": "Aparato Raid S/cable + 4 Tabletas",
     "precio": 345.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aparato-raid-sin-cable-4-tabletas1-1c5ecd174da0a5f65a16183639331089-480-0.jpeg",
     "url_producto": "productos/aparato-raid-s-cable-4-tabletas/",
     "historia": [
@@ -92556,7 +92636,7 @@
   {
     "id": "04531",
     "nombre": "Aceitunas Nucete Verde N 5 Frasco 200gr",
-    "precio": 189.1,
+    "precio": 142.18,
     "rubro": "Productos > Aceitunas, Pickles y Ajies",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/441381-0256e612c643fd43a915988136701894-480-0.jpg",
     "url_producto": "productos/aceit-nucete-vde-n5-fco-200-gr/",
@@ -92576,6 +92656,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 189.1
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 142.18
       }
     ]
   },
@@ -92683,7 +92767,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -92701,7 +92785,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -92839,7 +92923,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 203.97,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -95704,7 +95788,7 @@
   {
     "id": "04679",
     "nombre": "Cerveza Miller Lata 473cc",
-    "precio": 197.85,
+    "precio": 148.76,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/225671-59d617b9941bbea1c715988791119377-480-0.jpg",
     "url_producto": "productos/cerv-miller-lata-473-cc/",
@@ -95724,6 +95808,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 197.85
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 148.76
       }
     ]
   },
@@ -96364,7 +96452,7 @@
   {
     "id": "04709",
     "nombre": "Dulce Arcor Membrillo 500gr",
-    "precio": 188.08,
+    "precio": 141.41,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/6841-e07fa3d9785a9298ef15998464074728-480-0.jpg",
     "url_producto": "productos/dulce-arcor-membrillo-500-gr/",
@@ -96384,6 +96472,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 188.08
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 141.41
       }
     ]
   },
@@ -96404,7 +96496,7 @@
   {
     "id": "04711",
     "nombre": "Dulce De Leche La Serenísima Clásico Pote 400gr",
-    "precio": 129.99,
+    "precio": 153.5,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8733701-9e7d5c994df2c0340716010380180646-480-0.jpg",
     "url_producto": "productos/dulce-de-leche-la-serenisima-clasico-pote-400-gr/",
@@ -96428,6 +96520,10 @@
       {
         "fecha": "19/06/2021",
         "precio": 129.99
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 153.5
       }
     ]
   },
@@ -97506,7 +97602,7 @@
   {
     "id": "04756",
     "nombre": "Kétchup Hellmann's 250gr",
-    "precio": 167.87,
+    "precio": 126.22,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/29661-f505377bd736c5a81a15996710373319-480-0.jpg",
     "url_producto": "productos/ketchup-hellmanns-250grs/",
@@ -97526,6 +97622,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 167.87
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 126.22
       }
     ]
   },
@@ -98050,7 +98150,7 @@
   {
     "id": "04778",
     "nombre": "Mayonesa Hellmann's Doypack 475gr",
-    "precio": 212.1,
+    "precio": 159.47,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/14821-02a06735bb9ab2218e15990733442829-480-0.jpg",
     "url_producto": "productos/mayonesa-hellmanns-doypack-475-gr/",
@@ -98066,6 +98166,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 212.1
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 159.47
       }
     ]
   },
@@ -98086,7 +98190,7 @@
   {
     "id": "04780",
     "nombre": "Mayonesa Hellmann's Light Doypack 237gr",
-    "precio": 116.56,
+    "precio": 87.64,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/116641-c5809e881054b3440b16001843722824-480-0.jpg",
     "url_producto": "productos/may-hellmanns-light-d-p-237-gr/",
@@ -98106,13 +98210,17 @@
       {
         "fecha": "30/06/2021",
         "precio": 116.56
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 87.64
       }
     ]
   },
   {
     "id": "04781",
     "nombre": "Mayonesa Hellmann's Light Doypack 475gr",
-    "precio": 212.1,
+    "precio": 159.47,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/113891-01895b00834976db6e16001843364936-480-0.jpg",
     "url_producto": "productos/may-hellmanns-light-d-p-475-gr/",
@@ -98128,6 +98236,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 212.1
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 159.47
       }
     ]
   },
@@ -100242,7 +100354,7 @@
   {
     "id": "04888",
     "nombre": "Mermelada Bc La Campagnola Frutilla 390gr",
-    "precio": 317.15,
+    "precio": 238.46,
     "rubro": "Productos > Bajas Calorías",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7793360812101_011-62a8a685b99a0ebc0e16014750945921-480-0.jpg",
     "url_producto": "productos/mermelada-bc-la-campagnola-frutilla-390-gr/",
@@ -100254,6 +100366,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 317.15
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 238.46
       }
     ]
   },
@@ -110042,7 +110158,7 @@
   {
     "id": "05536",
     "nombre": "Dulce Arcor De Membrillo Cajon 5kg",
-    "precio": 1.712,
+    "precio": 1.287,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/dulce-arcor-de-membrillo-cajon-5kg26641-cb55c9f5f92dd2f21816230731626784-480-0.jpg",
     "url_producto": "productos/dulce-arcor-de-membrillo-cajon-5kg/",
@@ -110062,6 +110178,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 1.712
+      },
+      {
+        "fecha": "03/07/2021",
+        "precio": 1.287
       }
     ]
   },
@@ -111126,6 +111246,62 @@
       {
         "fecha": "02/07/2021",
         "precio": 225.0
+      }
+    ]
+  },
+  {
+    "id": "05599",
+    "nombre": "Dulce De Cayote Artesanal 455gr",
+    "precio": 299.0,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/dulce-de-cayote-artesanal-455gr/",
+    "historia": [
+      {
+        "fecha": "03/07/2021",
+        "precio": 299.0
+      }
+    ]
+  },
+  {
+    "id": "05600",
+    "nombre": "Ketchup Molto Doypack 250gr",
+    "precio": 80.0,
+    "rubro": "Productos > Aderezos",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-06-30t102357-0951-7b633296953dbcdf1516250594727483-480-0.jpg",
+    "url_producto": "productos/ketchup-molto-doypack-250-gr/",
+    "historia": [
+      {
+        "fecha": "03/07/2021",
+        "precio": 80.0
+      }
+    ]
+  },
+  {
+    "id": "05601",
+    "nombre": "Pasta De Mani Boris 360gr",
+    "precio": 280.0,
+    "rubro": "Productos > Bajas Calorías",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-06-30t151740-7511-dd94f8f7a4a066b11416250770831468-480-0.jpg",
+    "url_producto": "productos/pasta-de-mani-boris-360gr/",
+    "historia": [
+      {
+        "fecha": "03/07/2021",
+        "precio": 280.0
+      }
+    ]
+  },
+  {
+    "id": "05602",
+    "nombre": "Pasta De Mani Boris 500gr",
+    "precio": 310.0,
+    "rubro": "Productos > Bajas Calorías",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-06-30t151520-51911-9bfe62ebdb3888c50e16250771070238-480-0.jpg",
+    "url_producto": "productos/pasta-de-mani-boris-500gr/",
+    "historia": [
+      {
+        "fecha": "03/07/2021",
+        "precio": 310.0
       }
     ]
   }
