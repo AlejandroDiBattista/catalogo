@@ -65784,7 +65784,7 @@
   {
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
-    "precio": 99.0,
+    "precio": 155.9,
     "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
@@ -65824,6 +65824,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 99.0
+      },
+      {
+        "fecha": "06/07/2021",
+        "precio": 155.9
       }
     ]
   },
@@ -66205,7 +66209,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 380.0,
-    "rubro": "Productos > Frutos Secos",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -67688,7 +67692,7 @@
   {
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
-    "precio": 490.0,
+    "precio": 530.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
@@ -67708,6 +67712,10 @@
       {
         "fecha": "13/04/2021",
         "precio": 490.0
+      },
+      {
+        "fecha": "06/07/2021",
+        "precio": 530.0
       }
     ]
   },
@@ -69490,7 +69498,7 @@
   {
     "id": "03260",
     "nombre": "Croquetas De Zapallo y Queso x 500gr Aprox.(*)",
-    "precio": 410.0,
+    "precio": 430.0,
     "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/70-croquetas-de-zapallo-11-378a1efd3309568de016026936445936-480-0.jpg",
     "url_producto": "productos/croquetas-de-zapallo-y-queso-x-500-gr-aprox/",
@@ -69510,6 +69518,10 @@
       {
         "fecha": "13/04/2021",
         "precio": 410.0
+      },
+      {
+        "fecha": "06/07/2021",
+        "precio": 430.0
       }
     ]
   },
@@ -74362,7 +74374,7 @@
   {
     "id": "03478",
     "nombre": "Medallón De Pollo Con Jamón y Queso x 500gr Aprox. (*)",
-    "precio": 450.0,
+    "precio": 460.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/66-medallones-de-pollo-con-jamon-y-queso-11-17e1c470a9b92911fb16026932854523-480-0.jpg",
     "url_producto": "productos/medallon-de-pollo-con-jamon-y-queso-x-500-gr-aprox/",
@@ -74382,13 +74394,17 @@
       {
         "fecha": "13/04/2021",
         "precio": 450.0
+      },
+      {
+        "fecha": "06/07/2021",
+        "precio": 460.0
       }
     ]
   },
   {
     "id": "03479",
     "nombre": "Medallón De Pollo Tradicional x 500gr Aprox.(*)",
-    "precio": 420.0,
+    "precio": 440.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/65-medallones-de-pollo-tradicionales-11-0948e0e3ffea01dfac16026931236580-480-0.jpg",
     "url_producto": "productos/medallon-de-pollo-tradicional-x-500-gr-aprox/",
@@ -74408,6 +74424,10 @@
       {
         "fecha": "13/04/2021",
         "precio": 420.0
+      },
+      {
+        "fecha": "06/07/2021",
+        "precio": 440.0
       }
     ]
   },
@@ -75338,7 +75358,7 @@
   {
     "id": "03526",
     "nombre": "Pampitos De Pollo x 500gr Aprox.(*)",
-    "precio": 430.0,
+    "precio": 440.0,
     "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pampitos1-a92f5c47348991626c16026935447949-480-0.jpg",
     "url_producto": "productos/pampitos-de-pollo-x-500-gr-aprox/",
@@ -75358,6 +75378,10 @@
       {
         "fecha": "13/04/2021",
         "precio": 430.0
+      },
+      {
+        "fecha": "06/07/2021",
+        "precio": 440.0
       }
     ]
   },
@@ -91620,7 +91644,7 @@
   {
     "id": "04473",
     "nombre": "Francés x kg",
-    "precio": 185.0,
+    "precio": 190.0,
     "rubro": "Productos > Panadería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/eu0151-eb2a47fe32053909d916022448346179-480-0.jpg",
     "url_producto": "productos/frances-x-kilo/",
@@ -91632,6 +91656,10 @@
       {
         "fecha": "16/06/2021",
         "precio": 185.0
+      },
+      {
+        "fecha": "06/07/2021",
+        "precio": 190.0
       }
     ]
   },
@@ -92827,7 +92855,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -92845,7 +92873,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -92983,7 +93011,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 203.97,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -94009,7 +94037,7 @@
     "id": "04597",
     "nombre": "Autobrillo Echo Clásico 900ml",
     "precio": 320.97,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7691-c82732b1c9cc6b752f15988324228884-480-0.jpg",
     "url_producto": "productos/autobr-echo-clasico-900-ml/",
     "historia": [
@@ -96288,7 +96316,7 @@
   {
     "id": "04699",
     "nombre": "Crema Dental Close-up Menthol Paradise 90gr",
-    "precio": 172.78,
+    "precio": 205.0,
     "rubro": "Productos > Cuidado Bucal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/123021-8e800107d893f13d0115988984268781-480-0.jpg",
     "url_producto": "productos/cr-dent-close-up-menthol-par-90-gr/",
@@ -96312,6 +96340,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 172.78
+      },
+      {
+        "fecha": "06/07/2021",
+        "precio": 205.0
       }
     ]
   },
@@ -97124,7 +97156,7 @@
   {
     "id": "04735",
     "nombre": "Gaseosa Fanta Naranja 1,5lt",
-    "precio": 195.0,
+    "precio": 209.0,
     "rubro": "Productos > Gaseosas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc178931-88b50b3acaf6f51f7d16010451391213-480-0.jpg",
     "url_producto": "productos/gaseosa-fanta-naranja-15-lt/",
@@ -97136,6 +97168,10 @@
       {
         "fecha": "12/06/2021",
         "precio": 195.0
+      },
+      {
+        "fecha": "06/07/2021",
+        "precio": 209.0
       }
     ]
   },
@@ -111466,6 +111502,76 @@
       {
         "fecha": "05/07/2021",
         "precio": 290.0
+      }
+    ]
+  },
+  {
+    "id": "05609",
+    "nombre": "Avena Nestum Trigo y Miel Pouch 200gr",
+    "precio": 231.29,
+    "rubro": "Productos > Galletas y Cereales",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/16311-13aeedff64499c5be415997496168448-480-0.jpg",
+    "url_producto": "productos/avena-nestum-trigo-y-miel-pouch-200-gr/",
+    "historia": [
+      {
+        "fecha": "06/07/2021",
+        "precio": 231.29
+      }
+    ]
+  },
+  {
+    "id": "05610",
+    "nombre": "Mani Salado Pehuamar 150gr",
+    "precio": 170.0,
+    "rubro": "Productos > Snacks",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/mani-salado-pehuamar-150gr/",
+    "historia": [
+      {
+        "fecha": "06/07/2021",
+        "precio": 170.0
+      }
+    ]
+  },
+  {
+    "id": "05611",
+    "nombre": "Papas Fritas Pehuamar 80gr",
+    "precio": 115.0,
+    "rubro": "Productos > Snacks",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/papas-fritas-pehuamar-80gr/",
+    "historia": [
+      {
+        "fecha": "06/07/2021",
+        "precio": 115.0
+      }
+    ]
+  },
+  {
+    "id": "05612",
+    "nombre": "Purina Cat Chow Gatitos 500gr",
+    "precio": 260.0,
+    "rubro": "Productos > Mascotas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/34401-24502f8848bc8e7e4316254905909089-480-0.jpg",
+    "url_producto": "productos/purina-cat-chow-gatitos-500gr/",
+    "historia": [
+      {
+        "fecha": "06/07/2021",
+        "precio": 260.0
+      }
+    ]
+  },
+  {
+    "id": "05613",
+    "nombre": "Sopapa Esencial",
+    "precio": 120.0,
+    "rubro": "Productos > Limpieza de Baño",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-07-05t102201-6721-ee86fe746a1ba1c83816254913541192-480-0.jpg",
+    "url_producto": "productos/sopapa-esencial/",
+    "historia": [
+      {
+        "fecha": "06/07/2021",
+        "precio": 120.0
       }
     ]
   }
