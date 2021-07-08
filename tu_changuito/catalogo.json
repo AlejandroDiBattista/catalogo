@@ -67721,7 +67721,7 @@
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
     "precio": 530.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
     "historia": [
@@ -67909,7 +67909,7 @@
     "id": "03185",
     "nombre": "Bife Angosto x kg",
     "precio": 958.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
     "historia": [
@@ -68051,7 +68051,7 @@
     "id": "03190",
     "nombre": "Bola De Lomo Feteada Para Milanesa x kg",
     "precio": 800.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-lomo-fet1-44e054598c02eecd9816027207901849-480-0.jpg",
     "url_producto": "productos/bola-de-lomo-feteada-para-milanesa-x-kg/",
     "historia": [
@@ -74558,7 +74558,7 @@
   {
     "id": "03482",
     "nombre": "Medallón Vegetalex Legumbres y Quinoa 300gr",
-    "precio": 206.0,
+    "precio": 209.0,
     "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/medallon-vegetalex-legumbres-y-quinoa-300-gr1-22e4a5e6917db4e8cc16037220852738-480-0.jpg",
     "url_producto": "productos/medallon-vegetalex-legumbres-y-quinoa-300-gr/",
@@ -74566,6 +74566,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 206.0
+      },
+      {
+        "fecha": "08/07/2021",
+        "precio": 209.0
       }
     ]
   },
@@ -90670,7 +90674,7 @@
   {
     "id": "04416",
     "nombre": "Crema De Leche La Serenísima 200gr",
-    "precio": 180.71,
+    "precio": 180.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164211-87fdb4f6713999034415990676754429-480-0.jpg",
     "url_producto": "productos/crema-l-serenis-200-gr/",
@@ -90706,6 +90710,10 @@
       {
         "fecha": "07/07/2021",
         "precio": 180.71
+      },
+      {
+        "fecha": "08/07/2021",
+        "precio": 180.0
       }
     ]
   },
@@ -92858,7 +92866,7 @@
   {
     "id": "04532",
     "nombre": "Acelga Venta x Atado",
-    "precio": 139.0,
+    "precio": 149.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acelga1-af2d9b8d8833ed916916025977736214-480-0.jpg",
     "url_producto": "productos/acelga-venta-x-atado/",
@@ -92866,6 +92874,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 139.0
+      },
+      {
+        "fecha": "08/07/2021",
+        "precio": 149.0
       }
     ]
   },
@@ -96458,7 +96470,7 @@
   {
     "id": "04698",
     "nombre": "Crema De Leche La Serenisima Uat Liviana 200 Cm3",
-    "precio": 120.0,
+    "precio": 180.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790742141903_011-d41caa5c86b70ad6d816065938202460-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-uat-liviana-200-cm3/",
@@ -96478,6 +96490,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "08/07/2021",
+        "precio": 180.0
       }
     ]
   },
@@ -98570,7 +98586,7 @@
   {
     "id": "04782",
     "nombre": "Medallón Vegetalex Espinaca 300gr",
-    "precio": 206.0,
+    "precio": 209.0,
     "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2403811-73d280865536f5092f15990913476564-480-0.jpg",
     "url_producto": "productos/medall-vegetalex-espinaca-300-gr/",
@@ -98578,6 +98594,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 206.0
+      },
+      {
+        "fecha": "08/07/2021",
+        "precio": 209.0
       }
     ]
   },
@@ -100995,7 +101015,7 @@
     "id": "04906",
     "nombre": "Fideos La Tucumanita Tallarin Clásicos 500gr",
     "precio": 80.0,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico1-0c781d88162a97e7af16209183187781-480-0.jpg",
     "url_producto": "productos/fideos-la-tucumanita-tallarin-clasicos-500-gr/",
     "historia": [
@@ -101013,7 +101033,7 @@
     "id": "04907",
     "nombre": "Fideos La Tucumanita Tallarin Verdura 500gr",
     "precio": 80.0,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-11-6ab1096d4afe93399a16209183527029-480-0.jpg",
     "url_producto": "productos/fideos-la-tucumanita-tallarin-verdura-500-gr/",
     "historia": [
@@ -101105,7 +101125,7 @@
     "id": "04913",
     "nombre": "Ravioles La Tucumanita Pollo y Verdura 500gr",
     "precio": 80.0,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-13t114635-6951-2244f56ce0fb2bdac316209172155504-480-0.jpg",
     "url_producto": "productos/ravioles-la-tucumanita-pollo-y-verdura-500-gr/",
     "historia": [
@@ -108159,7 +108179,7 @@
     "id": "05400",
     "nombre": "Pascualinas La Tucumanita Criolla 300gr",
     "precio": 70.0,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-21-a038196102af88b0d516210067568338-480-0.jpg",
     "url_producto": "productos/pascualinas-la-tucumanita-criolla-300-gr/",
     "historia": [
@@ -110184,7 +110204,7 @@
   {
     "id": "05515",
     "nombre": "Crema De Leche La Serenísima 330cc",
-    "precio": 292.5,
+    "precio": 250.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8732531-b4bd906c369499835116020051408840-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-330-cc/",
@@ -110212,13 +110232,17 @@
       {
         "fecha": "07/07/2021",
         "precio": 292.5
+      },
+      {
+        "fecha": "08/07/2021",
+        "precio": 250.0
       }
     ]
   },
   {
     "id": "05516",
     "nombre": "Crema De Leche La Serenísima Uat Culinaria 20% Tenor Graso 200 Cm3",
-    "precio": 135.0,
+    "precio": 180.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls14161-c1cde548f2025d6edd16010476164530-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-uat-culinaria-20-tenor-graso-200-cm3/",
@@ -110230,13 +110254,17 @@
       {
         "fecha": "06/06/2021",
         "precio": 135.0
+      },
+      {
+        "fecha": "08/07/2021",
+        "precio": 180.0
       }
     ]
   },
   {
     "id": "05517",
     "nombre": "Crema De Leche La Serenísima Uat Culinaria 20% Tenor Graso 330 Cm3",
-    "precio": 215.0,
+    "precio": 250.0,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ls14171-d21e5d49939c2b246d16010477103849-480-0.jpg",
     "url_producto": "productos/crema-de-leche-la-serenisima-uat-culinaria-20-tenor-graso-330-cm3/",
@@ -110248,6 +110276,10 @@
       {
         "fecha": "06/06/2021",
         "precio": 215.0
+      },
+      {
+        "fecha": "08/07/2021",
+        "precio": 250.0
       }
     ]
   },
@@ -110451,7 +110483,7 @@
     "id": "05530",
     "nombre": "Ravioles La Tucumanita Con Verdura 650gr",
     "precio": 140.0,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/800504-la-tucumanita-logo11-e784a4f65bcf90b3dc16228183016575-480-0.png",
     "url_producto": "productos/ravioles-la-tucumanita-con-verdura-650gr/",
     "historia": [
@@ -111914,6 +111946,48 @@
       {
         "fecha": "07/07/2021",
         "precio": 115.0
+      }
+    ]
+  },
+  {
+    "id": "05617",
+    "nombre": "Acondicionador Tresemme Keratina 400ml",
+    "precio": 311.0,
+    "rubro": "Productos > Limpieza",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/acondicionador-tresemme-keratina-400-ml/",
+    "historia": [
+      {
+        "fecha": "08/07/2021",
+        "precio": 311.0
+      }
+    ]
+  },
+  {
+    "id": "05618",
+    "nombre": "Jalea La Campagnola Membrillo 454gr",
+    "precio": 251.52,
+    "rubro": "Productos > Dulces y Mermeladas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/jalea-la-campagnola-membrillo-454-gr1-4a03e7ce9d2bdda7a516176676713681-480-0.jpg",
+    "url_producto": "productos/jalea-la-campagnola-membrillo-454-gr/",
+    "historia": [
+      {
+        "fecha": "08/07/2021",
+        "precio": 251.52
+      }
+    ]
+  },
+  {
+    "id": "05619",
+    "nombre": "Pure De Tomate Molto 520gr",
+    "precio": 63.71,
+    "rubro": "Productos > Salsas y Puré de Tomates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/43751-6bad7ffd7863c038b316040748236298-480-0.jpg",
+    "url_producto": "productos/pure-de-tomate-molto-520-gr/",
+    "historia": [
+      {
+        "fecha": "08/07/2021",
+        "precio": 63.71
       }
     ]
   }
