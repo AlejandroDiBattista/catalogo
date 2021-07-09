@@ -64843,7 +64843,7 @@
     "id": "03078",
     "nombre": "Aceite Cañuelas Oliva Intenso 500cc",
     "precio": 422.8,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220311-58116916046af9b3e315988111926122-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-in-pet-500-cc/",
     "historia": [
@@ -64889,7 +64889,7 @@
     "id": "03079",
     "nombre": "Aceite Cañuelas Oliva Suave 500cc",
     "precio": 422.8,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220301-333f3a18318b80229215988119589449-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-su-pet-500-cc/",
     "historia": [
@@ -65001,7 +65001,7 @@
     "id": "03083",
     "nombre": "Aceite Natura Aerosol 120cc",
     "precio": 199.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1871-8683f744226524a40215988124512148-480-0.jpg",
     "url_producto": "productos/ac-natura-aero-120-cc/",
     "historia": [
@@ -65433,7 +65433,7 @@
     "id": "03101",
     "nombre": "Acondicionador Dove Hidratación Intensa 400ml",
     "precio": 415.87,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134081-617c0210c3c9ec52d915989073595026-480-0.jpg",
     "url_producto": "productos/acond-dove-hidrat-int-400-ml/",
     "historia": [
@@ -65475,7 +65475,7 @@
     "id": "03102",
     "nombre": "Acondicionador Dove Reconstrución Completa 400ml",
     "precio": 415.87,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134091-e88b3763692fc3fd0415989073970501-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-400-ml/",
     "historia": [
@@ -65792,8 +65792,8 @@
   {
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
-    "precio": 81.99,
-    "rubro": "Productos > Aguas sin Gas",
+    "precio": 155.9,
+    "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -65840,6 +65840,10 @@
       {
         "fecha": "07/07/2021",
         "precio": 81.99
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 155.9
       }
     ]
   },
@@ -66225,7 +66229,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 380.0,
-    "rubro": "Productos > Frutos Secos",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -67371,7 +67375,7 @@
     "id": "03166",
     "nombre": "Arvejas Green Life Congelada 300gr",
     "precio": 190.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550211-a666675e62010c5a7515990911554480-480-0.jpg",
     "url_producto": "productos/arvejas-green-life-congelada-300-gr/",
     "historia": [
@@ -67608,7 +67612,7 @@
   {
     "id": "03173",
     "nombre": "Azúcar Chango 1kg",
-    "precio": 54.99,
+    "precio": 80.0,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2691-c35131e65a120add2515988328157594-480-0.jpg",
     "url_producto": "productos/azucar-chango-1-kg/",
@@ -67640,6 +67644,10 @@
       {
         "fecha": "07/07/2021",
         "precio": 54.99
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 80.0
       }
     ]
   },
@@ -68112,7 +68120,7 @@
   {
     "id": "03193",
     "nombre": "Bon O Bon Blanco 15gr",
-    "precio": 22.0,
+    "precio": 24.99,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77961815-500x5001-f6e7bf2657a75010bb16131325297304-480-0.jpg",
     "url_producto": "productos/bon-o-bon-blanco-15-gr/",
@@ -68136,6 +68144,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 22.0
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 24.99
       }
     ]
   },
@@ -68931,7 +68943,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -76363,7 +76375,7 @@
     "id": "03566",
     "nombre": "Patitas Granja De Sol Pollo 400gr",
     "precio": 397.67,
-    "rubro": "Productos > Cupon descuento",
+    "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/872111-7b53014f1eef98441a15990035503427-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-pollo-400-gr/",
     "historia": [
@@ -89400,7 +89412,7 @@
   {
     "id": "04343",
     "nombre": "Bon O Bon Leche 15gr",
-    "precio": 22.0,
+    "precio": 24.99,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77919373-bombon-con-crema-cacahuete-arcor-16-gr-500x5001-84f6149c0e992d4c4116131327471634-480-0.jpg",
     "url_producto": "productos/bon-o-bon-leche-15-gr/",
@@ -89424,6 +89436,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 22.0
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 24.99
       }
     ]
   },
@@ -90328,7 +90344,7 @@
   {
     "id": "04397",
     "nombre": "Jamón Cocido Feteado Paladini 200gr",
-    "precio": 225.0,
+    "precio": 250.0,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/204351-6593dfae1b24ee663016025191358628-480-0.jpg",
     "url_producto": "productos/jamon-cocido-feteado-paladini-200-gr/",
@@ -90356,6 +90372,10 @@
       {
         "fecha": "25/06/2021",
         "precio": 225.0
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 250.0
       }
     ]
   },
@@ -91643,7 +91663,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 223.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -92623,7 +92643,7 @@
     "id": "04522",
     "nombre": "Aceite Cocinero Girasol Aerosol Fritolim 120gr",
     "precio": 176.75,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-fritolim-clasico-aero-x-120-gr1-f5e8fe909d0153ff1a16173998650258-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-aerosol-fritolim-120-gr/",
     "historia": [
@@ -92653,7 +92673,7 @@
     "id": "04523",
     "nombre": "Aceite Cocinero Girasol Plus 900ml ,",
     "precio": 250.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-cocinero-plus-girasol-900-cc-aceite-cocinero-plus-girasol-900-cc-1-103591-7528dceaf14701133616122925497462-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-plus-900-ml/",
     "historia": [
@@ -92747,7 +92767,7 @@
     "id": "04528",
     "nombre": "Aceite Marolio Oliva Extra Vigen 250ml",
     "precio": 285.88,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-marolio-oliva-extra-vigen-250-ml1-3038186d714e3b961d16166770821623-480-0.jpg",
     "url_producto": "productos/aceite-marolio-oliva-extra-vigen-250-ml/",
     "historia": [
@@ -92781,7 +92801,7 @@
     "id": "04529",
     "nombre": "Aceite Molto Aerosol Girasol 120gr",
     "precio": 181.9,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-girasol-120-gr1-0f4f22f12ab2f8c4f616107361697969-480-0.png",
     "url_producto": "productos/aceite-molto-aerosol-girasol-120-gr/",
     "historia": [
@@ -92803,7 +92823,7 @@
     "id": "04530",
     "nombre": "Aceite Molto Aerosol Oliva 120gr",
     "precio": 237.78,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-oliva-120-gr1-f32df6961224a0228316088226786698-480-0.jpg",
     "url_producto": "productos/aceite-molto-aerosol-oliva-120-gr/",
     "historia": [
@@ -92885,7 +92905,7 @@
     "id": "04533",
     "nombre": "Acondiciónador Dove Oleo Nutrición 750ml",
     "precio": 778.57,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237691-584193fa5c876aef5015990691178020-480-0.jpg",
     "url_producto": "productos/acond-dove-oleo-nutric-750-ml/",
     "historia": [
@@ -92919,7 +92939,7 @@
     "id": "04534",
     "nombre": "Acondiciónador Dove Reconstrución Completa 750ml",
     "precio": 778.57,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237681-a13f3137e67435676715990691033096-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-750-ml/",
     "historia": [
@@ -92953,7 +92973,7 @@
     "id": "04535",
     "nombre": "Acondicionador Elvive Kera Liso 400ml",
     "precio": 375.0,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/210721-ac9ddab487a4ae562516043400249425-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-kera-liso-400-ml/",
     "historia": [
@@ -93031,7 +93051,7 @@
     "id": "04538",
     "nombre": "Acondicionador Head & Shoulders Refrescante 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52361-d612b82bf46eb1cbe715988138704164-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-relief-180-ml/",
     "historia": [
@@ -93049,7 +93069,7 @@
     "id": "04539",
     "nombre": "Acondicionador Head & Shoulders Rejuvecedora 375ml",
     "precio": 356.77,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52531-f5f5c627f982c2ba8715988139254367-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-rejuvec-375-ml/",
     "historia": [
@@ -94434,7 +94454,7 @@
   {
     "id": "04608",
     "nombre": "Baño De Reposteria Aguila Semiamargo 150gr",
-    "precio": 182.0,
+    "precio": 200.0,
     "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bano-de-reposteria-aguila-semiamargo-150-gr1-3a1cf7c9191fef953516113217445181-480-0.jpg",
     "url_producto": "productos/bano-de-reposteria-aguila-semiamargo-150-gr/",
@@ -94454,6 +94474,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 182.0
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 200.0
       }
     ]
   },
@@ -94664,7 +94688,7 @@
   {
     "id": "04619",
     "nombre": "Bizcochuelo Arcor S/t.a.c.c. Sabor Chocolate 500gr",
-    "precio": 209.0,
+    "precio": 230.0,
     "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bizcochuelo-arcor-sin-t-a-c-c-sabor-chocolate-500-gr1-f474d428f0389c930916099544462211-480-0.jpg",
     "url_producto": "productos/bizcochuelo-arcor-s-t-a-c-c-sabor-chocolate-500-gr/",
@@ -94680,6 +94704,10 @@
       {
         "fecha": "06/06/2021",
         "precio": 209.0
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 230.0
       }
     ]
   },
@@ -96231,7 +96259,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -99914,7 +99942,7 @@
   {
     "id": "04846",
     "nombre": "Lomo De Cerdo Paladini Feteado 120gr",
-    "precio": 225.0,
+    "precio": 250.0,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/217621-adf869f63aa0863a5016025182784508-480-0.jpg",
     "url_producto": "productos/lomo-de-cerdo-paladini-feteado-120-gr/",
@@ -99938,6 +99966,10 @@
       {
         "fecha": "23/06/2021",
         "precio": 225.0
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 250.0
       }
     ]
   },
@@ -99974,7 +100006,7 @@
   {
     "id": "04848",
     "nombre": "Alfajor Bon O Bon Triple 60gr",
-    "precio": 70.0,
+    "precio": 75.0,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-03t100031-0101-dc5bebc29eba8d94e216200468589523-480-0.jpg",
     "url_producto": "productos/alfajor-bon-o-bon-triple-60-gr/",
@@ -99986,13 +100018,17 @@
       {
         "fecha": "23/05/2021",
         "precio": 70.0
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 75.0
       }
     ]
   },
   {
     "id": "04849",
     "nombre": "Alfajor Tatin Triple Blanco 60gr",
-    "precio": 38.0,
+    "precio": 42.0,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/01785511-5734114feefb8c7d9316200466672029-480-0.jpeg",
     "url_producto": "productos/alfajor-tatin-triple-blanco-60-gr/",
@@ -100004,13 +100040,17 @@
       {
         "fecha": "16/05/2021",
         "precio": 38.0
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 42.0
       }
     ]
   },
   {
     "id": "04850",
     "nombre": "Alfajor Tatin Triple Negro 60gr",
-    "precio": 38.0,
+    "precio": 42.0,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tatintriplenegro60g-416x4161-8af14fd5f49772b22816200467458711-480-0.jpg",
     "url_producto": "productos/alfajor-tatin-triple-negro-60-gr/",
@@ -100022,6 +100062,10 @@
       {
         "fecha": "16/05/2021",
         "precio": 38.0
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 42.0
       }
     ]
   },
@@ -100519,7 +100563,7 @@
     "id": "04878",
     "nombre": "Aceite De Maiz Arcor 900ml",
     "precio": 330.17,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-de-maiz-arcor-900-ml-_11-38e425b50a69a1275e16207401714293-480-0.jpg",
     "url_producto": "productos/aceite-de-maiz-arcor-900-ml/",
     "historia": [
@@ -101015,7 +101059,7 @@
     "id": "04906",
     "nombre": "Fideos La Tucumanita Tallarin Clásicos 500gr",
     "precio": 80.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico1-0c781d88162a97e7af16209183187781-480-0.jpg",
     "url_producto": "productos/fideos-la-tucumanita-tallarin-clasicos-500-gr/",
     "historia": [
@@ -101033,7 +101077,7 @@
     "id": "04907",
     "nombre": "Fideos La Tucumanita Tallarin Verdura 500gr",
     "precio": 80.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-11-6ab1096d4afe93399a16209183527029-480-0.jpg",
     "url_producto": "productos/fideos-la-tucumanita-tallarin-verdura-500-gr/",
     "historia": [
@@ -101125,7 +101169,7 @@
     "id": "04913",
     "nombre": "Ravioles La Tucumanita Pollo y Verdura 500gr",
     "precio": 80.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-13t114635-6951-2244f56ce0fb2bdac316209172155504-480-0.jpg",
     "url_producto": "productos/ravioles-la-tucumanita-pollo-y-verdura-500-gr/",
     "historia": [
@@ -108179,7 +108223,7 @@
     "id": "05400",
     "nombre": "Pascualinas La Tucumanita Criolla 300gr",
     "precio": 70.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-21-a038196102af88b0d516210067568338-480-0.jpg",
     "url_producto": "productos/pascualinas-la-tucumanita-criolla-300-gr/",
     "historia": [
@@ -108298,7 +108342,7 @@
   {
     "id": "05406",
     "nombre": "Alfajor Bon O Bon Blanco 40gr",
-    "precio": 50.0,
+    "precio": 55.0,
     "rubro": "Productos > Chocolates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/20200722-10043051-9d137c9051bc5faac716212599439972-480-0.png",
     "url_producto": "productos/alfajor-bon-o-bon-blanco-40gr/",
@@ -108306,6 +108350,10 @@
       {
         "fecha": "18/05/2021",
         "precio": 50.0
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 55.0
       }
     ]
   },
@@ -108499,7 +108547,7 @@
     "id": "05416",
     "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 400ml",
     "precio": 375.0,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7898587761949-1_1_1-ef2cb24811224c211716213573046943-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-400ml/",
     "historia": [
@@ -109621,7 +109669,7 @@
     "id": "05485",
     "nombre": "Aceite De Oliva Marolio 500ml",
     "precio": 410.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/138051-b960f38113241a526316221274642490-480-0.jpg",
     "url_producto": "productos/aceite-de-oliva-marolio-500ml/",
     "historia": [
@@ -109881,7 +109929,7 @@
     "id": "05497",
     "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 200ml",
     "precio": 231.0,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/elvive-ac-color-vive-x-200ml1-b5d82d5d9f6a2a6f5416224760728512-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-200ml/",
     "historia": [
@@ -109989,7 +110037,7 @@
     "id": "05503",
     "nombre": "Aceite Molto De Oliva Extra Virgen 250ml",
     "precio": 250.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-oliva-molto-250ml1-04aca7088cd9f1a50916225749740737-480-0.png",
     "url_producto": "productos/aceite-molto-de-oliva-extra-virgen-250ml/",
     "historia": [
@@ -110011,7 +110059,7 @@
     "id": "05504",
     "nombre": "Aceite Molto De Oliva Extra Virgen 500ml",
     "precio": 459.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5111-f7b1a5be5e71a7fdc316225749462895-480-0.jpg",
     "url_producto": "productos/aceite-molto-de-oliva-extra-virgen-500ml/",
     "historia": [
@@ -110370,7 +110418,7 @@
   {
     "id": "05522",
     "nombre": "Baño De Repostería Aguila Blanco 150gr",
-    "precio": 182.0,
+    "precio": 200.0,
     "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790407031471_011-75c7bc22500b574cce16059644357603-480-0.jpg",
     "url_producto": "productos/bano-de-reposteria-aguila-blanco-150-gr/",
@@ -110378,6 +110426,10 @@
       {
         "fecha": "06/06/2021",
         "precio": 182.0
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 200.0
       }
     ]
   },
@@ -110483,7 +110535,7 @@
     "id": "05530",
     "nombre": "Ravioles La Tucumanita Con Verdura 650gr",
     "precio": 140.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/800504-la-tucumanita-logo11-e784a4f65bcf90b3dc16228183016575-480-0.png",
     "url_producto": "productos/ravioles-la-tucumanita-con-verdura-650gr/",
     "historia": [
@@ -110496,7 +110548,7 @@
   {
     "id": "05531",
     "nombre": "Baño De Repostería Aguila Con Leche 150gr",
-    "precio": 186.07,
+    "precio": 200.0,
     "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bano-reposteria-con-leche-chocolate-aguila-reposteria-mendoza-casa-segal1-0d375fdf22835f239a16230727697889-480-0.jpg",
     "url_producto": "productos/bano-de-reposteria-aguila-con-leche-150-gr/",
@@ -110516,13 +110568,17 @@
       {
         "fecha": "02/07/2021",
         "precio": 186.07
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 200.0
       }
     ]
   },
   {
     "id": "05532",
     "nombre": "Bizcochuelo Aguila Brownie 425gr",
-    "precio": 200.0,
+    "precio": 220.0,
     "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bizc-aguila-brownie1-bc8f0657d438bf773616230729753142-480-0.jpg",
     "url_producto": "productos/bizcochuelo-aguila-brownie-425gr/",
@@ -110530,13 +110586,17 @@
       {
         "fecha": "08/06/2021",
         "precio": 200.0
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 220.0
       }
     ]
   },
   {
     "id": "05533",
     "nombre": "Bizcochuelo Godet Marmolado 500gr",
-    "precio": 250.0,
+    "precio": 275.0,
     "rubro": "Productos > Postres y Repostería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bizcochuelo-godet-marmolado-reposteria-mendoza-casa-segal-600x6001-4304185f022cb1881d16230728958781-480-0.jpg",
     "url_producto": "productos/bizcochuelo-godet-marmolado-500gr/",
@@ -110544,6 +110604,10 @@
       {
         "fecha": "08/06/2021",
         "precio": 250.0
+      },
+      {
+        "fecha": "09/07/2021",
+        "precio": 275.0
       }
     ]
   },
@@ -111988,6 +112052,20 @@
       {
         "fecha": "08/07/2021",
         "precio": 63.71
+      }
+    ]
+  },
+  {
+    "id": "05620",
+    "nombre": "Acondicionador Tresemme Keratina 400ml",
+    "precio": 311.0,
+    "rubro": "Productos > Limpieza",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-tresemme-keratin-smooth-400-ml-1-329981-c4da7ec272b02dde1916257569364622-480-0.jpg",
+    "url_producto": "productos/acondicionador-tresemme-keratina-400-ml/",
+    "historia": [
+      {
+        "fecha": "09/07/2021",
+        "precio": 311.0
       }
     ]
   }
