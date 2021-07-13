@@ -65433,7 +65433,7 @@
     "id": "03101",
     "nombre": "Acondicionador Dove Hidratación Intensa 400ml",
     "precio": 415.87,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134081-617c0210c3c9ec52d915989073595026-480-0.jpg",
     "url_producto": "productos/acond-dove-hidrat-int-400-ml/",
     "historia": [
@@ -65475,7 +65475,7 @@
     "id": "03102",
     "nombre": "Acondicionador Dove Reconstrución Completa 400ml",
     "precio": 415.87,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134091-e88b3763692fc3fd0415989073970501-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-400-ml/",
     "historia": [
@@ -65960,7 +65960,7 @@
   {
     "id": "03123",
     "nombre": "Agua Sin Gas Nestlé Pureza Vital Bidón 6,3lt",
-    "precio": 216.35,
+    "precio": 235.0,
     "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/24111-ec1f792bddd04f223415988775601891-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-bidon-63-lt/",
@@ -65988,6 +65988,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 216.35
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 235.0
       }
     ]
   },
@@ -66070,7 +66074,7 @@
   {
     "id": "03126",
     "nombre": "Ajo x Unidad",
-    "precio": 55.0,
+    "precio": 60.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ajo-ecologico-1-kg-800x8001-bbd9cc43aba9dd3d7616146268803784-480-0.jpeg",
     "url_producto": "productos/ajo-x-unidad/",
@@ -66082,6 +66086,10 @@
       {
         "fecha": "10/04/2021",
         "precio": 55.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 60.0
       }
     ]
   },
@@ -67375,7 +67383,7 @@
     "id": "03166",
     "nombre": "Arvejas Green Life Congelada 300gr",
     "precio": 190.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550211-a666675e62010c5a7515990911554480-480-0.jpg",
     "url_producto": "productos/arvejas-green-life-congelada-300-gr/",
     "historia": [
@@ -67612,7 +67620,7 @@
   {
     "id": "03173",
     "nombre": "Azúcar Chango 1kg",
-    "precio": 80.0,
+    "precio": 64.99,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2691-c35131e65a120add2515988328157594-480-0.jpg",
     "url_producto": "productos/azucar-chango-1-kg/",
@@ -67648,6 +67656,10 @@
       {
         "fecha": "09/07/2021",
         "precio": 80.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 64.99
       }
     ]
   },
@@ -67680,7 +67692,7 @@
   {
     "id": "03175",
     "nombre": "Azúcar Ledesma 1kg",
-    "precio": 65.0,
+    "precio": 80.0,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2631-9bf28d750e13433f9a15988329984523-480-0.jpg",
     "url_producto": "productos/azucar-ledesma-1-kg/",
@@ -67708,6 +67720,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 65.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 80.0
       }
     ]
   },
@@ -67773,7 +67789,7 @@
     "id": "03179",
     "nombre": "Bebible La Serenisima Multivitaminas S/azucar Frutilla 900ml",
     "precio": 140.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/9568571-18a64b837943e2d88116111751446607-480-0.jpg",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-s-azucar-frutilla-900-ml/",
     "historia": [
@@ -68943,7 +68959,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -68956,7 +68972,7 @@
   {
     "id": "03231",
     "nombre": "Choclo x Unidad",
-    "precio": 75.0,
+    "precio": 80.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/choclo-americano-600x6001-a81dcb81c758f2975216146273101789-480-0.jpg",
     "url_producto": "productos/choclo-x-unidad/",
@@ -68980,6 +68996,10 @@
       {
         "fecha": "29/06/2021",
         "precio": 75.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 80.0
       }
     ]
   },
@@ -69974,7 +69994,7 @@
   {
     "id": "03274",
     "nombre": "Dulce De Leche Milkaut Clásico 400gr",
-    "precio": 150.0,
+    "precio": 193.7,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2518711-348f5d95bc40e1e2d815989992824773-480-0.jpg",
     "url_producto": "productos/d-leche-milkaut-clasico-400-gr/",
@@ -70010,6 +70030,10 @@
       {
         "fecha": "03/07/2021",
         "precio": 150.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 193.7
       }
     ]
   },
@@ -70262,7 +70286,7 @@
   {
     "id": "03286",
     "nombre": "Empanadas De Carne Picante x 12un",
-    "precio": 600.0,
+    "precio": 630.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-1211-b24f33229cc0c7d4c916034745536965-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-picante-x-12-unidades/",
@@ -70274,6 +70298,10 @@
       {
         "fecha": "14/05/2021",
         "precio": 600.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 630.0
       }
     ]
   },
@@ -70294,7 +70322,7 @@
   {
     "id": "03288",
     "nombre": "Empanadas De Carne Picante x 6un",
-    "precio": 310.0,
+    "precio": 320.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-1221-b24f33229cc0c7d4c916034745974293-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-picante-x-6-unidades/",
@@ -70306,13 +70334,17 @@
       {
         "fecha": "14/05/2021",
         "precio": 310.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 320.0
       }
     ]
   },
   {
     "id": "03289",
     "nombre": "Empanadas De Carne Suave x 12un",
-    "precio": 600.0,
+    "precio": 630.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-1311-d1ea17d8916eba948416034759752893-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-suave-x-12-unidades/",
@@ -70324,6 +70356,10 @@
       {
         "fecha": "14/05/2021",
         "precio": 600.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 630.0
       }
     ]
   },
@@ -70344,7 +70380,7 @@
   {
     "id": "03291",
     "nombre": "Empanadas De Carne Suave x 6un",
-    "precio": 310.0,
+    "precio": 320.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-1321-d1ea17d8916eba948416034760729503-480-0.jpg",
     "url_producto": "productos/empanadas-de-carne-suave-x-6-unidades/",
@@ -70356,6 +70392,10 @@
       {
         "fecha": "14/05/2021",
         "precio": 310.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 320.0
       }
     ]
   },
@@ -70376,7 +70416,7 @@
   {
     "id": "03293",
     "nombre": "Empanadas De Ternera y Queso x 12un",
-    "precio": 600.0,
+    "precio": 630.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/119884523_2674272619459675_5460709936343647419_n11-8179601ba2fb67f07e16034700811861-480-0.png",
     "url_producto": "productos/empanadas-de-ternera-y-queso-x-12-unidades/",
@@ -70388,6 +70428,10 @@
       {
         "fecha": "25/05/2021",
         "precio": 600.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 630.0
       }
     ]
   },
@@ -70408,7 +70452,7 @@
   {
     "id": "03295",
     "nombre": "Empanadas De Ternera y Queso x 6un",
-    "precio": 310.0,
+    "precio": 320.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/119884523_2674272619459675_5460709936343647419_n21-72feaa4b28485192a216034701095215-480-0.png",
     "url_producto": "productos/empanadas-de-ternera-y-queso-x-6-unidades/",
@@ -70420,6 +70464,10 @@
       {
         "fecha": "25/05/2021",
         "precio": 310.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 320.0
       }
     ]
   },
@@ -91163,7 +91211,7 @@
     "id": "04440",
     "nombre": "Bebible La Serenisima Multivitaminas 0% Grasa S/azucar Vainilla 900ml",
     "precio": 151.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77907426620191-533a98bb0957360d4816176344694679-480-0.png",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-0-grasa-s-azucar-vainilla-900-ml/",
     "historia": [
@@ -91185,7 +91233,7 @@
     "id": "04441",
     "nombre": "Bebible La Serenisima Multivitaminas S/azucar Vainilla 900ml",
     "precio": 140.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga-41-ed15637226d9f3d7ac16176683992919-480-0.jpg",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-s-azucar-vainilla-900-ml/",
     "historia": [
@@ -91239,7 +91287,7 @@
     "id": "04444",
     "nombre": "Bebible La Serenisima Multivitaminas 0% Grasa S/azucar Frutilla 900ml",
     "precio": 151.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77907426620261-a8a776dd8cb3d0701c16177108420596-480-0.png",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-0-grasa-s-azucar-frutilla-900-ml/",
     "historia": [
@@ -91420,7 +91468,7 @@
   {
     "id": "04455",
     "nombre": "Esponja De Fibra Mortimer Cuadriculada Antibacterial x Un",
-    "precio": 47.0,
+    "precio": 55.0,
     "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/158751-9ecd6f0b2aa3494a7816016542557534-480-0.jpg",
     "url_producto": "productos/esponja-de-fibra-mortimer-cuadriculada-antibacterial-x-un/",
@@ -91432,6 +91480,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 47.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 55.0
       }
     ]
   },
@@ -91663,7 +91715,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 223.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -92351,7 +92403,7 @@
     "id": "04506",
     "nombre": "Aparato Raid S/cable + 4 Tabletas",
     "precio": 345.0,
-    "rubro": "Productos > Insecticidas",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aparato-raid-sin-cable-4-tabletas1-1c5ecd174da0a5f65a16183639331089-480-0.jpeg",
     "url_producto": "productos/aparato-raid-s-cable-4-tabletas/",
     "historia": [
@@ -92905,7 +92957,7 @@
     "id": "04533",
     "nombre": "Acondiciónador Dove Oleo Nutrición 750ml",
     "precio": 778.57,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237691-584193fa5c876aef5015990691178020-480-0.jpg",
     "url_producto": "productos/acond-dove-oleo-nutric-750-ml/",
     "historia": [
@@ -92939,7 +92991,7 @@
     "id": "04534",
     "nombre": "Acondiciónador Dove Reconstrución Completa 750ml",
     "precio": 778.57,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237681-a13f3137e67435676715990691033096-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-750-ml/",
     "historia": [
@@ -92973,7 +93025,7 @@
     "id": "04535",
     "nombre": "Acondicionador Elvive Kera Liso 400ml",
     "precio": 375.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/210721-ac9ddab487a4ae562516043400249425-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-kera-liso-400-ml/",
     "historia": [
@@ -93051,7 +93103,7 @@
     "id": "04538",
     "nombre": "Acondicionador Head & Shoulders Refrescante 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52361-d612b82bf46eb1cbe715988138704164-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-relief-180-ml/",
     "historia": [
@@ -93069,7 +93121,7 @@
     "id": "04539",
     "nombre": "Acondicionador Head & Shoulders Rejuvecedora 375ml",
     "precio": 356.77,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52531-f5f5c627f982c2ba8715988139254367-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-rejuvec-375-ml/",
     "historia": [
@@ -93322,7 +93374,7 @@
   {
     "id": "04552",
     "nombre": "Ajo En Polvo Ancestral 50gr",
-    "precio": 120.0,
+    "precio": 130.0,
     "rubro": "Productos > Sal y Condimentos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ajo1-000fbc3d1fd13e4b2816079841397444-480-0.jpg",
     "url_producto": "productos/ajo-en-polvo-ancestral-50-gr/",
@@ -93334,6 +93386,10 @@
       {
         "fecha": "29/05/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 130.0
       }
     ]
   },
@@ -93354,7 +93410,7 @@
   {
     "id": "04554",
     "nombre": "Albóndigas De Río x 500gr Aprox.(*)",
-    "precio": 260.0,
+    "precio": 380.0,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/50-albondigas-de-rio-11-bd5b80fb4b3c89594c16026907870590-480-0.jpg",
     "url_producto": "productos/albondigas-de-rio-x-500-gr-aprox/",
@@ -93362,6 +93418,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 260.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 380.0
       }
     ]
   },
@@ -93696,7 +93756,7 @@
   {
     "id": "04573",
     "nombre": "Almejas Taquilla Peladas x kg (*)",
-    "precio": 1.69,
+    "precio": 1.89,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5-almejas-taquilla1-ce4e8c28b113cfdec716025996852822-480-0.jpg",
     "url_producto": "productos/almejas-taquilla-peladas-x-kg/",
@@ -93704,13 +93764,17 @@
       {
         "fecha": "23/04/2021",
         "precio": 1.69
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 1.89
       }
     ]
   },
   {
     "id": "04574",
     "nombre": "Almejas Tumbao Peladas x kg (*)",
-    "precio": 1.69,
+    "precio": 1.89,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/6-almejas-tumbao1-ce4e8c28b113cfdec716025997616754-480-0.jpg",
     "url_producto": "productos/almejas-tumbao-peladas-x-kg/",
@@ -93718,6 +93782,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 1.69
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 1.89
       }
     ]
   },
@@ -93843,7 +93911,7 @@
     "id": "04582",
     "nombre": "Aparato Glade Auto Sport Acqua 7ml",
     "precio": 401.1,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/148721-af603d48a233e61ded15988190130021-480-0.jpg",
     "url_producto": "productos/aparato-glade-a-s-acqua-7-ml/",
     "historia": [
@@ -93857,7 +93925,7 @@
     "id": "04583",
     "nombre": "Aparato Glade Auto Sport Floral Perfection 7ml",
     "precio": 481.33,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/148691-e59a9234f870d5079915988191173635-480-0.jpg",
     "url_producto": "productos/aparato-glade-a-s-flor-p-7-ml/",
     "historia": [
@@ -93883,7 +93951,7 @@
     "id": "04584",
     "nombre": "Aparato Lysoform Discos Adhesivo Lavanda 38ml",
     "precio": 363.9,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/230651-431b4c291dfbc3a1ed15990688214382-480-0.jpg",
     "url_producto": "productos/aparato-lysoform-d-a-lavan-38-ml/",
     "historia": [
@@ -93919,7 +93987,7 @@
     "id": "04586",
     "nombre": "Apresto Klaro 360cc",
     "precio": 223.31,
-    "rubro": "Productos > Lavado de Ropa",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/4101-725e38608fcceda22b15988874755889-480-0.jpg",
     "url_producto": "productos/apresto-klaro-360-cc/",
     "historia": [
@@ -93941,7 +94009,7 @@
     "id": "04587",
     "nombre": "Apresto Robin Doypack 500cc",
     "precio": 168.0,
-    "rubro": "Productos > Lavado de Ropa",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7351-08544546904e9ebe9715988196268033-480-0.jpg",
     "url_producto": "productos/apresto-robin-d-pack-500-cc/",
     "historia": [
@@ -94689,7 +94757,7 @@
     "id": "04619",
     "nombre": "Bizcochuelo Arcor S/t.a.c.c. Sabor Chocolate 500gr",
     "precio": 230.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bizcochuelo-arcor-sin-t-a-c-c-sabor-chocolate-500-gr1-f474d428f0389c930916099544462211-480-0.jpg",
     "url_producto": "productos/bizcochuelo-arcor-s-t-a-c-c-sabor-chocolate-500-gr/",
     "historia": [
@@ -95433,7 +95501,7 @@
     "id": "04649",
     "nombre": "Café Dolce Gusto Espresso 96gr",
     "precio": 700.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/221361-274e852debe3c4546816001831478827-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-espresso-96-gr/",
     "historia": [
@@ -95455,7 +95523,7 @@
     "id": "04650",
     "nombre": "Café Dolce Gusto Latte Macciato 100,100gr",
     "precio": 780.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cafe-dolce-gusto-latte-macciato-100-8-gr1-1f420eb29f24b5b3a116182503540316-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-latte-macciato-110-gr/",
     "historia": [
@@ -95473,7 +95541,7 @@
     "id": "04651",
     "nombre": "Café Dolce Gusto Lungo 112gr",
     "precio": 770.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/254761-a5dd7dd686eb428efe16001832179518-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-lungo-112-gr/",
     "historia": [
@@ -95582,7 +95650,7 @@
   {
     "id": "04658",
     "nombre": "Camarones Cocidos Grandes x kg (*)",
-    "precio": 1.76,
+    "precio": 1.795,
     "rubro": "Productos > Pescados y Mariscos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/camarones-cocidos-grandes1-701508c3047581cea916026054806724-480-0.jpg",
     "url_producto": "productos/camarones-cocidos-grandes-x-kg/",
@@ -95590,6 +95658,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 1.76
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 1.795
       }
     ]
   },
@@ -96012,7 +96084,7 @@
   {
     "id": "04677",
     "nombre": "Cerveza Budweiser Lata 473cc",
-    "precio": 120.0,
+    "precio": 75.0,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/239741-b652e332077f6750a815988789656584-480-0.jpg",
     "url_producto": "productos/cerv-budweiser-lata-473-cc/",
@@ -96044,6 +96116,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 120.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 75.0
       }
     ]
   },
@@ -96259,7 +96335,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -96808,7 +96884,7 @@
   {
     "id": "04711",
     "nombre": "Dulce De Leche La Serenísima Clásico Pote 400gr",
-    "precio": 153.5,
+    "precio": 139.99,
     "rubro": "Productos > Dulces y Mermeladas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/8733701-9e7d5c994df2c0340716010380180646-480-0.jpg",
     "url_producto": "productos/dulce-de-leche-la-serenisima-clasico-pote-400-gr/",
@@ -96836,6 +96912,10 @@
       {
         "fecha": "03/07/2021",
         "precio": 153.5
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 139.99
       }
     ]
   },
@@ -96966,7 +97046,7 @@
   {
     "id": "04718",
     "nombre": "Empanadas De Pollo x 12un",
-    "precio": 600.0,
+    "precio": 630.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pollo11-1a806d2c3da6685b8616034761937738-480-0.jpg",
     "url_producto": "productos/empanadas-de-pollo-x-12-unidades/",
@@ -96978,13 +97058,17 @@
       {
         "fecha": "14/05/2021",
         "precio": 600.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 630.0
       }
     ]
   },
   {
     "id": "04719",
     "nombre": "Empanadas De Pollo x 6un",
-    "precio": 310.0,
+    "precio": 320.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pollo21-1a806d2c3da6685b8616034762203281-480-0.jpg",
     "url_producto": "productos/empanadas-de-pollo-x-6-unidades/",
@@ -96996,6 +97080,10 @@
       {
         "fecha": "14/05/2021",
         "precio": 310.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 320.0
       }
     ]
   },
@@ -97476,7 +97564,7 @@
   {
     "id": "04739",
     "nombre": "Harina Morixe \"000\" 1kg",
-    "precio": 50.0,
+    "precio": 60.0,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/4414711-2e396e146b3aa5762c15990881544487-480-0.jpg",
     "url_producto": "productos/har-morixe-000-1-kg/",
@@ -97508,6 +97596,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 50.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 60.0
       }
     ]
   },
@@ -99539,7 +99631,7 @@
     "id": "04824",
     "nombre": "Alcohol En Gel Espadol 150ml",
     "precio": 235.0,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77983391902041-b93294cca975b13c1f16192061374355-480-0.jpg",
     "url_producto": "productos/alcohol-en-gel-espadol-150ml/",
     "historia": [
@@ -99752,7 +99844,7 @@
   {
     "id": "04835",
     "nombre": "Jugo Arcor S/t.a.c.c. Multifruta 200ml",
-    "precio": 29.0,
+    "precio": 31.99,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/613-510x5101-1f65702214bdfdeeff16194451406961-480-0.jpg",
     "url_producto": "productos/jugo-arcor-s-t-a-c-c-multifruta-200-ml/",
@@ -99764,6 +99856,10 @@
       {
         "fecha": "04/05/2021",
         "precio": 29.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 31.99
       }
     ]
   },
@@ -99863,7 +99959,7 @@
     "id": "04842",
     "nombre": "Cafe Dolce Gusto Cortado 100gr",
     "precio": 750.0,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7613032396350_011-7fe3edf8e6efe58aea16070854409637-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-cortado-100-gr/",
     "historia": [
@@ -100593,7 +100689,7 @@
     "id": "04879",
     "nombre": "Arroz Molino Ala Integral 1kg",
     "precio": 119.9,
-    "rubro": "Productos > Libres de Glúten",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/molinosala-9675-11-92dae58957156d4de316207400742704-480-0.png",
     "url_producto": "productos/arroz-molino-ala-integral-1-kg/",
     "historia": [
@@ -100834,7 +100930,7 @@
   {
     "id": "04892",
     "nombre": "Salsa Filetto La Campagnola 340gr",
-    "precio": 80.0,
+    "precio": 88.0,
     "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/salsa-filetto-la-campagnola-340-gr1-e16811a402c505493c16113214851519-480-0.jpg",
     "url_producto": "productos/salsa-filetto-la-campagnola-340-gr/",
@@ -100842,6 +100938,10 @@
       {
         "fecha": "13/05/2021",
         "precio": 80.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 88.0
       }
     ]
   },
@@ -101059,7 +101159,7 @@
     "id": "04906",
     "nombre": "Fideos La Tucumanita Tallarin Clásicos 500gr",
     "precio": 80.0,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico1-0c781d88162a97e7af16209183187781-480-0.jpg",
     "url_producto": "productos/fideos-la-tucumanita-tallarin-clasicos-500-gr/",
     "historia": [
@@ -101077,7 +101177,7 @@
     "id": "04907",
     "nombre": "Fideos La Tucumanita Tallarin Verdura 500gr",
     "precio": 80.0,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-11-6ab1096d4afe93399a16209183527029-480-0.jpg",
     "url_producto": "productos/fideos-la-tucumanita-tallarin-verdura-500-gr/",
     "historia": [
@@ -108122,7 +108222,7 @@
   {
     "id": "05394",
     "nombre": "Empanadas De Humita x 12un",
-    "precio": 600.0,
+    "precio": 630.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sin-titulo11-a4212e2757f031c92716210097056064-480-0.jpg",
     "url_producto": "productos/empanadas-de-humita-x-12-unidades/",
@@ -108130,13 +108230,17 @@
       {
         "fecha": "16/05/2021",
         "precio": 600.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 630.0
       }
     ]
   },
   {
     "id": "05395",
     "nombre": "Empanadas De Humita x 6un",
-    "precio": 310.0,
+    "precio": 320.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sin-titulo21-a4212e2757f031c92716210097579663-480-0.jpg",
     "url_producto": "productos/empanadas-de-humita-x-6-unidades/",
@@ -108144,13 +108248,17 @@
       {
         "fecha": "16/05/2021",
         "precio": 310.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 320.0
       }
     ]
   },
   {
     "id": "05396",
     "nombre": "Empanadas De Jamon y Queso x 12un",
-    "precio": 600.0,
+    "precio": 630.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sin-titulo1-cb86f19b1f128d04ea16210078843779-480-0.jpg",
     "url_producto": "productos/empanadas-de-jamon-y-queso-x-12-unidades/",
@@ -108158,6 +108266,10 @@
       {
         "fecha": "16/05/2021",
         "precio": 600.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 630.0
       }
     ]
   },
@@ -108223,7 +108335,7 @@
     "id": "05400",
     "nombre": "Pascualinas La Tucumanita Criolla 300gr",
     "precio": 70.0,
-    "rubro": "Productos > LA TUCUMANITA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-21-a038196102af88b0d516210067568338-480-0.jpg",
     "url_producto": "productos/pascualinas-la-tucumanita-criolla-300-gr/",
     "historia": [
@@ -108420,7 +108532,7 @@
   {
     "id": "05409",
     "nombre": "Café Dolca 170gr",
-    "precio": 568.0,
+    "precio": 330.0,
     "rubro": "Productos > Infusiones",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/193621-92f50b5c1ae536f25815988353603672-480-0.jpg",
     "url_producto": "productos/cafe-dolca-renov-trad-170-gr/",
@@ -108444,6 +108556,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 568.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 330.0
       }
     ]
   },
@@ -108547,7 +108663,7 @@
     "id": "05416",
     "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 400ml",
     "precio": 375.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7898587761949-1_1_1-ef2cb24811224c211716213573046943-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-400ml/",
     "historia": [
@@ -108632,7 +108748,7 @@
   {
     "id": "05419",
     "nombre": "Empanadas De Jamon y Queso x 6un",
-    "precio": 310.0,
+    "precio": 320.0,
     "rubro": "Productos > Empanadas Tucumanas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sin-titulo1-a4212e2757f031c92716213889120678-480-0.jpg",
     "url_producto": "productos/empanadas-de-jamon-y-queso-x-6-unidades/",
@@ -108640,6 +108756,10 @@
       {
         "fecha": "19/05/2021",
         "precio": 310.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 320.0
       }
     ]
   },
@@ -109929,7 +110049,7 @@
     "id": "05497",
     "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 200ml",
     "precio": 231.0,
-    "rubro": "Productos > Perfumería y Cuidado Personal",
+    "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/elvive-ac-color-vive-x-200ml1-b5d82d5d9f6a2a6f5416224760728512-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-200ml/",
     "historia": [
@@ -110216,7 +110336,7 @@
   {
     "id": "05513",
     "nombre": "Alcohol Etilico San Iginio 96% Bidon 5lt",
-    "precio": 850.0,
+    "precio": 1.0,
     "rubro": "Productos > Barbijos y Sanitizantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-111-41a60dca3e8cb766cc16210184568062-480-0.jpg",
     "url_producto": "productos/alcohol-etilico-san-iginio-96-bidon-5lt/",
@@ -110228,6 +110348,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 850.0
+      },
+      {
+        "fecha": "13/07/2021",
+        "precio": 1.0
       }
     ]
   },
@@ -111387,7 +111511,7 @@
     "id": "05576",
     "nombre": "Adhesivo Glade Lavanda 8,8gr",
     "precio": 50.0,
-    "rubro": "Productos > Limpieza de Baño",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga-71-ccb2f72984bc3035ce16244502226367-480-0.jpg",
     "url_producto": "productos/adhesivo-glade-lavanda-8-2gr/",
     "historia": [
@@ -112066,6 +112190,48 @@
       {
         "fecha": "09/07/2021",
         "precio": 311.0
+      }
+    ]
+  },
+  {
+    "id": "05621",
+    "nombre": "Aceite De Girasol M& kg 900ml",
+    "precio": 199.0,
+    "rubro": "Productos > Almacén",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/aceite-de-girasol-mk-900ml/",
+    "historia": [
+      {
+        "fecha": "13/07/2021",
+        "precio": 199.0
+      }
+    ]
+  },
+  {
+    "id": "05622",
+    "nombre": "Bollo x Unidad",
+    "precio": 140.0,
+    "rubro": "Productos > Panadería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/bollo-x-unidad/",
+    "historia": [
+      {
+        "fecha": "13/07/2021",
+        "precio": 140.0
+      }
+    ]
+  },
+  {
+    "id": "05623",
+    "nombre": "Prepizzas x 2un",
+    "precio": 150.0,
+    "rubro": "Productos > Panadería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/eu0311-34f081d5aac3614da416022450351748-480-0.jpg",
+    "url_producto": "productos/prepizzas-x2-un/",
+    "historia": [
+      {
+        "fecha": "13/07/2021",
+        "precio": 150.0
       }
     ]
   }
