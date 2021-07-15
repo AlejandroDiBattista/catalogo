@@ -64842,8 +64842,8 @@
   {
     "id": "03078",
     "nombre": "Aceite Cañuelas Oliva Intenso 500cc",
-    "precio": 422.8,
-    "rubro": "Productos > Almacén",
+    "precio": 480.87,
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220311-58116916046af9b3e315988111926122-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-in-pet-500-cc/",
     "historia": [
@@ -64882,14 +64882,18 @@
       {
         "fecha": "02/07/2021",
         "precio": 422.8
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 480.87
       }
     ]
   },
   {
     "id": "03079",
     "nombre": "Aceite Cañuelas Oliva Suave 500cc",
-    "precio": 422.8,
-    "rubro": "Productos > Almacén",
+    "precio": 480.87,
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220301-333f3a18318b80229215988119589449-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-su-pet-500-cc/",
     "historia": [
@@ -64924,6 +64928,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 422.8
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 480.87
       }
     ]
   },
@@ -65639,7 +65647,7 @@
     "id": "03108",
     "nombre": "Agua Glaciar Sin Gas 2lt",
     "precio": 99.0,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc24241-65917abfdcc656c1b616010430756981-480-0.jpg",
     "url_producto": "productos/agua-glaciar-sin-gas-2-lt/",
     "historia": [
@@ -65779,7 +65787,7 @@
     "id": "03116",
     "nombre": "Agua Mineral Sierra De Los Padres 2lt",
     "precio": 71.3,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sierra-de-los-padres-2-lt1-ab6f3d796f1482e66616001948616487-480-0.jpg",
     "url_producto": "productos/agua-mineral-sierra-de-los-padres-2-l/",
     "historia": [
@@ -65864,8 +65872,8 @@
   {
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
-    "precio": 75.0,
-    "rubro": "Productos > Cupon descuento",
+    "precio": 42.99,
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65880,6 +65888,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 75.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 42.99
       }
     ]
   },
@@ -65960,7 +65972,7 @@
   {
     "id": "03123",
     "nombre": "Agua Sin Gas Nestlé Pureza Vital Bidón 6,3lt",
-    "precio": 235.0,
+    "precio": 216.35,
     "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/24111-ec1f792bddd04f223415988775601891-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-bidon-63-lt/",
@@ -65992,6 +66004,10 @@
       {
         "fecha": "13/07/2021",
         "precio": 235.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 216.35
       }
     ]
   },
@@ -66074,7 +66090,7 @@
   {
     "id": "03126",
     "nombre": "Ajo x Unidad",
-    "precio": 60.0,
+    "precio": 55.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ajo-ecologico-1-kg-800x8001-bbd9cc43aba9dd3d7616146268803784-480-0.jpeg",
     "url_producto": "productos/ajo-x-unidad/",
@@ -66090,6 +66106,10 @@
       {
         "fecha": "13/07/2021",
         "precio": 60.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 55.0
       }
     ]
   },
@@ -66237,7 +66257,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 380.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Frutos Secos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -67692,7 +67712,7 @@
   {
     "id": "03175",
     "nombre": "Azúcar Ledesma 1kg",
-    "precio": 80.0,
+    "precio": 55.99,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2631-9bf28d750e13433f9a15988329984523-480-0.jpg",
     "url_producto": "productos/azucar-ledesma-1-kg/",
@@ -67724,6 +67744,10 @@
       {
         "fecha": "13/07/2021",
         "precio": 80.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 55.99
       }
     ]
   },
@@ -67789,7 +67813,7 @@
     "id": "03179",
     "nombre": "Bebible La Serenisima Multivitaminas S/azucar Frutilla 900ml",
     "precio": 140.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/9568571-18a64b837943e2d88116111751446607-480-0.jpg",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-s-azucar-frutilla-900-ml/",
     "historia": [
@@ -68408,7 +68432,7 @@
   {
     "id": "03205",
     "nombre": "Capelletis Giacomo Carne 500gr",
-    "precio": 271.18,
+    "precio": 324.87,
     "rubro": "Productos > Pastas Secas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/302511-54b729374ae3c3895915988369825147-480-0.jpg",
     "url_producto": "productos/capell-giacomo-carne-500-gr/",
@@ -68444,13 +68468,17 @@
       {
         "fecha": "02/07/2021",
         "precio": 271.18
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 324.87
       }
     ]
   },
   {
     "id": "03206",
     "nombre": "Capelletis Giacomo Jamón Queso 500gr",
-    "precio": 271.18,
+    "precio": 324.87,
     "rubro": "Productos > Pastas Secas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/302521-b65e0940316a80fa6115988370534551-480-0.jpg",
     "url_producto": "productos/capell-giacomo-jamon-queso-500-gr/",
@@ -68486,6 +68514,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 271.18
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 324.87
       }
     ]
   },
@@ -68566,7 +68598,7 @@
   {
     "id": "03210",
     "nombre": "Castañas De Cajú x 200gr",
-    "precio": 340.0,
+    "precio": 375.0,
     "rubro": "Productos > Frutos Secos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-d35dc2ad704c52f87c16019301802047-480-0.jpg",
     "url_producto": "productos/castanas-de-caju-x-200-gr/",
@@ -68582,6 +68614,10 @@
       {
         "fecha": "31/03/2021",
         "precio": 340.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 375.0
       }
     ]
   },
@@ -68972,7 +69008,7 @@
   {
     "id": "03231",
     "nombre": "Choclo x Unidad",
-    "precio": 80.0,
+    "precio": 75.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/choclo-americano-600x6001-a81dcb81c758f2975216146273101789-480-0.jpg",
     "url_producto": "productos/choclo-x-unidad/",
@@ -69000,6 +69036,10 @@
       {
         "fecha": "13/07/2021",
         "precio": 80.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 75.0
       }
     ]
   },
@@ -72182,7 +72222,7 @@
   {
     "id": "03370",
     "nombre": "Harina Favorita 000 1kg",
-    "precio": 63.64,
+    "precio": 64.87,
     "rubro": "Productos > Harinas, Grasas y Premezclas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/harina-de-trigo-000-favorita-1-kg-1-134441-3fa79e3de3aad2820316109730458896-480-0.jpg",
     "url_producto": "productos/har-favorita-000-1-kg/",
@@ -72230,6 +72270,10 @@
       {
         "fecha": "07/07/2021",
         "precio": 63.64
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 64.87
       }
     ]
   },
@@ -74858,7 +74902,7 @@
   {
     "id": "03496",
     "nombre": "Milanesa Granja De Sol Arroz Veg 330gr",
-    "precio": 264.67,
+    "precio": 284.7,
     "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/255261-8af8e5119542912b3e15990915652275-480-0.jpg",
     "url_producto": "productos/milanes-gja-sol-arroz-veg-330-gr/",
@@ -74894,6 +74938,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 264.67
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 284.7
       }
     ]
   },
@@ -74958,7 +75006,7 @@
   {
     "id": "03500",
     "nombre": "Mix Deportivo x 200gr",
-    "precio": 175.0,
+    "precio": 190.0,
     "rubro": "Productos > Frutos Secos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/almendras-11-f7d0dcd9d4653c798216020005812716-480-0.jpg",
     "url_producto": "productos/mix-deportivo-x-200-gr/",
@@ -74966,6 +75014,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 175.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 190.0
       }
     ]
   },
@@ -75066,7 +75118,7 @@
   {
     "id": "03506",
     "nombre": "Nueces x 200gr",
-    "precio": 340.0,
+    "precio": 350.0,
     "rubro": "Productos > Frutos Secos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/51-6a5ab638a3e356028a16019300960564-480-0.jpg",
     "url_producto": "productos/nueces-x-200-gr/",
@@ -75082,6 +75134,10 @@
       {
         "fecha": "26/05/2021",
         "precio": 340.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 350.0
       }
     ]
   },
@@ -75542,7 +75598,7 @@
   {
     "id": "03528",
     "nombre": "Pan Bimbo Blanco 550gr",
-    "precio": 251.37,
+    "precio": 271.7,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/261901-ee771cc4ab92c8542215990701805195-480-0.jpg",
     "url_producto": "productos/pan-bimbo-blanco-550-gr/",
@@ -75566,13 +75622,17 @@
       {
         "fecha": "02/07/2021",
         "precio": 251.37
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 271.7
       }
     ]
   },
   {
     "id": "03529",
     "nombre": "Pan Bimbo Hamburgesa Artesano 240gr",
-    "precio": 166.26,
+    "precio": 167.7,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/236521-a0f6348266530c63fe15990689958780-480-0.jpg",
     "url_producto": "productos/pan-bimbo-hamb-artes-240-gr/",
@@ -75612,6 +75672,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 166.26
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 167.7
       }
     ]
   },
@@ -75692,7 +75756,7 @@
   {
     "id": "03535",
     "nombre": "Pan Fargo Hamburguesa 210gr",
-    "precio": 131.67,
+    "precio": 141.7,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2555411-bae61a30f2442126bb15990899603397-480-0.jpg",
     "url_producto": "productos/pan-fargo-hamburguesa-210-gr/",
@@ -75720,13 +75784,17 @@
       {
         "fecha": "02/07/2021",
         "precio": 131.67
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 141.7
       }
     ]
   },
   {
     "id": "03536",
     "nombre": "Pan Fargo Pancho 210gr",
-    "precio": 131.67,
+    "precio": 141.7,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2555511-4946c79d44c8bb189015990899657398-480-0.jpg",
     "url_producto": "productos/pan-fargo-pancho-210-gr/",
@@ -75754,6 +75822,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 131.67
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 141.7
       }
     ]
   },
@@ -76460,7 +76532,7 @@
   {
     "id": "03567",
     "nombre": "Patitas Granja De Sol Queso Jamón 400gr",
-    "precio": 397.67,
+    "precio": 427.7,
     "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830711-dba545bed7ed42864715990035883853-480-0.jpg",
     "url_producto": "productos/patitas-gja-sol-que-jam-400-gr/",
@@ -76484,6 +76556,10 @@
       {
         "fecha": "16/06/2021",
         "precio": 397.67
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 427.7
       }
     ]
   },
@@ -78744,7 +78820,7 @@
   {
     "id": "03693",
     "nombre": "Vermouth Cinzano Rosso 950cc",
-    "precio": 345.66,
+    "precio": 363.87,
     "rubro": "Productos > Aperitivos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21501-beaded73e71601212015988891252959-480-0.jpg",
     "url_producto": "productos/vermout-cinzano-rosso950cc-1-lt/",
@@ -78772,6 +78848,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 345.66
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 363.87
       }
     ]
   },
@@ -80040,7 +80120,7 @@
   {
     "id": "03747",
     "nombre": "Vino Alma Mora Cavernet S. 750ml",
-    "precio": 337.86,
+    "precio": 350.86,
     "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-20t160454-0471-7a8fcdcc62ce718c4216111695085194-480-0.jpg",
     "url_producto": "productos/vino-alma-mora-cavernet-s-750-ml/",
@@ -80060,6 +80140,10 @@
       {
         "fecha": "07/07/2021",
         "precio": 337.86
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 350.86
       }
     ]
   },
@@ -91839,7 +91923,7 @@
     "id": "04440",
     "nombre": "Bebible La Serenisima Multivitaminas 0% Grasa S/azucar Vainilla 900ml",
     "precio": 151.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77907426620191-533a98bb0957360d4816176344694679-480-0.png",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-0-grasa-s-azucar-vainilla-900-ml/",
     "historia": [
@@ -91861,7 +91945,7 @@
     "id": "04441",
     "nombre": "Bebible La Serenisima Multivitaminas S/azucar Vainilla 900ml",
     "precio": 140.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/descarga-41-ed15637226d9f3d7ac16176683992919-480-0.jpg",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-s-azucar-vainilla-900-ml/",
     "historia": [
@@ -91915,7 +91999,7 @@
     "id": "04444",
     "nombre": "Bebible La Serenisima Multivitaminas 0% Grasa S/azucar Frutilla 900ml",
     "precio": 151.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77907426620261-a8a776dd8cb3d0701c16177108420596-480-0.png",
     "url_producto": "productos/bebible-la-serenisima-multivitaminas-0-grasa-s-azucar-frutilla-900-ml/",
     "historia": [
@@ -93323,7 +93407,7 @@
     "id": "04522",
     "nombre": "Aceite Cocinero Girasol Aerosol Fritolim 120gr",
     "precio": 176.75,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-fritolim-clasico-aero-x-120-gr1-f5e8fe909d0153ff1a16173998650258-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-aerosol-fritolim-120-gr/",
     "historia": [
@@ -93353,7 +93437,7 @@
     "id": "04523",
     "nombre": "Aceite Cocinero Girasol Plus 900ml ,",
     "precio": 250.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-cocinero-plus-girasol-900-cc-aceite-cocinero-plus-girasol-900-cc-1-103591-7528dceaf14701133616122925497462-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-plus-900-ml/",
     "historia": [
@@ -93447,7 +93531,7 @@
     "id": "04528",
     "nombre": "Aceite Marolio Oliva Extra Vigen 250ml",
     "precio": 285.88,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-marolio-oliva-extra-vigen-250-ml1-3038186d714e3b961d16166770821623-480-0.jpg",
     "url_producto": "productos/aceite-marolio-oliva-extra-vigen-250-ml/",
     "historia": [
@@ -93481,7 +93565,7 @@
     "id": "04529",
     "nombre": "Aceite Molto Aerosol Girasol 120gr",
     "precio": 181.9,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-girasol-120-gr1-0f4f22f12ab2f8c4f616107361697969-480-0.png",
     "url_producto": "productos/aceite-molto-aerosol-girasol-120-gr/",
     "historia": [
@@ -94002,7 +94086,7 @@
   {
     "id": "04552",
     "nombre": "Ajo En Polvo Ancestral 50gr",
-    "precio": 130.0,
+    "precio": 120.0,
     "rubro": "Productos > Sal y Condimentos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ajo1-000fbc3d1fd13e4b2816079841397444-480-0.jpg",
     "url_producto": "productos/ajo-en-polvo-ancestral-50-gr/",
@@ -94018,6 +94102,10 @@
       {
         "fecha": "13/07/2021",
         "precio": 130.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 120.0
       }
     ]
   },
@@ -95856,7 +95944,7 @@
   {
     "id": "04639",
     "nombre": "Cacao Chocolino Fort Plus 360gr",
-    "precio": 172.78,
+    "precio": 189.66,
     "rubro": "Productos > Infusiones",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/41811-17743abb12ebfa88e915989663788457-480-0.jpg",
     "url_producto": "productos/cacao-chocolino-fort-plus-360-gr/",
@@ -95876,6 +95964,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 172.78
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 189.66
       }
     ]
   },
@@ -96129,7 +96221,7 @@
     "id": "04649",
     "nombre": "Café Dolce Gusto Espresso 96gr",
     "precio": 700.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/221361-274e852debe3c4546816001831478827-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-espresso-96-gr/",
     "historia": [
@@ -96151,7 +96243,7 @@
     "id": "04650",
     "nombre": "Café Dolce Gusto Latte Macciato 100,100gr",
     "precio": 780.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cafe-dolce-gusto-latte-macciato-100-8-gr1-1f420eb29f24b5b3a116182503540316-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-latte-macciato-110-gr/",
     "historia": [
@@ -96169,7 +96261,7 @@
     "id": "04651",
     "nombre": "Café Dolce Gusto Lungo 112gr",
     "precio": 770.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/254761-a5dd7dd686eb428efe16001832179518-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-lungo-112-gr/",
     "historia": [
@@ -99460,7 +99552,7 @@
   {
     "id": "04789",
     "nombre": "Pañal Babysec Ul.reg.gde. 9un",
-    "precio": 155.87,
+    "precio": 162.36,
     "rubro": "Productos > Pañales y Bebés",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/66391-8be4a09c93621f938515988915154764-480-0.jpg",
     "url_producto": "productos/panal-babysec-ul-reg-gde-9-un/",
@@ -99492,6 +99584,10 @@
       {
         "fecha": "07/07/2021",
         "precio": 155.87
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 162.36
       }
     ]
   },
@@ -99590,7 +99686,7 @@
   {
     "id": "04794",
     "nombre": "Pan Bimbo Hamburgesa 210gr",
-    "precio": 131.67,
+    "precio": 154.7,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/164661-e6347d42ba83667b3d15990677012603-480-0.jpg",
     "url_producto": "productos/pan-bimbo-hamb-210-gr/",
@@ -99614,13 +99710,17 @@
       {
         "fecha": "02/07/2021",
         "precio": 131.67
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 154.7
       }
     ]
   },
   {
     "id": "04795",
     "nombre": "Pan Bimbo Pancho Lacteado 210gr",
-    "precio": 131.67,
+    "precio": 154.7,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/186431-416846d282010cfb4115990680908413-480-0.jpg",
     "url_producto": "productos/pan-bimbo-panch-ac-le-210-gr/",
@@ -99644,6 +99744,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 131.67
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 154.7
       }
     ]
   },
@@ -100587,7 +100691,7 @@
     "id": "04842",
     "nombre": "Cafe Dolce Gusto Cortado 100gr",
     "precio": 750.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7613032396350_011-7fe3edf8e6efe58aea16070854409637-480-0.jpg",
     "url_producto": "productos/cafe-dolce-gusto-cortado-100-gr/",
     "historia": [
@@ -101246,7 +101350,7 @@
   {
     "id": "04876",
     "nombre": "Pan Integral Cormillot Veneziana Salvado 630gr",
-    "precio": 219.62,
+    "precio": 232.69,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/panificados-veneziana-cormillot-integral-x-6301-af483957b32b791f2016144294182198-480-0.png",
     "url_producto": "productos/pan-integral-cormillot-veneziana-salvado-630-gr/",
@@ -101262,6 +101366,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 219.62
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 232.69
       }
     ]
   },
@@ -101287,7 +101395,7 @@
     "id": "04878",
     "nombre": "Aceite De Maiz Arcor 900ml",
     "precio": 330.17,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-de-maiz-arcor-900-ml-_11-38e425b50a69a1275e16207401714293-480-0.jpg",
     "url_producto": "productos/aceite-de-maiz-arcor-900-ml/",
     "historia": [
@@ -101317,7 +101425,7 @@
     "id": "04879",
     "nombre": "Arroz Molino Ala Integral 1kg",
     "precio": 119.9,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Libres de Glúten",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/molinosala-9675-11-92dae58957156d4de316207400742704-480-0.png",
     "url_producto": "productos/arroz-molino-ala-integral-1-kg/",
     "historia": [
@@ -110064,7 +110172,7 @@
   {
     "id": "05403",
     "nombre": "Tupper Colombraro Rectangular 3lt",
-    "precio": 598.5,
+    "precio": 649.99,
     "rubro": "Productos > Bazar",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-61-0ebaaf83624521ed2d16210111229183-480-0.jpg",
     "url_producto": "productos/tupper-colombraro-rectangular-3lt/",
@@ -110084,13 +110192,17 @@
       {
         "fecha": "02/07/2021",
         "precio": 598.5
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 649.99
       }
     ]
   },
   {
     "id": "05404",
     "nombre": "Tupper Colombraro Redondo",
-    "precio": 200.0,
+    "precio": 227.38,
     "rubro": "Productos > Bazar",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-51-dcddce748f7e49035416210109741388-480-0.jpg",
     "url_producto": "productos/tupper-colombraro-redondo/",
@@ -110106,6 +110218,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 200.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 227.38
       }
     ]
   },
@@ -111544,8 +111660,8 @@
   {
     "id": "05485",
     "nombre": "Aceite De Oliva Marolio 500ml",
-    "precio": 410.0,
-    "rubro": "Productos > Almacén",
+    "precio": 519.88,
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/138051-b960f38113241a526316221274642490-480-0.jpg",
     "url_producto": "productos/aceite-de-oliva-marolio-500ml/",
     "historia": [
@@ -111560,6 +111676,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 410.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 519.88
       }
     ]
   },
@@ -111912,7 +112032,7 @@
   {
     "id": "05503",
     "nombre": "Aceite Molto De Oliva Extra Virgen 250ml",
-    "precio": 250.0,
+    "precio": 322.28,
     "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-oliva-molto-250ml1-04aca7088cd9f1a50916225749740737-480-0.png",
     "url_producto": "productos/aceite-molto-de-oliva-extra-virgen-250ml/",
@@ -111928,13 +112048,17 @@
       {
         "fecha": "02/07/2021",
         "precio": 250.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 322.28
       }
     ]
   },
   {
     "id": "05504",
     "nombre": "Aceite Molto De Oliva Extra Virgen 500ml",
-    "precio": 459.0,
+    "precio": 584.87,
     "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5111-f7b1a5be5e71a7fdc316225749462895-480-0.jpg",
     "url_producto": "productos/aceite-molto-de-oliva-extra-virgen-500ml/",
@@ -111950,6 +112074,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 459.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 584.87
       }
     ]
   },
@@ -113342,7 +113470,7 @@
   {
     "id": "05580",
     "nombre": "Pan Bimbo Artesano 400gr",
-    "precio": 320.0,
+    "precio": 323.71,
     "rubro": "Productos > Panificados y Rebozadores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/230131-407fb5200650265a4215992494324843-480-0.jpg",
     "url_producto": "productos/pan-bimbo-artesano-400-gr/",
@@ -113350,6 +113478,10 @@
       {
         "fecha": "24/06/2021",
         "precio": 320.0
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 323.71
       }
     ]
   },
@@ -113626,7 +113758,7 @@
   {
     "id": "05598",
     "nombre": "Capelettinis Giacomo Tridicci 500gr",
-    "precio": 265.07,
+    "precio": 324.87,
     "rubro": "Productos > Pastas Secas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/302551-b2bf0ada17999a366d15988369207647-480-0.jpg",
     "url_producto": "productos/capelettinis-giacomo-tridicci-500-gr/",
@@ -113638,6 +113770,10 @@
       {
         "fecha": "07/07/2021",
         "precio": 265.07
+      },
+      {
+        "fecha": "15/07/2021",
+        "precio": 324.87
       }
     ]
   },
@@ -115514,6 +115650,160 @@
       {
         "fecha": "14/07/2021",
         "precio": 390.0
+      }
+    ]
+  },
+  {
+    "id": "05733",
+    "nombre": "Aceite De Girasol M& kg 900ml",
+    "precio": 199.0,
+    "rubro": "Productos > Aceites y Vinagres",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-myk-de-girasol-x-900-ml-e16110659615471-bf77dcb0ceb0e9f84016261852643793-480-0.jpg",
+    "url_producto": "productos/aceite-de-girasol-mk-900ml/",
+    "historia": [
+      {
+        "fecha": "15/07/2021",
+        "precio": 199.0
+      }
+    ]
+  },
+  {
+    "id": "05734",
+    "nombre": "Bizcochuelo Arcor Sin Tacc Chocolate 500gr",
+    "precio": 250.0,
+    "rubro": "Productos > Libres de Glúten",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bizcochuelo-arcor-sin-t-a-c-c-sabor-chocolate-500-gr1-f474d428f0389c930916099544462211-480-0.jpg",
+    "url_producto": "productos/bizcochuelo-arcor-sin-tacc-chocolate-500gr/",
+    "historia": [
+      {
+        "fecha": "15/07/2021",
+        "precio": 250.0
+      }
+    ]
+  },
+  {
+    "id": "05735",
+    "nombre": "Bizcochuelo Arcor Sin Tacc Vainilla 500gr",
+    "precio": 250.0,
+    "rubro": "Productos > Libres de Glúten",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bizcochuelo-arcor-sin-t-a-c-c-sabor-vainilla-500-gr1-7741d4db7089e7d64516099547535677-480-0.jpg",
+    "url_producto": "productos/bizcochuelo-arcor-sin-tacc-vainilla-500gr/",
+    "historia": [
+      {
+        "fecha": "15/07/2021",
+        "precio": 250.0
+      }
+    ]
+  },
+  {
+    "id": "05736",
+    "nombre": "Bollo x Unidad",
+    "precio": 140.0,
+    "rubro": "Productos > Panadería",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/eu0091-c2188cb5561941ee0816022447870993-480-01-c4502bcf901e648a1116261853779242-480-0.jpg",
+    "url_producto": "productos/bollo-x-unidad/",
+    "historia": [
+      {
+        "fecha": "15/07/2021",
+        "precio": 140.0
+      }
+    ]
+  },
+  {
+    "id": "05737",
+    "nombre": "Bolsa Asurin Residuos 45x60 10un",
+    "precio": 78.9,
+    "rubro": "Productos > Limpieza de Cocina",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/247161-0bc5c7e3cb7f8effd315988339127500-480-0.jpg",
+    "url_producto": "productos/bolsa-asurin-residuos-45x60-10-un/",
+    "historia": [
+      {
+        "fecha": "15/07/2021",
+        "precio": 78.9
+      }
+    ]
+  },
+  {
+    "id": "05738",
+    "nombre": "Bolsa Task Rollo 60x95 Cm 10un",
+    "precio": 245.7,
+    "rubro": "Productos > Limpieza de Cocina",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2140211-f84eb972e83710e48b15990050534525-480-0.jpg",
+    "url_producto": "productos/bolsa-task-rollo-60x95-cm-10u/",
+    "historia": [
+      {
+        "fecha": "15/07/2021",
+        "precio": 245.7
+      }
+    ]
+  },
+  {
+    "id": "05739",
+    "nombre": "Bolsa Task Rollo Mix 50x70cm x 20un",
+    "precio": 206.69,
+    "rubro": "Productos > Limpieza de Cocina",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2080211-f0cdcabf9aca30e29b15990050765125-480-0.jpg",
+    "url_producto": "productos/bolsa-task-rollo-mix-50x70cm-x-20u/",
+    "historia": [
+      {
+        "fecha": "15/07/2021",
+        "precio": 206.69
+      }
+    ]
+  },
+  {
+    "id": "05740",
+    "nombre": "Detergente Woolite Bebe D/p 450cc",
+    "precio": 220.0,
+    "rubro": "Productos > Lavado de Ropa",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184161-f3b27c49322d43279b15990680633668-480-0.jpg",
+    "url_producto": "productos/detergente-woolite-bebe-d-p-450-cc/",
+    "historia": [
+      {
+        "fecha": "15/07/2021",
+        "precio": 220.0
+      }
+    ]
+  },
+  {
+    "id": "05741",
+    "nombre": "Harina Molto 0000 1kg",
+    "precio": 80.0,
+    "rubro": "Productos > Harinas, Grasas y Premezclas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/harina-molto-0000-1kg/",
+    "historia": [
+      {
+        "fecha": "15/07/2021",
+        "precio": 80.0
+      }
+    ]
+  },
+  {
+    "id": "05742",
+    "nombre": "Pan Bimbo Integral 350gr",
+    "precio": 190.0,
+    "rubro": "Productos > Panificados y Rebozadores",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/pan-integral-bimbo-x-350-grs-1-4027411-167a0643293cf0bc5f16262928025591-480-0.jpg",
+    "url_producto": "productos/pan-bimbo-integral-350gr/",
+    "historia": [
+      {
+        "fecha": "15/07/2021",
+        "precio": 190.0
+      }
+    ]
+  },
+  {
+    "id": "05743",
+    "nombre": "Salsa Arcor Pizza 340gr (sin Tacc)",
+    "precio": 72.0,
+    "rubro": "Productos > Salsas y Puré de Tomates",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/salsa-de-tomate-pizza-arcor-340-gr-1-143521-2cfe3d1eccb37a30f916014766985606-480-0.jpg",
+    "url_producto": "productos/salsa-arcor-pizza-340-gr-sin-tacc/",
+    "historia": [
+      {
+        "fecha": "15/07/2021",
+        "precio": 72.0
       }
     ]
   }
