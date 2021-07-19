@@ -64843,7 +64843,7 @@
     "id": "03078",
     "nombre": "Aceite Cañuelas Oliva Intenso 500cc",
     "precio": 480.87,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220311-58116916046af9b3e315988111926122-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-in-pet-500-cc/",
     "historia": [
@@ -64893,7 +64893,7 @@
     "id": "03079",
     "nombre": "Aceite Cañuelas Oliva Suave 500cc",
     "precio": 480.87,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220301-333f3a18318b80229215988119589449-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-su-pet-500-cc/",
     "historia": [
@@ -64983,7 +64983,7 @@
     "id": "03082",
     "nombre": "Aceite Johnsons Normal 200cc",
     "precio": 340.48,
-    "rubro": "Productos > Pañales y Bebés",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/431671-fa546b27adfb75192315988123852783-480-0.jpg",
     "url_producto": "productos/ac-j-y-j-normal-200-cc/",
     "historia": [
@@ -65441,7 +65441,7 @@
     "id": "03101",
     "nombre": "Acondicionador Dove Hidratación Intensa 400ml",
     "precio": 415.87,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134081-617c0210c3c9ec52d915989073595026-480-0.jpg",
     "url_producto": "productos/acond-dove-hidrat-int-400-ml/",
     "historia": [
@@ -65483,7 +65483,7 @@
     "id": "03102",
     "nombre": "Acondicionador Dove Reconstrución Completa 400ml",
     "precio": 415.87,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/134091-e88b3763692fc3fd0415989073970501-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-400-ml/",
     "historia": [
@@ -65801,7 +65801,7 @@
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
     "precio": 155.9,
-    "rubro": "Productos > Cupon descuento",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -65873,7 +65873,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Cupon descuento",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65939,7 +65939,7 @@
     "id": "03122",
     "nombre": "Agua Sin Gas Nestlé Pureza Vital 2,25 Lts",
     "precio": 73.5,
-    "rubro": "Productos > Cupon descuento",
+    "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-sin-gas-nestle-pureza-vital-225-lts1-eeec029681545bd86216015826868064-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-225-lts/",
     "historia": [
@@ -66094,7 +66094,7 @@
   {
     "id": "03126",
     "nombre": "Ajo x Unidad",
-    "precio": 55.0,
+    "precio": 70.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/ajo-ecologico-1-kg-800x8001-bbd9cc43aba9dd3d7616146268803784-480-0.jpeg",
     "url_producto": "productos/ajo-x-unidad/",
@@ -66114,6 +66114,10 @@
       {
         "fecha": "15/07/2021",
         "precio": 55.0
+      },
+      {
+        "fecha": "19/07/2021",
+        "precio": 70.0
       }
     ]
   },
@@ -66261,7 +66265,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 380.0,
-    "rubro": "Productos > Frutos Secos",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -67781,7 +67785,7 @@
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
     "precio": 530.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
     "historia": [
@@ -67969,7 +67973,7 @@
     "id": "03185",
     "nombre": "Bife Angosto x kg",
     "precio": 958.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
     "historia": [
@@ -68111,7 +68115,7 @@
     "id": "03190",
     "nombre": "Bola De Lomo Feteada Para Milanesa x kg",
     "precio": 800.0,
-    "rubro": "Productos > Carnicería",
+    "rubro": "Productos > Carnes de Novillo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-lomo-fet1-44e054598c02eecd9816027207901849-480-0.jpg",
     "url_producto": "productos/bola-de-lomo-feteada-para-milanesa-x-kg/",
     "historia": [
@@ -68733,7 +68737,7 @@
     "id": "03215",
     "nombre": "Cerveza Corona 330cc",
     "precio": 145.0,
-    "rubro": "Productos > Cupon descuento",
+    "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cerveza-corona-330-cc1-d0ddb214c6a36dcf7c16003524185419-640-01-0020e8650e2dc35bb616005434767590-480-0.png",
     "url_producto": "productos/cerveza-corona-330-cc/",
     "historia": [
@@ -89821,7 +89825,7 @@
     "id": "04323",
     "nombre": "Suprema Granja De Sol Pollo 360gr",
     "precio": 425.99,
-    "rubro": "Productos > Cupon descuento",
+    "rubro": "Productos > Congelados de Pollo",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830811-607b67364edc558d3415990038309902-480-0.jpg",
     "url_producto": "productos/suprema-granja-de-sol-pollo-360-gr/",
     "historia": [
@@ -93447,7 +93451,7 @@
     "id": "04522",
     "nombre": "Aceite Cocinero Girasol Aerosol Fritolim 120gr",
     "precio": 176.75,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-fritolim-clasico-aero-x-120-gr1-f5e8fe909d0153ff1a16173998650258-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-aerosol-fritolim-120-gr/",
     "historia": [
@@ -93477,7 +93481,7 @@
     "id": "04523",
     "nombre": "Aceite Cocinero Girasol Plus 900ml ,",
     "precio": 250.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-cocinero-plus-girasol-900-cc-aceite-cocinero-plus-girasol-900-cc-1-103591-7528dceaf14701133616122925497462-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-plus-900-ml/",
     "historia": [
@@ -93531,7 +93535,7 @@
     "id": "04526",
     "nombre": "Aceite Johnsons Aloe 100cc",
     "precio": 198.91,
-    "rubro": "Productos > Pañales y Bebés",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/431661-54cb8053c8e26f8f1215988121013699-480-0.jpg",
     "url_producto": "productos/ac-j-y-j-aloe-100-cc/",
     "historia": [
@@ -93545,7 +93549,7 @@
     "id": "04527",
     "nombre": "Aceite Johnsons Normal 100cc",
     "precio": 203.5,
-    "rubro": "Productos > Pañales y Bebés",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/4316511-2b63c817738d30fad415989741905143-480-0.jpg",
     "url_producto": "productos/ac-j-y-j-normal-100-cc/",
     "historia": [
@@ -93571,7 +93575,7 @@
     "id": "04528",
     "nombre": "Aceite Marolio Oliva Extra Vigen 250ml",
     "precio": 285.88,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-marolio-oliva-extra-vigen-250-ml1-3038186d714e3b961d16166770821623-480-0.jpg",
     "url_producto": "productos/aceite-marolio-oliva-extra-vigen-250-ml/",
     "historia": [
@@ -93605,7 +93609,7 @@
     "id": "04529",
     "nombre": "Aceite Molto Aerosol Girasol 120gr",
     "precio": 181.9,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-girasol-120-gr1-0f4f22f12ab2f8c4f616107361697969-480-0.png",
     "url_producto": "productos/aceite-molto-aerosol-girasol-120-gr/",
     "historia": [
@@ -93709,7 +93713,7 @@
     "id": "04533",
     "nombre": "Acondiciónador Dove Oleo Nutrición 750ml",
     "precio": 778.57,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237691-584193fa5c876aef5015990691178020-480-0.jpg",
     "url_producto": "productos/acond-dove-oleo-nutric-750-ml/",
     "historia": [
@@ -93743,7 +93747,7 @@
     "id": "04534",
     "nombre": "Acondiciónador Dove Reconstrución Completa 750ml",
     "precio": 778.57,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237681-a13f3137e67435676715990691033096-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-750-ml/",
     "historia": [
@@ -93777,7 +93781,7 @@
     "id": "04535",
     "nombre": "Acondicionador Elvive Kera Liso 400ml",
     "precio": 375.0,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/210721-ac9ddab487a4ae562516043400249425-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-kera-liso-400-ml/",
     "historia": [
@@ -93855,7 +93859,7 @@
     "id": "04538",
     "nombre": "Acondicionador Head & Shoulders Refrescante 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52361-d612b82bf46eb1cbe715988138704164-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-relief-180-ml/",
     "historia": [
@@ -93873,7 +93877,7 @@
     "id": "04539",
     "nombre": "Acondicionador Head & Shoulders Rejuvecedora 375ml",
     "precio": 356.77,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52531-f5f5c627f982c2ba8715988139254367-480-0.jpg",
     "url_producto": "productos/acond-h-y-s-rejuvec-375-ml/",
     "historia": [
@@ -95334,7 +95338,7 @@
   {
     "id": "04610",
     "nombre": "Banana x kg",
-    "precio": 230.0,
+    "precio": 259.0,
     "rubro": "Productos > Frutas y Verduras",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/banana1-39d62a544fc16a2b8016025979095295-480-0.jpg",
     "url_producto": "productos/banana-x-kg/",
@@ -95346,6 +95350,10 @@
       {
         "fecha": "04/05/2021",
         "precio": 230.0
+      },
+      {
+        "fecha": "19/07/2021",
+        "precio": 259.0
       }
     ]
   },
@@ -101005,7 +101013,7 @@
     "id": "04853",
     "nombre": "Sorrentinos Pastasya Calabaza y Muzzarella x Doc",
     "precio": 300.0,
-    "rubro": "Productos > PASTAS YA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01721-46c426273cb7abbfd116201376957363-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-calabaza-y-muzzarella-x-doc/",
     "historia": [
@@ -101019,7 +101027,7 @@
     "id": "04854",
     "nombre": "Sorrentinos Pastasya Espinaca y Ricota x Doc",
     "precio": 300.0,
-    "rubro": "Productos > PASTAS YA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01711-46c426273cb7abbfd116201376748052-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-espinaca-y-ricota-x-doc/",
     "historia": [
@@ -101471,7 +101479,7 @@
     "id": "04878",
     "nombre": "Aceite De Maiz Arcor 900ml",
     "precio": 330.17,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-de-maiz-arcor-900-ml-_11-38e425b50a69a1275e16207401714293-480-0.jpg",
     "url_producto": "productos/aceite-de-maiz-arcor-900-ml/",
     "historia": [
@@ -110535,7 +110543,7 @@
     "id": "05416",
     "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 400ml",
     "precio": 375.0,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7898587761949-1_1_1-ef2cb24811224c211716213573046943-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-400ml/",
     "historia": [
@@ -111749,7 +111757,7 @@
     "id": "05485",
     "nombre": "Aceite De Oliva Marolio 500ml",
     "precio": 519.88,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/138051-b960f38113241a526316221274642490-480-0.jpg",
     "url_producto": "productos/aceite-de-oliva-marolio-500ml/",
     "historia": [
@@ -112017,7 +112025,7 @@
     "id": "05497",
     "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 200ml",
     "precio": 231.0,
-    "rubro": "Productos > Cuidado del Cabello",
+    "rubro": "Productos > Perfumería y Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/elvive-ac-color-vive-x-200ml1-b5d82d5d9f6a2a6f5416224760728512-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-200ml/",
     "historia": [
@@ -115765,7 +115773,7 @@
     "id": "05733",
     "nombre": "Aceite De Girasol M& kg 900ml",
     "precio": 199.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-myk-de-girasol-x-900-ml-e16110659615471-bf77dcb0ceb0e9f84016261852643793-480-0.jpg",
     "url_producto": "productos/aceite-de-girasol-mk-900ml/",
     "historia": [
@@ -116014,6 +116022,370 @@
       {
         "fecha": "17/07/2021",
         "precio": 722.0
+      }
+    ]
+  },
+  {
+    "id": "05751",
+    "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
+    "precio": 155.9,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
+    "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/?variant=186997420",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 155.9
+      }
+    ]
+  },
+  {
+    "id": "05752",
+    "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
+    "precio": 75.0,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
+    "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/?variant=192012522",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 75.0
+      }
+    ]
+  },
+  {
+    "id": "05753",
+    "nombre": "Agua Sin Gas Nestlé Pureza Vital 2,25 Lts",
+    "precio": 73.5,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-sin-gas-nestle-pureza-vital-225-lts1-eeec029681545bd86216015826868064-480-0.jpg",
+    "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-225-lts/?variant=210167323",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 73.5
+      }
+    ]
+  },
+  {
+    "id": "05754",
+    "nombre": "Alcohol Mas Plus En Aerosol 195ml",
+    "precio": 160.0,
+    "rubro": "Productos > Barbijos y Sanitizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mas-plus-alcohol-en-aerosol-150ml1-2fe19ff9acf0e6441816177223350844-640-01-3e3a0c01363c828ea816265030855875-480-0.jpg",
+    "url_producto": "productos/alcohol-mas-plus-en-aerosol-195ml/",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 160.0
+      }
+    ]
+  },
+  {
+    "id": "05755",
+    "nombre": "Bolsas Tuchanguito.com.ar",
+    "precio": 99.0,
+    "rubro": "Productos > Bazar",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-07-06t120333-8971-cf622d4955576ecf1216255838485868-480-0.jpg",
+    "url_producto": "productos/bolsas-tuchanguito-com-ar/?variant=352852048",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 99.0
+      }
+    ]
+  },
+  {
+    "id": "05756",
+    "nombre": "Bowl Corona",
+    "precio": 540.0,
+    "rubro": "Productos > Bazar",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-101-74e546c99e05fcd63e16210182597040-480-0.jpg",
+    "url_producto": "productos/bowl-corona/?variant=356835181",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 540.0
+      }
+    ]
+  },
+  {
+    "id": "05757",
+    "nombre": "Cerveza Corona 330cc",
+    "precio": 145.0,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cerveza-corona-330-cc1-d0ddb214c6a36dcf7c16003524185419-640-01-0020e8650e2dc35bb616005434767590-480-0.png",
+    "url_producto": "productos/cerveza-corona-330-cc/?variant=200617182",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 145.0
+      }
+    ]
+  },
+  {
+    "id": "05758",
+    "nombre": "Cucharita Carol De Te 6un",
+    "precio": 311.22,
+    "rubro": "Productos > Bazar",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-81-4a80eeb2bfca6739fc16210132111401-480-0.jpg",
+    "url_producto": "productos/cucharita-carol-de-te-6-un/?variant=334979239",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 311.22
+      }
+    ]
+  },
+  {
+    "id": "05759",
+    "nombre": "Cuchillo Carol Skin 12un",
+    "precio": 974.99,
+    "rubro": "Productos > Bazar",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-41-29ef2218f62dcbbe2216210108371937-480-0.jpg",
+    "url_producto": "productos/cuchillo-carol-skin-12un/?variant=334975597",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 974.99
+      }
+    ]
+  },
+  {
+    "id": "05760",
+    "nombre": "Esponja De Fibra Mortimer Cuadriculada Antibacterial x Un",
+    "precio": 55.0,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/158751-9ecd6f0b2aa3494a7816016542557534-480-0.jpg",
+    "url_producto": "productos/esponja-de-fibra-mortimer-cuadriculada-antibacterial-x-un/?variant=212141993",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 55.0
+      }
+    ]
+  },
+  {
+    "id": "05761",
+    "nombre": "Galletitas Terrabusi Variedad 400gr",
+    "precio": 133.55,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/209851-0f2bd8eb8fc27fb6db15988923475671-480-0.jpg",
+    "url_producto": "productos/gal-terrabusi-variedad-400-gr/?variant=186553684",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 133.55
+      }
+    ]
+  },
+  {
+    "id": "05762",
+    "nombre": "Jabon De Tocador Veritas Bebe 120gr",
+    "precio": 79.0,
+    "rubro": "Productos > Pañales y Bebés",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/images-51-7981320bbdbb6c333716265031267273-480-0.jpg",
+    "url_producto": "productos/jabon-de-tocador-veritas-bebe-120-gr/",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 79.0
+      }
+    ]
+  },
+  {
+    "id": "05763",
+    "nombre": "Jugo Clight Naranja Dulce 7,7gr",
+    "precio": 26.47,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/63471-ffc748653528d42b0e15988876792967-480-0.jpg",
+    "url_producto": "productos/jugo-clight-naranja-dulce-7-5-gr/?variant=186553916",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 26.47
+      }
+    ]
+  },
+  {
+    "id": "05764",
+    "nombre": "Jugo En Base A Soja Ades Manzana 1lt",
+    "precio": 122.0,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0201-e22cb6177ebda07e7215988830743145-480-0.jpg",
+    "url_producto": "productos/ades-manzana-1l/?variant=186997418",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 122.0
+      }
+    ]
+  },
+  {
+    "id": "05765",
+    "nombre": "Kit Vino Sacacorcho Automatico + Vertedor Bomba Vacio Usb",
+    "precio": 3.5,
+    "rubro": "Productos > Bazar",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-06-16t105337-0791-79d5a18416e8e3e37516238516331781-480-0.jpg",
+    "url_producto": "productos/kit-vino-sacacorcho-automatico-vertedor-bomba-vacio-usb/?variant=345911623",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 3.5
+      }
+    ]
+  },
+  {
+    "id": "05766",
+    "nombre": "Mate Hudson Vidrio",
+    "precio": 583.87,
+    "rubro": "Productos > Bazar",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-91-77922bde65f8f829f016210181462825-480-0.jpg",
+    "url_producto": "productos/mate-hudson-vidrio/?variant=334984289",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 583.87
+      }
+    ]
+  },
+  {
+    "id": "05767",
+    "nombre": "Repasador Mr Trapo x Unidad",
+    "precio": 130.0,
+    "rubro": "Productos > Bazar",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-61-b593d25d9f4fa7262b16234228892592-480-0.png",
+    "url_producto": "productos/repasador-mr-trapo-x-unidad/?variant=344769232",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 130.0
+      }
+    ]
+  },
+  {
+    "id": "05768",
+    "nombre": "Repelente Off Family Aerosol 165ml",
+    "precio": 208.68,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/12221-08f26ae4dd64851a5c15988935819506-480-0.jpg",
+    "url_producto": "productos/repelente-off-family-aerosol-165-ml/?variant=186554285",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 208.68
+      }
+    ]
+  },
+  {
+    "id": "05769",
+    "nombre": "Rollo De Cocina Sussex Clásico 3x50un",
+    "precio": 121.0,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/93341-b0cf40eb2cb4d238db15988934510811-480-0.jpg",
+    "url_producto": "productos/rol-coc-sussex-clasico-3x50-un/?variant=186554281",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 121.0
+      }
+    ]
+  },
+  {
+    "id": "05770",
+    "nombre": "Shampoo Head & Shoulders Relief 180ml",
+    "precio": 280.0,
+    "rubro": "Productos > Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52211-5347011de3e102e64e15988868668756-480-0.jpg",
+    "url_producto": "productos/shamp-h-y-s-relief-180-ml/",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 280.0
+      }
+    ]
+  },
+  {
+    "id": "05771",
+    "nombre": "Suprema Granja De Sol Pollo 360gr",
+    "precio": 425.99,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/1830811-607b67364edc558d3415990038309902-480-0.jpg",
+    "url_producto": "productos/suprema-granja-de-sol-pollo-360-gr/?variant=186554719",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 425.99
+      }
+    ]
+  },
+  {
+    "id": "05772",
+    "nombre": "Tenedor Carol Skin 12un",
+    "precio": 857.84,
+    "rubro": "Productos > Bazar",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-71-7a0e59038c43f1d2a716210119165718-480-0.jpg",
+    "url_producto": "productos/tenedor-carol-skin-12un/?variant=334976519",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 857.84
+      }
+    ]
+  },
+  {
+    "id": "05773",
+    "nombre": "Tupper Colombraro Rectangular 3lt",
+    "precio": 649.99,
+    "rubro": "Productos > Bazar",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-61-0ebaaf83624521ed2d16210111229183-480-0.jpg",
+    "url_producto": "productos/tupper-colombraro-rectangular-3lt/?variant=334973665",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 649.99
+      }
+    ]
+  },
+  {
+    "id": "05774",
+    "nombre": "Tupper Colombraro Redondo",
+    "precio": 227.38,
+    "rubro": "Productos > Bazar",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-51-dcddce748f7e49035416210109741388-480-0.jpg",
+    "url_producto": "productos/tupper-colombraro-redondo/?variant=334972809",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 227.38
+      }
+    ]
+  },
+  {
+    "id": "05775",
+    "nombre": "Vino Plan B 100% Malbec 750cc",
+    "precio": 390.0,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/budeguer-foto1-520258365d04f73f5615992297403841-480-0.jpg",
+    "url_producto": "productos/vino-plan-b-malbec-750-cc/?variant=190114744",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 390.0
+      }
+    ]
+  },
+  {
+    "id": "05776",
+    "nombre": "Yerbinks x Unidad",
+    "precio": 350.0,
+    "rubro": "Productos > Bazar",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/yerbix1-1b55ecb37bd1ac6a3516208319581298-480-0.jpg",
+    "url_producto": "productos/yerbinks-x-unidad/?variant=334279376",
+    "historia": [
+      {
+        "fecha": "19/07/2021",
+        "precio": 350.0
       }
     ]
   }
