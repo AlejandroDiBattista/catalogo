@@ -64843,7 +64843,7 @@
     "id": "03078",
     "nombre": "Aceite Cañuelas Oliva Intenso 500cc",
     "precio": 480.87,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220311-58116916046af9b3e315988111926122-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-in-pet-500-cc/",
     "historia": [
@@ -64893,7 +64893,7 @@
     "id": "03079",
     "nombre": "Aceite Cañuelas Oliva Suave 500cc",
     "precio": 480.87,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220301-333f3a18318b80229215988119589449-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-su-pet-500-cc/",
     "historia": [
@@ -65647,7 +65647,7 @@
     "id": "03108",
     "nombre": "Agua Glaciar Sin Gas 2lt",
     "precio": 99.0,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/mc24241-65917abfdcc656c1b616010430756981-480-0.jpg",
     "url_producto": "productos/agua-glaciar-sin-gas-2-lt/",
     "historia": [
@@ -65787,7 +65787,7 @@
     "id": "03116",
     "nombre": "Agua Mineral Sierra De Los Padres 2lt",
     "precio": 71.3,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sierra-de-los-padres-2-lt1-ab6f3d796f1482e66616001948616487-480-0.jpg",
     "url_producto": "productos/agua-mineral-sierra-de-los-padres-2-l/",
     "historia": [
@@ -65800,8 +65800,8 @@
   {
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
-    "precio": 155.9,
-    "rubro": "Productos > Aguas sin Gas",
+    "precio": 76.0,
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
     "historia": [
@@ -65852,6 +65852,10 @@
       {
         "fecha": "09/07/2021",
         "precio": 155.9
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 76.0
       }
     ]
   },
@@ -65873,7 +65877,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -65939,7 +65943,7 @@
     "id": "03122",
     "nombre": "Agua Sin Gas Nestlé Pureza Vital 2,25 Lts",
     "precio": 73.5,
-    "rubro": "Productos > Aguas sin Gas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-sin-gas-nestle-pureza-vital-225-lts1-eeec029681545bd86216015826868064-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-225-lts/",
     "historia": [
@@ -66265,7 +66269,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 380.0,
-    "rubro": "Productos > Frutos Secos",
+    "rubro": "Productos > Saludable & Fit",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -66812,7 +66816,7 @@
   {
     "id": "03147",
     "nombre": "Americano Gancia 950cc",
-    "precio": 385.56,
+    "precio": 388.56,
     "rubro": "Productos > Aperitivos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21531-0a0bdd12d26b8d501c15988184722662-480-0.jpg",
     "url_producto": "productos/america-gancia-950-cc/",
@@ -66844,6 +66848,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 385.56
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 388.56
       }
     ]
   },
@@ -67415,7 +67423,7 @@
     "id": "03166",
     "nombre": "Arvejas Green Life Congelada 300gr",
     "precio": 190.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550211-a666675e62010c5a7515990911554480-480-0.jpg",
     "url_producto": "productos/arvejas-green-life-congelada-300-gr/",
     "historia": [
@@ -67652,7 +67660,7 @@
   {
     "id": "03173",
     "nombre": "Azúcar Chango 1kg",
-    "precio": 84.36,
+    "precio": 53.99,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2691-c35131e65a120add2515988328157594-480-0.jpg",
     "url_producto": "productos/azucar-chango-1-kg/",
@@ -67696,6 +67704,10 @@
       {
         "fecha": "20/07/2021",
         "precio": 84.36
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 53.99
       }
     ]
   },
@@ -69023,7 +69035,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -70896,7 +70908,7 @@
   {
     "id": "03311",
     "nombre": "Fideos Knorr Tallarín 500gr",
-    "precio": 70.36,
+    "precio": 73.96,
     "rubro": "Productos > Pastas Secas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/194531-a85440a9277c2313ee15988903182101-480-0.jpg",
     "url_producto": "productos/fid-knorr-tallarin-500-gr/",
@@ -70916,6 +70928,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 70.36
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 73.96
       }
     ]
   },
@@ -72152,7 +72168,7 @@
   {
     "id": "03367",
     "nombre": "Hamburguesa Swift Carne 4un",
-    "precio": 303.9,
+    "precio": 344.38,
     "rubro": "Productos > Hamburguesas y Milanesas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/233561-d9545d9b648ee7d72a15992498511992-480-0.jpg",
     "url_producto": "productos/hamburguesa-swift-carne-4-un/",
@@ -72176,6 +72192,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 303.9
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 344.38
       }
     ]
   },
@@ -74408,7 +74428,7 @@
   {
     "id": "03469",
     "nombre": "Mayonesa Hellmann's Doypack 237gr",
-    "precio": 87.64,
+    "precio": 89.57,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/14981-4ed755d6bfbf02b8f615989735589658-480-0.jpg",
     "url_producto": "productos/mayonesa-hellmanns-doypack-237-gr/",
@@ -74432,6 +74452,10 @@
       {
         "fecha": "03/07/2021",
         "precio": 87.64
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 89.57
       }
     ]
   },
@@ -76274,7 +76298,7 @@
   {
     "id": "03556",
     "nombre": "Papel Higiénico Higienol Doble Hoja 4x30 Mt",
-    "precio": 159.0,
+    "precio": 172.45,
     "rubro": "Productos > Papel Higiénico, Rollos de Cocina y Servilletas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/121631-a902f197d25c946ad615988872177341-480-0.jpg",
     "url_producto": "productos/pap-hig-higienol-dob-hoj-4x30-mt/",
@@ -76286,6 +76310,10 @@
       {
         "fecha": "10/05/2021",
         "precio": 159.0
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 172.45
       }
     ]
   },
@@ -79124,7 +79152,7 @@
   {
     "id": "03701",
     "nombre": "Whisky Criadores 1lt",
-    "precio": 638.26,
+    "precio": 688.86,
     "rubro": "Productos > Bebidas Blancas y Licores",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/4391-4403952849ed34560915988895894966-480-0.jpg",
     "url_producto": "productos/whisky-criadores-1-lt/",
@@ -79152,6 +79180,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 638.26
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 688.86
       }
     ]
   },
@@ -79686,7 +79718,7 @@
   {
     "id": "03728",
     "nombre": "Energizante Speed Lata 250cc",
-    "precio": 73.01,
+    "precio": 79.17,
     "rubro": "Productos > Energizantes e Isotónicas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/111181-684bef8b79b17103c315988889028597-480-0.jpg",
     "url_producto": "productos/energiz-speed-lata-250-cc/",
@@ -79714,6 +79746,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 73.01
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 79.17
       }
     ]
   },
@@ -80594,7 +80630,7 @@
   {
     "id": "03770",
     "nombre": "Sidra 1888 Saenz Briones 750ml",
-    "precio": 480.87,
+    "precio": 493.88,
     "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/sidra-1882-saenz-briones-750-ml1-4d0d623a4826e7e43616057117293366-480-0.jpg",
     "url_producto": "productos/sidra-1888-saenz-briones-750-ml/",
@@ -80618,6 +80654,10 @@
       {
         "fecha": "07/07/2021",
         "precio": 480.87
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 493.88
       }
     ]
   },
@@ -92483,7 +92523,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 223.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -93179,7 +93219,7 @@
     "id": "04506",
     "nombre": "Aparato Raid S/cable + 4 Tabletas",
     "precio": 345.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aparato-raid-sin-cable-4-tabletas1-1c5ecd174da0a5f65a16183639331089-480-0.jpeg",
     "url_producto": "productos/aparato-raid-s-cable-4-tabletas/",
     "historia": [
@@ -93470,8 +93510,8 @@
   {
     "id": "04522",
     "nombre": "Aceite Cocinero Girasol Aerosol Fritolim 120gr",
-    "precio": 176.75,
-    "rubro": "Productos > Almacén",
+    "precio": 188.37,
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-fritolim-clasico-aero-x-120-gr1-f5e8fe909d0153ff1a16173998650258-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-aerosol-fritolim-120-gr/",
     "historia": [
@@ -93494,6 +93534,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 176.75
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 188.37
       }
     ]
   },
@@ -93501,7 +93545,7 @@
     "id": "04523",
     "nombre": "Aceite Cocinero Girasol Plus 900ml ,",
     "precio": 250.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-cocinero-plus-girasol-900-cc-aceite-cocinero-plus-girasol-900-cc-1-103591-7528dceaf14701133616122925497462-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-plus-900-ml/",
     "historia": [
@@ -93595,7 +93639,7 @@
     "id": "04528",
     "nombre": "Aceite Marolio Oliva Extra Vigen 250ml",
     "precio": 285.88,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-marolio-oliva-extra-vigen-250-ml1-3038186d714e3b961d16166770821623-480-0.jpg",
     "url_producto": "productos/aceite-marolio-oliva-extra-vigen-250-ml/",
     "historia": [
@@ -93629,7 +93673,7 @@
     "id": "04529",
     "nombre": "Aceite Molto Aerosol Girasol 120gr",
     "precio": 181.9,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-girasol-120-gr1-0f4f22f12ab2f8c4f616107361697969-480-0.png",
     "url_producto": "productos/aceite-molto-aerosol-girasol-120-gr/",
     "historia": [
@@ -93651,7 +93695,7 @@
     "id": "04530",
     "nombre": "Aceite Molto Aerosol Oliva 120gr",
     "precio": 237.78,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-oliva-120-gr1-f32df6961224a0228316088226786698-480-0.jpg",
     "url_producto": "productos/aceite-molto-aerosol-oliva-120-gr/",
     "historia": [
@@ -93732,7 +93776,7 @@
   {
     "id": "04533",
     "nombre": "Acondiciónador Dove Oleo Nutrición 750ml",
-    "precio": 778.57,
+    "precio": 818.86,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237691-584193fa5c876aef5015990691178020-480-0.jpg",
     "url_producto": "productos/acond-dove-oleo-nutric-750-ml/",
@@ -93760,13 +93804,17 @@
       {
         "fecha": "07/07/2021",
         "precio": 778.57
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 818.86
       }
     ]
   },
   {
     "id": "04534",
     "nombre": "Acondiciónador Dove Reconstrución Completa 750ml",
-    "precio": 778.57,
+    "precio": 818.86,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/237681-a13f3137e67435676715990691033096-480-0.jpg",
     "url_producto": "productos/acond-dove-recon-compl-750-ml/",
@@ -93794,13 +93842,17 @@
       {
         "fecha": "07/07/2021",
         "precio": 778.57
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 818.86
       }
     ]
   },
   {
     "id": "04535",
     "nombre": "Acondicionador Elvive Kera Liso 400ml",
-    "precio": 375.0,
+    "precio": 389.87,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/210721-ac9ddab487a4ae562516043400249425-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-kera-liso-400-ml/",
@@ -93824,6 +93876,10 @@
       {
         "fecha": "04/07/2021",
         "precio": 375.0
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 389.87
       }
     ]
   },
@@ -93831,7 +93887,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -93849,7 +93905,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -93987,7 +94043,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 203.97,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -94056,7 +94112,7 @@
   {
     "id": "04547",
     "nombre": "Agua Levite Naranja 2,5lt",
-    "precio": 135.07,
+    "precio": 137.67,
     "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184271-5522a22584046bac9015988160205939-480-0.jpg",
     "url_producto": "productos/agua-levite-naranja-25-lt/",
@@ -94064,6 +94120,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 135.07
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 137.67
       }
     ]
   },
@@ -94691,7 +94751,7 @@
     "id": "04582",
     "nombre": "Aparato Glade Auto Sport Acqua 7ml",
     "precio": 401.1,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/148721-af603d48a233e61ded15988190130021-480-0.jpg",
     "url_producto": "productos/aparato-glade-a-s-acqua-7-ml/",
     "historia": [
@@ -94705,7 +94765,7 @@
     "id": "04583",
     "nombre": "Aparato Glade Auto Sport Floral Perfection 7ml",
     "precio": 481.33,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/148691-e59a9234f870d5079915988191173635-480-0.jpg",
     "url_producto": "productos/aparato-glade-a-s-flor-p-7-ml/",
     "historia": [
@@ -94731,7 +94791,7 @@
     "id": "04584",
     "nombre": "Aparato Lysoform Discos Adhesivo Lavanda 38ml",
     "precio": 363.9,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/230651-431b4c291dfbc3a1ed15990688214382-480-0.jpg",
     "url_producto": "productos/aparato-lysoform-d-a-lavan-38-ml/",
     "historia": [
@@ -95041,7 +95101,7 @@
     "id": "04597",
     "nombre": "Autobrillo Echo Clásico 900ml",
     "precio": 348.26,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza de Cocina",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7691-c82732b1c9cc6b752f15988324228884-480-0.jpg",
     "url_producto": "productos/autobr-echo-clasico-900-ml/",
     "historia": [
@@ -96952,7 +97012,7 @@
   {
     "id": "04679",
     "nombre": "Cerveza Miller Lata 473cc",
-    "precio": 148.76,
+    "precio": 172.76,
     "rubro": "Productos > Cervezas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/225671-59d617b9941bbea1c715988791119377-480-0.jpg",
     "url_producto": "productos/cerv-miller-lata-473-cc/",
@@ -96976,6 +97036,10 @@
       {
         "fecha": "03/07/2021",
         "precio": 148.76
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 172.76
       }
     ]
   },
@@ -97074,7 +97138,7 @@
   {
     "id": "04684",
     "nombre": "Champagne Latitud 33 Extra Brut 750cc",
-    "precio": 480.87,
+    "precio": 487.38,
     "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21661-eade13cd596ef1d6ef15988795034675-480-0.jpg",
     "url_producto": "productos/champ-latit-33-ext-brut-750-cc/",
@@ -97098,13 +97162,17 @@
       {
         "fecha": "07/07/2021",
         "precio": 480.87
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 487.38
       }
     ]
   },
   {
     "id": "04685",
     "nombre": "Champagne Navarro Correas Extra Brut 750cc",
-    "precio": 664.87,
+    "precio": 675.87,
     "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/143921-f240a718c68052edec15988795179698-480-0.jpg",
     "url_producto": "productos/champ-n-correas-ext-brut-750-cc/",
@@ -97128,6 +97196,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 664.87
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 675.87
       }
     ]
   },
@@ -97135,7 +97207,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -97820,7 +97892,7 @@
   {
     "id": "04717",
     "nombre": "Edulcorante Hileret 1 A 10 100 Sobres",
-    "precio": 179.42,
+    "precio": 181.87,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/441581-983d87677eb4c1b2bc15990702977815-480-0.jpg",
     "url_producto": "productos/edulc-hileret-1-a-10-100-so/",
@@ -97844,6 +97916,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 179.42
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 181.87
       }
     ]
   },
@@ -98690,7 +98766,7 @@
   {
     "id": "04750",
     "nombre": "Jugo Arcor Multifruta 20gr",
-    "precio": 20.29,
+    "precio": 20.67,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/201681-a964fc4d9c373009ac15998471709126-480-0.jpg",
     "url_producto": "productos/jugo-arcor-multifruta-20-gr/",
@@ -98718,13 +98794,17 @@
       {
         "fecha": "07/07/2021",
         "precio": 20.29
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 20.67
       }
     ]
   },
   {
     "id": "04751",
     "nombre": "Jugo Arcor Naranja 20gr",
-    "precio": 20.29,
+    "precio": 20.67,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/201671-451fdd2773c87a25f315998471304052-480-0.jpg",
     "url_producto": "productos/jugo-arcor-naranja-20-gr/",
@@ -98752,13 +98832,17 @@
       {
         "fecha": "07/07/2021",
         "precio": 20.29
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 20.67
       }
     ]
   },
   {
     "id": "04752",
     "nombre": "Jugo Arcor Naranja Banana 20gr",
-    "precio": 20.29,
+    "precio": 20.67,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/219001-3e619ea83206ea54e015998473512399-480-0.jpg",
     "url_producto": "productos/jugo-arcor-naranja-banana-20-gr/",
@@ -98786,13 +98870,17 @@
       {
         "fecha": "07/07/2021",
         "precio": 20.29
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 20.67
       }
     ]
   },
   {
     "id": "04753",
     "nombre": "Jugo Arcor Naranja Durazno 20gr",
-    "precio": 20.29,
+    "precio": 20.67,
     "rubro": "Productos > Jugos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/201661-989875ca7d7bc5cf9b15998470967854-480-0.jpg",
     "url_producto": "productos/jugo-arcor-naranja-durazno-20-gr/",
@@ -98816,6 +98904,10 @@
       {
         "fecha": "07/07/2021",
         "precio": 20.29
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 20.67
       }
     ]
   },
@@ -98862,7 +98954,7 @@
   {
     "id": "04756",
     "nombre": "Kétchup Hellmann's 250gr",
-    "precio": 126.22,
+    "precio": 129.87,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/29661-f505377bd736c5a81a15996710373319-480-0.jpg",
     "url_producto": "productos/ketchup-hellmanns-250grs/",
@@ -98886,6 +98978,10 @@
       {
         "fecha": "03/07/2021",
         "precio": 126.22
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 129.87
       }
     ]
   },
@@ -99466,7 +99562,7 @@
   {
     "id": "04780",
     "nombre": "Mayonesa Hellmann's Light Doypack 237gr",
-    "precio": 87.64,
+    "precio": 89.57,
     "rubro": "Productos > Aderezos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/116641-c5809e881054b3440b16001843722824-480-0.jpg",
     "url_producto": "productos/may-hellmanns-light-d-p-237-gr/",
@@ -99490,6 +99586,10 @@
       {
         "fecha": "03/07/2021",
         "precio": 87.64
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 89.57
       }
     ]
   },
@@ -100467,7 +100567,7 @@
     "id": "04824",
     "nombre": "Alcohol En Gel Espadol 150ml",
     "precio": 235.0,
-    "rubro": "Productos > Limpieza en General",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77983391902041-b93294cca975b13c1f16192061374355-480-0.jpg",
     "url_producto": "productos/alcohol-en-gel-espadol-150ml/",
     "historia": [
@@ -101045,7 +101145,7 @@
     "id": "04853",
     "nombre": "Sorrentinos Pastasya Calabaza y Muzzarella x Doc",
     "precio": 300.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > PASTAS YA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01721-46c426273cb7abbfd116201376957363-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-calabaza-y-muzzarella-x-doc/",
     "historia": [
@@ -101073,7 +101173,7 @@
     "id": "04855",
     "nombre": "Sorrentinos Pastasya Jamon y Queso x Doc",
     "precio": 350.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > PASTAS YA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-0171-46c426273cb7abbfd116201376441746-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-jamon-y-queso-x-doc/",
     "historia": [
@@ -101087,7 +101187,7 @@
     "id": "04856",
     "nombre": "Sorrentinos Pastasya Ternera y Muzzarella x Doc",
     "precio": 350.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > PASTAS YA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01731-46c426273cb7abbfd116201377295966-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-ternera-y-muzzarella-x-doc/",
     "historia": [
@@ -101515,7 +101615,7 @@
     "id": "04878",
     "nombre": "Aceite De Maiz Arcor 900ml",
     "precio": 330.17,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-de-maiz-arcor-900-ml-_11-38e425b50a69a1275e16207401714293-480-0.jpg",
     "url_producto": "productos/aceite-de-maiz-arcor-900-ml/",
     "historia": [
@@ -110239,7 +110339,7 @@
     "id": "05400",
     "nombre": "Pascualinas La Tucumanita Criolla 300gr",
     "precio": 70.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > LA TUCUMANITA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/tallarin-clasico-21-a038196102af88b0d516210067568338-480-0.jpg",
     "url_producto": "productos/pascualinas-la-tucumanita-criolla-300-gr/",
     "historia": [
@@ -110582,7 +110682,7 @@
   {
     "id": "05416",
     "nombre": "Acondicionador Elvive Nutricion y Proteccion Color 400ml",
-    "precio": 375.0,
+    "precio": 389.87,
     "rubro": "Productos > Cuidado del Cabello",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7898587761949-1_1_1-ef2cb24811224c211716213573046943-480-0.jpg",
     "url_producto": "productos/acondicionador-elvive-nutricion-y-proteccion-color-400ml/",
@@ -110602,6 +110702,10 @@
       {
         "fecha": "04/07/2021",
         "precio": 375.0
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 389.87
       }
     ]
   },
@@ -111797,7 +111901,7 @@
     "id": "05485",
     "nombre": "Aceite De Oliva Marolio 500ml",
     "precio": 519.88,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/138051-b960f38113241a526316221274642490-480-0.jpg",
     "url_producto": "productos/aceite-de-oliva-marolio-500ml/",
     "historia": [
@@ -112173,7 +112277,7 @@
     "id": "05503",
     "nombre": "Aceite Molto De Oliva Extra Virgen 250ml",
     "precio": 322.28,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-oliva-molto-250ml1-04aca7088cd9f1a50916225749740737-480-0.png",
     "url_producto": "productos/aceite-molto-de-oliva-extra-virgen-250ml/",
     "historia": [
@@ -112199,7 +112303,7 @@
     "id": "05504",
     "nombre": "Aceite Molto De Oliva Extra Virgen 500ml",
     "precio": 584.87,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5111-f7b1a5be5e71a7fdc316225749462895-480-0.jpg",
     "url_producto": "productos/aceite-molto-de-oliva-extra-virgen-500ml/",
     "historia": [
@@ -112978,7 +113082,7 @@
   {
     "id": "05544",
     "nombre": "Panceta Lario Ahumada 150gr",
-    "precio": 293.79,
+    "precio": 304.08,
     "rubro": "Productos > Quesos, Fiambres y Embutidos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/panceta-lario-ahumada-150gr1-1bcdaa5a625325be0b16170470834616-480-0.jpg",
     "url_producto": "productos/panceta-lario-ahumada-150gr/",
@@ -112998,6 +113102,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 293.79
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 304.08
       }
     ]
   },
@@ -113750,7 +113858,7 @@
   {
     "id": "05588",
     "nombre": "Fideo Matarazzo Spaghetti Libre De Gluten 500gr",
-    "precio": 181.0,
+    "precio": 188.37,
     "rubro": "Productos > Pastas Secas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7790070321800_021-5ff306652f6e31f47416246261066340-480-0.jpg",
     "url_producto": "productos/fideo-matarazzo-spaghetti-libre-de-gluten-500gr/",
@@ -113766,6 +113874,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 181.0
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 188.37
       }
     ]
   },
@@ -114234,7 +114346,7 @@
   {
     "id": "05620",
     "nombre": "Acondicionador Tresemme Keratina 400ml",
-    "precio": 311.0,
+    "precio": 323.57,
     "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-tresemme-keratin-smooth-400-ml-1-329981-c4da7ec272b02dde1916257569364622-480-0.jpg",
     "url_producto": "productos/acondicionador-tresemme-keratina-400-ml/",
@@ -114242,6 +114354,10 @@
       {
         "fecha": "09/07/2021",
         "precio": 311.0
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 323.57
       }
     ]
   },
@@ -115817,7 +115933,7 @@
     "id": "05733",
     "nombre": "Aceite De Girasol M& kg 900ml",
     "precio": 199.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-myk-de-girasol-x-900-ml-e16110659615471-bf77dcb0ceb0e9f84016261852643793-480-0.jpg",
     "url_producto": "productos/aceite-de-girasol-mk-900ml/",
     "historia": [
@@ -116226,7 +116342,7 @@
   {
     "id": "05762",
     "nombre": "Jabon De Tocador Veritas Bebe 120gr",
-    "precio": 79.0,
+    "precio": 80.48,
     "rubro": "Productos > Pañales y Bebés",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/images-51-7981320bbdbb6c333716265031267273-480-0.jpg",
     "url_producto": "productos/jabon-de-tocador-veritas-bebe-120-gr/",
@@ -116234,6 +116350,10 @@
       {
         "fecha": "19/07/2021",
         "precio": 79.0
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 80.48
       }
     ]
   },
@@ -116254,7 +116374,7 @@
   {
     "id": "05764",
     "nombre": "Jugo En Base A Soja Ades Manzana 1lt",
-    "precio": 122.0,
+    "precio": 141.57,
     "rubro": "Productos > Cupon descuento",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0201-e22cb6177ebda07e7215988830743145-480-0.jpg",
     "url_producto": "productos/ades-manzana-1l/?variant=186997418",
@@ -116262,6 +116382,10 @@
       {
         "fecha": "19/07/2021",
         "precio": 122.0
+      },
+      {
+        "fecha": "22/07/2021",
+        "precio": 141.57
       }
     ]
   },
@@ -116542,6 +116666,76 @@
       {
         "fecha": "21/07/2021",
         "precio": 260.0
+      }
+    ]
+  },
+  {
+    "id": "05785",
+    "nombre": "Bolsa Esencial 50x70 10un",
+    "precio": 59.0,
+    "rubro": "Productos > Limpieza de Cocina",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/157651-276cd369b18ac952ab16268803590199-480-0.jpg",
+    "url_producto": "productos/bolsa-esencial-50x70-10-un/",
+    "historia": [
+      {
+        "fecha": "22/07/2021",
+        "precio": 59.0
+      }
+    ]
+  },
+  {
+    "id": "05786",
+    "nombre": "Granola Granix Almendras y Pasas De Uva 350gr",
+    "precio": 260.0,
+    "rubro": "Productos > Bajos en Sodio",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/38949624-508a55f5379a337f2e15675124395211-480-01-5ea9c57e2497f4c11b16268801125347-480-0.jpg",
+    "url_producto": "productos/granola-granix-almendras-y-pasas-de-uva-350gr/",
+    "historia": [
+      {
+        "fecha": "22/07/2021",
+        "precio": 260.0
+      }
+    ]
+  },
+  {
+    "id": "05787",
+    "nombre": "Granola Granix Frutos Rojos 350gr",
+    "precio": 260.0,
+    "rubro": "Productos > Bajos en Sodio",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/39808258-1166e2b7660bcaa66915682900228419-640-01-186df938796446a14c16268800124458-480-0.jpg",
+    "url_producto": "productos/granola-granix-frutos-rojos-350gr/",
+    "historia": [
+      {
+        "fecha": "22/07/2021",
+        "precio": 260.0
+      }
+    ]
+  },
+  {
+    "id": "05788",
+    "nombre": "Maquinita Minora x 1un",
+    "precio": 55.0,
+    "rubro": "Productos > Cuidado Personal",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/d_nq_np_851248-mla46308105396_062021-v1-301ce71dd3a489968b16268802368490-480-0.jpg",
+    "url_producto": "productos/maquinita-minora-x-1un/",
+    "historia": [
+      {
+        "fecha": "22/07/2021",
+        "precio": 55.0
+      }
+    ]
+  },
+  {
+    "id": "05789",
+    "nombre": "Patitas Granja De Sol Pollo 400gr",
+    "precio": 397.67,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/872111-7b53014f1eef98441a15990035503427-480-0.jpg",
+    "url_producto": "productos/patitas-gja-sol-pollo-400-gr/?variant=186554713",
+    "historia": [
+      {
+        "fecha": "22/07/2021",
+        "precio": 397.67
       }
     ]
   }
