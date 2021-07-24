@@ -16150,11 +16150,11 @@
   {
     "id": "00512",
     "nombre": "Mayonesa Mayodan 3kg",
-    "precio": 399.0,
+    "precio": 390.0,
     "rubro": "Aderezos > Mayonesas",
     "url_imagen": "2019/11/MAYONESA-MAYODAN-3KG.jpg",
     "url_producto": "mayonesa-mayodan-3kg/",
-    "precio_1": "3,388.79",
+    "precio_1": "3,390.00",
     "historia": [
       {
         "fecha": "21/09/2020",
@@ -16199,6 +16199,10 @@
       {
         "fecha": "13/07/2021",
         "precio": 399.0
+      },
+      {
+        "fecha": "24/07/2021",
+        "precio": 390.0
       }
     ]
   },
@@ -21578,11 +21582,11 @@
   {
     "id": "00734",
     "nombre": "Galletas Fauna Mauri 150gr",
-    "precio": 37.0,
+    "precio": 62.0,
     "rubro": "Desayuno > Gall Dulces y Saladas",
     "url_imagen": "2020/01/GALL-FAUNA-MAURI-150GR.jpg",
     "url_producto": "gall-fauna-mauri-150gr/",
-    "precio_1": "3,31.96",
+    "precio_1": "3,53.46",
     "historia": [
       {
         "fecha": "12/11/2020",
@@ -21613,6 +21617,10 @@
       {
         "fecha": "11/02/2021",
         "precio": 37.0
+      },
+      {
+        "fecha": "24/07/2021",
+        "precio": 62.0
       }
     ]
   },
@@ -22109,11 +22117,11 @@
   {
     "id": "00754",
     "nombre": "Caldo Wilde Verduras x 12 Uds",
-    "precio": 53.0,
+    "precio": 68.0,
     "rubro": "Almacén > Sopas y Caldos",
     "url_imagen": "2020/01/CALDO-WILDE-12UN.jpg",
     "url_producto": "caldo-wilde-12un/",
-    "precio_1": "3,46.02",
+    "precio_1": "3,57.50",
     "historia": [
       {
         "fecha": "26/11/2020",
@@ -22129,6 +22137,10 @@
       {
         "fecha": "30/06/2021",
         "precio": 53.0
+      },
+      {
+        "fecha": "24/07/2021",
+        "precio": 68.0
       }
     ]
   },
@@ -24577,6 +24589,7 @@
     "rubro": "Limpieza > Varios",
     "url_imagen": "2020/01/PANO-AMARILLO-SIN-MEMBRETE.jpg",
     "url_producto": "pano-amarillo-s-membrete/",
+    "precio_1": "3,38.09",
     "historia": [
       {
         "fecha": "05/03/2021",
@@ -26280,6 +26293,21 @@
       {
         "fecha": "23/07/2021",
         "precio": 390.0
+      }
+    ]
+  },
+  {
+    "id": "00964",
+    "nombre": "Harina Reina Ana 000 x 1kg",
+    "precio": 42.0,
+    "rubro": "Almacén > Harinas",
+    "url_imagen": "2019/11/HARINA-REINA-ANA-000.jpg",
+    "url_producto": "har-reina-ana-000-x1-kg-s-iva/",
+    "precio_1": "3,35.70",
+    "historia": [
+      {
+        "fecha": "24/07/2021",
+        "precio": 42.0
       }
     ]
   }
