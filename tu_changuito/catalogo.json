@@ -64843,7 +64843,7 @@
     "id": "03078",
     "nombre": "Aceite Cañuelas Oliva Intenso 500cc",
     "precio": 480.87,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220311-58116916046af9b3e315988111926122-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-in-pet-500-cc/",
     "historia": [
@@ -64893,7 +64893,7 @@
     "id": "03079",
     "nombre": "Aceite Cañuelas Oliva Suave 500cc",
     "precio": 480.87,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220301-333f3a18318b80229215988119589449-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-su-pet-500-cc/",
     "historia": [
@@ -64968,14 +64968,18 @@
   {
     "id": "03081",
     "nombre": "Aceite Cocinero Girasol 900cc",
-    "precio": 189.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "precio": 235.0,
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3001-080de979d923e98d4615990022278095-480-0.jpg",
     "url_producto": "productos/ac-cocinero-girasol-900-cc/",
     "historia": [
       {
         "fecha": "04/03/2021",
         "precio": 189.0
+      },
+      {
+        "fecha": "27/07/2021",
+        "precio": 235.0
       }
     ]
   },
@@ -65553,7 +65557,7 @@
     "id": "03105",
     "nombre": "Agua Baggio Fresh Mix Frutal 1,1lt ,",
     "precio": 89.0,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-22t102628-5021-17051cd572b00ea44616113220049225-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-mix-frutal-1-5-lt/",
     "historia": [
@@ -65583,7 +65587,7 @@
     "id": "03106",
     "nombre": "Agua Baggio Fresh Naranja Dulce 1,5lt",
     "precio": 89.0,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/604611-5271f343145345b6e516028681925353-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-naranja-dulce-15-lt/",
     "historia": [
@@ -65621,7 +65625,7 @@
     "id": "03107",
     "nombre": "Agua Baggio Fresh Pera 1,1lt",
     "precio": 89.0,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-baggio-fresh-pera-1-5-lt1-39e6b32abfedd2386c16113218756564-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-pera-1-5-lt/",
     "historia": [
@@ -65679,7 +65683,7 @@
     "id": "03110",
     "nombre": "Agua Levite Manzana 2,5lt",
     "precio": 138.19,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-saborizada-levite-manzana-2-5lts-1-8567591-8325478d3b17527c5616128034143481-480-0.jpg",
     "url_producto": "productos/agua-levite-manzana-25-lt/",
     "historia": [
@@ -65800,7 +65804,7 @@
   {
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
-    "precio": 76.0,
+    "precio": 155.9,
     "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
@@ -65856,6 +65860,10 @@
       {
         "fecha": "22/07/2021",
         "precio": 76.0
+      },
+      {
+        "fecha": "27/07/2021",
+        "precio": 155.9
       }
     ]
   },
@@ -65877,7 +65885,7 @@
     "id": "03119",
     "nombre": "Agua Ser Sin Gas - Bajo Sodio 1,5lt",
     "precio": 75.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Bajos en Sodio",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-mineral-sin-gas-ser-15-l-1-2386941-b0163b6af7a2074c7216091578856510-480-0.jpg",
     "url_producto": "productos/agua-min-ser-bajo-sodio-1500-cc/",
     "historia": [
@@ -66269,7 +66277,7 @@
     "id": "03133",
     "nombre": "Almendras x 200gr",
     "precio": 380.0,
-    "rubro": "Productos > Saludable & Fit",
+    "rubro": "Productos > Frutos Secos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/11-8e6b946576eadb289a16019300143902-480-0.jpg",
     "url_producto": "productos/almendras-x-200-gr/",
     "historia": [
@@ -67660,7 +67668,7 @@
   {
     "id": "03173",
     "nombre": "Azúcar Chango 1kg",
-    "precio": 53.99,
+    "precio": 84.36,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2691-c35131e65a120add2515988328157594-480-0.jpg",
     "url_producto": "productos/azucar-chango-1-kg/",
@@ -67708,6 +67716,10 @@
       {
         "fecha": "22/07/2021",
         "precio": 53.99
+      },
+      {
+        "fecha": "27/07/2021",
+        "precio": 84.36
       }
     ]
   },
@@ -67993,7 +68005,7 @@
     "id": "03185",
     "nombre": "Bife Angosto x kg",
     "precio": 958.0,
-    "rubro": "Productos > Carnes de Novillo",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/21-abd56a05bd09d68f8f16022713666245-480-0.jpg",
     "url_producto": "productos/bife-angosto-x-kg/",
     "historia": [
@@ -68135,7 +68147,7 @@
     "id": "03190",
     "nombre": "Bola De Lomo Feteada Para Milanesa x kg",
     "precio": 800.0,
-    "rubro": "Productos > Carnes de Novillo",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-lomo-fet1-44e054598c02eecd9816027207901849-480-0.jpg",
     "url_producto": "productos/bola-de-lomo-feteada-para-milanesa-x-kg/",
     "historia": [
@@ -69035,7 +69047,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -74190,7 +74202,7 @@
   {
     "id": "03458",
     "nombre": "Manteca La Paulina 200gr",
-    "precio": 194.05,
+    "precio": 200.07,
     "rubro": "Productos > Lácteos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/58391-120f95e2d69f1904b015988906329721-480-0.jpg",
     "url_producto": "productos/manteca-l-paulina-200-gr/",
@@ -74218,6 +74230,10 @@
       {
         "fecha": "02/07/2021",
         "precio": 194.05
+      },
+      {
+        "fecha": "27/07/2021",
+        "precio": 200.07
       }
     ]
   },
@@ -90581,7 +90597,7 @@
     "id": "04359",
     "nombre": "Agua Baggio Fresh Pomelo 1,5lt",
     "precio": 89.0,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215551-70616cd842619ee27515988158196946-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-pome-1-5-lt/",
     "historia": [
@@ -92523,7 +92539,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 223.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -93511,7 +93527,7 @@
     "id": "04522",
     "nombre": "Aceite Cocinero Girasol Aerosol Fritolim 120gr",
     "precio": 188.37,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-fritolim-clasico-aero-x-120-gr1-f5e8fe909d0153ff1a16173998650258-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-aerosol-fritolim-120-gr/",
     "historia": [
@@ -93545,7 +93561,7 @@
     "id": "04523",
     "nombre": "Aceite Cocinero Girasol Plus 900ml ,",
     "precio": 250.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-cocinero-plus-girasol-900-cc-aceite-cocinero-plus-girasol-900-cc-1-103591-7528dceaf14701133616122925497462-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-plus-900-ml/",
     "historia": [
@@ -93639,7 +93655,7 @@
     "id": "04528",
     "nombre": "Aceite Marolio Oliva Extra Vigen 250ml",
     "precio": 285.88,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-marolio-oliva-extra-vigen-250-ml1-3038186d714e3b961d16166770821623-480-0.jpg",
     "url_producto": "productos/aceite-marolio-oliva-extra-vigen-250-ml/",
     "historia": [
@@ -93673,7 +93689,7 @@
     "id": "04529",
     "nombre": "Aceite Molto Aerosol Girasol 120gr",
     "precio": 181.9,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-girasol-120-gr1-0f4f22f12ab2f8c4f616107361697969-480-0.png",
     "url_producto": "productos/aceite-molto-aerosol-girasol-120-gr/",
     "historia": [
@@ -93695,7 +93711,7 @@
     "id": "04530",
     "nombre": "Aceite Molto Aerosol Oliva 120gr",
     "precio": 237.78,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-molto-aerosol-oliva-120-gr1-f32df6961224a0228316088226786698-480-0.jpg",
     "url_producto": "productos/aceite-molto-aerosol-oliva-120-gr/",
     "historia": [
@@ -94083,7 +94099,7 @@
     "id": "04546",
     "nombre": "Agua Baggio Fresh Manzana 1,5lt",
     "precio": 89.0,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215531-0b69b3a450e7bd84a215988149742587-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-man-1-5-lt/",
     "historia": [
@@ -94113,7 +94129,7 @@
     "id": "04547",
     "nombre": "Agua Levite Naranja 2,5lt",
     "precio": 137.67,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184271-5522a22584046bac9015988160205939-480-0.jpg",
     "url_producto": "productos/agua-levite-naranja-25-lt/",
     "historia": [
@@ -94751,7 +94767,7 @@
     "id": "04582",
     "nombre": "Aparato Glade Auto Sport Acqua 7ml",
     "precio": 401.1,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/148721-af603d48a233e61ded15988190130021-480-0.jpg",
     "url_producto": "productos/aparato-glade-a-s-acqua-7-ml/",
     "historia": [
@@ -94765,7 +94781,7 @@
     "id": "04583",
     "nombre": "Aparato Glade Auto Sport Floral Perfection 7ml",
     "precio": 481.33,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/148691-e59a9234f870d5079915988191173635-480-0.jpg",
     "url_producto": "productos/aparato-glade-a-s-flor-p-7-ml/",
     "historia": [
@@ -94791,7 +94807,7 @@
     "id": "04584",
     "nombre": "Aparato Lysoform Discos Adhesivo Lavanda 38ml",
     "precio": 363.9,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/230651-431b4c291dfbc3a1ed15990688214382-480-0.jpg",
     "url_producto": "productos/aparato-lysoform-d-a-lavan-38-ml/",
     "historia": [
@@ -95101,7 +95117,7 @@
     "id": "04597",
     "nombre": "Autobrillo Echo Clásico 900ml",
     "precio": 348.26,
-    "rubro": "Productos > Limpieza de Cocina",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7691-c82732b1c9cc6b752f15988324228884-480-0.jpg",
     "url_producto": "productos/autobr-echo-clasico-900-ml/",
     "historia": [
@@ -97207,7 +97223,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Congelados de Vegetales",
+    "rubro": "Productos > Frescos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -100567,7 +100583,7 @@
     "id": "04824",
     "nombre": "Alcohol En Gel Espadol 150ml",
     "precio": 235.0,
-    "rubro": "Productos > Limpieza",
+    "rubro": "Productos > Limpieza en General",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77983391902041-b93294cca975b13c1f16192061374355-480-0.jpg",
     "url_producto": "productos/alcohol-en-gel-espadol-150ml/",
     "historia": [
@@ -101159,7 +101175,7 @@
     "id": "04854",
     "nombre": "Sorrentinos Pastasya Espinaca y Ricota x Doc",
     "precio": 300.0,
-    "rubro": "Productos > Pastas y Tapas",
+    "rubro": "Productos > PASTAS YA",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01711-46c426273cb7abbfd116201376748052-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-espinaca-y-ricota-x-doc/",
     "historia": [
@@ -101615,7 +101631,7 @@
     "id": "04878",
     "nombre": "Aceite De Maiz Arcor 900ml",
     "precio": 330.17,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-de-maiz-arcor-900-ml-_11-38e425b50a69a1275e16207401714293-480-0.jpg",
     "url_producto": "productos/aceite-de-maiz-arcor-900-ml/",
     "historia": [
@@ -111901,7 +111917,7 @@
     "id": "05485",
     "nombre": "Aceite De Oliva Marolio 500ml",
     "precio": 519.88,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/138051-b960f38113241a526316221274642490-480-0.jpg",
     "url_producto": "productos/aceite-de-oliva-marolio-500ml/",
     "historia": [
@@ -112277,7 +112293,7 @@
     "id": "05503",
     "nombre": "Aceite Molto De Oliva Extra Virgen 250ml",
     "precio": 322.28,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-oliva-molto-250ml1-04aca7088cd9f1a50916225749740737-480-0.png",
     "url_producto": "productos/aceite-molto-de-oliva-extra-virgen-250ml/",
     "historia": [
@@ -115933,7 +115949,7 @@
     "id": "05733",
     "nombre": "Aceite De Girasol M& kg 900ml",
     "precio": 199.0,
-    "rubro": "Productos > Aceites y Vinagres",
+    "rubro": "Productos > Almacén",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-myk-de-girasol-x-900-ml-e16110659615471-bf77dcb0ceb0e9f84016261852643793-480-0.jpg",
     "url_producto": "productos/aceite-de-girasol-mk-900ml/",
     "historia": [
@@ -116736,6 +116752,20 @@
       {
         "fecha": "22/07/2021",
         "precio": 397.67
+      }
+    ]
+  },
+  {
+    "id": "05790",
+    "nombre": "Antitranspirante Femenino Rexona Bambú Aloe Vera 90gr",
+    "precio": 199.36,
+    "rubro": "Productos > Cupon descuento",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/241841-8e8d710dc4b0a9c0b915988185627728-480-0.jpg",
+    "url_producto": "productos/ant-fem-rexona-bamb-alver-90-gr/?variant=186554819",
+    "historia": [
+      {
+        "fecha": "27/07/2021",
+        "precio": 199.36
       }
     ]
   }
