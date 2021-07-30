@@ -65557,7 +65557,7 @@
     "id": "03105",
     "nombre": "Agua Baggio Fresh Mix Frutal 1,1lt ,",
     "precio": 89.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-22t102628-5021-17051cd572b00ea44616113220049225-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-mix-frutal-1-5-lt/",
     "historia": [
@@ -65587,7 +65587,7 @@
     "id": "03106",
     "nombre": "Agua Baggio Fresh Naranja Dulce 1,5lt",
     "precio": 89.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/604611-5271f343145345b6e516028681925353-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-naranja-dulce-15-lt/",
     "historia": [
@@ -65625,7 +65625,7 @@
     "id": "03107",
     "nombre": "Agua Baggio Fresh Pera 1,1lt",
     "precio": 89.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-baggio-fresh-pera-1-5-lt1-39e6b32abfedd2386c16113218756564-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-pera-1-5-lt/",
     "historia": [
@@ -65683,7 +65683,7 @@
     "id": "03110",
     "nombre": "Agua Levite Manzana 2,5lt",
     "precio": 138.19,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-saborizada-levite-manzana-2-5lts-1-8567591-8325478d3b17527c5616128034143481-480-0.jpg",
     "url_producto": "productos/agua-levite-manzana-25-lt/",
     "historia": [
@@ -65804,7 +65804,7 @@
   {
     "id": "03117",
     "nombre": "Agua Mineral Sin Gas En Bidón Kin 6lt",
-    "precio": 155.9,
+    "precio": 76.0,
     "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/cc0211-44bc1969b9d27e606515988777293413-480-0.jpg",
     "url_producto": "productos/agua-mineral-sin-gas-en-bidon-kin-6-lt/",
@@ -65864,6 +65864,10 @@
       {
         "fecha": "27/07/2021",
         "precio": 155.9
+      },
+      {
+        "fecha": "30/07/2021",
+        "precio": 76.0
       }
     ]
   },
@@ -67668,7 +67672,7 @@
   {
     "id": "03173",
     "nombre": "Azúcar Chango 1kg",
-    "precio": 84.36,
+    "precio": 53.99,
     "rubro": "Productos > Azúcar y Edulcorantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2691-c35131e65a120add2515988328157594-480-0.jpg",
     "url_producto": "productos/azucar-chango-1-kg/",
@@ -67720,6 +67724,10 @@
       {
         "fecha": "27/07/2021",
         "precio": 84.36
+      },
+      {
+        "fecha": "30/07/2021",
+        "precio": 53.99
       }
     ]
   },
@@ -67817,7 +67825,7 @@
     "id": "03177",
     "nombre": "Bastoncito De Pollo y Cheddar x 500gr Aprox.(*)",
     "precio": 530.0,
-    "rubro": "Productos > Carnes de Pollo",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/69-bastoncitos-de-pollo-y-cheddar-11-3c4ce141352b40775e16026935999665-480-0.jpg",
     "url_producto": "productos/bastoncito-de-pollo-y-cheddar-x-500-gr-aprox/",
     "historia": [
@@ -90597,7 +90605,7 @@
     "id": "04359",
     "nombre": "Agua Baggio Fresh Pomelo 1,5lt",
     "precio": 89.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215551-70616cd842619ee27515988158196946-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-pome-1-5-lt/",
     "historia": [
@@ -93903,7 +93911,7 @@
     "id": "04536",
     "nombre": "Acondicionador Head & Shoulders Prot. Caida 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-prot-caida-180-ml1-27bfffda41d8eb4bc416040823937992-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-prot-caida-180-ml/",
     "historia": [
@@ -93921,7 +93929,7 @@
     "id": "04537",
     "nombre": "Acondicionador Head & Shoulders Purificación Capilar 180ml",
     "precio": 255.0,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-head-shoulders-purificacion-capilar-180-ml1-acf59337a2b405277c16094227792587-480-0.jpg",
     "url_producto": "productos/acondicionador-head-shoulders-purificacion-capilar-180-ml/",
     "historia": [
@@ -94059,7 +94067,7 @@
     "id": "04544",
     "nombre": "Acondicionador Plusbelle Antioxidante 1000ml",
     "precio": 203.97,
-    "rubro": "Productos > Cuidado Personal",
+    "rubro": "Productos > Limpieza",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/acondicionador-plusbelle-antioxidante-1000-ml1-474a8f585099c8e2a216092607776224-480-0.jpg",
     "url_producto": "productos/acondicionador-plusbelle-antioxidante-1000-ml/",
     "historia": [
@@ -94099,7 +94107,7 @@
     "id": "04546",
     "nombre": "Agua Baggio Fresh Manzana 1,5lt",
     "precio": 89.0,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215531-0b69b3a450e7bd84a215988149742587-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-man-1-5-lt/",
     "historia": [
@@ -94129,7 +94137,7 @@
     "id": "04547",
     "nombre": "Agua Levite Naranja 2,5lt",
     "precio": 137.67,
-    "rubro": "Productos > Bebidas",
+    "rubro": "Productos > Aguas Saborizadas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184271-5522a22584046bac9015988160205939-480-0.jpg",
     "url_producto": "productos/agua-levite-naranja-25-lt/",
     "historia": [
@@ -101161,7 +101169,7 @@
     "id": "04853",
     "nombre": "Sorrentinos Pastasya Calabaza y Muzzarella x Doc",
     "precio": 300.0,
-    "rubro": "Productos > PASTAS YA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01721-46c426273cb7abbfd116201376957363-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-calabaza-y-muzzarella-x-doc/",
     "historia": [
@@ -101175,7 +101183,7 @@
     "id": "04854",
     "nombre": "Sorrentinos Pastasya Espinaca y Ricota x Doc",
     "precio": 300.0,
-    "rubro": "Productos > PASTAS YA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01711-46c426273cb7abbfd116201376748052-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-espinaca-y-ricota-x-doc/",
     "historia": [
@@ -101189,7 +101197,7 @@
     "id": "04855",
     "nombre": "Sorrentinos Pastasya Jamon y Queso x Doc",
     "precio": 350.0,
-    "rubro": "Productos > PASTAS YA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-0171-46c426273cb7abbfd116201376441746-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-jamon-y-queso-x-doc/",
     "historia": [
@@ -101203,7 +101211,7 @@
     "id": "04856",
     "nombre": "Sorrentinos Pastasya Ternera y Muzzarella x Doc",
     "precio": 350.0,
-    "rubro": "Productos > PASTAS YA",
+    "rubro": "Productos > Pastas y Tapas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-05-04t111328-01731-46c426273cb7abbfd116201377295966-480-0.jpg",
     "url_producto": "productos/sorrentinos-pastasya-ternera-y-muzzarella-x-doc/",
     "historia": [
@@ -112502,7 +112510,7 @@
   {
     "id": "05514",
     "nombre": "Barbijo Atom Protect x 1 Unidad",
-    "precio": 575.0,
+    "precio": 700.0,
     "rubro": "Productos > Barbijos y Sanitizantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/atom-protect_x11-b84a2c287e3c01f39c16227298495473-480-0.jpg",
     "url_producto": "productos/barbijo-atom-protect-x-1-unidad/",
@@ -112514,6 +112522,10 @@
       {
         "fecha": "18/06/2021",
         "precio": 575.0
+      },
+      {
+        "fecha": "30/07/2021",
+        "precio": 700.0
       }
     ]
   },
@@ -116703,7 +116715,7 @@
     "id": "05786",
     "nombre": "Granola Granix Almendras y Pasas De Uva 350gr",
     "precio": 260.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Frutos Secos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/38949624-508a55f5379a337f2e15675124395211-480-01-5ea9c57e2497f4c11b16268801125347-480-0.jpg",
     "url_producto": "productos/granola-granix-almendras-y-pasas-de-uva-350gr/",
     "historia": [
@@ -116717,7 +116729,7 @@
     "id": "05787",
     "nombre": "Granola Granix Frutos Rojos 350gr",
     "precio": 260.0,
-    "rubro": "Productos > Bajos en Sodio",
+    "rubro": "Productos > Frutos Secos",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/39808258-1166e2b7660bcaa66915682900228419-640-01-186df938796446a14c16268800124458-480-0.jpg",
     "url_producto": "productos/granola-granix-frutos-rojos-350gr/",
     "historia": [
@@ -116766,6 +116778,20 @@
       {
         "fecha": "27/07/2021",
         "precio": 199.36
+      }
+    ]
+  },
+  {
+    "id": "05791",
+    "nombre": "Soda En Sifón Sierra De Los Padres 2lt",
+    "precio": 82.99,
+    "rubro": "Productos > Aguas con Gas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/7798065734123_021-075952f3d70826d25616275689548302-480-0.jpg",
+    "url_producto": "productos/soda-en-sifon-sierra-de-los-padres-2l/",
+    "historia": [
+      {
+        "fecha": "30/07/2021",
+        "precio": 82.99
       }
     ]
   }
