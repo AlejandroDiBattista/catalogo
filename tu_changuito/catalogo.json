@@ -64843,7 +64843,7 @@
     "id": "03078",
     "nombre": "Aceite Cañuelas Oliva Intenso 500cc",
     "precio": 480.87,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220311-58116916046af9b3e315988111926122-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-in-pet-500-cc/",
     "historia": [
@@ -64893,7 +64893,7 @@
     "id": "03079",
     "nombre": "Aceite Cañuelas Oliva Suave 500cc",
     "precio": 480.87,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220301-333f3a18318b80229215988119589449-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-su-pet-500-cc/",
     "historia": [
@@ -64939,7 +64939,7 @@
     "id": "03080",
     "nombre": "Aceite Cocinero Girasol 1,5lt",
     "precio": 320.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-girasol-cocinero-1-5-l1-70562c7e06c6ba7e9b16057061476408-480-0.jpg",
     "url_producto": "productos/ac-cocinero-girasol-1-5-lt/",
     "historia": [
@@ -64973,7 +64973,7 @@
     "id": "03081",
     "nombre": "Aceite Cocinero Girasol 900cc",
     "precio": 235.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/3001-080de979d923e98d4615990022278095-480-0.jpg",
     "url_producto": "productos/ac-cocinero-girasol-900-cc/",
     "historia": [
@@ -65561,7 +65561,7 @@
     "id": "03105",
     "nombre": "Agua Baggio Fresh Mix Frutal 1,1lt ,",
     "precio": 89.0,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-2021-01-22t102628-5021-17051cd572b00ea44616113220049225-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-mix-frutal-1-5-lt/",
     "historia": [
@@ -65591,7 +65591,7 @@
     "id": "03106",
     "nombre": "Agua Baggio Fresh Naranja Dulce 1,5lt",
     "precio": 89.0,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/604611-5271f343145345b6e516028681925353-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-naranja-dulce-15-lt/",
     "historia": [
@@ -65629,7 +65629,7 @@
     "id": "03107",
     "nombre": "Agua Baggio Fresh Pera 1,1lt",
     "precio": 89.0,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-baggio-fresh-pera-1-5-lt1-39e6b32abfedd2386c16113218756564-480-0.jpg",
     "url_producto": "productos/agua-baggio-fresh-pera-1-5-lt/",
     "historia": [
@@ -65687,7 +65687,7 @@
     "id": "03110",
     "nombre": "Agua Levite Manzana 2,5lt",
     "precio": 138.19,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/agua-saborizada-levite-manzana-2-5lts-1-8567591-8325478d3b17527c5616128034143481-480-0.jpg",
     "url_producto": "productos/agua-levite-manzana-25-lt/",
     "historia": [
@@ -66004,7 +66004,7 @@
   {
     "id": "03123",
     "nombre": "Agua Sin Gas Nestlé Pureza Vital Bidón 6,3lt",
-    "precio": 216.35,
+    "precio": 84.8,
     "rubro": "Productos > Aguas sin Gas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/24111-ec1f792bddd04f223415988775601891-480-0.jpg",
     "url_producto": "productos/agua-sin-gas-nestle-pureza-vital-bidon-63-lt/",
@@ -66040,6 +66040,10 @@
       {
         "fecha": "15/07/2021",
         "precio": 216.35
+      },
+      {
+        "fecha": "11/08/2021",
+        "precio": 84.8
       }
     ]
   },
@@ -67536,7 +67540,7 @@
   {
     "id": "03169",
     "nombre": "Atún Gomes Da Costa Natural Trozo 170gr",
-    "precio": 199.0,
+    "precio": 215.0,
     "rubro": "Productos > Conservas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/140121-59ead476c816119f8515988319503556-480-0.jpg",
     "url_producto": "productos/atun-g-d-costa-nat-trozo-170-gr/",
@@ -67544,6 +67548,10 @@
       {
         "fecha": "04/03/2021",
         "precio": 199.0
+      },
+      {
+        "fecha": "11/08/2021",
+        "precio": 215.0
       }
     ]
   },
@@ -68023,7 +68031,7 @@
     "id": "03184",
     "nombre": "Bife Ancho (marucha) x kg (*)",
     "precio": 690.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-ancho1-046e8ec9180bc119ef15988756860268-480-0.jpg",
     "url_producto": "productos/bife-ancho-marucha-x-kg/",
     "historia": [
@@ -68071,7 +68079,7 @@
     "id": "03186",
     "nombre": "Bife De Chorizo Cortado P/ Bife x kg (*)",
     "precio": 920.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bife-chorizo1-041d9d9fbaf770027115988756952195-480-0.jpg",
     "url_producto": "productos/lavacaclub-premium-bifedechorizo/",
     "historia": [
@@ -68157,7 +68165,7 @@
     "id": "03189",
     "nombre": "Bola De Lomo Cortada P/ Milanesa x kg (*)",
     "precio": 940.0,
-    "rubro": "Productos > La Vaca Club",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/bola-de-lomo1-0432a199844759898f15988757082702-480-0.jpg",
     "url_producto": "productos/lavacaclub-blandos-boladelomo/",
     "historia": [
@@ -68468,7 +68476,7 @@
   {
     "id": "03203",
     "nombre": "Canasta Liquida Glade Campo De Lavanda Aparato 50ml",
-    "precio": 230.0,
+    "precio": 288.47,
     "rubro": "Productos > Limpieza de Baño",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/lavender_liquid_cages1-4f757e8f70a90bf80a16143442669028-480-0.jpg",
     "url_producto": "productos/canasta-liquida-glade-campo-de-lavanda-aparato-50-ml/",
@@ -68480,6 +68488,10 @@
       {
         "fecha": "09/04/2021",
         "precio": 230.0
+      },
+      {
+        "fecha": "11/08/2021",
+        "precio": 288.47
       }
     ]
   },
@@ -69083,7 +69095,7 @@
     "id": "03230",
     "nombre": "Choclo Green Life 300gr",
     "precio": 155.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/211321-20d7c12110dd8cda2415988795965817-480-0.jpg",
     "url_producto": "productos/choclo-green-life-congelado-300-gr/",
     "historia": [
@@ -77048,7 +77060,7 @@
   {
     "id": "03587",
     "nombre": "Puré Conciencia 520gr",
-    "precio": 59.0,
+    "precio": 65.0,
     "rubro": "Productos > Salsas y Puré de Tomates",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/243671-e50cfe028aebb5e04615990692894047-480-0.jpg",
     "url_producto": "productos/pure-conciencia-t-b-520-gr/",
@@ -77060,6 +77072,10 @@
       {
         "fecha": "01/05/2021",
         "precio": 59.0
+      },
+      {
+        "fecha": "11/08/2021",
+        "precio": 65.0
       }
     ]
   },
@@ -79640,7 +79656,7 @@
   {
     "id": "03721",
     "nombre": "Ananá Fizz La Farruca 720cc",
-    "precio": 114.26,
+    "precio": 150.0,
     "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/product_8fd8d3b304c24d1b9d61d94c19e5c918_637357897103216287_0_l1-ed06f1f4e4560a35cf16063956091879-480-0.jpg",
     "url_producto": "productos/anana-fizz-la-farruca-720-cc/",
@@ -79648,6 +79664,10 @@
       {
         "fecha": "05/03/2021",
         "precio": 114.26
+      },
+      {
+        "fecha": "11/08/2021",
+        "precio": 150.0
       }
     ]
   },
@@ -79878,7 +79898,7 @@
   {
     "id": "03730",
     "nombre": "Fresa Fizz La Farruca 710cc",
-    "precio": 114.26,
+    "precio": 150.0,
     "rubro": "Productos > Vinos y Espumantes",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/la-farruca-fresas-fizz-ofertas-en-mendoza-casa-segal-mendoza1-fc600651e3492b312716063955348006-480-0.jpg",
     "url_producto": "productos/fresa-fizz-la-farruca-710-cc/",
@@ -79886,6 +79906,10 @@
       {
         "fecha": "05/03/2021",
         "precio": 114.26
+      },
+      {
+        "fecha": "11/08/2021",
+        "precio": 150.0
       }
     ]
   },
@@ -90669,7 +90693,7 @@
     "id": "04359",
     "nombre": "Agua Baggio Fresh Pomelo 1,5lt",
     "precio": 89.0,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215551-70616cd842619ee27515988158196946-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-pome-1-5-lt/",
     "historia": [
@@ -92619,7 +92643,7 @@
     "id": "04468",
     "nombre": "Acelga Green Life Congelada 500gr",
     "precio": 223.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550411-9f3e315f498850ad7f15990911391055-480-0.jpg",
     "url_producto": "productos/acelga-green-life-congelada-500-gr/",
     "historia": [
@@ -93314,7 +93338,7 @@
   {
     "id": "04506",
     "nombre": "Aparato Raid S/cable + 4 Tabletas",
-    "precio": 345.0,
+    "precio": 365.0,
     "rubro": "Productos > Insecticidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aparato-raid-sin-cable-4-tabletas1-1c5ecd174da0a5f65a16183639331089-480-0.jpeg",
     "url_producto": "productos/aparato-raid-s-cable-4-tabletas/",
@@ -93326,6 +93350,10 @@
       {
         "fecha": "17/06/2021",
         "precio": 345.0
+      },
+      {
+        "fecha": "11/08/2021",
+        "precio": 365.0
       }
     ]
   },
@@ -93592,7 +93620,7 @@
   {
     "id": "04521",
     "nombre": "Aceite Cañuelas Oliva Intenso Lata 500cc",
-    "precio": 467.86,
+    "precio": 506.87,
     "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/221501-3cdd29b65f6d740b8815988118995657-480-0.jpg",
     "url_producto": "productos/ac-canuelas-oliv-in-lat-500-cc/",
@@ -93600,6 +93628,10 @@
       {
         "fecha": "23/04/2021",
         "precio": 467.86
+      },
+      {
+        "fecha": "11/08/2021",
+        "precio": 506.87
       }
     ]
   },
@@ -93607,7 +93639,7 @@
     "id": "04522",
     "nombre": "Aceite Cocinero Girasol Aerosol Fritolim 120gr",
     "precio": 188.37,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-fritolim-clasico-aero-x-120-gr1-f5e8fe909d0153ff1a16173998650258-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-aerosol-fritolim-120-gr/",
     "historia": [
@@ -93641,7 +93673,7 @@
     "id": "04523",
     "nombre": "Aceite Cocinero Girasol Plus 900ml ,",
     "precio": 250.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-cocinero-plus-girasol-900-cc-aceite-cocinero-plus-girasol-900-cc-1-103591-7528dceaf14701133616122925497462-480-0.jpg",
     "url_producto": "productos/aceite-cocinero-girasol-plus-900-ml/",
     "historia": [
@@ -94179,7 +94211,7 @@
     "id": "04546",
     "nombre": "Agua Baggio Fresh Manzana 1,5lt",
     "precio": 89.0,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/215531-0b69b3a450e7bd84a215988149742587-480-0.jpg",
     "url_producto": "productos/agua-baggio-fre-man-1-5-lt/",
     "historia": [
@@ -94209,7 +94241,7 @@
     "id": "04547",
     "nombre": "Agua Levite Naranja 2,5lt",
     "precio": 137.67,
-    "rubro": "Productos > Aguas Saborizadas",
+    "rubro": "Productos > Bebidas",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/184271-5522a22584046bac9015988160205939-480-0.jpg",
     "url_producto": "productos/agua-levite-naranja-25-lt/",
     "historia": [
@@ -94347,7 +94379,7 @@
     "id": "04554",
     "nombre": "Albóndigas De Río x 500gr Aprox.(*)",
     "precio": 380.0,
-    "rubro": "Productos > Pescados y Mariscos",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/50-albondigas-de-rio-11-bd5b80fb4b3c89594c16026907870590-480-0.jpg",
     "url_producto": "productos/albondigas-de-rio-x-500-gr-aprox/",
     "historia": [
@@ -94605,7 +94637,7 @@
     "id": "04569",
     "nombre": "Aletas De Calamar x kg (*)",
     "precio": 420.0,
-    "rubro": "Productos > Pescados y Mariscos",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-11-37c0b6f055380f2efa16025996428926-480-0.jpg",
     "url_producto": "productos/aletas-de-calamar-x-kg/",
     "historia": [
@@ -94693,7 +94725,7 @@
     "id": "04573",
     "nombre": "Almejas Taquilla Peladas x kg (*)",
     "precio": 1.89,
-    "rubro": "Productos > Pescados y Mariscos",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/5-almejas-taquilla1-ce4e8c28b113cfdec716025996852822-480-0.jpg",
     "url_producto": "productos/almejas-taquilla-peladas-x-kg/",
     "historia": [
@@ -94711,7 +94743,7 @@
     "id": "04574",
     "nombre": "Almejas Tumbao Peladas x kg (*)",
     "precio": 1.89,
-    "rubro": "Productos > Pescados y Mariscos",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/6-almejas-tumbao1-ce4e8c28b113cfdec716025997616754-480-0.jpg",
     "url_producto": "productos/almejas-tumbao-peladas-x-kg/",
     "historia": [
@@ -94801,7 +94833,7 @@
     "id": "04579",
     "nombre": "Anillas De Calamar x kg (*)",
     "precio": 895.0,
-    "rubro": "Productos > Pescados y Mariscos",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/anillas-de-calamar1-bb2e192da88671f7a316026000395828-480-0.jpg",
     "url_producto": "productos/anillas-de-calamar-x-kg/",
     "historia": [
@@ -95589,7 +95621,7 @@
     "id": "04613",
     "nombre": "Berberechos x kg (*)",
     "precio": 1.85,
-    "rubro": "Productos > Pescados y Mariscos",
+    "rubro": "Productos > Carnicería",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/berberechos1-14457b0f013385fcaa16026038578953-480-0.jpg",
     "url_producto": "productos/berberechos-x-kg/",
     "historia": [
@@ -97303,7 +97335,7 @@
     "id": "04686",
     "nombre": "Chaucha Green Life Congelada 300gr",
     "precio": 220.0,
-    "rubro": "Productos > Frescos",
+    "rubro": "Productos > Congelados de Vegetales",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/2550311-8da01ae37bc21fd0ff15990911718900-480-0.jpg",
     "url_producto": "productos/chaucha-green-life-congelada-300-gr/",
     "historia": [
@@ -101731,7 +101763,7 @@
     "id": "04878",
     "nombre": "Aceite De Maiz Arcor 900ml",
     "precio": 330.17,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-de-maiz-arcor-900-ml-_11-38e425b50a69a1275e16207401714293-480-0.jpg",
     "url_producto": "productos/aceite-de-maiz-arcor-900-ml/",
     "historia": [
@@ -112025,7 +112057,7 @@
     "id": "05485",
     "nombre": "Aceite De Oliva Marolio 500ml",
     "precio": 519.88,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/138051-b960f38113241a526316221274642490-480-0.jpg",
     "url_producto": "productos/aceite-de-oliva-marolio-500ml/",
     "historia": [
@@ -113301,7 +113333,7 @@
     "id": "05549",
     "nombre": "Jabon Espadol Antibacterial Original 80gr",
     "precio": 90.87,
-    "rubro": "Productos > Barbijos y Sanitizantes",
+    "rubro": "Productos > Cuidado Personal",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/77983391900511-d3d9245ba6e1c5e8ae16234241396912-480-0.jpg",
     "url_producto": "productos/jabon-espadol-antibacterial-original-80gr/",
     "historia": [
@@ -114272,7 +114304,7 @@
   {
     "id": "05605",
     "nombre": "Leche La Serenisima Uat Parc. Descremada Zero Lactosa Pet 1lt",
-    "precio": 122.0,
+    "precio": 99.0,
     "rubro": "Productos > Deslactosados",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/leche-deslactosada-la-serenisima1-494dd151e419dca6a716001943543601-480-0.jpeg",
     "url_producto": "productos/leche-la-serenisima-uat-parc-descremada-zero-lactosa-pet-1-l/",
@@ -114280,6 +114312,10 @@
       {
         "fecha": "04/07/2021",
         "precio": 122.0
+      },
+      {
+        "fecha": "11/08/2021",
+        "precio": 99.0
       }
     ]
   },
@@ -116069,7 +116105,7 @@
     "id": "05733",
     "nombre": "Aceite De Girasol M& kg 900ml",
     "precio": 199.0,
-    "rubro": "Productos > Almacén",
+    "rubro": "Productos > Aceites y Vinagres",
     "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/aceite-myk-de-girasol-x-900-ml-e16110659615471-bf77dcb0ceb0e9f84016261852643793-480-0.jpg",
     "url_producto": "productos/aceite-de-girasol-mk-900ml/",
     "historia": [
@@ -116990,6 +117026,230 @@
       {
         "fecha": "10/08/2021",
         "precio": 85.0
+      }
+    ]
+  },
+  {
+    "id": "05797",
+    "nombre": "199flim Aluminio Postapack 5 Mts",
+    "precio": 199.0,
+    "rubro": "Productos > Limpieza",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/whatsapp-image-2021-02-06-at-2-51-21-pm1-e49ece27e1805cf18916126342208677-480-0.jpeg",
+    "url_producto": "productos/199flim-aluminio-postapack-5-mts/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 199.0
+      }
+    ]
+  },
+  {
+    "id": "05798",
+    "nombre": "Aceite Cañuelas Oliva Clásico 500cc",
+    "precio": 480.87,
+    "rubro": "Productos > Aceites y Vinagres",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/201041-1d6fa47cb0ea0bf59c15988111408020-480-0.jpg",
+    "url_producto": "productos/ac-canuelas-oliv-cl-pet-500-cc/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 480.87
+      }
+    ]
+  },
+  {
+    "id": "05799",
+    "nombre": "Aceite Cañuelas Oliva Clasico Lata 500cc",
+    "precio": 506.87,
+    "rubro": "Productos > Aceites y Vinagres",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/canuelas-lata1-eda1ed613d016112a516286271911098-480-0.jpg",
+    "url_producto": "productos/aceite-canuelas-oliva-clasico-lata-500-cc/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 506.87
+      }
+    ]
+  },
+  {
+    "id": "05800",
+    "nombre": "Arroz Molto Largo Fino 500gr",
+    "precio": 66.0,
+    "rubro": "Productos > Saludable & Fit",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/220741-0e04045b2b325fe70816286263583677-480-0.jpg",
+    "url_producto": "productos/arroz-molto-largo-fino-500gr/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 66.0
+      }
+    ]
+  },
+  {
+    "id": "05801",
+    "nombre": "Azucar M& kg 1kg",
+    "precio": 54.0,
+    "rubro": "Productos > Azúcar y Edulcorantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-111-2fc58b0d2aef1b6c9916286262530573-480-0.png",
+    "url_producto": "productos/azucar-mk-1kg/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 54.0
+      }
+    ]
+  },
+  {
+    "id": "05802",
+    "nombre": "Batería Energizer 9v1",
+    "precio": 299.0,
+    "rubro": "Productos > Fósforos, Lamparas y Pilas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/52471-d4f0d812ebec8f5b7b15988330660548-480-0.jpg",
+    "url_producto": "productos/bateria-energizer-9v1/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 299.0
+      }
+    ]
+  },
+  {
+    "id": "05803",
+    "nombre": "Cerveza Brahma Dorada 710ml",
+    "precio": 130.0,
+    "rubro": "Productos > Cervezas",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-141-f5f795ae149e2452c316286268578766-480-0.png",
+    "url_producto": "productos/cerveza-brahma-dorada-710ml/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 130.0
+      }
+    ]
+  },
+  {
+    "id": "05804",
+    "nombre": "Combo Desinfectante Lysoform Original 360cc + Limpiador Liquido Lysoform Original 420ml",
+    "precio": 239.0,
+    "rubro": "Productos > Barbijos y Sanitizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/assets/stores/img/no-photo-480-0.png",
+    "url_producto": "productos/combo-desinfectante-lysoform-original-360-cc-limpiador-liquido-lysoform-original-420-ml/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 239.0
+      }
+    ]
+  },
+  {
+    "id": "05805",
+    "nombre": "Destapacañerias Plomero 1lt",
+    "precio": 392.0,
+    "rubro": "Productos > Limpieza de Baño",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/203253_destapa-canerias-plomero-liquido-x-1-lt_imagen-11-207c73b867d894d07d16286269080259-480-0.jpg",
+    "url_producto": "productos/destapacanerias-plomero-1lt/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 392.0
+      }
+    ]
+  },
+  {
+    "id": "05806",
+    "nombre": "Jabon Liquido Espadol Doy Pack 250ml",
+    "precio": 230.0,
+    "rubro": "Productos > Barbijos y Sanitizantes",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/diseno-sin-titulo-121-f523f87c543b88571d16286264446779-480-0.png",
+    "url_producto": "productos/jabon-liquido-espadol-doy-pack-250ml/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 230.0
+      }
+    ]
+  },
+  {
+    "id": "05807",
+    "nombre": "Pañal Babysec Premiun M 52un",
+    "precio": 930.87,
+    "rubro": "Productos > Pañales y Bebés",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/123581-1c8d1075531bc556f615988914896374-480-0.jpg",
+    "url_producto": "productos/panal-babysec-premiun-m-52un/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 930.87
+      }
+    ]
+  },
+  {
+    "id": "05808",
+    "nombre": "Pañal Babysec Ultra gr 9un",
+    "precio": 162.36,
+    "rubro": "Productos > Pañales y Bebés",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/66391-8be4a09c93621f938515988915154764-480-0.jpg",
+    "url_producto": "productos/panal-babysec-ultra-g-9un/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 162.36
+      }
+    ]
+  },
+  {
+    "id": "05809",
+    "nombre": "Pañal Estrella gr 44un",
+    "precio": 929.53,
+    "rubro": "Productos > Pañales y Bebés",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/233271-4c146e779a4823ac7616013883136734-480-0.jpg",
+    "url_producto": "productos/panal-estrella-g-44un/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 929.53
+      }
+    ]
+  },
+  {
+    "id": "05810",
+    "nombre": "Pañal Estrella gr 68un",
+    "precio": 1.462,
+    "rubro": "Productos > Pañales y Bebés",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/panal-estrella1-617bbe4ccf23735e4f16027230208855-480-0.jpg",
+    "url_producto": "productos/panal-estrella-g-68un/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 1.462
+      }
+    ]
+  },
+  {
+    "id": "05811",
+    "nombre": "Pañal Estrella P 30un",
+    "precio": 535.85,
+    "rubro": "Productos > Pañales y Bebés",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/234961-d08a5abb39be793c8416013869567716-480-0.jpg",
+    "url_producto": "productos/panal-estrella-p-30un/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 535.85
+      }
+    ]
+  },
+  {
+    "id": "05812",
+    "nombre": "Palitos Salados Pehuamar 90gr",
+    "precio": 80.0,
+    "rubro": "Productos > Snacks",
+    "url_imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/palitos-salados-pehuamar-90-gr-1-8594721-f7232167729481fe6316286263149692-480-0.jpg",
+    "url_producto": "productos/palitos-salados-pehuamar-90gr/",
+    "historia": [
+      {
+        "fecha": "11/08/2021",
+        "precio": 80.0
       }
     ]
   }
