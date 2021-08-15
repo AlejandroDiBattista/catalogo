@@ -1,4 +1,4 @@
-Origen = "C:/Users/administrator/Downloads/distritos_electorales_smt.kml"
+Origen  = "C:/Users/administrator/Downloads/distritos_electorales_smt.kml"
 Destino = "C:/Users/administrator/Downloads/distritos_electorales_smt_nuevo.kml"
 
 Votos = {
