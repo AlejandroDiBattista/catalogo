@@ -291,8 +291,8 @@ end
 if __FILE__ == $0
 	medir "Cargando TODO (full)" do 
 		bases = [
-			# :tatito,
-			# :jumbo,
+			:tatito,
+			:jumbo,
 			:maxiconsumo, 
 			# :tu_changuito
 		]
